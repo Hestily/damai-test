@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ticklet_num_qr_code_view" android:background="@drawable/shape_solid_radius4_white_eeeeee" android:visibility="gone" android:layout_width="@dimen/ticklet_margin_205dp" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_num_zxing" android:layout_width="142.0dip" android:layout_height="142.0dip" android:layout_marginLeft="32.0dip" android:layout_marginTop="@dimen/margin_16dp" android:layout_marginRight="32.0dip" android:src="@drawable/detail_zing_userd" android:scaleType="centerCrop" />
+    <TextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/bnt_number" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_8dp" style="@style/ticklet_3f3f3f_19dp" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/bg_color_f8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/layout_irc" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.damai.uikit.irecycler.IRecyclerView android:id="@id/irc" android:layout_width="fill_parent" android:layout_height="fill_parent" app:refreshEnabled="true" app:refreshHeaderLayout="@layout/refresh_empty_view" />
+        <View android:id="@id/view_yinying" android:background="@drawable/yinying_line" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+    </FrameLayout>
+    <include android:id="@id/ll_empty_page" android:visibility="gone" layout="@layout/null_page" />
+</FrameLayout>

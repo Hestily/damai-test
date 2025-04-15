@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@drawable/bg_show_calendar_top" android:layout_width="fill_parent" android:layout_height="145.0dip">
+        <com.alibaba.pictures.bricks.view.BricksSimpleTitleLayout android:id="@id/channel_id_stl" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="58.0dip" android:layout_marginBottom="27.0dip" android:src="@drawable/bricks_ic_show_calendar_top" android:scaleType="centerInside" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <com.alibaba.pictures.bricks.view.TopRoundLinearLayout android:id="@id/channel_fragment_container" android:background="#fff5f6f7" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-12.0dip" app:trl_top_radius="12.0dip" />
+</LinearLayout>

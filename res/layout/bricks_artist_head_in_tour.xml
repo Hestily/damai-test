@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:layout_width="60.0dip" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/bricks_artist_shadow" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:layout_marginRight="-2.0dip" android:layout_marginBottom="-9.0dip" />
+    <View android:id="@id/id_bricks_artist_head_bg1" android:background="@drawable/bricks_artist_head_bg_1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:layout_marginRight="-2.0dip" android:layout_marginBottom="-2.0dip" />
+    <com.alibaba.pictures.bricks.view.RoundRadiusImageView android:id="@id/id_bricks_artist_head_img" android:background="@drawable/bricks_uikit_default_image_bg_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:r_round_radius="6.0dip" />
+    <View android:id="@id/id_bricks_artist_head_mask" android:background="@drawable/bricks_artist_head_mask" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="-3.0dip" android:layout_marginTop="-3.0dip" android:layout_marginRight="3.0dip" android:layout_marginBottom="3.0dip" />
+    <com.alibaba.pictures.bricks.view.CornerFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:clip_corner_radius="6.0dip">
+        <ImageView android:id="@id/id_bricks_artist_head_shining" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/icon_artist_shining" />
+    </com.alibaba.pictures.bricks.view.CornerFrameLayout>
+    <TextView android:textSize="@dimen/resource_size_11" android:textColor="@color/white" android:ellipsize="end" android:gravity="bottom" android:layout_gravity="bottom" android:id="@id/id_bricks_artist_name_tv" android:background="@drawable/bricks_artist_name_bg" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+</FrameLayout>

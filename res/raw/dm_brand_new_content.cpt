@@ -1,0 +1,8 @@
+{
+  "component": {
+   "mClass": "cn.damai.tetris.component.brand.BrandQuickReportModel",
+   "vClass": "cn.damai.tetris.component.brand.BrandQuickReportView",
+   "pClass": "cn.damai.tetris.component.brand.BrandQuickReportPresenter",
+    "layoutXml": "card_brand_quick_report"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "data": {
+    "item_poster": {
+      "value": "@{eval(size(${projectPic}) > 0) ? ${projectPic} : @{env(isAndroid) ? 'gaiax_res:uikit_default_image_bg_grey' : 'gaiax_res:script_can_play_store_default_image' }}",
+      "placeholder": "@{env(isAndroid) ? 'uikit_default_image_bg_grey' : 'script_can_play_store_default_image' }"
+    },
+    "item_info_title": {
+      "value": "@{${projectName} ? ${projectName} : ${itemName}}",
+      "extend": {
+        "fit-content": "true",
+        "font-weight": "@{env(isAndroid) ? 400 : 500}",
+        "font-size": "@{env(isAndroid) ? 15 : 14}"
+      }
+    },
+    "item_store_name": {
+      "value": "${storeName}",
+      "extend": {
+        "fit-content": "false",
+        "display": "@{${storeName} ? flex : none}"
+      }
+    },
+    "refund_view": {
+      "extend": {
+        "display": "@{${commonTags[0].desc} ? flex : @{${commonTags[1].desc} ? flex : none}}"
+      }
+    },
+    "time_out_view": {
+      "value": "${commonTags[0].desc}",
+      "extend": { "display": "@{${commonTags[0].desc} ? flex : none}" }
+    },
+    "anytime_view": {
+      "value": "${commonTags[1].desc}",
+      "extend": { "display": "@{${commonTags[1].desc} ? flex : none}" }
+    },
+    "price_unit": {
+      "value": "¥",
+      "extend": { "display": "@{${priceLow} ? flex : none}" }
+    },
+    "price": {
+      "value": "${priceLow}",
+      "extend": { "display": "@{${priceLow} ? flex : none}" }
+    },
+    "price_origin": {
+      "value": "¥ + ${price}",
+      "extend": {
+        "display": "@{${price} ? flex : none}",
+        "fit-content": "true"
+      }
+    },
+    "item_btn": {
+      "value": "购买",
+      "extend": { "font-weight": "@{env(isAndroid) ? 400 : 500}" }
+    }
+  }
+}

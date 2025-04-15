@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:layout_marginRight="21.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_18dp" android:layout_marginBottom="@dimen/margin_18dp" android:layout_toLeftOf="@id/checkbox" android:layout_centerVertical="true">
+        <TextView android:textSize="14.0dip" android:textColor="@color/color_000000" android:id="@id/text_name" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <CheckBox android:enabled="false" android:id="@id/checkbox" android:background="@drawable/dm_purchase_check_select_circle_bg" android:focusable="false" android:clickable="false" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="@dimen/margin_25dp" android:layout_marginBottom="@dimen/margin_25dp" android:button="@null" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:background="@color/color_EEEEEE" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/checkbox" />
+</RelativeLayout>

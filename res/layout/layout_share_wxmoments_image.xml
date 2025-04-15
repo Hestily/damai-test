@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/share_page" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/share_page_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+            <LinearLayout android:orientation="vertical" android:background="#80000000" android:paddingLeft="18.0dip" android:paddingTop="32.0dip" android:paddingRight="18.0dip" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:id="@id/share_wx_img_userbar" android:background="#ffff2869" android:layout_width="fill_parent" android:layout_height="64.0dip">
+                        <cn.damai.uikit.view.DMAvatar android:layout_gravity="center_vertical" android:id="@id/share_wx_img_userimg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" />
+                        <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="left" android:layout_gravity="center_vertical" android:id="@id/share_wx_img_usermsg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:maxLines="1" />
+                    </LinearLayout>
+                    <ImageView android:id="@id/share_page_projectbg" android:background="@color/color_F5F5F5" android:layout_width="fill_parent" android:layout_height="130.0dip" android:scaleType="centerCrop" />
+                    <LinearLayout android:orientation="vertical" android:background="@color/color_ffffff" android:paddingLeft="15.0dip" android:paddingTop="18.0dip" android:paddingRight="15.0dip" android:paddingBottom="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <RelativeLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="#ff000000" android:ellipsize="end" android:gravity="left" android:id="@id/share_page_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+                            <TextView android:textSize="13.0dip" android:textColor="#ff666666" android:id="@id/share_wx_img_showtime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:singleLine="false" android:layout_below="@id/share_page_title" android:lineSpacingExtra="6.0dip" />
+                            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_below="@id/share_wx_img_showtime">
+                                <cn.damai.uikit.number.DMDigitTextView android:textSize="24.0dip" android:textColor="#ffff2869" android:id="@id/share_wx_img_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" />
+                                <TextView android:textSize="13.0dip" android:textColor="#ff999999" android:id="@id/share_wx_img_originalprice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" />
+                                <TextView android:textSize="14.0dip" android:textColor="#ff666666" android:ellipsize="end" android:gravity="right" android:id="@id/share_wx_img_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:maxLines="1" android:layout_weight="1.0" />
+                            </LinearLayout>
+                        </RelativeLayout>
+                    </LinearLayout>
+                    <include layout="@layout/comment_share_middle_layout" />
+                    <LinearLayout android:orientation="vertical" android:background="@drawable/comment_share_content_bottom_bg" android:paddingLeft="18.0dip" android:paddingTop="18.0dip" android:paddingRight="18.0dip" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_gravity="center" android:id="@id/share_page_qrcode_img" android:layout_width="120.0dip" android:layout_height="120.0dip" />
+                        <TextView android:textSize="12.0dip" android:textColor="#ff666666" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/share_page_qrcode_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="长按二维码查看活动详情" android:maxLines="1" />
+                        <ImageView android:layout_gravity="center_horizontal" android:id="@id/share_page_damai_logo" android:layout_width="75.0dip" android:layout_height="36.399994dip" android:layout_marginTop="20.0dip" android:src="@drawable/icon_about_damai" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </ScrollView>
+</FrameLayout>

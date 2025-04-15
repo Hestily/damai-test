@@ -1,0 +1,96 @@
+{
+  "data": {
+    "container": {
+      "extend": {
+        "border-radius": "@{ eval(${_isPier} == 1) ? '18px' : '6px' }"
+      }
+    },
+    "bg": {
+      "value": "@{ eval( eval( ${_index} % 4 ) == 0 ) ? 'gaiax_res:bg_music_cardbg_0' : @{ eval( eval( ${_index}  % 4 ) == 1 ) ? 'gaiax_res:bg_music_cardbg_1' : @{ eval( eval( ${_index}  % 4 ) == 2 ) ? 'gaiax_res:bg_music_cardbg_2' : @{ eval( eval( ${_index}  % 4 ) == 3 ) ? 'gaiax_res:bg_music_cardbg_3' : 'gaiax_res:bg_music_cardbg_0' } } } }",
+      "extend": {
+        "border-radius": "@{ eval(${_isPier} == 1) ? '18px' : '6px' }"
+      }
+    },
+    "header_title": {
+      "value": "${ipName}",
+      "extend": {
+        "background-image": "@{ eval( eval( ${_index} % 4 ) == 0 ) ? 'linear-gradient(to right,  #FF45BD 0%,#D34BFF 100%)' : @{ eval( eval( ${_index}  % 4 ) == 1 ) ? 'linear-gradient(to right,  #A045FF 0%,#3BB2FF 100%)' : @{ eval( eval( ${_index}  % 4 ) == 2 ) ? 'linear-gradient(to right,  #FFA44B 0%,#FF6B6B 100%)' : @{ eval( eval( ${_index}  % 4 ) == 3 ) ? 'linear-gradient(to right,  #23C8EF 0%,#25E4A1 100%)' : 'linear-gradient(to right,  #FF45BD 0%,#D34BFF 100%)' } } } }",
+        "fit-content": "true"
+      }
+    },
+    "header_right_arrow": {
+      "value": "&#xe76d;",
+      "extend": {
+        "color": "@{ eval( eval( ${_index} % 4 ) == 0 ) ? '#D34BFF' : @{ eval( eval( ${_index}  % 4 ) == 1 ) ? '#3BB2FF' : @{ eval( eval( ${_index}  % 4 ) == 2 ) ? '#FF6B6B' : @{ eval( eval( ${_index}  % 4 ) == 3 ) ? '#25E4A1' : '#D34BFF' } } } }"
+      }
+    },
+    "header_subtitle": {
+      "value": "${ipBaseDesc}",
+      "extend": {
+        "color": "@{ eval( eval( ${_index} % 4 ) == 0 ) ? '#FF45BD' : @{ eval( eval( ${_index}  % 4 ) == 1 ) ? '#5A90FF' : @{ eval( eval( ${_index}  % 4 ) == 2 ) ? '#FF6E69' : @{ eval( eval( ${_index}  % 4 ) == 3 ) ? '#23C8EF' : '#FF45BD' } } } }"
+      }
+    },
+    "header_img": {
+      "value": "@{eval(size(${musicIpIcon}) > 0) ? ${musicIpIcon} : @{env(isAndroid) ? 'gaiax_res:bricks_uikit_default_image_bg_gradient_radius3' : '_' }}",
+      "placeholder": "@{env(isAndroid) ? 'bricks_uikit_default_image_bg_gradient_radius3' : 'gaiax_placeholder'}"
+    },
+    "vip_tag": {
+      "value": "@{ env(isAndroid) ? 'gaiax_res:user_v_tag_brand' : 'gaiax_res:commonUI_vtag_brand' }",
+      "extend": { "display": "@{ ${showVipTag} ? 'flex' : 'none' }" }
+    },
+    "content_img": {
+      "value": "@{eval(size(${tourInfo.tourPic}) > 0) ? ${tourInfo.tourPic} : @{env(isAndroid) ? 'gaiax_res:bricks_uikit_default_image_bg_gradient_radius3' : '_' }}",
+      "placeholder": "@{env(isAndroid) ? 'bricks_uikit_default_image_bg_gradient_radius3' : 'gaiax_placeholder'}"
+    },
+    "content_title": {
+      "value": "${tourInfo.tourName}",
+      "extend": { "fit-content": "true" }
+    },
+    "content_subtitle": {
+      "value": "${tourInfo.tourCitiesDesc}",
+      "extend": { "fit-content": "false" }
+    },
+    "price_prefix": {
+      "value": "￥",
+      "extend": {
+        "color": "@{ eval(${_isPier} == 1) ? '#171717' : '#ff2869'}",
+        "display": "@{ eval(size(${tourInfo.tourPriceLow}) > 0) ? @{ eval(${tourInfo.tourPriceLow} == '价格待定') ? 'none' : 'flex' } : 'none' }",
+        "fit-content": "true"
+      }
+    },
+    "price_num": {
+      "value": "${tourInfo.tourPriceLow}",
+      "extend": {
+        "height": "@{ eval(${_isPier} == 1) ? @{ env(isAndroid) ? '20px' : '18px'} : '18px'}",
+        "color": "@{ eval(${_isPier} == 1) ? '#171717' : '#ff2869'}",
+        "display": "@{ eval(size(${tourInfo.tourPriceLow}) > 0) ? 'flex' : 'none' }",
+        "margin-bottom": "@{ eval(${_isPier} == 1) ? @{ env(isAndroid) ? '0px' : '-2px'} : @{ env(isAndroid) ? '0px' : '-2px'}}",
+        "margin-left": "@{env(isAndroid) ? '-1px' : '-1px'}",
+        "fit-content": "true",
+        "font-family": "@{ eval(${_isPier} == 1) ? 'AlibabaPuHuiTiH' : @{ env(isAndroid) ? 'damai_digit' : @{ eval(env(appKey) == '21140432') ? 'AlibabaSans102-Bold' : 'URWDIN-Medium' }}}"
+      }
+    },
+    "price_suffix": {
+      "value": "起",
+      "extend": {
+        "color": "@{ eval(${_isPier} == 1) ? '#171717' : '#9C9CA5'}",
+        "fit-content": "true",
+        "display": "@{ eval(size(${tourInfo.tourPriceLow}) > 0) ? @{ eval(${tourInfo.tourPriceLow} == '价格待定') ? 'none' : 'flex' } : 'none' }"
+      }
+    },
+    "price_null": {
+      "value": "价格待定",
+      "extend": {
+        "display": "@{ eval(size(${tourInfo.tourPriceLow}) > 0) ? 'none' : 'flex' }"
+      }
+    },
+    "bottom_text": {
+      "extend": {
+        "fit-content": "true",
+        "highlight-color": "#9c9ca5",
+        "highlight-tag": "&"
+      },
+      "value": "'&' + ${tourInfo.title} + '&' + ${tourInfo.content}"
+    }
+  }
+}

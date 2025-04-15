@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.trade.newtradeorder.ui.projectdetail.ui.view.ViewPager2Container android:id="@id/project_banners_view_pager_host" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/project_banners_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </cn.damai.trade.newtradeorder.ui.projectdetail.ui.view.ViewPager2Container>
+    <LinearLayout android:orientation="horizontal" android:id="@id/project_banners_indicator_container" android:background="@drawable/bg_project_banners_indicator_container" android:layout_width="wrap_content" android:layout_height="4.0dip" android:layout_marginBottom="6.0dip" app:layout_constraintBottom_toBottomOf="@id/project_banners_view_pager_host" app:layout_constraintLeft_toLeftOf="@id/project_banners_view_pager_host" app:layout_constraintRight_toRightOf="@id/project_banners_view_pager_host" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/color_ffffff" android:paddingTop="@dimen/margin_30dp" android:paddingBottom="@dimen/margin_30dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/margin_24dp" android:textColor="@color/color_000000" android:id="@id/project_discussion_content_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_21dp" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center|right" android:id="@id/project_discussion_indicator_lv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_21dp">
+        <TextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_999999" android:id="@id/project_discussion_tips_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_999999" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_youjiantouxiao12" />
+    </LinearLayout>
+</LinearLayout>

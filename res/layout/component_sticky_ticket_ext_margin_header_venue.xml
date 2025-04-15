@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/bg_ticket_middle" android:layout_width="fill_parent" android:layout_height="@dimen/resource_size_38" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alient.onearch.adapter.widget.OneTabLayout android:id="@id/component_sticky_tab_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/resource_size_38" app:normalTextSize="13" app:selectedTextSize="13" app:tabMinWidth="@dimen/resource_size_25" app:tabPaddingEnd="0.0dip" app:tabPaddingStart="0.0dip" style="@style/BricksScriptTabStyle" />
+</FrameLayout>

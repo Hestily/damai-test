@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/banner_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+    <com.alient.onearch.adapter.widget.indicator.PagerIndicator2 android:layout_gravity="bottom" android:id="@id/indicator" android:layout_width="fill_parent" android:layout_height="@dimen/resource_size_25" app:indicator_drawable="@drawable/white_radius" app:indicator_drawable_unselected="@drawable/white_30_radius" />
+</FrameLayout>

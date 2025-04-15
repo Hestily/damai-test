@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/layout_comment_container" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="57.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:ratingbar="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="11.0dip" android:textColor="#ff69717c" android:ellipsize="end" android:id="@id/tv_people_comment" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:lineSpacingExtra="2.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="0.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <cn.damai.baseview.RCRelativeLayoutView android:layout_width="wrap_content" android:layout_height="wrap_content" ratingbar:round_as_circle="true" ratingbar:stroke_color="#0f000000" ratingbar:stroke_width="0.5dip">
+                    <ImageView android:layout_gravity="center" android:id="@id/user_icon_iv" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/uikit_user_default_icon_trans_white" />
+                </cn.damai.baseview.RCRelativeLayoutView>
+            </FrameLayout>
+            <TextView android:textSize="10.0dip" android:textColor="#ff959aa5" android:ellipsize="end" android:id="@id/tv_user_name" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:maxLines="1" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

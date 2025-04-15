@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/t_banner_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <ImageView android:id="@id/t_banner_title_prefix" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="3.0dip" android:src="@drawable/icon_theme_title_prefix" android:scaleType="fitXY" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/white" android:ellipsize="end" android:id="@id/t_banner_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="去德云社看相声" android:lines="1" />
+    </LinearLayout>
+    <TextView android:textSize="10.0dip" android:textColor="@color/white" android:id="@id/t_banner_join_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="54.0dip" android:maxWidth="200.0dip" android:lines="1" />
+    <cn.damai.uikit.tag.DMCategroyTagView android:id="@id/t_banner_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:layout_alignParentRight="true" />
+</RelativeLayout>

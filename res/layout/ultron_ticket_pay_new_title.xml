@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="21.0dip" android:paddingRight="21.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/line" android:background="@color/color_eeeeee" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="7.5dip" android:layout_marginBottom="7.5dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/item_content_parent" android:paddingTop="7.5dip" android:paddingRight="@dimen/margin_15dp" android:paddingBottom="7.5dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_000000" android:id="@id/tv_price" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/icon" android:visibility="gone" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginLeft="@dimen/margin_3dp" />
+        <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_000000" android:gravity="right" android:id="@id/tv_comment" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_12dp" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

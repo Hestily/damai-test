@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/id_foot_rank_define_layout" android:paddingTop="30.0dip" android:paddingBottom="30.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0dip" android:textColor="@color/color_9c9ca5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="咦～ 没有了，看看顶部其它分类吧" />
+        <ImageView android:layout_width="153.0dip" android:layout_height="31.0dip" android:layout_marginTop="30.0dip" android:src="@drawable/icon_rank_bottom_logo" android:scaleType="fitXY" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/id_foot_normal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/foot_icon" android:visibility="gone" android:layout_width="29.0dip" android:layout_height="29.0dip" android:layout_marginEnd="@dimen/margin_6dp" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/color_aaaaaa" android:gravity="center" android:id="@id/foot_tv" android:layout_width="wrap_content" android:layout_height="60.0dip" android:text="只有这么多了" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0dip" android:textColor="@color/color_000000" android:ellipsize="end" android:id="@id/text_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="asdaskdksadjas" android:maxLines="2" />
+    <TextView android:textSize="@dimen/margin_10dp" android:textColor="#ff3787ff" android:id="@id/tv_mark" android:background="@drawable/dm_ultron_sell_bg" android:paddingLeft="@dimen/margin_5dp" android:paddingTop="@dimen/margin_1dp" android:paddingRight="@dimen/margin_5dp" android:paddingBottom="@dimen/margin_1dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_2dp" android:text="预售" android:singleLine="true" />
+</FrameLayout>

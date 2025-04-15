@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/block_presalecode_select_area" android:background="@drawable/list_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="38.0dip" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" style="@style/CommonListItemContainerWhite2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/open_mcard_title" android:layout_marginRight="6.0dip" android:text="@string/ordering_selector_block_use_mcard" style="@style/CommonListItemOrderTitle" />
+    <com.taobao.movie.android.commonui.widget.RoundedTextView android:textSize="10.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/activity_tag" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="10.0dip" android:text="卡" app:background_color="@color/common_text_color4" app:padding_horizontal="0" app:padding_vertical="0" app:round_radius="6" app:round_type="fill" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/common_text_color4" android:gravity="right" android:id="@id/open_mcard_desc" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:layout_weight="1.0" />
+    <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_assist" android:gravity="right" android:id="@id/right_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_font_right_small" />
+    <Button android:id="@id/right_button" android:visibility="gone" android:layout_marginLeft="@dimen/margin_10" android:text="@string/refresh" style="@style/mcard_refresh_button_style_small" />
+</LinearLayout>

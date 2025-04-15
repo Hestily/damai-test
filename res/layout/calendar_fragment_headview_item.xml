@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/week_bg" android:background="@color/color_ffffff" android:layout_width="fill_parent" android:layout_height="28.0dip">
+        <TextView android:text="@string/damai_day1_07" style="@style/style_calendar_week" />
+        <TextView android:text="@string/damai_day1_01" style="@style/style_calendar_week" />
+        <TextView android:text="@string/damai_day1_02" style="@style/style_calendar_week" />
+        <TextView android:text="@string/damai_day1_03" style="@style/style_calendar_week" />
+        <TextView android:text="@string/damai_day1_04" style="@style/style_calendar_week" />
+        <TextView android:text="@string/damai_day1_05" style="@style/style_calendar_week" />
+        <TextView android:text="@string/damai_day1_06" style="@style/style_calendar_week" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/calendar_view" android:background="@color/color_ffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="43.0dip">
+        <TextView android:textSize="13.0dip" android:textColor="#ff2e333e" android:ellipsize="end" android:id="@id/recommend_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="true" />
+        <TextView android:textColor="#ffe9ebef" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:text="|" />
+        <TextView android:textSize="13.0dip" android:textColor="#ff4d4d56" android:ellipsize="end" android:id="@id/recommend_desc" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="true" android:layout_weight="1.0" />
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="#ff5f6672" android:ellipsize="end" android:gravity="center" android:id="@id/recommend_refresh" android:layout_width="wrap_content" android:layout_height="38.0dip" android:layout_marginLeft="2.0dip" android:text="换一换" android:maxLines="1" android:includeFontPadding="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/recommend_list_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.damai.commonbusiness.wannasee.view.WantSeeRecommendItemView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:layout_weight="1.0" />
+        <cn.damai.commonbusiness.wannasee.view.WantSeeRecommendItemView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:layout_weight="1.0" />
+        <cn.damai.commonbusiness.wannasee.view.WantSeeRecommendItemView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:layout_weight="1.0" />
+        <cn.damai.commonbusiness.wannasee.view.WantSeeRecommendItemView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+</merge>

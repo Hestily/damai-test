@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ali.user.mobile.base.ui.AliUserCustomToolbar android:theme="@style/ThemeOverlay.AppCompat.ActionBar" android:id="@id/aliuser_toolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:popupTheme="@style/ThemeOverlay.AppCompat.Dark" app:titleMarginStart="90.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

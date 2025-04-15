@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/ll_center" android:background="@drawable/dialog_modify_personal_info_bg" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="234.0dip" android:layout_centerInParent="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/head_layout" android:layout_width="60.0dip" android:layout_height="60.0dip">
+                    <com.taobao.movie.android.commonui.widget.SimpleDraweeView android:id="@id/head_icon" android:layout_width="60.0dip" android:layout_height="60.0dip" android:scaleType="centerCrop" fresco:placeholderImage="@drawable/header_place_holder" fresco:placeholderImageScaleType="centerCrop" fresco:roundedCornerRadius="50.0dip" />
+                </FrameLayout>
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/name_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                    <TextView android:textSize="15.0dip" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center|right" android:id="@id/name_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="170.0dip" android:maxLines="1" android:singleLine="true" />
+                    <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="13.0dip" android:textColor="#fff6338c" android:id="@id/sex_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="1.0dip" android:text="@string/iconf_girl" />
+                </LinearLayout>
+                <ImageView android:id="@id/iv_identify" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:src="@drawable/identify_tag" />
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/fans_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="25.0dip">
+                    <TextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_assist" android:gravity="center" android:layout_gravity="center" android:id="@id/follow_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <View android:background="@color/color_tpp_primary_divider" android:layout_width="@dimen/space_line_height" android:layout_height="12.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_assist" android:gravity="center" android:layout_gravity="center" android:id="@id/fans_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:background="@color/common_color_1011" android:layout_width="fill_parent" android:layout_height="@dimen/space_line_height" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="234.0dip" android:layout_height="32.0dip" android:layout_marginTop="10.0dip">
+                <TextView android:textSize="13.0dip" android:gravity="center" android:id="@id/follow_btn" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <TextView android:textSize="13.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/page" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="主页" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

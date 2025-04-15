@@ -1,0 +1,51 @@
+{
+  "event": {
+    "gaia_dm_music_festival_ip_list_item_multi": {
+      "value": "${jumpUrl}",
+      "spm": { "spmc": "music_ip", "spmd": "card_" },
+      "spmArgs": { "titlelabel": "音乐节厂牌", "item_id": "${ipId}" }
+    }
+  },
+  "data": {
+    "bg": {
+      "value": "@{ eval( eval( scroll(position) % 4 ) == 0 ) ? 'gaiax_res:bg_music_cardbg_0' : @{ eval( eval( scroll(position)  % 4 ) == 1 ) ? 'gaiax_res:bg_music_cardbg_1' : @{ eval( eval( scroll(position)  % 4 ) == 2 ) ? 'gaiax_res:bg_music_cardbg_2' : @{ eval( eval( scroll(position)  % 4 ) == 3 ) ? 'gaiax_res:bg_music_cardbg_3' : 'gaiax_res:bg_music_cardbg_0' } } } }"
+    },
+    "header_title": {
+      "value": "${ipName}",
+      "extend": {
+        "background-image": "@{ eval( eval( scroll(position) % 4 ) == 0 ) ? 'linear-gradient(to right,  #FF45BD 0%,#D34BFF 100%)' : @{ eval( eval( scroll(position)  % 4 ) == 1 ) ? 'linear-gradient(to right,  #A045FF 0%,#3BB2FF 100%)' : @{ eval( eval( scroll(position)  % 4 ) == 2 ) ? 'linear-gradient(to right,  #FFA44B 0%,#FF6B6B 100%)' : @{ eval( eval( scroll(position)  % 4 ) == 3 ) ? 'linear-gradient(to right,  #23C8EF 0%,#25E4A1 100%)' : 'linear-gradient(to right,  #FF45BD 0%,#D34BFF 100%)' } } } }",
+        "fit-content": "true"
+      }
+    },
+    "header_right_arrow": {
+      "value": "&#xe76d;",
+      "extend": {
+        "color": "@{ eval( eval( scroll(position) % 4 ) == 0 ) ? '#D34BFF' : @{ eval( eval( scroll(position)  % 4 ) == 1 ) ? '#3BB2FF' : @{ eval( eval( scroll(position)  % 4 ) == 2 ) ? '#FF6B6B' : @{ eval( eval( scroll(position)  % 4 ) == 3 ) ? '#25E4A1' : '#D34BFF' } } } }"
+      }
+    },
+    "header_subtitle": {
+      "value": "${ipBaseDesc}",
+      "extend": {
+        "color": "@{ eval( eval( scroll(position) % 4 ) == 0 ) ? '#FF45BD' : @{ eval( eval( scroll(position)  % 4 ) == 1 ) ? '#5A90FF' : @{ eval( eval( scroll(position)  % 4 ) == 2 ) ? '#FF6E69' : @{ eval( eval( scroll(position)  % 4 ) == 3 ) ? '#23C8EF' : '#FF45BD' } } } }"
+      }
+    },
+    "header_img": { "value": "${musicIpIcon}" },
+    "vip_tag": {
+      "value": "@{ env(isAndroid) ? 'gaiax_res:user_v_tag_brand' : 'gaiax_res:commonUI_vtag_brand' }",
+      "extend": { "display": "@{ ${showVipTag} ? 'flex' : 'none' }" }
+    },
+    "content_container": {
+      "extend": { "display": "@{ ${contents} ? 'flex' : 'none' }" }
+    },
+    "left_content_img": { "value": "${contents[0].imgUrl}" },
+    "left_content_title": {
+      "value": "${contents[0].title}",
+      "extend": { "fit-content": "true" }
+    },
+    "right_ content_img": { "value": "${contents[1].imgUrl}" },
+    "right_ content_title": {
+      "value": "${contents[1].title}",
+      "extend": { "fit-content": "true" }
+    }
+  }
+}

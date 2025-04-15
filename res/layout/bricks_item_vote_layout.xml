@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/item_vote_layout_id" android:paddingLeft="9.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0dip" android:textColor="@color/white" android:id="@id/vote_select_title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="10.0dip" android:textColor="@color/white" android:id="@id/vote_select_count" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/vote_select_item_container" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/update_dialog_rootView" android:background="#55000000" android:padding="42.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@id/update_contentDialog" android:background="@drawable/dialog_background" android:padding="32.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#ff3e3e3e" android:id="@id/update_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="提示" />
+        <FrameLayout android:id="@id/update_dialog_content" android:paddingBottom="32.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/update_title">
+            <ScrollView android:scrollbarSize="2.0dip" android:scrollbarThumbVertical="@color/thumbColor" android:id="@id/message_scrollView" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="14.0dip" android:textColor="#ff3e3e3e" android:id="@id/update_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="有更新内容" />
+                </LinearLayout>
+            </ScrollView>
+        </FrameLayout>
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_alignBottom="@id/update_dialog_content">
+            <com.taobao.update.dialog.ButtonFlat android:id="@id/update_button_cancel" android:background="#ff555555" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="取消" />
+            <com.taobao.update.dialog.ButtonFlat android:id="@id/update_button_accept" android:background="#ff1e88e5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="确定" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

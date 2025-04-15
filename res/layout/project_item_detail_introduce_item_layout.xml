@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/color_ffffff" android:paddingLeft="@dimen/margin_21dp" android:paddingRight="@dimen/margin_21dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/extend_info_container_lv" android:layout_width="fill_parent" android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <View android:id="@id/line" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/project_modul_top" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/color_666666" android:id="@id/project_item_detail_intro_text_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_10dp" android:layout_marginBottom="@dimen/margin_10dp" android:lineSpacingExtra="@dimen/margin_9dp" />
+        <cn.damai.uikit.view.RoundImageView android:id="@id/project_item_detail_intro_image_iv" android:background="@drawable/project_default_image_bg" android:layout_width="fill_parent" android:layout_height="200.0dip" android:scaleType="fitXY" app:type="round" />
+        <LinearLayout android:orientation="vertical" android:id="@id/rich_text_image_ll" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

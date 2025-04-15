@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fl_root" android:paddingLeft="@dimen/margin_15dp" android:paddingTop="@dimen/margin_15dp" android:paddingRight="@dimen/margin_15dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/category_shaddle_white_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_18dp">
+        <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="15.0dip" android:paddingRight="@dimen/margin_15dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="33.0dip">
+            <TextView android:textSize="@dimen/margin_16dp" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/tv_benefit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="金钱和真爱，你要哪一个？" android:singleLine="true" android:drawableLeft="@drawable/icon_detailed_left" android:drawableRight="@drawable/icon_detailed_right" android:drawablePadding="@dimen/margin_3dp" />
+            <View android:textSize="@dimen/margin_16dp" android:textColor="@color/white" android:background="@drawable/snake_line_rectangle" android:layout_width="fill_parent" android:layout_height="9.0dip" android:layout_marginLeft="@dimen/margin_20dp" android:layout_marginTop="@dimen/margin_16dp" android:layout_marginRight="@dimen/margin_20dp" android:layout_alignLeft="@id/tv_benefit" android:layout_alignRight="@id/tv_benefit" />
+            <TextView android:textSize="@dimen/margin_16dp" android:textStyle="bold" android:textColor="#ff505050" android:ellipsize="end" android:id="@id/tv_benefit_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="金钱和真爱，你要哪一个？" android:singleLine="true" android:drawableLeft="@drawable/icon_detailed_left" android:drawableRight="@drawable/icon_detailed_right" android:drawablePadding="@dimen/margin_3dp" />
+        </RelativeLayout>
+        <LinearLayout android:paddingLeft="@dimen/margin_15dp" android:paddingRight="@dimen/margin_15dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dis_13dp">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingRight="@dimen/margin_6dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:orientation="horizontal" android:id="@id/ll_city_venue" android:paddingTop="@dimen/margin_10dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include layout="@layout/inventory_desc_item" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/ll_time" android:paddingTop="@dimen/margin_10dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include layout="@layout/inventory_desc_item" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/ll_fans" android:paddingTop="@dimen/margin_10dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include layout="@layout/inventory_desc_item" />
+                </LinearLayout>
+            </LinearLayout>
+            <FrameLayout android:background="@drawable/project_image_common_bg" android:padding="0.5dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <cn.damai.uikit.view.RoundImageView android:id="@id/image_project" android:layout_width="111.0dip" android:layout_height="148.0dip" android:src="@drawable/uikit_default_image_bg_gradient" android:scaleType="fitXY" app:borderRadius="6.0dip" app:type="round" />
+                <ImageView android:id="@id/bg_project_image" android:background="@drawable/bg_border_corner_1a0" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <cn.damai.uikit.tag.DMCategroyTagView android:layout_gravity="right" android:id="@id/tv_type_mark" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginRight="3.0dip" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_reason" android:background="@drawable/inventory_talk_bg" android:paddingLeft="@dimen/margin_12dp" android:paddingTop="@dimen/margin_9dp" android:paddingRight="@dimen/margin_12dp" android:paddingBottom="@dimen/margin_9dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginTop="@dimen/margin_9dp" android:layout_marginRight="@dimen/margin_15dp" android:layout_marginBottom="@dimen/margin_15dp">
+            <TextView android:textSize="@dimen/dis_13dp" android:textStyle="bold" android:textColor="@color/color_000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="大家这样说👄👇：" />
+            <TextView android:textSize="@dimen/dis_13dp" android:textColor="@color/color_000000" android:ellipsize="end" android:id="@id/tv_reason" android:paddingTop="@dimen/margin_3dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:lineSpacingExtra="3.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:background="@drawable/inventory_desc_bg" android:paddingLeft="@dimen/margin_12dp" android:paddingRight="@dimen/margin_12dp" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="@dimen/margin_15dp">
+        <TextView android:textSize="@dimen/dis_13dp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="开心麻花《窗前不止明月光》2019巡演" android:singleLine="true" />
+    </LinearLayout>
+</FrameLayout>

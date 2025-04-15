@@ -1,0 +1,78 @@
+{
+  "components": [
+    {
+      "type": 7660,
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "marginLeft": "resource_size_9",
+          "marginRight": "resource_size_9",
+          "marginTop": "resource_size_9"
+        }
+      },
+      "container": {
+        "type": 7660,
+        "layoutID": "bricks_ip_wish_horizontal_list_container",
+        "model": "com.alibaba.pictures.bricks.component.discover.WishListModel",
+        "present": "com.alibaba.pictures.bricks.component.discover.WishListPresent",
+        "view": "com.alibaba.pictures.bricks.component.discover.WishListView"
+      },
+      "viewTypes": [
+        {
+          "type": 7670,
+          "layoutID": "bricks_ip_wish_main_card",
+          "viewHolder": "com.alibaba.pictures.bricks.component.discover.WishCardViewHolder",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.component.discover.bean.WishIPBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7630,
+      "tag": "artist_tour",
+      "layout": {
+        "layoutType": "raw_list",
+        "params": {
+          "marginLeft": "resource_size_9",
+          "marginRight": "resource_size_9",
+          "marginTop": "resource_size_9"
+        }
+      },
+      "container": {
+        "type": 7630,
+        "layoutID": "bricks_component_artist_tour",
+        "model": "com.alibaba.pictures.bricks.component.artist.ArtistTourModel",
+        "present": "com.alibaba.pictures.bricks.component.artist.ArtistTourPresent",
+        "view": "com.alibaba.pictures.bricks.component.artist.ArtistTourView"
+      }
+    },
+    {
+      "type": 7631,
+      "tag": "artist_tab",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "gap": "resource_size_18",
+          "listMarginLeft": "resource_size_12",
+          "listMarginRight": "resource_size_12"
+        }
+      },
+      "container": {
+        "type": 7631,
+        "layoutID": "bricks_artist_horizontal_container",
+        "viewHolder": "com.alibaba.pictures.bricks.component.artist.ArtistTourHorizontalViewHolder"
+      },
+      "viewTypes": [
+        {
+          "type": 7631,
+          "layoutID": "bricks_channel_artist_city",
+          "viewHolder": "com.alibaba.pictures.bricks.component.artist.ArtistCityStationViewHolder",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.channel.bean.AristCityStationBean"
+          }
+        }
+      ]
+    }
+  ]
+}

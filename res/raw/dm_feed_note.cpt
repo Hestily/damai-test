@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.discover.mvp.NoteModel",
+    "vClass": "cn.damai.tetris.component.discover.mvp.NoteView",
+    "pClass": "cn.damai.tetris.component.discover.mvp.NotePresenter",
+    "layoutXml": "item_discover_feed_note"
+  }
+}

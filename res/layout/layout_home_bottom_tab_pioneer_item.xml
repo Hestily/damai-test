@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/home_bottom_tab_select_bg" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="36.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center_vertical" android:id="@id/bottom_tab_item_lottie" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="7.0dip" android:layout_marginRight="1.0dip" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="@raw/home_bottom_tab_anim_home" />
+    <FrameLayout android:id="@id/layout_title" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="16.0dip" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/bottom_tab_item_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="首页" android:lines="1" android:includeFontPadding="false" />
+        <View android:layout_gravity="center|right|top" android:id="@id/bottom_tab_item_tv_badge" android:background="@drawable/icon_badge" android:visibility="invisible" android:layout_width="4.0dip" android:layout_height="4.0dip" android:layout_marginBottom="5.0dip" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="50.0dip" android:paddingRight="50.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.uikit.view.MaxHeightLinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/dma_content_ui" android:background="@drawable/bg_member_auth" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <cn.damai.uikit.view.TopRoundImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/bg_member_auth_pop" android:scaleType="fitXY" app:top_round_radius="23.0dip" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="18.0dip" android:textColor="#ff562231" android:gravity="center" android:id="@id/dma_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="42.0dip" android:text="影演会员数据打通授权" />
+                <TextView android:textSize="14.0dip" android:textColor="#ff874953" android:id="@id/dma_sub_title" android:paddingLeft="22.0dip" android:paddingRight="22.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:lineSpacingExtra="3.0dip" />
+                <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="12.0dip" android:layout_weight="1.0">
+                    <LinearLayout android:orientation="vertical" android:id="@id/dma_rule_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:layout_marginRight="22.0dip" />
+                </ScrollView>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="22.0dip">
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/dma_protocol_check_click_btn" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="16.0dip" android:textColor="#ff582331" android:id="@id/dma_protocol_check_btn" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_weixuan16" />
+                        <TextView android:textSize="12.0dip" android:textColor="@color/color_A67070" android:id="@id/dma_protocol_prefix" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <TextView android:textSize="12.0dip" android:textColor="@color/color_FF2869" android:id="@id/dma_protocol_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:lineSpacingExtra="4.0dip" />
+                </LinearLayout>
+                <TextView android:textSize="14.0dip" android:textColor="@color/color_562231" android:gravity="center" android:id="@id/dma_agree_btn" android:background="@drawable/bg_member_agree_btn" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="29.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="29.0dip" android:text="开通淘麦VIP会员" />
+                <TextView android:textSize="14.0dip" android:textColor="@color/color_562231" android:gravity="center" android:id="@id/dma_reject_btn" android:layout_width="fill_parent" android:layout_height="26.0dip" android:layout_marginLeft="29.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="29.0dip" android:layout_marginBottom="16.0dip" android:text="下次再说" />
+            </LinearLayout>
+        </FrameLayout>
+    </cn.damai.uikit.view.MaxHeightLinearLayout>
+</LinearLayout>

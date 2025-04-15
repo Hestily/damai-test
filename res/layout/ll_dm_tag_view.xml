@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/dm_tag_f2f2f2_bg" android:layout_width="wrap_content" android:layout_height="@dimen/margin_24dp" android:paddingStart="3.5dip" android:paddingEnd="9.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fl_dm_img_container" android:background="@drawable/dm_tag_header_bg" android:layout_width="@dimen/margin_18dp" android:layout_height="@dimen/margin_18dp">
+        <com.alibaba.pictures.bricks.view.RoundRadiusImageView android:id="@id/riv_dm_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="1.0dip" android:scaleType="centerCrop" app:r_round_radius="@dimen/margin_30dp" />
+    </FrameLayout>
+    <ImageView android:layout_width="@dimen/margin_15dp" android:layout_height="@dimen/margin_11dp" android:layout_marginTop="0.5dip" android:src="@drawable/icon_dm_img" android:layout_marginStart="6.0dip" />
+    <TextView android:textSize="@dimen/margin_12dp" android:textColor="#ff2e333f" android:ellipsize="end" android:id="@id/tv_dm_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="84.0dip" android:maxLines="1" android:layout_marginStart="3.0dip" />
+    <TextView android:textSize="@dimen/margin_11dp" android:textColor="#ff5e6572" android:ellipsize="end" android:id="@id/tv_dm_tag_1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="9.0dip" />
+    <View android:id="@id/v_dm_tag_line" android:background="@color/color_c8c8c8" android:visibility="gone" android:layout_width="0.5dip" android:layout_height="@dimen/margin_11dp" android:layout_marginTop="0.5dip" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" />
+    <TextView android:textSize="@dimen/margin_11dp" android:textColor="#ff5e6572" android:ellipsize="end" android:id="@id/tv_dm_tag_2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+</LinearLayout>

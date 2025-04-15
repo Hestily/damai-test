@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget
+    id="youku"
+    version="1.0.0">
+    <plugin name="player">
+        <param
+            name="major_level"
+            value="10" />
+        <param
+            name="enable"
+            value="true" />
+        <param
+            name="layer"
+            value="layer_video" />
+    </plugin>
+    <plugin name="player_water_mark">
+        <param
+            name="major_level"
+            value="20" />
+        <param
+            name="enable"
+            value="true" />
+        <param
+            name="layer"
+            value="layer_video" />
+    </plugin>
+</widget>

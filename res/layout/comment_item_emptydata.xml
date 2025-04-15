@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@color/white" android:paddingLeft="12.0dip" android:paddingTop="20.0dip" android:paddingRight="12.0dip" android:paddingBottom="40.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/item_empty_img" android:layout_width="72.0dip" android:layout_height="72.0dip" android:src="@drawable/comment_empty_img" />
+    <TextView android:textColor="@color/tpp_gray_3" android:id="@id/item_empty_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/reply_more_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.legacy.widget.Space android:layout_width="fill_parent" android:layout_height="6.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="13.0dip" android:textColor="@color/common_color_1008" android:id="@id/more_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="65.0dip" />
+            <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="6.0dip" android:textColor="@color/common_color_1008" android:layout_gravity="center_vertical" android:id="@id/arrow_iconfont" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/iconf_down_arrow" />
+        </LinearLayout>
+        <androidx.legacy.widget.Space android:layout_width="fill_parent" android:layout_height="20.0dip" />
+        <View android:id="@id/bottom_line" android:background="@color/common_color_1011" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/loading_view" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+</FrameLayout>

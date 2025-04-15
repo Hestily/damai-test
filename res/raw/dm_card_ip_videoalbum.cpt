@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.ip.IpVideoAlbumModel",
+    "vClass": "cn.damai.tetris.component.ip.IpVideoAlbumView",
+    "pClass": "cn.damai.tetris.component.ip.IpVideoAlbumPresenter",
+    "layoutXml": "layout_videoalbum_ip"
+  }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.pictures.bricks.view.SafeTouchLinearLayout android:gravity="center" android:orientation="vertical" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.pictures.bricks.view.SafeTextView android:textSize="15.0dip" android:textColor="@color/color_ffffff" android:gravity="center" android:id="@id/tv_left_main_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" />
+    <TextView android:textSize="10.0dip" android:textColor="@color/color_bricks_primary_80_white" android:gravity="center" android:id="@id/tv_left_sub_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:includeFontPadding="false" />
+</com.alibaba.pictures.bricks.view.SafeTouchLinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/mine_ticket_tab_content_layout" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="7.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center" android:id="@id/mine_ticket_empty_View" android:paddingTop="20.5dip" android:paddingBottom="17.5dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/resource_size_11" android:textColor="#ff959aa5" android:id="@id/tv_ticket_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="无可用票～" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</FrameLayout>

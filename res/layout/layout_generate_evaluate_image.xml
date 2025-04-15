@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/share_page" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/evaluate_share_top_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/commonbusiness_evaluate_share_top_bg" android:scaleType="fitXY" />
+                <View android:background="@drawable/bg_evaluate_share_bottom_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingTop="57.0dip" android:paddingBottom="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/share_page_poster" android:layout_width="123.0dip" android:layout_height="164.0dip" android:src="@drawable/uikit_default_image_bg_grey" />
+                <TextView android:textSize="20.0dip" android:textColor="@color/white" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/share_page_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_30dp" android:layout_marginTop="@dimen/margin_21dp" android:layout_marginRight="@dimen/margin_30dp" android:layout_marginBottom="@dimen/margin_24dp" />
+                <RelativeLayout android:id="@id/comment_share_white_bg" android:background="@drawable/comment_share_evaluate_top_bg" android:paddingLeft="@dimen/margin_21dp" android:paddingRight="@dimen/margin_21dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_21dp" android:layout_marginRight="@dimen/margin_21dp" android:layout_below="@id/share_page_title">
+                    <cn.damai.uikit.view.DMAvatar android:id="@id/share_page_user_header_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_9dp" android:layout_marginRight="15.0dip" />
+                    <LinearLayout android:orientation="horizontal" android:id="@id/share_page_user_nick_layout" android:paddingTop="@dimen/margin_25dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/share_page_user_header_icon" android:layout_alignTop="@id/share_page_user_header_icon">
+                        <TextView android:textSize="14.0dip" android:textColor="@color/color_000000" android:ellipsize="end" android:id="@id/share_page_user_nick" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:layout_weight="1.0" />
+                        <ImageView android:id="@id/comment_vip_icon" android:layout_width="wrap_content" android:layout_height="18.0dip" android:layout_marginLeft="@dimen/margin_2dp" />
+                    </LinearLayout>
+                    <TextView android:textSize="12.0dip" android:textColor="#ff8890a0" android:ellipsize="end" android:id="@id/share_page_user_evaluate_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_3dp" android:maxLines="1" android:layout_below="@id/share_page_user_nick_layout" android:layout_alignLeft="@id/share_page_user_nick_layout" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/share_page_user_grade_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_below="@id/share_page_user_header_icon">
+                        <cn.damai.uikit.view.DMRatingBar android:id="@id/share_page_user_grade_view" android:layout_width="wrap_content" android:layout_height="wrap_content" app:isIndicator="true" app:showText="false" app:starCount="5" app:starDistance="3.0dip" app:starEmpty="@drawable/rating_empty" app:starFill="@drawable/rating_fill" app:starSize="@dimen/margin_24dp" />
+                        <TextView android:textSize="18.0dip" android:textColor="@color/color_000000" android:gravity="center" android:id="@id/share_page_user_grade" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" />
+                    </LinearLayout>
+                    <TextView android:textSize="14.0dip" android:textColor="@color/color_000000" android:id="@id/share_page_user_evaluate_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" android:layout_below="@id/share_page_user_grade_layout" android:layout_alignLeft="@id/share_page_user_grade_layout" android:lineSpacingExtra="@dimen/margin_6dp" />
+                    <LinearLayout android:orientation="vertical" android:background="@drawable/comment_share_content_bottom_bg" android:paddingTop="30.0dip" android:paddingBottom="21.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/share_page_user_evaluate_content">
+                        <ImageView android:layout_gravity="center" android:id="@id/share_page_qrcode_img" android:layout_width="60.0dip" android:layout_height="60.0dip" />
+                        <TextView android:textSize="12.0dip" android:textColor="#ff8890a0" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/share_page_qrcode_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:maxLines="1" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/share_page_damai_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:src="@drawable/share_page_damai_logo" android:layout_below="@id/comment_share_white_bg" />
+            </LinearLayout>
+        </FrameLayout>
+    </ScrollView>
+</FrameLayout>

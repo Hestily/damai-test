@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/bricks_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/switch_setting_title_layout" layout="@layout/mine_title_header" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/switch_recommend_switch_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="55.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/split3">
+        <TextView android:textSize="12.0dip" android:textColor="@color/color_333333" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/mine_privacy_setting_recommend_content_tips" android:layout_weight="1.0" />
+        <cn.damai.uikit.switchbutton.SwitchButton android:id="@id/switch_recommend_switch" android:layout_width="43.0dip" android:layout_height="26.0dip" android:layout_marginRight="16.0dip" android:checked="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:kswBackColor="@drawable/bg_setting_recommend_switch_btn" app:kswThumbColor="@color/color_ffffff" app:kswThumbHeight="25.0dip" app:kswThumbWidth="25.0dip" />
+    </LinearLayout>
+    <TextView android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_AAAAAA" android:id="@id/switch_recommend_content" android:paddingLeft="16.0dip" android:paddingTop="@dimen/margin_12dp" android:paddingRight="10.0dip" android:paddingBottom="@dimen/margin_18dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mine_privacy_setting_recommend_tips" android:lineSpacingExtra="4.0dip" />
+    <TextView android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/white" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="55.0dip">
+        <TextView android:textSize="12.0dip" android:textColor="@color/color_333333" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/mine_privacy_setting_allow_recommend_ad_title" android:layout_weight="1.0" />
+        <cn.damai.uikit.switchbutton.SwitchButton android:id="@id/switch_recommend_ad_switch" android:layout_width="43.0dip" android:layout_height="26.0dip" android:layout_marginRight="16.0dip" android:checked="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:kswBackColor="@drawable/bg_setting_recommend_switch_btn" app:kswThumbColor="@color/color_ffffff" app:kswThumbHeight="25.0dip" app:kswThumbWidth="25.0dip" />
+    </LinearLayout>
+    <TextView android:id="@id/split5" android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_AAAAAA" android:paddingLeft="16.0dip" android:paddingTop="@dimen/margin_12dp" android:paddingRight="10.0dip" android:paddingBottom="@dimen/margin_18dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mine_privacy_setting_allow_recommend_ad_desc" android:lineSpacingExtra="4.0dip" />
+</LinearLayout>

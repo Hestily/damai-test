@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/pioneer_city_location_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="15.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="#ff171717" android:ellipsize="end" android:id="@id/pioneer_tv_location_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="100.0dip" android:text="北京" android:lines="1" />
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textColor="#ff171717" android:id="@id/dm_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/iconfont_xf_sanjiaojiantou_xia" android:layout_toRightOf="@id/pioneer_tv_location_text" />
+        <TextView android:textSize="10.0dip" android:textColor="#ff959aa5" android:ellipsize="end" android:id="@id/pioneer_tv_location_text_sub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="探索目的地" android:lines="1" android:layout_below="@id/pioneer_tv_location_text" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

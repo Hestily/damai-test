@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.common.HeaderVideoModel",
+    "vClass": "cn.damai.tetris.component.common.HeaderVideoView",
+    "pClass": "cn.damai.tetris.component.common.HeaderVideoPresenter",
+    "layoutXml": "header_video"
+  }
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="9.0dip" android:paddingRight="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/shape_rect_corners_6_solid_white" android:paddingLeft="12.0dip" android:paddingTop="15.0dip" android:paddingRight="12.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <cn.damai.uikit.view.DMPosterView android:id="@id/id_h_project_poster" android:layout_width="76.0dip" android:layout_height="102.0dip" />
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="12.0dip">
+                <TextView android:textSize="16.0dip" android:textColor="#ff2e333e" android:ellipsize="end" android:id="@id/id_h_project_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:lineSpacingExtra="2.0dip" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+                    <LinearLayout android:orientation="horizontal" android:id="@id/id_h_project_score_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="12.0dip" android:textColor="@color/color_FF8F3F" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="大麦评分" />
+                        <cn.damai.uikit.number.DMDigitTextView android:textSize="14.0dip" android:textColor="@color/color_FF8F3F" android:id="@id/id_h_project_score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.0dip" />
+                    </LinearLayout>
+                    <View android:id="@id/id_h_project_line1" android:background="#ffe9ebef" android:layout_width="1.0dip" android:layout_height="@dimen/margin_12dp" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" />
+                    <TextView android:textSize="12.0dip" android:textColor="#ffff4886" android:ellipsize="end" android:id="@id/id_h_project_pending_price" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="价格待定" android:maxLines="1" />
+                    <LinearLayout android:orientation="horizontal" android:id="@id/id_h_project_price_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <cn.damai.uikit.number.DMDigitTextView android:textSize="11.0dip" android:textColor="@color/color_FF4886" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="￥" />
+                        <cn.damai.uikit.number.DMDigitTextView android:textSize="14.0dip" android:textColor="@color/color_FF4886" android:id="@id/id_h_project_price" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:textSize="12.0dip" android:textColor="@color/color_999999" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="起" />
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView android:textSize="12.0dip" android:textColor="@color/color_4D4D56" android:ellipsize="end" android:id="@id/id_h_project_address" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="北京·国家大剧院" android:lines="1" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/color_4D4D56" android:ellipsize="end" android:id="@id/id_h_project_date" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:lines="1" />
+            </LinearLayout>
+            <TextView android:textSize="12.0dip" android:textColor="#ffff4886" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/id_h_project_action_tip" android:background="@drawable/bg_rank_item_project_buy" android:layout_width="54.0dip" android:layout_height="27.0dip" android:layout_marginLeft="3.0dip" android:text="购票" />
+        </LinearLayout>
+        <com.google.android.flexbox.FlexboxLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/id_h_project_rec_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" app:alignItems="center">
+            <TextView android:textSize="12.0dip" android:textColor="@color/color_4D4D56" android:id="@id/id_h_project_rec_prefix_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_flexShrink="0.0" />
+            <View android:background="#ffe9ebef" android:layout_width="1.0dip" android:layout_height="@dimen/margin_12dp" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" app:layout_flexShrink="0.0" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/color_4D4D56" android:ellipsize="end" android:id="@id/id_h_project_rec_postfix_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" app:layout_flexShrink="1.0" />
+            <LinearLayout android:id="@id/id_h_project_rec_count_down_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_flexShrink="0.0">
+                <TextView android:textSize="12.0dip" android:textColor="@color/color_4D4D56" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="还有 " />
+                <cn.damai.uikit.number.DMDigitTextView android:textSize="12.0dip" android:textColor="@color/color_4D4D56" android:id="@id/id_h_project_rec_count_down_day" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/color_4D4D56" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="天" />
+                <cn.damai.uikit.number.DMDigitTextView android:textSize="12.0dip" android:textColor="@color/color_4D4D56" android:id="@id/id_h_project_rec_count_down_hour_m_s" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/color_4D4D56" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" 开抢" />
+            </LinearLayout>
+            <cn.damai.uikit.tag.DMCommonTagView android:id="@id/id_h_project_promotion_tag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" app:layout_flexShrink="0.0" />
+        </com.google.android.flexbox.FlexboxLayout>
+        <TextView android:textSize="12.0dip" android:ellipsize="end" android:id="@id/id_h_project_rec_ai" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:maxLines="2" android:lineSpacingExtra="5.0dip" />
+        <cn.damai.commonbusiness.wannasee.view.WantSeeRecommendView android:id="@id/id_h_project_want_see_rec_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="9.0dip" android:textColor="#ff4d4d56" android:gravity="center" android:id="@id/id_h_project_block_want_see_tip" android:background="@drawable/bg_wanna_item_project_card_block_want" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_marginTop="10.0dip" />
+    </LinearLayout>
+</LinearLayout>

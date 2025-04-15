@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_dm_head" android:layout_width="63.0dip" android:layout_height="63.0dip" android:scaleType="centerCrop" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <CheckBox android:id="@id/cb_dm_select" android:layout_width="21.0dip" android:layout_height="21.0dip" android:button="@drawable/comment_checkbox" app:layout_constraintBottom_toBottomOf="@id/iv_dm_head" app:layout_constraintRight_toRightOf="@id/iv_dm_head" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/black" android:ellipsize="end" android:id="@id/tv_dm_name" android:layout_width="63.0dip" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:maxLines="1" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/iv_dm_head" />
+</androidx.constraintlayout.widget.ConstraintLayout>

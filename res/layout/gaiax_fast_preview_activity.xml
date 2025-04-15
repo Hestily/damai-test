@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:background="#ff22252c" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:background="#ff888888" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="GaiaX" android:layout_centerInParent="true" />
+        <Button android:id="@id/close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="关闭" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="生命周期模拟" />
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatButton android:textSize="13.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="创建" android:layout_weight="1.0" android:onClick="OnCreate" />
+            <androidx.appcompat.widget.AppCompatButton android:textSize="13.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="显示" android:layout_weight="1.0" android:onClick="OnVisible" />
+            <androidx.appcompat.widget.AppCompatButton android:textSize="13.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="隐藏" android:layout_weight="1.0" android:onClick="OnInvisible" />
+            <androidx.appcompat.widget.AppCompatButton android:textSize="13.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="销毁" android:layout_weight="1.0" android:onClick="OnDestroy" />
+            <androidx.appcompat.widget.AppCompatButton android:textSize="13.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="复用" android:layout_weight="1.0" android:onClick="OnReuse" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="其他功能" />
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatButton android:textSize="13.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="切换渲染背景" android:layout_weight="1.0" android:onClick="OnSwitch" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <ScrollView android:gravity="center" android:id="@id/gaiax_render_root_parent" android:background="#ff22252c" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <FrameLayout android:layout_gravity="center" android:id="@id/fast_preview_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </ScrollView>
+</LinearLayout>

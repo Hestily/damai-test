@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/action_sheet_item" android:background="@color/common_text_color46" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0dip" android:textColor="@color/color_tpp_primary_main_title" android:ellipsize="end" android:gravity="center" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:maxLines="1" android:singleLine="true" android:layout_centerInParent="true" />
+    <View android:background="@color/common_divider_color" android:layout_width="fill_parent" android:layout_height="0.70000005dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

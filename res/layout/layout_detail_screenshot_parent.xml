@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/detail_screenshot_conent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="47.0dip" android:layout_marginRight="47.0dip" android:layout_centerInParent="true">
+        <RelativeLayout android:id="@id/detail_screenshot_conent_top" android:background="@drawable/detail_screenshot_title_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="66.0dip">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/logo_screenshot_title" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/screenshot_share_content_scroll_parent" android:clickable="true" android:layout_width="fill_parent" android:layout_height="300.0dip">
+            <ScrollView android:id="@id/screenshot_share_content_scroll" android:scrollbars="vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never">
+                <LinearLayout android:orientation="vertical" android:id="@id/screenshot_share_content_ll" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/screenshot_share_content_img" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+                    <View android:id="@id/screenshot_share_content_gap" android:background="#fff6f7f8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/black" android:id="@id/screenshot_share_content_title_artisit" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="9.0dip" android:layout_marginBottom="9.0dip" android:text="演职人员" />
+                    <ImageView android:id="@id/screenshot_share_content_img_artisit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/black" android:id="@id/screenshot_share_content_title_brand" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="9.0dip" android:layout_marginBottom="2.0dip" android:text="品牌" />
+                    <ImageView android:id="@id/screenshot_share_content_imgbrand" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/black" android:id="@id/screenshot_share_content_title_info" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="9.0dip" android:text="项目介绍" />
+                    <TextView android:textSize="10.0dip" android:textColor="@color/color_333333" android:ellipsize="end" android:id="@id/screenshot_share_content_info" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="18.0dip" android:maxLines="5" />
+                    <RelativeLayout android:orientation="vertical" android:background="#fff9f9f9" android:layout_width="fill_parent" android:layout_height="58.0dip">
+                        <View android:id="@id/share_page_tiplogo" android:background="@drawable/screenshot_share_content_bottomlogo" android:layout_width="45.0dip" android:layout_height="15.0dip" android:layout_marginLeft="18.0dip" android:layout_marginTop="14.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_centerVertical="true" />
+                        <TextView android:textSize="10.0dip" android:textColor="@color/black" android:id="@id/share_page_qrcode_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="6.0dip" android:text="长按二维码查看演出详情" android:maxLines="1" android:layout_below="@id/share_page_tiplogo" />
+                        <ImageView android:layout_gravity="center" android:id="@id/screenshot_share_content_qrcode_img" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="18.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </ScrollView>
+            <View android:id="@id/detail_screenshot_content_save1" android:background="@drawable/screenshot_share_content_save" android:layout_width="31.0dip" android:layout_height="31.0dip" android:layout_marginRight="18.0dip" android:layout_marginBottom="-15.5dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/detail_screenshot_conent_bottom" android:background="@drawable/bg_screenshot_bottom" android:clickable="true" android:layout_width="fill_parent" android:layout_height="124.0dip">
+            <RelativeLayout android:id="@id/screenshot_share_action" android:background="@drawable/detail_screenshot_btn_bg" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="19.0dip" android:layout_marginRight="16.0dip">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="16.0dip" android:textColor="#ffff6010" android:layout_width="16.0dip" android:layout_height="16.0dip" android:text="@string/iconfont_fenxiang24" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ffff6010" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="分享给小伙伴" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/screenshot_feedback_action" android:background="@drawable/detail_screenshot_btn_bg" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="9.0dip" android:layout_marginRight="16.0dip" android:layout_below="@id/screenshot_share_action">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="16.0dip" android:textColor="#ffff6010" android:layout_width="16.0dip" android:layout_height="16.0dip" android:text="@string/iconfont_xiaoxi_" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ffff6010" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="有问题要反馈" />
+                </LinearLayout>
+            </RelativeLayout>
+            <View android:id="@id/detail_screenshot_content_save2" android:background="@drawable/screenshot_share_content_save" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="31.0dip" android:layout_height="31.0dip" android:layout_marginTop="-15.5dip" android:layout_marginRight="18.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <include android:id="@id/project_header" layout="@layout/header_project_total_layout" />
+</RelativeLayout>

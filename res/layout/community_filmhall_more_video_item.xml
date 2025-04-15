@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/community_film_hall_more_bg" android:layout_width="210.0dip" android:layout_height="120.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="13.0dip" android:textColor="@color/color_tpp_primary_subtitle" android:id="@id/tv_homepage_show_more_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/film_detail_all_tag" />
+        <View android:id="@id/tv_homepage_show_more_divider" android:background="@color/common_text_color44" android:layout_width="40.0dip" android:layout_height="@dimen/space_line_height" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/color_tpp_primary_subtitle" android:id="@id/tv_more_content" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

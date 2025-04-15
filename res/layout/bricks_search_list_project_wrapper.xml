@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/inner_project_wrapper" android:background="#fff5f6f7" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/inner_project_gap" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="9.0dip" />
+    <include android:id="@id/inner_project_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/resource_size_12" android:layout_marginRight="@dimen/resource_size_12" android:layout_marginBottom="@dimen/margin_9dp" layout="@layout/bricks_search_list_project" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="43.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0dip" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/id_filter_category_sub" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:lines="1" android:layout_weight="1.0" />
+    <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="18.0dip" android:textColor="@color/color_FF2869" android:id="@id/id_filter_category_sub_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/iconfont_duihaomian_" />
+</LinearLayout>

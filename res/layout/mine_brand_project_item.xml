@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.damai.uikit.view.DMPosterView android:id="@id/poster" android:layout_width="93.0dip" android:layout_height="124.0dip" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/black" android:ellipsize="end" android:id="@id/brand_you_proj_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="" android:maxLines="2" android:layout_below="@id/poster" />
+    <TextView android:textSize="12.0dip" android:textColor="#ff9c9ca5" android:id="@id/brand_you_proj_memo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="" android:maxLines="1" android:layout_below="@id/brand_you_proj_title" />
+</RelativeLayout>

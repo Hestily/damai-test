@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/load_more_layout" android:background="@color/white" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.legacy.widget.Space android:id="@id/top_space" android:layout_width="fill_parent" android:layout_height="1.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/bottom_space" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/top_space">
+        <TextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_assist" android:id="@id/more_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="展开更多" />
+        <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="7.0dip" android:textColor="@color/color_tpp_primary_assist" android:layout_gravity="center" android:id="@id/arrow_icon_font" android:layout_width="7.0dip" android:layout_height="7.0dip" android:layout_marginLeft="9.0dip" android:text="@string/iconf_portrait_video_open_index_arrow" android:includeFontPadding="false" />
+    </LinearLayout>
+    <androidx.legacy.widget.Space android:id="@id/bottom_space" android:layout_width="fill_parent" android:layout_height="14.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/load_more_layout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

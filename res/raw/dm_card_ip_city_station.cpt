@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.ip.IpTourModel",
+    "vClass": "cn.damai.tetris.component.ip.IpTourView",
+    "pClass": "cn.damai.tetris.component.ip.IpTourPresenter",
+    "layoutXml": "layout_ip_citytour"
+  }
+}

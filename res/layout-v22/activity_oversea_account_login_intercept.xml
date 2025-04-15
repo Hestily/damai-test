@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@drawable/login_third_platform_damai_logo" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" />
+    <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="14.0dip" android:textColor="#ff5f6672" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="60.0dip" android:layout_marginRight="30.0dip" android:text="根据法律法规关于用户管理的要求，请您绑定已经实名认证的第三方账号，完成用户身份核验" android:layout_marginHorizontal="30.0dip" />
+    <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="15.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/oversea_bind_btn" android:background="@drawable/aliuser_bg_oversea_login_intercept" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="60.0dip" android:layout_marginRight="30.0dip" android:text="去绑定" android:layout_marginHorizontal="30.0dip" />
+    <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="15.0dip" android:textColor="#ff5f6672" android:gravity="center" android:id="@id/oversea_change_account_login_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" android:text="退出登录" />
+</LinearLayout>

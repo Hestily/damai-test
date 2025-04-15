@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/cinema_list_item_buyone_giveone_decorate" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.pictures.moimage.MoImageView android:id="@id/cinema_list_item_buyone_giveone_tag" android:layout_width="130.0dip" android:layout_height="70.0dip" />
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <TextView android:textSize="10.0dip" android:textColor="#ffc46e31" android:id="@id/cinema_list_item_buyone_giveone_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="@dimen/cinema_list_page_hor_spacing" android:singleLine="true" />
+</LinearLayout>

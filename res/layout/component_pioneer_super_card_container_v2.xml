@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.damai.pioneer.component.supercard.v2.SingleTouchLinearLayout android:orientation="vertical" android:paddingTop="@dimen/resource_size_5" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.pioneer.component.supercard.v2.CategoryHorizontalListView android:id="@id/category_list" android:background="@drawable/bg_pioneer_home_super_card_category" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:paddingStart="@dimen/resource_size_12" app:snapGravity="start" />
+    <cn.damai.pioneer.component.supercard.viewpager.SuperCardProjectInfoView android:id="@id/super_card_project" android:background="@drawable/bg_white_gradient_0_24_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</cn.damai.pioneer.component.supercard.v2.SingleTouchLinearLayout>

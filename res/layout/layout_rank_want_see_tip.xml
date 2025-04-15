@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:id="@id/fl_want_see_tips_container" android:paddingBottom="@dimen/margin_20dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/want_see_bottombar_tip_bg" android:background="@drawable/bg_rank_detail_wantsee_tips" android:layout_width="fill_parent" android:layout_height="85.0dip" android:layout_marginStart="@dimen/margin_9dp" android:layout_marginEnd="@dimen/margin_9dp">
+        <cn.damai.uikit.view.round.RoundImageView2 android:background="@drawable/bg_rank_detail_wantsee_tips_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/margin_1dp" android:scaleType="centerCrop" app:rRadius="@dimen/margin_8dp" />
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/live_icon" android:layout_width="64.0dip" android:layout_height="57.0dip" android:layout_centerVertical="true" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="@raw/want_see_bottom_tips_big_heart_pop" />
+        <TextView android:textSize="12.0dip" android:textColor="#ff5f6672" android:gravity="center" android:id="@id/tv_open_notification" android:background="@drawable/want_see_open_bg" android:layout_width="51.0dip" android:layout_height="24.0dip" android:text="@string/want_see_tips_open_notification" android:layout_centerVertical="true" android:layout_marginEnd="25.0dip" android:layout_alignParentEnd="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/live_icon">
+            <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="30.0dip">
+                <TextView android:textSize="@dimen/margin_16dp" android:textColor="#ff2e333e" android:ellipsize="end" android:id="@id/want_see__bottombar_tip_texttop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+                <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_333333" android:layout_gravity="center_vertical" android:id="@id/want_see_bottombar_tip_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_youjiantou12" android:layout_marginStart="@dimen/margin_3dp" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/margin_12dp" android:textColor="#ff4d4d56" android:ellipsize="end" android:gravity="center" android:id="@id/want_see__bottombar_tip_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxLines="1" android:layout_marginEnd="30.0dip" />
+        </LinearLayout>
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_9dp" android:textColor="#ff5f6672" android:id="@id/want_see_bottombar_tip_close" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="@string/iconfont_guanbi12" android:layout_marginEnd="9.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</FrameLayout>

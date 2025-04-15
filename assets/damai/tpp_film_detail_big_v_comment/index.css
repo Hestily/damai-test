@@ -1,0 +1,94 @@
+#tpp_film_detail_big_v_comment {
+  width: 100%;
+  background-color: #ffffff;
+  padding-bottom: 12px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+#content_view {
+  border-radius: 6px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 66px;
+  width: 100%;
+  overflow: visible;
+  flex-shrink: 1;
+  background-color: #f7f8fa;
+  margin-left: 12px;
+  margin-right: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+#item_poster {
+  width: 42px;
+  height: 42px;
+  background-color: primaryFillColor;
+  mode: aspectFill;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border-radius: 21px;
+}
+#item_info_holder {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 12px;
+  margin-left: 8px;
+  padding-right: 10px;
+}
+#item_main_title {
+  text-overflow: ellipsis;
+  color: #2e333e;
+  font-size: 15px;
+  font-weight: 500;
+  flex-shrink: 1;
+  fit-content: true;
+  line-height: 15px;
+  lines: 1;
+}
+#item_content {
+  text-overflow: ellipsis;
+  color: #959aa5;
+  font-size: 12px;
+  font-weight: 400;
+  lines: 1;
+  width: 100%;
+  flex-shrink: 1;
+  height: 14px;
+  flex-grow: 1;
+  margin-top: 5px;
+}
+#item_btn_holder {
+  height: 27px;
+  border-radius: 0px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: visible;
+}
+#item_right_btn {
+  text-overflow: ellipsis;
+  height: 14px;
+  color: #959aa5;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
+  line-height: 12px;
+  fit-content: true;
+  margin-right: 2px;
+}
+#right_arrow {
+  font-family: iconfont;
+  font-style: normal;
+  font-size: 8px;
+  color: #959aa5;
+  height: 14px;
+  width: 8px;
+  margin-top: 4px;
+}

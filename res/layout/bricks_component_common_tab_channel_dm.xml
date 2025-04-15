@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_component_corner_card" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.pictures.bricks.component.general.PioneerOneTabLayout android:id="@id/component_tab_layout" android:layout_width="fill_parent" android:layout_height="34.0dip" android:layout_marginLeft="4.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="4.0dip" android:layout_toStartOf="@id/action_layout" app:tabGravity="start" app:tabMinWidth="@dimen/resource_size_25" app:tabPaddingEnd="0.0dip" app:tabPaddingStart="0.0dip" app:tabRippleColor="@null" style="@style/HomeFeedTabStyle" />
+        <View android:background="@drawable/text_view_end_cover" android:layout_width="15.0dip" android:layout_height="fill_parent" android:layout_toStartOf="@id/action_layout" />
+        <LinearLayout android:gravity="center_vertical" android:id="@id/action_layout" android:paddingTop="@dimen/resource_size_5" android:paddingBottom="@dimen/resource_size_5" android:layout_width="wrap_content" android:layout_height="@dimen/resource_size_28" android:layout_centerVertical="true" android:paddingStart="@dimen/resource_size_10" android:layout_marginEnd="@dimen/resource_size_12" android:layout_alignParentEnd="true">
+            <TextView android:textSize="@dimen/default_tab_btn_text" android:textColor="@color/title_right_btn_text_color" android:gravity="center" android:id="@id/action_one" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/default_tab_btn_text" android:textColor="@color/title_right_btn_text_color" android:gravity="center" android:id="@id/action_two" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="@dimen/resource_size_12" android:textColor="@color/title_right_btn_text_color" android:id="@id/right_arrow" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_youjiantou_" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.alient.onearch.adapter.component.tab.GenericTabViewContainer android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

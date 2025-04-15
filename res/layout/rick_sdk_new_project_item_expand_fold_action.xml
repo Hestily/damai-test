@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/rich_new_project_item_expand_fold_mask" android:background="@drawable/rich_sdk_bg_new_project_expand_mask" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" />
+    <TextView android:textSize="14.0dip" android:textColor="#ff2e333e" android:gravity="center" android:id="@id/rich_project_item_expand_fold_action" android:background="@drawable/rich_sdk_shape_rect_bottom_radius_9_solid_w" android:layout_width="fill_parent" android:layout_height="40.0dip" />
+</LinearLayout>

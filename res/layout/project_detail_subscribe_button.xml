@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_subscibe_bg" android:background="@drawable/subscribe_button_bg_selector" android:layout_width="wrap_content" android:layout_height="@dimen/margin_30dp" android:minWidth="69.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/art_subscribe_icon_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip">
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="@color/main_color" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/art_subscribe_add_icon" android:layout_width="14.0dip" android:layout_height="14.0dip" android:text="@string/iconfont_dingyue12" />
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/art_subscribe_progress" android:visibility="invisible" android:layout_width="12.0dip" android:layout_height="12.0dip" android:indeterminateDrawable="@drawable/project_detail_subscribe_loading_bg" style="?android:progressBarStyleSmall" />
+    </FrameLayout>
+    <TextView android:textSize="12.0dip" android:textColor="@drawable/subscribe_text_color_selector" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/art_subscribe_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/damai_main_subscribed_02" />
+</LinearLayout>

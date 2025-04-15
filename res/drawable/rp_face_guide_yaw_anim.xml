@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="85" android:drawable="@drawable/rp_face_guide_yaw1" />
+    <item android:duration="85" android:drawable="@drawable/rp_face_guide_yaw2" />
+    <item android:duration="85" android:drawable="@drawable/rp_face_guide_yaw3" />
+    <item android:duration="85" android:drawable="@drawable/rp_face_guide_yaw4" />
+    <item android:duration="85" android:drawable="@drawable/rp_face_guide_yaw5" />
+    <item android:duration="85" android:drawable="@drawable/rp_face_guide_yaw6" />
+    <item android:duration="85" android:drawable="@drawable/rp_face_guide_yaw7" />
+    <item android:duration="85" android:drawable="@drawable/rp_face_guide_yaw8" />
+    <item android:duration="85" android:drawable="@drawable/rp_face_guide_yaw9" />
+    <item android:duration="85" android:drawable="@drawable/rp_face_guide_yaw10" />
+    <item android:duration="85" android:drawable="@drawable/rp_face_guide_yaw11" />
+    <item android:duration="85" android:drawable="@drawable/rp_face_guide_yaw12" />
+    <item android:duration="85" android:drawable="@drawable/rp_face_guide_yaw13" />
+    <item android:duration="85" android:drawable="@drawable/rp_face_guide_yaw14" />
+    <item android:duration="85" android:drawable="@drawable/rp_face_guide_yaw15" />
+    <item android:duration="235" android:drawable="@drawable/rp_face_guide_yaw16" />
+</animation-list>

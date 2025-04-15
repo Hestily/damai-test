@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:background="@color/white" android:paddingLeft="@dimen/margin_15dp" android:paddingTop="@dimen/margin_13dp" android:paddingRight="@dimen/margin_15dp" android:paddingBottom="@dimen/margin_27dp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/margin_14dp" android:textColor="#ff7b7b7b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="只有这么多了╰(*°▽°*)╯" />
+</LinearLayout>

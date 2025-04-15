@@ -1,0 +1,11 @@
+{
+  "basic": [{
+    "filterLiveVideo": true,
+    "filterForbidItem": false
+  }],
+
+  "oneplayer": [{
+    "filterLiveVideo": true,
+    "filterForbidItem": true
+  }]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "damai_script_play_coupon_service_info",
+  "type": "gaia-template",
+  "package": {
+    "id": "damai_script_play_coupon_service_info",
+    "version": "0.0.1",
+    "modify-timestamp": "Fri Jun 17 2022 10:06:10 GMT+0800 (中国标准时间)",
+    "constraint-size": { "width": 375, "height": 132, "zoom": 1 },
+    "dependencies": { "damai_script_play_coupon_service_list": "0.0.0" }
+  },
+  "layers": [
+    { "id": "info_title", "type": "text" },
+    {
+      "id": "damai_script_play_coupon_service_list",
+      "type": "gaia-template",
+      "sub-type": "custom"
+    },
+    {
+      "id": "amount_view",
+      "type": "view",
+      "layers": [
+        { "id": "amount_title", "type": "text" },
+        { "id": "amount_price", "type": "text" }
+      ]
+    },
+    {
+      "id": "coupon_view",
+      "type": "view",
+      "layers": [
+        { "id": "coupon_title", "type": "text" },
+        { "id": "coupon_price", "type": "text" }
+      ]
+    },
+    { "id": "spacing_view", "type": "view" }
+  ]
+}

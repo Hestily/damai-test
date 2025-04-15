@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?bgFilmDetailAll" android:paddingBottom="@dimen/resource_size_15" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/resource_size_48">
+        <com.taobao.movie.android.app.ui.filmdetail.v2.widget.FilmDetailOneTabLayout android:id="@id/component_tab_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toStartOf="@id/action_layout" app:indicatorHeight="@dimen/resource_size_3" app:indicatorWidth="@dimen/resource_size_18" app:tabContentStart="@dimen/resource_size_1" app:tabGravity="start" style="?tabStyle" />
+        <LinearLayout android:gravity="center_vertical" android:id="@id/action_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/resource_size_15" android:layout_alignParentEnd="true">
+            <TextView android:textSize="@dimen/default_tab_btn_text" android:textColor="@color/cg_2" android:gravity="center" android:id="@id/action_one" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10.0dip" />
+            <TextView android:textSize="@dimen/default_tab_btn_text" android:textColor="@color/cg_2" android:gravity="center" android:id="@id/action_two" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10.0dip" />
+            <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="@dimen/default_tab_btn_text" android:textColor="@color/cg_2" android:gravity="center" android:id="@id/right_arrow" android:paddingTop="@dimen/resource_size_2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_font_right_small" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.alient.onearch.adapter.component.tab.GenericTabViewContainer android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

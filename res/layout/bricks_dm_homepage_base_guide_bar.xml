@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/homepage_header_bar" android:background="@drawable/bricks_transparent_bg" android:layout_width="fill_parent" android:layout_height="44.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/status_bar_space" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/homepage_header_container" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <cn.damai.uikit.copy.tag.DMCertInfoTagView android:layout_gravity="center_vertical" android:id="@id/homepage_header_cert_info" android:layout_width="24.0dip" android:layout_height="@dimen/margin_21dp" android:paddingEnd="@dimen/dim_5" android:layout_marginStart="-1.0dip" />
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/homepage_header_search_layout" android:background="@drawable/bricks_dm_home_guide_search_bg" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_weight="1.0">
+            <com.alibaba.pictures.bricks.view.DMUpMarqueeView android:id="@id/homepage_header_search" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginStart="@dimen/margin_12dp" android:layout_marginEnd="@dimen/margin_4dp" />
+            <TextView android:textSize="@dimen/font_Subhead2_M" android:textColor="@color/cg_7" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/homepage_header_search_btn" android:background="@drawable/bricks_dm_home_top_search_btn" android:layout_width="54.0dip" android:layout_height="26.0dip" android:text="@string/bricks_home_top_search_btn" android:layout_marginEnd="@dimen/dim_3" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ALiLoaddingView="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/title_layout" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="48.0dip" android:minHeight="48.0dip">
+        <RelativeLayout android:id="@id/left_top_layout" android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_centerVertical="true">
+            <TextView android:layout_gravity="center_vertical" android:id="@id/left_top_image" android:background="@drawable/ali_vsdk_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_centerVertical="true" />
+            <TextView android:textSize="16.0sp" android:textColor="#ff505156" android:gravity="center" android:id="@id/left_top_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:text="@string/ali_vsdk_titlebar_back" android:layout_toRightOf="@id/left_top_image" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ali_vsdk_titlebar_name" android:singleLine="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="15.0dip">
+            <TextView android:textSize="24.0sp" android:textStyle="normal" android:textColor="#ff000000" android:gravity="center" android:id="@id/tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/ali_vsdk_verify_call_title" android:maxLines="2" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip">
+                <RelativeLayout android:id="@id/number_layout" android:layout_width="fill_parent" android:layout_height="46.0dip">
+                    <TextView android:textSize="17.0dip" android:textColor="#ffadadad" android:id="@id/number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ali_vsdk_verify_number" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                    <EditText android:enabled="false" android:textSize="17.0dip" android:textColor="#ffadadad" android:id="@id/number_et" android:background="@null" android:focusable="false" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginLeft="20.0dip" android:layout_toRightOf="@id/number" android:layout_centerVertical="true" android:inputType="phone" />
+                </RelativeLayout>
+                <TextView android:background="#ffdedede" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <RelativeLayout android:id="@id/code_layout" android:layout_width="fill_parent" android:layout_height="46.0dip">
+                    <TextView android:textSize="17.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/code" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/ali_vsdk_verify_code" android:layout_alignParentLeft="true" />
+                    <TextView android:textSize="17.0dip" android:textColor="#ff1475ea" android:gravity="center" android:id="@id/verify_send_code" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/ali_vsdk_verify_sms_send_code" android:layout_alignParentRight="true" />
+                    <EditText android:textSize="17.0dip" android:id="@id/code_et" android:background="@null" android:layout_width="100.0dip" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:maxLength="10" android:layout_toRightOf="@id/code" android:layout_centerVertical="true" android:inputType="number" android:imeOptions="actionDone" android:imeActionLabel="@string/ali_vsdk_verify_submit" android:imeActionId="@id/submit" />
+                </RelativeLayout>
+                <TextView android:background="#ffdedede" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            </LinearLayout>
+            <TextView android:textSize="14.0dip" android:textColor="#ffadadad" android:gravity="center" android:id="@id/tips_sub" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/ali_vsdk_verify_call_calling" android:maxLines="2" android:lineSpacingExtra="6.0dip" />
+            <RelativeLayout android:layout_gravity="center" android:id="@id/btn_submit" android:background="@drawable/ali_vsdk_button" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginTop="30.0dip" android:alpha="0.6">
+                <TextView android:textSize="19.0sp" android:textColor="#ffcccccc" android:gravity="center" android:id="@id/submit_tx" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/ali_vsdk_verify_submit" android:layout_centerInParent="true" />
+                <com.alibaba.verificationsdk.widgets.ALiLoadingView android:id="@id/submit_loading" android:background="@drawable/ali_vsdk_button_icon_dengdai" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_toLeftOf="@id/submit_tx" android:layout_centerVertical="true" ALiLoaddingView:ali_vsdk_loading_type="1" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <ImageView android:gravity="center" android:id="@id/logo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ali_vsdk_logo" />
+</LinearLayout>

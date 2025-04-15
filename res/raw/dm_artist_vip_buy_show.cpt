@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.star.vipcard.VipCardModel",
+    "vClass": "cn.damai.tetris.component.star.vipcard.VipCardView",
+    "pClass": "cn.damai.tetris.component.star.vipcard.VipCardPresenter",
+    "layoutXml": "layout_vip_switcher"
+  }
+}

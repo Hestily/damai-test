@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/article_head" android:background="@color/tpp_gray_6" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" layout="@layout/oscar_media_header" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/topic_layout_view_article" />
+    <include android:id="@id/article_share_menu" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_alignBottom="@id/article_image" layout="@layout/oscar_article_favor_menu" />
+    <View android:id="@id/item_bottom_line" android:background="#ffe2e2e2" android:layout_width="fill_parent" android:layout_height="@dimen/space_line_height" android:layout_marginLeft="15.0dip" />
+</LinearLayout>

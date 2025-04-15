@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/pay_after_line" android:background="@drawable/order_list_line_bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginRight="@dimen/margin_15dp" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_pay_after_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginRight="@dimen/margin_15dp">
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_000000" android:id="@id/tv_pay_after_desc" android:paddingTop="@dimen/margin_16dp" android:paddingBottom="@dimen/margin_16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="即将开始选座" android:layout_centerVertical="true" />
+            <LinearLayout android:gravity="center_vertical" android:id="@id/ll_pay_after_time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/tv_pay_after_desc" android:layout_centerVertical="true">
+                <TextView android:textSize="@dimen/margin_10dp" android:textColor="@color/color_white" android:gravity="center" android:id="@id/tv_pay_after_hour" android:background="@drawable/bg_border_corner_time" android:layout_width="@dimen/margin_16dp" android:layout_height="@dimen/margin_16dp" android:layout_marginLeft="@dimen/margin_9dp" />
+                <TextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_000000" android:paddingLeft="@dimen/margin_3dp" android:paddingRight="@dimen/margin_3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=":" />
+                <TextView android:textSize="@dimen/margin_10dp" android:textColor="@color/color_white" android:gravity="center" android:id="@id/tv_pay_after_min" android:background="@drawable/bg_border_corner_time" android:layout_width="@dimen/margin_16dp" android:layout_height="@dimen/margin_16dp" />
+                <TextView android:textSize="13.0dip" android:textColor="@color/color_000000" android:paddingLeft="@dimen/margin_3dp" android:paddingRight="@dimen/margin_3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=":" />
+                <TextView android:textSize="@dimen/margin_10dp" android:textColor="@color/color_white" android:gravity="center" android:id="@id/tv_pay_after_sec" android:background="@drawable/bg_border_corner_time" android:layout_width="@dimen/margin_16dp" android:layout_height="@dimen/margin_16dp" />
+            </LinearLayout>
+        </RelativeLayout>
+        <include layout="@layout/order_first_choose_button" />
+    </LinearLayout>
+</merge>

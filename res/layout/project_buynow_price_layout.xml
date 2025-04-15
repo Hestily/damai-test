@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/project_detail_perform_bg_defalut" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="@dimen/margin_12dp" android:layout_marginRight="@dimen/margin_12dp" android:layout_marginBottom="@dimen/margin_10dp">
+        <TextView android:textSize="15.0dip" android:textColor="@color/color_666666" android:ellipsize="end" android:id="@id/project_buynow_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_12dp" android:singleLine="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="10.0dip" android:textColor="@color/color_666666" android:gravity="center" android:layout_width="wrap_content" android:layout_height="22.5dip" android:layout_marginLeft="3.5dip" android:text="元" android:layout_toRightOf="@id/project_buynow_price" android:layout_centerVertical="true" />
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="13.0dip" android:layout_alignParentRight="true">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/buynow_sub" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/project_buynow_price_sub_selected" />
+            <TextView android:textSize="15.0dip" android:textColor="@color/color_666666" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/buynow_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:layout_marginRight="21.0dip" android:text="1" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/buynow_plus" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/project_buynow_plus_selected" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/buynow_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:src="@drawable/project_buynow_price_close" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

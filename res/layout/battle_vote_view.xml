@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.taobao.movie.android.commonui.battle.BattleResultView android:id="@id/battle_result_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/agree_layout" android:background="@drawable/agree_btn_bg" android:focusable="true" android:clickable="true" android:layout_width="225.0dip" android:layout_height="70.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="end" android:id="@id/agree_name_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="赞同" android:maxLines="1" />
+        <TextView android:textSize="10.0dip" android:textColor="@color/color_tpp_primary_80_white" android:ellipsize="end" android:id="@id/agree_description_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="25.0dip" android:maxLines="1" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/disagree_layout" android:background="@drawable/disagree_btn_bg" android:focusable="true" android:clickable="true" android:layout_width="225.0dip" android:layout_height="70.0dip" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="end" android:layout_gravity="right" android:id="@id/disagree_name_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="不赞同" android:maxLines="1" />
+        <TextView android:textSize="10.0dip" android:textColor="@color/color_tpp_primary_80_white" android:ellipsize="end" android:layout_gravity="right" android:id="@id/disagree_description_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:maxLines="1" />
+    </LinearLayout>
+</merge>

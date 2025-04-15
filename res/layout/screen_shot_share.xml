@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/shot_share_bg" android:layout_width="fill_parent" android:layout_height="84.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/preview" android:layout_width="33.0dip" android:layout_height="33.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="7.0dip" android:scaleType="centerInside" />
+    <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/color_tpp_primary_subtitle" android:layout_gravity="center_vertical" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/share_schedule_tips" android:layout_weight="1.0" />
+    <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="@dimen/text_size_20" android:textColor="@color/color_tpp_primary_main_title" android:layout_gravity="center_vertical" android:id="@id/share" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="17.0dip" android:text="@string/icon_font_share_icon" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_dialog_black" android:layout_width="124.0dip" android:layout_height="103.0dip">
+        <cn.damai.uikit.irecycler.widget.LoadingView android:layout_gravity="center_horizontal" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginTop="16.0dip" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/color_ffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_progress_dialog_label" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="尝试提交中..." />
+    </LinearLayout>
+</LinearLayout>

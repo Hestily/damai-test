@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.ip.IpInfoModel",
+    "vClass": "cn.damai.tetris.component.ip.IpInfoView",
+    "pClass": "cn.damai.tetris.component.ip.IpInfoPresenter",
+    "layoutXml": "layout_videoinfo_ip"
+  }
+}

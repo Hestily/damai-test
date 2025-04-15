@@ -1,0 +1,19 @@
+{
+  "data": {
+    "gaia_dm_hot_music_festival_project": { "value": "$$" },
+    "dm_hot_music_title": {
+      "value": "${style.title}",
+      "extend": { "font-weight": "@{ env(isAndroid) ? '400' : '500' }" }
+    },
+    "dm_hot_music_all_btn_title": { "value": "全部" },
+    "dm_hot_music_all_btn_image": { "value": "&#xe719;" },
+    "gaia_dm_hot_music_festival_project_list": { "value": "$$" }
+  },
+  "event": {
+    "dm_hot_music_all_btn": {
+      "value": "${style.url}",
+      "spm": { "spmc": "hotmusic", "spmd": "all" },
+      "spmArgs": { "titlelabel": "热门演出", "item_id": "${id}" }
+    }
+  }
+}

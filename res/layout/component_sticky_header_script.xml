@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alient.onearch.adapter.widget.OneTabLayout android:id="@id/component_sticky_tab_layout" android:background="@drawable/script_sticky_header_bg_round" android:layout_width="fill_parent" android:layout_height="@dimen/resource_size_53" app:tabMinWidth="@dimen/resource_size_25" app:tabPaddingEnd="0.0dip" app:tabPaddingStart="0.0dip" style="@style/ScriptTabStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

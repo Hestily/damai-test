@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar">
+        <FrameLayout android:id="@id/web_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <cn.damai.h5container.DamaiWebView android:id="@id/webview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.taomai.android.h5container.widget.H5Progress android:id="@id/horizontal_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0dip" android:max="100" android:progressDrawable="@drawable/webview_progress_drawable" style="?android:progressBarStyleHorizontal" />
+        </FrameLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <com.taomai.android.h5container.widget.H5ToolBar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+</RelativeLayout>

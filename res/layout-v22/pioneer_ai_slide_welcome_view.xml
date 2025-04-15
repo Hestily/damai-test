@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/resource_size_15" android:paddingRight="@dimen/resource_size_15" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/resource_size_15"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/id_slide_ai_top_space" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="@dimen/resource_size_20" android:textColor="@color/bricks_171717" android:id="@id/id_pioneer_ai_welcome_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/resource_size_32" />
+    <TextView android:id="@id/id_pioneer_ai_welcome_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/resource_size_12" android:layout_marginBottom="@dimen/resource_size_3" android:lineSpacingExtra="3.0dip" />
+</LinearLayout>

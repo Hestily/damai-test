@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/root_view" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/theme_bg_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/theme_bg_image" android:layout_width="fill_parent" android:layout_height="242.0dip" android:scaleType="centerCrop" />
+    </FrameLayout>
+    <cn.damai.uikit.view.NewSimpleTitleLayout android:id="@id/theme_title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <cn.damai.uikit.view.CompatPtrFrameLayout android:id="@id/theme_ptr" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/theme_title_bar">
+        <cn.damai.uikit.view.CompatCoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.google.android.material.appbar.AppBarLayout android:id="@id/theme_app_bar" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll">
+                    <LinearLayout android:orientation="vertical" android:id="@id/theme_header_bg" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="18.0dip" android:textColor="@color/white" android:ellipsize="end" android:id="@id/theme_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="313.0dip" android:maxLines="2" android:lineSpacingExtra="10.0dip" />
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginBottom="@dimen/margin_20dp">
+                            <cn.damai.uikit.number.DMDigitTextView android:textSize="12.0dip" android:textColor="@color/white" android:id="@id/theme_person_contentCount" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                            <View android:id="@id/view_line" android:background="@color/white" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="8.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+                            <cn.damai.uikit.number.DMDigitTextView android:textSize="12.0dip" android:textColor="@color/white" android:id="@id/theme_person_ipvuv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        </LinearLayout>
+                        <TextView android:textSize="12.0dip" android:textColor="#ccffffff" android:ellipsize="end" android:id="@id/theme_desc_v2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_15dp" android:maxLines="2" android:lineSpacingExtra="6.0dip" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_theme_header_round" android:paddingLeft="@dimen/margin_12dp" android:paddingTop="12.0dip" android:paddingRight="@dimen/margin_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <cn.damai.discover.main.ui.view.DMThemeProjectItemView android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/theme_project_ui" android:background="@drawable/bg_theme_project_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="68.0dip" android:layout_marginBottom="@dimen/margin_9dp" />
+                        <ViewStub android:id="@id/theme_rank_view_stub" android:layout="@layout/item_theme_rank_list" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_marginBottom="@dimen/margin_9dp" />
+                        <cn.damai.baseview.RCRelativeLayoutView android:id="@id/theme_image_ui" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="9.0dip" app:round_corner="8.0dip">
+                            <ImageView android:id="@id/theme_banner_img" android:layout_width="fill_parent" android:layout_height="88.0dip" android:scaleType="fitXY" />
+                        </cn.damai.baseview.RCRelativeLayoutView>
+                        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="9.0dip" android:layout_below="@id/theme_circle_head_holder" layout="@layout/theme_circle_head_vote" />
+                        <cn.damai.comment.view.DMHotDiscussView android:id="@id/theme_discuss_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="18.0dip" />
+                    </LinearLayout>
+                    <cn.damai.uikit.snake.HorScrollView android:id="@id/layout_horscroll" android:background="@color/dk_color_F4F5F6" android:paddingLeft="@dimen/margin_6dp" android:paddingRight="@dimen/margin_6dp" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </com.google.android.material.appbar.AppBarLayout>
+            <cn.damai.discover.main.ui.view.NoScrollViewPager android:id="@id/view_pager" android:background="@color/dk_color_F4F5F6" android:paddingLeft="@dimen/margin_8dp" android:paddingRight="@dimen/margin_8dp" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        </cn.damai.uikit.view.CompatCoordinatorLayout>
+    </cn.damai.uikit.view.CompatPtrFrameLayout>
+    <include layout="@layout/activity_theme_publish" />
+    <FrameLayout android:id="@id/main_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/theme_title_bar" />
+</RelativeLayout>

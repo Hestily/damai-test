@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/activity_media_page_root" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/fragment_container" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/media_page_title_bar" layout="@layout/media_page_title_bar_layout" />
+</FrameLayout>

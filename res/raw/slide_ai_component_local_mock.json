@@ -1,0 +1,300 @@
+{
+  "api": "mtop.damai.mec.aristotle.get",
+  "data": {
+    "data": {
+      "top": {
+        "welcome": {
+          "title": "上午好 :)",
+          "subTitle": "你关注的艺人有新演出上架啦，快去看看吧～",
+          "jumpUrl": "xxx"
+        }
+      },
+      "bottom": {
+        "layerId": "6a543c53-2825-474c-bf9d-fa5fbd7a351f",
+        "sectionId": "19f67ad6-d27b-4e3d-967a-e82d7b99418c",
+        "aiSearch": {
+          "searchShade": "点我帮你推荐心动演出",
+          "searchJumpUrl": "xxx"
+        }
+      },
+      "spmab": "a2o4t.scenic",
+      "serverTime": "1735026879727",
+      "pageName": "scenic"
+    },
+    "level": "0",
+    "more": "false",
+    "nodes": [
+      {
+        "data": {
+          "nodeId": "0fb26a2f-468d-45dc-8535-3a33972a5572"
+        },
+        "level": "1",
+        "more": "false",
+        "nodes": [
+          {
+            "data": {
+              "componentId": "app_home_pioneer_sidebar_notification",
+              "isFilterEmpty": "true",
+              "nodeId": "9b13f181-ee16-4cc4-9a9c-bbc6fa8e296f"
+            },
+            "level": "2",
+            "more": "false",
+            "nodes": [
+              {
+                "data": {
+                  "title": "消息通知",
+                  "message": "张杰巡演香港站澳门站正式官宣",
+                  "messageTime": "今天",
+                  "jumpUrl": "xxx",
+                  "messageCount": "2"
+                },
+                "level": "3",
+                "more": "false",
+                "type": "7907"
+              }
+            ],
+            "style": {
+            },
+            "type": "7898"
+          },
+          {
+            "data": {
+              "componentId": "test_componentId_silde_grab_calendar",
+              "action": {
+                "item": {
+                  "trackInfo": {
+                    "spmc": "venuecard"
+                  }
+                }
+              },
+              "isFilterEmpty": "true",
+              "nodeId": "9508e93a-2edc-4895-8df5-8a08dddc5900"
+            },
+            "level": "2",
+            "more": "false",
+            "nodes": [
+              {
+                "data": {
+                  "title": "抢票日历",
+                  "project": {
+                    "itemId": "111",
+                    "title": "张杰演唱会·北京站",
+                    "subTitle": "今日15:21开抢",
+                    "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i1/2251059038/O1CN01JaMM2j2GdSekqhFnN_!!2251059038.jpg"
+                  },
+                  "calendar": [
+                    {
+                      "date": "12",
+                      "count": 0,
+                      "highlight": "true",
+                      "jumpUrl": "xxx"
+                    },
+                    {
+                      "date": "13",
+                      "count": 2,
+                      "highlight": "false",
+                      "jumpUrl": "xxx"
+                    },
+                    {
+                      "date": "14",
+                      "count": 0,
+                      "highlight": "false",
+                      "jumpUrl": "xxx"
+                    }
+                  ],
+                  "jumpUrl": "xxx"
+                },
+                "level": "3",
+                "more": "false",
+                "type": "7908"
+              }
+            ],
+            "style": {},
+            "type": "7899"
+          },
+          {
+            "data": {
+              "componentId": "test_componentId_silde_ai",
+              "action": {
+                "item": {
+                  "trackInfo": {
+                    "spmc": "venuecard"
+                  }
+                }
+              },
+              "isFilterEmpty": "true",
+              "nodeId": "9508e93a-2edc-4895-8df5-8a08dddc5900"
+            },
+            "level": "2",
+            "more": "false",
+            "nodes": [
+              {
+                "data": {
+                  "poster": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01sgG3Dw2GdSeTL9H1i_!!2251059038.png",
+                  "posterType": "1",
+                  "subTitle": "我是描述啊啊啊啊啊啊啊啊",
+                  "title": "我是标题哇哇哇哇哇哇"
+                },
+                "level": "3",
+                "more": "false",
+                "type": "7909"
+              },
+              {
+                "data": {
+                  "poster": "https://intercms.damai.cn/artist/pic/1699583886568/1699583886568-main.jpg",
+                  "posterType": "2",
+                  "subTitle": "已开售",
+                  "title": "邓紫棋 I AM GLORIA 世界巡回演唱会"
+                },
+                "level": "3",
+                "more": "false",
+                "type": "7909"
+              },
+              {
+                "data": {
+                  "poster": "https://intercms.damai.cn/artist/pic/1521704756482/1521704756482-main.jpg",
+                  "posterType": "2",
+                  "subTitle": "已开售",
+                  "title": "罗琦《随心所欲》三十载“Chic琦界 ”巡回演唱会"
+                },
+                "level": "3",
+                "more": "false",
+                "type": "7909"
+              },
+              {
+                "data": {
+                  "poster": "https://intercms.damai.cn/artist/pic/1521704756482/152170475648",
+                  "posterType": "2",
+                  "subTitle": "已开售Type2",
+                  "title": "Url有误"
+                },
+                "level": "3",
+                "more": "false",
+                "type": "7909"
+              },
+              {
+                "data": {
+                  "posterType": "2",
+                  "subTitle": "已开售",
+                  "title": "Url空Type2"
+                },
+                "level": "3",
+                "more": "false",
+                "type": "7909"
+              },
+              {
+                "data": {
+                  "poster": "https://intercms.damai.cn/artist/pic/1521704756482/152170475648",
+                  "posterType": "1",
+                  "subTitle": "已开售Type1",
+                  "title": "Url有误"
+                },
+                "level": "3",
+                "more": "false",
+                "type": "7909"
+              },
+              {
+                "data": {
+                  "desc": "关注占位"
+                },
+                "level": "3",
+                "more": "false",
+                "type": "7910"
+              }
+            ],
+            "style": {},
+            "type": "7900"
+          },
+          {
+            "data": {
+              "componentId": "test_componentId_silde_ai",
+              "action": {
+                "item": {
+                  "trackInfo": {
+                    "spmc": "venuecard"
+                  }
+                }
+              },
+              "isFilterEmpty": "true",
+              "nodeId": "9508e93a-2edc-4895-8df5-8a08dddc5900"
+            },
+            "level": "2",
+            "more": "false",
+            "nodes": [
+              {
+                "data": {
+                  "desc": "empty 占位"
+                },
+                "level": "3",
+                "more": "false",
+                "type": "7912"
+              }
+            ],
+            "style": {},
+            "type": "7902"
+          },
+          {
+            "data": {
+              "componentId": "test_componentId_silde_ai",
+              "action": {
+                "item": {
+                  "trackInfo": {
+                    "spmc": "venuecard"
+                  }
+                }
+              },
+              "isFilterEmpty": "true",
+              "nodeId": "9508e93a-2edc-4895-8df5-8a08dddc5900"
+            },
+            "level": "2",
+            "more": "false",
+            "nodes": [
+              {
+                "data": {
+                  "desc": "登录 占位"
+                },
+                "level": "3",
+                "more": "false",
+                "type": "7913"
+              }
+            ],
+            "style": {},
+            "type": "7903"
+          },
+          {
+            "data": {
+              "componentId": "test_componentId_silde_ai",
+              "action": {
+                "item": {
+                  "trackInfo": {
+                    "spmc": "venuecard"
+                  }
+                }
+              },
+              "isFilterEmpty": "true",
+              "nodeId": "9508e93a-2edc-4895-8df5-8a08dddc5900"
+            },
+            "level": "2",
+            "more": "false",
+            "nodes": [
+              {
+                "data": {
+                  "desc": "开启 占位"
+                },
+                "level": "3",
+                "more": "false",
+                "type": "7911"
+              }
+            ],
+            "style": {},
+            "type": "7901"
+          }
+        ]
+      }
+    ]
+  },
+  "ret": [
+    "SUCCESS::调用成功"
+  ],
+  "v": "3.0"
+}

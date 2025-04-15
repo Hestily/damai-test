@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/dim_8" android:layout_width="74.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="98.0dip">
+        <com.alibaba.pictures.bricks.view.RoundImageView android:layout_width="74.0dip" android:layout_height="98.0dip" android:src="@drawable/bricks_venue_coupon_cardbg" android:scaleType="centerCrop" app:borderRadius="6.0dip" app:type="round" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/tv_money_ll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_centerHorizontal="true">
+                <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="12.0dip" android:textColor="#ffff7600" android:gravity="bottom" android:id="@id/tv_money" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="¥" />
+                <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="28.0dip" android:textColor="#ffff7600" android:ellipsize="end" android:gravity="bottom" android:id="@id/tv_price" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:maxLines="1" android:layout_toRightOf="@id/tv_money" />
+            </LinearLayout>
+            <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="9.0dip" android:textColor="#ffff7600" android:layout_gravity="center_horizontal" android:id="@id/homepage_item_subinfo" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-3.0dip" android:lines="1" android:singleLine="true" android:includeFontPadding="false" />
+        </LinearLayout>
+        <LinearLayout android:paddingLeft="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="9.0dip" android:includeFontPadding="false" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="11.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_vertical" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="-3.0dip" android:text="立即领取" android:lines="1" android:singleLine="true" android:includeFontPadding="false" />
+            <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="14.0dip" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_xf_bofang" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="@dimen/font_Subhead2_M" android:textColor="@color/cg_1" android:id="@id/homepage_project_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:maxLines="2" android:minLines="2" android:lineSpacingExtra="2.0dip" />
+    <View android:layout_gravity="end" android:id="@id/homepage_project_item_title_endcover" android:background="@drawable/text_view_end_cover" android:visibility="visible" android:layout_width="10.0dip" android:layout_height="14.0dip" android:layout_marginTop="-14.0dip" />
+</LinearLayout>

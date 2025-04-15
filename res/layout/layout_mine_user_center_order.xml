@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/ll_mine_olympic" android:background="@drawable/bg_olympic_banner" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_12dp" android:layout_marginRight="@dimen/margin_12dp" android:layout_marginBottom="@dimen/margin_9dp" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <cn.damai.uikit.view.RoundImageView android:id="@id/iv_olympic" android:layout_width="fill_parent" android:layout_height="50.0dip" android:scaleType="centerCrop" app:borderRadius="@dimen/margin_8dp" app:type="round" />
+    </FrameLayout>
+    <include android:id="@id/rv_mine_announcement" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_12dp" android:layout_marginRight="@dimen/margin_12dp" android:layout_marginBottom="@dimen/margin_9dp" layout="@layout/layout_mine_user_center_announcement" />
+</LinearLayout>

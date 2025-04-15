@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar_layout" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stateListAnimator="@drawable/order_detail_appbar_ele">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/toolbar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:collapsedTitleGravity="center" app:layout_scrollFlags="scroll|exitUntilCollapsed">
+                <ImageView android:id="@id/iv_ticket_rob" android:background="@color/color_ff2d79" android:layout_width="fill_parent" android:layout_height="218.0dip" android:scaleType="centerCrop" />
+                <include android:gravity="top" android:orientation="vertical" android:id="@id/iv_ticket_rob_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_collapseMode="pin" layout="@layout/layout_ticket_guide_header" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/irc" android:background="@color/white" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        </LinearLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

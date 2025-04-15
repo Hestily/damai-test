@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/margin_30dp" android:id="@id/sound_test_success" android:background="#ffff00ee" android:padding="@dimen/margin_20dp" android:layout_width="fill_parent" android:layout_height="100.0dip" android:text="toast 8.1.0 add crash 测试"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

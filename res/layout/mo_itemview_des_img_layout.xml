@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="13.0dip" android:textColor="@color/tpp_gray_1" android:id="@id/mo_itemview_desimg_layout_des" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" app:layout_constraintLeft_toRightOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.alibaba.pictures.moimage.MoImageView android:id="@id/mo_itemview_desimg_layout_img" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="230.0dip" android:layout_marginTop="10.0dip" app:failureImage="@drawable/oscar_default_image" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/mo_itemview_desimg_layout_des" app:layout_goneMarginTop="0.0dip" app:placeholderImage="@drawable/oscar_default_image" />
+</androidx.constraintlayout.widget.ConstraintLayout>

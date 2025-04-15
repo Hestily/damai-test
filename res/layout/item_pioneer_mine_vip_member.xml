@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="7.0dip" android:paddingEnd="30.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.uikit.shadowlayout.DMShadowLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:sl_cornerRadius="@dimen/resource_size_12" app:sl_shadowColor="#14000000" app:sl_shadowRadius="8.0dip">
+        <com.alibaba.pictures.bricks.view.CornerFrameLayout android:layout_width="fill_parent" android:layout_height="92.0dip" app:clip_corner_radius="@dimen/resource_size_18">
+            <View android:background="@color/bricks_white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.alibaba.pictures.bricks.view.CornerFrameLayout android:layout_gravity="center" android:id="@id/id_pioneer_mine_vip_corner_layout" android:layout_width="fill_parent" android:layout_height="90.0dip" android:layout_marginStart="1.0dip" android:layout_marginEnd="1.0dip" app:clip_corner_radius="@dimen/resource_size_18">
+                <ImageView android:id="@id/id_pioneer_mine_vip_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/resource_size_12" android:layout_marginStart="@dimen/resource_size_12" android:layout_marginEnd="@dimen/resource_size_9">
+                    <ImageView android:id="@id/id_pioneer_mine_vip_prefix_icon" android:layout_width="wrap_content" android:layout_height="@dimen/resource_size_14" android:adjustViewBounds="true" />
+                    <LinearLayout android:gravity="end|center" android:orientation="horizontal" android:id="@id/id_pioneer_mine_vip_right_title_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/resource_size_3">
+                        <TextView android:textSize="@dimen/resource_size_12" android:textColor="#b3fec9a3" android:ellipsize="end" android:gravity="end" android:id="@id/id_pioneer_mine_vip_right_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:lines="1" android:layout_weight="1.0" />
+                        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/resource_size_12" android:textColor="#b3fec9a3" android:id="@id/id_pioneer_mine_vip_right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_rukoujiantou_16" />
+                    </LinearLayout>
+                </LinearLayout>
+                <cn.damai.mine.view.banner.Banner android:layout_gravity="bottom" android:id="@id/id_pioneer_mine_vip_banner" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginBottom="@dimen/resource_size_12" android:layout_marginStart="@dimen/resource_size_12" android:layout_marginEnd="@dimen/resource_size_12" />
+                <ImageView android:id="@id/id_pioneer_mine_vip_shinning" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/icon_pioneer_vip_shinning" />
+            </com.alibaba.pictures.bricks.view.CornerFrameLayout>
+        </com.alibaba.pictures.bricks.view.CornerFrameLayout>
+    </cn.damai.uikit.shadowlayout.DMShadowLayout>
+</FrameLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/color_ffffff" android:paddingLeft="@dimen/margin_21dp" android:paddingTop="@dimen/margin_16dp" android:paddingRight="@dimen/margin_21dp" android:paddingBottom="@dimen/margin_15dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/project_atmospheric_banner_iv" android:layout_width="fill_parent" android:layout_height="96.0dip" android:src="@drawable/uikit_default_image_bg_grey" android:scaleType="fitCenter" />
+</FrameLayout>

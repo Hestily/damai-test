@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/color_tpp_primary_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <TextView android:textSize="@dimen/text_size_15_dp" android:textStyle="bold" android:textColor="@color/tpp_gray_0" android:id="@id/tv_coupon_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/text_size_12_dp" android:textColor="@color/tpp_gray_3" android:id="@id/tv_coupon_sum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="" android:layout_toRightOf="@id/tv_coupon_name" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/right_zone" android:paddingRight="17.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <TextView android:textSize="14.0dip" android:textColor="@color/color_tpp_primary_assist" android:id="@id/tv_coupon_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_centerVertical="true" />
+            <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="15.0dip" android:textColor="@color/color_tpp_primary_assist" android:id="@id/arrow_down_up" android:paddingLeft="3.0dip" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_font_down_small" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/coupon_container" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:background="@color/color_tpp_primary_divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="15.0dip" />
+</LinearLayout>

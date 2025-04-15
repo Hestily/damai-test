@@ -1,0 +1,27 @@
+{
+  "id": "tpp_art_headline_list_item",
+  "type": "gaia-template",
+  "package": {
+    "id": "tpp_art_headline_list_item",
+    "version": "0.0.1",
+    "constraint-size": { "width": 375, "height": 43, "zoom": 1 },
+    "modify-timestamp": "Tue Nov 16 2021 16:09:57 GMT+0800 (中国标准时间)",
+    "dependencies": {}
+  },
+  "layers": [
+    {
+      "id": "contentView",
+      "type": "view",
+      "layers": [
+        { "id": "rank", "type": "text" },
+        { "id": "info", "type": "text" },
+        {
+          "id": "tagview",
+          "type": "view",
+          "layers": [{ "id": "tag", "type": "text" }]
+        }
+      ]
+    },
+    { "id": "partline", "type": "view" }
+  ]
+}

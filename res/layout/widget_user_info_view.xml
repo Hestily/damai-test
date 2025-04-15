@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.damai.uikit.view.DMAvatar android:id="@id/user_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <View android:id="@id/user_icon_right_margin" android:layout_width="9.0dip" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="vertical" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0dip" android:textColor="@color/color_000000" android:id="@id/user_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+            <cn.damai.uikit.view.UserTagView android:id="@id/user_tag_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" />
+            <cn.damai.uikit.view.UserTagView android:id="@id/user_old_vip_tag_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" />
+        </LinearLayout>
+        <View android:id="@id/user_name_bottom_margin" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+        <TextView android:textSize="10.0dip" android:textColor="@color/color_9C9CA5" android:id="@id/user_desc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_user_dna" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="10.0dip" android:textColor="@color/color_9c9ca5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/user_dna_part1" />
+            <ImageView android:layout_width="48.0dip" android:layout_height="9.0dip" android:layout_marginTop="0.5dip" android:src="@drawable/icon_discover_content_detail_dna" android:scaleType="fitXY" android:layout_marginStart="0.5dip" />
+            <cn.damai.uikit.number.DMDigitTextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/color_dna" android:id="@id/tv_user_dna_value" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

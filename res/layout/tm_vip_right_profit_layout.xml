@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.pictures.bricks.view.RCRelativeLayoutView android:id="@id/rl_tm_right_profit_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_6dp" android:layout_marginRight="@dimen/margin_6dp" app:round_corner="@dimen/margin_9dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_tm_right_profit_layout" android:background="@drawable/pic_discount_vip_entry_icon" android:layout_width="fill_parent" android:layout_height="36.0dip">
+        <TextView android:textSize="@dimen/margin_12dp" android:textColor="#ff874953" android:ellipsize="end" android:id="@id/tv_tm_right_profit_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_12dp" android:layout_marginRight="@dimen/margin_4dp" android:maxLines="1" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/margin_12dp" android:textColor="#ff874953" android:id="@id/tv_tm_right_profit_action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="点击查看" />
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_10dp" android:textColor="#ff874953" android:id="@id/tv_tm_right_profit_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_2dp" android:layout_marginTop="@dimen/margin_1dp" android:layout_marginRight="@dimen/margin_9dp" android:text="@string/iconfont_ticket_rightarrows" />
+    </LinearLayout>
+</com.alibaba.pictures.bricks.view.RCRelativeLayoutView>

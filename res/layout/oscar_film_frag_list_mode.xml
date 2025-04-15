@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/mix_appbar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+            <com.taobao.movie.android.commonui.widget.Appbar android:id="@id/title_bar" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" app:fit_window="false" app:layout_scrollFlags="scroll|enterAlways" app:menu1_icon_font="@string/iconf_map" app:menu1_show="true" app:menu2_icon_font="@string/iconf_scan" app:menu2_show="true" app:mode_enum="search" app:search_view_hint="@string/home_search_tip" app:show_navigation="false" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="40.0dip">
+                    <com.taobao.movie.android.commonui.widget.MaterialTabLayout android:id="@id/navigate_tab" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tab_IndicatorAnimation="true" app:tab_IndicatorBottomLeftRadius="0.0dip" app:tab_IndicatorBottomRightRadius="0.0dip" app:tab_IndicatorColor="@color/tpp_primary_red" app:tab_IndicatorFullWidth="false" app:tab_IndicatorHeight="3.0dip" app:tab_IndicatorTopLeftRadius="3.0dip" app:tab_IndicatorTopRightRadius="3.0dip" app:tab_IndicatorWidth="24.0dip" app:tab_Mode="fixed" app:tab_SelectedTextBoldStyle="true" app:tab_TextColor="@color/color_tab_home" app:tab_TextSize="16.0sp" />
+                </FrameLayout>
+                <androidx.viewpager.widget.ViewPager android:id="@id/viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </LinearLayout>
+        </FrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <ViewStub android:id="@id/surprise_red_packet_now_playing" android:layout="@layout/surprise_red_coupon_viewstub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

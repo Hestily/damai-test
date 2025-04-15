@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.viewpager2.widget.ViewPager2 android:orientation="vertical" android:id="@id/root_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.damai.discover.media.ui.MediaGuideView android:id="@id/media_guide_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

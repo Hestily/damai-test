@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/common_text_color46" android:paddingLeft="12.0dip" android:paddingTop="3.0dip" android:paddingRight="15.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.flexbox.FlexboxLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:flexWrap="wrap">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingRight="25.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="12.5dip" android:textColor="@color/color_tpp_primary_subtitle" android:id="@id/refund_label_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_main_title" android:id="@id/refund_desc_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="12.5dip" android:textColor="@color/color_tpp_primary_assist" android:id="@id/refund_label_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_main_title" android:id="@id/refund_desc_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:singleLine="true" />
+        </LinearLayout>
+    </com.google.android.flexbox.FlexboxLayout>
+</RelativeLayout>

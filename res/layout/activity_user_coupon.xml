@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/color_f8f8f8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/header_bar" android:background="@color/white" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/title_bar_space" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+        <RelativeLayout android:id="@id/title_content" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_below="@id/title_bar_space">
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_20dp" android:textColor="@color/color_000000" android:gravity="center_vertical" android:id="@id/ll_header_left" android:paddingLeft="@dimen/margin_18dp" android:paddingRight="@dimen/margin_18dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/iconfont_fanhui24" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/color_000000" android:gravity="center" android:id="@id/btn_header_right" android:paddingLeft="12.0dip" android:paddingRight="18.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mine_coupon_exchange" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/margin_20dp" android:textColor="@color/color_000000" android:gravity="center" android:id="@id/tv_header_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/damai_cinemaorder_coupons" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <cn.damai.uikit.indicator.PagerIndicator android:layout_gravity="center_horizontal" android:id="@id/indicator" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="45.0dip" app:pi_allowWidthFull="true" app:pi_disableTensileSlidingBlock="true" app:pi_slidingBlock="@drawable/common_business_image_sliding_block" />
+    <View android:background="@color/color_eeeeee" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <androidx.viewpager.widget.ViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:flipInterval="30" />
+</LinearLayout>

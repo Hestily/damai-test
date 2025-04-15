@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="@android:color/black" android:gravity="left" android:id="@id/bricks_richtext_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginBottom="7.0dip" android:text="图文详情" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/bricks_richtext_recycleview" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="12.0dip" android:textColor="#ff30aeff" android:gravity="center" android:id="@id/bricks_richtext_click_more" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="41.0dip" android:text="展开更多" />
+</LinearLayout>

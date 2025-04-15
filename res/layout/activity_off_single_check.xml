@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@drawable/off_single_check_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.taobao.movie.statemanager.StateLayout android:id="@id/state_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="90.0dip">
+                <TextView android:textSize="27.0dip" android:textColor="#ff4b4a50" android:id="@id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:text="正在安检中..." />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginTop="35.0dip" android:layout_marginRight="32.0dip">
+                    <FrameLayout android:layout_gravity="center" android:id="@id/fl_head_modify" android:clickable="true" android:layout_width="110.0dip" android:layout_height="110.0dip" android:onClick="onClick">
+                        <com.taobao.movie.android.commonui.widget.SimpleDraweeView android:layout_gravity="center" android:id="@id/head_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" fresco:placeholderImage="@drawable/header_place_holder_2" fresco:placeholderImageScaleType="centerCrop" fresco:roundedCornerRadius="55.0dip" />
+                        <ImageView android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/off_single_head_bottom_bg" android:scaleType="fitXY" />
+                        <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/white" android:layout_gravity="bottom|center" android:id="@id/tv_head_modify" android:padding="6.5dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="去修改" />
+                    </FrameLayout>
+                    <TextView android:textSize="14.0dip" android:textColor="@color/off_single_gray" android:ellipsize="end" android:id="@id/tv_head_tips" android:paddingTop="@dimen/margin_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="@dimen/margin_12" android:layout_marginRight="20.0dip" android:maxLines="2" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:layout_marginRight="26.0dip">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/step_layout" android:layout_width="22.0dip" android:layout_height="wrap_content" android:layout_marginTop="45.0dip">
+                        <TextView android:textColor="#ff979797" android:gravity="center" android:id="@id/step1_tv" android:background="@drawable/off_single_step_bg_hollow" android:layout_width="22.0dip" android:layout_height="22.0dip" android:text="1" />
+                        <View android:id="@id/nickname_line" android:background="@color/off_single_gray" android:layout_width="1.0px" android:layout_height="43.5dip" android:alpha="0.4" />
+                        <TextView android:textColor="#ff979797" android:gravity="center" android:id="@id/step2_tv" android:background="@drawable/off_single_step_bg_hollow" android:layout_width="22.0dip" android:layout_height="22.0dip" android:text="2" />
+                        <View android:id="@id/sex_line" android:background="@color/off_single_gray" android:layout_width="1.0px" android:layout_height="43.5dip" android:alpha="0.4" />
+                        <TextView android:textColor="#ff979797" android:gravity="center" android:id="@id/step3_tv" android:background="@drawable/off_single_step_bg_hollow" android:layout_width="22.0dip" android:layout_height="22.0dip" android:text="3" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/step_content_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_marginTop="35.0dip" android:layout_weight="1.0">
+                        <include android:id="@id/ll_step1" layout="@layout/include_off_single_step" />
+                        <include android:id="@id/ll_step2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" layout="@layout/include_off_single_step" />
+                        <include android:id="@id/ll_step3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" layout="@layout/include_off_single_step" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:id="@id/bottom_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" android:layout_marginBottom="100.0dip" android:alpha="0.0">
+                    <TextView android:textSize="17.0dip" android:textColor="#ffff4d64" android:gravity="center" android:id="@id/modify_tv" android:background="@drawable/dialog_modify_personal_btn_bg_border" android:layout_width="165.0dip" android:layout_height="45.0dip" android:layout_marginLeft="30.0dip" android:text="修改个人信息" android:layout_below="@id/desc_tv" android:layout_centerHorizontal="true" android:onClick="onClick" />
+                    <TextView android:textSize="17.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/goto_single" android:background="@drawable/dialog_modify_personal_btn_bg_normal" android:layout_width="165.0dip" android:layout_height="45.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="30.0dip" android:text="进入脱单电影院" android:layout_below="@id/desc_tv" android:layout_centerHorizontal="true" android:onClick="onClick" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </com.taobao.movie.statemanager.StateLayout>
+    <com.taobao.movie.android.commonui.widget.MToolBar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

@@ -1,0 +1,43 @@
+{
+  "data": {
+    "damai_wantsee_avatar": { "value": "$$" },
+    "name_title": { "value": "${nickName}" },
+    "tag_holder": {
+      "extend": { "display": "@{eval(size(${tag}) > 0) ? flex : none}" }
+    },
+    "tag_label": { "value": "${tag}", "extend": { "fit-content": "true" } },
+    "time": {
+      "value": "${operationTime}",
+      "extend": { "margin-top": "@{${operationTime} ? 7px : 0px}" }
+    },
+    "tip_holder": {
+      "extend": {
+        "margin-top": "@{${content} ? 7px : 0px}",
+        "height": "@{${content} ? 14px : 0px}"
+      }
+    },
+    "tip_icon": {
+      "value": "https://gw.alicdn.com/imgextra/i1/O1CN01tcjYE91UgZUdZxlUS_!!6000000002547-2-tps-84-84.png",
+      "extend": { "display": "@{${content} ? flex : none}" }
+    },
+    "tip_text": { "value": "${content}" },
+    "followfans_action_view": {
+      "extend": {
+        "border-width": "@{env(isAndroid) ? 1px : 0.5px}",
+        "border-color": "@{eval(level + ${status} == 'level1') ? '#c6c6c6' : @{eval(level + ${status} == 'level2') ? '#c6c6c6' : #ff74ba}}",
+        "align-self": "@{eval(${actionMakeCenter} == 'true') ? 'center' : 'flex-start'}",
+        "display": "@{eval(level + ${status} == 'level3') ? none : flex}"
+      }
+    },
+    "followfans_action_title": {
+      "value": "@{eval(level + ${status} == 'level1') ? '已关注' : @{eval(level + ${status} == 'level2') ? '互关' : '关注'}}",
+      "extend": {
+        "color": "@{eval(level + ${status} == 'level1') ? '#9c9ca5' : @{eval(level + ${status} == 'level2') ? '#9c9ca5' : #ff74ba}}"
+      }
+    }
+  },
+  "event": {
+    "name_title": "avatarAction",
+    "followfans_action_view": "followAction"
+  }
+}

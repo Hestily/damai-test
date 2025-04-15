@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_not_use_coupon_container" android:background="@color/tpp_gray_6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_not_use_expand" android:background="@drawable/common_coupon_not_use_bg" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip">
+        <TextView android:textSize="@dimen/text_size_12_dp" android:textColor="@color/tpp_gray_3" android:id="@id/tv_not_use_sum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+        <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_assist" android:id="@id/arrow_down_up" android:paddingLeft="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_font_down_small" android:layout_alignParentRight="true" />
+    </LinearLayout>
+</LinearLayout>

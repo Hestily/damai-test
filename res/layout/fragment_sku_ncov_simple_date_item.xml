@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/left_view" android:layout_width="16.5dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/view_bg" android:background="@drawable/ncov_sku_simple_date_bg" android:layout_width="59.0dip" android:layout_height="46.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/left_view" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.499">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="10.0dip" android:textColor="@color/color_6A7A99" android:id="@id/tv_week" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="10.0dip" android:textColor="@color/color_ff2d79" android:id="@id/tv_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" />
+        </LinearLayout>
+        <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="13.0dip" android:textColor="@color/color_2E333E" android:id="@id/tv_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="10.0dip" android:textColor="@color/color_ff2d79" android:id="@id/tv_positive_tag" android:background="@drawable/sku_ncov_simple_data_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-7.5dip" android:paddingStart="3.0dip" android:paddingEnd="3.0dip" app:layout_constraintBottom_toTopOf="@id/view_bg" app:layout_constraintEnd_toEndOf="@id/view_bg" />
+    <View android:id="@id/right_view" android:layout_width="16.5dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/view_bg" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

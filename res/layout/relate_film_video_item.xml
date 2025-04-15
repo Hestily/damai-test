@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/communication_item_tag_bg" android:paddingLeft="7.0dip" android:paddingTop="5.5dip" android:paddingRight="9.0dip" android:paddingBottom="5.5dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_subtitle" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_font_film_icon" />
+    <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/color_tpp_primary_subtitle" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_tips_title" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:singleLine="true" />
+</LinearLayout>

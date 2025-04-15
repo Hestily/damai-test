@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="@dimen/margin_15dp" android:paddingRight="@dimen/margin_15dp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/margin_18dp" android:paddingBottom="@dimen/margin_18dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_999999" android:layout_width="@dimen/order_detail_contacts_w" android:layout_height="wrap_content" android:text="配送方式" />
+        <TextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_000000" android:id="@id/tv_delivery_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="电子票" />
+        <cn.damai.uikit.flowlayout.FlowLayout android:orientation="horizontal" android:id="@id/fl_delivery_tag" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_6dp" f:layoutDirection="ltr" xmlns:f="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <View android:id="@id/line_contacts" android:background="@color/color_EEEEEE" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <RelativeLayout android:id="@id/ll_delivery_contacts" android:paddingTop="@dimen/margin_18dp" android:paddingBottom="@dimen/margin_18dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_999999" android:id="@id/tv_contacts_name" android:layout_width="@dimen/order_detail_contacts_w" android:layout_height="wrap_content" android:text="联系人" />
+        <TextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_000000" android:gravity="center_vertical" android:id="@id/tv_delivery_user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+86 136" android:layout_toRightOf="@id/tv_contacts_name" />
+    </RelativeLayout>
+    <View android:id="@id/line_email" android:background="@color/color_EEEEEE" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/order_detail_contacts_w" />
+    <LinearLayout android:id="@id/ll_delivery_email" android:paddingTop="@dimen/margin_18dp" android:paddingBottom="@dimen/margin_18dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_999999" android:layout_width="@dimen/order_detail_contacts_w" android:layout_height="wrap_content" android:text="邮箱" />
+        <TextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_000000" android:id="@id/tv_delivery_email" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:id="@id/ll_contacts_line" android:background="@color/color_EEEEEE" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_contacts_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/order_detail_contacts_item" />
+    </LinearLayout>
+    <View android:id="@id/delivery_ex_line" android:background="@color/color_EEEEEE" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginStart="69.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/delivery_ex" android:paddingBottom="@dimen/margin_16dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginStart="69.0dip">
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="11.0dip" android:textColor="#ff979797" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_xinxi" />
+        <TextView android:textSize="11.0dip" android:textColor="#ff979797" android:id="@id/delivery_exp_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="3.0dip" />
+    </LinearLayout>
+</LinearLayout>

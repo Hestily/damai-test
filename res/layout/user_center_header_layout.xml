@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/user_center_header_id" android:visibility="gone" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="221.0dip">
+        <ImageView android:id="@id/user_center_header_bg_blur_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <ImageView android:layout_gravity="center" android:id="@id/user_center_header_bg_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/user_center_header_default_new" android:scaleType="centerCrop" />
+        <View android:layout_gravity="bottom" android:background="@drawable/shape_rect_gradient_0_1_f4f5f6" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+    </FrameLayout>
+    <View android:id="@id/user_center_header_bg_click_area" android:layout_width="fill_parent" android:layout_height="120.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/user_center_header_info_layout" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="97.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="9.0dip">
+        <FrameLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/user_info_back_g" android:background="@drawable/shape_rect_corner_16_solid_white" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="21.0dip">
+                <RelativeLayout android:paddingTop="12.0dip" android:layout_width="fill_parent" android:layout_height="54.0dip">
+                    <include android:id="@id/user_center_header_edit" layout="@layout/user_edit_info_layout" />
+                    <cn.damai.commonbusiness.view.AttentionView android:id="@id/user_center_header_follow_btn" android:visibility="gone" android:layout_width="57.0dip" android:layout_height="27.0dip" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20.0dip" android:textColor="@color/black" android:ellipsize="end" android:id="@id/user_center_header_user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:lines="1" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/user_center_user_type_tag" app:layout_constraintTop_toTopOf="parent" />
+                    <ImageView android:id="@id/user_center_user_type_tag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="16.0dip" android:layout_marginLeft="3.0dip" android:scaleType="fitXY" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/user_center_header_user_name" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/user_center_header_user_desc_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip">
+                    <TextView android:textSize="11.0dip" android:textColor="@color/color_9C9CA5" android:ellipsize="end" android:id="@id/user_center_header_user_desc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/user_center_header_ip_layout" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip">
+                    <TextView android:textSize="11.0dip" android:textColor="@color/color_9C9CA5" android:id="@id/user_center_header_ip_info" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="@color/color_AAAAAA" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/iconfont_timechange_" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginBottom="3.0dip">
+                    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/user_center_header_focus_count_ui" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <cn.damai.uikit.number.DMDigitTextView android:textSize="16.0dip" android:textColor="@color/black" android:id="@id/user_center_header_focus_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+                        <TextView android:textSize="12.0dip" android:textColor="@color/color_9C9CA5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginBottom="@dimen/margin_1dp" android:text="关注" />
+                    </LinearLayout>
+                    <ImageView android:background="@drawable/bg_line_corner_332e333e_1" android:layout_width="1.0px" android:layout_height="@dimen/margin_10dp" android:layout_marginLeft="@dimen/margin_12dp" android:layout_marginRight="@dimen/margin_12dp" />
+                    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/user_center_header_fans_count_ui" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <cn.damai.uikit.number.DMDigitTextView android:textSize="16.0dip" android:textColor="@color/black" android:id="@id/user_center_header_fans_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+                        <TextView android:textSize="12.0dip" android:textColor="@color/color_9C9CA5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginBottom="@dimen/margin_1dp" android:text="粉丝" />
+                    </LinearLayout>
+                    <ImageView android:background="@drawable/bg_line_corner_332e333e_1" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="1.0px" android:layout_height="@dimen/margin_10dp" android:layout_marginLeft="@dimen/margin_12dp" android:layout_marginRight="@dimen/margin_12dp" />
+                    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/user_center_header_zan_count_ui" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <cn.damai.uikit.number.DMDigitTextView android:textSize="16.0dip" android:textColor="@color/black" android:id="@id/user_center_header_zan_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+                        <TextView android:textSize="12.0dip" android:textColor="@color/color_9C9CA5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginBottom="@dimen/margin_1dp" android:text="获赞与想看" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <FrameLayout android:background="@drawable/mine_tab_user_header_round_bg" android:clipChildren="false" android:layout_width="74.0dip" android:layout_height="70.0dip" android:layout_marginLeft="16.0dip">
+                <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/user_center_header_lottie" android:visibility="gone" android:layout_width="250.0dip" android:layout_height="250.0dip" app:lottie_autoPlay="true" app:lottie_fileName="headerlottie/data.json" app:lottie_imageAssetsFolder="headerlottie/images" app:lottie_loop="true" />
+                <cn.damai.uikit.view.avatar.AvatarView android:layout_gravity="center" android:id="@id/user_center_header_avatar_view" android:layout_width="wrap_content" android:layout_height="wrap_content" app:avatarViewSize="size_60x60" />
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

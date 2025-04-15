@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="290.0dip" android:layout_height="374.0dip">
+        <ImageView android:background="@drawable/schedule_luck_dialog_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:id="@id/rl_luck_top" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="200.0dip">
+            <LinearLayout android:orientation="horizontal" android:id="@id/ll_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:layout_marginBottom="8.0dip" android:layout_centerHorizontal="true">
+                <TextView android:textSize="30.0dip" android:textColor="@color/fd715b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="¥" />
+                <TextView android:textSize="62.0dip" android:textStyle="bold" android:textColor="@color/fd715b" android:id="@id/tv_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:textSize="16.0dip" android:textColor="@color/fd715b" android:ellipsize="end" android:gravity="center" android:id="@id/tv_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_below="@id/ll_amount" android:layout_centerHorizontal="true" android:lineSpacingExtra="4.0dip" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_lose_logo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="200.0dip">
+            <ImageView android:layout_width="67.0dip" android:layout_height="67.0dip" android:layout_marginTop="58.0dip" android:src="@drawable/schedule_luck_failed" />
+            <TextView android:textSize="16.0dip" android:textColor="#fffd9988" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="没拼到" />
+        </LinearLayout>
+        <com.taobao.movie.android.commonui.widget.ArcImageView android:id="@id/iv_luck_film_poster" android:layout_width="fill_parent" android:layout_height="194.0dip" android:scaleType="fitXY" app:arcHeight="20.0dip" app:failureImage="@drawable/luck_poster_default_icon" app:failureImageScaleType="fitXY" app:placeholderImage="@drawable/luck_poster_default_icon" app:placeholderImageScaleType="fitXY" app:roundTopLeft="true" app:roundTopRight="true" app:roundedCornerRadius="10.0dip" />
+        <ImageView android:layout_width="fill_parent" android:layout_height="205.0dip" android:src="@drawable/schedule_luck_dialog_bottom_bg" android:scaleType="fitXY" android:layout_alignParentBottom="true" />
+        <View android:id="@id/v_luck_poster_top_pic" android:background="@drawable/luck_poster_top_pic" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="170.0dip" android:layout_centerHorizontal="true" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_initial" android:paddingTop="40.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/rl_luck_top" android:layout_centerHorizontal="true">
+            <TextView android:textSize="22.0dip" android:textStyle="bold" android:textColor="@color/white" android:id="@id/tv_multiple_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="拼手气红包" android:includeFontPadding="false" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/white" android:id="@id/tv_draw_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:includeFontPadding="false" android:alpha="0.8" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_draw_btn" android:background="@drawable/bg_lottery_draw_btn" android:layout_width="190.0dip" android:layout_height="38.0dip" android:layout_marginTop="25.0dip">
+                <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="#ff895a00" android:id="@id/tv_draw_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="拼手气翻倍" android:includeFontPadding="false" />
+                <TextView android:textSize="10.0dip" android:textColor="#ff895a00" android:id="@id/tv_happy_coin_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+            </LinearLayout>
+            <ProgressBar android:id="@id/progress_loading" android:visibility="gone" android:layout_width="33.0dip" android:layout_height="33.0dip" android:layout_marginTop="34.0dip" android:indeterminateBehavior="repeat" android:indeterminateTint="#fffec16a" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/fl_win" android:paddingTop="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_below="@id/rl_luck_top" android:layout_centerHorizontal="true">
+            <TextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="#fffee4bd" android:gravity="center" android:layout_gravity="bottom" android:background="@drawable/bg_lottery_win" android:paddingBottom="42.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="拼手气成功" />
+            <TextView android:textSize="15.0dip" android:textColor="#fffee4bd" android:gravity="center" android:layout_gravity="bottom" android:background="@drawable/bg_lottery_win" android:paddingTop="9.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="恭喜获得1张观影优惠券" />
+        </FrameLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_lose" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_below="@id/rl_luck_top" android:layout_centerInParent="true" android:layout_centerHorizontal="true">
+            <TextView android:textSize="23.0dip" android:textStyle="bold" android:textColor="#fffee4bd" android:gravity="center" android:background="@drawable/bg_lottery_win" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="下次运气会更好！" android:includeFontPadding="false" />
+        </LinearLayout>
+        <com.alibaba.pictures.moimage.MoImageView android:id="@id/iv_ribbons" android:layout_width="fill_parent" android:layout_height="316.0dip" android:scaleType="fitXY" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <com.alibaba.pictures.moimage.MoImageView android:id="@id/iv_lottery_close_btn" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="25.0dip" android:src="@drawable/ic_dialog_close" android:scaleType="centerInside" />
+</LinearLayout>

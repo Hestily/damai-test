@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.mvp.CommonModel",
+    "vClass": "cn.damai.tetris.mvp.CommonView",
+    "pClass": "cn.damai.tetris.mvp.CommonPresenter",
+    "layoutXml": "homepage_waterflow_title"
+  }
+}

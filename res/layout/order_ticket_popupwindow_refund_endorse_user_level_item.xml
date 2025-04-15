@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/color_tpp_primary_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/root_view" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginTop="18.0dip" android:paddingStart="@dimen/padding_12" android:paddingEnd="@dimen/padding_12" android:layout_marginStart="@dimen/margin_12" android:layout_marginEnd="@dimen/margin_12">
+        <ImageView android:id="@id/img_user_level" android:layout_width="wrap_content" android:layout_height="15.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="@dimen/text_size_14_dp" android:textColor="@color/color_2e333e" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:marqueeRepeatLimit="marquee_forever" android:layout_marginStart="@dimen/margin_6" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/img_user_level" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

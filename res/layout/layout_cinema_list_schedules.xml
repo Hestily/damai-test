@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/oscar_cinemalist_cinema_schedules_container" android:paddingLeft="12.5dip" android:paddingTop="5.0dip" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.taobao.movie.android.app.oscar.ui.cinema.widget.FastSelectScheduleView android:id="@id/oscar_cinemalist_cinema_schedules" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" />
+    <TextView android:gravity="center_vertical" android:id="@id/oscar_cinemalist_cinema_schedules_intro" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" style="@style/cinemaList_address_schedules_intro" />
+</LinearLayout>

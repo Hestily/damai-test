@@ -1,0 +1,1279 @@
+{
+  "needAuthorizeProfit": true,
+  "authorizeProfitText": "授权成为会员，享受演出特权",
+  "couponActivities":
+  [
+    {
+      "couponActSpreadId": "code_e96abc46f985d5bf",
+      "effectiveEndTime": "2023-11-02 23:59:59",
+      "effectiveTimeText": "使用时间：自领取之日起2天内有效",
+      "applicable": true,
+      "couponTags":
+      [
+        "演出券"
+      ],
+      "decreaseMoneyNum": 100.0,
+      "appAsacCode": "2A20211GN10S24HSTQIMUZ",
+      "effectiveStartTime": "2023-10-01 00:00:00",
+      "decreaseMoney":
+      {
+        "amount": 100.00,
+        "centFactor": 100,
+        "cent": 10000,
+        "displayUnit": "元",
+        "currency": "CNY",
+        "currencyCode": "CNY"
+      },
+      "features":
+      {},
+      "overAmount":
+      {
+        "amount": 100.01,
+        "centFactor": 100,
+        "cent": 10001,
+        "displayUnit": "元",
+        "currency": "CNY",
+        "currencyCode": "CNY"
+      },
+      "effectiveDays": 2,
+      "effectiveTimetype": 1,
+      "decreaseMoneyTag": "￥100",
+      "subCouponActExs":
+      [
+        {
+          "couponActSpreadId": "code_e96abc46f985d5bf",
+          "effectiveEndTime": "2023-11-02 23:59:59",
+          "effectiveTimeText": "使用时间：自领取之日起2天内有效",
+          "applicable": true,
+          "couponTags":
+          [
+            "演出券"
+          ],
+          "decreaseMoneyNum": 100.0,
+          "appAsacCode": "2A20211GN10S24HSTQIMUZ",
+          "effectiveStartTime": "2023-10-01 00:00:00",
+          "decreaseMoney":
+          {
+            "amount": 100.00,
+            "centFactor": 100,
+            "cent": 10000,
+            "displayUnit": "元",
+            "currency": "CNY",
+            "currencyCode": "CNY"
+          },
+          "features":
+          {},
+          "overAmount":
+          {
+            "amount": 100.01,
+            "centFactor": 100,
+            "cent": 10001,
+            "displayUnit": "元",
+            "currency": "CNY",
+            "currencyCode": "CNY"
+          },
+          "effectiveDays": 2,
+          "effectiveTimetype": 1,
+          "decreaseMoneyTag": "￥100",
+          "name": "大戏看北京100元立减券2",
+          "overAmountText": "满100.01元可用",
+          "id": 186820,
+          "tag": "满100.01减100元",
+          "h5AsacCode": "2A20211GN10S24HSTQIMUZ",
+          "desc": "使用门槛：满 100.01 元可用；\n可用商品：2023舞蹈节 国家大剧院原创民族舞剧《天路》，音乐剧《基督山伯爵》中文版【延期场次新开票】，舞剧《五星出东方》，冯远征领衔主演话剧《足球俱乐部》，国家大剧院与马斯喀特皇家歌剧院、维罗纳露天剧场基金会、洛杉矶歌剧院联合制作德利布歌剧《拉克美》，话剧：《老式喜剧》，中央芭蕾舞团 原创芭蕾舞剧《红楼梦》，音乐剧《剧院魅影》中文版，革命历史题材音乐剧《觉醒年代》，长安大戏院9月28日 第十一届北京惠民文化消费季 河北梆子《人民英雄纪念碑》，冯远征领衔主演话剧《杜甫》，2023年国家艺术院团演出演播季 原创音乐剧《星辰》，法语音乐剧明星集锦音乐会，2023英国伦敦西区原版亲子剧《恐龙世界LIVE》北京站，北京曲剧《正红旗下》，2023国家大剧院舞蹈节：国家大剧院原创民族舞剧《天路》，【早鸟85折】“宣扬传统文化”迟小秋领衔主演京剧《锁麟囊》，原创音乐剧《将进酒》，国家大剧院与马斯喀特皇家歌剧院、维罗纳露天剧场基金会、洛杉矶歌剧院联合制作德利布歌剧《拉克美》，“大戏看北京”总导演郎昆团队倾情打造话剧《西去东来》，音乐剧《剧院魅影》中文版；\n可用渠道：大麦APP，大麦APP-内嵌h5，大麦PC，大麦H5-浏览器，淘票票-大麦网H5，淘宝-大麦H5，支付宝-大麦H5，微信，微信-大麦小程序\t，微信-大麦公众号，百度小程序，抖音小程序，高德，淘票票app，淘票票APP内嵌H5，淘票票独立h5，淘票票h5-新，淘宝天猫-海王，天猫-旗舰店，支付宝电影演出小程序，淘宝票务h5；",
+          "status": 2
+        }
+      ],
+      "name": "大戏看北京100元立减券2",
+      "overAmountText": "满100.01元可用",
+      "id": 186820,
+      "tag": "满100.01减100元",
+      "h5AsacCode": "2A20211GN10S24HSTQIMUZ",
+      "desc": "使用门槛：满 100.01 元可用；\n可用商品：2023舞蹈节 国家大剧院原创民族舞剧《天路》，音乐剧《基督山伯爵》中文版【延期场次新开票】，舞剧《五星出东方》，冯远征领衔主演话剧《足球俱乐部》，国家大剧院与马斯喀特皇家歌剧院、维罗纳露天剧场基金会、洛杉矶歌剧院联合制作德利布歌剧《拉克美》，话剧：《老式喜剧》，中央芭蕾舞团 原创芭蕾舞剧《红楼梦》，音乐剧《剧院魅影》中文版，革命历史题材音乐剧《觉醒年代》，长安大戏院9月28日 第十一届北京惠民文化消费季 河北梆子《人民英雄纪念碑》，冯远征领衔主演话剧《杜甫》，2023年国家艺术院团演出演播季 原创音乐剧《星辰》，法语音乐剧明星集锦音乐会，2023英国伦敦西区原版亲子剧《恐龙世界LIVE》北京站，北京曲剧《正红旗下》，2023国家大剧院舞蹈节：国家大剧院原创民族舞剧《天路》，【早鸟85折】“宣扬传统文化”迟小秋领衔主演京剧《锁麟囊》，原创音乐剧《将进酒》，国家大剧院与马斯喀特皇家歌剧院、维罗纳露天剧场基金会、洛杉矶歌剧院联合制作德利布歌剧《拉克美》，“大戏看北京”总导演郎昆团队倾情打造话剧《西去东来》，音乐剧《剧院魅影》中文版；\n可用渠道：大麦APP，大麦APP-内嵌h5，大麦PC，大麦H5-浏览器，淘票票-大麦网H5，淘宝-大麦H5，支付宝-大麦H5，微信，微信-大麦小程序\t，微信-大麦公众号，百度小程序，抖音小程序，高德，淘票票app，淘票票APP内嵌H5，淘票票独立h5，淘票票h5-新，淘宝天猫-海王，天猫-旗舰店，支付宝电影演出小程序，淘宝票务h5；",
+      "status": 2
+    },
+    {
+      "couponActSpreadId": "code_e96abc46f985d5bf",
+      "effectiveEndTime": "2023-11-02 23:59:59",
+      "effectiveTimeText": "使用时间：自领取之日起2天内有效",
+      "applicable": true,
+      "couponTags":
+      [
+        "演出券"
+      ],
+      "decreaseMoneyNum": 100.0,
+      "appAsacCode": "2A20211GN10S24HSTQIMUZ",
+      "effectiveStartTime": "2023-10-01 00:00:00",
+      "decreaseMoney":
+      {
+        "amount": 100.00,
+        "centFactor": 100,
+        "cent": 10000,
+        "displayUnit": "元",
+        "currency": "CNY",
+        "currencyCode": "CNY"
+      },
+      "features":
+      {},
+      "overAmount":
+      {
+        "amount": 100.01,
+        "centFactor": 100,
+        "cent": 10001,
+        "displayUnit": "元",
+        "currency": "CNY",
+        "currencyCode": "CNY"
+      },
+      "effectiveDays": 2,
+      "effectiveTimetype": 1,
+      "decreaseMoneyTag": "￥100",
+      "subCouponActExs":
+      [
+        {
+          "couponActSpreadId": "code_e96abc46f985d5bf",
+          "effectiveEndTime": "2023-11-02 23:59:59",
+          "effectiveTimeText": "使用时间：自领取之日起2天内有效",
+          "applicable": true,
+          "couponTags":
+          [
+            "演出券"
+          ],
+          "decreaseMoneyNum": 100.0,
+          "appAsacCode": "2A20211GN10S24HSTQIMUZ",
+          "effectiveStartTime": "2023-10-01 00:00:00",
+          "decreaseMoney":
+          {
+            "amount": 100.00,
+            "centFactor": 100,
+            "cent": 10000,
+            "displayUnit": "元",
+            "currency": "CNY",
+            "currencyCode": "CNY"
+          },
+          "features":
+          {},
+          "overAmount":
+          {
+            "amount": 100.01,
+            "centFactor": 100,
+            "cent": 10001,
+            "displayUnit": "元",
+            "currency": "CNY",
+            "currencyCode": "CNY"
+          },
+          "effectiveDays": 2,
+          "effectiveTimetype": 1,
+          "decreaseMoneyTag": "￥100",
+          "name": "大戏看北京100元立减券2",
+          "overAmountText": "满100.01元可用",
+          "id": 186820,
+          "tag": "满100.01减100元",
+          "h5AsacCode": "2A20211GN10S24HSTQIMUZ",
+          "desc": "使用门槛：满 100.01 元可用；\n可用商品：2023舞蹈节 国家大剧院原创民族舞剧《天路》，音乐剧《基督山伯爵》中文版【延期场次新开票】，舞剧《五星出东方》，冯远征领衔主演话剧《足球俱乐部》，国家大剧院与马斯喀特皇家歌剧院、维罗纳露天剧场基金会、洛杉矶歌剧院联合制作德利布歌剧《拉克美》，话剧：《老式喜剧》，中央芭蕾舞团 原创芭蕾舞剧《红楼梦》，音乐剧《剧院魅影》中文版，革命历史题材音乐剧《觉醒年代》，长安大戏院9月28日 第十一届北京惠民文化消费季 河北梆子《人民英雄纪念碑》，冯远征领衔主演话剧《杜甫》，2023年国家艺术院团演出演播季 原创音乐剧《星辰》，法语音乐剧明星集锦音乐会，2023英国伦敦西区原版亲子剧《恐龙世界LIVE》北京站，北京曲剧《正红旗下》，2023国家大剧院舞蹈节：国家大剧院原创民族舞剧《天路》，【早鸟85折】“宣扬传统文化”迟小秋领衔主演京剧《锁麟囊》，原创音乐剧《将进酒》，国家大剧院与马斯喀特皇家歌剧院、维罗纳露天剧场基金会、洛杉矶歌剧院联合制作德利布歌剧《拉克美》，“大戏看北京”总导演郎昆团队倾情打造话剧《西去东来》，音乐剧《剧院魅影》中文版；\n可用渠道：大麦APP，大麦APP-内嵌h5，大麦PC，大麦H5-浏览器，淘票票-大麦网H5，淘宝-大麦H5，支付宝-大麦H5，微信，微信-大麦小程序\t，微信-大麦公众号，百度小程序，抖音小程序，高德，淘票票app，淘票票APP内嵌H5，淘票票独立h5，淘票票h5-新，淘宝天猫-海王，天猫-旗舰店，支付宝电影演出小程序，淘宝票务h5；",
+          "status": 2
+        }
+      ],
+      "name": "大戏看北京100元立减券2",
+      "overAmountText": "满100.01元可用",
+      "id": 186820,
+      "tag": "满100.01减100元",
+      "h5AsacCode": "2A20211GN10S24HSTQIMUZ",
+      "desc": "使用门槛：满 100.01 元可用；\n可用商品：2023舞蹈节 国家大剧院原创民族舞剧《天路》，音乐剧《基督山伯爵》中文版【延期场次新开票】，舞剧《五星出东方》，冯远征领衔主演话剧《足球俱乐部》，国家大剧院与马斯喀特皇家歌剧院、维罗纳露天剧场基金会、洛杉矶歌剧院联合制作德利布歌剧《拉克美》，话剧：《老式喜剧》，中央芭蕾舞团 原创芭蕾舞剧《红楼梦》，音乐剧《剧院魅影》中文版，革命历史题材音乐剧《觉醒年代》，长安大戏院9月28日 第十一届北京惠民文化消费季 河北梆子《人民英雄纪念碑》，冯远征领衔主演话剧《杜甫》，2023年国家艺术院团演出演播季 原创音乐剧《星辰》，法语音乐剧明星集锦音乐会，2023英国伦敦西区原版亲子剧《恐龙世界LIVE》北京站，北京曲剧《正红旗下》，2023国家大剧院舞蹈节：国家大剧院原创民族舞剧《天路》，【早鸟85折】“宣扬传统文化”迟小秋领衔主演京剧《锁麟囊》，原创音乐剧《将进酒》，国家大剧院与马斯喀特皇家歌剧院、维罗纳露天剧场基金会、洛杉矶歌剧院联合制作德利布歌剧《拉克美》，“大戏看北京”总导演郎昆团队倾情打造话剧《西去东来》，音乐剧《剧院魅影》中文版；\n可用渠道：大麦APP，大麦APP-内嵌h5，大麦PC，大麦H5-浏览器，淘票票-大麦网H5，淘宝-大麦H5，支付宝-大麦H5，微信，微信-大麦小程序\t，微信-大麦公众号，百度小程序，抖音小程序，高德，淘票票app，淘票票APP内嵌H5，淘票票独立h5，淘票票h5-新，淘宝天猫-海王，天猫-旗舰店，支付宝电影演出小程序，淘宝票务h5；",
+      "status": 2
+    },
+    {
+      "couponActSpreadId": "code_e96abc46f985d5bf",
+      "effectiveEndTime": "2023-11-02 23:59:59",
+      "effectiveTimeText": "使用时间：自领取之日起2天内有效",
+      "applicable": true,
+      "couponTags":
+      [
+        "演出券"
+      ],
+      "decreaseMoneyNum": 100.0,
+      "appAsacCode": "2A20211GN10S24HSTQIMUZ",
+      "effectiveStartTime": "2023-10-01 00:00:00",
+      "decreaseMoney":
+      {
+        "amount": 100.00,
+        "centFactor": 100,
+        "cent": 10000,
+        "displayUnit": "元",
+        "currency": "CNY",
+        "currencyCode": "CNY"
+      },
+      "features":
+      {},
+      "overAmount":
+      {
+        "amount": 100.01,
+        "centFactor": 100,
+        "cent": 10001,
+        "displayUnit": "元",
+        "currency": "CNY",
+        "currencyCode": "CNY"
+      },
+      "effectiveDays": 2,
+      "effectiveTimetype": 1,
+      "decreaseMoneyTag": "￥100",
+      "subCouponActExs":
+      [
+        {
+          "couponActSpreadId": "code_e96abc46f985d5bf",
+          "effectiveEndTime": "2023-11-02 23:59:59",
+          "effectiveTimeText": "使用时间：自领取之日起2天内有效",
+          "applicable": true,
+          "couponTags":
+          [
+            "演出券"
+          ],
+          "decreaseMoneyNum": 100.0,
+          "appAsacCode": "2A20211GN10S24HSTQIMUZ",
+          "effectiveStartTime": "2023-10-01 00:00:00",
+          "decreaseMoney":
+          {
+            "amount": 100.00,
+            "centFactor": 100,
+            "cent": 10000,
+            "displayUnit": "元",
+            "currency": "CNY",
+            "currencyCode": "CNY"
+          },
+          "features":
+          {},
+          "overAmount":
+          {
+            "amount": 100.01,
+            "centFactor": 100,
+            "cent": 10001,
+            "displayUnit": "元",
+            "currency": "CNY",
+            "currencyCode": "CNY"
+          },
+          "effectiveDays": 2,
+          "effectiveTimetype": 1,
+          "decreaseMoneyTag": "￥100",
+          "name": "大戏看北京100元立减券2",
+          "overAmountText": "满100.01元可用",
+          "id": 186820,
+          "tag": "满100.01减100元",
+          "h5AsacCode": "2A20211GN10S24HSTQIMUZ",
+          "desc": "使用门槛：满 100.01 元可用；\n可用商品：2023舞蹈节 国家大剧院原创民族舞剧《天路》，音乐剧《基督山伯爵》中文版【延期场次新开票】，舞剧《五星出东方》，冯远征领衔主演话剧《足球俱乐部》，国家大剧院与马斯喀特皇家歌剧院、维罗纳露天剧场基金会、洛杉矶歌剧院联合制作德利布歌剧《拉克美》，话剧：《老式喜剧》，中央芭蕾舞团 原创芭蕾舞剧《红楼梦》，音乐剧《剧院魅影》中文版，革命历史题材音乐剧《觉醒年代》，长安大戏院9月28日 第十一届北京惠民文化消费季 河北梆子《人民英雄纪念碑》，冯远征领衔主演话剧《杜甫》，2023年国家艺术院团演出演播季 原创音乐剧《星辰》，法语音乐剧明星集锦音乐会，2023英国伦敦西区原版亲子剧《恐龙世界LIVE》北京站，北京曲剧《正红旗下》，2023国家大剧院舞蹈节：国家大剧院原创民族舞剧《天路》，【早鸟85折】“宣扬传统文化”迟小秋领衔主演京剧《锁麟囊》，原创音乐剧《将进酒》，国家大剧院与马斯喀特皇家歌剧院、维罗纳露天剧场基金会、洛杉矶歌剧院联合制作德利布歌剧《拉克美》，“大戏看北京”总导演郎昆团队倾情打造话剧《西去东来》，音乐剧《剧院魅影》中文版；\n可用渠道：大麦APP，大麦APP-内嵌h5，大麦PC，大麦H5-浏览器，淘票票-大麦网H5，淘宝-大麦H5，支付宝-大麦H5，微信，微信-大麦小程序\t，微信-大麦公众号，百度小程序，抖音小程序，高德，淘票票app，淘票票APP内嵌H5，淘票票独立h5，淘票票h5-新，淘宝天猫-海王，天猫-旗舰店，支付宝电影演出小程序，淘宝票务h5；",
+          "status": 2
+        }
+      ],
+      "name": "大戏看北京100元立减券2",
+      "overAmountText": "满100.01元可用",
+      "id": 186820,
+      "tag": "满100.01减100元",
+      "h5AsacCode": "2A20211GN10S24HSTQIMUZ",
+      "desc": "使用门槛：满 100.01 元可用；\n可用商品：2023舞蹈节 国家大剧院原创民族舞剧《天路》，音乐剧《基督山伯爵》中文版【延期场次新开票】，舞剧《五星出东方》，冯远征领衔主演话剧《足球俱乐部》，国家大剧院与马斯喀特皇家歌剧院、维罗纳露天剧场基金会、洛杉矶歌剧院联合制作德利布歌剧《拉克美》，话剧：《老式喜剧》，中央芭蕾舞团 原创芭蕾舞剧《红楼梦》，音乐剧《剧院魅影》中文版，革命历史题材音乐剧《觉醒年代》，长安大戏院9月28日 第十一届北京惠民文化消费季 河北梆子《人民英雄纪念碑》，冯远征领衔主演话剧《杜甫》，2023年国家艺术院团演出演播季 原创音乐剧《星辰》，法语音乐剧明星集锦音乐会，2023英国伦敦西区原版亲子剧《恐龙世界LIVE》北京站，北京曲剧《正红旗下》，2023国家大剧院舞蹈节：国家大剧院原创民族舞剧《天路》，【早鸟85折】“宣扬传统文化”迟小秋领衔主演京剧《锁麟囊》，原创音乐剧《将进酒》，国家大剧院与马斯喀特皇家歌剧院、维罗纳露天剧场基金会、洛杉矶歌剧院联合制作德利布歌剧《拉克美》，“大戏看北京”总导演郎昆团队倾情打造话剧《西去东来》，音乐剧《剧院魅影》中文版；\n可用渠道：大麦APP，大麦APP-内嵌h5，大麦PC，大麦H5-浏览器，淘票票-大麦网H5，淘宝-大麦H5，支付宝-大麦H5，微信，微信-大麦小程序\t，微信-大麦公众号，百度小程序，抖音小程序，高德，淘票票app，淘票票APP内嵌H5，淘票票独立h5，淘票票h5-新，淘宝天猫-海王，天猫-旗舰店，支付宝电影演出小程序，淘宝票务h5；",
+      "status": 2
+    },
+    {
+      "couponActSpreadId": "code_e96abc46f985d5bf",
+      "effectiveEndTime": "2023-11-02 23:59:59",
+      "effectiveTimeText": "使用时间：自领取之日起2天内有效",
+      "applicable": true,
+      "couponTags":
+      [
+        "演出券"
+      ],
+      "decreaseMoneyNum": 100.0,
+      "appAsacCode": "2A20211GN10S24HSTQIMUZ",
+      "effectiveStartTime": "2023-10-01 00:00:00",
+      "decreaseMoney":
+      {
+        "amount": 100.00,
+        "centFactor": 100,
+        "cent": 10000,
+        "displayUnit": "元",
+        "currency": "CNY",
+        "currencyCode": "CNY"
+      },
+      "features":
+      {},
+      "overAmount":
+      {
+        "amount": 100.01,
+        "centFactor": 100,
+        "cent": 10001,
+        "displayUnit": "元",
+        "currency": "CNY",
+        "currencyCode": "CNY"
+      },
+      "effectiveDays": 2,
+      "effectiveTimetype": 1,
+      "decreaseMoneyTag": "￥100",
+      "subCouponActExs":
+      [
+        {
+          "couponActSpreadId": "code_e96abc46f985d5bf",
+          "effectiveEndTime": "2023-11-02 23:59:59",
+          "effectiveTimeText": "使用时间：自领取之日起2天内有效",
+          "applicable": true,
+          "couponTags":
+          [
+            "演出券"
+          ],
+          "decreaseMoneyNum": 100.0,
+          "appAsacCode": "2A20211GN10S24HSTQIMUZ",
+          "effectiveStartTime": "2023-10-01 00:00:00",
+          "decreaseMoney":
+          {
+            "amount": 100.00,
+            "centFactor": 100,
+            "cent": 10000,
+            "displayUnit": "元",
+            "currency": "CNY",
+            "currencyCode": "CNY"
+          },
+          "features":
+          {},
+          "overAmount":
+          {
+            "amount": 100.01,
+            "centFactor": 100,
+            "cent": 10001,
+            "displayUnit": "元",
+            "currency": "CNY",
+            "currencyCode": "CNY"
+          },
+          "effectiveDays": 2,
+          "effectiveTimetype": 1,
+          "decreaseMoneyTag": "￥100",
+          "name": "大戏看北京100元立减券2",
+          "overAmountText": "满100.01元可用",
+          "id": 186820,
+          "tag": "满100.01减100元",
+          "h5AsacCode": "2A20211GN10S24HSTQIMUZ",
+          "desc": "使用门槛：满 100.01 元可用；\n可用商品：2023舞蹈节 国家大剧院原创民族舞剧《天路》，音乐剧《基督山伯爵》中文版【延期场次新开票】，舞剧《五星出东方》，冯远征领衔主演话剧《足球俱乐部》，国家大剧院与马斯喀特皇家歌剧院、维罗纳露天剧场基金会、洛杉矶歌剧院联合制作德利布歌剧《拉克美》，话剧：《老式喜剧》，中央芭蕾舞团 原创芭蕾舞剧《红楼梦》，音乐剧《剧院魅影》中文版，革命历史题材音乐剧《觉醒年代》，长安大戏院9月28日 第十一届北京惠民文化消费季 河北梆子《人民英雄纪念碑》，冯远征领衔主演话剧《杜甫》，2023年国家艺术院团演出演播季 原创音乐剧《星辰》，法语音乐剧明星集锦音乐会，2023英国伦敦西区原版亲子剧《恐龙世界LIVE》北京站，北京曲剧《正红旗下》，2023国家大剧院舞蹈节：国家大剧院原创民族舞剧《天路》，【早鸟85折】“宣扬传统文化”迟小秋领衔主演京剧《锁麟囊》，原创音乐剧《将进酒》，国家大剧院与马斯喀特皇家歌剧院、维罗纳露天剧场基金会、洛杉矶歌剧院联合制作德利布歌剧《拉克美》，“大戏看北京”总导演郎昆团队倾情打造话剧《西去东来》，音乐剧《剧院魅影》中文版；\n可用渠道：大麦APP，大麦APP-内嵌h5，大麦PC，大麦H5-浏览器，淘票票-大麦网H5，淘宝-大麦H5，支付宝-大麦H5，微信，微信-大麦小程序\t，微信-大麦公众号，百度小程序，抖音小程序，高德，淘票票app，淘票票APP内嵌H5，淘票票独立h5，淘票票h5-新，淘宝天猫-海王，天猫-旗舰店，支付宝电影演出小程序，淘宝票务h5；",
+          "status": 2
+        }
+      ],
+      "name": "大戏看北京100元立减券2",
+      "overAmountText": "满100.01元可用",
+      "id": 186820,
+      "tag": "满100.01减100元",
+      "h5AsacCode": "2A20211GN10S24HSTQIMUZ",
+      "desc": "使用门槛：满 100.01 元可用；\n可用商品：2023舞蹈节 国家大剧院原创民族舞剧《天路》，音乐剧《基督山伯爵》中文版【延期场次新开票】，舞剧《五星出东方》，冯远征领衔主演话剧《足球俱乐部》，国家大剧院与马斯喀特皇家歌剧院、维罗纳露天剧场基金会、洛杉矶歌剧院联合制作德利布歌剧《拉克美》，话剧：《老式喜剧》，中央芭蕾舞团 原创芭蕾舞剧《红楼梦》，音乐剧《剧院魅影》中文版，革命历史题材音乐剧《觉醒年代》，长安大戏院9月28日 第十一届北京惠民文化消费季 河北梆子《人民英雄纪念碑》，冯远征领衔主演话剧《杜甫》，2023年国家艺术院团演出演播季 原创音乐剧《星辰》，法语音乐剧明星集锦音乐会，2023英国伦敦西区原版亲子剧《恐龙世界LIVE》北京站，北京曲剧《正红旗下》，2023国家大剧院舞蹈节：国家大剧院原创民族舞剧《天路》，【早鸟85折】“宣扬传统文化”迟小秋领衔主演京剧《锁麟囊》，原创音乐剧《将进酒》，国家大剧院与马斯喀特皇家歌剧院、维罗纳露天剧场基金会、洛杉矶歌剧院联合制作德利布歌剧《拉克美》，“大戏看北京”总导演郎昆团队倾情打造话剧《西去东来》，音乐剧《剧院魅影》中文版；\n可用渠道：大麦APP，大麦APP-内嵌h5，大麦PC，大麦H5-浏览器，淘票票-大麦网H5，淘宝-大麦H5，支付宝-大麦H5，微信，微信-大麦小程序\t，微信-大麦公众号，百度小程序，抖音小程序，高德，淘票票app，淘票票APP内嵌H5，淘票票独立h5，淘票票h5-新，淘宝天猫-海王，天猫-旗舰店，支付宝电影演出小程序，淘宝票务h5；",
+      "status": 2
+    },
+    {
+      "couponActSpreadId": "code_e96abc46f985d5bf",
+      "effectiveEndTime": "2023-11-02 23:59:59",
+      "effectiveTimeText": "使用时间：自领取之日起2天内有效",
+      "applicable": true,
+      "couponTags":
+      [
+        "演出券"
+      ],
+      "decreaseMoneyNum": 100.0,
+      "appAsacCode": "2A20211GN10S24HSTQIMUZ",
+      "effectiveStartTime": "2023-10-01 00:00:00",
+      "decreaseMoney":
+      {
+        "amount": 100.00,
+        "centFactor": 100,
+        "cent": 10000,
+        "displayUnit": "元",
+        "currency": "CNY",
+        "currencyCode": "CNY"
+      },
+      "features":
+      {},
+      "overAmount":
+      {
+        "amount": 100.01,
+        "centFactor": 100,
+        "cent": 10001,
+        "displayUnit": "元",
+        "currency": "CNY",
+        "currencyCode": "CNY"
+      },
+      "effectiveDays": 2,
+      "effectiveTimetype": 1,
+      "decreaseMoneyTag": "￥100",
+      "subCouponActExs":
+      [
+        {
+          "couponActSpreadId": "code_e96abc46f985d5bf",
+          "effectiveEndTime": "2023-11-02 23:59:59",
+          "effectiveTimeText": "使用时间：自领取之日起2天内有效",
+          "applicable": true,
+          "couponTags":
+          [
+            "演出券"
+          ],
+          "decreaseMoneyNum": 100.0,
+          "appAsacCode": "2A20211GN10S24HSTQIMUZ",
+          "effectiveStartTime": "2023-10-01 00:00:00",
+          "decreaseMoney":
+          {
+            "amount": 100.00,
+            "centFactor": 100,
+            "cent": 10000,
+            "displayUnit": "元",
+            "currency": "CNY",
+            "currencyCode": "CNY"
+          },
+          "features":
+          {},
+          "overAmount":
+          {
+            "amount": 100.01,
+            "centFactor": 100,
+            "cent": 10001,
+            "displayUnit": "元",
+            "currency": "CNY",
+            "currencyCode": "CNY"
+          },
+          "effectiveDays": 2,
+          "effectiveTimetype": 1,
+          "decreaseMoneyTag": "￥100",
+          "name": "大戏看北京100元立减券2",
+          "overAmountText": "满10元可用",
+          "id": 186820,
+          "tag": "满100.01减100元",
+          "h5AsacCode": "2A20211GN10S24HSTQIMUZ",
+          "desc": "使用门槛：满 100.01 元可用；\n可用商品：2023舞蹈节 国家大剧院原创民族舞剧《天路》，音乐剧《基督山伯爵》中文版【延期场次新开票】，舞剧《五星出东方》，冯远征领衔主演话剧《足球俱乐部》，国家大剧院与马斯喀特皇家歌剧院、维罗纳露天剧场基金会、洛杉矶歌剧院联合制作德利布歌剧《拉克美》，话剧：《老式喜剧》，中央芭蕾舞团 原创芭蕾舞剧《红楼梦》，音乐剧《剧院魅影》中文版，革命历史题材音乐剧《觉醒年代》，长安大戏院9月28日 第十一届北京惠民文化消费季 河北梆子《人民英雄纪念碑》，冯远征领衔主演话剧《杜甫》，2023年国家艺术院团演出演播季 原创音乐剧《星辰》，法语音乐剧明星集锦音乐会，2023英国伦敦西区原版亲子剧《恐龙世界LIVE》北京站，北京曲剧《正红旗下》，2023国家大剧院舞蹈节：国家大剧院原创民族舞剧《天路》，【早鸟85折】“宣扬传统文化”迟小秋领衔主演京剧《锁麟囊》，原创音乐剧《将进酒》，国家大剧院与马斯喀特皇家歌剧院、维罗纳露天剧场基金会、洛杉矶歌剧院联合制作德利布歌剧《拉克美》，“大戏看北京”总导演郎昆团队倾情打造话剧《西去东来》，音乐剧《剧院魅影》中文版；\n可用渠道：大麦APP，大麦APP-内嵌h5，大麦PC，大麦H5-浏览器，淘票票-大麦网H5，淘宝-大麦H5，支付宝-大麦H5，微信，微信-大麦小程序\t，微信-大麦公众号，百度小程序，抖音小程序，高德，淘票票app，淘票票APP内嵌H5，淘票票独立h5，淘票票h5-新，淘宝天猫-海王，天猫-旗舰店，支付宝电影演出小程序，淘宝票务h5；",
+          "status": 2
+        }
+      ],
+      "name": "大戏看北京100元立减券2",
+      "overAmountText": "满100.01元可用",
+      "id": 186820,
+      "tag": "满100.01减100元",
+      "h5AsacCode": "2A20211GN10S24HSTQIMUZ",
+      "desc": "使用门槛：满 100.01 元可用；\n可用商品：2023舞蹈节 国家大剧院原创民族舞剧《天路》，音乐剧《基督山伯爵》中文版【延期场次新开票】，舞剧《五星出东方》，冯远征领衔主演话剧《足球俱乐部》，国家大剧院与马斯喀特皇家歌剧院、维罗纳露天剧场基金会、洛杉矶歌剧院联合制作德利布歌剧《拉克美》，话剧：《老式喜剧》，中央芭蕾舞团 原创芭蕾舞剧《红楼梦》，音乐剧《剧院魅影》中文版，革命历史题材音乐剧《觉醒年代》，长安大戏院9月28日 第十一届北京惠民文化消费季 河北梆子《人民英雄纪念碑》，冯远征领衔主演话剧《杜甫》，2023年国家艺术院团演出演播季 原创音乐剧《星辰》，法语音乐剧明星集锦音乐会，2023英国伦敦西区原版亲子剧《恐龙世界LIVE》北京站，北京曲剧《正红旗下》，2023国家大剧院舞蹈节：国家大剧院原创民族舞剧《天路》，【早鸟85折】“宣扬传统文化”迟小秋领衔主演京剧《锁麟囊》，原创音乐剧《将进酒》，国家大剧院与马斯喀特皇家歌剧院、维罗纳露天剧场基金会、洛杉矶歌剧院联合制作德利布歌剧《拉克美》，“大戏看北京”总导演郎昆团队倾情打造话剧《西去东来》，音乐剧《剧院魅影》中文版；\n可用渠道：大麦APP，大麦APP-内嵌h5，大麦PC，大麦H5-浏览器，淘票票-大麦网H5，淘宝-大麦H5，支付宝-大麦H5，微信，微信-大麦小程序\t，微信-大麦公众号，百度小程序，抖音小程序，高德，淘票票app，淘票票APP内嵌H5，淘票票独立h5，淘票票h5-新，淘宝天猫-海王，天猫-旗舰店，支付宝电影演出小程序，淘宝票务h5；",
+      "status": 2
+    },
+    {
+      "couponActSpreadId": "code_e96abc46f985d5bf",
+      "effectiveEndTime": "2023-11-02 23:59:59",
+      "effectiveTimeText": "使用时间：自领取之日起2天内有效自领取之日起2天内有效自领取之日起2天内有效自领取之日起2天内有效自领取之日起2天内有效",
+      "applicable": false,
+      "couponTags":
+      [
+        "演出券"
+      ],
+      "decreaseMoneyNum": 100.0,
+      "appAsacCode": "2A20211GN10S24HSTQIMUZ",
+      "effectiveStartTime": "2023-10-01 00:00:00",
+      "decreaseMoney":
+      {
+        "amount": 100.00,
+        "centFactor": 100,
+        "cent": 10000,
+        "displayUnit": "元",
+        "currency": "CNY",
+        "currencyCode": "CNY"
+      },
+      "features":
+      {},
+      "overAmount":
+      {
+        "amount": 100.01,
+        "centFactor": 100,
+        "cent": 10001,
+        "displayUnit": "元",
+        "currency": "CNY",
+        "currencyCode": "CNY"
+      },
+      "effectiveDays": 2,
+      "effectiveTimetype": 1,
+      "decreaseMoneyTag": "￥100",
+      "subCouponActExs":
+      [
+        {
+          "couponActSpreadId": "code_e96abc46f985d5bf",
+          "effectiveEndTime": "2023-11-02 23:59:59",
+          "effectiveTimeText": "使用时间：自领取之日起2天内有效,自领取之日起2天内有效自领取之日起2天内有效自领取之日起2天内有效自领取之日起2天内有效自领取之日起2天内有效",
+          "applicable": false,
+          "couponTags":
+          [
+            "演出券"
+          ],
+          "decreaseMoneyNum": 100.0,
+          "appAsacCode": "2A20211GN10S24HSTQIMUZ",
+          "effectiveStartTime": "2023-10-01 00:00:00",
+          "decreaseMoney":
+          {
+            "amount": 100.00,
+            "centFactor": 100,
+            "cent": 10000,
+            "displayUnit": "元",
+            "currency": "CNY",
+            "currencyCode": "CNY"
+          },
+          "features":
+          {},
+          "overAmount":
+          {
+            "amount": 100.01,
+            "centFactor": 100,
+            "cent": 10001,
+            "displayUnit": "元",
+            "currency": "CNY",
+            "currencyCode": "CNY"
+          },
+          "effectiveDays": 2,
+          "effectiveTimetype": 1,
+          "decreaseMoneyTag": "￥100",
+          "name": "大戏看北京100元立减券2大戏看北京100元立减券2大戏看北京100元立减券2",
+          "overAmountText": "满100.01元可用",
+          "id": 186820,
+          "tag": "满100.01减100元",
+          "h5AsacCode": "2A20211GN10S24HSTQIMUZ",
+          "desc": "使用门槛：满 100.01 元可用；\n可用商品：2023舞蹈节 国家大剧院原创民族舞剧《天路》，音乐剧《基督山伯爵》中文版【延期场次新开票】，舞剧《五星出东方》，冯远征领衔主演话剧《足球俱乐部》，国家大剧院与马斯喀特皇家歌剧院、维罗纳露天剧场基金会、洛杉矶歌剧院联合制作德利布歌剧《拉克美》，话剧：《老式喜剧》，中央芭蕾舞团 原创芭蕾舞剧《红楼梦》，音乐剧《剧院魅影》中文版，革命历史题材音乐剧《觉醒年代》，长安大戏院9月28日 第十一届北京惠民文化消费季 河北梆子《人民英雄纪念碑》，冯远征领衔主演话剧《杜甫》，2023年国家艺术院团演出演播季 原创音乐剧《星辰》，法语音乐剧明星集锦音乐会，2023英国伦敦西区原版亲子剧《恐龙世界LIVE》北京站，北京曲剧《正红旗下》，2023国家大剧院舞蹈节：国家大剧院原创民族舞剧《天路》，【早鸟85折】“宣扬传统文化”迟小秋领衔主演京剧《锁麟囊》，原创音乐剧《将进酒》，国家大剧院与马斯喀特皇家歌剧院、维罗纳露天剧场基金会、洛杉矶歌剧院联合制作德利布歌剧《拉克美》，“大戏看北京”总导演郎昆团队倾情打造话剧《西去东来》，音乐剧《剧院魅影》中文版；\n可用渠道：大麦APP，大麦APP-内嵌h5，大麦PC，大麦H5-浏览器，淘票票-大麦网H5，淘宝-大麦H5，支付宝-大麦H5，微信，微信-大麦小程序\t，微信-大麦公众号，百度小程序，抖音小程序，高德，淘票票app，淘票票APP内嵌H5，淘票票独立h5，淘票票h5-新，淘宝天猫-海王，天猫-旗舰店，支付宝电影演出小程序，淘宝票务h5；",
+          "status": 2
+        }
+      ],
+      "name": "大戏看北京100元立减券2",
+      "overAmountText": "满100.01元可用",
+      "id": 186820,
+      "tag": "满100.01减100元",
+      "h5AsacCode": "2A20211GN10S24HSTQIMUZ",
+      "desc": "使用门槛：满 100.01 元可用；\n可用商品：2023舞蹈节 国家大剧院原创民族舞剧《天路》，音乐剧《基督山伯爵》中文版【延期场次新开票】，舞剧《五星出东方》，冯远征领衔主演话剧《足球俱乐部》，国家大剧院与马斯喀特皇家歌剧院、维罗纳露天剧场基金会、洛杉矶歌剧院联合制作德利布歌剧《拉克美》，话剧：《老式喜剧》，中央芭蕾舞团 原创芭蕾舞剧《红楼梦》，音乐剧《剧院魅影》中文版，革命历史题材音乐剧《觉醒年代》，长安大戏院9月28日 第十一届北京惠民文化消费季 河北梆子《人民英雄纪念碑》，冯远征领衔主演话剧《杜甫》，2023年国家艺术院团演出演播季 原创音乐剧《星辰》，法语音乐剧明星集锦音乐会，2023英国伦敦西区原版亲子剧《恐龙世界LIVE》北京站，北京曲剧《正红旗下》，2023国家大剧院舞蹈节：国家大剧院原创民族舞剧《天路》，【早鸟85折】“宣扬传统文化”迟小秋领衔主演京剧《锁麟囊》，原创音乐剧《将进酒》，国家大剧院与马斯喀特皇家歌剧院、维罗纳露天剧场基金会、洛杉矶歌剧院联合制作德利布歌剧《拉克美》，“大戏看北京”总导演郎昆团队倾情打造话剧《西去东来》，音乐剧《剧院魅影》中文版；\n可用渠道：大麦APP，大麦APP-内嵌h5，大麦PC，大麦H5-浏览器，淘票票-大麦网H5，淘宝-大麦H5，支付宝-大麦H5，微信，微信-大麦小程序\t，微信-大麦公众号，百度小程序，抖音小程序，高德，淘票票app，淘票票APP内嵌H5，淘票票独立h5，淘票票h5-新，淘宝天猫-海王，天猫-旗舰店，支付宝电影演出小程序，淘宝票务h5；",
+      "status": 2
+    }
+  ],
+  "userProfitInfo":
+  {
+    "userTotalPoint": "353",
+    "vipLevel": "10",
+    "vip": "true",
+    "login": "true"
+  },
+  "performProfitItems":
+  [
+    {
+      "url": "https://m.damai.cn/shows/hot-list.html",
+      "title": "购后得电子纪念品"
+    },
+    {
+      "url": "https://m.damai.cn/shows/hot-list.html",
+      "title": "权益点击跳权益详情页"
+    },
+    {
+      "url": "https://m.damai.cn/shows/hot-list.html",
+      "title": "权益点击跳权益详情页权益点击跳权益详情页购后得电子纪念品"
+    }
+  ],
+  "performProfitActivities":
+  [
+    {
+      "couponActSpreadId": "code_e2f3cea3755e9a88",
+      "profitCurrentPoint": "900",
+      "effectiveTimeText": "使用时间：2023.06.08-2023.06.14",
+      "discountDesc": "黑钻折扣价",
+      "couponTags":
+      [
+        "演出券"
+      ],
+      "decreaseMoneyNum": "129.6",
+      "appAsacCode": "2A20211GN10S24HSTQIMUZ",
+      "profitPoint": "10000",
+      "profitPoolSpreadId": "prizePool_jnh0p3yxydny9qmf9pz9hzo0a0aiu729g7ry5",
+      "features":
+      {
+        "enrollRuleExtType": "0"
+      },
+      "profitDrawStatus": "0",
+      "subBizType": "MEMBER_COUPON_ORDER_REDUCE",
+      "overAmount":
+      {
+        "amount": "1080.00",
+        "centFactor": "100",
+        "cent": "108000",
+        "displayUnit": "元",
+        "currency": "CNY",
+        "currencyCode": "CNY"
+      },
+      "profitPoolId": "39217",
+      "decreaseMoneyTag": "￥129.60",
+      "tag": "满1080减129.60元",
+      "id": "174785",
+      "reductionProfitPoint": "2000",
+      "effectiveEndTime": "2023-06-14 23:59:00",
+      "applicable": "true",
+      "profitDrawButtonText": "立即兑换",
+      "effectiveStartTime": "2023-06-08 11:00:00",
+      "decreaseMoney":
+      {
+        "amount": "129.60",
+        "centFactor": "100",
+        "cent": "12960",
+        "displayUnit": "元",
+        "currency": "CNY",
+        "currencyCode": "CNY"
+      },
+      "profitPointDiscount": "8",
+      "effectiveTimetype": "0",
+      "subCouponActExs":
+      [
+        {
+          "couponActSpreadId": "code_e2f3cea3755e9a88",
+          "effectiveTimeText": "使用时间：2023.06.08-2023.06.14",
+          "effectiveEndTime": "2023-06-14 23:59:00",
+          "applicable": "true",
+          "couponTags":
+          [
+            "演出券"
+          ],
+          "decreaseMoneyNum": "129.6",
+          "appAsacCode": "2A20211GN10S24HSTQIMUZ",
+          "effectiveStartTime": "2023-06-08 11:00:00",
+          "decreaseMoney":
+          {
+            "amount": "129.60",
+            "centFactor": "100",
+            "cent": "12960",
+            "displayUnit": "元",
+            "currency": "CNY",
+            "currencyCode": "CNY"
+          },
+          "features":
+          {
+            "enrollRuleExtType": "0"
+          },
+          "subBizType": "MEMBER_COUPON_ORDER_REDUCE",
+          "overAmount":
+          {
+            "amount": "1080.00",
+            "centFactor": "100",
+            "cent": "108000",
+            "displayUnit": "元",
+            "currency": "CNY",
+            "currencyCode": "CNY"
+          },
+          "effectiveTimetype": "0",
+          "decreaseMoneyTag": "￥129.60",
+          "overAmountText": "满1080元可用",
+          "name": "弗兰肯斯坦黑钻1080元",
+          "tag": "满1080减129.60元",
+          "id": "174785",
+          "h5AsacCode": "2A20211GN10S24HSTQIMUZ",
+          "status": "2",
+          "desc": "使用门槛：满 1080.0 元可用；\n可用商品：舞台剧《弗兰肯斯坦》中文版，场次 2023-07-26  周三 19:30 的票价 1080元，场次 2023-07-27 周四 19:30 的票价 1080元，场次 2023-07-28 周五 19:30 的票价 1080元，场次 2023-07-29 周六 14:30 的票价 1080元；\n可用渠道：大麦APP，大麦APP-内嵌h5，大麦PC，大麦H5-浏览器，淘票票-大麦网H5，淘宝-大麦H5，微信，微信-大麦小程序\t，微信-大麦公众号，百度小程序，抖音小程序，高德，支付宝电影演出小程序；"
+        }
+      ],
+      "overAmountText": "满1080元可用",
+      "name": "弗兰肯斯坦黑钻1080元",
+      "profitId": "9008",
+      "h5AsacCode": "2A20211GN10S24HSTQIMUZ",
+      "exchange4Dm": "1",
+      "status": "2",
+      "desc": "使用门槛：满 1080.0 元可用；\n可用商品：舞台剧《弗兰肯斯坦》中文版，场次 2023-07-26  周三 19:30 的票价 1080元，场次 2023-07-27 周四 19:30 的票价 1080元，场次 2023-07-28 周五 19:30 的票价 1080元，场次 2023-07-29 周六 14:30 的票价 1080元；\n可用渠道：大麦APP，大麦APP-内嵌h5，大麦PC，大麦H5-浏览器，淘票票-大麦网H5，淘宝-大麦H5，微信，微信-大麦小程序\t，微信-大麦公众号，百度小程序，抖音小程序，高德，支付宝电影演出小程序；"
+    },
+    {
+      "couponActSpreadId": "code_cc40b1863a820691",
+      "profitCurrentPoint": "353",
+      "effectiveTimeText": "使用时间：2023.06.08-2023.06.14",
+      "discountDesc": "黑钻折扣价",
+      "couponTags":
+      [
+        "演出券"
+      ],
+      "decreaseMoneyNum": "105.6",
+      "appAsacCode": "2A20211GN10S24HSTQIMUZ",
+      "profitPoint": "88",
+      "profitPoolSpreadId": "prizePool_njwvtxg61gcexjjgcen7qw5o26rwdntb03ozh",
+      "features":
+      {
+        "enrollRuleExtType": "0"
+      },
+      "profitDrawStatus": "1",
+      "subBizType": "MEMBER_COUPON_ORDER_REDUCE",
+      "overAmount":
+      {
+        "amount": "880.00",
+        "centFactor": "100",
+        "cent": "88000",
+        "displayUnit": "元",
+        "currency": "CNY",
+        "currencyCode": "CNY"
+      },
+      "profitPoolId": "39216",
+      "decreaseMoneyTag": "￥105.60",
+      "tag": "满880减105.60元",
+      "id": "174784",
+      "reductionProfitPoint": "100",
+      "effectiveEndTime": "2023-06-14 23:59:59",
+      "applicable": "true",
+      "profitDrawButtonText": "立即兑换",
+      "effectiveStartTime": "2023-06-08 11:00:00",
+      "decreaseMoney":
+      {
+        "amount": "105.60",
+        "centFactor": "100",
+        "cent": "10560",
+        "displayUnit": "元",
+        "currency": "CNY",
+        "currencyCode": "CNY"
+      },
+      "profitPointDiscount": "5",
+      "effectiveTimetype": "0",
+      "subCouponActExs":
+      [
+        {
+          "couponActSpreadId": "code_cc40b1863a820691",
+          "effectiveTimeText": "使用时间：2023.06.08-2023.06.14",
+          "effectiveEndTime": "2023-06-14 23:59:59",
+          "applicable": "true",
+          "couponTags":
+          [
+            "演出券"
+          ],
+          "decreaseMoneyNum": "105.6",
+          "appAsacCode": "2A20211GN10S24HSTQIMUZ",
+          "effectiveStartTime": "2023-06-08 11:00:00",
+          "decreaseMoney":
+          {
+            "amount": "105.60",
+            "centFactor": "100",
+            "cent": "10560",
+            "displayUnit": "元",
+            "currency": "CNY",
+            "currencyCode": "CNY"
+          },
+          "features":
+          {
+            "enrollRuleExtType": "0"
+          },
+          "subBizType": "MEMBER_COUPON_ORDER_REDUCE",
+          "overAmount":
+          {
+            "amount": "880.00",
+            "centFactor": "100",
+            "cent": "88000",
+            "displayUnit": "元",
+            "currency": "CNY",
+            "currencyCode": "CNY"
+          },
+          "effectiveTimetype": "0",
+          "decreaseMoneyTag": "￥105.60",
+          "overAmountText": "满880元可用",
+          "name": "弗兰肯斯坦黑钻880元",
+          "tag": "满880减105.60元",
+          "id": "174784",
+          "h5AsacCode": "2A20211GN10S24HSTQIMUZ",
+          "status": "2",
+          "desc": "使用门槛：满 880.0 元可用；\n可用商品：舞台剧《弗兰肯斯坦》中文版，场次 2023-07-26  周三 19:30 的票价 880元，场次 2023-07-27 周四 19:30 的票价 880元，场次 2023-07-28 周五 19:30 的票价 880元，场次 2023-07-29 周六 14:30 的票价 880元；\n可用渠道：大麦APP，大麦APP-内嵌h5，大麦PC，大麦H5-浏览器，淘票票-大麦网H5，淘宝-大麦H5，微信，微信-大麦小程序\t，微信-大麦公众号，百度小程序，抖音小程序，高德，支付宝电影演出小程序；"
+        }
+      ],
+      "overAmountText": "满880元可用",
+      "name": "弗兰肯斯坦黑钻880元",
+      "profitId": "9007",
+      "h5AsacCode": "2A20211GN10S24HSTQIMUZ",
+      "exchange4Dm": "1",
+      "status": "2",
+      "desc": "使用门槛：满 880.0 元可用；\n可用商品：舞台剧《弗兰肯斯坦》中文版，场次 2023-07-26  周三 19:30 的票价 880元，场次 2023-07-27 周四 19:30 的票价 880元，场次 2023-07-28 周五 19:30 的票价 880元，场次 2023-07-29 周六 14:30 的票价 880元；\n可用渠道：大麦APP，大麦APP-内嵌h5，大麦PC，大麦H5-浏览器，淘票票-大麦网H5，淘宝-大麦H5，微信，微信-大麦小程序\t，微信-大麦公众号，百度小程序，抖音小程序，高德，支付宝电影演出小程序；"
+    },
+    {
+      "couponActSpreadId": "code_4b18191a40c77234",
+      "profitCurrentPoint": "353",
+      "effectiveTimeText": "使用时间：2023.06.08-2023.06.14",
+      "couponTags":
+      [
+        "演出券"
+      ],
+      "decreaseMoneyNum": "81.6",
+      "appAsacCode": "2A20211GN10S24HSTQIMUZ",
+      "profitPoint": "68",
+      "profitPoolSpreadId": "prizePool_gfvbjfzdw5kynlehuxohoqe9c7umy9hszgtod",
+      "features":
+      {
+        "enrollRuleExtType": "0"
+      },
+      "profitDrawStatus": "4",
+      "subBizType": "MEMBER_COUPON_ORDER_REDUCE",
+      "overAmount":
+      {
+        "amount": "680.00",
+        "centFactor": "100",
+        "cent": "68000",
+        "displayUnit": "元",
+        "currency": "CNY",
+        "currencyCode": "CNY"
+      },
+      "profitPoolId": "39215",
+      "decreaseMoneyTag": "￥81.60",
+      "tag": "满680减81.60元",
+      "id": "174783",
+      "effectiveEndTime": "2023-06-14 23:59:59",
+      "applicable": "true",
+      "profitDrawButtonText": "积分不足",
+      "effectiveStartTime": "2023-06-08 11:00:00",
+      "decreaseMoney":
+      {
+        "amount": "81.60",
+        "centFactor": "100",
+        "cent": "8160",
+        "displayUnit": "元",
+        "currency": "CNY",
+        "currencyCode": "CNY"
+      },
+      "effectiveTimetype": "0",
+      "subCouponActExs":
+      [
+        {
+          "couponActSpreadId": "code_4b18191a40c77234",
+          "effectiveTimeText": "使用时间：2023.06.08-2023.06.14",
+          "effectiveEndTime": "2023-06-14 23:59:59",
+          "applicable": "true",
+          "couponTags":
+          [
+            "演出券"
+          ],
+          "decreaseMoneyNum": "81.6",
+          "appAsacCode": "2A20211GN10S24HSTQIMUZ",
+          "effectiveStartTime": "2023-06-08 11:00:00",
+          "decreaseMoney":
+          {
+            "amount": "81.60",
+            "centFactor": "100",
+            "cent": "8160",
+            "displayUnit": "元",
+            "currency": "CNY",
+            "currencyCode": "CNY"
+          },
+          "features":
+          {
+            "enrollRuleExtType": "0"
+          },
+          "subBizType": "MEMBER_COUPON_ORDER_REDUCE",
+          "overAmount":
+          {
+            "amount": "680.00",
+            "centFactor": "100",
+            "cent": "68000",
+            "displayUnit": "元",
+            "currency": "CNY",
+            "currencyCode": "CNY"
+          },
+          "effectiveTimetype": "0",
+          "decreaseMoneyTag": "￥81.60",
+          "overAmountText": "满680元可用",
+          "name": "弗兰肯斯坦黑钻680元",
+          "tag": "满680减81.60元",
+          "id": "174783",
+          "h5AsacCode": "2A20211GN10S24HSTQIMUZ",
+          "status": "2",
+          "desc": "使用门槛：满 680.0 元可用；\n可用商品：舞台剧《弗兰肯斯坦》中文版，场次 2023-07-26  周三 19:30 的票价 680元，场次 2023-07-27 周四 19:30 的票价 680元，场次 2023-07-28 周五 19:30 的票价 680元，场次 2023-07-29 周六 14:30 的票价 680元；\n可用渠道：大麦APP，大麦APP-内嵌h5，大麦PC，大麦H5-浏览器，淘票票-大麦网H5，淘宝-大麦H5，微信，微信-大麦小程序\t，微信-大麦公众号，百度小程序，抖音小程序，高德，支付宝电影演出小程序；"
+        }
+      ],
+      "overAmountText": "满680元可用",
+      "name": "弗兰肯斯坦黑钻680元",
+      "profitId": "9006",
+      "h5AsacCode": "2A20211GN10S24HSTQIMUZ",
+      "exchange4Dm": "1",
+      "status": "2",
+      "desc": "使用门槛：满 680.0 元可用；\n可用商品：舞台剧《弗兰肯斯坦》中文版，场次 2023-07-26  周三 19:30 的票价 680元，场次 2023-07-27 周四 19:30 的票价 680元，场次 2023-07-28 周五 19:30 的票价 680元，场次 2023-07-29 周六 14:30 的票价 680元；\n可用渠道：大麦APP，大麦APP-内嵌h5，大麦PC，大麦H5-浏览器，淘票票-大麦网H5，淘宝-大麦H5，微信，微信-大麦小程序\t，微信-大麦公众号，百度小程序，抖音小程序，高德，支付宝电影演出小程序；"
+    },
+    {
+      "couponActSpreadId": "code_4b18191a40c77234",
+      "profitCurrentPoint": "353",
+      "effectiveTimeText": "使用时间：2023.06.08-2023.06.14",
+      "couponTags":
+      [
+        "演出券"
+      ],
+      "decreaseMoneyNum": "81.6",
+      "appAsacCode": "2A20211GN10S24HSTQIMUZ",
+      "profitPoint": "68",
+      "profitPoolSpreadId": "prizePool_gfvbjfzdw5kynlehuxohoqe9c7umy9hszgtod",
+      "features":
+      {
+        "enrollRuleExtType": "0"
+      },
+      "profitDrawStatus": "0",
+      "subBizType": "MEMBER_COUPON_ORDER_BOGO",
+      "overAmount":
+      {
+        "amount": "680.00",
+        "centFactor": "100",
+        "cent": "68000",
+        "displayUnit": "元",
+        "currency": "CNY",
+        "currencyCode": "CNY"
+      },
+      "profitPoolId": "39215",
+      "decreaseMoneyTag": "￥81.60",
+      "tag": "满680减81.60元",
+      "id": "174783",
+      "effectiveEndTime": "2023-06-14 23:59:59",
+      "applicable": "true",
+      "profitDrawButtonText": "立即兑换",
+      "effectiveStartTime": "2023-06-08 11:00:00",
+      "decreaseMoney":
+      {
+        "amount": "81.60",
+        "centFactor": "100",
+        "cent": "8160",
+        "displayUnit": "元",
+        "currency": "CNY",
+        "currencyCode": "CNY"
+      },
+      "effectiveTimetype": "0",
+      "subCouponActExs":
+      [
+        {
+          "couponActSpreadId": "code_4b18191a40c77234",
+          "effectiveTimeText": "买一赠一无人命币符号：81.60",
+          "effectiveEndTime": "2023-06-14 23:59:59",
+          "applicable": "true",
+          "couponTags":
+          [
+            "演出券"
+          ],
+          "decreaseMoneyNum": "81.6",
+          "appAsacCode": "2A20211GN10S24HSTQIMUZ",
+          "effectiveStartTime": "2023-06-08 11:00:00",
+          "decreaseMoney":
+          {
+            "amount": "81.60",
+            "centFactor": "100",
+            "cent": "8160",
+            "displayUnit": "元",
+            "currency": "CNY",
+            "currencyCode": "CNY"
+          },
+          "features":
+          {
+            "enrollRuleExtType": "0"
+          },
+          "subBizType": "MEMBER_COUPON_ORDER_BOGO",
+          "overAmount":
+          {
+            "amount": "680.00",
+            "centFactor": "100",
+            "cent": "68000",
+            "displayUnit": "元",
+            "currency": "CNY",
+            "currencyCode": "CNY"
+          },
+          "effectiveTimetype": "0",
+          "decreaseMoneyTag": "￥81.60",
+          "overAmountText": "满680元可用",
+          "name": "弗兰肯斯坦黑钻680元",
+          "tag": "满680减81.60元",
+          "id": "174783",
+          "h5AsacCode": "2A20211GN10S24HSTQIMUZ",
+          "status": "2",
+          "desc": "使用门槛：满 680.0 元可用；\n可用商品：舞台剧《弗兰肯斯坦》中文版，场次 2023-07-26  周三 19:30 的票价 680元，场次 2023-07-27 周四 19:30 的票价 680元，场次 2023-07-28 周五 19:30 的票价 680元，场次 2023-07-29 周六 14:30 的票价 680元；\n可用渠道：大麦APP，大麦APP-内嵌h5，大麦PC，大麦H5-浏览器，淘票票-大麦网H5，淘宝-大麦H5，微信，微信-大麦小程序\t，微信-大麦公众号，百度小程序，抖音小程序，高德，支付宝电影演出小程序；"
+        }
+      ],
+      "overAmountText": "满680元可用",
+      "name": "弗兰肯斯坦黑钻680元",
+      "profitId": "9006",
+      "h5AsacCode": "2A20211GN10S24HSTQIMUZ",
+      "exchange4Dm": "1",
+      "status": "2",
+      "desc": "使用门槛：满 680.0 元可用；\n可用商品：舞台剧《弗兰肯斯坦》中文版，场次 2023-07-26  周三 19:30 的票价 680元，场次 2023-07-27 周四 19:30 的票价 680元，场次 2023-07-28 周五 19:30 的票价 680元，场次 2023-07-29 周六 14:30 的票价 680元；\n可用渠道：大麦APP，大麦APP-内嵌h5，大麦PC，大麦H5-浏览器，淘票票-大麦网H5，淘宝-大麦H5，微信，微信-大麦小程序\t，微信-大麦公众号，百度小程序，抖音小程序，高德，支付宝电影演出小程序；"
+    },
+    {
+      "couponActSpreadId": "code_4b18191a40c77234",
+      "profitCurrentPoint": "353",
+      "effectiveTimeText": "使用时间：2023.06.08-2023.06.14",
+      "couponTags":
+      [
+        "演出券"
+      ],
+      "decreaseMoneyNum": "81.6",
+      "appAsacCode": "2A20211GN10S24HSTQIMUZ",
+      "profitPoint": "68",
+      "profitPoolSpreadId": "prizePool_gfvbjfzdw5kynlehuxohoqe9c7umy9hszgtod",
+      "features":
+      {
+        "enrollRuleExtType": "0"
+      },
+      "profitDrawStatus": "0",
+      "subBizType": "MEMBER_COUPON_ORDER_BOGO",
+      "overAmount":
+      {
+        "amount": "680.00",
+        "centFactor": "100",
+        "cent": "68000",
+        "displayUnit": "元",
+        "currency": "CNY",
+        "currencyCode": "CNY"
+      },
+      "profitPoolId": "39215",
+      "decreaseMoneyTag": "￥81.60",
+      "tag": "满680减81.60元",
+      "id": "174783",
+      "effectiveEndTime": "2023-06-14 23:59:59",
+      "applicable": "true",
+      "profitDrawButtonText": "立即兑换",
+      "effectiveStartTime": "2023-06-08 11:00:00",
+      "decreaseMoney":
+      {
+        "amount": "81.60",
+        "centFactor": "100",
+        "cent": "8160",
+        "displayUnit": "元",
+        "currency": "CNY",
+        "currencyCode": "CNY"
+      },
+      "effectiveTimetype": "0",
+      "subCouponActExs":
+      [
+        {
+          "couponActSpreadId": "code_4b18191a40c77234",
+          "effectiveTimeText": "买一赠一无人命币符号：81.60",
+          "effectiveEndTime": "2023-06-14 23:59:59",
+          "applicable": "true",
+          "couponTags":
+          [
+            "演出券"
+          ],
+          "decreaseMoneyNum": "81.6",
+          "appAsacCode": "2A20211GN10S24HSTQIMUZ",
+          "effectiveStartTime": "2023-06-08 11:00:00",
+          "decreaseMoney":
+          {
+            "amount": "81.60",
+            "centFactor": "100",
+            "cent": "8160",
+            "displayUnit": "元",
+            "currency": "CNY",
+            "currencyCode": "CNY"
+          },
+          "features":
+          {
+            "enrollRuleExtType": "0"
+          },
+          "subBizType": "MEMBER_COUPON_ORDER_BOGO",
+          "overAmount":
+          {
+            "amount": "680.00",
+            "centFactor": "100",
+            "cent": "68000",
+            "displayUnit": "元",
+            "currency": "CNY",
+            "currencyCode": "CNY"
+          },
+          "effectiveTimetype": "0",
+          "decreaseMoneyTag": "我来买一赠一",
+          "overAmountText": "满680元可用",
+          "name": "弗兰肯斯坦黑钻680元",
+          "tag": "满680减81.60元",
+          "id": "174783",
+          "h5AsacCode": "2A20211GN10S24HSTQIMUZ",
+          "status": "2",
+          "desc": "使用门槛：满 680.0 元可用；\n可用商品：舞台剧《弗兰肯斯坦》中文版，场次 2023-07-26  周三 19:30 的票价 680元，场次 2023-07-27 周四 19:30 的票价 680元，场次 2023-07-28 周五 19:30 的票价 680元，场次 2023-07-29 周六 14:30 的票价 680元；\n可用渠道：大麦APP，大麦APP-内嵌h5，大麦PC，大麦H5-浏览器，淘票票-大麦网H5，淘宝-大麦H5，微信，微信-大麦小程序\t，微信-大麦公众号，百度小程序，抖音小程序，高德，支付宝电影演出小程序；"
+        }
+      ],
+      "overAmountText": "满680元可用",
+      "name": "弗兰肯斯坦黑钻680元",
+      "profitId": "9006",
+      "h5AsacCode": "2A20211GN10S24HSTQIMUZ",
+      "exchange4Dm": "1",
+      "status": "2",
+      "desc": "使用门槛：满 680.0 元可用；\n可用商品：舞台剧《弗兰肯斯坦》中文版，场次 2023-07-26  周三 19:30 的票价 680元，场次 2023-07-27 周四 19:30 的票价 680元，场次 2023-07-28 周五 19:30 的票价 680元，场次 2023-07-29 周六 14:30 的票价 680元；\n可用渠道：大麦APP，大麦APP-内嵌h5，大麦PC，大麦H5-浏览器，淘票票-大麦网H5，淘宝-大麦H5，微信，微信-大麦小程序\t，微信-大麦公众号，百度小程序，抖音小程序，高德，支付宝电影演出小程序；"
+    },
+    {
+      "couponActSpreadId": "code_4b18191a40c77234",
+      "profitCurrentPoint": "353",
+      "effectiveTimeText": "使用时间：2023.06.08-2023.06.14",
+      "couponTags":
+      [
+        "演出券"
+      ],
+      "decreaseMoneyNum": "81.6",
+      "appAsacCode": "2A20211GN10S24HSTQIMUZ",
+      "profitPoint": "68",
+      "profitPoolSpreadId": "prizePool_gfvbjfzdw5kynlehuxohoqe9c7umy9hszgtod",
+      "features":
+      {
+        "enrollRuleExtType": "0"
+      },
+      "profitDrawStatus": "0",
+      "subBizType": "MEMBER_COUPON_ORDER_REDUCE_TO",
+      "overAmount":
+      {
+        "amount": "680.00",
+        "centFactor": "100",
+        "cent": "68000",
+        "displayUnit": "元",
+        "currency": "CNY",
+        "currencyCode": "CNY"
+      },
+      "profitPoolId": "39215",
+      "decreaseMoneyTag": "￥81.60",
+      "tag": "满680减81.60元",
+      "id": "174783",
+      "effectiveEndTime": "2023-06-14 23:59:59",
+      "applicable": "true",
+      "profitDrawButtonText": "立即兑换",
+      "effectiveStartTime": "2023-06-08 11:00:00",
+      "decreaseMoney":
+      {
+        "amount": "81.60",
+        "centFactor": "100",
+        "cent": "8160",
+        "displayUnit": "元",
+        "currency": "CNY",
+        "currencyCode": "CNY"
+      },
+      "effectiveTimetype": "0",
+      "subCouponActExs":
+      [
+        {
+          "couponActSpreadId": "code_4b18191a40c77234",
+          "effectiveTimeText": "一口价显示￥81.60购",
+          "effectiveEndTime": "2023-06-14 23:59:59",
+          "applicable": "true",
+          "couponTags":
+          [
+            "演出券"
+          ],
+          "decreaseMoneyNum": "81.6",
+          "appAsacCode": "2A20211GN10S24HSTQIMUZ",
+          "effectiveStartTime": "2023-06-08 11:00:00",
+          "decreaseMoney":
+          {
+            "amount": "81.60",
+            "centFactor": "100",
+            "cent": "8160",
+            "displayUnit": "元",
+            "currency": "CNY",
+            "currencyCode": "CNY"
+          },
+          "features":
+          {
+            "enrollRuleExtType": "0"
+          },
+          "subBizType": "MEMBER_COUPON_ORDER_REDUCE_TO",
+          "overAmount":
+          {
+            "amount": "680.00",
+            "centFactor": "100",
+            "cent": "68000",
+            "displayUnit": "元",
+            "currency": "CNY",
+            "currencyCode": "CNY"
+          },
+          "effectiveTimetype": "0",
+          "decreaseMoneyTag": "￥81.60",
+          "overAmountText": "满680元可用",
+          "name": "弗兰肯斯坦黑钻680元",
+          "tag": "满680减81.60元",
+          "id": "174783",
+          "h5AsacCode": "2A20211GN10S24HSTQIMUZ",
+          "status": "2",
+          "desc": "使用门槛：满 680.0 元可用；\n可用商品：舞台剧《弗兰肯斯坦》中文版，场次 2023-07-26  周三 19:30 的票价 680元，场次 2023-07-27 周四 19:30 的票价 680元，场次 2023-07-28 周五 19:30 的票价 680元，场次 2023-07-29 周六 14:30 的票价 680元；\n可用渠道：大麦APP，大麦APP-内嵌h5，大麦PC，大麦H5-浏览器，淘票票-大麦网H5，淘宝-大麦H5，微信，微信-大麦小程序\t，微信-大麦公众号，百度小程序，抖音小程序，高德，支付宝电影演出小程序；"
+        }
+      ],
+      "overAmountText": "满680元可用",
+      "name": "弗兰肯斯坦黑钻680元",
+      "profitId": "9006",
+      "h5AsacCode": "2A20211GN10S24HSTQIMUZ",
+      "exchange4Dm": "1",
+      "status": "2",
+      "desc": "使用门槛：满 680.0 元可用；\n可用商品：舞台剧《弗兰肯斯坦》中文版，场次 2023-07-26  周三 19:30 的票价 680元，场次 2023-07-27 周四 19:30 的票价 680元，场次 2023-07-28 周五 19:30 的票价 680元，场次 2023-07-29 周六 14:30 的票价 680元；\n可用渠道：大麦APP，大麦APP-内嵌h5，大麦PC，大麦H5-浏览器，淘票票-大麦网H5，淘宝-大麦H5，微信，微信-大麦小程序\t，微信-大麦公众号，百度小程序，抖音小程序，高德，支付宝电影演出小程序；"
+    },
+    {
+      "couponActSpreadId": "code_4b18191a40c77234",
+      "profitCurrentPoint": "353",
+      "effectiveTimeText": "使用时间：2023.06.08-2023.06.14",
+      "couponTags":
+      [
+        "演出券"
+      ],
+      "decreaseMoneyNum": "81.6",
+      "appAsacCode": "2A20211GN10S24HSTQIMUZ",
+      "profitPoint": "68",
+      "profitPoolSpreadId": "prizePool_gfvbjfzdw5kynlehuxohoqe9c7umy9hszgtod",
+      "features":
+      {
+        "enrollRuleExtType": "0"
+      },
+      "profitDrawStatus": "0",
+      "subBizType": "MEMBER_COUPON_ORDER_REDUCE",
+      "overAmount":
+      {
+        "amount": "680.00",
+        "centFactor": "100",
+        "cent": "68000",
+        "displayUnit": "元",
+        "currency": "CNY",
+        "currencyCode": "CNY"
+      },
+      "profitPoolId": "39215",
+      "decreaseMoneyTag": "￥81.60",
+      "tag": "满680减81.60元",
+      "id": "174783",
+      "effectiveEndTime": "2023-06-14 23:59:59",
+      "applicable": "true",
+      "profitDrawButtonText": "立即兑换",
+      "effectiveStartTime": "2023-06-08 11:00:00",
+      "decreaseMoney":
+      {
+        "amount": "81.60",
+        "centFactor": "100",
+        "cent": "8160",
+        "displayUnit": "元",
+        "currency": "CNY",
+        "currencyCode": "CNY"
+      },
+      "effectiveTimetype": "0",
+      "subCouponActExs":
+      [
+        {
+          "couponActSpreadId": "code_4b18191a40c77234",
+          "effectiveTimeText": "使用时间：2023.06.08-2023.06.14",
+          "effectiveEndTime": "2023-06-14 23:59:59",
+          "applicable": "true",
+          "couponTags":
+          [
+            "演出券"
+          ],
+          "decreaseMoneyNum": "81.6",
+          "appAsacCode": "2A20211GN10S24HSTQIMUZ",
+          "effectiveStartTime": "2023-06-08 11:00:00",
+          "decreaseMoney":
+          {
+            "amount": "81.60",
+            "centFactor": "100",
+            "cent": "8160",
+            "displayUnit": "元",
+            "currency": "CNY",
+            "currencyCode": "CNY"
+          },
+          "features":
+          {
+            "enrollRuleExtType": "0"
+          },
+          "subBizType": "MEMBER_COUPON_ORDER_REDUCE",
+          "overAmount":
+          {
+            "amount": "680.00",
+            "centFactor": "100",
+            "cent": "68000",
+            "displayUnit": "元",
+            "currency": "CNY",
+            "currencyCode": "CNY"
+          },
+          "effectiveTimetype": "0",
+          "decreaseMoneyTag": "￥81.60",
+          "overAmountText": "满680元可用",
+          "name": "弗兰肯斯坦黑钻680元",
+          "tag": "满680减81.60元",
+          "id": "174783",
+          "h5AsacCode": "2A20211GN10S24HSTQIMUZ",
+          "status": "2",
+          "desc": "使用门槛：满 680.0 元可用；\n可用商品：舞台剧《弗兰肯斯坦》中文版，场次 2023-07-26  周三 19:30 的票价 680元，场次 2023-07-27 周四 19:30 的票价 680元，场次 2023-07-28 周五 19:30 的票价 680元，场次 2023-07-29 周六 14:30 的票价 680元；\n可用渠道：大麦APP，大麦APP-内嵌h5，大麦PC，大麦H5-浏览器，淘票票-大麦网H5，淘宝-大麦H5，微信，微信-大麦小程序\t，微信-大麦公众号，百度小程序，抖音小程序，高德，支付宝电影演出小程序；"
+        }
+      ],
+      "overAmountText": "满680元可用",
+      "name": "弗兰肯斯坦黑钻680元",
+      "profitId": "9006",
+      "h5AsacCode": "2A20211GN10S24HSTQIMUZ",
+      "exchange4Dm": "1",
+      "status": "2",
+      "desc": "使用门槛：满 680.0 元可用；\n可用商品：舞台剧《弗兰肯斯坦》中文版，场次 2023-07-26  周三 19:30 的票价 680元，场次 2023-07-27 周四 19:30 的票价 680元，场次 2023-07-28 周五 19:30 的票价 680元，场次 2023-07-29 周六 14:30 的票价 680元；\n可用渠道：大麦APP，大麦APP-内嵌h5，大麦PC，大麦H5-浏览器，淘票票-大麦网H5，淘宝-大麦H5，微信，微信-大麦小程序\t，微信-大麦公众号，百度小程序，抖音小程序，高德，支付宝电影演出小程序；"
+    }
+  ]
+}

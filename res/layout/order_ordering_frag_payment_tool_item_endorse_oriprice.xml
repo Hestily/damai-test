@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/block_oriprice_select_area" android:background="@drawable/list_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CommonListItemContainerWhite"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/ordering_selector_block_oriprice_title" android:layout_marginRight="8.0dip" android:text="@string/ordering_selector_block_oriprice_title" android:layout_weight="1.0" style="@style/CommonListItemOrderTitle" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/color_tpp_primary_assist" android:id="@id/block_oriprice_select_area_amount" android:layout_marginRight="4.0dip" style="@style/CommonListItemTitle" />
+</LinearLayout>

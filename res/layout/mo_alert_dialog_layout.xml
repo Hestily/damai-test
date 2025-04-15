@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:id="@id/mo_alertdialog_rootview" android:background="#66000000" android:paddingLeft="38.0dip" android:paddingRight="38.0dip" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/mo_alertdialog_content" android:background="@color/white" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/mo_alertdialog_head_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:id="@id/mo_alertdialog_top_body_divider" android:background="@color/common_color_1011" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/mo_alertdialog_content_body" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <View android:id="@id/mo_alertdialog_body_bottom_divider" android:background="@color/common_color_1011" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/mo_alertdialog_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="18.0dip" android:textColor="@color/white" android:id="@id/mo_alertdialog_bottom_close_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/icon_font_close" android:rotation="45.0" />
+</FrameLayout>

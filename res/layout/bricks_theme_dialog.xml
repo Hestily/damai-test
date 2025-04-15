@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:roundimage="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.pictures.bricks.view.MaxHeightLinearLayout android:orientation="vertical" android:id="@id/damai_theme_dialog_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.alibaba.pictures.bricks.view.RoundImageView android:layout_gravity="bottom|center" android:id="@id/damai_theme_dialog_top_image_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" roundimage:borderRadius="24.0dip" roundimage:clipLeftBottomRadius="true" roundimage:clipRightBottomRadius="true" roundimage:type="round" />
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/damai_theme_dialog_top_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="0.5dip" />
+            </FrameLayout>
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/damai_theme_dialog_container" android:background="@drawable/bricks_theme_dialog_bg" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="125.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="18.0dip" android:textColor="#ff000000" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/damai_theme_dialog_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:singleLine="true" android:includeFontPadding="false" />
+                <TextView android:textSize="16.0dip" android:textColor="#ff999999" android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/damai_theme_dialog_subtitle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:includeFontPadding="false" />
+                <FrameLayout android:id="@id/additional_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <ScrollView android:id="@id/damai_theme_dialog_content_layout" android:background="@drawable/bricks_theme_dialog_content_bg" android:visibility="gone" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_weight="1.0" android:overScrollMode="never">
+                    <FrameLayout android:id="@id/damai_theme_dialog_content_container" android:paddingLeft="12.0dip" android:paddingTop="15.0dip" android:paddingRight="12.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <TextView android:textSize="14.0dip" android:textColor="#ff9c9ca5" android:gravity="center_horizontal" android:id="@id/damai_theme_dialog_tip_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" android:lineSpacingExtra="3.0dip" />
+                    </FrameLayout>
+                </ScrollView>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="21.0dip">
+                    <TextView android:textSize="16.0dip" android:textColor="#ffff2869" android:gravity="center" android:id="@id/damai_theme_dialog_cancel_btn" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="39.0dip" android:layout_marginRight="15.0dip" android:text="取消" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" />
+                    <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/damai_theme_dialog_confirm_btn" android:background="@drawable/bricks_theme_dialog_ok_bg" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="39.0dip" android:text="确定" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="24.0dip" android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@id/damai_theme_dialog_close_btn" android:padding="18.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/iconfont_guanbiyuanxian_" />
+        </com.alibaba.pictures.bricks.view.MaxHeightLinearLayout>
+        <View android:id="@id/damai_theme_dialog_bottom_space" android:layout_width="fill_parent" android:layout_height="30.0dip" />
+    </LinearLayout>
+</FrameLayout>

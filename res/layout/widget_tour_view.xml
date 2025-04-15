@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_tour_item" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.baseview.RCRelativeLayoutView android:id="@id/tour_current_city_project" android:paddingLeft="-6.0dip" android:paddingRight="-6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:clip_background="true" app:round_corner_top_left="12.0dip" app:round_corner_top_right="12.0dip" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/color_9C9CA5" android:id="@id/tour_other_city_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="12.0dip" android:singleLine="true" />
+    <View android:id="@id/tour_other_city_list_top_line" android:background="#1a000000" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/tour_other_city_list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+    <View android:id="@id/tour_other_city_show_all_top_line" android:background="#1a000000" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <TextView android:textSize="12.0dip" android:textColor="#ff30aeff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tour_other_city_show_all" android:layout_width="120.0dip" android:layout_height="41.0dip" android:text="展开全部演出城市" />
+</LinearLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/margin_13dp" android:textColor="#ff666666" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/problem_name_tv" android:background="?bgCommonProblem" android:paddingLeft="@dimen/margin_12dp" android:paddingRight="@dimen/margin_12dp" android:layout_width="wrap_content" android:layout_height="@dimen/margin_30dp" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="10.0dip" android:singleLine="true" android:includeFontPadding="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

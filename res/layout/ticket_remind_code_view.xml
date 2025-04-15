@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.taobao.movie.android.commonui.widget.SimpleDraweeView android:gravity="center" android:id="@id/qr_code" android:layout_width="132.0dip" android:layout_height="132.0dip" android:scaleType="fitXY" app:actualImageScaleType="fitXY" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/color_tpp_primary_assist" android:gravity="center_horizontal" android:id="@id/tips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:lineSpacingExtra="2.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/qr_code_org" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" />
+</LinearLayout>

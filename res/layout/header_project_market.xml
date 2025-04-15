@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="#fff6f7f8" android:layout_width="fill_parent" android:layout_height="9.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:paddingLeft="21.0dip" android:paddingTop="@dimen/project_modul_top" android:paddingRight="21.0dip" android:paddingBottom="@dimen/project_modul_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/market_icon" android:layout_width="@dimen/project_icon_size" android:layout_height="@dimen/project_icon_size" android:layout_marginRight="6.0dip" android:scaleType="fitXY" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/black" android:ellipsize="end" android:id="@id/market_tv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:lines="1" android:layout_weight="1.0" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/color_9C9CA5" android:id="@id/market_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" />
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_13dp" android:textColor="#ff3c3f44" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/iconfont_youjiantou24" android:includeFontPadding="false" />
+    </LinearLayout>
+</LinearLayout>

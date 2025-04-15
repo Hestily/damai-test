@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/id_new_project_item_expand_fold_mask" android:background="@drawable/bg_new_project_expand_mask" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="@dimen/resource_size_9" android:layout_marginRight="@dimen/resource_size_9" />
+    <TextView android:textSize="@dimen/resource_size_14" android:textColor="@color/bricks_2e333e" android:gravity="center" android:id="@id/id_new_project_item_expand_fold_action" android:background="@drawable/shape_rect_bottom_radius_9_solid_w" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="@dimen/resource_size_9" android:layout_marginRight="@dimen/resource_size_9" />
+</LinearLayout>

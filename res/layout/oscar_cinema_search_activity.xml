@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/oscar_cinema_search_background" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/common_search_bar" />
+        <ListView android:id="@id/historyList" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" />
+        <ListView android:id="@id/oscar_cinema_search_result_list" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/common_divider_color" android:dividerHeight="1.0px" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/oscar_cinema_search_no_result" android:background="@color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="17.0dip" android:textColor="@color/common_text_color11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" android:text="亲，没有找到合适的影院..." />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

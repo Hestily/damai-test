@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="bottom" android:orientation="horizontal" android:id="@id/bricks_dm_common_price_block" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="11.0dip" android:textStyle="bold" android:textColor="@color/color_price_font" android:id="@id/bricks_dm_common_price_prefix" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="1.0dip" android:layout_marginBottom="0.0dip" android:text="¥" android:singleLine="true" android:includeFontPadding="false" />
+    <com.alibaba.pictures.bricks.view.DigitTextView android:textSize="16.0dip" android:textColor="@color/color_price_font" android:id="@id/bricks_dm_common_price_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="0.0dip" android:singleLine="true" android:includeFontPadding="false" />
+    <TextView android:textSize="11.0dip" android:textColor="@color/color_bricks_primary_assist" android:id="@id/bricks_dm_common_price_suffix" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginBottom="0.5dip" android:text="起" android:includeFontPadding="false" />
+    <TextView android:textSize="11.0dip" android:textColor="@color/color_bricks_primary_red" android:gravity="center" android:id="@id/bricks_dm_common_price_unknown" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="0.5dip" android:text="价格待定" android:includeFontPadding="false" />
+</merge>

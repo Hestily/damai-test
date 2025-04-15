@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/color_EEEEEE" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <TextView android:textSize="@dimen/margin_16dp" android:textColor="@color/white" android:gravity="center" android:id="@id/issue_title_confirm" android:background="@drawable/issue_issue_button_bg" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="@dimen/margin_21dp" android:layout_marginTop="@dimen/margin_8dp" android:layout_marginRight="@dimen/margin_21dp" android:layout_marginBottom="@dimen/margin_8dp" android:text="@string/issue_submit_text" />
+</LinearLayout>

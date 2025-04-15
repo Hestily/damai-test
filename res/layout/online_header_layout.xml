@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_15dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.baseview.RCFrameLayoutLayoutView android:id="@id/layout_header" android:layout_width="fill_parent" android:layout_height="261.0dip" android:layout_marginLeft="21.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="21.0dip" app:round_corner="12.0dip" app:stroke_color="#1a000000" app:stroke_width="1.0dip">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="188.0dip">
+            <ImageView android:id="@id/image_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            <cn.damai.player.DMVideoPlayer android:id="@id/player" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <View android:layout_gravity="bottom" android:id="@id/view_bg" android:background="@drawable/live_header_black_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageView android:layout_gravity="center" android:id="@id/player_video_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/yk_player_bofang_btn" />
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:id="@id/layout_star" android:layout_width="fill_parent" android:layout_height="48.0dip">
+                <cn.damai.tetris.component.online.mvp.HeadPicListView android:id="@id/piclist_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" />
+                <TextView android:textSize="14.0dip" android:textColor="@color/color_white" android:ellipsize="end" android:id="@id/star_name_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:maxEms="9" android:singleLine="true" />
+                <cn.damai.uikit.view.DMLRLabelView android:id="@id/star_label_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" />
+            </LinearLayout>
+            <ImageView android:id="@id/image_logo" android:layout_width="63.0dip" android:layout_height="36.0dip" android:src="@drawable/online_logo" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:background="@color/color_white" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="188.0dip">
+            <include layout="@layout/online_timer_layout" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0dip" android:textColor="@color/black" android:ellipsize="end" android:id="@id/tv_title" android:paddingTop="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+                <TextView android:textSize="13.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/btn_buy" android:background="@drawable/online_btn_bg" android:visibility="visible" android:layout_width="64.0dip" android:layout_height="25.0dip" android:layout_marginTop="-5.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="bottom|center|right" android:id="@id/liwu_view" android:visibility="visible" android:layout_width="45.0dip" android:layout_height="118.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="10.0dip" app:lottie_repeatCount="-1" />
+    </cn.damai.baseview.RCFrameLayoutLayoutView>
+</FrameLayout>

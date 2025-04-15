@@ -1,0 +1,42 @@
+{
+  "id": "damai_scriptmurder_dm_item",
+  "type": "gaia-template",
+  "package": {
+    "id": "damai_scriptmurder_dm_item",
+    "version": "0.0.1",
+    "modify-timestamp": "Wed Jul 27 2022 11:47:23 GMT+0800 (中国标准时间)",
+    "constraint-size": { "width": 84, "height": 210, "zoom": 1 },
+    "dependencies": {}
+  },
+  "layers": [
+    {
+      "id": "header_image_num",
+      "type": "view",
+      "layers": [
+        { "id": "dm_header_image", "type": "image" },
+        {
+          "id": "holder_num",
+          "type": "view",
+          "layers": [{ "id": "dm_desc", "type": "text" }]
+        }
+      ]
+    },
+    {
+      "id": "dm_introduce_info",
+      "type": "view",
+      "layers": [
+        { "id": "dm_name", "type": "text" },
+        { "id": "dm_host_num", "type": "text" },
+        {
+          "id": "dm_label_bg",
+          "type": "view",
+          "layers": [
+            { "id": "dm_label_content_one", "type": "text" },
+            { "id": "dm_label_content_line", "type": "text" },
+            { "id": "dm_label_content_two", "type": "text" }
+          ]
+        }
+      ]
+    }
+  ]
+}

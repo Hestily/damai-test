@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.girl.mvp.BannerModel",
+    "vClass": "cn.damai.tetris.component.girl.mvp.BannerView",
+    "pClass": "cn.damai.tetris.component.girl.mvp.BannerPresenter",
+    "layoutXml": "subgroup_galley_layout"
+  }
+}

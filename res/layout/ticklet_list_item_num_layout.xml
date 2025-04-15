@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/ticklet_list_item_num" android:background="@drawable/ticklet_list_item_num_bg_new" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_5dp" android:layout_marginRight="@dimen/margin_6dp" style="@style/ticklet_white_13dp" />
+</FrameLayout>

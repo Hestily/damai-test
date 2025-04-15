@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/aliuser_containers_sv" android:background="@color/aliuser_default_bg" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/aliuser_user_login_ll" android:background="@color/aliuser_default_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/aliuser_page_padding" android:paddingTop="@dimen/aliuser_space_20" android:paddingRight="@dimen/aliuser_page_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.ali.user.mobile.ui.widget.CircleImageView android:id="@id/aliuser_login_avatar" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_marginTop="@dimen/aliuser_space_12" android:layout_marginBottom="@dimen/aliuser_space_12" android:src="@drawable/aliuser_placeholder" />
+            <TextView android:id="@id/aliuser_scan_login_account_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/aliuser_space_20" android:text="用户名" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/aliuser_page_padding" android:paddingRight="@dimen/aliuser_page_padding" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aliuser_space_10" android:layout_marginBottom="@dimen/aliuser_space_12">
+            <Button android:textColor="@color/aliuser_color_white" android:id="@id/aliuser_scan_login_btn" android:background="@drawable/aliuser_main_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/aliuser_scan_login_text" />
+            <TextView android:gravity="center" android:id="@id/aliuser_scan_switch_sms" android:paddingTop="@dimen/aliuser_space_20" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/aliuser_login_sms_login" />
+            <TextView android:gravity="center" android:id="@id/aliuser_scan_switch_pwd" android:paddingTop="@dimen/aliuser_space_20" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/aliuser_login_pwd_login" />
+        </LinearLayout>
+        <include android:id="@id/aliuser_alipay_area" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/aliuser_bottom_area" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/filter_pop_container_bg" android:paddingTop="10.0dip" android:paddingBottom="15.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/color_tpp_primary_subtitle" android:gravity="center" android:layout_gravity="center" android:id="@id/clear_btn" android:background="@drawable/line_btn_bg" android:layout_width="0.0dip" android:layout_height="39.0dip" android:layout_marginLeft="15.0dip" android:text="清空" android:layout_weight="1.0" />
+    <Button android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/confirm_btn" android:background="@drawable/common_red_small_btn_7_3" android:layout_width="0.0dip" android:layout_height="39.0dip" android:layout_marginLeft="9.0dip" android:layout_marginRight="15.0dip" android:text="确定" android:layout_weight="1.0" />
+</LinearLayout>

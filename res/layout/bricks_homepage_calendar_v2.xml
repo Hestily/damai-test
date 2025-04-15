@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/home_calendar_container_v2" android:layout_width="fill_parent" android:layout_height="53.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="0.0dip" android:layout_height="0.0dip" app:cardBackgroundColor="@color/transparent" app:cardCornerRadius="6.0dip" app:cardElevation="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.alibaba.pictures.moimage.MoImageView android:id="@id/home_calendar_bg_pic_v2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        <com.alibaba.pictures.bricks.view.SafeLottieAnimationView android:layout_gravity="end" android:id="@id/home_calendar_bg_lottie_v2" android:layout_width="50.0dip" android:layout_height="fill_parent" app:lottie_autoPlay="true" app:lottie_loop="true" />
+    </androidx.cardview.widget.CardView>
+    <ImageView android:id="@id/home_calendar_right_icon_v2" android:layout_width="43.0dip" android:layout_height="43.0dip" android:layout_marginBottom="3.0dip" android:scaleType="fitXY" android:layout_marginEnd="3.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+    <ImageView android:id="@id/home_calendar_title_v2" android:layout_width="wrap_content" android:layout_height="14.0dip" android:layout_marginTop="@dimen/margin_10dp" android:src="@drawable/bricks_home_calendar_title" android:scaleType="fitStart" android:layout_marginStart="@dimen/dim_6" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="11.0dip" android:ellipsize="end" android:id="@id/home_calendar_subTitle_v2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxLines="1" android:layout_marginStart="@dimen/dim_6" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/home_calendar_title_v2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

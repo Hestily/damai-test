@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.taobao.movie.android.app.order.ui.widget.TrackerFrameLayout2 android:id="@id/tracker_frameLayout2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.flexbox.FlexboxLayout android:orientation="vertical" android:background="#99000000" android:layout_width="fill_parent" android:layout_height="fill_parent" app:flexDirection="column" app:flexWrap="nowrap">
+        <View android:background="@color/common_text_color14" android:layout_width="fill_parent" android:layout_height="1.0px" app:layout_flexShrink="0.0" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/filter_content" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:id="@id/flex_bg_layout" android:background="#99000000" android:clickable="false" android:layout_width="fill_parent" android:layout_height="175.0dip" android:minHeight="175.0dip" android:layout_weight="1.0" app:layout_flexGrow="1.0" app:layout_flexShrink="0.0" />
+    </com.google.android.flexbox.FlexboxLayout>
+</com.taobao.movie.android.app.order.ui.widget.TrackerFrameLayout2>

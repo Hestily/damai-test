@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.bricks.view.CornerFrameLayout android:id="@id/id_dialog_taobao_bind_auth_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" app:clip_corner_radius="@dimen/resource_size_15">
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/bg_dialog_vip_member_auth_taobao" android:scaleType="fitXY" android:adjustViewBounds="true" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/resource_size_18" android:layout_marginBottom="@dimen/resource_size_18">
+                <LinearLayout android:orientation="horizontal" android:id="@id/id_dialog_taobao_bind_auth_agree" android:paddingLeft="@dimen/resource_size_15" android:paddingRight="@dimen/resource_size_15" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="@dimen/resource_size_16" android:textColor="#ff1c1c1c" android:id="@id/id_dialog_taobao_bind_auth_check_tv" android:paddingLeft="@dimen/resource_size_6" android:paddingRight="@dimen/resource_size_6" android:layout_width="wrap_content" android:layout_height="35.0dip" android:text="@string/iconfont_yuangouxuanweixuanzhong" />
+                    <TextView android:textSize="@dimen/resource_size_14" android:textColor="#ff2e333e" android:id="@id/id_dialog_taobao_bind_auth_protocol" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="6.0dip" android:layout_marginStart="@dimen/resource_size_1" />
+                </LinearLayout>
+                <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="@dimen/resource_size_18" android:textColor="#fffee1cd" android:gravity="center" android:id="@id/id_dialog_taobao_bind_auth_confirm" android:background="@drawable/bg_dialog_vip_member_text" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_marginTop="@dimen/resource_size_18" android:layout_marginStart="@dimen/resource_size_15" android:layout_marginEnd="@dimen/resource_size_15" />
+                <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="@dimen/resource_size_18" android:textColor="#ff171717" android:id="@id/id_dialog_taobao_bind_auth_cancel" android:paddingRight="@dimen/resource_size_24" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/resource_size_18" android:text="取消" android:paddingStart="@dimen/resource_size_24" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.alibaba.pictures.bricks.view.CornerFrameLayout>
+</RelativeLayout>

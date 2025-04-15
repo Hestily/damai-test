@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@id/one_arch_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srlEnableLoadMore="false">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/one_arch_recyclerView" android:background="#fff4f5f6" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    <LinearLayout android:gravity="top" android:orientation="vertical" android:id="@id/nav_bar" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/status_bar_gap" android:layout_width="fill_parent" android:layout_height="22.0dip" />
+        <include android:id="@id/discount_ticket_title_layout" layout="@layout/bricks_rank_fragment_titlebar" />
+    </LinearLayout>
+</FrameLayout>

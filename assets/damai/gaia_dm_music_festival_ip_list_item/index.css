@@ -1,0 +1,220 @@
+#gaia_dm_music_festival_ip_list_item {
+  width: 220px;
+  border-radius: 0px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  height: 245px;
+  padding-top: 5px;
+}
+#container {
+  width: 208px;
+  height: 220px;
+  flex-direction: column;
+  border-radius: 6px;
+  background-color: #ffffff;
+  margin-top: 0px;
+  overflow: true;
+}
+#bg {
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+  position: absolute;
+  border-color: rgba(255, 185, 185, 0.15);
+  border-width: 1px;
+  border-style: solid;
+}
+#header_container {
+  width: 100%;
+  height: 65px;
+  border-radius: 0px;
+  overflow: hidden;
+  padding-left: 14px;
+  padding-right: 14px;
+  align-items: center;
+}
+#header_content {
+  flex-direction: column;
+  flex-grow: 1;
+}
+#title_contaier {
+  align-items: center;
+  width: 100%;
+}
+#header_title {
+  height: 25px;
+  text-align: left;
+  text-shadow: 0px 2px 4px 0px rgba(165, 8, 212, 0.12);
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.6399999999999999;
+  lines: 1;
+  line-height: 25px;
+  background-image: linear-gradient(to right, #ff45bd 0%, #d34bff 100%);
+  flex-grow: 1;
+  fit-content: true;
+}
+#header_right_arrow {
+  font-family: iconfont;
+  font-style: normal;
+  font-size: 15px;
+  height: 21px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  flex-shrink: 1;
+  width: 15px;
+}
+#header_subtitle {
+  text-align: left;
+  font-weight: 0;
+  font-size: 10px;
+  line-height: 17px;
+  letter-spacing: 0.2;
+  lines: 1;
+  height: 17px;
+  width: 100%;
+  color: #ff45bd;
+}
+#header_img_container {
+  width: 46px;
+  height: 46px;
+}
+#header_img {
+  width: 46px;
+  height: 46px;
+  border-radius: 23px;
+  border-color: #ffd8e3;
+  border-width: 3px;
+  border-style: solid;
+}
+#vip_tag {
+  width: 12px;
+  height: 12px;
+  border-radius: 7px;
+  background-color: primaryFillColor;
+  position: absolute;
+  top: 34px;
+  left: 34px;
+}
+#line {
+  background-color: #d4d4d44d;
+  height: 0.5px;
+  margin-left: 4.5px;
+  margin-right: 4.5px;
+}
+#content_container {
+  height: 88px;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  opacity: 1;
+}
+#content_img {
+  width: 48px;
+  height: 64px;
+  border-color: #1a000000;
+  border-width: 0.5px;
+  border-style: solid;
+  border-radius: 6px;
+  margin-left: 15px;
+}
+#content_right {
+  height: 79px;
+  overflow: hidden;
+  opacity: 1;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin-left: 9px;
+}
+#content_right_text {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+}
+#content_title {
+  text-align: left;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #000000;
+  letter-spacing: 0;
+  width: 100%;
+  height: 16px;
+  fit-content: true;
+  lines: 2;
+}
+#content_subtitle {
+  height: 14px;
+  text-align: left;
+  font-weight: 0;
+  font-size: 10px;
+  line-height: 14px;
+  color: #9c9ca5;
+  letter-spacing: 0;
+  lines: 1;
+  margin-top: 3px;
+  width: 100%;
+}
+#content_price {
+  height: 20px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-top: 5px;
+  width: 100%;
+}
+#price_prefix {
+  color: #ff2869;
+  font-size: 12px;
+  font-family: Helvetica;
+  width: 12px;
+  height: 15px;
+  line-height: 15px;
+  fit-content: true;
+}
+#price_num {
+  color: #ff2869;
+  font-size: 16px;
+  height: 18px;
+  fit-content: true;
+  line-height: 15px;
+  font-weight: 400;
+  margin-left: 2px;
+  margin-right: 2px;
+  font-family: URWDIN-Medium;
+}
+#price_suffix {
+  width: 15px;
+  text-overflow: ellipsis;
+  height: 14px;
+  line-height: 14px;
+  font-size: 10px;
+  color: #9c9ca5;
+  text-align: left;
+}
+#bottom_text {
+  text-align: left;
+  font-weight: 0;
+  font-size: 11px;
+  color: #000000;
+  line-height: 18px;
+  letter-spacing: 0;
+  lines: 3;
+  fit-content: true;
+  margin-left: 14px;
+  margin-right: 14px;
+  margin-bottom: 10px;
+  flex-grow: 1;
+}

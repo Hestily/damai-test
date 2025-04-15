@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/ticklet_face_entrance_setting_title_layout" android:background="@color/color_ffffff" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentTop="true">
+        <TextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_111111" android:gravity="center_vertical" android:id="@id/ticklet_face_setting_title_left_tv" android:paddingLeft="@dimen/margin_18dp" android:paddingRight="@dimen/margin_18dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="取消" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="@dimen/margin_16dp" android:textColor="@color/color_111111" android:id="@id/ticklet_face_entrance_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ticklet_face_entrance_setting_title" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_111111" android:gravity="center_vertical" android:id="@id/ticklet_face_title_function_introduce_tv" android:paddingRight="@dimen/margin_18dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/ticklet_face_entrance_function_introduce" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/ticklet_face_setting_container_fv" android:background="@color/color_f8f8f8" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ticklet_face_entrance_setting_title_layout" />
+    <FrameLayout android:id="@id/ticket_face_fg_container" android:background="#e0000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+</RelativeLayout>

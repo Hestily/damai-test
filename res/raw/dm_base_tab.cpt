@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.common.BaseTabModel",
+    "vClass": "cn.damai.tetris.component.common.BaseTabView",
+    "pClass": "cn.damai.tetris.component.common.BaseTabPresenter",
+    "layoutXml": "homepage_rank_top"
+  }
+}

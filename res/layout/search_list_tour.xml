@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.uikit.shadowlayout.DMShadowLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="17.0dip" android:layout_marginRight="17.0dip" android:layout_marginBottom="12.0dip" app:sl_cornerRadius="12.0dip" app:sl_dy="2.0dip" app:sl_shadowColor="#266a7a99" app:sl_shadowRadius="4.0dip">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/bg_border_corner_white_radius_12" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/trends_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="41.0dip">
+                <ImageView android:id="@id/trends_label" android:layout_width="70.0dip" android:layout_height="14.0dip" android:layout_marginLeft="15.0dip" android:src="@drawable/trends_label" android:layout_marginStart="15.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <cn.damai.search.ui.customview.TextBannerView android:id="@id/trends_view" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="15.0dip" android:inAnimation="@anim/search_anim_bottom_in" android:outAnimation="@anim/search_anim_top_out" android:autoStart="true" android:layout_marginStart="12.0dip" android:layout_marginEnd="15.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/trends_label" app:layout_constraintTop_toTopOf="parent" app:tbv_textColor="@color/color_secondary" app:tbv_textSize="12" />
+                <View android:id="@id/trends_divide_line" android:background="@color/color_eeeeee" android:layout_width="fill_parent" android:layout_height="1.0px" app:layout_constraintBottom_toBottomOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <FrameLayout android:id="@id/project_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="-6.0dip" android:layout_marginRight="-6.0dip" android:layout_marginStart="-6.0dip" android:layout_marginEnd="-6.0dip" />
+            <TextView android:textSize="12.0dip" android:textColor="#ff9c9ca5" android:id="@id/tv_tour_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginRight="@dimen/margin_15dp" android:text="共5个巡演城市" />
+            <View android:background="#1a000000" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="@dimen/margin_12dp" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/irc" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <View android:id="@id/ll_more_tour_line" android:background="#1a000000" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_more_tour" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="41.0dip">
+                <TextView android:textSize="@dimen/margin_12dp" android:textColor="#ff30aeff" android:id="@id/tv_more_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="展开全部巡演城市" />
+            </LinearLayout>
+        </LinearLayout>
+    </cn.damai.uikit.shadowlayout.DMShadowLayout>
+</FrameLayout>

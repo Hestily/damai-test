@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/item_round_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@null" android:paddingLeft="12.0dip" android:paddingTop="12.0dip" android:paddingRight="12.0dip" android:paddingBottom="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CommonListItemContainerWhite">
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:id="@id/block_notice_title" android:text="@string/ordering_selector_block_notice_title_seat" style="@style/CommonListItemOrderTitle" />
+        <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="8.0dip" android:textColor="@color/common_text_color11" android:id="@id/ordering_new_notice_btn_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/iconf_up_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/block_notice_desc_container" android:background="@null" android:paddingLeft="12.0dip" android:paddingTop="0.0dip" android:paddingRight="12.0dip" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CommonListItemContainerWhite" />
+</LinearLayout>

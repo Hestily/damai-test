@@ -1,0 +1,33 @@
+{
+  "id": "gaia_dm_hot_music_festival_project",
+  "type": "gaia-template",
+  "package": {
+    "id": "gaia_dm_hot_music_festival_project",
+    "version": "0.0.1",
+    "modify-timestamp": "Wed Jul 14 2021 11:25:23 GMT+0800 (中国标准时间)",
+    "constraint-size": { "width": 375, "height": 291, "zoom": 1 },
+    "dependencies": { "gaia_dm_hot_music_festival_project_list": "0.0.0" }
+  },
+  "layers": [
+    {
+      "id": "dm_hot_music_head_view",
+      "type": "view",
+      "layers": [
+        { "id": "dm_hot_music_title", "type": "text" },
+        {
+          "id": "dm_hot_music_all_btn",
+          "type": "view",
+          "layers": [
+            { "id": "dm_hot_music_all_btn_title", "type": "text" },
+            { "id": "dm_hot_music_all_btn_image", "type": "iconfont" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gaia_dm_hot_music_festival_project_list",
+      "type": "gaia-template",
+      "sub-type": "custom"
+    }
+  ]
+}

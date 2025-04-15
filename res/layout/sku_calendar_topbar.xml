@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="15.0dip" android:textColor="@color/color_000000" android:id="@id/project_perform_calendar_left_img" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_fanhui24" android:layout_centerVertical="true" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/color_000000" android:id="@id/project_perform_calendar_topbar_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/project_perform_calendar_left_img" android:layout_centerVertical="true" />
+    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="15.0dip" android:textColor="@color/color_000000" android:id="@id/project_perform_calendar_right_img" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_youjiantou24" android:layout_toRightOf="@id/project_perform_calendar_topbar_text" android:layout_centerVertical="true" />
+</RelativeLayout>

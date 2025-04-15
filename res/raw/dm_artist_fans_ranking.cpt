@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.star.FansRankingModel",
+    "vClass": "cn.damai.tetris.component.star.FansRankingView",
+    "pClass": "cn.damai.tetris.component.star.FansRankingPresenter",
+    "layoutXml": "layout_fans_love_rank_list"
+  }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/window_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="130.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@drawable/c_damai_no_data_icon" android:layout_marginTop="120.0dip" style="@style/wrap" />
+    <TextView android:textSize="16.0dip" android:textColor="@color/light_black_7d7d7d" android:id="@id/tv_null_tip" android:layout_marginTop="15.0dip" android:text="您还没有积分变化记录哦" style="@style/wrap" />
+</LinearLayout>

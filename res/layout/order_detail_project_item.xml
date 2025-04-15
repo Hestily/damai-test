@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingTop="15.0dip" android:paddingBottom="@dimen/margin_18dp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_project_content" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip">
+        <include layout="@layout/order_detail_project" />
+    </LinearLayout>
+    <RelativeLayout android:orientation="horizontal" android:paddingLeft="@dimen/margin_15dp" android:paddingRight="@dimen/margin_15dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.damai.uikit.flowlayout.FlowLayout android:id="@id/fl_mark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_10dp" android:layout_weight="1.0" android:layout_alignParentLeft="true" />
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="13.0dip" android:textColor="@color/color_FF2D79" android:id="@id/icon_ticket_notice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_12dp" android:text="@string/iconfont_youjiantou24" android:layout_alignParentRight="true" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/color_FF2D79" android:id="@id/tv_ticket_notice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_10dp" android:text="须知事项" android:layout_toLeftOf="@id/icon_ticket_notice" />
+    </RelativeLayout>
+    <View android:id="@id/interval" android:layout_width="fill_parent" android:layout_height="@dimen/margin_18dp" />
+    <TextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_999999" android:id="@id/tv_time_range_detail" android:background="@color/color_f8f8f8" android:paddingLeft="@dimen/margin_15dp" android:paddingTop="@dimen/margin_18dp" android:paddingRight="@dimen/margin_15dp" android:paddingBottom="@dimen/margin_18dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.2" />
+    <include layout="@layout/order_detail_seat" />
+    <include layout="@layout/order_detail_no_seat" />
+    <LinearLayout android:layout_gravity="right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_15dp">
+        <LinearLayout android:gravity="center" android:id="@id/ll_tv_refund" android:background="@drawable/bg_border_corner_ccc_20" android:paddingLeft="@dimen/margin_8dp" android:paddingRight="@dimen/margin_8dp" android:layout_width="wrap_content" android:layout_height="@dimen/margin_25dp" android:layout_marginTop="@dimen/margin_16dp">
+            <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_000000" android:gravity="center" android:id="@id/tv_refund" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="申请退票" />
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_000000" android:id="@id/tv_refund_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.5dip" android:text="@string/iconfont_youjiantou24" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_000000" android:gravity="center" android:id="@id/tv_cancel_sell" android:background="@drawable/bg_border_corner_ccc_20" android:paddingLeft="@dimen/margin_9dp" android:paddingRight="@dimen/margin_9dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/margin_25dp" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginTop="@dimen/margin_16dp" android:text="一键转卖" />
+        <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_000000" android:gravity="center" android:id="@id/tv_sell_detail" android:background="@drawable/bg_border_corner_ccc_20" android:paddingLeft="@dimen/margin_9dp" android:paddingRight="@dimen/margin_9dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/margin_25dp" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginTop="@dimen/margin_16dp" android:text="查看转卖详情" />
+    </LinearLayout>
+</LinearLayout>

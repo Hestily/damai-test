@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/id_bricks_reservation_artist_layout" android:background="@drawable/bricks_icon_my_reservation_circle" android:layout_width="71.0dip" android:layout_height="71.0dip">
+        <View android:background="@drawable/bricks_component_reservation_artist_ring" android:layout_width="49.0dip" android:layout_height="49.0dip" android:layout_centerInParent="true" />
+        <com.alibaba.pictures.bricks.view.RoundImageView android:id="@id/id_bricks_reservation_artist_img" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_centerInParent="true" />
+        <TextView android:textSize="10.0dip" android:textColor="@color/black" android:ellipsize="end" android:gravity="center" android:id="@id/id_bricks_reservation_artist_name" android:background="@drawable/bricks_component_reservation_artist_name_bg" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="16.0dip" android:layout_marginBottom="8.0dip" android:maxWidth="55.0dip" android:minWidth="42.0dip" android:lines="1" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/id_bricks_reservation_project_post_layout" android:background="@drawable/bricks_icon_my_reservation_circle" android:visibility="gone" android:layout_width="71.0dip" android:layout_height="71.0dip">
+        <com.alibaba.pictures.bricks.view.RoundRadiusImageView android:id="@id/id_bricks_reservation_project_post_view" android:layout_width="49.0dip" android:layout_height="66.0dip" android:src="@drawable/bricks_uikit_default_image_bg_gradient" android:scaleType="centerCrop" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:r_round_radius="6.0dip" app:r_stroke_color="#1a000000" app:r_stroke_width="0.5dip" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/id_bricks_reservation_content_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="12.0dip">
+        <TextView android:textSize="13.0dip" android:textColor="@color/black" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/id_bricks_reservation_project_name" android:layout_width="fill_parent" android:layout_height="47.0dip" android:maxLines="2" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="24.0dip">
+            <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <com.alibaba.pictures.bricks.view.DMDigitTextView android:textSize="11.0dip" android:textColor="#ff2e333e" android:id="@id/id_bricks_reservation_rmb_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="¥" />
+                <com.alibaba.pictures.bricks.view.DMDigitTextView android:textSize="15.0dip" android:textColor="#ff2e333e" android:gravity="center_vertical" android:id="@id/id_bricks_reservation_rmb_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" />
+                <com.alibaba.pictures.bricks.view.DMDigitTextView android:textSize="12.0dip" android:textColor="#ff2e333e" android:gravity="center_vertical" android:id="@id/id_bricks_reservation_price_postfix" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginBottom="0.5dip" />
+                <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="8.0dip" android:textColor="#66000000" android:id="@id/id_bricks_reservation_x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.5dip" android:layout_marginRight="1.5dip" android:layout_marginBottom="2.0dip" android:text="@string/iconfont_guanbi24" />
+                <com.alibaba.pictures.bricks.view.DMDigitTextView android:textSize="15.0dip" android:textColor="#ff2e333e" android:gravity="center_vertical" android:id="@id/id_bricks_reservation_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.alibaba.pictures.bricks.view.DMDigitTextView android:textSize="12.0dip" android:textColor="#ff2e333e" android:gravity="center_vertical" android:id="@id/id_bricks_reservation_count_postfix" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginBottom="0.5dip" />
+            </LinearLayout>
+            <ImageView android:id="@id/id_bricks_reservation_project_tag" android:layout_width="97.0dip" android:layout_height="24.0dip" android:scaleType="fitXY" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

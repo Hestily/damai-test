@@ -1,0 +1,39 @@
+{
+  "data": {
+    "tpp_film_detail_big_v_comment": {
+      "extend": {
+        "border-bottom-left-radius": "@{env(isAndroid) ? @{${isLastChild} ? '9px' : '0px' } : '0px' }",
+        "border-bottom-right-radius": "@{env(isAndroid) ? @{${isLastChild} ? '9px' : '0px' } : '0px' }",
+        "padding-bottom": "@{env(isAndroid) ? @{${isLastChild} ? '12px' : '0px' } : '0px' }",
+        "padding-top": "@{env(isAndroid) ? '0px' : '12px' }"
+      }
+    },
+    "item_poster": {
+      "value": "@{eval(size(${icon}) > 0) ? ${icon} : @{env(isAndroid) ? 'gaiax_res:common_pic_item_bg' : 'gaiax_res:gaiax_placeholder' }}",
+      "placeholder": "@{env(isAndroid) ? 'uikit_default_image_bg_grey' : 'gaiax_placeholder' }"
+    },
+    "item_main_title": {
+      "value": "${title}",
+      "extend": {
+        "fit-content": "true",
+        "font-weight": "@{env(isAndroid) ? 400 : 500}",
+        "font-size": "@{env(isAndroid) ? 15 : 14}"
+      }
+    },
+    "item_content": {
+      "value": "${subTitle}",
+      "extend": {
+        "fit-content": "false",
+        "display": "@{${subTitle} ? flex : none}"
+      }
+    },
+    "item_right_btn": { "value": "${btnText}" },
+    "right_arrow": {
+      "extend": {
+        "font-family": "@{env(isAndroid) ? icon : iconfont2 }",
+        "margin-top": "@{env(isAndroid) ? '4px' : '0px' }"
+      },
+      "value": "@{env(isAndroid) ? '&#xe8d3' : '&#xe601' }"
+    }
+  }
+}

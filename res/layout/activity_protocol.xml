@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/color_f8f8f8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_protocol" android:background="@color/white" android:paddingLeft="@dimen/margin_18dp" android:paddingRight="@dimen/margin_18dp" android:layout_width="fill_parent" android:layout_height="54.0dip">
+        <TextView android:textSize="16.0dip" android:textColor="@color/light_black_444" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="大麦网会员服务协议" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="@color/color_DDDDDD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_youjiantou12" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:background="@color/color_eeeeee" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/margin_18dp" android:layout_marginRight="@dimen/margin_18dp" />
+    <RelativeLayout android:id="@id/rl_terms" android:background="@color/white" android:paddingLeft="@dimen/margin_18dp" android:paddingRight="@dimen/margin_18dp" android:layout_width="fill_parent" android:layout_height="54.0dip">
+        <TextView android:textSize="16.0dip" android:textColor="@color/light_black_444" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="大麦基本功能隐私政策" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="@color/color_DDDDDD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_youjiantou12" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:background="@color/color_eeeeee" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/margin_18dp" android:layout_marginRight="@dimen/margin_18dp" />
+    <RelativeLayout android:id="@id/rl_community" android:background="@color/white" android:paddingLeft="@dimen/margin_18dp" android:paddingRight="@dimen/margin_18dp" android:layout_width="fill_parent" android:layout_height="54.0dip">
+        <TextView android:textSize="16.0dip" android:textColor="@color/light_black_444" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="大麦社区管理规则" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="@color/color_DDDDDD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_youjiantou12" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:background="@color/color_eeeeee" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/margin_18dp" android:layout_marginRight="@dimen/margin_18dp" />
+    <RelativeLayout android:id="@id/rl_perform_service" android:background="@color/white" android:paddingLeft="@dimen/margin_18dp" android:paddingRight="@dimen/margin_18dp" android:layout_width="fill_parent" android:layout_height="54.0dip">
+        <TextView android:textSize="16.0dip" android:textColor="@color/light_black_444" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="大麦候补服务费说明" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="@color/color_DDDDDD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_youjiantou12" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

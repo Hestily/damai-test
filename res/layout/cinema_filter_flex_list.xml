@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:orientation="vertical" android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingBottom="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.taobao.movie.android.app.oscar.ui.cinema.widget.FlexKeyView android:id="@id/area_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" />
+            <com.taobao.movie.android.app.oscar.ui.cinema.widget.FlexKeyView android:id="@id/feature_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" />
+            <com.taobao.movie.android.app.oscar.ui.cinema.widget.FlexKeyView android:id="@id/time_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <View android:background="@color/common_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/white" android:paddingLeft="@dimen/margin_4" android:paddingTop="@dimen/margin_8" android:paddingRight="@dimen/margin_4" android:paddingBottom="@dimen/margin_8" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/cancelBtn" android:paddingBottom="2.0dip" android:layout_width="0.0dip" android:layout_height="36.0dip" android:text="取消筛选" android:layout_weight="1.0" style="@style/tpp_sub_button_style" />
+        <Button android:id="@id/confirmBtn" android:paddingBottom="2.0dip" android:layout_width="0.0dip" android:layout_height="36.0dip" android:text="确定" android:layout_weight="1.0" style="@style/sub_main_button_style" />
+    </LinearLayout>
+</LinearLayout>

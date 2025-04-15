@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/id_pioneer_live_location_tip_top" android:background="@color/black" android:layout_width="10.0dip" android:layout_height="10.0dip" android:rotation="45.0" android:layout_marginStart="31.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/id_pioneer_live_location_tip" android:background="@drawable/bg_pioneer_home_header_tip" android:layout_width="wrap_content" android:layout_height="35.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="-7.0dip">
+        <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="@dimen/resource_size_13" android:textColor="@color/bricks_white" android:gravity="center" android:id="@id/tip_text" android:paddingLeft="@dimen/resource_size_12" android:paddingRight="@dimen/resource_size_12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="开启定位权限，享受附近精彩玩乐～" />
+        <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="@dimen/resource_size_13" android:textColor="@color/white" android:gravity="center_vertical" android:background="@drawable/bg_pionner_green_round" android:paddingLeft="@dimen/resource_size_7" android:paddingRight="@dimen/resource_size_7" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_marginLeft="24.0dip" android:layout_marginRight="5.0dip" android:text="去开启" />
+    </LinearLayout>
+</LinearLayout>

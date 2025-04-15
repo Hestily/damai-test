@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="86.0dip" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_18dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/artist_inner_layout" android:layout_width="86.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_15dp">
+        <cn.damai.tetris.component.online.viewholder.OnLinePosterView android:id="@id/artist_item_poster" android:layout_width="86.0dip" android:layout_height="115.0dip" android:scaleType="fitXY" app:borderRadius="6.0dip" app:type="round" />
+        <TextView android:textSize="12.0dip" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/artist_item_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="2019摩登兄弟“成长风暴”巡回演唱会" android:singleLine="true" android:lineSpacingExtra="5.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/artist_item_price_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.5dip">
+            <TextView android:textSize="12.0dip" android:textColor="#ffff2869" android:id="@id/artist_item_price_flag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="¥" />
+            <cn.damai.uikit.number.DMDigitTextView android:textSize="16.0dip" android:textColor="#ffff2869" android:id="@id/artist_item_price_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-1.0dip" />
+            <TextView android:textSize="10.0dip" android:textColor="#ff9c9ca5" android:id="@id/artist_item_price_above" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="-2.0dip" android:text="起" android:includeFontPadding="false" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

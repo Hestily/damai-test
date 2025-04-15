@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.pictures.bricks.view.BricksStrokeLinearLayout android:id="@id/pioneer_feed_rank_stroke_layout" android:background="#fffdfaf9" android:layout_width="fill_parent" android:layout_height="wrap_content" app:sl_corners_radius="6.0dip" app:sl_stroke_color="#0d000000" app:sl_stroke_width="1.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/live_ll_feed_rank_layout" android:paddingLeft="@dimen/margin_12dp" android:paddingTop="@dimen/margin_7dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_6dp">
+        <include layout="@layout/pioneer_home_feed_rank_title_layout" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/pioneer_feed_rank_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_5dp" android:layout_marginRight="@dimen/margin_6dp" android:layout_marginBottom="@dimen/margin_12dp" />
+    </LinearLayout>
+</com.alibaba.pictures.bricks.view.BricksStrokeLinearLayout>

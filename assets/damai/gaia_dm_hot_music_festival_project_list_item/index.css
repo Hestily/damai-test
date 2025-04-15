@@ -1,0 +1,73 @@
+#gaia_dm_hot_music_festival_project_list_item {
+  width: 98px;
+  height: 254px;
+  background-color: primaryBackground;
+  flex-direction: column;
+  margin-top: 0px;
+}
+#bg_image {
+  width: 98px;
+  height: 131px;
+  border-radius: 6px;
+  background-color: primaryFillColor;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-width: 0.5px;
+  border-style: solid;
+  margin-top: 5px;
+}
+#festival_title {
+  width: 100%;
+  text-overflow: ellipsis;
+  height: 40px;
+  color: #000000;
+  font-size: 15px;
+  margin-top: 9px;
+  max-height: 40px;
+  lines: 2;
+  fit-content: true;
+  min-height: 40px;
+}
+#content_price {
+  height: 20px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-top: 5px;
+  width: 100%;
+  flex-direction: row;
+}
+#price_prefix {
+  color: #ff2869;
+  font-size: 12px;
+  font-family: Helvetica;
+  width: 12px;
+  height: 15px;
+  line-height: 15px;
+  fit-content: true;
+}
+#price_num {
+  color: #ff2869;
+  font-size: 16px;
+  font-family: URWDIN-Medium;
+  height: 18px;
+  fit-content: true;
+  line-height: 15px;
+  font-weight: 400;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+#price_suffix {
+  width: 15px;
+  text-overflow: ellipsis;
+  height: 14px;
+  line-height: 14px;
+  font-size: 10px;
+  color: #9C9CA5;
+  text-align: left;
+}
+#date_text {
+  width: 100px;
+  text-overflow: ellipsis;
+  height: 20px;
+  color: #9c9ca5;
+  font-size: 12px;
+}

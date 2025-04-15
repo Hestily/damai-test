@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bricks_damai_list_bg" android:paddingLeft="@dimen/damai_margin_right_left" android:paddingRight="@dimen/damai_line_spacing_right" android:layout_width="fill_parent" android:layout_height="87.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/artist_avatar_lay" android:background="@drawable/bricks_bg_artist_avatar" android:layout_width="@dimen/resource_size_63" android:layout_height="@dimen/resource_size_63" android:layout_centerVertical="true">
+        <RelativeLayout android:layout_gravity="center" android:id="@id/artist_avatar_lay_child" android:background="@drawable/bricks_bg_circle_white" android:layout_width="@dimen/resource_size_57" android:layout_height="@dimen/resource_size_57">
+            <com.alibaba.pictures.bricks.view.RoundRadiusImageView android:id="@id/artist_avatar" android:layout_width="@dimen/resource_size_53" android:layout_height="@dimen/resource_size_53" android:src="@drawable/bricks_ic_venue_location" android:scaleType="centerCrop" android:layout_centerInParent="true" app:r_round_radius="@dimen/resource_size_53" />
+        </RelativeLayout>
+        <com.alibaba.pictures.bricks.view.RoundImageView android:layout_gravity="center" android:id="@id/artist_avatar_pioneer" android:layout_width="@dimen/resource_size_62" android:layout_height="@dimen/resource_size_62" android:scaleType="fitXY" app:borderRadius="8.0dip" app:type="round" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/damai_column_spacing" android:layout_toEndOf="@id/artist_avatar_lay">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="@dimen/resource_size_16" android:textColor="@color/black" android:ellipsize="end" android:id="@id/venue_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/resource_size_6" android:layout_toStartOf="@id/venue_distance_icon" />
+            <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="@dimen/resource_size_12" android:textColor="#33000000" android:id="@id/venue_distance_icon" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_ticket_point" android:layout_centerVertical="true" android:layout_toStartOf="@id/venue_distance" />
+            <TextView android:textSize="@dimen/resource_size_14" android:textColor="@color/black" android:id="@id/venue_distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/resource_size_3" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/resource_size_12" android:textColor="#ff9b9b9b" android:ellipsize="end" android:id="@id/venue_location" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/damai_maintitle_subtitle_spacing" android:maxLines="1" />
+        <LinearLayout android:gravity="center_vertical" android:id="@id/performance" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/damai_maintitle_subtitle_spacing">
+            <TextView android:textSize="@dimen/resource_size_12" android:textColor="#ff9b9b9b" android:gravity="center" android:id="@id/performance_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/resource_size_12" android:textColor="#ff9b9b9b" android:ellipsize="end" android:gravity="center" android:id="@id/performance_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="@dimen/resource_size_5" />
+        </LinearLayout>
+    </LinearLayout>
+    <include android:id="@id/ll_search_bottom_div" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" layout="@layout/bricks_item_ededed_line" />
+</RelativeLayout>

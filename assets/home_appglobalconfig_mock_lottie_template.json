@@ -1,0 +1,37 @@
+{
+  "agreement": {},
+  "headLottie": {
+    "style": [
+      {
+        "color": "#FF6E53",
+        "schemaLeft": "https://t.damai.cn/yep/page/m/wed50off",
+        "schemaRight": ""
+      }
+    ],
+    "zipUrl": "https://g.alicdn.com/eva-assets/dedcddcaeb4e7016937d3d8243e6af1e/0.0.1/tmp/74d1a60/e40b34d9-b44a-4d6c-9b07-629d01e6f537.zip"
+  },
+  "headStyle": {},
+  "pop": {},
+  "searchTip": {
+    "alg": "",
+    "keyword": "沉浸花花戏剧节"
+  },
+  "searchTips": [
+    {
+      "alg": "",
+      "keyword": "沉浸花花戏剧节"
+    },
+    {
+      "alg": "{\"alginfo\":\"-1rkScore-28.130354-1sceneId-214177-1pn-21-1abId-2237526-1rcQSim-28.13035-1show_id-20-1rcQuery-2852-1rcSourceType-2city2query-1rcType-2CITY2QUERY-1rcTrigType-2CITY2QUERY-1rcRecQuery-2铁流东进-1rcQCate-2C2Q-1recallTrigLen-20.00-1rcTrig-2+1\",\"recext\":\"reqid=0d0dd2b8-b81a-46d6-8c56-21e97ca8f855\",\"sam\":\"1007.24177.0.237526\"}",
+      "keyword": "铁流东进"
+    },
+    {
+      "alg": "{\"alginfo\":\"-1rkScore-27.542213-1sceneId-214177-1pn-21-1abId-2237526-1rcQSim-27.54221-1show_id-20-1rcQuery-2852-1rcSourceType-2city2query-1rcType-2CITY2QUERY-1rcTrigType-2CITY2QUERY-1rcRecQuery-2德云社-1rcQCate-2C2Q-1recallTrigLen-20.00-1rcTrig-2+1\",\"recext\":\"reqid=0d0dd2b8-b81a-46d6-8c56-21e97ca8f855\",\"sam\":\"1007.24177.0.237526\"}",
+      "keyword": "德云社"
+    },
+    {
+      "alg": "{\"alginfo\":\"-1rkScore-26.20859-1sceneId-214177-1pn-21-1abId-2237526-1rcQSim-26.20859-1show_id-20-1rcQuery-2852-1rcSourceType-2city2query-1rcType-2CITY2QUERY-1rcTrigType-2CITY2QUERY-1rcRecQuery-2德云社封箱-1rcQCate-2C2Q-1recallTrigLen-20.00-1rcTrig-2+1\",\"recext\":\"reqid=0d0dd2b8-b81a-46d6-8c56-21e97ca8f855\",\"sam\":\"1007.24177.0.237526\"}",
+      "keyword": "德云社封箱"
+    }
+  ]
+}

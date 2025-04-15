@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="22.0dip" android:textColor="@color/black" android:id="@id/startindex_title" android:paddingLeft="21.0dip" android:paddingTop="18.0dip" android:paddingBottom="1.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="大家说" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/switch_btn_marginTop" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="18.0dip" />
+        <cn.damai.uikit.view.SwitchButton android:id="@id/switch_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:layout_marginBottom="5.0dip" />
+    </LinearLayout>
+</LinearLayout>

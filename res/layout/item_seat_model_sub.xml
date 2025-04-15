@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.damai.seat.view.RtlFrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="12.0dip" android:textColor="@color/color_666666" android:ellipsize="end" android:id="@id/model_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/color_666666" android:id="@id/model_sub_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:lines="1" />
+    </cn.damai.seat.view.RtlFrameLayout>
+    <TextView android:textSize="12.0dip" android:textColor="@color/color_666666" android:id="@id/model_sub_desc" android:paddingLeft="18.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+</LinearLayout>

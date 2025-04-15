@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="@dimen/margin_15dp" android:paddingRight="@dimen/margin_15dp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/line_price_list" android:background="@color/color_EEEEEE" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginBottom="@dimen/margin_6dp" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_price_list" android:paddingBottom="@dimen/margin_18dp" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/main_price_line" android:background="@color/color_EEEEEE" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <RelativeLayout android:id="@id/main_price_layout" android:paddingTop="@dimen/margin_18dp" android:paddingBottom="@dimen/margin_18dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_000000" android:id="@id/tv_pay_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="需付金额" android:layout_alignParentLeft="true" />
+        <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_000000" android:id="@id/tv_pay_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

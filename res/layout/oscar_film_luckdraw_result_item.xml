@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_12" android:layout_marginRight="@dimen/margin_12" android:minHeight="153.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.moimage.MoImageView android:id="@id/luck_draw_result_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" app:placeholderImageScaleType="centerCrop" app:roundBottomLeft="true" app:roundBottomRight="true" app:roundTopLeft="true" app:roundTopRight="true" app:roundedCornerRadius="10.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/rl_title" android:layout_width="fill_parent" android:layout_height="38.0dip">
+            <TextView android:textSize="14.0dip" android:textColor="#fffeffe8" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="奖励选取成功" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:background="@drawable/reward_bg" android:layout_width="180.0dip" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <TextView android:textSize="12.0dip" android:textColor="#ffff4d64" android:ellipsize="end" android:gravity="center" android:id="@id/tv_desc" android:paddingLeft="9.0dip" android:paddingRight="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="观影代金券" android:singleLine="true" />
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <RelativeLayout android:id="@id/rl_cost" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                            <TextView android:textSize="22.0dip" android:textColor="#ffff4d64" android:gravity="center_vertical" android:id="@id/tv_price" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="5" android:layout_centerVertical="true" />
+                            <TextView android:textSize="12.0dip" android:textColor="#ffff4d64" android:id="@id/tv_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="元" android:layout_toRightOf="@id/tv_price" android:layout_alignBaseline="@id/tv_price" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                    <View android:id="@id/view_part" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+                    <RelativeLayout android:id="@id/rl_goto_detail" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                            <TextView android:textSize="11.0dip" android:textColor="@color/common_color_1003" android:gravity="bottom|center" android:id="@id/tv_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="去查看" android:layout_alignParentBottom="true" />
+                            <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="8.0dip" android:textStyle="italic" android:textColor="@color/common_color_1003" android:gravity="bottom|center" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconf_right_arrow" android:layout_toRightOf="@id/tv_check" android:layout_alignParentBottom="true" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

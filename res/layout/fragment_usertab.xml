@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.damai.uikit.irecycler.IRecyclerView android:id="@id/listview" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/user_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="330.0dip">
+        <ImageView android:id="@id/user_empty_img" android:layout_width="115.0dip" android:layout_height="115.0dip" android:layout_marginTop="66.0dip" android:src="@drawable/empty_tip" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/color_aaaaaa" android:gravity="center" android:id="@id/user_empty_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="18.0dip" android:text="这里好安静啊，快来说点啥吧～" android:maxLines="1" android:layout_below="@id/user_empty_img" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</FrameLayout>

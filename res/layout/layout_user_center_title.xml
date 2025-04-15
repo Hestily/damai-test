@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="top" android:orientation="vertical" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/mine_title_bar_space" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/margin_12dp" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="18.0dip" android:textColor="#ff5f6672" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tv_goback" android:paddingRight="@dimen/margin_4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_zuojiantou_" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_user_info" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/margin_12dp" android:layout_weight="1.0" xmlns:app="http://schemas.android.com/apk/res-auto">
+            <cn.damai.uikit.view.DMAvatar android:id="@id/fl_user_avatar" android:layout_width="wrap_content" android:layout_height="wrap_content" app:avatarSize="size_30x30" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_000000" android:ellipsize="end" android:id="@id/tv_nick_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_9dp" android:layout_marginRight="5.0dip" android:maxLines="1" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/user_tag_view" app:layout_constraintTop_toTopOf="parent" />
+                <ImageView android:id="@id/user_tag_view" android:visibility="gone" android:layout_width="13.0dip" android:layout_height="12.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/tv_nick_name" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@id/rl_title_attention" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <cn.damai.user.repertoite.view.AttentionView android:gravity="center" android:id="@id/tv_attention" android:layout_width="57.0dip" android:layout_height="25.0dip" />
+        </FrameLayout>
+        <include android:id="@id/edit_account_info" layout="@layout/user_edit_info_layout" />
+    </LinearLayout>
+</LinearLayout>

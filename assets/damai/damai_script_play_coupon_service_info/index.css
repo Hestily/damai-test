@@ -1,0 +1,84 @@
+#damai_script_play_coupon_service_info {
+  width: 100%;
+  height: 100%;
+  background-color: primaryBackground;
+  flex-direction: column;
+}
+#info_title {
+  width: 100%;
+  text-overflow: ellipsis;
+  height: 20px;
+  color: #000000;
+  font-size: 14px;
+  padding-left: 12px;
+  margin-bottom: 3px;
+  font-weight: 500;
+}
+#damai_script_play_coupon_service_list {
+  width: 100%;
+  margin-top: 0px;
+}
+#amount_view {
+  height: 27px;
+  background-color: #ffffff;
+  align-items: center;
+  width: 100%;
+  margin-top: 0px;
+}
+#amount_title {
+  width: 100px;
+  text-overflow: ellipsis;
+  height: 20px;
+  color: #666666;
+  font-size: 14px;
+  margin-left: 12px;
+  flex-grow: 1;
+  text-align: right;
+  margin-right: 6px;
+}
+#amount_price {
+  width: 74px;
+  text-overflow: ellipsis;
+  height: 20px;
+  color: #666666;
+  font-size: 14px;
+  text-align: right;
+  margin-right: 12px;
+}
+#coupon_view {
+  height: 27px;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 0px;
+  width: 100%;
+  margin-top: 0px;
+}
+#coupon_title {
+  width: 100px;
+  text-overflow: ellipsis;
+  height: 20px;
+  color: #666666;
+  font-size: 14px;
+  text-align: right;
+  flex-grow: 1;
+  margin-right: 6px;
+  margin-left: 12px;
+}
+#coupon_price {
+  width: 74px;
+  text-overflow: ellipsis;
+  height: 20px;
+  color: #ff4886;
+  font-size: 14px;
+  margin-right: 12px;
+  text-align: right;
+}
+#spacing_view {
+  background-color: #0000001a;
+  height: 0.5px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 12px;
+  margin-bottom: 15px;
+}

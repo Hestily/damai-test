@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.star.header.StarHeaderModel",
+    "vClass": "cn.damai.tetris.component.star.header.StarHeaderView",
+    "pClass": "cn.damai.tetris.component.star.header.StarHeaderPresenterTab",
+    "layoutXml": "mine_starindex_fragment_header_tab"
+  }
+}

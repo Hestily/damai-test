@@ -1,0 +1,19 @@
+{
+  "tbOrderId": 4203778899960498000,
+  "showPhoto": "http://img1.tbcdn.cn/bao/uploaded/i2/TB1X4Geu7L0gK0jSZFtXXXQCXXa_.jpg",
+  "cityName": "北京",
+  "cinemaName": "中影中数天悦影城",
+  "filmId": 145310,
+  "showTime": 1737010800000,
+  "count": 3,
+  "seatInfo": [
+    "22排18座",
+    "22排19座",
+    "22排20座"
+  ],
+  "hallName": "负一层1号厅IMAX",
+  "title": "好东西",
+  "showEndTime": 1737011100000,
+  "showTimeStr": "12月13日-12月15日",
+  "version": "3D@IMAX"
+}

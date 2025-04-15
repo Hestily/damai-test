@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_top_container" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/ll_tips_container" android:background="@drawable/bricks_order_tips_bg" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginTop="6.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip">
+        <ImageView android:id="@id/iv_tips_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/bricks_tips_icon" />
+        <TextView android:textSize="12.0dip" android:textColor="#ffeb7609" android:id="@id/tv_tips_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/cl_pay_card" android:background="#ffea416b" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="83.5dip" app:layout_constraintBottom_toBottomOf="@id/textView" app:layout_constraintTop_toBottomOf="@id/textView">
+        <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:id="@id/tv_pay_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginStart="12.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:id="@id/tv_pay_symbol" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" android:text="¥ " android:layout_marginStart="6.0dip" app:layout_constraintStart_toEndOf="@id/tv_pay_status" app:layout_constraintTop_toTopOf="parent" />
+        <com.alibaba.pictures.bricks.view.DigitTextView android:textSize="20.0dip" android:textColor="#ffffffff" android:id="@id/tv_pay_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" app:layout_constraintStart_toEndOf="@id/tv_pay_symbol" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:id="@id/tv_order_state_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" app:layout_constraintStart_toStartOf="@id/tv_pay_status" app:layout_constraintTop_toBottomOf="@id/tv_pay_status" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

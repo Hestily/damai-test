@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/base_content_llyt" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/bese_head_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/bese_content_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

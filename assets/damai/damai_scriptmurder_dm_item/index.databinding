@@ -1,0 +1,30 @@
+{
+  "data": {
+    "dm_header_image": {
+      "value": "@{eval(size(${profilePhoto}) > 0) ? ${profilePhoto} : gaiax_res:gaiax_res_scriptmurder_dm_header_default}",
+      "placeholder": "gaiax_res_scriptmurder_dm_header_default"
+    },
+    "holder_num": { "extend": { "display": "@{${desc} ? flex : none}" } },
+    "dm_desc": { "value": "${desc}" },
+    "dm_name": {
+      "value": "${name}",
+      "extend": { "font-weight": "@{env(isAndroid) ? 400 : 500}" }
+    },
+    "dm_host_num": {
+      "value": "${hostNum}",
+      "extend": { "display": "@{eval(size(${hostNum}) > 1) ? flex : none}" }
+    },
+    "dm_label_bg": {
+      "extend": { "display": "@{eval(size(${tags}) > 0) ? flex : none}" }
+    },
+    "dm_label_content_one": { "value": "${tags[0]}" },
+    "dm_label_content_line": {
+      "value": "｜",
+      "extend": { "display": "@{${tags[1]} ? flex : none}" }
+    },
+    "dm_label_content_two": {
+      "value": "${tags[1]}",
+      "extend": { "display": "@{${tags[1]} ? flex : none}" }
+    }
+  }
+}

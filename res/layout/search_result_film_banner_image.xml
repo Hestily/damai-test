@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.taobao.movie.android.commonui.widget.TppAnimImageView android:id="@id/search_result_film_banner_card_poster" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" app:actualImageScaleType="centerCrop" app:failureImage="@drawable/oscar_default_image" app:roundedCornerRadius="6.0dip" />
+    <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="11.0dip" android:textColor="@color/color_tpp_primary_black" android:gravity="center" android:layout_gravity="center" android:id="@id/search_result_film_banner_card_play_btn" android:background="@drawable/play_btn_bg_circle_90_white" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="36.0dip" android:text="@string/iconf_play" />
+    <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="33.0dip" android:textColor="@color/color_tpp_primary_black" android:gravity="center" android:layout_gravity="center" android:id="@id/search_result_film_banner_card_play_btn_pioneer" android:background="@drawable/play_btn_bg_circle_90_white_pioneer" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="36.0dip" android:text="@string/iconfont_xf_bofang" />
+</FrameLayout>

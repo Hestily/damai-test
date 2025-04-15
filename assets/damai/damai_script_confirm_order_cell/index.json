@@ -1,0 +1,55 @@
+{
+  "id": "damai_script_confirm_order_cell",
+  "type": "gaia-template",
+  "package": {
+    "id": "damai_script_confirm_order_cell",
+    "version": "0.0.1",
+    "modify-timestamp": "Fri Jun 17 2022 16:16:03 GMT+0800 (中国标准时间)",
+    "constraint-size": { "width": 375, "height": 104, "zoom": 1 },
+    "dependencies": {}
+  },
+  "layers": [
+    { "id": "background", "type": "view" },
+    {
+      "id": "top_view",
+      "type": "view",
+      "layers": [
+        { "id": "store_image", "type": "image" },
+        { "id": "store_name", "type": "text" }
+      ]
+    },
+    {
+      "id": "order_info",
+      "type": "view",
+      "layers": [
+        { "id": "coupon_info", "type": "text" },
+        {
+          "id": "price_layout",
+          "type": "view",
+          "layers": [
+            { "id": "rmb_text", "type": "text" },
+            { "id": "coupon_money", "type": "text" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "service_note",
+      "type": "view",
+      "layers": [
+        { "id": "service_image1", "type": "image" },
+        { "id": "service_name1", "type": "text" },
+        { "id": "service_image2", "type": "image" },
+        { "id": "service_name2", "type": "text" },
+        { "id": "service_image3", "type": "image" },
+        { "id": "service_name3", "type": "text" },
+        { "id": "service_image4", "type": "image" },
+        { "id": "service_name4", "type": "text" },
+        { "id": "service_image5", "type": "image" },
+        { "id": "service_name5", "type": "text" },
+        { "id": "service_image6", "type": "image" },
+        { "id": "service_name6", "type": "text" }
+      ]
+    }
+  ]
+}

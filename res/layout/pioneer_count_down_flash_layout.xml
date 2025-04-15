@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/grab_time_rl" android:background="@drawable/pioneer_home_rob_ticket_left_icon_v2" android:layout_width="wrap_content" android:layout_height="23.0dip" android:scaleType="fitEnd" android:paddingStart="10.0dip" android:paddingEnd="2.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/grab_time_img">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="23.0dip">
+            <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="14.0dip" android:textColor="@color/bricks_171717" android:gravity="center_vertical" android:id="@id/grab_time_tv" android:layout_width="wrap_content" android:layout_height="23.0dip" android:layout_marginBottom="1.0dip" android:text="" android:maxLines="1" />
+            <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="11.0dip" android:textColor="@color/bricks_171717" android:gravity="center_vertical" android:id="@id/grab_time_tv_suffix" android:layout_width="wrap_content" android:layout_height="23.0dip" android:text="" android:maxLines="1" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView android:id="@id/grab_time_img" android:layout_width="wrap_content" android:layout_height="23.0dip" android:src="@drawable/pioneer_home_rob_ticket_right_icon" android:scaleType="fitXY" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

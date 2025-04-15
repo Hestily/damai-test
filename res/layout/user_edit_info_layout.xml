@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/shape_rect_cornet_14_solid_fff_stroke_1a000000" android:visibility="gone" android:layout_width="81.5dip" android:layout_height="27.0dip" android:layout_alignParentRight="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="@color/color_959aa5" android:id="@id/user_center_header_edit_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_bianji18" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/color_959aa5" android:id="@id/user_center_header_edit_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginBottom="0.5dip" android:text="编辑资料" />
+</LinearLayout>

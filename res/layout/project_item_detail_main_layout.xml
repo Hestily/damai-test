@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/project_details_root_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/project_poster_mask_iv" android:background="#ff9d9d9d" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <include layout="@layout/project_item_detail_main_content_layout" />
+    <include android:id="@id/project_more_recommend_flv" layout="@layout/project_see_more_recommend_layout" />
+    <RelativeLayout android:layout_gravity="bottom" android:id="@id/project_item_bottom_content_rv" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="#1a000000" android:layout_width="fill_parent" android:layout_height="@dimen/margin_1dp" />
+        <include android:id="@id/project_item_bottom_bar_lv" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentBottom="true" layout="@layout/project_item_detail_bottom_bar_layout" />
+        <cn.damai.trade.newtradeorder.ui.projectdetail.projectdetailitem.ui.view.ProjectTimerAndStagoryView android:id="@id/project_item_bottom_time_stagory" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/project_item_bottom_bar_lv" />
+        <cn.damai.trade.newtradeorder.ui.projectdetail.projectdetailitem.ui.view.ProjectTimerAndStrategyTmPromptView android:id="@id/rl_member_timer_strategy" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/project_item_bottom_bar_lv" app:layout_constraintBottom_toBottomOf="parent" />
+        <cn.damai.trade.newtradeorder.ui.projectdetail.projectdetailitem.ui.view.ProjectSpecialBuyPromptView android:id="@id/member_special_buy_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/project_item_bottom_bar_lv" app:layout_constraintBottom_toBottomOf="parent" />
+        <include android:id="@id/project_item_bottom_prompt_rv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/project_item_bottom_bar_lv" layout="@layout/project_item_bottom_prompt_layout" />
+        <FrameLayout android:id="@id/project_item_bottom_want_tips_fl" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_above="@id/project_item_bottom_bar_lv" />
+        <cn.damai.rank.view.WantSeeTips android:id="@id/want_see_tips_project_detail" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/project_item_bottom_bar_lv" />
+        <cn.damai.rank.view.WantSeePosterTips android:id="@id/want_see_poster_tips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/project_item_bottom_bar_lv" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/sku_ticket_num_clear_tips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-8.0dip" android:layout_above="@id/project_item_bottom_bar_lv" android:layout_marginEnd="65.0dip" android:layout_alignParentEnd="true">
+            <TextView android:textSize="12.0dip" android:textColor="@color/color_ffffff" android:gravity="center" android:background="@drawable/bg_border_corner_e6000000" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="限购数量变更\n请重新选择票数量" android:paddingStart="@dimen/margin_20dp" android:paddingEnd="@dimen/margin_20dp" />
+            <ImageView android:id="@id/sku_ticket_num_clear_tips_arrow" android:layout_width="10.0dip" android:layout_height="8.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+    <cn.damai.rank.view.WantSeeGuideTips android:id="@id/want_see_guide_tips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="52.0dip" android:layout_marginStart="@dimen/margin_9dp" android:layout_marginEnd="@dimen/margin_9dp" />
+    <cn.damai.trade.newtradeorder.ui.projectdetail.projectdetailnew.bottom.ProjectBlockUnwantedTipsView android:layout_gravity="start|bottom|center" android:id="@id/old_project_block_want_see_guide_tips" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginBottom="52.0dip" android:layout_marginStart="@dimen/margin_9dp" android:layout_marginEnd="@dimen/margin_9dp" />
+    <FrameLayout android:id="@id/trade_project_detail_popup_layer_container_flv" android:background="#99000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

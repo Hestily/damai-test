@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/slide_action_top_space" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <include layout="@layout/item_pioneer_slide_user_info" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/slide_action_list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/slide_credential" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginEnd="@dimen/resource_size_38">
+        <ImageView android:id="@id/slide_action_to_cert" android:layout_width="98.0dip" android:layout_height="14.0dip" android:layout_marginTop="@dimen/resource_size_6" android:src="@drawable/icon_pioneer_cert_damai" android:scaleType="fitXY" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root_pioneer_mine_user_info_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginHorizontal="12.0dip">
+        <RelativeLayout android:orientation="vertical" android:id="@id/pioneer_user_info_back_g" android:background="@drawable/bg_pioneer_mine_user_head_default_and_vip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="125.0dip" android:layout_marginTop="8.0dip">
+            <LinearLayout android:orientation="vertical" android:id="@id/pioneer_mine_center_header_unlogin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="102.0dip" android:layout_marginTop="13.0dip">
+                <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="18.0dip" android:textColor="@color/black" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_5dp" android:text="立即登录" android:lines="1" android:includeFontPadding="false" android:layout_weight="1.0" />
+                <TextView android:textSize="12.0dip" android:textColor="#ff181818" android:ellipsize="end" android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_3dp" android:text="开启你的娱乐生活" android:lines="1" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:id="@id/pioneer_mine_user_title_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="92.0dip" android:layout_marginTop="10.0dip">
+                <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="18.0dip" android:textColor="@color/black" android:ellipsize="end" android:id="@id/pioneer_mine_center_header_user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_5dp" android:maxWidth="140.0dip" android:text="夏天的花夏夏天夏的花的花的花的花" android:lines="1" android:includeFontPadding="false" />
+                <ImageView android:id="@id/pioneer_mine_center_user_vip_tag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="17.0dip" android:layout_marginRight="3.0dip" android:adjustViewBounds="true" />
+                <ImageView android:id="@id/pioneer_mine_center_user_common_tag" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="3.0dip" android:src="@drawable/user_v_tag" android:scaleType="fitXY" />
+                <ImageView android:id="@id/pioneer_mine_center_user_type_tag" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="15.0dip" android:scaleType="fitXY" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/pioneer_mine_follow_praise_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="92.0dip" android:layout_marginTop="37.0dip">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/pioneer_mine_center_header_focus_count_ui" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="13.0dip" android:textColor="@color/color_2E333E" android:id="@id/pioneer_mine_center_header_focus_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+                    <TextView android:textSize="11.0dip" android:textColor="@color/color_5F6672" android:id="@id/pioneer_mine_center_header_focus_count_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="关注" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/pioneer_mine_center_header_fans_count_ui" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp">
+                    <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="13.0dip" android:textColor="@color/color_2E333E" android:id="@id/pioneer_mine_center_header_fans_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+                    <TextView android:textSize="11.0dip" android:textColor="@color/color_5F6672" android:id="@id/pioneer_mine_center_header_fans_count_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="粉丝" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/pioneer_mine_center_header_zan_count_ui" android:paddingBottom="4.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_weight="1.0">
+                    <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="13.0dip" android:textColor="@color/color_2E333E" android:id="@id/pioneer_mine_center_header_zan_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+                    <TextView android:textSize="11.0dip" android:textColor="@color/color_5F6672" android:id="@id/pioneer_mine_center_header_zan_count_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="获赞与想看" />
+                </LinearLayout>
+            </LinearLayout>
+            <cn.damai.mine.view.pioneer.PioneerMineVipMemberView android:id="@id/pioneer_layout_mine_vip_member_layout" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <FrameLayout android:id="@id/fl_mine_center_header_avatar_new" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginRight="@dimen/margin_10dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+            <cn.damai.pioneer.view.PioneerAvatar android:layout_gravity="center" android:id="@id/mine_center_header_avatar_view_pioneer_new" android:layout_width="wrap_content" android:layout_height="wrap_content" app:avatar_size="size_64dp" />
+        </FrameLayout>
+    </FrameLayout>
+</LinearLayout>

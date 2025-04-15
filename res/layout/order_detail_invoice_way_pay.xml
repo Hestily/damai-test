@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/order_create_line" />
+    <TextView android:textSize="@dimen/margin_16dp" android:textColor="@color/color_333333" android:gravity="center_vertical" android:paddingLeft="@dimen/margin_12dp" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="选择支付方式" />
+    <View android:background="@color/color_e7e7e7" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/margin_12dp" />
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/margin_12dp" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <ImageView android:id="@id/iv_pay_method_icon" android:layout_width="27.0dip" android:layout_height="27.0dip" android:layout_marginRight="@dimen/margin_12dp" android:src="@drawable/trade_order_alipay" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/margin_16dp" android:textColor="@color/color_222222" android:id="@id/tv_pay_method_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="支付宝" android:layout_toRightOf="@id/iv_pay_method_icon" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/iv_pay_method_select" android:paddingLeft="@dimen/margin_12dp" android:paddingRight="@dimen/margin_12dp" android:layout_width="44.0dip" android:layout_height="20.0dip" android:src="@drawable/trade_icon_checked_selected" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="@dimen/resource_size_10" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/classics_arrow" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginBottom="@dimen/resource_size_75" android:indeterminateDrawable="@drawable/bricks_pioneer_pull_to_load_more_loading" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/resource_size_12" android:textColor="#ff171717" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="@dimen/resource_size_75" android:text="只有这些哦～" android:layout_centerHorizontal="true" />
+</RelativeLayout>

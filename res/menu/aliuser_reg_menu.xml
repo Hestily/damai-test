@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/aliuser_menu_item_help" android:title="@string/aliuser_help" app:showAsAction="always" />
+    <item android:id="@id/aliuser_menu_item_more" android:title="@string/aliuser_more" app:showAsAction="always" />
+</menu>

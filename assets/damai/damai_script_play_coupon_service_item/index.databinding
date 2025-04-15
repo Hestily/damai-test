@@ -1,0 +1,10 @@
+{
+  "data": {
+    "service_title": { "value": "${itemName}" },
+    "service_count": {
+      "value": "${amount}",
+      "extend": { "fit-content": "true" }
+    },
+    "service_price": { "value": "${price}" }
+  }
+}

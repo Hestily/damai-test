@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/sheet_container" android:background="@drawable/bricks_bg_scenic_dialog_notice" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0px" android:layout_marginTop="1.0px" android:layout_marginRight="1.0px" android:layout_marginBottom="@dimen/margin_9dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="@dimen/resource_size_12" android:textColor="@color/bricks_2e333e" android:gravity="center_vertical" android:id="@id/sheet_title" android:layout_width="fill_parent" android:layout_height="36.0dip" android:paddingStart="12.0dip" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/sheet_content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/last_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="30.0dip" />
+</LinearLayout>

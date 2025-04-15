@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/homepage_tab_top_right_lable_bg" android:paddingLeft="@dimen/margin_3dp" android:paddingTop="@dimen/margin_2dp" android:paddingRight="@dimen/margin_5dp" android:paddingBottom="@dimen/margin_2dp" android:layout_width="wrap_content" android:layout_height="@dimen/margin_16dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/margin_9dp" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_homepage_tab_top_right" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="46.0dip" android:singleLine="true" />
+</FrameLayout>

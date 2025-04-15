@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0dip" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="权益卡" />
+    <com.taobao.movie.android.app.oscar.ui.cinema.widget.ScheduleActivityContainer android:id="@id/goods_activity_container" android:background="@drawable/type_tab_bg_default" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

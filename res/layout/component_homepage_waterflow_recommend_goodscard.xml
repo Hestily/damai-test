@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.damai.baseview.RCRelativeLayoutView android:id="@id/homepage_waterflow_goods_layout" android:background="@drawable/homepage_waterflow_category_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" app:round_corner="6.0dip" app:stroke_color="#0d000000" app:stroke_width="1.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.uikit.view.DMPosterView android:id="@id/homepage_waterflow_goods_card" android:layout_width="fill_parent" android:layout_height="214.0dip" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/homepage_water_flow_goods_content_bg" android:paddingBottom="@dimen/margin_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/homepage_waterflow_goods_card">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/homepage_waterflow_goods_content_shdow" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="14.0dip" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/homepage_waterflow_goods_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginTop="9.0dip" android:layout_marginRight="12.0dip" android:maxLines="2" android:lineSpacingExtra="3.0dip" />
+                <TextView android:textSize="12.0dip" android:textColor="#ff9c9ca5" android:ellipsize="end" android:id="@id/homepage_waterflow_goods_time" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="12.0dip" android:maxLines="1" android:minLines="1" />
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include android:id="@id/homepage_waterflow_goods_price_layout" android:visibility="gone" layout="@layout/homepage_waterflow_recommend_goods_price" />
+                    <include android:id="@id/homepage_waterflow_recommend_goods_ticket" android:visibility="visible" layout="@layout/homepage_waterflow_recommend_goods_ticket" />
+                </FrameLayout>
+                <cn.damai.uikit.tag.DMCommonTagView android:id="@id/homepage_waterflow_goodscard_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/homepage_waterflow_goods_feedback_layer" android:background="@drawable/homepage_feedback_cover" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <cn.damai.baseview.RCRelativeLayoutView android:layout_gravity="center" android:id="@id/homepage_waterflow_goods_feedback_btn" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" app:clip_background="true" app:round_corner="15.0dip">
+            <TextView android:textSize="12.0dip" android:textColor="@color/color_000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="商品不感兴趣" android:singleLine="true" android:drawableLeft="@drawable/user_v_tag" android:drawablePadding="6.0dip" android:layout_centerInParent="true" />
+        </cn.damai.baseview.RCRelativeLayoutView>
+    </FrameLayout>
+</cn.damai.baseview.RCRelativeLayoutView>

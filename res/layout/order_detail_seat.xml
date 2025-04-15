@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_order_seat_container" android:paddingLeft="@dimen/margin_15dp" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/bg_color_ec" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginEnd="@dimen/margin_15dp" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_order_seat" android:paddingTop="@dimen/margin_6dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_15dp" />
+    <TextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_FF2D79" android:gravity="center" android:id="@id/tv_order_seat_more" android:paddingTop="@dimen/margin_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_15dp" android:text="查看更多" />
+</LinearLayout>

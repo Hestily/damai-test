@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/rl_header_b" android:layout_width="fill_parent" android:layout_height="262.0dip" android:layout_marginTop="0.0dip" layout="@layout/mine_brand_fragment_header_common" />
+    <RelativeLayout android:gravity="center_horizontal" android:paddingLeft="21.0dip" android:paddingRight="21.0dip" android:layout_width="fill_parent" android:layout_height="64.0dip">
+        <TextView android:textSize="16.0dip" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/brand_header_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="" android:maxLines="1" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/color_9C9CA5" android:gravity="center" android:id="@id/brand_header_desc_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="10.0dip" android:text="" android:maxLines="1" android:layout_below="@id/brand_header_desc" android:layout_centerHorizontal="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:src="@drawable/brand_header_desc_right" android:layout_toRightOf="@id/brand_header_desc_tag" android:layout_below="@id/brand_header_desc" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:src="@drawable/brand_header_desc_left" android:layout_toLeftOf="@id/brand_header_desc_tag" android:layout_below="@id/brand_header_desc" />
+    </RelativeLayout>
+    <View android:id="@id/brand_header_divline" android:background="#1a000000" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="21.0dip" android:layout_marginRight="21.0dip" />
+    <TextView android:textSize="16.0dip" android:textColor="#ff000000" android:id="@id/mine_brand_best_title" android:paddingTop="18.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:text="品牌优选" />
+    <include android:id="@id/mine_brand_best_projs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:layout_marginRight="21.0dip" android:layout_marginBottom="10.0dip" layout="@layout/mine_brand_bestchoice" />
+    <LinearLayout android:orientation="vertical" android:id="@id/brand_headother" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0dip" android:textColor="#ff000000" android:id="@id/brand_vip_card_listtitle" android:paddingTop="18.0dip" android:paddingBottom="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:text="优惠权益" />
+        <cn.damai.uikit.irecycler.HorizontalRecyclerView android:id="@id/brand_vip_card_list" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <cn.damai.uikit.irecycler.HorizontalRecyclerView android:id="@id/brand_common_card_list" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <cn.damai.uikit.banner.view.BannerViewPager android:id="@id/banner" android:layout_width="fill_parent" android:layout_height="188.0dip" android:layout_marginLeft="21.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="21.0dip" />
+        <net.lucode.hackware.magicindicator.MagicIndicator android:layout_gravity="center_horizontal" android:id="@id/brand_banner_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="10.0dip" />
+        <TextView android:textSize="16.0dip" android:textColor="#ff000000" android:id="@id/mine_brand_album_title" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:text="品牌图册" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/mine_brand_album_scroll" android:layout_width="wrap_content" android:layout_height="118.0dip" android:layout_marginBottom="15.0dip" />
+        <RelativeLayout android:id="@id/mine_brand_talk_title" android:paddingTop="15.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:layout_marginRight="21.0dip">
+            <TextView android:textSize="16.0dip" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="大家说" android:layout_alignParentLeft="true" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/brand_talk_showmore" android:background="@drawable/brand_talk_morebg" android:layout_width="53.0dip" android:layout_height="26.0dip" android:scaleType="center" android:layout_alignParentRight="true">
+                <TextView android:textSize="12.0dip" android:textColor="@color/color_000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="全部" android:includeFontPadding="false" />
+                <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="@color/color_000000" android:id="@id/homepage_module_title_more_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_youjiantou12" />
+            </LinearLayout>
+        </RelativeLayout>
+        <HorizontalScrollView android:id="@id/mine_brand_talk_scroll" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="240.0dip" android:layout_marginBottom="10.0dip">
+            <LinearLayout android:orientation="horizontal" android:id="@id/mine_brand_talk" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        </HorizontalScrollView>
+        <TextView android:textSize="16.0dip" android:textColor="#ff000000" android:id="@id/brand_best_shows_title" android:paddingTop="10.0dip" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:text="精彩演出" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/brand_errorpage" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="420.0dip" />
+</LinearLayout>

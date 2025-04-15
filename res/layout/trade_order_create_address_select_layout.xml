@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@color/white" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/trade_order_create_selected_address_height">
+        <RelativeLayout android:background="@color/color_f2f3f4" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <TextView android:textSize="@dimen/margin_16dp" android:textColor="@color/color_999999" android:gravity="center_vertical" android:id="@id/trade_order_address_select_cancel_tv" android:paddingLeft="@dimen/margin_12dp" android:paddingRight="@dimen/margin_12dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/order_cancel" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="@dimen/textsize_16" android:textColor="@color/main_color" android:gravity="center_vertical" android:id="@id/trade_order_address_select_confirm_tv" android:paddingLeft="@dimen/margin_12dp" android:paddingRight="@dimen/margin_12dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/confirm" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/textsize_13" android:textColor="@color/main_color" android:gravity="center" android:id="@id/trade_order_add_new_address_tv" android:background="@drawable/project_detail_perform_bg_selected" android:layout_width="fill_parent" android:layout_height="42.5dip" android:layout_marginLeft="@dimen/margin_12dp" android:layout_marginTop="@dimen/margin_15dp" android:layout_marginRight="@dimen/margin_12dp" android:text="@string/trade_create_order_add_address" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/trade_order_address_list_rlv" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    </LinearLayout>
+</FrameLayout>

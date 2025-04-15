@@ -1,0 +1,23 @@
+{
+  "id": "gaia_dm_hot_music_festival_project_list",
+  "type": "gaia-template",
+  "sub-type": "scroll",
+  "line-spacing": 12,
+  "interitem-spacing": 12,
+  "direction": "horizontal",
+  "edge-insets": "{0,21,0,21}",
+  "package": {
+    "id": "gaia_dm_hot_music_festival_project_list",
+    "version": "0.0.1",
+    "modify-timestamp": "Wed Jul 14 2021 11:25:15 GMT+0800 (中国标准时间)",
+    "constraint-size": { "width": 375, "height": 200, "zoom": 1 },
+    "dependencies": { "gaia_dm_hot_music_festival_project_list_item": "0.0.0" }
+  },
+  "layers": [
+    {
+      "id": "gaia_dm_hot_music_festival_project_list_item",
+      "type": "gaia-template",
+      "sub-type": "custom"
+    }
+  ]
+}

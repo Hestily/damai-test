@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="#b3000000" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="fill_parent" android:layout_height="38.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/media_pause" android:background="@null" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:src="@drawable/play" />
+    <ImageButton android:id="@id/media_next" android:background="@null" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/next" />
+    <TextView android:textSize="11.0dip" android:textColor="@android:color/white" android:id="@id/time_current" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" />
+    <SeekBar android:id="@id/seekbar" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxHeight="2.0dip" android:progressDrawable="@drawable/seekbar_bg" android:minHeight="2.0dip" android:thumb="@drawable/jindu" android:thumbOffset="5.0dip" android:layout_weight="1.0" />
+    <TextView android:textSize="11.0dip" android:textColor="@android:color/white" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" />
+    <ImageButton android:id="@id/full_screen_btn" android:background="@null" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/fullscreen" />
+</LinearLayout>

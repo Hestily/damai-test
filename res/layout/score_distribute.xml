@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="6.0dip" android:src="@drawable/star_five" />
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/progress1" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="2.0dip" android:max="100" android:indeterminateOnly="false" android:progressDrawable="@drawable/score_distribute_progress" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="6.0dip" android:src="@drawable/star_four" />
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/progress2" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="2.0dip" android:max="100" android:indeterminateOnly="false" android:progressDrawable="@drawable/score_distribute_progress" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="6.0dip" android:src="@drawable/star_three" />
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/progress3" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="2.0dip" android:max="100" android:indeterminateOnly="false" android:progressDrawable="@drawable/score_distribute_progress" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="6.0dip" android:src="@drawable/star_two" />
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/progress4" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="2.0dip" android:max="100" android:indeterminateOnly="false" android:progressDrawable="@drawable/score_distribute_progress" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="6.0dip" android:src="@drawable/star_one" />
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/progress5" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="2.0dip" android:max="100" android:indeterminateOnly="false" android:progressDrawable="@drawable/score_distribute_progress" />
+    </LinearLayout>
+</LinearLayout>

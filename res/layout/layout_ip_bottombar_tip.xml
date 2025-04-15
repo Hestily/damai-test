@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingBottom="60.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/ip_bottombar_tip_bg" android:background="@drawable/ip_bottombar_tipbg" android:layout_width="333.0dip" android:layout_height="68.5dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="68.0dip" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/margin_12dp" android:textColor="#ff666666" android:ellipsize="end" android:id="@id/ip_bottombar_tip_texttop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="已为您添加到想看&amp;想玩列表~" android:maxLines="1" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/margin_14dp" android:textColor="#ff333333" android:ellipsize="end" android:id="@id/ip_bottombar_tip_textbelow" android:paddingTop="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:text="快去看看吧" android:maxLines="1" android:layout_centerInParent="true" android:layout_centerVertical="true" />
+        </LinearLayout>
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:padding="5.0dip" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:text="@string/iconfont_guanbi12" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <ImageView android:layout_width="56.0dip" android:layout_height="91.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/ip_bottom_bar_tiplove" android:layout_alignLeft="@id/ip_bottombar_tip_bg" android:layout_alignParentBottom="true" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/live_icon" android:layout_width="56.0dip" android:layout_height="108.0dip" android:layout_marginLeft="4.0dip" android:layout_marginBottom="40.0dip" android:layout_alignLeft="@id/ip_bottombar_tip_bg" android:layout_alignParentBottom="true" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="@raw/bottom_tip_heart_pop" />
+</RelativeLayout>

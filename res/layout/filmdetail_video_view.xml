@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/viewpager" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" />
+    <View android:id="@id/mask_layer" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignBottom="@id/viewpager" />
+    <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="16.0dip" android:textColor="@color/white" android:id="@id/icon_mute" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="9.0dip" android:text="@string/iconfont_voice_off" android:layout_alignBottom="@id/viewpager" android:layout_marginStart="21.0dip" android:layout_alignStart="@id/viewpager" />
+    <TextView android:textSize="16.0dip" android:textColor="@color/C_white" android:id="@id/tv_page_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="9.0dip" android:maxLines="1" android:includeFontPadding="false" android:layout_alignBottom="@id/viewpager" android:layout_marginEnd="21.0dip" android:layout_alignEnd="@id/viewpager" />
+    <View android:id="@id/video_background" android:layout_width="fill_parent" android:layout_height="350.0dip" android:layout_below="@id/mask_layer" />
+    <com.alibaba.pictures.moimage.MoImageView android:id="@id/dm_film_detail_empty_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" android:maxHeight="350.0dip" android:minHeight="@dimen/film_detail_info_height_max" android:layout_alignParentTop="true" />
+    <View android:id="@id/video_background_mask_layer" android:background="@drawable/bg_film_detail_page_info_mask" android:layout_width="fill_parent" android:layout_height="350.0dip" android:layout_below="@id/mask_layer" />
+    <View android:id="@id/recycle_view_background" android:background="#fff5f6f8" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/video_background" />
+</RelativeLayout>

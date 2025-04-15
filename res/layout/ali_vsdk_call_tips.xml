@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/ali_vsdk_rect_gray" android:layout_width="300.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0dip" android:textColor="@android:color/black" android:gravity="center" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="91.0dip" />
+    <TextView android:background="#ffdedede" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="51.0dip">
+        <Button android:textSize="17.0dip" android:textColor="#ff1475ea" android:gravity="center" android:id="@id/cancel" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/ali_vsdk_verify_call_dialog_cancel" android:singleLine="true" android:layout_weight="1.0" />
+        <TextView android:background="#ffdedede" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <Button android:textSize="17.0dip" android:textColor="#ff1475ea" android:gravity="center" android:id="@id/ok" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/ali_vsdk_verify_call_dialog_ok" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

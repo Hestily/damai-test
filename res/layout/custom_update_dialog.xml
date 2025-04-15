@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/update_rootDialog" android:background="@color/transparent" android:layout_width="280.0dip" android:layout_height="420.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/card_view" android:background="@color/G_black_light_5" android:layout_width="280.0dip" android:layout_height="400.0dip" android:layout_marginTop="40.0dip" card_view:cardCornerRadius="20.0dip" card_view:cardElevation="0.0dip">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="280.0dip" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip" android:layout_marginRight="16.0dip">
+            <TextView android:textSize="16.0dip" android:textColor="#ff333333" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/text_title" android:layout_width="220.0dip" android:layout_height="46.0dip" android:layout_marginTop="140.0dip" android:layout_marginBottom="12.0dip" android:text="手机淘宝新版本更新啦，诚邀你抢先体验！" />
+            <TextView android:textSize="13.0dip" android:textColor="#ff666666" android:id="@id/text_content" android:layout_width="220.0dip" android:layout_height="0.0dip" android:layout_marginBottom="12.0dip" android:text="text content" android:layout_weight="1.0" android:layout_below="@id/text_title" android:lineSpacingExtra="2.0dip" />
+            <Button android:textSize="16.0dip" android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/image_button" android:background="@drawable/button" android:layout_width="220.0dip" android:layout_height="36.0dip" android:layout_marginBottom="30.0dip" android:src="@drawable/button" android:text="立即参与" android:stateListAnimator="@null" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <ImageView android:id="@id/title_image" android:background="@color/transparent" android:layout_width="280.0dip" android:layout_height="150.0dip" android:layout_marginTop="0.0dip" android:src="@drawable/update_logo" />
+    <ImageView android:layout_gravity="end" android:id="@id/close_btn" android:layout_width="16.0dip" android:layout_height="11.0dip" android:layout_marginTop="50.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/cancel" android:elevation="0.0dip" />
+</FrameLayout>

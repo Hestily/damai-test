@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/id_script_shop" android:layout_width="63.0dip" android:layout_height="63.0dip">
+                <com.alibaba.pictures.bricks.view.RoundRadiusImageView android:id="@id/id_script_shop_pic" android:layout_width="63.0dip" android:layout_height="63.0dip" android:scaleType="centerCrop" app:r_round_radius="6.0dip" app:r_stroke_color="#1a000000" app:r_stroke_width="1.0px" />
+                <com.alibaba.pictures.bricks.view.DMCategroyTagView android:layout_gravity="left" android:id="@id/id_script_shop_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="3.0dip" />
+            </FrameLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="63.0dip" android:layout_toRightOf="@id/id_script_shop" android:layout_alignParentTop="true" android:layout_marginStart="9.0dip">
+                <com.alibaba.pictures.bricks.view.HighlightTextView android:textSize="16.0dip" android:textColor="@color/bricks_2e333e" android:ellipsize="end" android:id="@id/id_script_shop_title_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" android:includeFontPadding="false" android:paddingEnd="78.0dip" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/script_shop_score" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+                    <com.alibaba.pictures.bricks.view.DMRatingBar android:id="@id/id_script_shop_score_view" android:layout_width="wrap_content" android:layout_height="wrap_content" app:isIndicator="true" app:showText="false" app:starCount="5" app:starDistance="1.5dip" app:starEmpty="@drawable/bricks_rating_empty_type_2" app:starFill="@drawable/bricks_rating_fill_type_2" app:starSize="12.0dip" />
+                    <com.alibaba.pictures.bricks.view.BricksCommonDigitTextView android:textSize="13.0dip" android:textColor="#ffffbb33" android:id="@id/id_script_shop_score_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" />
+                </LinearLayout>
+                <com.alibaba.pictures.bricks.view.RtlLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                    <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/bricks_5f6672" android:ellipsize="end" android:id="@id/id_script_shop_address_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+                    <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <View android:id="@id/id_script_shop_line" android:background="#ffe9ebef" android:layout_width="1.0px" android:layout_height="12.0dip" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" />
+                        <TextView android:textSize="12.0dip" android:textColor="@color/bricks_5f6672" android:id="@id/id_script_shop_distance_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </com.alibaba.pictures.bricks.view.RtlLayout>
+            </LinearLayout>
+            <ImageView android:id="@id/id_script_shop_tuan_auth_icon" android:visibility="gone" android:layout_width="65.0dip" android:layout_height="16.0dip" android:scaleType="fitXY" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/id_script_shop_tuan_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+            <TextView android:textSize="12.0dip" android:textColor="@color/color_price_font" android:gravity="center" android:background="@drawable/bricks_shape_rect_corners_aphla" android:layout_width="18.0dip" android:layout_height="18.0dip" android:text="团" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/color_price_font" android:id="@id/id_script_shop_tuan_price_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="¥" android:layout_marginStart="6.0dip" />
+            <com.alibaba.pictures.bricks.view.BricksCommonDigitTextView android:textSize="14.0dip" android:textColor="@color/color_price_font" android:id="@id/id_script_shop_tuan_price_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="1.0dip" />
+            <TextView android:textSize="12.0dip" android:textColor="#ff959aa5" android:ellipsize="end" android:id="@id/id_script_shop_tuan_desc_tv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:lines="1" android:layout_weight="1.0" android:layout_marginStart="6.0dip" />
+            <TextView android:textSize="12.0dip" android:textColor="#ff959aa5" android:id="@id/id_script_shop_tuan_count_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="12.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <include android:id="@id/ll_search_bottom_div" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_alignParentBottom="true" layout="@layout/bricks_item_ededed_line" />
+</LinearLayout>

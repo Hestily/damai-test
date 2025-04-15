@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/white" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.uikit.shadowlayout.DMShadowLayout android:id="@id/item_layout_below_account" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_marginRight="17.0dip" android:layout_below="@id/item_layout_b_account" app:sl_cornerRadius="12.0dip" app:sl_dx="0.0dip" app:sl_dy="5.0dip" app:sl_shadowColor="#0e000000">
+        <LinearLayout android:orientation="vertical" android:id="@id/item_layout_below_account_inner" android:background="@drawable/bg_border_corner_white_radius_12" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/item_view_search_head_tour" />
+            <View android:id="@id/item_view_search_divide_line_below_tour" android:background="#1a000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <include android:visibility="gone" layout="@layout/item_view_search_head_brand_opt" />
+            <View android:id="@id/item_view_search_divide_line_below_brand" android:background="#1a000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/item_single_artificial" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <cn.damai.tetris.component.home.widget.banner.sub.RoundRadiusImageView android:id="@id/item_single_artificial_img" android:layout_width="fill_parent" android:layout_height="170.0dip" android:scaleType="centerCrop" app:r_round_radius="12.0dip" app:r_stroke_color="#1a000000" app:r_stroke_width="2.0px" />
+                    <ImageView android:id="@id/item_single_video_tag" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/feed_video_icon" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <TextView android:textSize="14.0dip" android:textColor="@color/black" android:ellipsize="end" android:id="@id/item_single_artificial_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:maxLines="2" android:lineSpacingExtra="6.0dip" />
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/item_multi_artificial" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </cn.damai.uikit.shadowlayout.DMShadowLayout>
+    <include android:id="@id/item_layout_b_account" layout="@layout/item_view_search_head_b_account_v2" />
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="44.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/title_bg_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0">
+        <View android:background="#19000000" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/margin_12dp">
+        <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="24.0dip" android:textColor="#ff3c3f44" android:gravity="center_vertical" android:id="@id/title_back_btn" android:paddingLeft="@dimen/margin_12dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/iconfont_zuojiantou_" />
+        <TextView android:textSize="18.0dip" android:textColor="@color/color_000000" android:ellipsize="end" android:id="@id/title_tv" android:paddingRight="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+        <TextView android:textSize="11.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/title_more_rank_btn" android:background="@drawable/bricks_bg_btn_33white" android:paddingLeft="@dimen/margin_2dp" android:layout_width="56.0dip" android:layout_height="22.0dip" android:text="更多榜单" android:includeFontPadding="false" />
+        <TextView android:textSize="11.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/title_wannasee_btn" android:background="@drawable/bricks_bg_btn_33white" android:layout_width="46.0dip" android:layout_height="22.0dip" android:layout_marginLeft="15.0dip" android:text="想看" android:includeFontPadding="false" />
+        <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="24.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/title_share_btn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:text="@string/iconfont_fenxiang44" />
+    </LinearLayout>
+</RelativeLayout>

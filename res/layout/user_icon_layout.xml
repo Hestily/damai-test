@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/user_icon_container" android:layout_width="50.0dip" android:layout_height="53.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.taobao.movie.android.commonui.widget.SimpleDraweeView android:id="@id/user_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="3.0dip" app:fadeDuration="0" app:failureImage="@drawable/header_place_holder" app:placeholderImage="@drawable/header_place_holder" app:roundAsCircle="true" app:roundingBorderColor="@color/common_divider_color" app:roundingBorderWidth="1.0px" />
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/user_level" android:background="@drawable/ic_member_level" android:layout_width="21.0dip" android:layout_height="21.0dip" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

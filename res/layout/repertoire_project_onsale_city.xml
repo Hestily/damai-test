@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="96.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="96.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="18.0sp" android:textColor="@color/color_111111" android:id="@id/tv_city" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="天津" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/color_111111" android:ellipsize="end" android:id="@id/tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_3dp" android:text="2017.12.25-12.28" android:singleLine="true" />
+        </LinearLayout>
+        <RelativeLayout android:layout_gravity="center|right" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_12dp" android:layout_weight="1.0">
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="@color/color_DDDDDD" android:gravity="center_vertical" android:id="@id/dm_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_3dp" android:text="@string/iconfont_youjiantou12" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/textcolor_bbbbbb" android:ellipsize="end" android:id="@id/tv_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="天桥艺术中" android:singleLine="true" android:layout_toLeftOf="@id/dm_icon" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:background="@color/color_eeeeee" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+</RelativeLayout>

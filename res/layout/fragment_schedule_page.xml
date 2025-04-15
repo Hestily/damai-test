@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.taobao.movie.android.commonui.widget.TMSwipeRefreshLayout android:id="@id/layout_refresh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <androidx.core.widget.NestedScrollView android:id="@id/layout_header" android:layout_width="fill_parent" android:layout_height="wrap_content" app:appbarId="@id/appbar" app:layout_behavior="@string/header_behavior" app:needAppbarOffset="true">
+                    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <com.taobao.movie.android.app.oscar.ui.cinema.widget.CinemaInfoHeader android:id="@id/schedule_cinema_info_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                            <View android:id="@id/schedule_memcard_space" android:background="#ffe2e2e2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                            <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/fl_schedule_and_food_tab" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <com.taobao.movie.android.commonui.widget.MaterialTabLayout android:id="@id/schedule_and_food_tab" android:paddingLeft="1.0dip" android:paddingRight="1.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="3.0dip" app:tab_SelectedTextColor="@color/color_tpp_primary_main_title" app:tab_TextColor="#ff5f6672" app:tab_TextSize="13.0dip" />
+                                <com.taobao.movie.android.commonui.BubbleView android:id="@id/tv_min_price_bv" android:paddingLeft="5.0dip" android:paddingTop="1.0dip" android:paddingRight="5.0dip" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/schedule_and_food_tab" android:layout_alignParentTop="true" app:bubbleBackgroundColor="#ffffffff" app:bubbleColor="#ffffb4c0" app:bubbleIndicatorDirection="bottom" app:bubbleIndicatorHeight="3.0dip" app:bubbleIndicatorWidth="3.0dip" app:bubbleRadius="12.0dip" app:bubbleStrokeWidth="0.70000005dip">
+                                    <TextView android:textSize="9.0dip" android:textColor="#ffff4361" android:id="@id/tv_min_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+                                </com.taobao.movie.android.commonui.BubbleView>
+                            </RelativeLayout>
+                            <com.taobao.movie.android.app.ui.schedule.emptyview.ScheduleEmptyView android:id="@id/empty_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                            <View android:id="@id/food_empty_view" android:background="@color/color_tpp_primary_gray_f5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="130.0dip" />
+                            <com.taobao.movie.android.app.oscar.ui.cinema.widget.RoundedGallery android:id="@id/gallery" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="142.0dip" android:spacing="0.0dip" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layout_sticky" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:id="@id/film_detail_container" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <com.taobao.movie.android.app.oscar.ui.cinema.widget.FilmDetailInfoItem android:id="@id/film_detail_item" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                                <com.taobao.movie.android.commonui.vipexchange.VipExchangeExtranceView android:layout_gravity="center" android:id="@id/vip_exchange_entrance_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginBottom="6.0dip" />
+                            </LinearLayout>
+                            <com.taobao.movie.android.commonui.widget.SpecialScheduleMaterialTabLayout android:id="@id/tab_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-5.0dip" app:tab_IndicatorAnimation="false" app:tab_IndicatorBottomLeftRadius="0.0dip" app:tab_IndicatorBottomRightRadius="0.0dip" app:tab_IndicatorColor="@color/tpp_primary_red" app:tab_IndicatorFullWidth="false" app:tab_IndicatorHeight="3.0dip" app:tab_IndicatorTopLeftRadius="3.0dip" app:tab_IndicatorTopRightRadius="3.0dip" app:tab_IndicatorWidth="24.0dip" app:tab_Mode="scrollable" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.core.widget.NestedScrollView>
+                <com.taobao.movie.android.app.ui.schedule.widget.SafeViewPager android:id="@id/pager_schedule" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/scrolling_behavior" />
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        </com.taobao.movie.android.commonui.widget.TMSwipeRefreshLayout>
+        <com.taobao.movie.android.app.oscar.ui.cinema.widget.ScheduleLoginTipItem android:id="@id/schedule_member_banner_info" android:layout_width="fill_parent" android:layout_height="45.0dip" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/fast_seat_view" android:background="@color/color_tpp_primary_73_black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/thumbnail_preview_bg" android:clickable="true" android:layout_width="310.0dip" android:layout_height="wrap_content">
+            <TextView android:textSize="15.0dip" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="座位预览" />
+            <View android:background="@color/color_tpp_primary_divider" android:layout_width="fill_parent" android:layout_height="@dimen/space_line_height" android:layout_marginTop="16.0dip" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:src="@drawable/thumbnail_hall" />
+            <ImageView android:id="@id/fast_seat" android:layout_width="290.0dip" android:layout_height="236.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:scaleType="fitCenter" />
+            <TextView android:textSize="13.0dip" android:textColor="@android:color/black" android:id="@id/seat_warn_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="28.0dip" />
+            <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@id/fast_button" android:background="@drawable/common_red_small_btn_7_3" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="20.0dip" android:text="选择该场次" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/fake_schedule_and_food_tab_layout" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:paddingBottom="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.taobao.movie.android.commonui.widget.MaterialTabLayout android:id="@id/fake_schedule_and_food_tab" android:paddingLeft="1.0dip" android:paddingRight="1.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="3.0dip" app:tab_SelectedTextColor="@color/color_tpp_primary_main_title" app:tab_TextColor="#ff5f6672" app:tab_TextSize="13.0dip" />
+            <com.taobao.movie.android.commonui.BubbleView android:id="@id/tv_min_price_fake_bv" android:paddingLeft="5.0dip" android:paddingTop="1.0dip" android:paddingRight="5.0dip" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/fake_schedule_and_food_tab" android:layout_alignParentTop="true" app:bubbleBackgroundColor="#ffffffff" app:bubbleColor="#ffffb4c0" app:bubbleIndicatorDirection="bottom" app:bubbleIndicatorHeight="3.0dip" app:bubbleIndicatorWidth="3.0dip" app:bubbleRadius="12.0dip" app:bubbleStrokeWidth="0.70000005dip">
+                <TextView android:textSize="9.0dip" android:textColor="#ffff4361" android:id="@id/tv_min_price_fake" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+            </com.taobao.movie.android.commonui.BubbleView>
+        </RelativeLayout>
+    </FrameLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/white_mask_view" android:background="@color/common_text_color46" android:layout_width="fill_parent" android:layout_height="?actionBarSize" />
+        <com.taobao.movie.android.commonui.widget.Appbar android:id="@id/appbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:menu1_icon_font="@string/icon_font_mark_line" app:menu1_show="true" />
+    </FrameLayout>
+    <ViewStub android:id="@id/surprise_red_packet_schedule" android:layout="@layout/surprise_red_coupon_viewstub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

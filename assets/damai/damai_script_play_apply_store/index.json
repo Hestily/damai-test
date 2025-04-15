@@ -1,0 +1,50 @@
+{
+  "id": "damai_script_play_apply_store",
+  "type": "gaia-template",
+  "package": {
+    "id": "damai_script_play_apply_store",
+    "version": "0.0.1",
+    "constraint-size": { "width": 375, "height": 99, "zoom": 1 },
+    "modify-timestamp": "Fri Jun 17 2022 10:03:44 GMT+0800 (中国标准时间)",
+    "dependencies": {}
+  },
+  "layers": [
+    {
+      "id": "contentView",
+      "type": "view",
+      "layers": [
+        { "id": "title", "type": "text" },
+        {
+          "id": "info_holder",
+          "type": "view",
+          "layers": [
+            {
+              "id": "store_info_holder",
+              "type": "view",
+              "layers": [
+                { "id": "store_name", "type": "text" },
+                { "id": "store_location", "type": "text" }
+              ]
+            },
+            {
+              "id": "loc_holder",
+              "type": "view",
+              "layers": [
+                { "id": "loc_icon", "type": "image" },
+                { "id": "loc_icon_text", "type": "text" }
+              ]
+            },
+            {
+              "id": "tele_holder",
+              "type": "view",
+              "layers": [
+                { "id": "tele_icon", "type": "image" },
+                { "id": "tele_icon_text", "type": "text" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

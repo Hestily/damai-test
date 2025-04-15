@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/color_bricks_primary_70_black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/common_error_ticket_limit" />
+        <TextView android:textSize="14.0dip" android:textColor="#ff9c9ca5" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="网络不太顺畅\n请检查网络后重试哦" />
+        <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/btn_refresh" android:background="@drawable/dialog_live_comment_refresh_btn" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginTop="17.0dip" android:text="努力刷新" android:paddingHorizontal="16.0dip" />
+    </LinearLayout>
+</FrameLayout>

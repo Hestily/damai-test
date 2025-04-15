@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_notice" android:background="@drawable/bricks_shape_white_radius12" android:layout_width="208.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/bricks_channel_brand_top_block" android:background="@drawable/abg_b_purple_default_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="13.0dip">
+        <com.google.android.flexbox.FlexboxLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:alignItems="center">
+            <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="16.0dip" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center" android:id="@id/bricks_channel_brand_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" app:layout_flexShrink="1.0" />
+            <com.alibaba.pictures.moimage.MoImageView android:gravity="center" android:id="@id/bricks_channel_brand_tag_img" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="16.0dip" android:layout_marginLeft="3.0dip" app:layout_flexShrink="0.0" />
+            <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/bricks_channel_brand_right_arrow" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/iconfont_youjiantou12" app:layout_flexShrink="0.0" />
+        </com.google.android.flexbox.FlexboxLayout>
+        <TextView android:textSize="10.0dip" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/bricks_channel_brand_fans_num" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:maxLines="1" />
+    </LinearLayout>
+    <include android:id="@id/bricks_channel_brand_project_first" layout="@layout/bricks_channel_brand_project_view" />
+    <include android:id="@id/bricks_channel_brand_project_second" layout="@layout/bricks_channel_brand_project_view" />
+</LinearLayout>

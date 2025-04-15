@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/layout_left" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="fill_parent" />
+    <cn.damai.uikit.shadowlayout.DMShadowLayout android:id="@id/layout_galley" android:layout_width="wrap_content" android:layout_height="wrap_content" app:sl_dx="0.0dip" app:sl_dy="5.0dip" app:sl_shadowColor="#0e000000" app:sl_shadowRadius="6.0dip">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/subgroup_banner_bg" android:layout_width="152.0dip" android:layout_height="144.0dip">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="86.0dip">
+                <cn.damai.baseview.RCRelativeLayoutView android:layout_gravity="top" android:layout_width="152.0dip" android:layout_height="86.0dip" app:clip_background="true" app:round_corner_top_left="6.0dip" app:round_corner_top_right="6.0dip">
+                    <ImageView android:id="@id/image_item" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+                </cn.damai.baseview.RCRelativeLayoutView>
+                <cn.damai.baseview.RCRelativeLayoutView android:id="@id/image_item_bg" android:visibility="gone" android:layout_width="152.0dip" android:layout_height="86.0dip" app:clip_background="true" app:round_corner_top_left="6.0dip" app:round_corner_top_right="6.0dip" />
+                <cn.damai.uikit.view.DMPosterView android:layout_gravity="center" android:id="@id/poster_rank" android:visibility="gone" android:layout_width="56.0dip" android:layout_height="74.0dip" />
+            </FrameLayout>
+            <TextView android:textSize="14.0dip" android:textColor="@color/color_000000" android:ellipsize="end" android:id="@id/tv_desc1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="9.0dip" android:singleLine="true" />
+            <TextView android:textSize="12.0dip" android:textColor="#ff9c9ca5" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_desc2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="6.0dip" android:singleLine="true" />
+        </LinearLayout>
+    </cn.damai.uikit.shadowlayout.DMShadowLayout>
+    <View android:id="@id/layout_right" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="fill_parent" />
+</LinearLayout>

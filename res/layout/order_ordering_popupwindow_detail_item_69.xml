@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingTop="@dimen/ordering_detail_padding" android:paddingBottom="@dimen/ordering_detail_padding" style="@style/CommonListItemContainerWhite"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.flexbox.FlexboxLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_weight="1.0">
+        <TextView android:textColor="@color/tpp_gray_3" android:ellipsize="end" android:id="@id/item_name" android:layout_width="wrap_content" android:text="@string/ordering_detail_title_movie_activity" android:singleLine="true" app:layout_flexShrink="1.0" style="@style/CommonListItemText" />
+        <TextView android:textColor="@color/tpp_gray_3" android:ellipsize="end" android:id="@id/item_desc" android:visibility="gone" android:layout_width="wrap_content" android:singleLine="true" app:layout_flexShrink="0.0" style="@style/CommonListItemText" />
+        <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="@dimen/text_size_13_dp" android:textColor="@color/tpp_gray_3" android:id="@id/item_desc_icon" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconf_question_mark" app:layout_flexShrink="0.0" />
+    </com.google.android.flexbox.FlexboxLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/item_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" app:layout_flexShrink="0.0" />
+    <TextView android:textColor="@color/tpp_gray_3" android:gravity="right" android:id="@id/item_price" app:layout_flexShrink="0.0" style="@style/CommonListItemText" />
+</LinearLayout>

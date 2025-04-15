@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/damai_root_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.pictures.bricks.view.MaxHeightLinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/damai_dialog_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/damai_dialog_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip" android:minHeight="125.0dip" android:layout_weight="1.0">
+            <View android:layout_width="fill_parent" android:layout_height="21.0dip" />
+            <TextView android:textSize="18.0dip" android:textColor="@color/color_000000" android:layout_gravity="center_horizontal" android:id="@id/damai_dialog_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="9.0dip" android:layout_marginRight="30.0dip" android:singleLine="true" android:includeFontPadding="false" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/dialog_content_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="9.0dip" android:layout_marginRight="30.0dip" android:layout_weight="1.0">
+                <FrameLayout android:id="@id/dialog_content_container2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ScrollView android:id="@id/dialog_content_container" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never">
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="14.0dip" android:textColor="#ff9c9ca5" android:gravity="center_horizontal" android:id="@id/damai_dialog_tip_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" android:lineSpacingExtra="3.0dip" />
+                        </LinearLayout>
+                    </ScrollView>
+                </FrameLayout>
+                <FrameLayout android:id="@id/dialog_expand_content_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/dialog_expand_content_container3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <FrameLayout android:id="@id/dialog_expand_content_container4" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:layout_marginTop="9.0dip" android:layout_marginRight="21.0dip" android:layout_weight="1.0" />
+            <View android:id="@id/damai_dialog_btn_top_line" android:background="#ffeeeeee" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="30.0dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/damai_dialog_cancel_btn" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="52.0dip" android:text="取消" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" />
+                <View android:id="@id/damai_dialog_btn_line" android:background="#ffeeeeee" android:visibility="gone" android:layout_width="0.5dip" android:layout_height="52.0dip" />
+                <TextView android:textSize="16.0dip" android:textColor="#ffff2d79" android:gravity="center" android:id="@id/damai_dialog_confirm_btn" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="52.0dip" android:text="确定" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/damai_dialog_close_btn" android:padding="18.0dip" android:visibility="gone" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/damai_dialog_close_btn" />
+        <View android:id="@id/damai_dialog_bottom_space" android:layout_width="fill_parent" android:layout_height="30.0dip" />
+    </com.alibaba.pictures.bricks.view.MaxHeightLinearLayout>
+</FrameLayout>

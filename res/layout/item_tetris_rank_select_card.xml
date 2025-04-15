@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.damai.uikit.view.StrokeLinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="95.0dip" android:layout_height="128.0dip" app:sl_corners_radius="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/drama_inner_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.damai.uikit.view.DMPosterView android:id="@id/iv_poster" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/ll_tv_container" android:background="@drawable/bg_rank_select_1" android:layout_width="fill_parent" android:layout_height="47.0dip">
+            <TextView android:textSize="12.0dip" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxLines="1" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" />
+            <TextView android:textSize="11.0dip" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tv_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="1" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+</cn.damai.uikit.view.StrokeLinearLayout>

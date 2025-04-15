@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/search_title_layout" android:background="@drawable/app_title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/title_bar_space" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/margin_15dp" android:paddingTop="10.0dip" android:paddingBottom="@dimen/margin_7dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/title_bar_space">
+            <include layout="@layout/search_input" />
+        </LinearLayout>
+    </RelativeLayout>
+    <FrameLayout android:id="@id/search_container" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.damai.uikit.irecycler.IRecyclerView android:id="@id/irc" android:layout_width="fill_parent" android:layout_height="fill_parent" app:refreshEnabled="true" app:refreshHeaderLayout="@layout/refresh_empty_view" />
+        <ImageView android:layout_gravity="bottom|center|right" android:id="@id/iv_top" android:paddingLeft="@dimen/margin_15dp" android:paddingTop="@dimen/margin_20dp" android:paddingRight="@dimen/margin_15dp" android:paddingBottom="@dimen/margin_20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_top" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_error" android:visibility="visible" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

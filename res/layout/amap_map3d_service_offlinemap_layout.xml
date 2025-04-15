@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff3f3f3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/amap_map3d_header" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/amap_map3d_download_title_layout" android:background="#fffafafa" android:layout_width="fill_parent" android:layout_height="39.0dip">
+            <ImageView android:id="@id/amap_map3d_download_title_back" android:background="@drawable/amap_map3d_title_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/amap_map3d_font_34" android:textColor="#ff000000" android:id="@id/amap_map3d_download_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="离线地图" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:background="#ffffffff" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="41.0dip" android:layout_below="@id/amap_map3d_download_title_layout">
+            <ImageView android:id="@id/amap_map3d_search_input_searchimg" android:background="@drawable/amap_map3d_sousuo" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="95.0dip" android:scaleType="centerInside" android:layout_centerVertical="true" />
+            <AutoCompleteTextView android:textColor="#ff000000" android:textColorHint="#ffa6a6a6" android:id="@id/amap_map3d_search_input" android:background="@drawable/amap_map3d_shape" android:paddingLeft="105.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="5.0dip" android:hint="输入城市名称或拼音" android:singleLine="true" />
+            <ImageView android:id="@id/amap_map3d_search_input_clean" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="20.0dip" android:src="@drawable/amap_map3d_route_history_close" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/amap_map3d_footer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/amap_map3d_font_24" android:layout_below="@id/amap_map3d_header">
+        <ExpandableListView android:id="@id/amap_map3d_city_listview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <ListView android:id="@id/amap_map3d_search_listview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/amap_map3d_font_32" android:layout_below="@id/amap_map3d_header" />
+</RelativeLayout>

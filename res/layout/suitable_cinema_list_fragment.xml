@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/areas" android:background="@color/white" android:padding="@dimen/padding_8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0dip" android:textColor="@color/common_text_color11" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_8" android:text="已选：" android:layout_centerVertical="true" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/common_text_color11" android:gravity="center" android:id="@id/areas_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/label" android:layout_centerVertical="true" />
+            <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="@dimen/t2" android:textColor="@color/common_text_color11" android:id="@id/areas_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_8" android:text="@string/iconf_close" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:textSize="12.0dip" android:textColor="@color/common_orange_color" android:gravity="center" android:id="@id/groupbuy_toast" android:background="#fffbf9db" android:padding="@dimen/padding_8dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="您可切换城市查看所有影院" />
+        <com.taobao.movie.android.commonui.widget.TabPageIndicator android:id="@id/time_container" android:background="#fff7f7f7" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:overScrollMode="never" />
+        <View android:background="@color/common_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.taobao.movie.android.commonui.widget.TMSwipeRefreshLayout android:id="@id/swipe_refresh" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerview" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+                <TextView android:textColor="@color/common_text_color11" android:gravity="center" android:id="@id/empty_data" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+        </com.taobao.movie.android.commonui.widget.TMSwipeRefreshLayout>
+        <com.taobao.movie.android.app.oscar.ui.cinema.widget.ShowMyLocationView android:id="@id/show_location" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

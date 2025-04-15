@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="9.0dip" android:elevation="0.0dip" app:cardCornerRadius="9.0dip" app:cardElevation="0.0dip" app:cardMaxElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@drawable/item_click_effect" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.pictures.moimage.MoImageView android:id="@id/img_bg_atmosphere" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:actualImageScaleType="fitWidth" />
+        <RelativeLayout android:id="@id/movie_container" android:paddingLeft="12.0dip" android:paddingTop="@dimen/margin_15" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.taobao.movie.android.commonui.widget.FilmImagePlayNew android:id="@id/pic_poster" android:layout_width="76.0dip" android:layout_height="105.0dip" android:layout_marginRight="@dimen/margin_12" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="105.0dip" android:layout_toRightOf="@id/pic_poster">
+                <com.taobao.movie.android.commonui.widget.TitleMarkView android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginRight="88.0dip" android:layout_marginBottom="7.0dip" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/remark_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="80.0dip" android:layout_marginBottom="7.0dip">
+                    <TextView android:gravity="center_vertical" android:id="@id/tv_remark_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_3" android:text="@string/remark_title" android:singleLine="true" style="@style/FilmList_Director_72" />
+                    <TextView android:gravity="top" android:id="@id/tv_remark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="0.5dip" android:singleLine="true" style="@style/FilmRemarkNumber" />
+                    <View android:layout_gravity="center_vertical" android:id="@id/remark_divider" android:background="@color/common_text_color47" android:layout_width="1.0dip" android:layout_height="12.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" />
+                    <TextView android:gravity="top" android:id="@id/tv_remark_people" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/FilmList_Director_72" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/date_count_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="80.0dip" android:layout_marginBottom="@dimen/padding_6dp">
+                    <TextView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/wantcount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_3" android:layout_marginBottom="0.5dip" style="@style/FilmRemarkNumber" />
+                    <TextView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_want_count_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/want_title" style="@style/FilmList_Director_72" />
+                    <View android:layout_gravity="center_vertical" android:id="@id/divider2" android:background="@color/common_text_color47" android:layout_width="1.0dip" android:layout_height="12.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" />
+                    <TextView android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/FilmList_Director_72" />
+                </LinearLayout>
+                <TextView android:id="@id/director" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="80.0dip" android:maxLines="1" style="@style/FilmList_Director_72" />
+                <TextView android:id="@id/leading_role" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="80.0dip" android:layout_marginBottom="0.0dip" style="@style/FilmList_Director_72" />
+                <View android:layout_width="10.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <com.taobao.movie.android.app.oscar.ui.cinema.widget.CinemaFeatureLayout android:id="@id/recomment_tag_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginRight="80.0dip" />
+                <com.taobao.movie.android.app.oscar.ui.film.widget.DiscountTagContainerView android:id="@id/discount_tags_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/upcoming_btn_zone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <Button android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/btn_buy_upcoming" android:padding="0.0dip" android:layout_marginRight="15.0dip" android:text="预售" android:singleLine="true" style="@style/presale_button_style_small_7_3" />
+                <LinearLayout android:orientation="vertical" android:id="@id/search_result_favorite_Ll" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip">
+                    <TextView android:textSize="10.0dip" android:textColor="#ffff3d5c" android:layout_gravity="end" android:id="@id/favorite_with_gift" android:background="@drawable/want_see_with_gift_pop" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="-10.0dip" android:text="想看有礼" />
+                    <com.taobao.movie.android.app.oscar.ui.film.widget.WantButton android:id="@id/favorite" android:padding="0.0dip" android:text="想看" style="@style/want_button_style_small" />
+                </LinearLayout>
+                <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="54.0dip" android:textColor="@color/color_tpp_primary_gray_c8" android:id="@id/tv_has_watched" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:text="@string/icon_font_has_saw_film" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </FrameLayout>
+        </RelativeLayout>
+        <com.taobao.movie.android.app.oscar.ui.film.widget.DerivationContainer android:id="@id/derivation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_below="@id/movie_container" />
+        <LinearLayout android:orientation="vertical" android:id="@id/nowplaying_btn_zone" android:layout_width="100.0dip" android:layout_height="110.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <Button android:ellipsize="end" android:layout_gravity="center|right" android:id="@id/btn_buy" android:layout_marginRight="15.0dip" android:text="购票" android:singleLine="true" style="@style/buy_button_style_small_7_3" />
+                <TextView android:textSize="9.0dip" android:textColor="@color/color_tpp_primary_assist" android:ellipsize="end" android:id="@id/promotion_activity" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:maxLines="1" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

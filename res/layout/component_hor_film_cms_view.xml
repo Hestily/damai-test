@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/list_selector" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.taobao.movie.android.commonui.widget.FilmImagePlayNew android:id="@id/id_film_poster" android:layout_width="76.0dip" android:layout_height="101.0dip" android:layout_marginEnd="9.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.taobao.movie.android.commonui.widget.TitleMarkView android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/id_film_title_tm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:id="@id/id_film_score_want_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip">
+            <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="15.0dip" android:textColor="@color/color_181818" android:id="@id/id_film_score_want_count_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/bricks_5f6672" android:id="@id/id_film_score_want_count_post_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="想看" android:layout_marginStart="3.0dip" />
+            <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="15.0dip" android:textColor="@color/color_181818" android:id="@id/id_film_score_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/bricks_5f6672" android:id="@id/id_film_score_post_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="分" android:layout_marginStart="3.0dip" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/bricks_5f6672" android:id="@id/id_film_score_count_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="19.8万人评" android:layout_marginStart="3.0dip" />
+            <View android:id="@id/id_film_divider_line" android:background="#ffe9ebef" android:layout_width="0.5dip" android:layout_height="9.0dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/bricks_5f6672" android:id="@id/id_film_time_to_show" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2025年上映" android:layout_marginStart="3.0dip" />
+        </LinearLayout>
+        <TextView android:id="@id/id_film_director_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:maxLines="1" android:includeFontPadding="false" style="@style/Item_SubTitle2" />
+        <TextView android:id="@id/id_film_actor_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:maxLines="1" android:includeFontPadding="false" style="@style/Item_SubTitle2" />
+    </LinearLayout>
+    <Button android:id="@id/btn_buy" android:padding="0.0dip" android:text="购票" style="@style/buy_button_style_small_7_3" />
+    <FrameLayout android:id="@id/search_result_favorite_fl" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip">
+        <TextView android:textSize="10.0dip" android:textColor="#ffff3d5c" android:layout_gravity="end" android:id="@id/favorite_with_gift" android:background="@drawable/want_see_with_gift_pop" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="17.0dip" android:text="想看有礼" />
+        <com.taobao.movie.android.app.oscar.ui.film.widget.WantButton android:layout_gravity="end|bottom|center" android:id="@id/search_result_favorite" android:padding="0.0dip" android:visibility="gone" android:text="想看" style="@style/want_button_style_small" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/search_result_favorite_fl_pioneer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="40.5dip" android:layout_marginTop="7.0dip">
+        <TextView android:textSize="9.0dip" android:textColor="#ffff7600" android:ellipsize="none" android:gravity="bottom|center" android:id="@id/favorite_with_gift_pioneer" android:background="@drawable/nowshowing_dicount_button_bg_pioneer" android:paddingTop="13.5dip" android:paddingBottom="1.0dip" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="27.0dip" android:layout_marginTop="13.5dip" android:text="想看有礼" android:singleLine="true" />
+        <com.taobao.movie.android.app.oscar.ui.film.widget.WantButton android:layout_gravity="end|center|top" android:id="@id/search_result_favorite_pioneer" android:padding="0.0dip" android:text="想看" android:elevation="0.0dip" style="@style/want_button_style_small" />
+    </FrameLayout>
+</LinearLayout>

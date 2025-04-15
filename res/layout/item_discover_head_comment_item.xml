@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/margin_12dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="10.0dip" android:textColor="@color/color_9c9ca5" android:ellipsize="end" android:id="@id/tv_comment_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_20dp" android:maxLines="1" app:layout_constraintStart_toStartOf="@id/iv_comment_top" app:layout_constraintTop_toBottomOf="@id/iv_comment_top" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/iv_comment_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/iv_comment_icon" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="6.0dip" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/color_333333" android:id="@id/tv_comment_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+        <ImageView android:id="@id/iv_comment_action" android:visibility="gone" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginLeft="4.0dip" android:layout_marginTop="@dimen/margin_2dp" android:src="@drawable/item_reward_icon" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

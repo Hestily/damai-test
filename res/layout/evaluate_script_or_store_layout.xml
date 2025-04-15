@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/id_store_or_script_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/shape_rect_solid_w_stroke_26000000" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="66.0dip">
+        <cn.damai.uikit.view.RoundImageView android:id="@id/id_store_or_script_img" android:layout_width="41.0dip" android:layout_height="55.0dip" app:borderRadius="6.0dip" app:type="round" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="14.0dip" android:textColor="@color/color_111111" android:ellipsize="end" android:id="@id/id_store_or_script_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+            <TextView android:textSize="12.0dip" android:textColor="#ff9c9ca5" android:ellipsize="end" android:id="@id/id_store_or_script_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_5dp" android:maxLines="1" />
+        </LinearLayout>
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_9dp" android:textColor="#ff3c3f44" android:id="@id/evaluate_icon_arrow" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/iconfont_youjiantou24" />
+    </LinearLayout>
+</FrameLayout>

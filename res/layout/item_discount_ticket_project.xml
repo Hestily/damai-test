@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="15.0dip" android:paddingBottom="15.0sp" android:layout_width="fill_parent" android:layout_height="161.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="98.0dip" android:layout_height="131.0dip">
+        <ImageView android:id="@id/item_pic" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip">
+        <TextView android:textSize="@dimen/margin_16dp" android:textColor="@color/color_000000" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/item_project_title_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:lineSpacingExtra="@dimen/margin_3dp" />
+        <TextView android:textSize="12.0dip" android:textColor="#ff8890a0" android:ellipsize="end" android:id="@id/item_project_time_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:lines="1" android:layout_below="@id/item_project_title_tv" />
+        <TextView android:textSize="12.0dip" android:textColor="#ff8890a0" android:ellipsize="end" android:id="@id/item_project_location_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:layout_below="@id/item_project_time_tv" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_alignParentBottom="true">
+            <TextView android:textSize="10.0dip" android:textColor="@color/color_ff2869" android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="¥" />
+            <TextView android:textSize="16.0dip" android:textColor="@color/color_ff2869" android:layout_gravity="bottom" android:id="@id/item_price_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" />
+            <TextView android:textSize="10.0dip" android:textColor="@color/color_9c9ca5" android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="起" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

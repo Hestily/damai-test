@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.pictures.bricks.view.CornerFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_9dp" android:layout_marginRight="@dimen/margin_9dp" android:layout_marginHorizontal="@dimen/margin_9dp" app:clip_corner_radius="@dimen/resource_size_9"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/faqs_container" android:background="@drawable/bg_border_corner_white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/id_bricks_tour_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_12dp" />
+        <include layout="@layout/new_project_venue_item_layout" />
+        <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/id_bricks_service_layout" android:paddingLeft="12.0dip" android:paddingTop="@dimen/margin_5dp" android:paddingRight="@dimen/margin_12dp" android:paddingBottom="@dimen/margin_5dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_6dp" android:layout_marginBottom="@dimen/margin_9dp" android:paddingVertical="@dimen/margin_5dp">
+            <cn.damai.trade.newtradeorder.ui.projectdetail.ui.view.ProductServiceView android:orientation="horizontal" android:id="@id/id_bricks_service_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_24dp" />
+            <com.alibaba.pictures.bricks.view.DMUpMarqueeView android:id="@id/id_bricks_service_notification_ui" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginRight="@dimen/margin_24dp" android:layout_below="@id/id_bricks_service_container" />
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="10.0dip" android:textColor="@color/bricks_959AA5" android:id="@id/show_count_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.5dip" android:layout_marginRight="12.0dip" android:text="@string/iconfont_youjiantou12" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</com.alibaba.pictures.bricks.view.CornerFrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/coupon_title_bar_space_view" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="44.0dip">
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_20dp" android:textColor="@color/color_000000" android:gravity="center" android:id="@id/coupon_iv_left_icon" android:paddingLeft="@dimen/margin_15dp" android:paddingRight="@dimen/margin_15dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/iconfont_fanhui24" />
+            <TextView android:textSize="@dimen/margin_20dp" android:textColor="@color/black" android:layout_gravity="center" android:id="@id/coupon_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="确认订单" android:layout_centerInParent="true" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/coupon_confirm_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

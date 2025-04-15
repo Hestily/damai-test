@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/title_bar_space" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <TextView android:textSize="@dimen/margin_20dp" android:textColor="@color/color_000000" android:gravity="center" android:id="@id/tv_pay_result" android:background="@color/white" android:paddingTop="@dimen/margin_12dp" android:paddingBottom="@dimen/margin_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="支付结果" />
+    <cn.damai.uikit.irecycler.IRecyclerView android:layout_gravity="center_vertical" android:id="@id/rc" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

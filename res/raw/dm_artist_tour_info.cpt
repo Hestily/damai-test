@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.star.FillperInfoModel",
+    "vClass": "cn.damai.tetris.component.star.FillperInfoView",
+    "pClass": "cn.damai.tetris.component.star.FillperInfoPresenter",
+    "layoutXml": "mine_starindex_xunyan_layout"
+  }
+}

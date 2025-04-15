@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/ticklet_detail_item_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/ticklet_detail_item_title" android:paddingRight="@dimen/margin_6dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ticklet_000000_16dp" />
+        <ImageView android:id="@id/ticklet_item_title_icon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/uikit_default_image_bg_grey" android:scaleType="fitCenter" />
+        <View android:layout_width="0.0dip" android:layout_height="@dimen/margin_1dp" android:layout_weight="1.0" />
+        <TextView android:id="@id/ticklet_detail_second_title" android:paddingLeft="@dimen/margin_5dp" android:paddingRight="@dimen/margin_2dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ticklet_0091ff_12dp" />
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_999999" android:id="@id/tiklet_detail_item_icon_arrow" android:paddingTop="@dimen/margin_1dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_youjiantou24" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_999999" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/ticklet_detail_item_tip" android:paddingTop="@dimen/margin_9dp" android:paddingRight="@dimen/margin_5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_below="@id/ticklet_detail_item_layout" android:lineSpacingExtra="@dimen/margin_3dp" />
+    <ImageView android:id="@id/ticklet_item_image" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="68.0dip" android:layout_marginTop="@dimen/margin_8dp" android:src="@drawable/uikit_default_image_bg_grey" android:scaleType="fitXY" android:layout_below="@id/ticklet_detail_item_tip" android:layout_centerHorizontal="true" />
+</merge>

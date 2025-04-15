@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/list_search_item_corner_selector" android:layout_width="fill_parent" android:layout_height="90.0dip" android:paddingStart="@dimen/resource_size_12" android:paddingEnd="@dimen/resource_size_12"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/artist_avatar_lay" android:background="@drawable/bricks_bg_artist_avatar" android:layout_width="63.0dip" android:layout_height="63.0dip" android:layout_centerVertical="true">
+        <RelativeLayout android:layout_gravity="center" android:background="@drawable/bricks_bg_circle_white" android:layout_width="57.0dip" android:layout_height="57.0dip">
+            <com.alibaba.pictures.moimage.MoImageView android:id="@id/artist_avatar" android:layout_width="53.0dip" android:layout_height="53.0dip" android:scaleType="centerCrop" android:layout_centerInParent="true" app:actualImageScaleType="centerCrop" app:failureImage="@drawable/oscar_default_image" app:placeholderImage="@drawable/oscar_default_image" app:roundAsCircle="true" />
+        </RelativeLayout>
+    </FrameLayout>
+    <TextView android:textSize="@dimen/secondry_auxiliary_text" android:textColor="@color/cb_red_app" android:gravity="center" android:id="@id/goto_home" android:background="@drawable/bricks_btn_artist_goto_home" android:layout_width="54.0dip" android:layout_height="27.0dip" android:text="去主页" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="6.0dip" android:layout_toStartOf="@id/goto_home" android:layout_toEndOf="@id/artist_avatar_lay">
+        <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="@dimen/project_headline1" android:textColor="@color/bricks_2e333e" android:ellipsize="end" android:id="@id/artist_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:maxWidth="240.0dip" android:lines="1" />
+        <TextView android:textSize="@dimen/text_size_12_dp" android:textColor="@color/tpp_gray_2" android:ellipsize="end" android:id="@id/artist_profession" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:maxLines="1" />
+        <TextView android:textSize="@dimen/text_size_12_dp" android:textColor="@color/tpp_gray_2" android:ellipsize="end" android:id="@id/artist_masterpiece" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:maxLines="1" />
+    </LinearLayout>
+    <include android:id="@id/divider_line" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="@dimen/resource_size_2" android:layout_marginRight="@dimen/resource_size_2" android:layout_alignParentBottom="true" layout="@layout/item_search_grey_line" />
+</RelativeLayout>

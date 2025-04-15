@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/color_ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:iv="http://schemas.android.com/apk/res-auto" xmlns:ratingbar="http://schemas.android.com/apk/res-auto">
+    <androidx.compose.ui.platform.ComposeView android:id="@id/composeView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/issue_first_entry_guide_anim" android:background="#99000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/issue_first_entry_guide_lottie" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginLeft="90.0dip" android:layout_marginTop="134.0dip" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="滑动打分，比点击更带感哦~" />
+    </LinearLayout>
+</RelativeLayout>

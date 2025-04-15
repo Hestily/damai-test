@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/common_navbar_infoll" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="20.0dip" android:layout_toLeftOf="@id/title_navbar_share" android:layout_toRightOf="@id/common_navbar_back"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="12.0dip" android:textColor="@color/white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/common_navbar_info_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="140.0dip" android:lines="1" android:layout_alignParentLeft="true" />
+    <TextView android:textSize="11.0dip" android:textColor="@color/white40unalpha" android:gravity="center_vertical" android:id="@id/common_navbar_info_desc" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:lines="1" android:layout_weight="1.0" android:layout_alignParentRight="true" />
+</LinearLayout>

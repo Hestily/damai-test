@@ -1,0 +1,36 @@
+{
+  "id": "tpp_film_detail_big_v_comment",
+  "type": "gaia-template",
+  "package": {
+    "id": "tpp_film_detail_big_v_comment",
+    "version": "0.0.1",
+    "constraint-size": { "width": 375, "height": 78, "zoom": 1 },
+    "modify-timestamp": "Mon Dec 26 2022 09:14:43 GMT+0800 (中国标准时间)",
+    "dependencies": {}
+  },
+  "layers": [
+    {
+      "id": "content_view",
+      "type": "view",
+      "layers": [
+        { "id": "item_poster", "type": "image" },
+        {
+          "id": "item_info_holder",
+          "type": "view",
+          "layers": [
+            { "id": "item_main_title", "type": "text" },
+            { "id": "item_content", "type": "text" }
+          ]
+        },
+        {
+          "id": "item_btn_holder",
+          "type": "view",
+          "layers": [
+            { "id": "item_right_btn", "type": "text" },
+            { "id": "right_arrow", "type": "iconfont" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/oscar_base_share_bg" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="163.0dip" android:layout_marginEnd="163.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/button_container" android:paddingBottom="34.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:behavior_peekHeight="500.0dip" app:layout_behavior="@string/bottom_sheet_behavior">
+            <View android:layout_gravity="center_horizontal" android:background="@drawable/share_menu_guide_strip" android:layout_width="30.0dip" android:layout_height="4.0dip" android:layout_marginTop="10.0dip" />
+            <com.alibaba.pictures.share.common.ui.widget.HorizontalShareMenu android:id="@id/h5_share_menu" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" app:share_channel="1234567" />
+            <TextView android:textSize="15.0dip" android:textStyle="bold" android:textColor="@color/color_2e333e" android:gravity="center" android:id="@id/cancel_btn" android:background="@drawable/share_menu_cancel_bg" android:layout_width="fill_parent" android:layout_height="55.0dip" android:text="取消" android:includeFontPadding="false" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
+        </LinearLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

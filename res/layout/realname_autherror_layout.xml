@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/title_bar_space" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <include android:id="@id/realname_title" layout="@layout/realname_auth_base_title" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/realname_title">
+        <include android:id="@id/realname_autherror_layout" layout="@layout/realname_autherror_view" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/popup_layer_container_flv" android:background="#99000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

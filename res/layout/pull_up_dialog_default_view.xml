@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/common_text_color9" android:gravity="center" android:id="@id/message" android:paddingTop="@dimen/margin_20" android:paddingBottom="@dimen/margin_20" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:gravity="center" android:id="@id/confirm" android:paddingTop="@dimen/margin_20" android:paddingBottom="@dimen/margin_20" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/tpp_confirm" />
+    <View android:background="@color/common_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/space_line_height" />
+    <TextView android:gravity="center" android:id="@id/cancel" android:paddingTop="@dimen/margin_20" android:paddingBottom="@dimen/margin_20" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/tpp_cancel" />
+</LinearLayout>

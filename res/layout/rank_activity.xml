@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/header" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/header_image" android:layout_width="fill_parent" android:layout_height="215.0dip" android:src="@drawable/bricks_ranklist_header_bg_top" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/title_bar_space" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+        <include android:id="@id/discount_ticket_title_layout" layout="@layout/rank_activity_title" />
+        <FrameLayout android:id="@id/main_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <in.srain.cube.views.ptr.PtrFrameLayout android:id="@id/discount_ticket_ptr" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/rank_recycle_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar" android:background="#00000000" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="140.0dip" app:elevation="0.0dip">
+                        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_scrollFlags="scroll">
+                            <ImageView android:layout_width="120.0dip" android:layout_height="17.0dip" android:layout_marginLeft="21.0dip" android:layout_marginBottom="77.0dip" android:src="@drawable/rank_list_header" android:scaleType="centerCrop" android:layout_alignParentBottom="true" />
+                            <TextView android:textSize="12.0dip" android:textColor="@color/white" android:id="@id/tv_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:layout_marginBottom="14.0dip" android:layout_alignParentBottom="true" />
+                            <TextView android:textSize="30.0dip" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:layout_marginBottom="35.0dip" android:maxLines="1" android:layout_alignParentBottom="true" />
+                        </RelativeLayout>
+                    </com.google.android.material.appbar.AppBarLayout>
+                    <cn.damai.uikit.irecycler.DamaiRootRecyclerView android:id="@id/discount_ticket_recycler" android:background="@drawable/discount_lv_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/margin_12dp" android:paddingEnd="@dimen/margin_12dp" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+                </androidx.coordinatorlayout.widget.CoordinatorLayout>
+            </in.srain.cube.views.ptr.PtrFrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="right" android:id="@id/tv_collect_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65.0dip" android:layout_marginRight="50.0dip" android:src="@drawable/bg_collect_tip" />
+    <cn.damai.rank.view.WantSeeTips android:layout_gravity="bottom" android:id="@id/want_see_tips_rank_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

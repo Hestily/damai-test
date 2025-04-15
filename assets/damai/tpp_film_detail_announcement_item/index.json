@@ -1,0 +1,33 @@
+{
+  "id": "tpp_film_detail_announcement_item",
+  "type": "gaia-template",
+  "package": {
+    "id": "tpp_film_detail_announcement_item",
+    "version": "0.0.1",
+    "modify-timestamp": "Thu Dec 08 2022 16:35:30 GMT+0800 (中国标准时间)",
+    "constraint-size": { "width": 180, "height": 60, "zoom": 1 },
+    "dependencies": {}
+  },
+  "layers": [
+    {
+      "id": "background_view",
+      "type": "view",
+      "layers": [
+        {
+          "id": "arrow_view",
+          "type": "view",
+          "layers": [{ "id": "right_arrow", "type": "iconfont" }]
+        },
+        {
+          "id": "label_view",
+          "type": "view",
+          "layers": [
+            { "id": "title", "type": "text" },
+            { "id": "sub_title", "type": "text" }
+          ]
+        },
+        { "id": "icon", "type": "image" }
+      ]
+    }
+  ]
+}

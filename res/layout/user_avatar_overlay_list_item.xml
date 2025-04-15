@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:id="@id/circle_user_head_layout" android:background="@drawable/bg_corner_8_solid_white" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/circle_user_head_icon" android:layout_width="21.0dip" android:layout_height="21.0dip" />
+</FrameLayout>

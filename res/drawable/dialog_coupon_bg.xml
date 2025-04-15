@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="45.0dip">
+        <shape>
+            <gradient android:startColor="#ffff6857" android:endColor="#ffff2d2d" android:angle="270.0" />
+            <corners android:radius="13.0dip" />
+        </shape>
+    </item>
+    <item>
+        <bitmap android:gravity="top" android:src="@drawable/dialog_coupon_header_img" />
+    </item>
+</layer-list>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="92.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_9dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/dynamic_service_item_icon_layout" android:layout_width="fill_parent" android:layout_height="36.0dip">
+        <com.alibaba.pictures.moimage.MoImageView android:layout_gravity="center_horizontal" android:id="@id/iv_mine_dynamic_icon" android:layout_width="36.0dip" android:layout_height="36.0dip" android:scaleType="fitXY" app:failureImage="@drawable/bg_mine_dynmaic_service_default" app:placeholderImage="@drawable/bg_mine_dynmaic_service_default" />
+        <com.alibaba.pictures.moimage.MoImageView android:layout_gravity="center" android:id="@id/iv_mine_dynamic_icon_pioneer" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="3.0dip" android:scaleType="fitXY" />
+        <ImageView android:layout_gravity="center|right|top" android:id="@id/iv_mine_dynamic_red_dot" android:background="@drawable/icon_badge" android:visibility="gone" android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_marginTop="2.0dip" android:layout_marginEnd="30.0dip" />
+        <FrameLayout android:layout_gravity="end" android:id="@id/tv_mine_dynamic_bubble_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="35.0dip">
+            <TextView android:textSize="@dimen/resource_size_9" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/tv_mine_dynamic_bubble" android:background="@drawable/mine_service_bubble" android:layout_width="wrap_content" android:layout_height="14.0dip" android:maxLines="1" android:paddingStart="@dimen/margin_4dp" android:paddingEnd="@dimen/margin_4dp" android:layout_marginEnd="4.0dip" />
+        </FrameLayout>
+    </FrameLayout>
+    <TextView android:textSize="@dimen/resource_size_12" android:textColor="@color/bricks_2e333e" android:ellipsize="end" android:id="@id/tv_mine_dynamic_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_9dp" android:maxLines="1" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/color_bricks_primary_70_black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/schedule_card_bg" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RelativeLayout android:id="@id/schedule_upper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="18.0dip">
+            <ImageView android:id="@id/schedule_card_img" android:layout_width="fill_parent" android:layout_height="156.0dip" />
+            <TextView android:textSize="19.0dip" android:textColor="@color/common_text_color46" android:ellipsize="end" android:id="@id/schedule_card_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="41.0dip" android:layout_marginRight="20.0dip" android:maxLines="1" android:singleLine="true" android:includeFontPadding="false" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/schedule_upper">
+            <TextView android:textSize="15.0dip" android:textColor="@color/common_color_1008" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/schedule_card_profit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="20.0dip" android:maxLines="1" android:singleLine="true" android:includeFontPadding="false" />
+            <TextView android:textSize="15.0dip" android:textColor="@color/common_color_1008" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/schedule_card_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="25.0dip" android:maxLines="2" android:includeFontPadding="false" />
+            <TextView android:textSize="15.0dip" android:textColor="@color/common_text_color46" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/schedule_coupon_click" android:background="@drawable/schedule_card_btn_bg" android:layout_width="180.0dip" android:layout_height="38.0dip" android:layout_marginTop="22.0dip" android:layout_marginBottom="28.0dip" android:text="立即续卡" android:includeFontPadding="false" />
+        </LinearLayout>
+        <RelativeLayout android:gravity="center" android:id="@id/dialog_close" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+            <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/common_text_color46" android:id="@id/profile_item_right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconf_off_single_close" android:includeFontPadding="false" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

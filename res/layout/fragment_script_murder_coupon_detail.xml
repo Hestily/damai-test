@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_purchase">
+        <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@id/one_arch_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srlEnableLoadMore="false">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/one_arch_recyclerView" android:background="@color/white" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+        </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+        <com.alient.onearch.adapter.widget.OneTabLayout android:id="@id/sticky_header" android:background="@color/white" android:paddingBottom="2.0dip" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="@dimen/resource_size_53" app:tabMinWidth="@dimen/resource_size_25" app:tabPaddingEnd="0.0dip" app:tabPaddingStart="0.0dip" style="@style/ScriptTabStyle" />
+    </FrameLayout>
+    <RelativeLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:id="@id/bottom_purchase" android:background="@color/white" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentBottom="true">
+        <View android:id="@id/line" android:background="@color/color_EEEEEE" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentTop="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/project_bottom_customer_follow_container_lv" android:visibility="gone" android:layout_width="65.0dip" android:layout_height="fill_parent">
+            <FrameLayout android:orientation="vertical" android:id="@id/coupon_bottom_service_btn_fl" android:paddingLeft="@dimen/margin_21dp" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_alignParentLeft="true">
+                <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_24dp" android:textColor="#ff3c3f44" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/iconfont_kefu_" />
+                <TextView android:textSize="10.0dip" android:textColor="#ff69717c" android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_2dp" android:layout_marginTop="@dimen/margin_1dp" android:layout_marginBottom="10.0dip" android:text="帮助" />
+            </FrameLayout>
+        </LinearLayout>
+        <TextView android:textSize="16.0dip" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/coupon_bottom_buy_btn_tv" android:background="@drawable/coupon_bottom_buy_btn_bg_selector" android:visibility="visible" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginTop="@dimen/margin_8dp" android:layout_marginRight="@dimen/margin_15dp" android:layout_marginBottom="@dimen/margin_8dp" android:text="立即购买" android:layout_toRightOf="@id/project_bottom_customer_follow_container_lv" />
+    </RelativeLayout>
+</RelativeLayout>

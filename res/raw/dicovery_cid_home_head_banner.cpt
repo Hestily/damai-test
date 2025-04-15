@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.live.mvp.BannerModel",
+    "vClass": "cn.damai.tetris.component.live.mvp.BannerView",
+    "pClass": "cn.damai.tetris.component.live.mvp.BannerPresenter",
+    "layoutXml": "live_banner_layout"
+  }
+}

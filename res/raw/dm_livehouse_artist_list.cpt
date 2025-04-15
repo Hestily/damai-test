@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.livehouse.mvp.ArtistListModel",
+    "vClass": "cn.damai.tetris.component.livehouse.mvp.ArtistListView",
+    "pClass": "cn.damai.tetris.component.livehouse.mvp.ArtistListPresenter",
+    "layoutXml": "livehous_atist_layout"
+  }
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:paddingLeft="21.0dip" android:paddingRight="21.0dip" android:paddingBottom="@dimen/default_component_content_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/item_card_title_layout" />
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/ip_future_city_rl" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_12dp" android:layout_marginBottom="@dimen/margin_12dp" android:layout_marginStart="@dimen/margin_21dp" android:layout_marginEnd="15.0dip" android:layout_marginVertical="@dimen/margin_12dp" app:layoutManager="GridLayoutManager" app:spanCount="4" />
+</LinearLayout>

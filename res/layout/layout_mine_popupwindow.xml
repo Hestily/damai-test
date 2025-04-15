@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:paddingRight="@dimen/margin_20dp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="16.0dip" android:textColor="@color/color_ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="48.0dip" android:text="@string/iconfont_shangjiantou" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_user_center_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dis_13dp">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_kefu" android:layout_width="88.0dip" android:layout_height="43.0dip">
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="18.0dip" android:textColor="@color/color_000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_kefu_" />
+            <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_6dp" android:text="客服" />
+        </LinearLayout>
+        <View android:layout_gravity="center_horizontal" android:background="#ffe8e8e8" android:layout_width="69.0dip" android:layout_height="1.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_edit" android:layout_width="88.0dip" android:layout_height="43.0dip">
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="18.0dip" android:textColor="@color/color_000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_bianji18" />
+            <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_6dp" android:text="编辑" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

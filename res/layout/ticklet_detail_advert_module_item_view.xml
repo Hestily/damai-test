@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip">
+        <RelativeLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="70.0dip">
+            <com.alient.onearch.adapter.widget.banner.Banner android:id="@id/ticket_banner" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <FrameLayout android:paddingBottom="@dimen/resource_size_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                <com.alient.onearch.adapter.widget.banner.IndicatorView android:layout_gravity="center_horizontal" android:id="@id/ticket_ext_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </FrameLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

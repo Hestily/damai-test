@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@id/listview_refresh" android:background="@color/color_F4F5F6" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/id_list_title_layout">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/id_list_recycler" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="18.0dip" />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/id_list_title_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <View android:id="@id/top_status_bar_space" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="44.0dip"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <RelativeLayout android:id="@id/title_bg_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <View android:background="@color/color_eeeeee" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="21.0dip" android:paddingRight="21.0dip" android:layout_width="fill_parent" android:layout_height="44.0dip">
+                <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="24.0dip" android:textColor="@color/color_3c3f44" android:gravity="center_vertical" android:id="@id/title_back_btn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/iconfont_zuojiantou_" android:layout_alignParentLeft="true" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/item_title_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="18.0dip" android:textColor="@color/color_3c3f44" android:ellipsize="end" android:id="@id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="我的抢票预约" android:singleLine="true" android:layout_centerInParent="true" />
+                    <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="18.0dip" android:textColor="#ff959aa5" android:padding="4.0dip" android:paddingTop="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_tixingxian_" android:layout_toRightOf="@id/title_tv" android:layout_centerVertical="true" />
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+        <View android:id="@id/project_detail_title_bar_divider" android:background="#19000000" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/id_list_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/id_list_title_layout">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bricks_common_error_empty" />
+        <TextView android:textSize="14.0dip" android:textColor="#ff959aa5" android:ellipsize="end" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="暂无抢票预约" android:maxLines="1" />
+        <TextView android:textSize="14.0dip" android:textColor="#ff959aa5" android:ellipsize="end" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="提前预约想看的演出，让抢票更丝滑～" android:maxLines="1" />
+        <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="13.0dip" android:textColor="#ff5f6672" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/item_grab_empty_click" android:background="@drawable/bg_grablist_morebtn_gray" android:layout_width="120.0dip" android:layout_height="33.0dip" android:layout_marginTop="12.0dip" android:text="发现更多热抢" android:maxLines="1" android:includeFontPadding="false" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="115.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.damai.tetris.component.home.widget.banner.sub.RoundRadiusImageView android:id="@id/artificial_img_1" android:layout_width="fill_parent" android:layout_height="115.0dip" android:scaleType="centerCrop" app:r_round_radius="6.0dip" app:r_stroke_color="#1a000000" app:r_stroke_width="2.0px" />
+        <ImageView android:id="@id/artificial_video_tag" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/feed_video_icon" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView android:textSize="12.0dip" android:textColor="@color/black" android:ellipsize="end" android:id="@id/artificial_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:lines="2" android:lineSpacingExtra="5.0dip" />
+</LinearLayout>

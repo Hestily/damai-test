@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.damai.player.DMVideoPlayer android:id="@id/player" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <TextView android:textSize="12.0dip" android:textColor="#ff666666" android:id="@id/sourcelabel_txt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginBottom="18.0dip" android:text="来自淘宝" android:layout_alignParentBottom="true" />
+    <FrameLayout android:id="@id/video_project" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_21dp" android:layout_marginTop="50.0dip" android:layout_marginRight="@dimen/margin_21dp" android:layout_marginBottom="4.0dip" android:layout_above="@id/sourcelabel_txt" android:layout_alignParentBottom="true" />
+</RelativeLayout>

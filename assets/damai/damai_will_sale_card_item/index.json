@@ -1,0 +1,30 @@
+{
+  "id": "damai_will_sale_card_item",
+  "type": "gaia-template",
+  "package": {
+    "id": "damai_will_sale_card_item",
+    "version": "0.0.1",
+    "modify-timestamp": "Thu Apr 20 2023 17:39:22 GMT+0800 (中国标准时间)",
+    "constraint-size": { "width": 55, "height": 66, "zoom": 1 },
+    "dependencies": {}
+  },
+  "layers": [
+    { "id": "project_poster", "type": "image" },
+    {
+      "id": "category_view",
+      "type": "view",
+      "layers": [{ "id": "category_tag", "type": "text" }]
+    },
+    {
+      "id": "bottom_view",
+      "type": "view",
+      "layers": [
+        {
+          "id": "midView",
+          "type": "view",
+          "layers": [{ "id": "bottom_text", "type": "richtext" }]
+        }
+      ]
+    }
+  ]
+}

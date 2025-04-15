@@ -1,0 +1,146 @@
+{
+  "components": [
+    {
+      "type": 9999,
+      "tag": "common_header",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+          "marginLeft": "resource_size_12",
+          "marginRight": "resource_size_12"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 9999,
+          "layoutID": "bricks_component_common_header_pioneer",
+          "model": "com.alient.onearch.adapter.component.header.GenericHeaderModel",
+          "present": "com.alient.onearch.adapter.component.header.GenericHeaderPresent",
+          "view": "cn.damai.pioneer.component.header.PioneerGenericHeaderView"
+        }
+      ]
+    },
+    {
+      "type": 9998,
+      "tag": "common_tab",
+      "layout": {
+        "layoutType": "raw_list",
+        "params": {
+          "marginLeft": "resource_size_9",
+          "marginRight": "resource_size_9",
+          "marginBottom": "resource_size_9"
+        }
+      },
+      "container": {
+        "type": 9998,
+        "layoutID": "bricks_component_common_tab_home_dm",
+        "model": "com.alient.onearch.adapter.component.tab.generic.GenericTabModel",
+        "present": "com.alient.onearch.adapter.component.tab.generic.GenericTabPresenter",
+        "view": "com.alient.onearch.adapter.component.tab.generic.GenericTabView"
+      }
+    },
+    {
+      "type": 7917,
+      "tag": "top_dispatch_card",
+      "desc": "影院场馆页-顶部卡片",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "marginLeft": "resource_size_12",
+          "marginRight": "resource_size_12",
+          "marginTop": "resource_size_5",
+          "marginBottom": "resource_size_9"
+        }
+      },
+      "container": {
+        "type": 7917,
+        "layoutID": "component_common_horizontal",
+        "viewHolder": "com.alient.onearch.adapter.component.horizontal.GenericHorizontalViewHolder"
+      },
+      "viewTypes": [
+        {
+          "type": 7931,
+          "layoutID": "component_pioneer_cinema_venue_page_top_banner_card",
+          "model": "cn.damai.pioneer.component.banner.CinemaVenuePageTopBannerCardModel",
+          "present": "cn.damai.pioneer.component.banner.CinemaVenuePageTopBannerCardPresenter",
+          "view": "cn.damai.pioneer.component.banner.CinemaVenuePageTopBannerCardView",
+          "params": {
+            "bean": "cn.damai.pioneer.component.banner.CinemaVenuePageTopBannerBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7923,
+      "tag": "feed_tab",
+      "desc": "底部子tab页面",
+      "layout": {
+        "layoutType": "raw_list"
+      },
+      "container": {
+        "type": 7923,
+        "layoutID": "component_pioneer_cinema_venue_feed_tab",
+        "viewHolder": "cn.damai.pioneer.component.tab.category.viewholder.CinemaVenueFeedCategoryViewHolder"
+      }
+    },
+    {
+      "type": 7924,
+      "tag": "feed",
+      "desc": "2套2配置，不可删除，否则解析有问题，子页面里也需要配置",
+      "layout": {
+        "layoutType": "linear",
+        "params": {
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7930,
+          "model": "com.alibaba.pictures.bricks.component.venue.card.VenueCardModel",
+          "present": "com.alibaba.pictures.bricks.component.venue.card.VenueCardPresent",
+          "view": "com.alibaba.pictures.bricks.component.venue.card.VenueCardView",
+          "layoutID": "bricks_component_venue_cell_layout",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.component.project.bean.DMProjectItemBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7869,
+      "tag": "page_top",
+      "desc": "页面顶部占位",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7695,
+          "layoutID": "component_pioneer_cinema_venue_top",
+          "viewHolder": "cn.damai.pioneer.component.tab.category.viewholder.CinemaVenuePageTopViewHolder",
+          "params": {
+          }
+        }
+      ]
+    },
+    {
+      "type": 7871,
+      "tag": "feed_load_more",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7699,
+          "layoutID": "component_pioneer_home_feed_load_more",
+          "viewHolder": "cn.damai.pioneer.component.tab.category.viewholder.CinemaVenueCustomLoadMoreViewHolder",
+          "params": {
+          }
+        }
+      ]
+    }
+  ]
+}

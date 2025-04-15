@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/top_line" android:layout_width="fill_parent" android:layout_height="@dimen/margin_9dp" />
+    <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_000000" android:id="@id/tv_notice_title" android:paddingLeft="@dimen/margin_21dp" android:paddingRight="@dimen/margin_21dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawablePadding="@dimen/margin_3dp" />
+    <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_9C9CA5" android:id="@id/tv_notice_desc" android:paddingLeft="@dimen/margin_21dp" android:paddingTop="@dimen/margin_6dp" android:paddingRight="@dimen/margin_21dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawablePadding="@dimen/margin_3dp" android:lineSpacingExtra="3.0dip" />
+    <ImageView android:id="@id/iv_notice_image" android:paddingTop="@dimen/margin_9dp" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <cn.damai.uikit.view.DashedLine android:id="@id/bottom_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/margin_21dp" android:layout_marginTop="@dimen/margin_9dp" android:layout_marginRight="@dimen/margin_21dp" android:layout_marginBottom="@dimen/margin_9dp" app:dashColor="#ffdbdbdb" app:dashGap="2.0dip" app:dashOrientation="horizontal" app:dashWidth="2.0dip" app:strokeW="1.0dip" />
+</LinearLayout>

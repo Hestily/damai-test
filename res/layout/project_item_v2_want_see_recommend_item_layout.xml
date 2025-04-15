@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.bricks.view.BricksHWRatioLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:bricks_h_w_layout_ratio="1.3421053">
+        <cn.damai.uikit.view.DMPosterView android:id="@id/want_see_poster" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.alibaba.pictures.bricks.view.BricksHWRatioLayout>
+    <TextView android:textSize="14.0dip" android:textColor="@color/color_2E333E" android:ellipsize="end" android:id="@id/want_see_recommend_title" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="6.0dip" android:minHeight="38.0dip" android:lines="2" android:layout_weight="1.0" />
+    <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="12.0dip" android:textColor="@color/white" android:gravity="center" android:layout_gravity="bottom|center|left" android:id="@id/want_see_btn" android:background="@drawable/want_see_background_already" android:layout_width="51.0dip" android:layout_height="24.0dip" android:layout_marginTop="9.0dip" android:includeFontPadding="false" />
+</merge>

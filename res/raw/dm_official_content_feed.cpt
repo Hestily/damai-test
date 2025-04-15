@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.star.content.base.ContentBaseModel",
+    "vClass": "cn.damai.tetris.component.star.content.base.ContentBaseView",
+    "pClass": "cn.damai.tetris.component.star.content.base.ContentBasePresenter",
+    "layoutXml": "tetris_dm_base_content_main"
+  }
+}

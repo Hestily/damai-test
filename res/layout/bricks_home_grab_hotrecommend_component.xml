@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:round_corner="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/bricks_hotrecommend_layout" android:background="@drawable/bricks_hotrecommend_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/bricks_hotrecommend_lottie_layout" android:visibility="visible" android:layout_width="142.0dip" android:layout_height="142.0dip" android:layout_marginLeft="-39.0dip" android:layout_marginTop="14.0dip" android:scaleType="centerCrop" android:layout_alignParentTop="true" app:lottie_autoPlay="false" app:lottie_loop="true" />
+    <ImageView android:id="@id/bricks_hotrecommend_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/resource_size_9" android:layout_marginTop="@dimen/dim_7" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/hotrecommend_subtitle" android:background="@drawable/bricks_shape_white_radius8" android:paddingLeft="@dimen/dim_5" android:paddingRight="@dimen/dim_5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="16.0dip" android:layout_marginTop="@dimen/resource_size_11" android:layout_marginRight="@dimen/dim_6" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <com.alibaba.pictures.bricks.view.DMUpMarqueeView android:layout_gravity="center_vertical" android:id="@id/hotrecommend_subtitle_content" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="6.0dip" android:textColor="#ffff5991" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_youjiantou24" />
+    </LinearLayout>
+    <com.alient.onearch.adapter.widget.banner.Banner android:id="@id/banner" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/resource_size_35" />
+    <FrameLayout android:paddingBottom="@dimen/resource_size_8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <com.alient.onearch.adapter.widget.banner.IndicatorView android:layout_gravity="center_horizontal" android:id="@id/indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</RelativeLayout>

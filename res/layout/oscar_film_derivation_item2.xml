@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/list_selector" android:paddingLeft="88.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/common_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/space_line_height" android:layout_alignParentTop="true" />
+    <com.taobao.movie.android.commonui.widget.SimpleDraweeView android:id="@id/derivation_friend_icon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_centerVertical="true" app:roundAsCircle="true" style="@style/HeaderIconStyle" />
+    <com.google.android.flexbox.FlexboxLayout android:paddingLeft="@dimen/margin_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/derivation_friend_icon" android:layout_centerVertical="true" app:alignContent="flex_start" app:alignItems="flex_start" app:flexWrap="nowrap">
+        <TextView android:textSize="13.0dip" android:textColor="@color/color_tpp_primary_subtitle" android:ellipsize="end" android:id="@id/derivation_friend_icon_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" app:layout_flexShrink="1.0" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/color_tpp_primary_subtitle" android:id="@id/derivation_friend_icon_ext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" app:layout_flexShrink="0.0" />
+    </com.google.android.flexbox.FlexboxLayout>
+</RelativeLayout>

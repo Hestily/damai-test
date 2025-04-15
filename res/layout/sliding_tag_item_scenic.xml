@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.moimage.MoImageView android:layout_gravity="center" android:id="@id/sliding_item" android:background="@color/color_f4f5f6" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:failureImage="@color/color_f4f5f6" app:placeholderImage="@color/color_f4f5f6" />
+    <com.alibaba.pictures.moimage.MoImageView android:layout_gravity="center" android:id="@id/sliding_item_default" android:visibility="gone" android:layout_width="63.0dip" android:layout_height="76.0dip" android:src="@drawable/venue_detail_alum_default_scenic" />
+</FrameLayout>

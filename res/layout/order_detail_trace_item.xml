@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip">
+        <ImageView android:background="@drawable/or_line_icon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/iv_trace_flow_icon" android:background="@drawable/or_flowed_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_trace_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="5.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="30.0sp" android:textColor="@color/light_black_444" android:layout_gravity="center_vertical" android:id="@id/tv_day" style="@style/wrap" />
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip">
+                <TextView android:textSize="12.0sp" android:textColor="@color/light_black_444" android:id="@id/tv_week" style="@style/wrap" />
+                <TextView android:textSize="10.0sp" android:textColor="@color/light_black_444" android:id="@id/tv_time" style="@style/wrap" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:textColor="@color/light_black_7d7d7d" android:id="@id/tv_trace_detail" android:layout_marginRight="12.0dip" android:text="" style="@style/wrap" />
+    </LinearLayout>
+</LinearLayout>

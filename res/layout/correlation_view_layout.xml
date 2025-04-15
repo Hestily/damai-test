@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="55.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingEnd="21.0dip">
+        <TextView android:textSize="16.0dip" android:textColor="#ff111111" android:id="@id/tv_correlation_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="关联店铺" android:layout_marginStart="@dimen/margin_21dp" />
+        <TextView android:textSize="12.0dip" android:textColor="#ff9c9ca5" android:id="@id/tv_correlation_required" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="选填" android:layout_marginStart="6.0dip" />
+        <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:minWidth="@dimen/margin_20dp" android:layout_weight="1.0" />
+        <TextView android:textSize="15.0dip" android:textColor="#ff9c9ca5" android:ellipsize="end" android:id="@id/tv_correlation_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:maxWidth="204.0dip" android:maxLines="1" android:layout_marginEnd="3.0dip" />
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textColor="#ff3c3f44" android:id="@id/tv_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/iconfont_youjiantou24" />
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

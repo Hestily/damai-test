@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="47.0dip" android:layout_marginLeft="9.0dip" android:layout_marginRight="9.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/price_zone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="9.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/total_price" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/tpp_primary_red" android:text="￥" android:includeFontPadding="false" android:layout_alignParentRight="true" style="@style/CommonListItemTitle" />
+            <TextView android:textSize="17.0dip" android:textStyle="bold" android:textColor="@color/tpp_primary_red" android:id="@id/block_total_amount" android:text="挨打的" style="@style/CommonListItemTitle" />
+        </LinearLayout>
+        <TextView android:textSize="13.0dip" android:textColor="@color/common_text_color4" android:layout_gravity="right" android:id="@id/block_total_mcard_amount" android:visibility="visible" android:text="" android:layout_below="@id/total_price" style="@style/CommonListItemTitle" />
+    </LinearLayout>
+    <TextView android:textSize="12.0dip" android:textColor="@color/common_text_color45" android:id="@id/block_total_title" android:layout_marginLeft="6.0dip" android:layout_marginRight="8.0dip" android:text="@string/ordering_selector_block_sale_title" android:layout_toLeftOf="@id/price_zone" android:layout_centerVertical="true" style="@style/CommonListItemOrderTitle" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_assist" android:ellipsize="end" android:id="@id/block_sale_select_area_used" android:layout_marginLeft="80.0dip" android:text="@string/ordering_selector_block_not_selected" android:singleLine="true" android:layout_toLeftOf="@id/block_total_title" android:layout_centerVertical="true" style="@style/CommonListItemText" />
+</RelativeLayout>

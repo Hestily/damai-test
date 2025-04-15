@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.pictures.bricks.view.HWRatioLayout android:id="@id/city_card_rl" android:background="@drawable/bricks_bg_artist_tag_gray_corner_896b1" android:layout_width="fill_parent" android:layout_height="wrap_content" app:h_w_layout_ratio="0.974"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textAppearance="?android:textAppearanceLarge" android:textSize="22.0dip" android:textColor="@color/color_8896b1" android:gravity="bottom" android:id="@id/city_card_city_add_tv" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/margin_2dp" android:layout_marginRight="@dimen/margin_2dp" android:text="@string/iconfont_jiahao24" android:layout_weight="0.5" />
+        <View android:textColor="#ff8896b1" android:id="@id/city_card_center" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="0.1" />
+        <TextView android:textSize="10.0dip" android:textStyle="bold" android:textColor="@color/color_8896b1" android:gravity="top" android:id="@id/city_card_time_line_desc" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/margin_2dp" android:layout_marginRight="@dimen/margin_2dp" android:layout_weight="0.4" />
+    </LinearLayout>
+</com.alibaba.pictures.bricks.view.HWRatioLayout>

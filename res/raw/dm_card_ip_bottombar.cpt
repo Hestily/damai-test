@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.ip.IpBottomBarModel",
+    "vClass": "cn.damai.tetris.component.ip.IpBottomBarView",
+    "pClass": "cn.damai.tetris.component.ip.IpBottomBarPresenter",
+    "layoutXml": "layout_ip_bottombar"
+  }
+}

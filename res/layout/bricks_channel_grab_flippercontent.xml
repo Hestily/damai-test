@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" app:alignItems="center" app:justifyContent="flex_end"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/font_Subhead2_R" android:textColor="@color/color_bricks_primary_red" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/channel_grab_highlight_content_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dim_3" android:maxWidth="100.0dip" android:minWidth="80.0dip" android:maxLines="1" app:layout_flexShrink="0.0" />
+    <TextView android:textSize="@dimen/font_Subhead2_R" android:textColor="#ff3c3f44" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/channel_grab_content_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" app:layout_flexShrink="3.0" />
+</com.google.android.flexbox.FlexboxLayout>

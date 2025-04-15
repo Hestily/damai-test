@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/status_bar_space" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/pull_to_refresh_view_layout_with_tips" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/pull_to_refresh_view_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/pull_to_refresh_anim_view" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+            <ImageView android:layout_gravity="center" android:id="@id/pull_to_refresh_default_view" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+        </FrameLayout>
+        <TextView android:textSize="11.0dip" android:textColor="@color/color_pioneer_primary_black" android:id="@id/pull_to_refresh_tips" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="下拉刷新" />
+    </LinearLayout>
+</LinearLayout>

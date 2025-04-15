@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/white" android:paddingLeft="9.0dip" android:paddingTop="@dimen/project_modul_top" android:paddingRight="9.0dip" android:paddingBottom="@dimen/project_modul_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:paddingLeft="@dimen/margin_9dp" android:paddingRight="@dimen/margin_9dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <cn.damai.uikit.view.RoundImageView android:id="@id/iv_artist_image" android:layout_width="80.0dip" android:layout_height="80.0dip" android:scaleType="fitXY" app:type="circle" />
+        <cn.damai.uikit.view.DMLRLabelView android:textSize="@dimen/margin_10dp" android:textColor="@color/color_ff2d79" android:ellipsize="end" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/tv_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="80.0dip" android:lines="1" />
+    </FrameLayout>
+    <TextView android:textSize="14.0dip" android:textColor="@color/color_000000" android:ellipsize="end" android:gravity="center" android:id="@id/tv_artist_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:maxWidth="80.0dip" android:singleLine="true" />
+    <TextView android:textSize="10.0dip" android:textColor="@color/color_9C9CA5" android:ellipsize="end" android:gravity="center" android:id="@id/tv_artist_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:maxWidth="80.0dip" android:singleLine="true" />
+</LinearLayout>

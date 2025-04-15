@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/bricks_bg_discount_label" android:layout_width="34.0dip" android:layout_height="34.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.pictures.bricks.view.DMDigitTextView android:textSize="16.0dip" android:textColor="@color/color_ffffff" android:id="@id/dm_discount_balel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-3.0dip" />
+    <TextView android:textSize="10.0dip" android:textColor="#ccffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="折起" />
+</LinearLayout>

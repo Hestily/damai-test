@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.damai.uikit.shadowlayout.DMShadowLayout android:layout_width="wrap_content" android:layout_height="wrap_content" app:sl_dx="0.0dip" app:sl_dy="5.0dip" app:sl_shadowColor="#0e000000" app:sl_shadowRadius="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.baseview.RCFrameLayoutLayoutView android:layout_width="208.0dip" android:layout_height="330.0dip" app:round_corner="12.0dip" app:stroke_color="#1a000000" app:stroke_width="0.39999998dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/square_header" android:background="@drawable/square_red_bg" android:layout_width="208.0dip" android:layout_height="90.0dip">
+                <TextView android:textSize="16.0dip" android:textColor="@color/aliuser_color_white" android:id="@id/square_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginTop="@dimen/margin_18dp" android:text="本周最热现场" />
+                <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="16.0dip" android:textColor="@color/aliuser_color_white" android:id="@id/square_more_arrow_second" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_22dp" android:text="@string/iconfont_youjiantouxiao12" android:layout_toRightOf="@id/square_title" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/aliuser_color_white" android:id="@id/square_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginTop="@dimen/margin_3dp" android:text="131万人在记录现场" android:layout_below="@id/square_title" />
+                <cn.damai.category.ranksquare.ui.viewholder.HeaderPicListViewHolder android:layout_gravity="bottom" android:id="@id/square_piclist_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_12dp" android:layout_below="@id/square_title" android:layout_alignTop="@id/square_sub_title" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <cn.damai.baseview.RCFrameLayoutLayoutView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-15.0dip" android:layout_below="@id/square_header" app:round_corner="12.0dip" app:stroke_color="#1a000000" app:stroke_width="0.5dip">
+                <cn.damai.uikit.flowlayout.FlowLayout android:id="@id/square_items" android:background="@color/ab_face_color_white" android:paddingBottom="@dimen/margin_17dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </cn.damai.baseview.RCFrameLayoutLayoutView>
+        </RelativeLayout>
+    </cn.damai.baseview.RCFrameLayoutLayoutView>
+</cn.damai.uikit.shadowlayout.DMShadowLayout>

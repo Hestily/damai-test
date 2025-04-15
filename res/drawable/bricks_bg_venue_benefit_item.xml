@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/bricks_bg_venue_benefit_item2" />
+    <item android:drawable="@drawable/bricks_bg_venue_benefit_item1" />
+</layer-list>

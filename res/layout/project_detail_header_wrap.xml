@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/project_header" layout="@layout/header_project_total_layout" />
+    <View android:background="#fff6f7f8" android:layout_width="fill_parent" android:layout_height="9.0dip" />
+    <cn.damai.trade.newtradeorder.ui.projectdetail.projectdetailitem.ui.view.AnchorIndicatorView android:id="@id/project_item_anchor_indicator" android:background="@color/color_ffffff" android:layout_width="fill_parent" android:layout_height="53.0dip" />
+</LinearLayout>

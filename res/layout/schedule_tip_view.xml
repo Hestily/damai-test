@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="15.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="10.0dip" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_content_tag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+    <com.taobao.movie.android.commonui.widget.TppAnimImageView android:layout_gravity="center" android:id="@id/iv_schedule_tag_icon" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginRight="-2.0dip" android:scaleType="centerCrop" />
+    <com.taobao.movie.android.app.ui.widget.OrderListDivideView android:id="@id/v_schedule_tip_line" android:visibility="gone" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="3.0dip" android:layout_marginBottom="2.0dip" />
+    <TextView android:textSize="10.0dip" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+</LinearLayout>

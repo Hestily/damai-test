@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bricks_bg_ip_wish_round_white_stroke" android:layout_width="60.0dip" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="24.0dip" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/resource_size_12" android:text="@string/iconfont_zhuanhuan" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/resource_size_11" android:textColor="@color/color_bricks_primary_60_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/resource_size_5" android:text="换一批" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

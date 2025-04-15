@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_color_18_white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/horizontal_container" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_10dp" android:overScrollMode="never" />
+    <cn.damai.pioneer.view.PageIndicatorView android:gravity="center_horizontal" android:id="@id/horizontal_container_indicator" android:background="@drawable/bg_color_efefef_gray" android:layout_width="wrap_content" android:layout_height="2.5dip" android:layout_marginBottom="@dimen/margin_10dp" android:layout_below="@id/horizontal_container" android:layout_centerHorizontal="true" />
+</RelativeLayout>

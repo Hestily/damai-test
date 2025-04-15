@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/project_service_item_tag_action" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0dip" android:textColor="#ff0097ff" android:id="@id/project_support_service_item_action_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="1.0dip" />
+    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="#ff0097ff" android:layout_gravity="center_vertical" android:id="@id/show_count_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.5dip" android:text="@string/iconfont_fenleiyebofang18" />
+</LinearLayout>

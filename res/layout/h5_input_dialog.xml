@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/h5_dialog_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/dialog_bg" android:paddingLeft="12.0dip" android:paddingTop="20.0dip" android:paddingRight="12.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="@color/color_333333" android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/color_333333" android:gravity="center" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/title" android:lineSpacingMultiplier="1.2" />
+        <EditText android:textSize="15.0dip" android:textColor="@color/color_333333" android:id="@id/inputContent" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:singleLine="true" android:layout_below="@id/message" android:textCursorDrawable="@drawable/h5_cursor_drawable" />
+        <ImageView android:id="@id/edit_line" android:background="#b21677ff" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginTop="2.7999878dip" android:layout_below="@id/inputContent" />
+    </RelativeLayout>
+    <com.taomai.android.h5container.widget.DialogBottomButtonGroupView android:id="@id/buttomButtonView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

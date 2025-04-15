@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="225.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/id_bricks_artist_tour_dark_layer" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardBackgroundColor="@color/transparent" app:cardCornerRadius="@dimen/resource_size_9" app:cardElevation="0.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/id_bricks_artist_tour_dark_layer_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <View android:background="@drawable/bricks_bg_artist_performance_top" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <View android:background="@drawable/bricks_bg_artist_performance_bottom" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="4.0" />
+            </LinearLayout>
+            <com.alibaba.pictures.bricks.view.RadialGradientView android:id="@id/halo_left" android:layout_width="357.0dip" android:layout_height="357.0dip" android:layout_marginBottom="-178.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:radial_gradient_view_color="#ffa2fff3" />
+            <com.alibaba.pictures.bricks.view.RadialGradientView android:id="@id/halo_right" android:layout_width="215.0dip" android:layout_height="215.0dip" android:layout_marginBottom="-107.0dip" android:layout_alignParentBottom="true" android:layout_marginEnd="-107.0dip" android:layout_alignParentEnd="true" app:radial_gradient_view_color="#ffa2fff3" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <com.alibaba.pictures.bricks.view.BricksStrokeRelativeLayout android:orientation="vertical" android:id="@id/id_bricks_artist_tour_layout" android:paddingTop="9.0dip" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.alibaba.pictures.bricks.component.artist.tab.ArtistTabLayout android:id="@id/component_tab_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/resource_size_68" android:layout_marginTop="@dimen/resource_size_15" style="@style/ChannelArtistTabStyle" />
+        <HorizontalScrollView android:id="@id/id_bricks_horizontal_head_scroll" android:scrollbars="none" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/id_bricks_horizontal_head_title">
+            <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/id_bricks_horizontal_head_linear" android:paddingBottom="5.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="87.0dip" />
+        </HorizontalScrollView>
+        <com.alient.onearch.adapter.component.tab.viewpager.GenericTabViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="75.0dip" android:layout_marginTop="@dimen/resource_size_10" android:layout_marginBottom="@dimen/resource_size_10" android:layout_alignParentBottom="true" />
+    </com.alibaba.pictures.bricks.view.BricksStrokeRelativeLayout>
+    <com.alibaba.pictures.bricks.view.SafeLottieAnimationView android:layout_gravity="center" android:id="@id/want_see_fairy_lottie" android:layout_width="200.0dip" android:layout_height="200.0dip" android:scaleType="centerCrop" app:lottie_autoPlay="false" app:lottie_loop="false" />
+</FrameLayout>

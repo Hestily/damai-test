@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="322.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.damai.uikit.view.DMAvatar android:id="@id/user_iv_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/user_tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxWidth="200.0dip" android:maxLines="1" android:layout_below="@id/user_iv_header" android:layout_centerHorizontal="true" />
+    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="20.0dip" android:textColor="@color/damai_red" android:id="@id/user_tv_sex" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="13.0dip" android:text="@string/iconfont_nan16" android:layout_toRightOf="@id/user_tv_name" android:layout_below="@id/user_iv_header" />
+    <TextView android:textSize="10.0dip" android:textColor="#99ffffff" android:gravity="center" android:id="@id/tv_nick_name_status" android:background="@drawable/nickname_status" android:visibility="gone" android:layout_width="42.0dip" android:layout_height="16.0dip" android:layout_marginLeft="9.0dip" android:layout_marginTop="2.0dip" android:layout_toRightOf="@id/user_tv_sex" android:layout_below="@id/user_iv_header" android:layout_alignTop="@id/user_tv_sex" />
+    <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/user_tv_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_below="@id/user_tv_name" android:layout_centerHorizontal="true" android:lineSpacingMultiplier="1.2" />
+    <ImageView android:id="@id/user_img_viplevel" android:visibility="invisible" android:layout_width="67.0dip" android:layout_height="19.0dip" android:layout_marginTop="10.0dip" android:layout_below="@id/user_tv_add" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_div" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="4.0dip" android:layout_below="@id/user_img_viplevel" android:layout_centerHorizontal="true">
+        <cn.damai.user.repertoite.view.AttentionView android:gravity="center" android:id="@id/attent_view_c" android:visibility="visible" android:layout_width="69.0dip" android:layout_height="30.0dip" />
+    </LinearLayout>
+    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="14.0dip" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/user_tv_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="三冬暖春不寒，暂无简介涨粉慢" android:maxLines="1" android:layout_below="@id/ll_div" android:layout_centerHorizontal="true" android:lineSpacingMultiplier="1.2" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_div2" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="22.0dip" android:layout_below="@id/user_tv_desc" android:layout_centerHorizontal="true">
+        <LinearLayout android:gravity="center" android:id="@id/user_c_follow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="14.0dip" android:textColor="#99ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="关注" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/color_99FFFFFF" android:id="@id/user_tv_followcout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="" />
+        </LinearLayout>
+        <View android:layout_gravity="center_vertical" android:background="@color/color_99FFFFFF" android:layout_width="2.0dip" android:layout_height="8.0dip" />
+        <LinearLayout android:gravity="center" android:id="@id/user_c_fans" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="14.0dip" android:textColor="@color/color_99FFFFFF" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="粉丝" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/color_99FFFFFF" android:id="@id/user_tv_fanscout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

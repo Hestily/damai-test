@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="true" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@id/one_arch_refresh_layout" android:background="#fff0f3f7" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srlEnableLoadMore="false">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/one_arch_recyclerView" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    <LinearLayout android:gravity="top" android:orientation="vertical" android:id="@id/nav_bar" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/status_bar_gap" android:layout_width="fill_parent" android:layout_height="22.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="44.0dip" android:paddingStart="@dimen/resource_size_12" android:paddingEnd="@dimen/resource_size_12">
+            <RelativeLayout android:id="@id/navbar_back_layout" android:layout_width="@dimen/resource_size_27" android:layout_height="@dimen/resource_size_27" android:layout_centerVertical="true">
+                <View android:id="@id/navbar_back_bg" android:background="@drawable/bricks_bg_artist_navbar_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="@dimen/resource_size_22" android:textColor="@color/cg_1" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_zuojiantou_" android:layout_centerVertical="true" android:layout_marginStart="@dimen/resource_size_5" />
+                <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="@dimen/resource_size_22" android:textColor="@color/cg_7" android:gravity="center" android:id="@id/navbar_back_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_zuojiantou_" android:layout_centerVertical="true" android:layout_marginStart="@dimen/resource_size_5" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="center_vertical" android:id="@id/right_action_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentEnd="true">
+                <com.alibaba.pictures.bricks.view.FollowView android:gravity="center" android:orientation="horizontal" android:id="@id/navbar_follow" android:layout_width="54.0dip" android:layout_height="22.0dip" android:layout_marginEnd="@dimen/resource_size_12" app:follow_text_color="@color/bricks_9c9ca5" app:follow_text_size="@dimen/resource_size_12" app:unfollow_text_color="@color/white" />
+                <RelativeLayout android:id="@id/navbar_share_layout" android:visibility="gone" android:layout_width="@dimen/resource_size_27" android:layout_height="@dimen/resource_size_27">
+                    <View android:id="@id/navbar_share_bg" android:background="@drawable/bricks_bg_artist_navbar_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="18.0dip" android:textColor="@color/cg_1" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_fenxiang44" android:layout_centerInParent="true" />
+                    <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="18.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/navbar_share_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_fenxiang44" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <com.alibaba.pictures.moimage.MoImageView android:id="@id/navbar_img" android:layout_width="27.0dip" android:layout_height="27.0dip" android:scaleType="centerCrop" android:layout_centerInParent="true" android:layout_marginStart="@dimen/margin_9dp" android:layout_toEndOf="@id/navbar_back_layout" app:roundedCornerRadius="5.0dip" />
+            <TextView android:textSize="@dimen/font_Title3_M" android:textColor="@color/cg_1" android:ellipsize="end" android:id="@id/navbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_centerInParent="true" android:layout_marginStart="@dimen/resource_size_7" android:layout_toStartOf="@id/right_action_layout" android:layout_toEndOf="@id/navbar_img" />
+        </RelativeLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/fl_ge_parent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.alibaba.pictures.bricks.util.imageloader.BricksGEView android:layout_gravity="bottom|center" android:id="@id/ge_view_wish" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:layout_gravity="bottom|center" android:id="@id/btn_confirm" android:layout_width="190.0dip" android:layout_height="70.0dip" android:layout_marginBottom="33.0dip" />
+        </com.alibaba.pictures.bricks.util.imageloader.BricksGEView>
+    </FrameLayout>
+    <com.alibaba.pictures.bricks.artist.ArtistStickyTabLayout android:id="@id/component_sticky_tab_layout" android:background="@color/bricks_white" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/resource_size_40" app:tabGravity="start" app:tabMinWidth="@dimen/resource_size_25" app:tabPaddingEnd="9.0dip" app:tabPaddingStart="12.0dip" style="@style/BricksArtistTabStyle" />
+</FrameLayout>

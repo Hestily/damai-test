@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/yk_player_video_cover" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ImageView android:layout_gravity="center" android:id="@id/yk_player_video_bofang_btn" android:padding="@dimen/margin_5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/yk_player_bofang_btn" android:layout_centerInParent="true" />
+    <cn.damai.uikit.irecycler.widget.LoadingView android:id="@id/yk_player_loading" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_centerInParent="true" />
+    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_18dp" android:textColor="@color/white" android:id="@id/yk_player_voice_btn" android:padding="@dimen/margin_3dp" android:visibility="invisible" android:layout_width="@dimen/margin_24dp" android:layout_height="@dimen/margin_24dp" android:layout_marginLeft="@dimen/margin_21dp" android:layout_marginBottom="@dimen/margin_10dp" android:text="@string/iconfont_shengyinkai22" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

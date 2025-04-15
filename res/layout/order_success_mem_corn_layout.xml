@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="85.0dip" android:layout_margin="9.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.pictures.moimage.MoImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/order_success_corn_item_bg" android:scaleType="fitXY" />
+    <com.alibaba.pictures.moimage.MoImageView android:id="@id/cornIcon" android:layout_width="51.0dip" android:layout_height="53.599976dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/order_success_corn_icon" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/cornIcon" android:layout_centerVertical="true">
+        <TextView android:textSize="15.0dip" android:textColor="@color/black" android:id="@id/cornTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/tpp_gray_3" android:gravity="center_vertical" android:id="@id/cornContent" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView android:textSize="12.0dip" android:textColor="@color/member_main_title" android:gravity="center" android:id="@id/cornAction" android:layout_width="54.0dip" android:layout_height="27.0dip" android:layout_marginRight="12.0dip" android:text="去看看" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

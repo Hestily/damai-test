@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="25.0" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/project_item_pop_layer_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="75.0">
+        <include layout="@layout/title_pop_layer" />
+        <ScrollView android:paddingLeft="21.0dip" android:paddingRight="21.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_666666" android:id="@id/project_notification_content_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/margin_3dp" />
+                <cn.damai.uikit.view.FixImageView android:id="@id/project_notification_content_img" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_margin_15" android:scaleType="fitXY" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

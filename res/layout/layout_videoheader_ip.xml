@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/list_conent_parent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="211.0dip" android:layout_marginTop="-123.0dip">
+        <cn.damai.player.DMVideoPlayer android:id="@id/list_conent" android:layout_width="fill_parent" android:layout_height="211.0dip" />
+        <View android:id="@id/list_conent_cover" android:background="@drawable/ip_video_cover_black" android:layout_width="fill_parent" android:layout_height="211.0dip" />
+    </RelativeLayout>
+    <View android:id="@id/cover_half_top" android:background="@drawable/ip_video_cover_top" android:layout_width="fill_parent" android:layout_height="88.0dip" android:layout_alignParentTop="true" />
+    <TextView android:textSize="10.0dip" android:textColor="#ffd9b393" android:id="@id/cover_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="35.0dip" android:text="大戏将至 敬请期待" android:layout_alignBottom="@id/cover_half_top" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <View android:id="@id/cover_half_bottom" android:background="@drawable/ip_video_cover_bottom" android:layout_width="fill_parent" android:layout_height="16.0dip" />
+        <View android:id="@id/cover_bottom_divline" android:background="#ff1d1d2f" android:layout_width="fill_parent" android:layout_height="@dimen/default_component_div_h" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/pic_promotion_discount_excel_item_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0dip" android:textColor="@color/color_2E333E" android:gravity="center|left" android:id="@id/pic_promotion_discount_excel_tag" android:background="@drawable/pic_promotion_discount_excel_header_bg1" android:paddingLeft="@dimen/margin_12dp" android:paddingTop="@dimen/margin_10dp" android:paddingRight="@dimen/margin_12dp" android:paddingBottom="@dimen/margin_10dp" android:visibility="visible" android:layout_width="72.0dip" android:layout_height="fill_parent" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/color_2E333E" android:gravity="center_vertical" android:id="@id/pic_promotion_discount_excel_desc" android:background="@drawable/pic_promotion_discount_excel_header_bg2" android:paddingLeft="@dimen/margin_12dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="优惠内容" android:layout_weight="1.0" />
+</LinearLayout>

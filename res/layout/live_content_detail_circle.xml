@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/live_content_circle_layout" android:paddingLeft="12.0dip" android:paddingTop="9.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="15.0dip" android:layout_height="@dimen/margin_15dp" android:src="@drawable/issue_circle_tip_icon" android:scaleType="fitXY" />
+    <TextView android:textSize="15.0dip" android:textColor="@color/color_9c9ca5" android:ellipsize="end" android:id="@id/live_content_detail_circle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="5.0dip" />
+</LinearLayout>

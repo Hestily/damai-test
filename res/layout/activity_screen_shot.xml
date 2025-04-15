@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root_rl" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/status_bar_gap" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <LinearLayout android:gravity="center|right" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_feedback" android:background="@drawable/feedback_dialog_bg" android:paddingLeft="10.0dip" android:paddingTop="3.0dip" android:paddingRight="@dimen/margin_10dp" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip">
+            <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/screenshot_feedback" />
+            <TextView android:textSize="11.0dip" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="求助" />
+            <TextView android:textSize="11.0dip" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="反馈" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

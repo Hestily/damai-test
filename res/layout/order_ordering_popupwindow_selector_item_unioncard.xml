@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_root" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="55.0dip">
+        <TextView android:textColor="@color/color_tpp_primary_main_title" android:id="@id/union_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="88VIP" />
+        <TextView android:textColor="@color/tpp_primary_red" android:id="@id/union_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="sadf" android:layout_toRightOf="@id/union_title" />
+        <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="21.0dip" android:textColor="@color/color_tpp_primary_gray_c8" android:gravity="center|right" android:id="@id/union_check" android:layout_width="36.0dip" android:layout_height="wrap_content" android:text="@string/icon_font_selected_no" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:id="@id/union_dvd" android:background="@color/common_divider_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.70000005dip" android:layout_marginLeft="16.0dip" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/ordering_popupwindow_header" android:layout_width="fill_parent" android:layout_height="39.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/title_container" android:background="@drawable/order_page_dialog_head_title_bg" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" style="@style/CommonListItemOrderHeaderContainerWhite">
+        <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="21.0dip" android:textColor="@color/color_tpp_primary_gray_c8" android:id="@id/ordering_item_header_cancel" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginBottom="15.0dip" android:text="@string/icon_font_close" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <RelativeLayout android:id="@id/ll_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_3" android:layout_toLeftOf="@id/ordering_item_header_cancel" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+            <TextView android:textSize="18.0dip" android:textColor="@color/color_tpp_primary_main_title" android:gravity="center" android:id="@id/ordering_item_header_title" android:text="优惠券" android:includeFontPadding="false" android:layout_alignParentBottom="true" style="@style/CommonListItemOrderTitle" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/tpp_primary_red" android:ellipsize="end" android:gravity="center" android:id="@id/ordering_item_header_desc" android:background="@drawable/comment_btn_outline_red_r30" android:paddingLeft="9.0dip" android:paddingRight="9.0dip" android:layout_height="21.0dip" android:layout_marginLeft="9.0dip" android:layout_marginBottom="4.0dip" android:maxLines="1" android:includeFontPadding="false" android:layout_toRightOf="@id/ordering_item_header_title" android:layout_alignParentBottom="true" style="@style/CommonListItemText" />
+        </RelativeLayout>
+        <TextView android:gravity="center" android:id="@id/ordering_item_header_confirm" android:paddingLeft="20.0dip" android:paddingTop="@dimen/padding_10dp" android:paddingRight="@dimen/padding_5dp" android:paddingBottom="@dimen/padding_10dp" android:text="@string/tpp_confirm" android:layout_alignParentRight="true" style="@style/CommonListItemTitle" />
+    </RelativeLayout>
+    <View android:id="@id/view_bottom" android:background="@color/common_divider_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/space_line_height" />
+</LinearLayout>

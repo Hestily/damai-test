@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_city_tour" android:background="@drawable/bricks_bg_project_search_tour_red" android:paddingLeft="8.0dip" android:paddingTop="@dimen/margin_6dp" android:paddingRight="8.0dip" android:paddingBottom="@dimen/margin_6dp" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/current_city_logo" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="3.0dip" android:src="@drawable/bricks_icon_location" android:scaleType="centerCrop" />
+        <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_000000" android:ellipsize="end" android:id="@id/tv_city" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="北京站" android:singleLine="true" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/margin_10dp" android:textColor="#ff959aa5" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    <TextView android:textSize="@dimen/margin_10dp" android:textColor="#ffff2869" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/tv_project_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+</LinearLayout>

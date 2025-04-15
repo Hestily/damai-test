@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:paddingStart="@dimen/resource_size_12" android:paddingEnd="@dimen/resource_size_12">
+        <cn.damai.ticklet.view.TickletDetailMapTopView android:id="@id/ticklet_detail_venue_info" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/gd_map_container" android:layout_width="fill_parent" android:layout_height="130.0dip" android:layout_marginBottom="@dimen/margin_20dp" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/gd_map_default" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="130.0dip" android:layout_marginLeft="@dimen/margin_5dp" android:layout_marginRight="@dimen/margin_7dp" android:layout_marginBottom="@dimen/margin_20dp" android:src="@drawable/uikit_default_image_bg_grey" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/ticklet_service_first_line" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginRight="7.0dip" android:layout_marginBottom="@dimen/margin_20dp" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/ticklet_service_second_line" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginRight="7.0dip" android:layout_marginBottom="@dimen/margin_20dp" />
+    </LinearLayout>
+</FrameLayout>

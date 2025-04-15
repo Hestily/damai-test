@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.taobao.movie.android.app.order.ui.widget.PayOptionListPanel android:id="@id/pay_option_list_panel" android:background="@drawable/item_round_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

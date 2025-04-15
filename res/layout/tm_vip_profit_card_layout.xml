@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_6dp" android:layout_marginRight="@dimen/margin_6dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_container" android:background="@drawable/tm_vip_profit_card_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.damai.commonbusiness.seatbiz.promotion.DiscountPriceView android:gravity="center" android:id="@id/discount_price_desc" android:layout_width="75.0dip" android:layout_height="83.0dip" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingTop="@dimen/margin_8dp" android:paddingBottom="@dimen/margin_8dp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/margin_15dp" android:textColor="#ff582331" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+            <TextView android:textSize="@dimen/margin_12dp" android:textColor="#80582331" android:ellipsize="end" android:id="@id/tv_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="2" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/ll_integral_convert" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="@dimen/margin_8dp" android:layout_marginRight="12.0dip">
+            <TextView android:textSize="12.0dip" android:textColor="#ffffe4de" android:gravity="center" android:id="@id/btn_integral_convert" android:background="@drawable/tm_vip_profit_action_bg" android:paddingLeft="@dimen/dis_13dp" android:paddingRight="@dimen/dis_13dp" android:layout_width="wrap_content" android:layout_height="24.0dip" android:text="兑换" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_integral_value" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_width="@dimen/margin_10dp" android:layout_height="@dimen/margin_10dp" android:src="@drawable/sku_profit_icon" android:layout_below="@id/btn_integral_convert" />
+                <TextView android:textSize="11.0dip" android:textColor="#80582331" android:gravity="center" android:id="@id/btn_integral_value" android:paddingLeft="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:textSize="10.0dip" android:textColor="#80582331" android:gravity="center" android:id="@id/btn_integral_des" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="45.0dip" android:textColor="#80582331" android:id="@id/iv_convert_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="12.0dip" android:text="@string/iconfont_yiduihuan" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/vip_tag" android:background="@drawable/tm_vip_profit_tag_bg" android:layout_width="60.0dip" android:layout_height="15.0dip" android:layout_alignParentRight="true">
+        <ImageView android:layout_width="32.0dip" android:layout_height="@dimen/margin_9dp" android:src="@drawable/pic_tamiao_vip_icon" android:scaleType="fitXY" android:adjustViewBounds="true" />
+        <TextView android:textSize="@dimen/margin_10dp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_vip_tag" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="专享" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_member_authorithize" android:background="@drawable/commonbusinss_member_auth_bg_new" android:paddingLeft="@dimen/margin_9dp" android:paddingTop="@dimen/margin_7dp" android:paddingRight="@dimen/margin_9dp" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="@dimen/margin_6dp" android:layout_below="@id/ll_container">
+        <TextView android:textSize="@dimen/margin_12dp" android:textColor="#ff582331" android:ellipsize="end" android:gravity="center|left" android:id="@id/tv_member_authorithize_desc" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/margin_12dp" android:textColor="#ffdd7f60" android:gravity="center" android:id="@id/tv_member_authorithize_action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="立即授权" />
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_10dp" android:textColor="#ffdd7f60" android:gravity="center" android:id="@id/tv_member_authorithize_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="@string/iconfont_ticket_rightarrows" />
+    </LinearLayout>
+</RelativeLayout>

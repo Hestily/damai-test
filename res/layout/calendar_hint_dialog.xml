@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/calendar_tip_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="17.0dip" android:textColor="@color/common_text_color10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" android:text="@string/calendar_tips_title1" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/common_text_color11" android:id="@id/im_calender_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/calendar_tips_title2" />
+        <com.taobao.movie.android.commonui.widget.SimpleDraweeView android:id="@id/im_calender_place_holder" android:layout_width="241.0dip" android:layout_height="133.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="25.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="25.0dip" app:actualImageScaleType="centerCrop" app:fadeDuration="0" app:placeholderImage="@drawable/oscar_default_image" app:placeholderImageScaleType="fitXY" />
+        <View android:background="@color/common_divider_color" android:layout_width="fill_parent" android:layout_height="0.70000005dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="55.0dip">
+        <Button android:textSize="17.0dip" android:textColor="@color/common_text_color2" android:gravity="center" android:id="@id/btn_close" android:background="@drawable/calendar_tip_left_btn_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="知道了" android:layout_weight="0.5" />
+        <View android:background="@color/common_divider_color" android:layout_width="0.70000005dip" android:layout_height="fill_parent" />
+        <Button android:textSize="17.0dip" android:textColor="@color/common_text_color2" android:gravity="center" android:id="@id/btn_go_my_calendar" android:background="@drawable/calendar_tip_right_btn_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/calendar_tips_go_my_calendar" android:layout_weight="0.5" />
+    </LinearLayout>
+</LinearLayout>

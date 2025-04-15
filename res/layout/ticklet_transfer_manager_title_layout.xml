@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/color_ffffff" android:paddingLeft="@dimen/margin_18dp" android:paddingTop="@dimen/margin_25dp" android:paddingRight="@dimen/margin_12dp" android:paddingBottom="@dimen/margin_2dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/margin_16dp" android:textColor="@color/color_222222" android:id="@id/ticklet_transfer_manager_title_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/color_999999" android:gravity="center" android:id="@id/ticklet_transfer_manager_title_more_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/member_module_title_more_text" android:drawableRight="@drawable/member_module_title_more_icon" android:drawablePadding="6.0dip" />
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_round_rect_gray_stroke_26000000_r12" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/card_project_ui" android:padding="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <cn.damai.uikit.view.RoundImageView android:id="@id/project_pic" android:layout_width="48.0dip" android:layout_height="64.0dip" app:borderRadius="4.0dip" app:type="round" />
+                <cn.damai.uikit.view.RoundImageView android:id="@id/project_pic_tint" android:background="#99ffffff" android:layout_width="48.0dip" android:layout_height="64.0dip" app:borderRadius="4.0dip" app:type="round" />
+            </FrameLayout>
+            <RelativeLayout android:paddingLeft="6.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="1.0dip">
+                <TextView android:textSize="15.0dip" android:textColor="@color/color_333333" android:ellipsize="end" android:id="@id/project_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" android:layout_toLeftOf="@id/tv_btn" android:layout_marginEnd="6.0dip" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_project_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_toLeftOf="@id/tv_btn" android:layout_below="@id/project_title" android:layout_marginEnd="6.0dip">
+                    <TextView android:textSize="12.0dip" android:textColor="@color/color_9C9CA5" android:id="@id/tv_project_city" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+                    <cn.damai.uikit.banner.sub.RoundRadiusImageView android:layout_width="1.0dip" android:layout_height="10.0dip" android:layout_marginTop="1.0dip" android:src="@color/color_cccccc" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" app:r_round_radius="1.0dip" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/color_9C9CA5" android:id="@id/tv_project_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+                    <cn.damai.uikit.banner.sub.RoundRadiusImageView android:layout_width="1.0dip" android:layout_height="10.0dip" android:layout_marginTop="1.0dip" android:src="@color/color_cccccc" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" app:r_round_radius="1.0dip" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/color_9C9CA5" android:ellipsize="end" android:id="@id/tv_project_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_5dp" android:layout_below="@id/ll_project_info">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/status_with_price_ui" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <cn.damai.uikit.number.DMDigitTextView android:textSize="14.0dip" android:textColor="#ff4d4d56" android:id="@id/with_price_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" />
+                        <TextView android:textSize="12.0dip" android:textColor="#ff4d4d56" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="元起" />
+                    </LinearLayout>
+                    <TextView android:textSize="12.0dip" android:textColor="#ff4d4d56" android:id="@id/status_price_pending" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="价格待定" />
+                    <TextView android:textSize="12.0dip" android:textColor="#ff4d4d56" android:id="@id/status_project_un_sale" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="已下架" />
+                    <cn.damai.uikit.banner.sub.RoundRadiusImageView android:id="@id/project_tag_ui_line" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="10.0dip" android:layout_marginTop="1.0dip" android:src="@color/color_cccccc" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" app:r_round_radius="1.0dip" />
+                    <cn.damai.uikit.flowlayout.FlowLayout android:orientation="horizontal" android:id="@id/project_tag_ui" android:layout_width="fill_parent" android:layout_height="wrap_content" f:layoutDirection="ltr" xmlns:f="http://schemas.android.com/apk/res-auto" />
+                </LinearLayout>
+                <TextView android:textSize="@dimen/textsize_12" android:textColor="#ff9999de" android:gravity="center" android:id="@id/tv_btn" android:background="@drawable/content_detail_artist_btn_bg" android:layout_width="54.0dip" android:layout_height="24.0dip" android:text="去看看" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <include layout="@layout/item_relate_project_city_ui" />
+    </LinearLayout>
+</FrameLayout>

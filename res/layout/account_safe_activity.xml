@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/mine_title_header" />
+    <ScrollView android:background="@drawable/window_bg_my" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/rl_real_name" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="55.0dip">
+                <TextView android:textSize="12.0dip" android:textColor="@color/color_333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/damai_realname_authenticate_title" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/icon_real" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:layout_toLeftOf="@id/tv_real_name" android:layout_centerVertical="true" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/color_AAAAAA" android:id="@id/tv_real_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_toLeftOf="@id/icon_more3" android:layout_centerVertical="true" />
+                <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_AAAAAA" android:layout_gravity="center_vertical" android:id="@id/icon_more3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:text="@string/iconfont_youjiantou_" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:background="@color/line_bg_color_my" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <View android:background="@color/line_bg_color_my" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="10.0dip" />
+            <RelativeLayout android:id="@id/ray_bind_phone" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="55.0dip">
+                <TextView android:textSize="12.0dip" android:textColor="@color/color_333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/change_mobile" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/color_AAAAAA" android:id="@id/tv_phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_toLeftOf="@id/icon_more4" android:layout_centerVertical="true" />
+                <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_AAAAAA" android:id="@id/icon_more4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:text="@string/iconfont_youjiantou_" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:background="@color/line_bg_color_my" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/margin_15dp" />
+            </LinearLayout>
+            <RelativeLayout android:id="@id/ray_login_pw" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="55.0dip">
+                <TextView android:textSize="12.0dip" android:textColor="@color/color_333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/damai_usercenter_login_password" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/color_AAAAAA" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="设置登录密码" android:layout_toLeftOf="@id/icon_more5" android:layout_centerVertical="true" />
+                <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_AAAAAA" android:id="@id/icon_more5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:text="@string/iconfont_youjiantou_" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:background="@color/line_bg_color_my" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/margin_15dp" />
+            </LinearLayout>
+            <RelativeLayout android:id="@id/email_set" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="55.0dip">
+                <TextView android:textSize="12.0dip" android:textColor="@color/color_333333" android:id="@id/email_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/set_email" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/color_AAAAAA" android:ellipsize="end" android:gravity="right" android:id="@id/tv_email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_10dp" android:layout_marginRight="5.0dip" android:singleLine="true" android:layout_toLeftOf="@id/icon_more7" android:layout_toRightOf="@id/email_tag" android:layout_centerVertical="true" />
+                <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_AAAAAA" android:id="@id/icon_more7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:text="@string/iconfont_youjiantou_" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:background="@color/line_bg_color_my" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/margin_15dp" />
+            </LinearLayout>
+            <RelativeLayout android:id="@id/third_account_setting_layout" android:background="@color/white" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="55.0dip">
+                <TextView android:textSize="12.0dip" android:textColor="@color/color_333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/third_account_setting" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_AAAAAA" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:text="@string/iconfont_youjiantou_" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/ray_pay_pw" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="55.0dip">
+                <TextView android:textSize="12.0dip" android:textColor="@color/color_333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/damai_usercenter_pay_password" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/color_AAAAAA" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/damai_usercenter_pay_password_title" android:layout_toLeftOf="@id/icon_more6" android:layout_centerVertical="true" />
+                <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_AAAAAA" android:id="@id/icon_more6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:text="@string/iconfont_youjiantou_" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:background="@color/line_bg_color_my" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/margin_15dp" />
+            </LinearLayout>
+            <RelativeLayout android:id="@id/to_un_register_page" android:background="@color/white" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="55.0dip">
+                <TextView android:textSize="12.0dip" android:textColor="@color/color_333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/account_un_register" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_AAAAAA" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:text="@string/iconfont_youjiantou_" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:background="@color/line_bg_color_my" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <View android:id="@id/rv_max_vip_line" android:background="@color/line_bg_color_my" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="10.0dip" />
+            <RelativeLayout android:id="@id/rv_max_vip" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="55.0dip">
+                <TextView android:textSize="12.0dip" android:textColor="@color/color_333333" android:id="@id/tv_max_vip_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/color_AAAAAA" android:ellipsize="end" android:gravity="right" android:id="@id/tv_max_vip_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_10dp" android:layout_marginRight="5.0dip" android:singleLine="true" android:layout_toLeftOf="@id/icon_max_vip" android:layout_toRightOf="@id/tv_max_vip_title" android:layout_centerVertical="true" />
+                <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_AAAAAA" android:id="@id/icon_max_vip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:text="@string/iconfont_youjiantou_" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:background="@color/line_bg_color_my" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/color_AAAAAA" android:id="@id/tv_max_vip_tip" android:paddingLeft="@dimen/margin_15dp" android:paddingTop="@dimen/margin_12dp" android:paddingRight="@dimen/margin_15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="3.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

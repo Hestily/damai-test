@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="#1a000000" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentTop="true" />
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:clickable="true" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_9C9CA5" android:ellipsize="end" android:id="@id/ip_bottombar_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/default_component_margin_rl" android:layout_marginRight="12.0dip" android:text="" android:maxLines="1" android:layout_toLeftOf="@id/ip_bottombar_buy" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/white" android:gravity="center" android:id="@id/ip_bottombar_buy" android:background="@drawable/buy_btn_usable_bg_selector" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="92.0dip" android:layout_height="32.0dip" android:layout_marginRight="@dimen/default_component_margin_rl" android:text="立即购买" android:maxLines="1" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

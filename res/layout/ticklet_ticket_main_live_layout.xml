@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:id="@id/ticklet_live_view" android:visibility="gone" android:layout_width="@dimen/ticklet_margin_205dp" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/ticklet_live_bg" android:visibility="visible" android:layout_width="@dimen/ticklet_margin_205dp" android:layout_height="@dimen/ticklet_margin_205dp" android:scaleType="centerCrop" />
+    <cn.damai.uikit.view.DMPosterView android:layout_gravity="bottom|center" android:id="@id/ticklet_live_project_icon" android:layout_width="75.0dip" android:layout_height="99.0dip" android:layout_marginBottom="@dimen/margin_12dp" android:src="@drawable/ticklet_live_icon" android:scaleType="centerCrop" />
+</FrameLayout>

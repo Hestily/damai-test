@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/refresh_overView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="bottom|center" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/refresh_area" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="55.0dip">
+            <com.taobao.movie.android.commonui.widget.SafeLottieAnimationView android:id="@id/pull_animation" android:layout_width="wrap_content" android:layout_height="55.0dip" app:lottie_autoPlay="false" app:lottie_loop="false" app:lottie_progress="0.0" />
+            <com.taobao.movie.android.commonui.widget.SafeLottieAnimationView android:id="@id/refresh_start_animation" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="55.0dip" app:lottie_autoPlay="false" app:lottie_loop="false" app:lottie_progress="0.0" />
+            <com.taobao.movie.android.commonui.widget.SafeLottieAnimationView android:id="@id/refresh_animation" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="55.0dip" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_progress="0.0" />
+        </FrameLayout>
+    </LinearLayout>
+</merge>

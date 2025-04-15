@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/bricks_welfare_layout" android:layout_width="fill_parent" android:layout_height="113.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.bricks.view.RoundRadiusImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/bricks_home_horizontal_colorbg" android:scaleType="centerCrop" app:r_round_radius="6.0dip" />
+    <ImageView android:id="@id/bricks_snapup_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/resource_size_9" android:layout_marginTop="@dimen/dim_7" android:layout_marginRight="95.0dip" android:src="@drawable/bricks_home_snapup_title" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textSize="@dimen/font_Footnote2_R" android:textColor="@color/cg_1" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/welfare_desc" android:background="@drawable/bricks_shape_white_radius8" android:paddingLeft="@dimen/dim_5" android:paddingRight="@dimen/dim_5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="16.0dip" android:layout_marginTop="@dimen/resource_size_10" android:layout_marginRight="@dimen/dim_6" android:maxWidth="96.0dip" android:maxLines="1" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

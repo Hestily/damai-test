@@ -1,0 +1,47 @@
+{
+  "challengeCode": "852819c6c997f9231caf71e8",
+  "manufacturerInfoVO": {
+    "dispatchTime": 5,
+    "extendInfo": {
+      "versionRule": {
+        "appVersion": "8.10.5.5",
+        "paVersion": 1.0,
+        "paUrl": "https://androiddownload.damai.cn/ttp/pa-damaiRelease-signed_1740729708971.zip"
+      },
+      "ristList": {
+        "version": 1,
+        "content": {
+          "type2":
+          {
+            "org.autojs.autoxjs.v7": "BB232DDEDFC5A8D52362F5C4E8A1257E9A4ED7B2F5373866D265E59EC3C1975A",
+            "com.cyjh.mobileanjian": "800614aaf2494f4dc1c4d43fff92ee42771d01fc09435d0b8d4b8e54dbd91413",
+            "com.zidongdianji": "7b859479e6fa94e3088adb722bc75c7b52108883443bfbca112fdf084dff9110",
+            "com.zdanjian.zdanjian": "e3cb67b0f2f81bbb215c48b1518f2d8594daf4d58f0021128e6b33cd08f9aa4f",
+            "com.ksxkq.autoclick": "099bf99d51c682d9b3c6c21b365a383687e79bb9120e7b4ddb859cec76a9c2bb",
+            "com.adinall.autoclick": "4cc614fbf1c980d9d55d5760ababa6fab60f4a3155e091b87fe0ec05cf95d312",
+            "com.dianjiqi": "8d01a726eee74dd22ec9520a2ee0c7344db0a0c44cf8ab847e90c1b5216ddf62",
+            "com.i_cool.auto_clicker": "af88d3562ed54b9bf134ebd6b6acc0e4829d75f4dd4031530b31fb85384c69ae",
+            "chello.litiaotiao.app": "7A8896226FA1239E60114CB2DE411CC9FA688FD2FB0D26B4C49597D858BFAC86",
+            "li.songe.gkd": "27a532fff3cf13524a89a86adf99ac05ce708dd781680b04846d4b9fb795a391"
+          },
+          "type3":
+          {
+            "com.redfinger.app": "EFE1B0F063121D44ACA2FAA8442F25986BC744F1D022BCBF6458D99071E385E4",
+            "com.ld.dianquan": "ccb6fbe9bbc9496a7d8a988249a65238bab354a2191980893bdf9b0fdf8724cb",
+            "com.cyjh.ddyun": "79ed5d10a876f006757717cdb09f54e78fc9b81220600c5f9f3bd27d2af6bb79",
+            "com.haimawan.cloud.bigphon": "cbd5b3211a276dbcee94e355722778f1c0f29d6c792d2caec58a4f939fcd9c6d",
+            "com.vmos.openapp": "9403d15076dfbfbd1587a91aec0a955aa71a813aa2593ab8e11e290b572ef683",
+            "com.gemini.cloud.client": "3ba17de0df04c8e947f72ef153bee976ed587b8eebccb9202bce12b6b67f33d3",
+            "com.taoxinyun.android": "ac312e04cda781adab8507e04df29349433fc00af3b86a87647b24403f8813c0",
+            "com.ackj.cloud_phone": "31d9639c8f0cfed8496dd1ae03c9879b09e4a479259c4fa7a5bba5775928b186"
+          },
+          "type1":
+          {},
+          "type4":
+          {}
+        }
+      }
+    }
+  },
+  "abilityCodeObjectVOList": []
+}

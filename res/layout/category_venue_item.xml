@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_venue_item" android:background="@drawable/damai_list_bg" android:paddingBottom="@dimen/margin_13dp" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_11dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/venue_header_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/margin_15dp">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/venue_desc_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+                <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="@color/color_000000" android:id="@id/more_arrow_second" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginRight="@dimen/margin_20dp" android:text="@string/iconfont_youjiantouxiao12" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/color_999999" android:id="@id/venue_num_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginRight="15.0dip" />
+            </LinearLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/venue_desc_layout" android:layout_alignParentLeft="true">
+                <TextView android:textSize="@dimen/margin_16dp" android:textColor="@color/color_000000" android:ellipsize="end" android:id="@id/venue_name_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:lineSpacingMultiplier="1.2" />
+                <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="@color/color_000000" android:id="@id/more_arrow_first" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/iconfont_youjiantouxiao12" android:layout_toRightOf="@id/venue_name_tv" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+            <TextView android:textSize="13.0dip" android:textColor="@color/color_999999" android:id="@id/venue_distance_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_13dp" android:layout_alignParentRight="true" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/color_999999" android:ellipsize="end" android:id="@id/site_address_miles_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_20dp" android:singleLine="true" android:layout_toLeftOf="@id/venue_distance_tv" android:layout_alignParentLeft="true" />
+        </RelativeLayout>
+        <TextView android:textSize="10.0dip" android:textColor="#ffff5f5f" android:id="@id/rec_tage" android:background="@drawable/recommond_tag_bg" android:paddingLeft="@dimen/margin_6dp" android:paddingTop="@dimen/margin_2dp" android:paddingRight="@dimen/margin_6dp" android:paddingBottom="@dimen/margin_2dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_9dp" android:text="小编推荐" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/venues_pro_recyclerview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_9dp" android:layout_marginTop="14.0dip" android:layout_marginBottom="12.0dip" />
+    <View android:background="@drawable/venue_dash_shap" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/margin_15dp" android:layerType="software" />
+</LinearLayout>

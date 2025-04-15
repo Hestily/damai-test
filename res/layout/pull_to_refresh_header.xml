@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RelativeLayout android:id="@id/imageview" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="5.0dip">
+            <ProgressBar android:id="@id/pull_to_refresh_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateDrawable="@drawable/uikit_pull_to_refresh_loading" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/pull_to_refresh_image" android:background="@drawable/uikit_pull_to_refresh_logo_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/imageview" android:layout_centerVertical="true">
+            <TextView android:textSize="16.0sp" android:textColor="#ff444444" android:id="@id/pull_to_refresh_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pull_to_refresh_pull_label" />
+            <TextView android:textSize="14.0sp" android:textColor="#ff7d7d7d" android:id="@id/pull_to_refresh_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

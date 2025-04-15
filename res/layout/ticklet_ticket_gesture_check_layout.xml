@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/ticklet_ll_gesture_check_choose_num" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="@dimen/margin_20dp" android:layout_marginRight="@dimen/margin_20dp" />
+    <TextView android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/ticklet_ticket_gesture_check_tip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_20dp" android:layout_marginRight="@dimen/margin_20dp" android:minHeight="30.0dip" android:maxLines="1" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/ticklet_ll_gesture_check" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_20dp" android:layout_marginRight="@dimen/margin_20dp" android:layout_marginBottom="@dimen/margin_20dp" />
+</merge>

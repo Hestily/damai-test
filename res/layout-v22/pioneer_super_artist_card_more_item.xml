@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fl_super_card_more_item" android:background="@drawable/pioneer_bg_s_card_more_border" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="54.5dip" android:layout_height="50.5dip" android:paddingHorizontal="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="20.0dip" android:textColor="#ff171717" android:gravity="center" android:layout_gravity="center" android:id="@id/ic_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_xf_jiahaobig" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_999999" android:paddingTop="@dimen/margin_18dp" android:layout_width="@dimen/order_detail_contacts_w" android:layout_height="wrap_content" android:text="观演人" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_order_contacts" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

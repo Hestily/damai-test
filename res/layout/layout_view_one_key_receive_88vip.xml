@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_12_dp" android:textColor="@color/tpp_gray_1" android:gravity="center" android:id="@id/receive_88vip_view" android:background="@drawable/bg_88vip_one_key_receive_round12" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="24.0dip" android:minWidth="72.0dip" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/receive_88vip_loading" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:indeterminateBehavior="repeat" />
+</merge>

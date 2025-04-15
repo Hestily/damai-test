@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/project_header" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/header_base_uill" android:background="@drawable/bg_header_corner_white_shape" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/header_base_info_ui" layout="@layout/header_project_info" />
+    </LinearLayout>
+    <include android:id="@id/header_promotion_newll" layout="@layout/header_project_marketing_list" />
+    <include android:id="@id/book_header_show_time_ui" layout="@layout/header_project_show_time" />
+    <include android:id="@id/header_venue_ui" layout="@layout/header_project_venue" />
+    <include android:id="@id/project_header_grab_tip" layout="@layout/header_project_grab_tips" />
+</LinearLayout>

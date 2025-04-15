@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ticklet_ticket_item_layout" android:paddingBottom="@dimen/margin_17dp" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.ticklet.view.TickletTicketHeadView android:id="@id/ticklet_ticket_rl_header_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:view_type="FLOAT_LAYER" />
+    <cn.damai.ticklet.view.TickletTicketTipView android:id="@id/ticklet_ticket_rl_tip_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:view_type="FLOAT_LAYER" />
+    <cn.damai.ticklet.view.TickletTicketMainView android:gravity="center" android:layout_gravity="center" android:id="@id/ticklet_ticket_main_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:view_type="FLOAT_LAYER" />
+    <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/ticket_card_name_cert" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_12dp" style="@style/ticklet_111111_13dp" />
+    <cn.damai.ticklet.view.TickletTicketOrderView android:gravity="center" android:layout_gravity="center" android:id="@id/ticklet_ticket_order_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:view_type="FLOAT_LAYER" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_deatil_seat" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:gravity="center" android:id="@id/ticket_unique_no_tv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_3dp" style="@style/ticklet_999999_13dp" />
+</LinearLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.taobao.movie.android.app.oscar.ui.cinema.widget.CommonLoginView android:id="@id/login_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:login_text="@string/login_text" app:login_tip="@string/login_tip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

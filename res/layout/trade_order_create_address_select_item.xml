@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/order_address_select_indicator_iv" android:paddingLeft="@dimen/margin_12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/trade_checked_selector" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/margin_16dp" android:textColor="@color/color_222222" android:id="@id/order_address_receiver_name_phone_num_tv" android:paddingLeft="18.0dip" android:paddingTop="@dimen/margin_15dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/order_address_select_indicator_iv" android:lineSpacingExtra="5.0dip" />
+    <TextView android:textSize="@dimen/textsize_13" android:textColor="@color/color_999999" android:ellipsize="end" android:id="@id/order_address_detail_tv" android:paddingLeft="18.0dip" android:paddingTop="@dimen/margin_10dp" android:paddingRight="@dimen/margin_12dp" android:paddingBottom="@dimen/margin_15dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:layout_toRightOf="@id/order_address_select_indicator_iv" android:layout_below="@id/order_address_receiver_name_phone_num_tv" android:lineSpacingExtra="5.0dip" />
+    <View android:id="@id/order_address_item_divider" android:layout_marginLeft="@dimen/margin_12dp" android:layout_below="@id/order_address_detail_tv" style="@style/style_horizontal_line_mine_page" />
+</RelativeLayout>

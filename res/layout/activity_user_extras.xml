@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.uikit.view.SimpleTitleLayout android:id="@id/id_user_extra_title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.google.android.material.tabs.TabLayout android:id="@id/id_user_extra_tabs" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="46.0dip" style="@style/Project_Tabs_Style2" />
+    <androidx.viewpager.widget.ViewPager android:id="@id/id_user_extra_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

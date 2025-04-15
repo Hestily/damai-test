@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="@dimen/margin_18dp" android:paddingRight="@dimen/margin_18dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/white" android:paddingTop="@dimen/margin_24dp" android:paddingBottom="22.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/margin_18dp" android:textColor="@color/color_111111" android:id="@id/tv_invoice_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="纸质发票" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="@dimen/margin_18dp" android:textColor="@color/color_111111" android:id="@id/tv_invoice_type_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="未开具" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_888888" android:id="@id/tv_invoice_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:lineSpacingMultiplier="1.2" />
+    <View android:background="@color/color_eeeeee" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="@dimen/margin_24dp" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_24dp" android:layout_marginBottom="@dimen/margin_24dp">
+        <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/margin_18dp" android:textColor="@color/color_111111" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="发票抬头类型" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="@dimen/margin_18dp" android:textColor="@color/color_111111" android:id="@id/tv_invoice_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="个人" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_company_title" android:paddingTop="@dimen/margin_24dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_111111" android:id="@id/tv_company_title_desc" android:layout_width="86.0dip" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_111111" android:id="@id/tv_company_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_company_tax" android:paddingTop="@dimen/margin_12dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_111111" android:id="@id/tv_company_tax_desc" android:layout_width="86.0dip" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_111111" android:id="@id/tv_company_tax" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_user_email" android:paddingTop="@dimen/margin_12dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_111111" android:id="@id/tv_user_email_desc" android:layout_width="86.0dip" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_111111" android:id="@id/tv_user_email" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/rl_delivery_way" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_24dp">
+        <View android:background="@color/color_eeeeee" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_24dp">
+            <TextView android:textSize="@dimen/margin_18dp" android:textColor="@color/color_111111" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="获取方式" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="@dimen/margin_18dp" android:textColor="@color/color_111111" android:id="@id/tv_invoice_delivery" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="快递" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_delivery_name" android:paddingTop="@dimen/margin_24dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_111111" android:layout_width="72.0dip" android:layout_height="wrap_content" android:text="联系人:" />
+            <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_111111" android:id="@id/tv_user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_delivery_phone" android:paddingTop="@dimen/margin_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_111111" android:layout_width="72.0dip" android:layout_height="wrap_content" android:text="手机号:" />
+            <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_111111" android:layout_gravity="center_vertical" android:id="@id/tv_user_phone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_delivery_address" android:paddingTop="@dimen/margin_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_111111" android:layout_width="72.0dip" android:layout_height="wrap_content" android:text="收件地址:" />
+            <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_111111" android:id="@id/tv_user_address" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

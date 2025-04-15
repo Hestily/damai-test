@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/home_calendar_container" android:layout_width="fill_parent" android:layout_height="53.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/home_calendar_bg" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/bricks_home_calendar" android:scaleType="fitXY" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/home_calendar_title" android:layout_width="wrap_content" android:layout_height="14.0dip" android:layout_marginTop="@dimen/margin_10dp" android:src="@drawable/bricks_home_calendar_title" android:scaleType="fitStart" android:layout_marginStart="@dimen/dim_6" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.alibaba.pictures.bricks.view.DMUpMarqueeView android:id="@id/home_calendar_content" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginEnd="@dimen/margin_4dp" app:layout_constraintBottom_toBottomOf="@id/home_calendar_bg" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@id/home_calendar_title" app:layout_constraintTop_toBottomOf="@id/home_calendar_title" />
+</androidx.constraintlayout.widget.ConstraintLayout>

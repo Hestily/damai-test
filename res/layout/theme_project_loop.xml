@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/bg_theme_project_card" android:paddingRight="@dimen/margin_12dp" android:layout_width="fill_parent" android:layout_height="68.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.damai.commonbusiness.dynamicx.customwidget.temp.DMUpMarqueeView android:id="@id/theme_project_rec" android:layout_width="0.0dip" android:layout_height="68.0dip" android:layout_weight="1.0" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/color_9c9ca5" android:id="@id/theme_project_btn" android:background="@drawable/bg_theme_porject_card_btn" android:paddingLeft="@dimen/margin_6dp" android:paddingTop="@dimen/margin_6dp" android:paddingRight="@dimen/margin_6dp" android:paddingBottom="@dimen/margin_7dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

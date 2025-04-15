@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/margin_20dp" android:textColor="?tickletListHistoryTitleColor" android:id="@id/ticklet_perform_history_sep_tip_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_21dp" android:layout_marginTop="18.0dip" android:layout_marginRight="@dimen/margin_15dp" android:layout_marginBottom="@dimen/margin_12dp" android:text="@string/ticklet_perform_item_sep_tip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

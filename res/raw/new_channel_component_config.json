@@ -1,0 +1,1012 @@
+{
+  "components": [
+    {
+      "type": 9999,
+      "tag": "common_header",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+          "marginTop": "resource_size_9",
+          "marginLeft": "resource_size_9",
+          "marginRight": "resource_size_9"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 9999,
+          "layoutID": "bricks_component_common_header_channel",
+          "model": "com.alient.onearch.adapter.component.header.GenericHeaderModel",
+          "present": "com.alibaba.pictures.bricks.component.general.PioneerGenericHeaderPresenter",
+          "view": "com.alient.onearch.adapter.component.header.GenericHeaderView"
+        }
+      ]
+    },
+    {
+      "type": 9998,
+      "tag": "common_tab",
+      "layout": {
+        "layoutType": "raw_list",
+        "params": {
+          "marginTop": "resource_size_9",
+          "marginLeft": "resource_size_9",
+          "marginRight": "resource_size_9"
+        }
+      },
+      "container": {
+        "type": 9998,
+        "layoutID": "bricks_component_common_tab_channel_dm",
+        "model": "com.alient.onearch.adapter.component.tab.generic.GenericTabModel",
+        "present": "com.alibaba.pictures.bricks.component.general.PioneerGenericTabPresenter",
+        "view": "com.alient.onearch.adapter.component.tab.generic.GenericTabView"
+      }
+    },
+    {
+      "type": 7587,
+      "tag": "project_filter_panel",
+      "layout": {
+        "layoutType": "single"
+      },
+      "viewTypes": [
+        {
+          "type": 7586,
+          "layoutID": "bricks_component_project_filter_layout",
+          "model": "com.alibaba.pictures.bricks.component.channel.ProjectFilterModel",
+          "present": "com.alibaba.pictures.bricks.component.channel.ProjectFilterPresent",
+          "view": "com.alibaba.pictures.bricks.component.channel.ProjectFilterView",
+          "params": {
+          }
+        }
+      ]
+    },
+    {
+      "type": 7630,
+      "tag": "artist_tour",
+      "local_des": "巡演艺人组件",
+      "layout": {
+        "layoutType": "raw_list",
+        "params": {
+          "marginLeft": "resource_size_9",
+          "marginRight": "resource_size_9",
+          "marginTop": "resource_size_9"
+        }
+      },
+      "container": {
+        "type": 7630,
+        "layoutID": "bricks_component_artist_tour",
+        "model": "com.alibaba.pictures.bricks.component.artist.ArtistTourModel",
+        "present": "com.alibaba.pictures.bricks.component.artist.ArtistTourPresent",
+        "view": "com.alibaba.pictures.bricks.component.artist.ArtistTourView"
+      }
+    },
+    {
+      "type": 7631,
+      "tag": "artist_tab",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "gap": "resource_size_18",
+          "listMarginLeft": "resource_size_12",
+          "listMarginRight": "resource_size_12"
+        }
+      },
+      "container": {
+        "type": 7631,
+        "layoutID": "bricks_artist_horizontal_container",
+        "viewHolder": "com.alibaba.pictures.bricks.component.artist.ArtistTourHorizontalViewHolder"
+      },
+      "viewTypes": [
+        {
+          "type": 7631,
+          "layoutID": "bricks_channel_artist_city",
+          "viewHolder": "com.alibaba.pictures.bricks.component.artist.ArtistCityStationViewHolder",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.channel.bean.AristCityStationBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7632,
+      "tag": "artist_tab",
+      "local_des": "巡演艺人组件下半部分",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "gap": "resource_size_18",
+          "listMarginLeft": "resource_size_12",
+          "listMarginRight": "resource_size_12"
+        }
+      },
+      "container": {
+        "type": 7632,
+        "layoutID": "bricks_artist_horizontal_container",
+        "viewHolder": "com.alibaba.pictures.bricks.component.artist.ArtistTourHorizontalViewHolder"
+      },
+      "viewTypes": [
+        {
+          "type": 7631,
+          "layoutID": "bricks_channel_artist_city",
+          "viewHolder": "com.alibaba.pictures.bricks.component.artist.ArtistCityStationViewHolder",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.channel.bean.AristCityStationBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7614,
+      "tag": "banner",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "indicatorType": "5",
+          "roundCorner": 9,
+          "pagerMargin": "resource_size_9",
+          "marginTop": "resource_size_9",
+          "marginLeft": "resource_size_9",
+          "marginRight": "resource_size_9"
+        }
+      },
+      "container": {
+        "type": 7614,
+        "layoutID": "component_loop_banner_channel",
+        "model": "com.alient.onearch.adapter.component.banner.loop.LoopBannerModel",
+        "present": "com.alibaba.pictures.bricks.component.general.PioneerLoopBannerPresenter",
+        "view": "com.alient.onearch.adapter.component.banner.loop.LoopBannerView"
+      },
+      "viewTypes": [
+        {
+          "type": 7614,
+          "layoutID": "bricks_mo_banner_child_view",
+          "model": "com.alibaba.pictures.bricks.component.banner.BannerModel",
+          "present": "com.alibaba.pictures.bricks.component.banner.BannerPresent",
+          "view": "com.alibaba.pictures.bricks.component.banner.BannerView",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.component.banner.BannerBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7605,
+      "tag": "channel_brand",
+      "des": "厂牌号",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "gap": "resource_size_18",
+          "listMarginLeft": "resource_size_9",
+          "listMarginRight": "resource_size_9"
+        }
+      },
+      "container": {
+        "type": 7605,
+        "layoutID": "component_common_horizontal",
+        "viewHolder": "com.alient.onearch.adapter.component.horizontal.GenericHorizontalViewHolder"
+      },
+      "viewTypes": [
+        {
+          "type": 7605,
+          "layoutID": "bricks_channel_brand_view",
+          "viewHolder": "com.alibaba.pictures.bricks.component.channel.ChannelBrandCardViewHolder",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.channel.bean.ChannelBrandBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7656,
+      "tag": "channel_venue",
+      "des": "场馆",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "gap": "resource_size_18",
+          "listMarginLeft": "resource_size_12",
+          "listMarginRight": "resource_size_12",
+          "marginLeft": "resource_size_9",
+          "marginRight": "resource_size_9"
+        }
+      },
+      "container": {
+        "type": 7656,
+        "layoutID": "component_channel_venue_horizontal_round",
+        "viewHolder": "com.alibaba.pictures.bricks.component.general.PioneerGenericHorizontalViewHolder"
+      },
+      "viewTypes": [
+        {
+          "type": 7662,
+          "layoutID": "bricks_channel_venue_view",
+          "viewHolder": "com.alibaba.pictures.bricks.component.channel.ChannelVenueViewHolder",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.channel.bean.ChannelVenueBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7677,
+      "tag": "dm_category_venue_brand",
+      "des": "话剧音乐剧_大牌组件_厂牌场馆",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "marginTop": "resource_size_9",
+          "marginLeft": "resource_size_9",
+          "marginRight": "resource_size_9"
+        }
+      },
+      "container": {
+        "type": 7677,
+        "layoutID": "bricks_channel_brand_and_venue_layout",
+        "model": "com.alibaba.pictures.bricks.component.channel.brandandvenue.BrandAndVenueBackgroundModel",
+        "present": "com.alibaba.pictures.bricks.component.channel.brandandvenue.BrandAndVenueBackgroundPresent",
+        "view": "com.alibaba.pictures.bricks.component.channel.brandandvenue.BrandAndVenueBackgroundView"
+      },
+      "viewTypes": [
+        {
+          "type": 7683,
+          "layoutID": "bricks_channel_brand_venue_tab",
+          "viewHolder": "com.alibaba.pictures.bricks.component.channel.brandandvenue.ChannelBrandVenueTabViewHolder",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.component.channel.bean.ChannelBrandVenueBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7636,
+      "tag": "channel_brand",
+      "des": "大戏将售|好剧情报站",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+          "marginTop": "resource_size_9",
+          "marginLeft": "resource_size_9",
+          "marginRight": "resource_size_9"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7632,
+          "layoutID": "bricks_dm_project_broadcast_switch_container",
+          "viewHolder": "com.alibaba.pictures.bricks.component.channel.DMProjectBroadCastViewHolder",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.channel.bean.DMProjectShowBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7602,
+      "tag": "dm_channel_commom_tab",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "gap": "resource_size_12",
+          "listMarginLeft": "resource_size_9",
+          "listMarginRight": "resource_size_9",
+          "marginLeft": "resource_size_9",
+          "marginRight": "resource_size_9"
+        }
+      },
+      "container": {
+        "type": 7602,
+        "layoutID": "component_common_horizontal",
+        "viewHolder": "com.alient.onearch.adapter.component.horizontal.GenericHorizontalViewHolder"
+      },
+      "viewTypes": [
+        {
+          "type": 7602,
+          "layoutID": "bricks_home_project_item",
+          "model": "com.alibaba.pictures.bricks.component.home.HomeProjectItemModel",
+          "present": "com.alibaba.pictures.bricks.component.home.HomeProjectItemPresent",
+          "view": "com.alibaba.pictures.bricks.component.home.HomeProjectItemView",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.bean.HomeProjectItemBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7622,
+      "tag": "rank_list",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "gap": "resource_size_12",
+          "listMarginLeft": "resource_size_9",
+          "listMarginRight": "resource_size_9",
+          "marginTop": "resource_size_9",
+          "marginLeft": "resource_size_9",
+          "marginRight": "resource_size_9"
+        }
+      },
+      "container": {
+        "type": 7622,
+        "layoutID": "bricks_home_horizontal_colorbg",
+        "model": "com.alient.onearch.adapter.component.horizontal.GenericHorizontalModel",
+        "present": "com.alibaba.pictures.bricks.component.home.HorizontalColorBgPresent",
+        "view": "com.alibaba.pictures.bricks.component.home.HorizontalColorBgView"
+      },
+      "viewTypes": [
+        {
+          "type": 7622,
+          "layoutID": "bricks_home_project_item",
+          "model": "com.alibaba.pictures.bricks.component.home.HomeProjectItemModel",
+          "present": "com.alibaba.pictures.bricks.component.home.HomeProjectItemPresent",
+          "view": "com.alibaba.pictures.bricks.component.home.HomeProjectItemView",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.bean.HomeProjectItemBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7624,
+      "tag": "rank_list",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "gap": "resource_size_12",
+          "listMarginLeft": "resource_size_9",
+          "listMarginRight": "resource_size_9",
+          "marginTop": "resource_size_9",
+          "marginLeft": "resource_size_9",
+          "marginRight": "resource_size_9"
+        }
+      },
+      "container": {
+        "type": 7624,
+        "layoutID": "bricks_home_horizontal_colorbg",
+        "model": "com.alient.onearch.adapter.component.horizontal.GenericHorizontalModel",
+        "present": "com.alibaba.pictures.bricks.component.home.HorizontalColorBgPresent",
+        "view": "com.alibaba.pictures.bricks.component.home.HorizontalTwoItemColorBgView"
+      },
+      "viewTypes": [
+        {
+          "type": 7624,
+          "layoutID": "bricks_channel_project_two_item",
+          "model": "com.alibaba.pictures.bricks.component.home.HomeProjectItemModel",
+          "present": "com.alibaba.pictures.bricks.component.home.HomeProjectItemPresent",
+          "view": "com.alibaba.pictures.bricks.component.channel.ChannelProjectTwoItemView",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.bean.HomeProjectItemBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7607,
+      "tag": "common_horizontal_list",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "gap": "resource_size_18",
+          "marginTop": "resource_size_9",
+          "listMarginLeft": "resource_size_9",
+          "listMarginRight": "resource_size_9"
+        }
+      },
+      "container": {
+        "type": 7607,
+        "des": "带字banner",
+        "layoutID": "component_common_horizontal",
+        "viewHolder": "com.alient.onearch.adapter.component.horizontal.GenericHorizontalViewHolder"
+      },
+      "viewTypes": [
+        {
+          "type": 7607,
+          "layoutID": "bricks_component_banner_card",
+          "model": "com.alibaba.pictures.bricks.component.channel.BannerCardModel",
+          "present": "com.alibaba.pictures.bricks.component.channel.BannerCardPresent",
+          "view": "com.alibaba.pictures.bricks.component.channel.BannerCardView",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.bean.BannerCard"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7603,
+      "tag": "dm_common_grabticket_node",
+      "des":"抢票播报站",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+          "marginTop": "resource_size_9",
+          "marginLeft": "resource_size_9",
+          "marginRight": "resource_size_9"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7603,
+          "layoutID": "bricks_channel_grabhot_project_switch_item",
+          "model": "com.alibaba.pictures.bricks.component.channel.ChannelCardGrabModel",
+          "present": "com.alibaba.pictures.bricks.component.channel.ChannelCardGrabPresent",
+          "view": "com.alibaba.pictures.bricks.component.channel.ChannelCardGrabView",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.bean.ChannelCardGrabBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7588,
+      "tag": "project_list_panel",
+      "layout": {
+        "layoutType": "linear",
+        "params": {
+          "marginLeft": "resource_size_12",
+          "marginRight": "resource_size_12",
+          "dividerHeight": "resource_size_9"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7588,
+          "layoutID": "bricks_component_hor_rank_card",
+          "model": "com.alibaba.pictures.bricks.component.channel.RankCardModel",
+          "present": "com.alibaba.pictures.bricks.component.channel.RankCardPresent",
+          "view": "com.alibaba.pictures.bricks.component.channel.RankCardView",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.bean.RankBean"
+          }
+        },
+        {
+          "type": 7589,
+          "layoutID": "bricks_component_project_tips",
+          "model": "com.alibaba.pictures.bricks.component.channel.ProjectTipsModel",
+          "present": "com.alibaba.pictures.bricks.component.channel.ProjectTipsPresent",
+          "view": "com.alibaba.pictures.bricks.component.channel.ProjectTipsView",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.bean.ProjectTipsBean"
+          }
+        },
+        {
+          "type": 7587,
+          "model": "com.alibaba.pictures.bricks.component.project.DMProjectModel",
+          "present": "com.alibaba.pictures.bricks.component.project.DMProjectPresent",
+          "view": "com.alibaba.pictures.bricks.component.project.DMProjectView",
+          "layoutID": "bricks_item_dm_project",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.component.project.bean.DMProjectItemBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7606,
+      "tag": "artist_tab",
+      "layout": {
+        "layoutType": "raw_list",
+        "params": {
+          "marginLeft": "resource_size_9",
+          "marginRight": "resource_size_9"
+        }
+      },
+      "container": {
+        "type": 7606,
+        "layoutID": "bricks_component_artist_tab",
+        "model": "com.alibaba.pictures.bricks.component.artist.tab.ArtistTabModel",
+        "present": "com.alibaba.pictures.bricks.component.artist.tab.ArtistTabPresent",
+        "view": "com.alibaba.pictures.bricks.component.artist.tab.ArtistTabView"
+      }
+    },
+    {
+      "type": 7626,
+      "tag": "artist",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "gap": "resource_size_12",
+          "marginTop": "resource_size_9",
+          "marginLeft": "resource_size_9",
+          "marginRight": "resource_size_9"
+        }
+      },
+      "container": {
+        "type": 7626,
+        "layoutID": "component_common_horizontal",
+        "viewHolder": "com.alient.onearch.adapter.component.horizontal.GenericHorizontalViewHolder"
+      },
+      "viewTypes": [
+        {
+          "type": 7626,
+          "layoutID": "bricks_component_artist_tab_article",
+          "model": "com.alibaba.pictures.bricks.component.artist.tab.article.ArtistArticleModel",
+          "present": "com.alibaba.pictures.bricks.component.artist.tab.article.ArtistArticlePresent",
+          "view": "com.alibaba.pictures.bricks.component.artist.tab.article.ArtistArticleView",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.component.artist.tab.article.ArtistArticleBean"
+          }
+        },
+        {
+          "type": 7606,
+          "layoutID": "bricks_component_artist_tab_project",
+          "model": "com.alibaba.pictures.bricks.component.artist.tab.project.ArtistProjectModel",
+          "present": "com.alibaba.pictures.bricks.component.artist.tab.project.ArtistProjectPresent",
+          "view": "com.alibaba.pictures.bricks.component.artist.tab.project.ArtistProjectView",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.component.artist.tab.project.ArtistProjectBean"
+          }
+        },
+        {
+          "type": 7629,
+          "layoutID": "bricks_component_artist_tab_see_more",
+          "viewHolder": "com.alibaba.pictures.bricks.component.artist.tab.seemore.SeeMoreViewHolder",
+          "params": {
+          }
+        }
+      ]
+    },
+    {
+      "type": 7625,
+      "tag": "channel_benefit",
+      "des": "频道页权益组件",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "gap": "resource_size_12",
+          "marginTop": "resource_size_9",
+          "marginLeft": "resource_size_9",
+          "marginRight": "resource_size_9",
+          "listMarginLeft": "resource_size_9",
+          "listMarginRight": "resource_size_9"
+        }
+      },
+      "container": {
+        "type": 7625,
+        "layoutID": "bricks_common_horizontal_list_round",
+        "viewHolder": "com.alibaba.pictures.bricks.component.general.PioneerGenericHorizontalViewHolder"
+      },
+      "viewTypes": [
+        {
+          "type": 7625,
+          "layoutID": "component_channel_benefit_card",
+          "model": "com.alibaba.pictures.bricks.component.channel.benefit.ChannelBenefitCardModel",
+          "present": "com.alibaba.pictures.bricks.component.channel.benefit.ChannelBenefitCardPresenter",
+          "view": "com.alibaba.pictures.bricks.component.channel.benefit.ChannelBenefitCardView",
+          "params": {
+            "bean": "cn.damai.channel.benefit.bean.BenefitItemVO"
+          }
+        },
+        {
+          "type": 7627,
+          "layoutID": "component_channel_benefit_single_card",
+          "model": "com.alibaba.pictures.bricks.component.channel.benefit.ChannelBenefitCardModel",
+          "present": "com.alibaba.pictures.bricks.component.channel.benefit.ChannelBenefitCardPresenter",
+          "view": "com.alibaba.pictures.bricks.component.channel.benefit.ChannelBenefitSingleCardView",
+          "params": {
+            "bean": "cn.damai.channel.benefit.bean.BenefitItemVO"
+          }
+        },
+        {
+          "type": 7646,
+          "des": "频道页角标权益承接长条",
+          "layoutID": "component_channel_benefit_single_card",
+          "model": "com.alibaba.pictures.bricks.component.channel.benefit.ChannelBenefitCardModel",
+          "present": "com.alibaba.pictures.bricks.component.channel.benefit.ChannelBenefitCardPresenter",
+          "view": "com.alibaba.pictures.bricks.component.channel.benefit.ChannelBenefitSingleCardView",
+          "params": {
+            "bean": "cn.damai.channel.benefit.bean.BenefitItemVO"
+          }
+        },
+        {
+          "type": 7647,
+          "des": "频道页角标权益承接半条",
+          "layoutID": "component_channel_benefit_card",
+          "model": "com.alibaba.pictures.bricks.component.channel.benefit.ChannelBenefitCardModel",
+          "present": "com.alibaba.pictures.bricks.component.channel.benefit.ChannelBenefitCardPresenter",
+          "view": "com.alibaba.pictures.bricks.component.channel.benefit.ChannelBenefitCardView",
+          "params": {
+            "bean": "cn.damai.channel.benefit.bean.BenefitItemVO"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7623,
+      "tag": "music_brand",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "gap": "resource_size_18",
+          "listMarginLeft": "resource_size_9",
+          "listMarginRight": "resource_size_9"
+        }
+      },
+      "container": {
+        "type": 7623,
+        "layoutID": "component_common_horizontal",
+        "viewHolder": "com.alient.onearch.adapter.component.horizontal.GenericHorizontalViewHolder"
+      },
+      "viewTypes": [
+        {
+          "type": 9027,
+          "layoutID": "bricks_component_gaiax_intercept_touch",
+          "model": "com.alient.gaiax.container.render.GenericGaiaxModel",
+          "present": "com.alient.gaiax.container.render.GenericGaiaxPresenter",
+          "view": "com.alient.gaiax.container.render.GenericGaiaxView"
+        },
+        {
+          "type": 9028,
+          "layoutID": "bricks_component_gaiax_intercept_touch",
+          "model": "com.alient.gaiax.container.render.GenericGaiaxModel",
+          "present": "com.alient.gaiax.container.render.GenericGaiaxPresenter",
+          "view": "com.alient.gaiax.container.render.GenericGaiaxView"
+        }
+      ]
+    },
+    {
+      "type": 7628,
+      "tag": "channel_atmosphere",
+      "des": "频道页氛围组件",
+      "layout": {
+        "layoutType": "single"
+      },
+      "viewTypes": [
+        {
+          "type": 7628,
+          "layoutID": "bricks_component_channel_atmosphere",
+          "model": "com.alibaba.pictures.bricks.component.channel.atmosphere.ChannelAtmosphereModel",
+          "present": "com.alibaba.pictures.bricks.component.channel.atmosphere.ChannelAtmospherePresenter",
+          "view": "com.alibaba.pictures.bricks.component.channel.atmosphere.ChannelAtmosphereView",
+          "params": {
+            "bean": "cn.damai.channel.atmosphere.AtmosphereVO"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7882,
+      "tag": "dm_travel_icon",
+      "des": "大麦-频道页-球区",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "marginTop": "resource_size_9",
+          "marginLeft": "resource_size_9",
+          "marginRight": "resource_size_9",
+          "rowHeight": "resource_size_65",
+          "gap": "resource_size_6",
+          "columnCount": 5
+        }
+      },
+      "container": {
+        "type": 7882,
+        "layoutID": "component_common_grid_channel_nav",
+        "model": "com.alibaba.pictures.bricks.component.channel.icon.BallGridModel",
+        "present": "com.alibaba.pictures.bricks.component.channel.icon.BallGridPresenter",
+        "view": "com.alibaba.pictures.bricks.component.channel.icon.BallGridView"
+      },
+      "viewTypes": [
+        {
+          "type": 7885,
+          "layoutID": "item_category_ball_icon_switch_layout",
+          "model": "com.alibaba.pictures.bricks.component.channel.icon.CategoryBallModel",
+          "present": "com.alibaba.pictures.bricks.component.channel.icon.CategoryBallPresenter",
+          "view": "com.alibaba.pictures.bricks.component.channel.icon.CategorySwitchContainerView",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.component.channel.icon.CategoryBallBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7895,
+      "tag": "atmosphere_banner_block",
+      "local_des": "站通banner_带氛围",
+      "layout": {
+        "layoutType": "raw_list",
+        "params": {
+          "marginLeft": "resource_size_9",
+          "marginRight": "resource_size_9",
+          "marginTop": "resource_size_9"
+        }
+      },
+      "container": {
+        "type": 7895,
+        "layoutID": "bricks_component_atmosphere_banner",
+        "viewHolder": "com.alibaba.pictures.bricks.component.channel.atmosbanner.AtmosphereBannerViewHolder"
+      }
+    },
+    {
+      "type": 7883,
+      "tag": "dm_category_tourism_tab",
+      "des": "大麦-频道页-必玩景点",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "marginTop": "resource_size_9",
+          "marginLeft": "resource_size_9",
+          "marginRight": "resource_size_9"
+        }
+      },
+      "container": {
+        "type": 7883,
+        "layoutID": "component_tourism_spots_horizontal",
+        "viewHolder": "com.alibaba.pictures.bricks.component.channel.tourism.TourismSpotsHorizontalViewHolder"
+      },
+      "viewTypes": [
+        {
+          "type": 7884,
+          "layoutID": "item_category_tourism_spots_layout",
+          "model": "com.alibaba.pictures.bricks.component.channel.tourism.TourismSpotsModel",
+          "present": "com.alibaba.pictures.bricks.component.channel.tourism.TourismSpotsPresenter",
+          "view": "com.alibaba.pictures.bricks.component.channel.tourism.TourismSpotsView",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.component.channel.tourism.TourismSpotsBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7897,
+      "tag": "dm_category_tourism_line",
+      "des": "大麦-频道页-必去景点",
+      "layout": {
+        "layoutType": "linear",
+        "params": {
+          "marginLeft": "resource_size_12",
+          "marginRight": "resource_size_12",
+          "dividerHeight": "resource_size_9"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7883,
+          "model": "com.alibaba.pictures.bricks.component.channel.tourismline.TourismLineModel",
+          "present": "com.alibaba.pictures.bricks.component.channel.tourismline.TourismLinePresenter",
+          "view": "com.alibaba.pictures.bricks.component.channel.tourismline.TourismLineView",
+          "layoutID": "bricks_item_tourism_line",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.component.channel.tourismline.TourismLineBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7918,
+      "tag": "pioneer_category_movie_tab",
+      "des": "大麦-频道页-推荐/影院tab",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+          "marginTop": "resource_size_9"
+        }
+      },
+      "viewTypes": [{
+        "type": 7921,
+        "layoutID": "component_movie_channel_tab",
+        "viewHolder": "cn.damai.channel.movie.component.MovieChannelTabViewHolder",
+        "params": {
+          "bean": "com.alibaba.pictures.bricks.component.channel.bean.MovieChannelTabBean"
+        }
+      }]
+    },
+    {
+      "type": 7916,
+      "tag": "film_feed",
+      "layout": {
+        "layoutType": "feed_list",
+        "params": {
+          "span": 2,
+          "gap": "resource_size_9",
+          "marginLeft": "resource_size_9",
+          "marginRight": "resource_size_9",
+          "marginTop": "resource_size_9"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7929,
+          "layoutID": "component_home_recommend_video",
+          "viewHolder": "com.taobao.movie.android.app.oscar.ui.homepage.v2.component.feed.video.FeedVideoViewHolder",
+          "params": {
+            "bean": "com.taobao.movie.android.integration.oscar.model.FeedDataModel"
+          }
+        },
+        {
+          "type": 7928,
+          "layoutID": "component_home_recommend_article",
+          "viewHolder": "com.taobao.movie.android.app.oscar.ui.homepage.v2.component.feed.article.FeedArticleViewHolder",
+          "params": {
+            "bean": "com.taobao.movie.android.integration.oscar.model.FeedDataModel"
+          }
+        }
+      ]
+    },
+    {
+      "type": 5039,
+      "layout": {
+        "layoutType": "single"
+      },
+      "viewTypes": [
+        {
+          "type": 5065,
+          "layoutID": "component_channel_divider_layout",
+          "viewHolder": "com.taobao.movie.android.app.ui.filmdetail.v2.component.corner.BottomCornerViewHolder",
+          "params": {
+          }
+        }
+      ]
+    },
+    {
+      "type": 7912,
+      "tag": "taopiaopiao_recommend_now_showing",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "gap": "resource_size_12",
+          "marginLeft": "resource_size_12",
+          "marginRight": "resource_size_12"
+        }
+      },
+      "container": {
+        "type": 7912,
+        "layoutID": "component_home_page_horizontal_list",
+        "viewHolder": "cn.damai.channel.movie.component.moviecard.ChannelNowShowingContainer"
+      },
+      "viewTypes": [
+        {
+          "type": 7915,
+          "layoutID": "component_movie_card_pioneer",
+          "viewHolder": "com.taobao.movie.android.app.oscar.ui.homepage.v2.component.nowshowing.NowShowingCardViewHolder",
+          "params": {
+            "bean": "com.taobao.movie.android.integration.oscar.model.TppMovieMo",
+            "isShowing": true
+          }
+        },
+        {
+          "type": 7919,
+          "layoutID": "component_pioneer_hot_list_more",
+          "model": "cn.damai.pioneer.component.popular.PioneerMoreCardModel",
+          "present": "cn.damai.pioneer.component.popular.PioneerMoreCardPresent",
+          "view": "cn.damai.pioneer.component.popular.PioneerMoreCardView",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.bean.RecommendShowMoreVO"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7914,
+      "tag": "taopiaopiao_recommend_coming_soon",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "gap": "resource_size_12",
+          "marginLeft": "resource_size_12",
+          "marginRight": "resource_size_12"
+        }
+      },
+      "container": {
+        "type": 7914,
+        "layoutID": "component_home_page_horizontal_list",
+        "viewHolder": "cn.damai.channel.movie.component.moviecard.ChannelComingSoonContainer"
+      },
+      "viewTypes": [
+        {
+          "type": 7917,
+          "layoutID": "component_movie_card_pioneer",
+          "viewHolder": "cn.damai.channel.movie.component.moviecard.ChannelMovieComingSoonViewHolder",
+          "params": {
+            "bean": "com.taobao.movie.android.integration.oscar.model.TppMovieMo"
+          }
+        },
+        {
+          "type": 7919,
+          "layoutID": "component_pioneer_hot_list_more",
+          "model": "cn.damai.pioneer.component.popular.PioneerMoreCardModel",
+          "present": "cn.damai.pioneer.component.popular.PioneerMoreCardPresent",
+          "view": "cn.damai.pioneer.component.popular.PioneerMoreCardView",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.bean.RecommendShowMoreVO"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7913,
+      "tag": "taopiaopiao_recommend_coming_soon",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "gap": "resource_size_12",
+          "marginLeft": "resource_size_12",
+          "marginRight": "resource_size_12"
+        }
+      },
+      "container": {
+        "type": 7913,
+        "layoutID": "component_home_page_horizontal_list",
+        "viewHolder": "cn.damai.channel.movie.component.moviecard.ChannelComingSoonContainer"
+      },
+      "viewTypes": [
+        {
+          "type": 7916,
+          "layoutID": "component_movie_card_pioneer",
+          "viewHolder": "cn.damai.channel.movie.component.moviecard.ChannelMovieComingSoonViewHolder",
+          "params": {
+            "bean": "com.taobao.movie.android.integration.oscar.model.TppMovieMo"
+          }
+        },
+        {
+          "type": 7919,
+          "layoutID": "component_pioneer_hot_list_more",
+          "model": "cn.damai.pioneer.component.popular.PioneerMoreCardModel",
+          "present": "cn.damai.pioneer.component.popular.PioneerMoreCardPresent",
+          "view": "cn.damai.pioneer.component.popular.PioneerMoreCardView",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.bean.RecommendShowMoreVO"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7915,
+      "tag": "taopiaopiao_recommend_preview_video",
+      "layout": {
+        "layoutType": "raw_list"
+      },
+      "container": {
+        "type": 7915,
+        "layoutID": "component_bricks_preview_video",
+        "viewHolder": "com.taobao.movie.android.app.oscar.ui.homepage.v2.component.previewvideo.BricksPreviewVideoViewHolder"
+      }
+    },
+    {
+      "type": 7920,
+      "tag": "dm_pier_movie_marketing_card",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "marginTop": "resource_size_6"
+        }
+      },
+      "container": {
+        "type": 7920,
+        "layoutID": "component_list_horizontal_film_channel_container",
+        "viewHolder": "cn.damai.channel.movie.component.marketing.ChannelMarketingContainer"
+      },
+      "viewTypes": [
+        {
+          "type": 7923,
+          "layoutID": "component_channel_marketing_card",
+          "viewHolder": "cn.damai.channel.movie.component.marketing.MobileMarketingCardViewHolder",
+          "params": {
+            "bean": "cn.damai.channel.movie.component.marketing.MobileMarketingCardMo"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7921,
+      "tag": "dm_pier_movie_recommend_card",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "marginTop": "resource_size_6"
+        }
+      },
+      "container": {
+        "type": 7921,
+        "layoutID": "component_list_horizontal_film_channel_container",
+        "viewHolder": "cn.damai.channel.movie.component.promotion.ChannelPromotionContainer"
+      },
+      "viewTypes": [
+        {
+          "type": 7924,
+          "layoutID": "component_channel_promotion_card",
+          "viewHolder": "cn.damai.channel.movie.component.promotion.PromotionCardViewHolder",
+          "params": {
+            "bean": "cn.damai.channel.movie.component.marketing.MobileMarketingCardMo"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.baseview.RCRelativeLayoutView android:orientation="vertical" android:id="@id/ticklet_project_top_layout" android:padding="0.5dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:round_corner_bottom_left="18.0dip" app:round_corner_bottom_right="18.0dip" app:round_corner_top_left="24.0dip" app:round_corner_top_right="24.0dip">
+        <FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <cn.damai.uikit.view.FrameLayoutGradientView android:id="@id/ticklet_project_color_mask_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_13dp" android:layout_marginTop="@dimen/margin_15dp" android:layout_marginRight="@dimen/margin_13dp">
+                    <androidx.cardview.widget.CardView android:id="@id/ticklet_project_item_card_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardCornerRadius="12.0dip">
+                        <androidx.cardview.widget.CardView android:layout_gravity="center_horizontal" android:id="@id/ticklet_project_item_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="0.5dip" app:cardCornerRadius="12.0dip">
+                            <ImageView android:layout_gravity="center" android:id="@id/ticklet_project_project_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+                            <View android:layout_gravity="bottom" android:id="@id/ticklet_project_project_image_bottom_bg1" android:layout_width="fill_parent" android:layout_height="96.0dip" />
+                            <View android:layout_gravity="bottom" android:id="@id/ticklet_project_project_image_bottom_bg2" android:background="@drawable/bg_border_ticklet_black_gradient" android:layout_width="fill_parent" android:layout_height="96.0dip" />
+                            <TextView android:textSize="@dimen/margin_16dp" android:textColor="@color/white" android:ellipsize="end" android:layout_gravity="bottom" android:id="@id/ticklet_project_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_9dp" android:layout_marginRight="@dimen/margin_9dp" android:layout_marginBottom="@dimen/margin_10dp" android:maxLines="2" android:includeFontPadding="false" android:layout_alignParentTop="true" />
+                        </androidx.cardview.widget.CardView>
+                    </androidx.cardview.widget.CardView>
+                    <com.alibaba.pictures.bricks.view.BricksCommonDigitTextView android:textSize="@dimen/margin_16dp" android:id="@id/ticklet_project_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_9dp" android:layout_marginTop="@dimen/margin_10dp" android:layout_marginRight="@dimen/margin_9dp" />
+                    <TextView android:textSize="@dimen/margin_14dp" android:textColor="#ff69717c" android:ellipsize="end" android:id="@id/ticklet_project_venue_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_9dp" android:layout_marginTop="@dimen/margin_2dp" android:layout_marginRight="@dimen/margin_9dp" android:layout_marginBottom="@dimen/margin_16dp" android:maxLines="1" />
+                </LinearLayout>
+            </cn.damai.uikit.view.FrameLayoutGradientView>
+        </FrameLayout>
+    </cn.damai.baseview.RCRelativeLayoutView>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/ticklet_alert_bottom_layout" android:background="@drawable/bg_border_ticklet_white_corner" android:paddingTop="@dimen/margin_21dp" android:paddingBottom="@dimen/dim_7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ticklet_project_top_layout" android:layout_centerHorizontal="true">
+        <TextView android:textSize="@dimen/margin_16dp" android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/ticklet_project_goto_detail" android:padding="@dimen/margin_11dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_30dp" android:layout_marginRight="@dimen/margin_30dp" android:layout_marginBottom="@dimen/dim_6" android:text="查看票详情" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/ticklet_alert_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="16.0dip" android:textColor="#ff8890a0" android:id="@id/ticklet_alert_text" android:paddingTop="@dimen/margin_1dp" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_duoxuan_weixuan_" />
+            <TextView android:textSize="@dimen/margin_14dp" android:textColor="#ff9c9ca5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="本场次不再提醒" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:gravity="center" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/margin_6dp" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip" android:layout_marginBottom="-3.0dip" android:layout_alignBottom="@id/ticklet_project_top_layout">
+        <cn.damai.baseview.HorizontalDivideView android:id="@id/ticklet_project_divide_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="6.0dip" android:layout_marginLeft="7.0dip" android:layout_marginRight="7.0dip" android:scaleType="fitXY" app:color_style="#339c9ca5" app:type_style="circle" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/ticklet_alert_top_icon_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:background="@drawable/bg_border_ticklet_white_top_corner" android:paddingLeft="@dimen/margin_17dp" android:paddingTop="@dimen/margin_10dp" android:paddingRight="@dimen/margin_17dp" android:paddingBottom="@dimen/margin_11dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/commonbusiness_ticklet_pop_top_icon" />
+    </FrameLayout>
+</RelativeLayout>

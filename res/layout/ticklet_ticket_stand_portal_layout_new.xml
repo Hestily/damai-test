@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_stand_notice" android:paddingLeft="@dimen/margin_12dp" android:paddingRight="@dimen/margin_12dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/margin_26dp" android:maxLines="1" style="@style/ticklet_white_13dp" />
+    <com.alibaba.pictures.bricks.view.BricksStrokeLinearLayout android:id="@id/ll_ticket_stand_stroke_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" app:sl_corners_radius="9.0dip" app:sl_stroke_color="#0d000000" app:sl_stroke_width="1.0px">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_stand_portal_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/margin_44dp">
+            <View android:id="@id/bg_stand_portal_layout" android:background="@drawable/ticket_map_normal_zhijiao" android:layout_width="fill_parent" android:layout_height="@dimen/margin_44dp" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <View android:id="@id/bg_mask_stand_portal_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/margin_44dp" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_stand_portal_layout" android:paddingLeft="@dimen/margin_12dp" android:paddingRight="@dimen/margin_12dp" android:layout_width="fill_parent" android:layout_height="@dimen/margin_44dp" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <TextView android:textSize="13.0dip" android:textColor="#ff181818" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_stand_portal_entry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_6dp" android:maxLines="1" android:layout_weight="1.0" />
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="center|right" android:orientation="horizontal" android:id="@id/ll_stand_portal_nav" android:background="@drawable/shape_3a3a3a_6_bg" android:paddingLeft="@dimen/margin_10dp" android:paddingRight="@dimen/margin_11dp" android:layout_width="wrap_content" android:layout_height="25.0dip">
+                    <cn.damai.uikit.iconfont.DMIconFontTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="@string/iconfont_dizhi" style="@style/ticklet_white_16dp" />
+                    <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:id="@id/tv_stand_portal_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_3dp" android:text="导航入场" style="@style/ticklet_white_12dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.alibaba.pictures.bricks.view.BricksStrokeLinearLayout>
+    <cn.damai.ticklet.view.HorizontalDivideView android:id="@id/ticket_stand_divide_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginTop="-3.0dip" android:scaleType="fitXY" app:divide_color="#ffced1d6" app:height="@dimen/margin_3dp" app:space="@dimen/margin_5dp" app:width="0.5dip" />
+</merge>

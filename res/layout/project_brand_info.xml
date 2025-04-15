@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/bg_border_corner_white_9" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginRight="9.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.moimage.MoImageView android:id="@id/project_brand_info_brand_icon" android:layout_width="63.0dip" android:layout_height="63.0dip" app:actualImageScaleType="centerCrop" app:failureImage="@drawable/bricks_default_image_bg_gradient" app:placeholderImage="@drawable/bricks_default_image_bg_gradient" app:roundedCornerRadius="6.0dip" app:roundingBorderColor="@color/color_bricks_primary_10_black" app:roundingBorderWidth="1.0px" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/project_brand_info_content_block" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip">
+        <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="14.0dip" android:textColor="@color/color_bricks_primary_main_title" android:ellipsize="end" android:gravity="center" android:id="@id/project_brand_info_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:lines="1" android:singleLine="true" />
+            <com.alibaba.pictures.moimage.MoImageView android:id="@id/project_brand_info_icon" android:layout_width="31.0dip" android:layout_height="12.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/channel_brand_tag_icon" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom" android:id="@id/project_brand_info_fans_block" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+            <com.alibaba.pictures.bricks.view.DigitTextView android:textSize="14.0dip" android:textColor="#ff69717c" android:id="@id/project_brand_info_fans_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="1.0dip" />
+            <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="12.0dip" android:textColor="#ff69717c" android:id="@id/project_brand_info_fans_num_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="12.0dip" android:textColor="#ff69717c" android:gravity="center" android:id="@id/project_brand_info_fans_num_suffix" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/project_brand_info_btn_block" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/project_brand_info_btn" android:background="@drawable/bg_btn_solid_primary" android:layout_width="64.0dip" android:layout_height="28.0dip" android:layout_centerInParent="true">
+            <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="9.0dip" android:textStyle="bold" android:textColor="@color/color_bricks_primary_white" android:id="@id/project_brand_info_btn_des_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="@string/iconfont_jiarujiahao24" />
+            <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="12.0dip" android:textColor="@color/color_bricks_primary_white" android:id="@id/project_brand_info_btn_des" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="关注" />
+        </LinearLayout>
+        <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="10.0dip" android:textColor="#ffff4886" android:gravity="center" android:id="@id/project_brand_info_btn_activity" android:background="@drawable/pay_attention_for_gift_pop_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-15.0dip" android:layout_alignTop="@id/project_brand_info_btn" android:layout_alignRight="@id/project_brand_info_btn" />
+    </RelativeLayout>
+</LinearLayout>

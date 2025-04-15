@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="33.0dip">
+        <View android:layout_gravity="bottom" android:background="@color/bricks_white" android:layout_width="fill_parent" android:layout_height="@dimen/margin_10dp" />
+        <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:background="@drawable/bg_movie_channel_tab" android:layout_width="fill_parent" android:layout_height="33.0dip" app:selectedIndicatorBackground="@null" app:tabMaxWidth="0.0dip" app:tabMinWidth="@dimen/resource_size_25" style="@style/MovieChannelTabStyle" />
+    </FrameLayout>
+    <FrameLayout android:background="@color/color_F0F3F7" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/gradient_bg" android:layout_width="fill_parent" android:layout_height="85.0dip" />
+        <androidx.viewpager.widget.ViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:nestedScrollingEnabled="false" />
+    </FrameLayout>
+</LinearLayout>

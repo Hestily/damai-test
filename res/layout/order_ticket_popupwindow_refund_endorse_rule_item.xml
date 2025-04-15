@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/tpp_gray_6" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/vip_dialog_bg" android:padding="@dimen/padding_12" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/margin_9" android:layout_marginStart="@dimen/margin_12" android:layout_marginEnd="@dimen/margin_12">
+        <TextView android:textSize="@dimen/text_size_15_dp" android:textColor="@color/color_tpp_primary_title" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/text_size_13_dp" android:textColor="@color/color_tpp_primary_subtitle" android:id="@id/tv_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_12" />
+        <TextView android:textSize="@dimen/text_size_11_dp" android:textColor="#ffc46e31" android:id="@id/tv_refund_endorse_tips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_6dp" />
+        <include android:id="@id/fl_refund_endorse" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_12" layout="@layout/order_ordering_frag_payment_tool_item_endorse_equity" />
+    </LinearLayout>
+</FrameLayout>

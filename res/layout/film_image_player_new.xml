@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.taobao.movie.android.commonui.widget.SimpleDraweeView android:id="@id/film_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.taobao.movie.android.commonui.widget.SimpleDraweeView android:id="@id/film_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:fadeDuration="0" app:failureImage="@drawable/poster_default_bg" app:placeholderImage="@drawable/poster_default_bg" app:roundedCornerRadius="6.0dip" />
+    <com.taobao.movie.android.commonui.widget.MoCardTextView android:textSize="9.0dip" android:textColor="@color/color_tpp_primary_white" android:gravity="center" android:id="@id/film_show_mark" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="15.0dip" android:layout_marginLeft="3.0dip" android:layout_marginTop="3.0dip" android:includeFontPadding="false" app:mocard_background_color="@color/color_tpp_primary_80_black" app:mocard_background_radius="2.0dip" />
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/icon_play" android:visibility="gone" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_margin="4.0dip" />
+    <View android:id="@id/radius_fg" android:background="@drawable/image_tag_view_radius_fg_big" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

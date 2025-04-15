@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/round_12_dialog_background" android:paddingTop="20.0dip" android:layout_width="300.0dip" android:layout_height="wrap_content">
+        <include android:id="@id/risk_cinema_info_block" layout="@layout/order_risk_alert_dialog_item" />
+        <include android:id="@id/risk_time_info_block" layout="@layout/order_risk_alert_dialog_item" />
+        <include android:id="@id/risk_refund_info_block" layout="@layout/order_risk_alert_dialog_item" />
+        <View android:background="@color/color_tpp_primary_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="13.0dip" android:textColor="@color/color_tpp_primary_assist" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="确认好信息再付款哦" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/color_tpp_primary_assist" android:id="@id/risk_info_timer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

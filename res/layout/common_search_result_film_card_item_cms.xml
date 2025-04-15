@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/search_result_film_card_normal_header" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="123.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip">
+        <com.taobao.movie.android.commonui.widget.FilmImagePlayNew android:id="@id/search_result_film_card_poster" android:layout_width="88.0dip" android:layout_height="123.0dip" android:layout_marginRight="11.0dip" />
+        <com.taobao.movie.android.commonui.widget.MoCardView android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:mocard_background_radius="6.0dip" app:mocard_model="clip">
+            <TextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_invalid" android:gravity="center" android:id="@id/search_result_film_card_no_banner" android:background="@color/color_tpp_primary_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="暂无图片" />
+            <com.taobao.movie.android.commonui.widget.banner.BannerView android:id="@id/search_result_film_card_banner" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.taobao.movie.android.commonui.widget.MoCardView>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="7.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.taobao.movie.android.commonui.widget.TitleMarkView android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/search_result_film_card_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="40.0dip" android:layout_marginBottom="2.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip">
+                <TextView android:id="@id/openday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/Item_SubTitle2" />
+                <LinearLayout android:gravity="center_vertical" android:id="@id/search_result_film_card_score_favor" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_subtitle" android:gravity="center_vertical" android:id="@id/search_result_film_card_score_favor_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/remark_title" android:singleLine="true" android:includeFontPadding="false" />
+                    <View android:layout_width="3.0dip" android:layout_height="fill_parent" />
+                    <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/color_tpp_primary_yellow" android:id="@id/search_result_film_card_score_favor_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_subtitle" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/score_favor_right_hint" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/remark_title_lite" android:paddingStart="3.0dip" style="@style/FilmWantTitle" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_subtitle" android:ellipsize="end" android:id="@id/search_result_film_card_other_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+        </LinearLayout>
+        <Button android:id="@id/search_result_film_card_buy_btn" android:padding="0.0dip" android:layout_marginLeft="12.0dip" android:text="购票" style="@style/buy_button_style_small_7_3" />
+        <FrameLayout android:id="@id/search_result_favorite_fl" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip">
+            <TextView android:textSize="10.0dip" android:textColor="#ffff3d5c" android:layout_gravity="end" android:id="@id/favorite_with_gift" android:background="@drawable/want_see_with_gift_pop" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="17.0dip" android:text="想看有礼" />
+            <com.taobao.movie.android.app.oscar.ui.film.widget.WantButton android:layout_gravity="end|bottom|center" android:id="@id/search_result_favorite" android:padding="0.0dip" android:text="想看" style="@style/want_button_style_small" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/search_result_favorite_fl_pioneer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="40.5dip" android:layout_marginTop="7.0dip">
+            <TextView android:textSize="9.0dip" android:textColor="#ffff7600" android:ellipsize="none" android:gravity="bottom|center" android:id="@id/favorite_with_gift_pioneer" android:background="@drawable/nowshowing_dicount_button_bg_pioneer" android:paddingTop="13.5dip" android:paddingBottom="1.0dip" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="27.0dip" android:layout_marginTop="13.5dip" android:text="想看有礼" android:singleLine="true" />
+            <com.taobao.movie.android.app.oscar.ui.film.widget.WantButton android:layout_gravity="end|center|top" android:id="@id/search_result_favorite_pioneer" android:padding="0.0dip" android:text="想看" android:elevation="0.0dip" style="@style/want_button_style_small" />
+        </FrameLayout>
+    </LinearLayout>
+    <com.taobao.movie.android.commonui.widget.MoLinearCardView android:gravity="center_vertical" android:id="@id/search_result_film_card_notice" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="15.0dip" app:mocard_background_color="@color/color_tpp_primary_bg" app:mocard_background_radius="3.0dip">
+        <View android:layout_width="11.0dip" android:layout_height="fill_parent" />
+        <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/color_tpp_primary_yellow" android:id="@id/search_result_film_card_notice_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxEms="6" android:singleLine="true" />
+        <View android:id="@id/search_result_film_card_notice_divider" android:background="@color/color_tpp_primary_assist" android:layout_width="1.0px" android:layout_height="9.0dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:alpha="0.3" />
+        <TextView android:textSize="12.0dip" android:ellipsize="end" android:id="@id/search_result_film_card_notice_content" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="11.0dip" android:singleLine="true" android:layout_weight="1.0" />
+    </com.taobao.movie.android.commonui.widget.MoLinearCardView>
+</LinearLayout>

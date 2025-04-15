@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout style="@style/CommonListItemContainerWhiteSaleItem">
+        <RelativeLayout android:id="@id/order_sale_item_image_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <com.taobao.movie.android.commonui.widget.SimpleDraweeView android:layout_gravity="top" android:id="@id/order_sale_item_image" android:layout_width="60.0dip" android:layout_height="60.0dip" app:failureImage="@drawable/sale_item_default" app:failureImageScaleType="centerCrop" app:placeholderImage="@drawable/sale_item_default" app:placeholderImageScaleType="centerCrop" app:roundedCornerRadius="6.0dip" app:roundingBorderColor="#1a000000" app:roundingBorderWidth="0.5dip" />
+            <TextView android:textSize="10.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/order_sale_item_image_new" android:background="@color/tpp_secondary_green" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="15.0dip" android:text="新品" />
+            <TextView android:textSize="10.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/order_sale_item_image_hot" android:background="@color/tpp_primary_red" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="15.0dip" android:text="销量最高" />
+            <TextView android:textSize="10.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/order_sale_item_image_buy" android:background="@color/tpp_primary_red" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="15.0dip" android:text="买过" />
+        </RelativeLayout>
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_10dp" android:layout_marginRight="0.0dip" android:layout_toRightOf="@id/order_sale_item_image_container" layout="@layout/order_ordering_common_sale_item" />
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/order_sale_item_gift_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.taobao.movie.android.commonui.widget.RoundedTextView android:textSize="10.0dip" android:textColor="@color/common_color_1049" android:layout_gravity="center_vertical" android:id="@id/activity_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:includeFontPadding="false" app:background_color="@color/common_color_1049" app:padding_horizontal="4" app:padding_vertical="2" app:round_radius="24" app:round_type="stroke" />
+                <TextView android:textColor="@color/color_tpp_primary_subtitle" android:text="赠送" android:includeFontPadding="false" style="@style/CommonListItemText" />
+                <TextView android:textColor="@color/color_tpp_primary_subtitle" android:id="@id/order_sale_item_gift_value" android:text="0" android:includeFontPadding="false" style="@style/CommonListItemText" />
+                <TextView android:textColor="@color/color_tpp_primary_subtitle" android:text="份" android:includeFontPadding="false" style="@style/CommonListItemText" />
+            </LinearLayout>
+        </FrameLayout>
+    </RelativeLayout>
+    <View android:id="@id/divide_line" android:layout_alignParentBottom="true" style="@style/ListItemBorderWithMarginDp" />
+    <com.taobao.movie.android.commonui.widget.CornerTagTextView android:id="@id/sales_corner_tag_lab" android:visibility="gone" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" app:tag_background_color="@color/common_color_1049" app:tag_corner_orientation="topRight" app:tag_margin_corner_dp="10" app:tag_text_color="@color/white" app:tag_text_size_dp="10" />
+</RelativeLayout>

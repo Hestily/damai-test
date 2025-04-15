@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/white" android:paddingLeft="21.0dip" android:paddingTop="15.0dip" android:paddingRight="21.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/item_tetris_poster_card_with_stack_bg" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip">
+        <TextView android:textSize="16.0dip" android:textColor="@color/black" android:ellipsize="end" android:id="@id/drama_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/color_9C9CA5" android:ellipsize="end" android:id="@id/drama_tag" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:lines="1" android:layout_below="@id/drama_title" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/color_9C9CA5" android:ellipsize="end" android:id="@id/drama_citys" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:lines="1" android:layout_below="@id/drama_tag" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/color_FF993A" android:id="@id/drama_ipuv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/drama_focus_state_ui" android:background="@drawable/shape_corner_13_solid_white_storke_15_black" android:layout_width="64.0dip" android:layout_height="25.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+            <TextView android:textSize="12.0dip" android:textColor="@color/black" android:id="@id/drama_focus_state_tv" android:paddingRight="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

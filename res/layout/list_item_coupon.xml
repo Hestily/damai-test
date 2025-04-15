@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingLeft="18.0dip" android:paddingTop="18.0dip" android:paddingRight="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@drawable/bg_border_corner_ff_no_trans" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="bottom|center|right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_15dp" android:src="@drawable/coupons_icon" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="@dimen/margin_17dp" android:paddingRight="@dimen/margin_15dp" android:paddingBottom="@dimen/margin_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:orientation="vertical" android:paddingLeft="@dimen/margin_15dp" android:layout_width="105.0dip" android:layout_height="fill_parent">
+                <TextView android:textSize="21.0dip" android:textStyle="bold" android:textColor="@color/main_color" android:ellipsize="end" android:id="@id/tv_coupon_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentTop="true" />
+                <TextView android:textSize="@dimen/margin_10dp" android:textColor="@color/color_BBBBBB" android:ellipsize="end" android:id="@id/tv_coupon_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="14.0dip" android:textColor="@color/color_111111" android:ellipsize="end" android:gravity="right" android:id="@id/tv_coupon_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                <TextView android:textSize="10.0dip" android:textColor="@color/color_BBBBBB" android:ellipsize="end" android:id="@id/tv_coupon_channel" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                <TextView android:textSize="10.0dip" android:textColor="@color/color_BBBBBB" android:ellipsize="end" android:id="@id/tv_coupon_time" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:id="@id/ll_coupon_user" android:paddingLeft="@dimen/margin_5dp" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <TextView android:textSize="12.0dip" android:textColor="@color/color_FF1268" android:gravity="center" android:id="@id/tv_coupon_user" android:background="@drawable/bg_border_red_trans" android:layout_width="54.0dip" android:layout_height="@dimen/margin_24dp" android:text="去使用" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

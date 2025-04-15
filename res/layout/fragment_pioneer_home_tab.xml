@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.damai.pioneer.view.EdgeCompatDrawerLayout android:id="@id/home_pioneer_drawer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:gravity="center" android:id="@id/home_pioneer_main_ui" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardCornerRadius="0.0dip" app:cardElevation="0.0dip">
+        <FrameLayout android:id="@id/home_pioneer_main_f_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include android:layout_gravity="bottom|center" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip" layout="@layout/homepage_newperson_countdown_view" />
+        <FrameLayout android:layout_gravity="bottom|center" android:id="@id/id_pioneer_home_bottom_tab_block" android:background="@drawable/home_bottom_tab_pioneer_layer_background" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/layout_home_bottom_tab_pioneer" />
+        </FrameLayout>
+        <ViewStub android:id="@id/id_pioneer_live_tip_stub" android:layout="@layout/view_pioneer_live_tips" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </androidx.cardview.widget.CardView>
+    <cn.damai.pioneer.view.PercentFrameLayout android:layout_gravity="start" android:id="@id/home_pioneer_left_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</cn.damai.pioneer.view.EdgeCompatDrawerLayout>

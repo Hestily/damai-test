@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:background="@drawable/item_city_map_music_p" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="18.0dip">
+        <View android:background="@drawable/bg_item_city_mark_white_p" android:layout_width="3.0dip" android:layout_height="3.0dip" />
+        <TextView android:textSize="10.0dip" android:textColor="@color/color_FF2869" android:ellipsize="end" android:id="@id/item_city_music_p_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:maxWidth="108.0dip" android:lines="1" />
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="10.0dip" android:textColor="@color/color_FF2869" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:text="@string/iconfont_youjiantou12" />
+    </LinearLayout>
+</LinearLayout>

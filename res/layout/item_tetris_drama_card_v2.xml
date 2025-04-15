@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="98.0dip" android:layout_height="194.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/drama_inner_layout" android:layout_width="98.0dip" android:layout_height="wrap_content">
+        <include layout="@layout/item_tetris_poster_card_with_stack_bg" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/color_FF993A" android:ellipsize="end" android:id="@id/drama_ipuv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:lines="1" />
+        <cn.damai.uikit.view.ScoreStarDigitView android:id="@id/drama_star_score" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/black" android:ellipsize="end" android:id="@id/drama_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:lines="2" />
+    </LinearLayout>
+</LinearLayout>

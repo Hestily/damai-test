@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mine_user_feed_wrapper" android:background="@drawable/mine_brand_card_border" android:layout_width="fill_parent" android:layout_height="66.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.uikit.view.RoundImageView android:id="@id/mine_user_feed_propic" android:layout_width="32.0dip" android:layout_height="42.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:scaleType="centerCrop" android:layout_centerVertical="true" app:borderRadius="6.0dip" app:type="round" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout android:orientation="vertical" android:id="@id/mine_user_feed_mid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="25.0dip" android:layout_toRightOf="@id/mine_user_feed_propic" android:layout_centerVertical="true">
+        <TextView android:textSize="14.0dip" android:textColor="#ff111111" android:ellipsize="end" android:id="@id/mine_user_feed_mid_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textSize="12.0dip" android:textColor="#ff9c9ca5" android:ellipsize="end" android:id="@id/mine_user_feed_mid_text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:maxLines="1" android:layout_below="@id/mine_user_feed_mid_text" />
+    </LinearLayout>
+    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="14.0dip" android:textColor="@color/black" android:id="@id/mine_user_feed_jiantou" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:text="@string/iconfont_youjiantou24" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/item_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.taobao.movie.android.app.oscar.ui.film.widget.HalfSolidTagViewV2 android:id="@id/tag_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_main_title" android:id="@id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

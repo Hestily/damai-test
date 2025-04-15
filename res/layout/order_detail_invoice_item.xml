@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="@dimen/margin_15dp" android:paddingRight="@dimen/margin_15dp" android:paddingBottom="@dimen/margin_24dp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/margin_24dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/margin_16dp" android:textColor="@color/color_000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="开具发票" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_000000" android:id="@id/tv_invoice_state" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_000000" android:id="@id/tv_invoice_state_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/iconfont_youjiantou24" android:layout_toRightOf="@id/tv_invoice_state" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_999999" android:id="@id/tv_invoice_tip" android:paddingTop="@dimen/margin_15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

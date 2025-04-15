@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/color_tpp_primary_bg" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0dip" android:textStyle="bold" android:textColor="@color/color_tpp_primary_main_title" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="9.0dip" android:text="优惠券" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/tpp_secondary_orange" android:id="@id/tv_broadcast" android:background="@drawable/schedule_broadcast_bg" android:paddingLeft="9.0dip" android:paddingTop="6.0dip" android:paddingRight="9.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="6.0dip" android:text="不同种类券（影片券/通用券/影城券）可叠加使用，每类仅可使用1张" />
+</LinearLayout>

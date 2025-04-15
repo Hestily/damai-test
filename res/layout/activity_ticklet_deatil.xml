@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ticklet_detail_ll" android:background="@color/color_F5F5F5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.damai.ticklet.view.TickletDetailBgView android:id="@id/ticklet_detail_fr_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.damai.ticklet.view.TickletDetailHeader android:id="@id/td_header" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:orientation="vertical" android:id="@id/onearch_fragment_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/td_header" />
+    <LinearLayout android:orientation="vertical" android:id="@id/errorPageView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/td_header" />
+    <FrameLayout android:id="@id/ticklet_detail_fr_perform_cancel" android:background="#99000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.damai.ticklet.view.TickletPerformCancelView android:id="@id/ticklet_detail_perform_cancel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <FrameLayout android:orientation="vertical" android:id="@id/ticklet_container" android:background="#e0000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/ticklet_screen_container" android:background="#80000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

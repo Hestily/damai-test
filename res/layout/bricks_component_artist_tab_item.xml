@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="@dimen/resource_size_60" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/tab_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <FrameLayout android:id="@id/avatar_lay" android:background="@drawable/bricks_avatar_outer_border" android:padding="@dimen/resource_size_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <com.alibaba.pictures.bricks.view.RoundRadiusImageView android:id="@id/avatar" android:layout_width="@dimen/resource_size_40" android:layout_height="@dimen/resource_size_40" android:scaleType="centerCrop" app:r_round_radius="@dimen/resource_size_20" app:r_stroke_color="#1a000000" app:r_stroke_width="1.0px" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/tag_lay" android:background="@drawable/bricks_bg_artist_tag" android:layout_width="@dimen/resource_size_15" android:layout_height="@dimen/resource_size_15" android:layout_alignParentEnd="true">
+            <TextView android:textSize="@dimen/resource_size_10" android:textColor="@color/cg_7" android:gravity="center" android:layout_gravity="center" android:id="@id/tag" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <TextView android:ellipsize="end" android:gravity="center" android:id="@id/tab_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/resource_size_6" android:maxLines="1" android:singleLine="true" android:includeFontPadding="false" android:layout_below="@id/avatar_lay" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

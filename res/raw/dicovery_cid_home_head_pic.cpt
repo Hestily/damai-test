@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.live.mvp.HeaderModel",
+    "vClass": "cn.damai.tetris.component.live.mvp.HeaderView",
+    "pClass": "cn.damai.tetris.component.live.mvp.HeaderPresenter",
+    "layoutXml": "live_header_layout"
+  }
+}

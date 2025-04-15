@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/address_container" android:background="@drawable/bg_choose_corner_white" android:layout_width="fill_parent" android:layout_height="400.0dip">
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/rl_title" android:layout_width="fill_parent" android:layout_height="64.0dip">
+            <TextView android:textSize="@dimen/margin_16dp" android:textColor="@color/color_000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="选择收货地址" android:layout_centerInParent="true" />
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_999999" android:gravity="center" android:id="@id/address_text_ok" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/iconfont_zuoweimingxiguanbi" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <View android:background="@color/color_EEEEEE" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginRight="@dimen/margin_15dp" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/address_ll_add" android:background="@drawable/bg_border_corner_fa_10" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginTop="@dimen/margin_15dp" android:layout_marginRight="@dimen/margin_15dp" android:layout_marginBottom="@dimen/margin_15dp">
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_10dp" android:textColor="@color/color_FF2D79" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_dingyue12" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/color_FF2D79" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="新增" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </LinearLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/address_rl_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include layout="@layout/layout_empty_page" />
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/address_recyclerview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.pictures.moimage.MoImageView android:id="@id/iv_mine_banner" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:actualImageScaleType="centerCrop" app:failureImage="@drawable/bricks_default_image_bg_gradient" app:placeholderImage="@drawable/bricks_default_image_bg_gradient"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/live_content_detail_cover" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/live_content_detail_tour_tip_layout" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip">
+        <ImageView android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@drawable/icon_content_detail_title_prefix" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/color_9C9CA5" android:ellipsize="end" android:id="@id/live_content_detail_tour_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:lines="1" />
+    </LinearLayout>
+    <TextView android:textSize="20.0dip" android:textColor="@color/color_000000" android:id="@id/live_content_detail_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_12dp" android:layout_marginTop="9.0dip" android:layout_marginRight="@dimen/margin_12dp" android:lineSpacingMultiplier="1.2" />
+    <RelativeLayout android:id="@id/live_content_detail_from_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_12dp" android:layout_marginTop="@dimen/margin_9dp" android:layout_marginRight="@dimen/margin_12dp">
+        <TextView android:textSize="10.0dip" android:textColor="@color/color_9C9CA5" android:id="@id/live_content_detail_from_source" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <cn.damai.uikit.view.RoundImageView android:id="@id/live_content_detail_from_avatar" android:layout_width="@dimen/margin_20dp" android:layout_height="@dimen/margin_20dp" android:layout_marginLeft="@dimen/margin_6dp" android:layout_toRightOf="@id/live_content_detail_from_source" android:layout_centerVertical="true" />
+        <TextView android:textSize="10.0dip" android:textColor="@color/color_9C9CA5" android:id="@id/live_content_detail_from_nickname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_6dp" android:layout_toRightOf="@id/live_content_detail_from_avatar" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

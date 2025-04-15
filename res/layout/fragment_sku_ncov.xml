@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/layout_sku" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/header" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/img_project" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/sku_see_head_bg" android:scaleType="fitXY" />
+            <View android:id="@id/header_image" android:layout_width="fill_parent" android:layout_height="240.0dip" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:id="@id/title_bar_space" android:background="@color/bricks_white" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+            <include android:id="@id/discount_ticket_title_layout" layout="@layout/fragment_sku_ncov_title" />
+            <FrameLayout android:id="@id/main_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar" android:background="#00000000" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+                        <com.google.android.material.appbar.CollapsingToolbarLayout android:orientation="vertical" android:id="@id/layout_scroll" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll">
+                            <include layout="@layout/fragment_sku_ncov_top" />
+                        </com.google.android.material.appbar.CollapsingToolbarLayout>
+                        <include android:id="@id/layout_simple_date" android:visibility="gone" layout="@layout/fragment_sku_ncov_simple_date" />
+                    </com.google.android.material.appbar.AppBarLayout>
+                    <cn.damai.commonbusiness.seatbiz.sku.qilin.widget.VerticalNestedScrollView android:id="@id/preform_scrollview" android:background="@color/bricks_white" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:overScrollMode="never" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+                        <LinearLayout android:orientation="vertical" android:paddingBottom="130.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:paddingLeft="21.0dip" android:paddingRight="21.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <include android:id="@id/layout_date" android:visibility="gone" layout="@layout/fragment_sku_ncov_date" />
+                                <include layout="@layout/fragment_sku_ncov_perform" />
+                                <include android:id="@id/layout_price" android:visibility="gone" layout="@layout/fragment_sku_ncov_price" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </cn.damai.commonbusiness.seatbiz.sku.qilin.widget.VerticalNestedScrollView>
+                </androidx.coordinatorlayout.widget.CoordinatorLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <include android:layout_gravity="bottom" android:id="@id/bottom_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/fragment_sku_ncov_bottom" />
+        <FrameLayout android:id="@id/fragment_price_detail" android:background="#99000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="61.0dip" />
+        <FrameLayout android:id="@id/fragment_discount" android:background="#99000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/error_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

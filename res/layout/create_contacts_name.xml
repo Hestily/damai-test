@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/order_create_contacts_name_layout" android:paddingLeft="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="13.0dip" android:textColor="@color/color_666666" android:ellipsize="end" android:gravity="center" android:id="@id/order_create_contacts_name" android:background="@drawable/bg_border_corner_cc" android:paddingLeft="@dimen/margin_12dp" android:paddingRight="@dimen/margin_12dp" android:layout_width="wrap_content" android:layout_height="28.0dip" android:singleLine="true" />
+        <ImageView android:layout_gravity="bottom|center|right" android:id="@id/order_create_contacts_name_select_image" android:visibility="gone" android:layout_width="@dimen/margin_12dp" android:layout_height="@dimen/margin_12dp" android:src="@drawable/trade_order_select" />
+    </FrameLayout>
+    <View android:id="@id/order_create_contact_list_last_view_margin" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="fill_parent" />
+</LinearLayout>

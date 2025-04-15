@@ -1,0 +1,13 @@
+{
+  "data": {
+    "title": {
+      "value": "${titleText}",
+      "extend": {
+        "font-family": "AlibabaPuHuiTiH",
+        "margin-top": "@{env(isAndroid) ? -3px : 0px}"
+      }
+    },
+    "subtitle": { "value": "${subTitleText}" },
+    "tpp_art_headline_list": { "value": "$$" }
+  }
+}

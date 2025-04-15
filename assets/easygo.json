@@ -1,0 +1,62 @@
+{
+  "easyGoVersion": "1.0",
+  "client": "cn.damai",
+  "logicEntities": [
+    {
+      "head": {
+        "function": "magicwindow",
+        "required": "true"
+      },
+      "body": {
+        "mode": "1",
+        "defaultDualActivities": {
+          "mainPages": "cn.damai.homepage.MainActivity",
+          "relatedPage": "cn.damai.rank.RankSquareCMSActivity"
+        },
+        "activityPairs": [
+          {
+            "from": "cn.damai.homepage.MainActivity",
+            "to": "*"
+          }
+        ],
+        "Activities": [
+          {
+            "name": "cn.damai.homepage.MainActivity",
+            "lockSide": "primary"
+          },
+          {
+            "name": "com.alibaba.pictures.bricks.channel.activity.BricksChannelPageActivity",
+            "lockSide": "primary"
+          },
+          {
+            "name": "com.taobao.movie.android.app.oscar.ui.cinema.activity.CinemaMainActivity",
+            "lockSide": "primary"
+          },
+          {
+            "name": "com.alibaba.pictures.bricks.search.v2.SearchActivity",
+            "lockSide": "primary"
+          },
+          {
+            "name": "cn.damai.launcher.splash.SplashMainActivity",
+            "defaultFullScreen": "true"
+          },
+          {
+            "name": "cn.damai.seat.ui.TSeatActivity",
+            "defaultFullScreen": "true"
+          },
+          {
+            "name": "cn.damai.seat.ui.SeatActivity",
+            "defaultFullScreen": "true"
+          },
+          {
+            "name": "cn.damai.seat.ui.RegionActivity",
+            "defaultFullScreen": "true"
+          }
+        ],
+        "UX": {
+          "supportDraggingToFullScreen": "true"
+        }
+      }
+    }
+  ]
+}

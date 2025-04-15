@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <TextView android:textSize="@dimen/margin_18dp" android:textColor="@color/color_111111" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="相关结果" android:layout_centerInParent="true" android:layout_centerHorizontal="true" />
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_24dp" android:textColor="@color/black" android:id="@id/tv_back" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="18.0dip" android:text="@string/iconfont_fanhui24" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <cn.damai.uikit.indicator.PagerIndicator android:layout_gravity="center_horizontal" android:id="@id/indicator" android:layout_width="fill_parent" android:layout_height="45.0dip" app:pi_allowWidthFull="true" app:pi_disableTensileSlidingBlock="true" app:pi_slidingBlock="@drawable/common_business_image_sliding_block" />
+    <View android:background="@color/color_eeeeee" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <androidx.viewpager.widget.ViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:flipInterval="30" />
+</LinearLayout>

@@ -1,0 +1,38 @@
+{
+  "id": "damai_script_play_payment_method",
+  "type": "gaia-template",
+  "package": {
+    "id": "damai_script_play_payment_method",
+    "version": "0.0.1",
+    "constraint-size": { "width": 375, "height": 200, "zoom": 1 },
+    "modify-timestamp": "Fri Jun 17 2022 10:04:35 GMT+0800 (中国标准时间)",
+    "dependencies": {}
+  },
+  "layers": [
+    {
+      "id": "content_view",
+      "type": "view",
+      "layers": [
+        { "id": "title", "type": "text" },
+        {
+          "id": "payment_holder_0",
+          "type": "view",
+          "layers": [
+            { "id": "payment_icon_0", "type": "image" },
+            { "id": "payment_text_0", "type": "text" },
+            { "id": "payment_select_0", "type": "iconfont" }
+          ]
+        },
+        {
+          "id": "payment_holder_1",
+          "type": "view",
+          "layers": [
+            { "id": "payment_icon_1", "type": "image" },
+            { "id": "payment_text_1", "type": "text" },
+            { "id": "payment_select_1", "type": "iconfont" }
+          ]
+        }
+      ]
+    }
+  ]
+}

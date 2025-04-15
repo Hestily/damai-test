@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/dm_perform_widget_item_ll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/dm_perform_widget_item_num_iv" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+    <TextView android:textSize="12.0dip" android:textColor="#ff2e333e" android:ellipsize="end" android:id="@id/dm_perform_widget_item_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="100.0dip" android:maxLines="1" android:includeFontPadding="false" />
+    <TextView android:textSize="10.0dip" android:textStyle="bold" android:textColor="#ffff335c" android:gravity="center" android:id="@id/dm_perform_widget_item_tag" android:background="@drawable/bricks_hot_list_tag_benefit_bg" android:visibility="visible" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="4.0dip" android:text="惠" />
+</LinearLayout>

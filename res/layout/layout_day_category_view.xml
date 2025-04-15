@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingBottom="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.damai.uikit.calendar.DayView android:textSize="14.0dip" android:textColor="#ff111111" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/day_view" android:layout_width="@dimen/margin_30dp" android:layout_height="@dimen/margin_30dp" android:layout_marginTop="@dimen/margin_10dp" />
+    <TextView android:textSize="@dimen/margin_9dp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_mark_class" android:background="@drawable/icon_calendar_ban" android:layout_width="16.0dip" android:layout_height="15.0dip" android:text="休" />
+    <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_mark_project" android:background="@drawable/red_radius" android:layout_width="3.0dip" android:layout_height="3.0dip" android:layout_marginTop="36.0dip" />
+    <TextView android:textSize="@dimen/margin_9dp" android:textColor="@color/coupon_item_price_red" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_mark_holiday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="42.0dip" />
+</FrameLayout>

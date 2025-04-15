@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/iv_mine_vip_member_container" android:layout_width="fill_parent" android:layout_height="96.0dip" android:minHeight="92.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/iv_mine_vip_member_bg_fl" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.pictures.moimage.MoImageView android:id="@id/iv_mine_vip_member_bg" android:layout_width="fill_parent" android:layout_height="92.0dip" android:layout_margin="1.0dip" android:scaleType="fitXY" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/mine_vip_member_bg" android:paddingLeft="@dimen/margin_12dp" android:paddingTop="@dimen/margin_9dp" android:paddingRight="@dimen/margin_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/iv_vip_title" android:layout_width="wrap_content" android:layout_height="@dimen/margin_21dp" android:src="@drawable/mine_vip_icon_default" />
+            <TextView android:textSize="12.0dip" android:textColor="#ff742626" android:gravity="right" android:id="@id/tv_vip_all_profit_entry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="#ff742626" android:id="@id/tv_vip_all_profit_entry_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_rukoujiantou_16" />
+        </LinearLayout>
+        <TextView android:textSize="12.0dip" android:textColor="#b3ffffff" android:id="@id/tv_vip_limit_fail_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginTop="@dimen/margin_12dp" android:layout_marginBottom="@dimen/margin_12dp" android:text="前方网络拥堵，请下拉页面刷新试试～" />
+        <cn.damai.mine.view.banner.Banner android:id="@id/banner" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</FrameLayout>

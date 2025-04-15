@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/button_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/save_local_storage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="12.0dip" android:textColor="@color/color_959aa5" android:paddingTop="@dimen/padding_20dp" android:paddingBottom="@dimen/padding_20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="保存到手机" android:drawableTop="@drawable/tk_save" android:drawablePadding="6.0dip" />
+    </LinearLayout>
+    <View android:layout_gravity="center_vertical" android:background="@color/color_e9ebef" android:layout_width="0.75dip" android:layout_height="25.0dip" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/sns_share" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="12.0dip" android:textColor="@color/color_959aa5" android:paddingTop="@dimen/padding_20dp" android:paddingBottom="@dimen/padding_20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="分享给好友" android:drawableTop="@drawable/tk_sns" android:drawablePadding="6.0dip" />
+    </LinearLayout>
+</LinearLayout>

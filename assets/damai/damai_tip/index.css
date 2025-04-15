@@ -1,0 +1,17 @@
+#damai_tip {
+  width: 100%;
+  height: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+#tip_desc {
+  text-overflow: ellipsis;
+  color: #9c9ca5;
+  font-size: 12px;
+  lines: 0;
+  fit-content: true;
+  width: 100%;
+  height: 100%;
+  line-height: 18px;
+  margin-top: 12px;
+}

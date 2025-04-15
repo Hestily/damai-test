@@ -1,0 +1,74 @@
+{
+  "data": {
+    "damai_followfans_avatar": { "value": "$$" },
+    "name_title": {
+      "value": "${objectName}",
+      "extend": { "fit-content": "true" }
+    },
+    "subtitle": {
+      "value": "@{eval(${from} == 'follow') ? @{eval(objectType + ${objectType} == 'objectType2') ? '粉丝 ' + ${fansNumStr} : @{eval(objectType + ${objectType} == 'objectType1') ? ${objectDesc} : @{eval(recentShowTotalNum + ${recentShowTotalNum} != 'recentShowTotalNum0') ? 近期 + ${recentShowTotalNum} + '场演出 | 粉丝 ' + ${fansNumStr} : '粉丝 ' + ${fansNumStr}}}} : ${objectDesc}}",
+      "extend": {
+        "margin-top": "@{eval(${from} == 'follow') ? @{eval(objectType + ${objectType} == 'objectType2') ? @{eval(size('' + ${fansNumStr}) > 0) ? @{env(isAndroid) ? 5px : 7px} : 0px} : @{eval(objectType + ${objectType} == 'objectType1') ? @{eval(size(${objectDesc}) > 0) ? @{env(isAndroid) ? 5px : 7px} : 0px} : @{eval(size('' + ${fansNumStr}) > 0) ? @{env(isAndroid) ? 5px : 7px} : 0px}}} : @{eval(size(${objectDesc}) > 0) ? @{env(isAndroid) ? 5px : 7px} : 0px}}",
+        "display": "@{eval(${from} == 'follow') ? @{eval(objectType + ${objectType} == 'objectType2') ? @{eval(size('' + ${fansNumStr}) > 0) ? flex : none} : @{eval(objectType + ${objectType} == 'objectType1') ? @{eval(size(${objectDesc}) > 0) ? flex : none} : @{eval(size('' + ${fansNumStr}) > 0) ? flex : none}}} : @{eval(size(${objectDesc}) > 0) ? flex : none}}",
+        "height": "@{eval(${from} == 'follow') ? @{eval(objectType + ${objectType} == 'objectType2') ? @{eval(size('' + ${fansNumStr}) > 0) ? 14px : 0px} : @{eval(objectType + ${objectType} == 'objectType1') ? @{eval(size(${objectDesc}) > 0) ? 14px : 0px} : @{eval(size('' + ${fansNumStr}) > 0) ? 14px : 0px}}} : @{eval(size(${objectDesc}) > 0) ? 14px : 0px}}",
+        "fit-content": "true"
+      }
+    },
+    "show_name": {
+      "value": "${recentShowProject[0].name}",
+      "extend": {
+        "margin-top": "@{eval(${from} == 'follow') ? @{${recentShowProject} ? @{eval(size(${recentShowProject}) > 0) ? @{eval(objectType + ${objectType} == 'objectType2') ? 0px : 12px} : 0px} : 0px} : 0px}",
+        "display": "@{eval(${from} == 'follow') ? @{${recentShowProject} ? @{eval(size(${recentShowProject}) > 0) ? @{eval(objectType + ${objectType} == 'objectType2') ? none : flex} : none} : none} : none}",
+        "fit-content": "true"
+      }
+    },
+    "show_info": {
+      "value": "${recentShowProject[0].venueCity} + @{eval(size(${recentShowProject[0].venueCity}) > 0) ? ' | ' : ''} + ${recentShowProject[0].showTime} + @{eval(size(${recentShowProject[0].showTime}) > 0) ? ' | ' : ''} + ${recentShowProject[0].venueName}",
+      "extend": {
+        "margin-top": "@{eval(${from} == 'follow') ? @{${recentShowProject} ? @{eval(size(${recentShowProject}) > 0) ? @{eval(objectType + ${objectType} == 'objectType2') ? 0px : 7px} : 0px} : 0px} : 0px}",
+        "display": "@{eval(${from} == 'follow') ? @{${recentShowProject} ? @{eval(size(${recentShowProject}) > 0) ? @{eval(objectType + ${objectType} == 'objectType2') ? none : flex} : none} : none} : none}",
+        "fit-content": "true"
+      }
+    },
+    "price_holder": {
+      "extend": {
+        "margin-top": "@{eval(${from} == 'follow') ? @{${recentShowProject} ? @{eval(size(${recentShowProject}) > 0) ? @{eval(objectType + ${objectType} == 'objectType2') ? 0px : 7px} : 0px} : 0px} : 0px}",
+        "display": "@{eval(${from} == 'follow') ? @{${recentShowProject} ? @{eval(size(${recentShowProject}) > 0) ? @{eval(objectType + ${objectType} == 'objectType2') ? none : flex} : none} : none} : none}"
+      }
+    },
+    "price_icon": {
+      "value": "¥",
+      "extend": {
+        "display": "@{eval(${from} == 'follow') ? @{${recentShowProject} ? @{eval(objectType + ${objectType} == 'objectType2') ? none : @{eval(${recentShowProject[0].formattedPriceStr} != '价格待定') ? @{eval(size('' + ${recentShowProject[0].priceLow}) > 0) ? flex : none} : none}} : none} : none}"
+      }
+    },
+    "price_number": {
+      "value": "${recentShowProject[0].priceLow}",
+      "extend": {
+        "margin-bottom": "@{env(isAndroid) ? 2px : 0px}",
+        "display": "@{eval(${from} == 'follow') ? @{${recentShowProject} ? @{eval(objectType + ${objectType} == 'objectType2') ? none : @{eval(${recentShowProject[0].formattedPriceStr} != '价格待定') ? @{eval(size('' + ${recentShowProject[0].priceLow}) > 0) ? flex : none} : none}} : none} : none}"
+      }
+    },
+    "price_tip": {
+      "value": "@{eval(${recentShowProject[0].formattedPriceStr} == '价格待定') ? 价格待定 : 起}",
+      "extend": {
+        "display": "@{eval(${from} == 'follow') ? @{${recentShowProject} ? @{eval(objectType + ${objectType} == 'objectType2') ? none : @{eval(size('' + ${recentShowProject[0].priceLow}) > 0) ? flex : @{eval(${recentShowProject[0].formattedPriceStr} == '价格待定') ? flex : none}} } : none} : none}"
+      }
+    },
+    "followfans_action_view": {
+      "extend": {
+        "border-width": "@{env(isAndroid) ? 1px : 0.5px}",
+        "border-color": "@{eval(level + ${status} == 'level1') ? '#c6c6c6' : @{eval(level + ${status} == 'level2') ? '#c6c6c6' : @{eval(${from} == 'follow') ? '#ff74ba' : '#ff74ba'}}}",
+        "margin-top": "@{eval(${from} == 'fans') ? 8px : @{eval(objectType + ${objectType} == 'objectType2') ? 8px : @{eval(objectType + ${objectType} == 'objectType1') ? 8px : 0px}}}",
+        "display": "@{eval(level + ${status} == 'level3') ? none : flex}"
+      }
+    },
+    "followfans_action_title": {
+      "value": "@{eval(level + ${status} == 'level1') ? '已关注' : @{eval(level + ${status} == 'level2') ? '互关' : @{eval(${from} == 'follow') ? '关注' : @{eval('' + ${isMine} == '1') ? '回关' : '关注'}}}}",
+      "extend": {
+        "color": "@{eval(level + ${status} == 'level1') ? '#9c9ca5' : @{eval(level + ${status} == 'level2') ? '#9c9ca5' : @{eval(${from} == 'follow') ? '#ff74ba' : '#ff74ba'}}}"
+      }
+    }
+  },
+  "event": { "followfans_action_view": "followAction" }
+}

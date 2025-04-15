@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/bricks_channel_grabhot_project_card_view" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardCornerRadius="9.0dip" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:layout_gravity="center" android:id="@id/bricks_channel_grabhot_project_switch_container" android:layout="@layout/bricks_channel_grabhot_project_item" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</androidx.cardview.widget.CardView>

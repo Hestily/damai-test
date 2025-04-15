@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/inventory_address" />
+    <TextView android:textSize="16.0dip" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/tv_desc" android:paddingLeft="@dimen/margin_3dp" android:paddingTop="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_3dp" android:text="北京" android:singleLine="true" />
+    <TextView android:textSize="13.0dip" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/tv_info" android:paddingLeft="@dimen/margin_3dp" android:paddingTop="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_3dp" android:text="工人体育场工人" android:singleLine="true" />
+</merge>

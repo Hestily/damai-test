@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/content" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/header_search_v2_input" />
+    <cn.damai.search.v2.view.DownFocusViewFlipper android:id="@id/page_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/search_v2_search_history_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/search_v2_word_suggest_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/search_v2_word_suggest_layout" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/search_v2_word_tab_ui" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.google.android.material.tabs.TabLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/search_result_tab_layout" android:layout_width="fill_parent" android:layout_height="45.0dip" app:tabIndicator="@drawable/search_result_tab_indicator" app:tabIndicatorColor="@color/color_FF2869" app:tabMaxWidth="200.0dip" app:tabMinWidth="30.0dip" app:tabMode="scrollable" app:tabPaddingEnd="9.0dip" app:tabPaddingStart="9.0dip" app:tabRippleColor="@color/transparent" />
+            <androidx.viewpager.widget.ViewPager android:id="@id/search_v2_search_result" android:background="#fff4f5f6" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/resource_size_3" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/search_v2_egg_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </cn.damai.search.v2.view.DownFocusViewFlipper>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/image_buy_user" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/uikit_user_default_icon_trans_white" />
+    <ImageView android:layout_gravity="center" android:id="@id/image_quan" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/online_star_image_quan" />
+</FrameLayout>

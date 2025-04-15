@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/ll_coupon_item" android:background="@drawable/wanted_dialog_market_item_bg" android:layout_width="fill_parent" android:layout_height="78.0dip" android:layout_marginTop="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/product_coupon_dialog_valid_coupon_bg" android:layout_width="78.0dip" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textSize="15.0dip" android:textColor="@color/white" android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="¥" android:includeFontPadding="false" />
+            <TextView android:textSize="30.0dip" android:textColor="@color/white" android:gravity="bottom" android:id="@id/tv_cost" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.taobao.movie.android.app.ui.product.item.MoCircleDashLine android:layout_width="3.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-3.0dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <TextView android:textSize="14.0dip" android:textColor="@color/color_tpp_primary_main_title" android:ellipsize="end" android:gravity="center|left" android:id="@id/tv_coupon_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:text="速度与激情观影代金券" android:maxLines="2" />
+            <TextView android:textSize="11.0dip" android:textColor="@color/color_tpp_primary_assist" android:gravity="center|left" android:id="@id/tv_coupon_expired" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="有效期至2019年12月18日" android:layout_below="@id/tv_coupon_desc" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

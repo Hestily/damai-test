@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/resource_size_15" android:textColor="@color/white" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/margin_9dp" />
+    <TextView android:textSize="@dimen/resource_size_12" android:textColor="@color/color_bricks_primary_70_white" android:gravity="center_vertical" android:id="@id/tv_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/tv_title" android:layout_alignBottom="@id/tv_title" android:layout_marginStart="@dimen/resource_size_6" android:layout_toEndOf="@id/tv_title" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/tv_title" android:layout_alignBottom="@id/tv_title" android:layout_alignParentEnd="true">
+        <TextView android:textSize="@dimen/resource_size_12" android:textColor="@color/color_bricks_primary_70_white" android:layout_gravity="center_vertical" android:id="@id/tv_more" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="@dimen/resource_size_12" android:textColor="@color/color_bricks_primary_70_white" android:layout_gravity="center_vertical" android:id="@id/tv_more_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_youjiantouxiao12" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/horizontal_container" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_9dp" android:layout_below="@id/tv_title" android:overScrollMode="never" />
+</RelativeLayout>

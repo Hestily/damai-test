@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="70" android:drawable="@drawable/brick_pioneer_refresh_00000" />
+    <item android:duration="70" android:drawable="@drawable/brick_pioneer_refresh_00001" />
+    <item android:duration="70" android:drawable="@drawable/brick_pioneer_refresh_00002" />
+    <item android:duration="70" android:drawable="@drawable/brick_pioneer_refresh_00003" />
+    <item android:duration="70" android:drawable="@drawable/brick_pioneer_refresh_00004" />
+    <item android:duration="70" android:drawable="@drawable/brick_pioneer_refresh_00005" />
+    <item android:duration="70" android:drawable="@drawable/brick_pioneer_refresh_00006" />
+    <item android:duration="70" android:drawable="@drawable/brick_pioneer_refresh_00007" />
+    <item android:duration="70" android:drawable="@drawable/brick_pioneer_refresh_00008" />
+    <item android:duration="70" android:drawable="@drawable/brick_pioneer_refresh_00009" />
+</animation-list>

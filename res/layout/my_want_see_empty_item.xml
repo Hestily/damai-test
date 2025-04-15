@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="#fff4f5f6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="160.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/my_want_see_empty_iv" android:background="@drawable/common_error_ticket_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="14.0dip" android:textColor="#ff9c9ca5" android:gravity="center" android:id="@id/my_want_see_empty_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="暂无想看\n快去标记你的想看吧~" android:lineSpacingExtra="4.0dip" />
+</LinearLayout>

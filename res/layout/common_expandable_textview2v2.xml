@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0dip" android:textColor="@color/common_text_color10" android:ellipsize="end" android:id="@id/expandable_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:lineSpacingExtra="11.0dip" />
+    <FrameLayout android:layout_gravity="bottom|center|right" android:id="@id/ll_more" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:background="@drawable/film_detail_expand_more_bg" android:layout_width="15.0dip" android:layout_height="18.0dip" />
+        <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="11.0dip" android:textColor="@color/cg_1" android:gravity="center" android:id="@id/expand_collapse" android:visibility="visible" android:layout_width="28.0dip" android:layout_height="18.0dip" android:text="@string/iconf_down_arrow" android:layout_marginStart="6.0dip" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,70 @@
+{
+  "id": "damai_script_order_list_cell",
+  "type": "gaia-template",
+  "package": {
+    "id": "damai_script_order_list_cell",
+    "version": "0.0.1",
+    "modify-timestamp": "Tue Jun 14 2022 14:33:24 GMT+0800 (中国标准时间)",
+    "dependencies": {}
+  },
+  "layers": [
+    {
+      "id": "cell_container",
+      "type": "view",
+      "layers": [
+        {
+          "id": "store_name_order_status",
+          "type": "view",
+          "layers": [
+            {
+              "id": "store_info",
+              "type": "view",
+              "layers": [
+                { "id": "iv_store_icon", "type": "image" },
+                { "id": "store_name", "type": "text" },
+                { "id": "store_right_arrow", "type": "iconfont" }
+              ]
+            },
+            { "id": "order_status", "type": "text" }
+          ]
+        },
+        {
+          "id": "script_base_info_introduce",
+          "type": "view",
+          "layers": [
+            {
+              "id": "content_info_view",
+              "type": "view",
+              "layers": [
+                { "id": "groupon_name", "type": "text" },
+                { "id": "groupon_valid_time", "type": "text" },
+                {
+                  "id": "groupon_price_view",
+                  "type": "view",
+                  "layers": [
+                    { "id": "rmb_text", "type": "text" },
+                    { "id": "store_price_text", "type": "text" },
+                    { "id": "store_price_unit", "type": "text" }
+                  ]
+                }
+              ]
+            },
+            { "id": "store_image", "type": "image" }
+          ]
+        },
+        { "id": "sep_line", "type": "view" },
+        {
+          "id": "bottom_btn_status",
+          "type": "view",
+          "layers": [
+            {
+              "id": "btn_status",
+              "type": "view",
+              "layers": [{ "id": "buy_text", "type": "text" }]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="7.0dip" android:textColor="#ffff901c" android:gravity="end" android:id="@id/icon_star_five" android:layout_width="50.0dip" android:layout_height="8.0dip" android:alpha="0.2" android:letterSpacing="0.25" />
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/progress1" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginLeft="6.0dip" android:max="100" android:indeterminateOnly="false" android:progressDrawable="@drawable/evaluate_score_distribute_progress_v2" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="7.0dip" android:textColor="#ffff901c" android:gravity="end" android:id="@id/icon_star_four" android:layout_width="50.0dip" android:layout_height="8.0dip" android:alpha="0.2" android:letterSpacing="0.25" />
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/progress2" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginLeft="6.0dip" android:max="100" android:indeterminateOnly="false" android:progressDrawable="@drawable/evaluate_score_distribute_progress_v2" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="7.0dip" android:textColor="#ffff901c" android:gravity="end" android:id="@id/icon_star_three" android:layout_width="50.0dip" android:layout_height="8.0dip" android:alpha="0.2" android:letterSpacing="0.25" />
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/progress3" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginLeft="6.0dip" android:max="100" android:indeterminateOnly="false" android:progressDrawable="@drawable/evaluate_score_distribute_progress_v2" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="7.0dip" android:textColor="#ffff901c" android:gravity="end" android:id="@id/icon_star_two" android:layout_width="50.0dip" android:layout_height="8.0dip" android:alpha="0.2" android:letterSpacing="0.25" />
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/progress4" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginLeft="6.0dip" android:max="100" android:indeterminateOnly="false" android:progressDrawable="@drawable/evaluate_score_distribute_progress_v2" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="7.0dip" android:textColor="#ffff901c" android:gravity="end" android:id="@id/icon_star_one" android:layout_width="50.0dip" android:layout_height="8.0dip" android:alpha="0.2" android:letterSpacing="0.25" />
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/progress5" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginLeft="6.0dip" android:max="100" android:indeterminateOnly="false" android:progressDrawable="@drawable/evaluate_score_distribute_progress_v2" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.discover.mvp.HeadFixedModel",
+    "vClass": "cn.damai.tetris.component.discover.mvp.HeadFixedView",
+    "pClass": "cn.damai.tetris.component.discover.mvp.HeadFixedPresenter",
+    "layoutXml": "item_discover_head_fixed"
+  }
+}

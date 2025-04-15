@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:gravity="center_vertical" android:paddingRight="@dimen/margin_12dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/ll_button" android:background="@drawable/bg_order_head_pay" android:paddingLeft="@dimen/margin_12dp" android:paddingRight="@dimen/margin_18dp" android:layout_width="wrap_content" android:layout_height="32.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_16dp" android:textColor="@color/color_FF2869" android:id="@id/icon_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_dingdanxiangqingyeerweima_" />
+        <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_white" android:gravity="center" android:id="@id/tv_button" android:paddingLeft="@dimen/margin_6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView android:id="@id/new_tips" android:visibility="gone" android:layout_width="42.0dip" android:layout_height="wrap_content" android:layout_marginBottom="-5.0dip" android:src="@drawable/bricks_ic_ticket_new" android:adjustViewBounds="true" app:layout_constraintBottom_toTopOf="@id/ll_button" app:layout_constraintRight_toRightOf="@id/ll_button" />
+</androidx.constraintlayout.widget.ConstraintLayout>

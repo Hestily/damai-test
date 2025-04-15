@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="43.0dip">
+        <TextView android:textSize="15.0dip" android:textStyle="bold" android:textColor="@color/bricks_2e333e" android:ellipsize="end" android:id="@id/recommend_desc" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="true" android:layout_weight="1.0" />
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="@color/bricks_959AA5" android:ellipsize="end" android:gravity="center" android:id="@id/recommend_refresh" android:layout_width="wrap_content" android:layout_height="38.0dip" android:layout_marginLeft="2.0dip" android:text="换一换" android:maxLines="1" android:includeFontPadding="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/recommend_list_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.damai.trade.newtradeorder.ui.projectdetail.projectdetailnew.xholdercreator.wantsee.ProjectWantSeeRecommendItemView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:layout_weight="1.0" />
+        <cn.damai.trade.newtradeorder.ui.projectdetail.projectdetailnew.xholdercreator.wantsee.ProjectWantSeeRecommendItemView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:layout_weight="1.0" />
+        <cn.damai.trade.newtradeorder.ui.projectdetail.projectdetailnew.xholdercreator.wantsee.ProjectWantSeeRecommendItemView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:layout_weight="1.0" />
+        <cn.damai.trade.newtradeorder.ui.projectdetail.projectdetailnew.xholdercreator.wantsee.ProjectWantSeeRecommendItemView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+</merge>

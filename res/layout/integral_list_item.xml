@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/integral_list_rlyt" android:background="@color/color_FAFAFA" android:paddingLeft="15.0dip" android:paddingTop="15.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/ll_layout_1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentLeft="true">
+            <TextView android:textSize="15.0dip" android:textColor="@color/color_878787" android:ellipsize="end" android:id="@id/tv_integralitem_no" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="15.0dip" android:textColor="@color/color_333333" android:ellipsize="end" android:id="@id/tv_integralitem_name" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:maxLines="2" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/color_b8b5b5" android:id="@id/tv_integralitem_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="2016年10月10日" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+            <TextView android:textSize="12.0dip" android:textColor="@color/color_878787" android:layout_gravity="right" android:id="@id/tv_integral_stauts" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="交易获得" />
+            <TextView android:textSize="30.0dip" android:textColor="@color/color_009944" android:gravity="center_vertical" android:layout_gravity="right" android:id="@id/tv_integral_price" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:text="-50" />
+        </LinearLayout>
+        <View android:background="@color/color_EDEDED" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="10.0dip" android:layout_below="@id/ll_layout_1" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

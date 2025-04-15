@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.damai.baseview.RCRelativeLayoutView android:orientation="vertical" android:id="@id/theme_circle_vote_layout" android:padding="0.5dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:round_corner="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/theme_circle_vote_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignBottom="@id/item_vote_fr_layout" android:layout_alignParentTop="true" />
+    <FrameLayout android:id="@id/item_vote_fr_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_12dp" layout="@layout/item_vote_layout" />
+    </FrameLayout>
+    <ImageView android:id="@id/theme_circle_vote_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitEnd" android:layout_toRightOf="@id/item_vote_fr_layout" android:layout_alignBottom="@id/item_vote_fr_layout" android:layout_alignParentRight="true" />
+    <TextView android:textSize="@dimen/margin_10dp" android:textColor="@color/color_ffffff" android:id="@id/theme_circle_vote_tag" android:background="@drawable/bg_ff393f_ff3e75_circle4" android:padding="@dimen/margin_3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_9dp" android:layout_marginRight="@dimen/margin_9dp" android:text="投票" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</cn.damai.baseview.RCRelativeLayoutView>

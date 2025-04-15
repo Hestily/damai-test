@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.moimage.MoImageView android:id="@id/ticket_gb_qrcode_info_code" android:layout_width="132.0dip" android:layout_height="132.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.taobao.movie.android.commonui.widget.IconFontTextView android:id="@id/ticket_gb_qrcode_info_status" android:layout_width="60.0dip" android:layout_height="60.0dip" app:layout_constraintRight_toRightOf="@id/ticket_gb_qrcode_info_code" app:layout_constraintTop_toTopOf="@id/ticket_gb_qrcode_info_code" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/resource_size_12" android:paddingTop="@dimen/resource_size_15" android:paddingRight="@dimen/resource_size_12" android:paddingBottom="@dimen/resource_size_15" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="@dimen/resource_size_14" android:textColor="@color/bricks_2e333e" android:id="@id/id_scenic_item_name_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/id_scenic_item_desc_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/resource_size_8">
+        <TextView android:textSize="@dimen/resource_size_12" android:textColor="@color/bricks_5f6672" android:layout_gravity="center_vertical" android:id="@id/id_scenic_item_desc_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:paddingEnd="8.0dip" />
+        <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="12.0dip" android:textColor="@color/bricks_5f6672" android:gravity="end|center" android:layout_gravity="end|center" android:id="@id/id_scenic_item_desc_tv_postfix" android:background="@drawable/bg_component_scenic_right_white_g" android:paddingTop="1.0dip" android:layout_width="40.0dip" android:layout_height="15.0dip" android:text="@string/iconfont_youjiantou24" android:layout_marginStart="-40.0dip" android:layout_toEndOf="@id/id_scenic_item_desc_tv" />
+    </RelativeLayout>
+    <com.google.android.flexbox.FlexboxLayout android:id="@id/id_scenic_item_service_flex" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/resource_size_5" android:layout_marginEnd="3.0dip" app:dividerDrawable="@drawable/bg_component_scenic_divider" app:flexWrap="wrap" app:showDivider="middle" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/resource_size_6" android:baselineAligned="false">
+        <com.google.android.flexbox.FlexboxLayout android:id="@id/id_scenic_item_tag_flex" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="3.0dip" app:dividerDrawable="@drawable/bg_component_scenic_divider" app:flexWrap="wrap" app:showDivider="middle" />
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.alibaba.pictures.bricks.view.DMCommonPriceView android:layout_gravity="center_vertical" android:id="@id/id_scenic_item_price_common" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/resource_size_12" android:textColor="@color/white" android:gravity="center" android:id="@id/id_scenic_item_status_tv" android:layout_width="54.0dip" android:layout_height="27.0dip" android:lines="1" android:layout_marginStart="@dimen/resource_size_6" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/id_scenic_count_down_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/resource_size_6" />
+</LinearLayout>

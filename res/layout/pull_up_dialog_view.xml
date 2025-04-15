@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="@dimen/padding_16" android:paddingRight="@dimen/padding_16" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/common_text_color10" android:gravity="center" android:id="@id/close_order_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_20" android:layout_marginBottom="@dimen/margin_20" android:text="确定取消订单吗" />
+    <TextView android:gravity="center" android:id="@id/close_order_ok" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_20" android:text="确定" style="@style/sub_main_button_style" />
+    <TextView android:gravity="center" android:id="@id/close_order_cancel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_20" android:text="取消" style="@style/tpp_sub_button_style" />
+</LinearLayout>

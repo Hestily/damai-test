@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cinema_error_reasons">
+        <item>影院名有误</item>
+        <item>影院地址有误</item>
+        <item>影院电话有误</item>
+        <item>影院特色服务有误</item>
+    </string-array>
+    <string-array name="collect_title">
+        <item>演出</item>
+        <item>现场记录</item>
+        <item>合辑</item>
+    </string-array>
+    <string-array name="coupons_title">
+        <item>未使用</item>
+        <item>已过期</item>
+        <item>已使用</item>
+    </string-array>
+    <string-array name="custom_months">
+        <item>日</item>
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+    </string-array>
+    <string-array name="day_title">
+        <item>日</item>
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+    </string-array>
+    <string-array name="order_tab_title">
+        <item>演出/门票</item>
+        <item>团购券</item>
+        <item>电影票</item>
+        <item>小食</item>
+        <item>剧本杀</item>
+    </string-array>
+    <string-array name="order_tab_title_pioneer">
+        <item>演出/门票</item>
+        <item>电影</item>
+        <item>团购券</item>
+        <item>小食</item>
+        <item>淘麦VIP速通卡</item>
+    </string-array>
+    <string-array name="order_title">
+        <item>全部</item>
+        <item>待付款</item>
+        <item>待收货</item>
+        <item>待评价</item>
+    </string-array>
+    <string-array name="pay_title">
+        <item>支付宝网页支付</item>
+        <item>电子钱包支付</item>
+        <item>中国银行支付</item>
+        <item>银联支付</item>
+        <item>招商银行支付</item>
+        <item>浦发银行支付</item>
+        <item>工商银行支付</item>
+        <item>平安银行支付</item>
+        <item>JCB银行支付</item>
+        <item>浦发信用卡支付</item>
+        <item>广发银行支付</item>
+        <item>京东支付</item>
+        <item>美国运通卡支付</item>
+        <item>蚂蚁花呗支付</item>
+        <item>光大银行支付</item>
+    </string-array>
+    <string-array name="pioneer_protocol_list">
+        <item>淘麦VIP授权协议及会员服务协议</item>
+        <item>淘票票用户服务协议</item>
+        <item>淘票票隐私政策</item>
+    </string-array>
+    <string-array name="pioneer_protocol_url_list">
+        <item>https://terms.alicdn.com/legal-agreement/terms/c_end_product_protocol/20240903155720835/20240903155720835.html</item>
+        <item>https://m.taopiaopiao.com/tickets/dianying/pages/alfheim/content.html?id=924</item>
+        <item>https://m.taopiaopiao.com/tickets/dianying/pages/alfheim/content.html?id=30390</item>
+    </string-array>
+    <string-array name="preview_array">
+        <item>偏小字体（约0.91 倍标准字体）</item>
+        <item>标准字体</item>
+        <item>放大字体 （约1.125 倍标准字体）</item>
+        <item>特大字体 （约1.25 倍标准字体）</item>
+        <item>适老化字体 （约2.15 倍标准字体）</item>
+    </string-array>
+    <string-array name="privacy_content_list">
+        <item>《大麦用户服务协议》</item>
+        <item>《订票服务条款》</item>
+        <item>《大麦基本功能隐私政策》</item>
+    </string-array>
+    <string-array name="privacy_url_list">
+        <item>https://help.damai.cn/helpPageH5Context.htm?pageId=38</item>
+        <item>https://help.damai.cn/helpPageH5Context.htm?pageId=92</item>
+        <item>https://help.damai.cn/helpPageH5Context.htm?pageId=40</item>
+    </string-array>
+    <string-array name="project_common_problems">
+        <item>有座位图可以查看吗</item>
+        <item>我该怎么选座</item>
+        <item>我想要订票，怎么操作</item>
+        <item>演出时长大概是多少呢</item>
+        <item>入场时间是什么时候</item>
+        <item>儿童也是全票吗</item>
+        <item>我想了解退票规则</item>
+        <item>取票地址在哪里</item>
+    </string-array>
+    <string-array name="relation_title">
+        <item>艺人</item>
+        <item>厂牌</item>
+        <item>场馆</item>
+        <item>关注的人</item>
+    </string-array>
+    <string-array name="report_type_string">
+        <item>黄牛</item>
+        <item>低俗或色情</item>
+        <item>违反相关法律法规或管理规定</item>
+        <item>广告或垃圾信息</item>
+        <item>辱骂或不友善</item>
+    </string-array>
+    <string-array name="share_title">
+        <item>新浪微博</item>
+        <item>微信</item>
+        <item>钉钉</item>
+        <item>支付宝</item>
+        <item>朋友圈</item>
+        <item>QQ好友</item>
+        <item>QQ空间</item>
+    </string-array>
+    <string-array name="ticket_guide_content">
+        <item>请提前填写常用观演人信息，您可在【我的】页面点击观演人进行填写和修改</item>
+        <item>请提前填写收货地址信息，您可在【我的】页面点击收货地址进行填写和修改，特别说明：电子票订单不支持配送</item>
+    </string-array>
+    <string-array name="ticket_guide_contentE">
+        <item>请提前填写常用观演人信息，您可在【我的】页面点击观演人进行填写和修改</item>
+        <item>请提前填写收货地址信息，您可在【我的】页面点击收货地址进行填写和修改，特别说明：电子票订单不支持配送</item>
+        <item>该项目为海外或港澳台项目，您可在【我的】页面点击设置-账号安全，进行邮箱设置和修改</item>
+    </string-array>
+    <string-array name="ticket_guide_title">
+        <item>预填实名观演人信息</item>
+        <item>预填收货地址</item>
+    </string-array>
+    <string-array name="ticket_guide_titleE">
+        <item>预填实名观演人信息</item>
+        <item>预填收货地址</item>
+        <item>预填邮箱地址</item>
+    </string-array>
+    <string-array name="type_id">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>100</item>
+        <item>103</item>
+        <item>104</item>
+    </string-array>
+    <integer-array name="type_index">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </integer-array>
+    <string-array name="type_title">
+        <item>全部</item>
+        <item>演唱会</item>
+        <item>音乐会</item>
+        <item>话剧歌剧</item>
+        <item>舞蹈芭蕾</item>
+        <item>曲苑杂坛</item>
+        <item>体育比赛</item>
+        <item>展览休闲</item>
+        <item>儿童亲子</item>
+        <item>二次元</item>
+        <item>旅游展览</item>
+    </string-array>
+    <string-array name="week_string_array">
+        <item>周日</item>
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+    </string-array>
+</resources>

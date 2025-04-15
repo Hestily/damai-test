@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/share_activity_layout" android:background="#4d000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="vertical" android:id="@id/layout_image" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <cn.damai.uikit.view.MyScrollView android:id="@id/share_scrollview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <View android:id="@id/share_top_view" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/share_yymember_integrate" android:background="@drawable/bg_border_corner_525151_70" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="@dimen/margin_21dp" android:layout_marginRight="@dimen/margin_21dp" android:layout_marginBottom="@dimen/margin_12dp">
+                    <ImageView android:id="@id/share_yymember_integrate_icon" android:layout_width="@dimen/margin_23dp" android:layout_height="@dimen/margin_24dp" android:layout_marginLeft="@dimen/margin_6dp" android:layout_marginRight="@dimen/margin_8dp" android:src="@drawable/dm_gold_icon" />
+                    <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/share_yymember_integrate_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+                    <TextView android:textSize="@dimen/margin_10dp" android:textColor="#ff582331" android:gravity="center" android:id="@id/share_yymember_integrate_action" android:background="@drawable/bg_border_corner_ffd4a6_ffbeae" android:paddingLeft="@dimen/margin_7dp" android:paddingRight="@dimen/margin_7dp" android:layout_width="wrap_content" android:layout_height="@dimen/margin_20dp" android:layout_marginLeft="@dimen/margin_4dp" android:layout_marginRight="@dimen/margin_6dp" />
+                </LinearLayout>
+                <RelativeLayout android:id="@id/share_ads_banner" android:background="@drawable/bg_share_ads_banner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_21dp" android:layout_marginRight="@dimen/margin_21dp" android:layout_marginBottom="@dimen/margin_15dp">
+                    <ImageView android:id="@id/share_ads_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_share_ads" android:layout_alignParentLeft="true" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginRight="@dimen/margin_12dp" android:layout_toRightOf="@id/share_ads_icon" android:layout_centerVertical="true">
+                        <TextView android:textSize="@dimen/textsize_14" android:ellipsize="end" android:id="@id/share_ads_banner_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+                        <TextView android:textSize="@dimen/textsize_12" android:textColor="@color/color_666666" android:ellipsize="end" android:id="@id/share_ads_banner_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:maxLines="1" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <ImageView android:id="@id/image_share" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+                <FrameLayout android:id="@id/share_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </LinearLayout>
+        </cn.damai.uikit.view.MyScrollView>
+        <RelativeLayout android:id="@id/share_title_layout" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/icon_back" android:background="@drawable/bg_border_corner_171717_r9" android:layout_width="27.0dip" android:layout_height="27.0dip" android:text="@string/iconfont_jiantouzuo" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:paddingStart="3.0dip" android:layout_marginStart="12.0dip" />
+            <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:id="@id/text_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <View android:layout_gravity="bottom" android:background="@drawable/bg_evaluate_share_shadow_mask" android:layout_width="fill_parent" android:layout_height="58.0dip" />
+    </FrameLayout>
+    <View android:id="@id/share_cancel_area" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:id="@id/share_board" android:background="@drawable/bg_share_board" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0dip" android:textColor="#ff222222" android:gravity="center" android:id="@id/text_share" android:background="#ffffffff" android:paddingTop="18.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="分享" />
+        <HorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never">
+            <LinearLayout android:orientation="horizontal" android:id="@id/layout_channel" android:paddingLeft="21.0dip" android:paddingRight="21.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <cn.damai.commonbusiness.share.view.ShareBoardItemLayout android:gravity="center" android:orientation="vertical" android:id="@id/share_save_btn" android:paddingTop="@dimen/padding_20dp" android:paddingBottom="@dimen/padding_20dp" android:layout_width="82.0dip" android:layout_height="wrap_content">
+                    <ImageView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/share_save_local" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/color_2e333e" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="存到手机" />
+                </cn.damai.commonbusiness.share.view.ShareBoardItemLayout>
+                <cn.damai.commonbusiness.share.view.ShareBoardItemLayout android:gravity="center" android:orientation="vertical" android:id="@id/share_wechat_btn" android:paddingTop="@dimen/padding_20dp" android:paddingBottom="@dimen/padding_20dp" android:layout_width="82.0dip" android:layout_height="wrap_content">
+                    <ImageView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/share_weixin" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/color_2e333e" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="@string/damai_share_micro_channel_friends" />
+                </cn.damai.commonbusiness.share.view.ShareBoardItemLayout>
+                <cn.damai.commonbusiness.share.view.ShareBoardItemLayout android:gravity="center" android:orientation="vertical" android:id="@id/share_wechat_circle_btn" android:paddingTop="@dimen/padding_20dp" android:paddingBottom="@dimen/padding_20dp" android:layout_width="82.0dip" android:layout_height="wrap_content">
+                    <ImageView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/share_weixin_timeline" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/color_2e333e" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="@string/damai_share_circle_friends" />
+                </cn.damai.commonbusiness.share.view.ShareBoardItemLayout>
+                <cn.damai.commonbusiness.share.view.ShareBoardItemLayout android:gravity="center" android:orientation="vertical" android:id="@id/share_qq_btn" android:paddingTop="@dimen/padding_20dp" android:paddingBottom="@dimen/padding_20dp" android:layout_width="82.0dip" android:layout_height="wrap_content">
+                    <ImageView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/share_qq" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/color_2e333e" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="@string/damai_share_qq_friends" />
+                </cn.damai.commonbusiness.share.view.ShareBoardItemLayout>
+                <cn.damai.commonbusiness.share.view.ShareBoardItemLayout android:gravity="center" android:orientation="vertical" android:id="@id/share_sina_btn" android:paddingTop="@dimen/padding_20dp" android:paddingBottom="@dimen/padding_20dp" android:layout_width="82.0dip" android:layout_height="wrap_content">
+                    <ImageView android:gravity="center" android:id="@id/imageView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/share_weibo" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/color_2e333e" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="微博" />
+                </cn.damai.commonbusiness.share.view.ShareBoardItemLayout>
+                <cn.damai.commonbusiness.share.view.ShareBoardItemLayout android:gravity="center" android:orientation="vertical" android:id="@id/share_dingding_circle_btn" android:paddingTop="@dimen/padding_20dp" android:paddingBottom="@dimen/padding_20dp" android:layout_width="82.0dip" android:layout_height="wrap_content">
+                    <ImageView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/share_dingding" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/color_2e333e" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="钉钉" />
+                </cn.damai.commonbusiness.share.view.ShareBoardItemLayout>
+                <cn.damai.commonbusiness.share.view.ShareBoardItemLayout android:gravity="center" android:orientation="vertical" android:id="@id/share_fans" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:gravity="center" android:layout_width="52.0dip" android:layout_height="52.0dip" android:src="@drawable/share_fans_circle_icon" />
+                    <TextView android:textSize="12.0dip" android:textColor="#ff666666" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="分享给粉丝" />
+                </cn.damai.commonbusiness.share.view.ShareBoardItemLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+        <View android:id="@id/divider_extra" android:background="#0d000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="21.0dip" android:layout_marginRight="21.0dip" />
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="21.0dip" android:paddingRight="21.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/layout_extra" android:paddingTop="18.0dip" android:paddingBottom="18.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/layout_copy_link" android:paddingTop="18.0dip" android:paddingBottom="18.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/layout_generate_image" android:paddingTop="18.0dip" android:paddingBottom="18.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="3.0dip" />
+        <View android:background="@color/home_page_line" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <TextView android:textSize="16.0dip" android:textColor="#ff222222" android:gravity="center" android:id="@id/share_cancel_btn" android:background="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="52.0dip" android:text="@string/Cancel" />
+    </LinearLayout>
+</LinearLayout>

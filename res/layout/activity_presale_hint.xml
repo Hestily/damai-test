@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/color_tpp_primary_60_black" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="24.0dip" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconf_hint" />
+            <TextView android:textSize="@dimen/t1" android:textColor="@color/white" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16" android:layout_marginTop="@dimen/margin_16" android:layout_marginRight="@dimen/margin_16" android:text="@string/presale_hint_title" />
+            <TextView android:textSize="@dimen/t4" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_12" android:text="@string/presale_hint_msg" />
+            <ImageView android:id="@id/redeem_help" android:layout_width="236.0dip" android:layout_height="194.0dip" android:layout_marginTop="@dimen/margin_16" />
+            <Button android:textSize="@dimen/text_size_14" android:id="@id/confirm" android:layout_width="@dimen/icon_width_144" android:layout_height="@dimen/icon_height_28" android:layout_marginTop="@dimen/icon_height_28" android:text="@string/tpp_confirm" style="@style/transparent_button_style" />
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

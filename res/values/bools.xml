@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="alihacore_test">false</bool>
+    <bool name="alihaprotocol_test">false</bool>
+    <bool name="blur_dialog_has_bottom_navigation_bar">true</bool>
+    <bool name="datalab_test">false</bool>
+    <bool name="mtrl_btn_textappearance_all_caps">true</bool>
+    <bool name="spb_default_mirror_mode">false</bool>
+    <bool name="spb_default_progressiveStart_activated">false</bool>
+    <bool name="spb_default_reversed">false</bool>
+    <bool name="tbrest_test">false</bool>
+    <bool name="tlog_remote_test">false</bool>
+</resources>

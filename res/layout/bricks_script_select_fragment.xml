@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/search_title_layout" android:background="@drawable/bricks_app_title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/title_bar_space" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+        <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="22.0dip" android:textColor="#ff3c3f44" android:gravity="center" android:id="@id/search_title_close" android:paddingLeft="22.0dip" android:paddingRight="9.0dip" android:layout_width="wrap_content" android:layout_height="44.0dip" android:text="@string/iconfont_Daohangguanbi18" android:layout_below="@id/title_bar_space" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="16.0dip" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/search_title_content" android:layout_width="wrap_content" android:layout_height="44.0dip" android:text="请选择要关联的项目" android:maxLines="1" android:layout_below="@id/title_bar_space" android:layout_centerHorizontal="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingBottom="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/search_title_content">
+            <RelativeLayout android:gravity="center" android:id="@id/layout_search_input" android:background="@drawable/bricks_search_input_bg" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_weight="1.0">
+                <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="16.0dip" android:textColor="#ff3c3f44" android:id="@id/ib_search" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:layout_marginRight="8.0dip" android:text="@string/iconfont_sousuo_" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="14.0dip" android:textColor="#ffcccccc" android:gravity="center_vertical" android:id="@id/ll_delete" android:paddingLeft="8.0dip" android:paddingRight="11.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/iconfont_qingchu24" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <EditText android:textSize="12.0dip" android:textColor="@android:color/black" android:textColorHint="#ff9c9ca5" android:gravity="center_vertical" android:id="@id/et_keyword" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="搜索关键词查找关联项目" android:singleLine="true" android:maxLength="30" android:layout_toLeftOf="@id/ll_delete" android:layout_toRightOf="@id/ib_search" android:layout_centerVertical="true" android:imeOptions="actionSearch" />
+            </RelativeLayout>
+            <TextView android:textSize="16.0dip" android:textColor="@android:color/black" android:gravity="center_vertical" android:id="@id/tv_cancel" android:paddingLeft="12.0dip" android:paddingRight="21.0dip" android:layout_width="wrap_content" android:layout_height="30.0dip" android:text="取消" />
+        </LinearLayout>
+    </RelativeLayout>
+    <FrameLayout android:id="@id/search_container" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@id/refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srlEnableAutoLoadMore="true" app:srlEnableRefresh="false">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+            <com.alibaba.pictures.bricks.view.DMRefreshFooter android:id="@id/footer" android:layout_width="fill_parent" android:layout_height="wrap_content" app:srlFinishDuration="0" />
+        </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+        <FrameLayout android:id="@id/error_container" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

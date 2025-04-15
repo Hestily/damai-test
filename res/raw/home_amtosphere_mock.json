@@ -1,0 +1,45 @@
+{
+  "data": {
+    "nodeId": "f70b0fa6-16bd-45a7-9adf-6a920c92eb2e"
+  },
+  "level": "1",
+  "more": "false",
+  "nodes": [
+    {
+      "data": {
+        "componentId": "dm_home_lottie",
+        "isFilterEmpty": "false",
+        "nodeId": "b0d81b40-2b42-4342-ada6-4961cbf27b23"
+      },
+      "level": "2",
+      "more": "false",
+      "nodes": [
+        {
+          "data": {
+            "lottie": "release_me_use_lottie_url",
+            "comboDispatchId": "148129",
+            "action": {
+              "item": {
+                "actionType": "2",
+                "trackInfo": {
+                  "spmd": "item_",
+                  "spmc": "default"
+                },
+                "actionUrl": "http://www.baidu.com"
+              }
+            },
+            "id": "148129",
+            "idx": "1",
+            "backgroundPic": "https://img.alicdn.com/imgextra/i1/O1CN01XjYX7I1hX2L8SLjPt_!!6000000004286-2-tps-1125-600.png",
+            "highLowType": "1"
+          },
+          "level": "3",
+          "more": "false",
+          "type": "7542"
+        }
+      ],
+      "style": {},
+      "type": "7569"
+    }
+  ]
+}

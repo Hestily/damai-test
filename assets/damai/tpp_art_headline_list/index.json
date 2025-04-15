@@ -1,0 +1,22 @@
+{
+  "id": "tpp_art_headline_list",
+  "type": "gaia-template",
+  "sub-type": "grid",
+  "line-spacing": 0,
+  "interitem-spacing": 0,
+  "edge-insets": "{0,0,0,0}",
+  "column": 1,
+  "package": {
+    "id": "tpp_art_headline_list",
+    "version": "0.0.1",
+    "modify-timestamp": "Tue Nov 16 2021 16:10:04 GMT+0800 (中国标准时间)",
+    "dependencies": { "tpp_art_headline_list_item": "0.0.0" }
+  },
+  "layers": [
+    {
+      "id": "tpp_art_headline_list_item",
+      "type": "gaia-template",
+      "sub-type": "custom"
+    }
+  ]
+}

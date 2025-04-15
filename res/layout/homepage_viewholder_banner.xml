@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:banner="http://schemas.android.com/apk/res-auto">
+    <cn.damai.tetris.component.home.widget.banner.Banner android:id="@id/homepage_banner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginBottom="9.0dip" banner:image_scale_type="fit_xy" banner:indicator_drawable_selected="@drawable/homepage_banner_indicator_select" banner:indicator_drawable_unselected="@drawable/homepage_banner_indicator_unselect" banner:indicator_height="6.0dip" banner:indicator_margin="3.0dip" banner:indicator_width="6.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/view_null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="130.0dip">
+        <View android:id="@id/view_btn1" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <View android:id="@id/view_btn2" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

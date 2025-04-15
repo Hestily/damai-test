@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/date_lay" android:layout_width="@dimen/resource_size_25" android:layout_height="@dimen/resource_size_25">
+        <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="@dimen/resource_size_12" android:textColor="#ff171717" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <RelativeLayout android:id="@id/project_count_lay" android:background="@drawable/bg_pioneer_grab_calendar_corner3_7eff00" android:layout_width="9.5dip" android:layout_height="9.5dip" android:layout_alignParentEnd="true">
+            <TextView android:textSize="@dimen/resource_size_7" android:textColor="#ff171717" android:id="@id/project_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:id="@id/no_project" android:layout_width="@dimen/resource_size_25" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/resource_size_9" android:textColor="#1a171717" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="暂无" android:layout_marginStart="@dimen/resource_size_1" />
+    </LinearLayout>
+</LinearLayout>

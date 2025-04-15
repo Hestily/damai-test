@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="415.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/image_bg" android:layout_width="300.0dip" android:layout_height="fill_parent" android:layout_centerHorizontal="true" />
+    <com.taobao.movie.android.app.order.ui.widget.HappyCoinDialogContain android:id="@id/happy_coin_dialog_contain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <View android:id="@id/close" android:background="@drawable/happy_coin_dialog_close" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="285.0dip" android:layout_marginTop="30.0dip" android:layout_alignLeft="@id/image_bg" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/order_result_item_background" android:layout_width="270.0dip" android:layout_height="166.0dip" android:layout_marginBottom="18.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <com.taobao.movie.android.app.order.ui.widget.HappyCoinDialogDouble android:id="@id/happy_coin_dialog_double" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Button android:id="@id/happy_coin_dialog_double_button" android:background="@drawable/order_result_happy_coin_dialog_double_button" android:visibility="visible" android:layout_width="240.0dip" android:layout_height="48.0dip" android:layout_marginTop="9.0dip" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/tpp_secondary_green" android:ellipsize="end" android:id="@id/happy_coin_dialog_double_success" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="翻倍成功" android:maxLines="1" android:includeFontPadding="false" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_assist" android:ellipsize="end" android:id="@id/happy_coin_dialog_double_success_msg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="春节期间观影可再得x2倍积分" android:maxLines="1" android:includeFontPadding="false" />
+    </LinearLayout>
+</RelativeLayout>

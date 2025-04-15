@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/pay_result_ll" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/pay_result_score_info" android:layout_width="fill_parent" android:layout_height="92.0dip">
+        <com.alibaba.pictures.moimage.MoImageView android:id="@id/pay_result_score_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-1.0dip" android:scaleType="fitXY" app:roundBottomLeft="true" app:roundBottomRight="true" app:roundTopLeft="true" app:roundTopRight="true" app:roundedCornerRadius="9.0dip" />
+        <com.alibaba.pictures.moimage.MoImageView android:id="@id/pay_result_score_bg_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:layout_alignParentTop="true" android:layout_centerInParent="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip">
+                <com.alibaba.pictures.moimage.MoImageView android:gravity="center" android:id="@id/pay_result_score_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" app:failureImage="@drawable/score_icon" app:placeholderImage="@drawable/score_icon" />
+                <TextView android:textSize="13.0sp" android:textColor="#ffdb7044" android:gravity="center" android:layout_gravity="center" android:id="@id/pay_result_score_icon_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:lineSpacingMultiplier="0.9" />
+            </FrameLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="6.5dip" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/margin_15dp" android:textStyle="bold" android:textColor="@color/color_000000" android:ellipsize="end" android:id="@id/tv_score_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="恭喜你购票获得80积分" android:singleLine="true" />
+                <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_999999" android:ellipsize="end" android:id="@id/tv_score_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_6dp" android:text="积分可免费兑换代金券哦~" android:singleLine="true" android:layout_below="@id/tv_score_title" />
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/margin_12dp" android:textStyle="bold" android:textColor="#ff582331" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_score_btn" android:background="@drawable/bg_score_btn" android:layout_width="66.0dip" android:layout_height="27.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="6.5dip" android:layout_marginRight="12.0dip" android:text="去看看" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:id="@id/pay_result_line" android:background="@drawable/pay_result_score_and_rights_dashline" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/pay_result_rights_info" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+        <TextView android:textSize="@dimen/margin_14dp" android:textStyle="bold" android:textColor="@color/color_bricks_primary_main_title" android:id="@id/pay_result_rights_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" />
+        <TextView android:textSize="12.0dip" android:textColor="#ff969aa4" android:id="@id/pay_result_rights_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="12.0dip" android:textColor="#ff969aa4" android:id="@id/pay_result_rights_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="全部权益" />
+        <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="12.0dip" android:textColor="#ff969aa4" android:id="@id/pay_result_rights_all_iconf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_youjiantou24" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/pay_result_rights_list_two_ll" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/pay_result_rights_one" android:background="@drawable/pay_result_rights_bg" android:paddingLeft="6.0dip" android:paddingTop="9.0dip" android:paddingRight="6.0dip" android:paddingBottom="9.0dip" android:layout_width="0.0dip" android:layout_height="72.0dip" android:layout_weight="1.0">
+            <com.alibaba.pictures.moimage.MoImageView android:id="@id/pay_result_rights_one_img" android:layout_width="66.0dip" android:layout_height="54.0dip" app:actualImageScaleType="centerCrop" app:roundBottomLeft="true" app:roundBottomRight="true" app:roundTopLeft="true" app:roundTopRight="true" app:roundedCornerRadius="4.0dip" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip">
+                <TextView android:textSize="11.0dip" android:textColor="#ff582331" android:ellipsize="end" android:id="@id/pay_result_rights_one_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" />
+                <View android:layout_width="1.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="11.0dip" android:textStyle="bold" android:textColor="#ff582331" android:ellipsize="end" android:gravity="center" android:id="@id/pay_result_rights_one_btn" android:background="@drawable/pay_result_rights_exchange_btn_bg" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="18.0dip" android:maxWidth="76.0dip" android:maxLines="1" />
+                    <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/pay_result_rights_two" android:background="@drawable/pay_result_rights_bg" android:paddingLeft="6.0dip" android:paddingTop="9.0dip" android:paddingRight="6.0dip" android:paddingBottom="9.0dip" android:layout_width="0.0dip" android:layout_height="72.0dip" android:layout_marginLeft="6.0dip" android:layout_weight="1.0">
+            <com.alibaba.pictures.moimage.MoImageView android:id="@id/pay_result_rights_two_img" android:layout_width="66.0dip" android:layout_height="54.0dip" app:actualImageScaleType="centerCrop" app:roundBottomLeft="true" app:roundBottomRight="true" app:roundTopLeft="true" app:roundTopRight="true" app:roundedCornerRadius="4.0dip" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip">
+                <TextView android:textSize="11.0dip" android:textColor="#ff582331" android:ellipsize="end" android:id="@id/pay_result_rights_two_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" />
+                <View android:layout_width="1.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="11.0dip" android:textStyle="bold" android:textColor="#ff582331" android:ellipsize="end" android:gravity="center" android:id="@id/pay_result_rights_two_btn" android:background="@drawable/pay_result_rights_exchange_btn_bg" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="18.0dip" android:maxWidth="76.0dip" android:maxLines="1" />
+                    <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/pay_result_rights_list_one_ll" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+        <com.google.android.flexbox.FlexboxLayout android:orientation="horizontal" android:id="@id/pay_result_rights_only_one" android:background="@drawable/pay_result_rights_bg" android:paddingLeft="6.0dip" android:paddingTop="9.0dip" android:paddingRight="6.0dip" android:paddingBottom="9.0dip" android:layout_width="fill_parent" android:layout_height="72.0dip" app:alignItems="center">
+            <com.alibaba.pictures.moimage.MoImageView android:id="@id/pay_result_rights_only_one_img" android:layout_width="66.0dip" android:layout_height="54.0dip" app:actualImageScaleType="centerCrop" app:layout_flexShrink="0.0" app:roundBottomLeft="true" app:roundBottomRight="true" app:roundTopLeft="true" app:roundTopRight="true" app:roundedCornerRadius="4.0dip" />
+            <TextView android:textSize="12.0dip" android:textColor="#ff582331" android:ellipsize="end" android:id="@id/pay_result_rights_only_one_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:maxLines="2" android:includeFontPadding="false" app:layout_flexGrow="1.0" />
+            <TextView android:textSize="11.0dip" android:textStyle="bold" android:textColor="#ff582331" android:ellipsize="end" android:gravity="center" android:id="@id/pay_result_rights_only_one_btn" android:background="@drawable/pay_result_rights_exchange_one_btn_bg" android:paddingLeft="9.0dip" android:paddingRight="9.0dip" android:layout_width="82.0dip" android:layout_height="27.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="9.0dip" android:maxLines="1" app:layout_flexShrink="0.0" />
+        </com.google.android.flexbox.FlexboxLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.taobao.movie.android.commonui.widget.MToolBar android:id="@id/toolbar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="75.0dip">
+        <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="18.0dip" android:textColor="@color/color_tpp_primary_main_title" android:layout_gravity="center_vertical" android:id="@id/back_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/iconf_back" />
+        <com.taobao.movie.android.commonui.widget.NavigationTabStrip android:layout_gravity="center_vertical" android:id="@id/tab_layout" android:layout_width="fill_parent" android:layout_height="27.0dip" android:layout_marginLeft="30.0dip" android:layout_marginRight="40.0dip" app:nts_active_color="@color/color_tpp_primary_black" app:nts_animation_duration="400" app:nts_color="@color/tpp_primary_red" app:nts_corners_radius="2.0dip" app:nts_gravity="bottom" app:nts_inactive_color="@color/color_tpp_primary_assist" app:nts_size="14.0dip" app:nts_strip_width="20.0dip" app:nts_weight="2.0dip" />
+    </LinearLayout>
+    <View android:id="@id/tab_divider" android:background="@color/common_divider_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/space_line_height" />
+    <androidx.viewpager.widget.ViewPager android:id="@id/viewpager" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

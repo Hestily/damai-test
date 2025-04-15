@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.taobao.movie.android.commonui.widget.TMSwipeRefreshLayout android:id="@id/refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.core.widget.NestedScrollView android:id="@id/discuss_area_scrollview" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="@string/header_behavior" app:pinViewId="@id/toolbar" app:stickyViewId="@id/sticky_layout">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <com.taobao.movie.android.commonui.widget.SimpleDraweeView android:id="@id/discuss_area_bg" android:layout_width="fill_parent" android:layout_height="202.0dip" app:actualImageScaleType="centerCrop" app:placeholderImageScaleType="fitXY" />
+                        <include layout="@layout/discuss_area_head_layout" />
+                    </FrameLayout>
+                    <com.taobao.movie.android.app.oscar.ui.community.view.CommunitySingleFilmDiscussHeadSelectView android:layout_gravity="bottom" android:id="@id/sticky_layout" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+            <com.taobao.movie.android.app.common.widget.NoScrollViewPager android:id="@id/dicuss_area_viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/scrolling_behavior" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </com.taobao.movie.android.commonui.widget.TMSwipeRefreshLayout>
+    <com.taobao.movie.android.commonui.widget.MToolBar android:id="@id/toolbar" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/send_discuss_btn" android:layout_width="77.0dip" android:layout_height="77.0dip" android:layout_marginBottom="53.0dip" android:src="@drawable/send_discuss_btn" />
+</FrameLayout>

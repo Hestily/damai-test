@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0dip" android:textColor="#ff000000" android:id="@id/ip_videoalbum_title" android:paddingLeft="@dimen/default_component_margin_rl" android:paddingTop="@dimen/default_component_title_margintop" android:paddingBottom="@dimen/default_component_content_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="主创团队" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/ip_actoralbum_list" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <include android:id="@id/actor_single_layout" android:visibility="gone" layout="@layout/actor_single_layout" />
+</LinearLayout>

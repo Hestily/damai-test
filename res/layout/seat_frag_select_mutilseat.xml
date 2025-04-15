@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/img_header_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" app:layout_behavior="@string/appbar_background_behavior" />
+    <View android:id="@id/img_header_bg_gradient" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="@string/appbar_background_behavior" />
+    <com.taobao.movie.android.commonui.widget.Appbar android:id="@id/appbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:menu2_icon_font="@string/icon_font_share" app:menu2_show="true" />
+    <com.taobao.movie.statemanager.StateLayout android:id="@id/state_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_layout_behavior">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layout_seat_parent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/layout_top" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <HorizontalScrollView android:layout_gravity="center" android:id="@id/indicator_scrollview" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="39.0dip">
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/guide" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:clipToPadding="true" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+                </HorizontalScrollView>
+                <com.taobao.movie.android.commonui.widget.MaterialTabLayout android:layout_gravity="center" android:id="@id/floorChooser" android:layout_width="wrap_content" android:layout_height="30.0dip" app:tab_Mode="scrollable" app:tab_PaddingEnd="6.0dip" app:tab_PaddingStart="6.0dip" app:tab_RippleColor="#ffcccccc" app:tab_ScrollableMinWidth="44.0dip" app:tab_SelectedTextBoldStyle="true" app:tab_TextSize="13.0sp" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/layout_seat" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/layout_top">
+                <com.taobao.movie.statemanager.StateLayout android:id="@id/seat_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <com.taobao.movie.android.app.seat.ui.effect.SelectSeatEffectLayer android:id="@id/seat_effect_layer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <View android:layout_gravity="bottom" android:id="@id/seat_overlay_bottom" android:layout_width="fill_parent" android:layout_height="134.0dip" />
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/select_bottom" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+                <FrameLayout android:id="@id/fl_seat_spring_banner" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" />
+                <include layout="@layout/select_single_contain" />
+                <FrameLayout android:layout_gravity="center" android:id="@id/warning_tips" android:background="@drawable/select_seat_info_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/tip_message_container_ll" android:background="@drawable/select_seat_info_bg" android:layout_width="fill_parent" android:layout_height="39.0dip" android:layout_marginTop="-2.0dip">
+                    <com.taobao.movie.android.commonui.widget.VerticalWheelContain android:id="@id/tip_message_container" android:paddingTop="5.0dip" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_assist" android:id="@id/tip_message_num_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="8.0dip" android:textColor="@color/color_tpp_primary_assist" android:id="@id/tip_right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconf_right_arrow" android:layout_marginEnd="9.0dip" />
+                </LinearLayout>
+                <com.taobao.movie.android.app.seat.ui.weight.SelectSeatInfoView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" />
+                <FrameLayout android:id="@id/seat_bottom_panel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/seat_frag_select_seat_button_panel" />
+                </FrameLayout>
+            </LinearLayout>
+            <ImageView android:id="@id/thumbnails_iv" android:background="@color/color_tpp_primary_60_black" android:padding="6.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="缩略图" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.taobao.movie.statemanager.StateLayout>
+    <FrameLayout android:id="@id/layout_hall_tip" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/hall_tip_behavior">
+        <TextView android:textSize="13.0sp" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/txt_hall_tip" android:padding="16.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="5.0dip" />
+    </FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="aliuser_padding_32px">16.0dip</dimen>
+    <dimen name="aliuser_text_24_px">12.0sp</dimen>
+    <dimen name="aliuser_text_26_px">13.0sp</dimen>
+    <dimen name="aliuser_text_28_px">14.0sp</dimen>
+    <dimen name="aliuser_text_30_px">15.0sp</dimen>
+    <dimen name="aliuser_text_32_px">16.0sp</dimen>
+    <dimen name="aliuser_text_34_px">17.0sp</dimen>
+    <dimen name="aliuser_text_36_px">18.0sp</dimen>
+    <dimen name="aliuser_text_40_px">20.0sp</dimen>
+    <dimen name="aliuser_text_42_px">21.0sp</dimen>
+    <dimen name="aliuser_text_48_px">24.0sp</dimen>
+</resources>

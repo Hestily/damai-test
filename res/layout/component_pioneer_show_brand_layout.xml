@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.pictures.bricks.view.BricksStrokeRelativeLayout android:background="@drawable/bg_pioneer_home_feed_show_brand" android:paddingTop="@dimen/resource_size_12" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.moimage.MoImageView android:id="@id/title_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_pioneer_home_feed_show_brand_title" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/resource_size_12" android:textColor="#fffbd4b8" android:id="@id/sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/resource_size_9" android:includeFontPadding="false" android:layout_below="@id/title_icon" android:layout_centerHorizontal="true" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:id="@id/project_list_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/resource_size_8" android:layout_below="@id/sub_title" android:layout_centerHorizontal="true" app:divider="@drawable/divider_pioneer_home_feed_show_brand" app:showDividers="middle" />
+    <FrameLayout android:gravity="center" android:id="@id/action" android:background="@drawable/bg_feed_show_brand_btn" android:layout_width="@dimen/resource_size_104" android:layout_height="32.0dip" android:layout_marginTop="@dimen/resource_size_18" android:layout_marginBottom="@dimen/resource_size_21" android:layout_below="@id/project_list_container" android:layout_centerHorizontal="true">
+        <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="@dimen/resource_size_16" android:textColor="#ff27293d" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="去看看" />
+    </FrameLayout>
+</com.alibaba.pictures.bricks.view.BricksStrokeRelativeLayout>

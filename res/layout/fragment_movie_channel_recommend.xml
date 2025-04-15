@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@id/one_arch_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srlEnableLoadMore="false" app:srlHeaderMaxDragRate="1.5" app:srlHeaderTriggerRate="1.0">
+        <cn.damai.pioneer.component.tab.ChildRecyclerView android:id="@id/one_arch_recyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:horizonScrollEnabled="true" />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+</FrameLayout>

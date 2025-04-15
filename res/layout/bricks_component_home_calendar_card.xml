@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="113.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.bricks.view.RoundRadiusImageView android:id="@id/bricks_id_welfare_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bricks_calendar_total_bg" android:scaleType="fitXY" app:r_round_radius="6.0dip" />
+    <ImageView android:layout_gravity="center" android:layout_width="85.0dip" android:layout_height="85.0dip" android:src="@drawable/bricks_calendar_date_bg" />
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="55.0dip" android:layout_height="14.0dip" android:layout_marginTop="@dimen/resource_size_12" android:src="@drawable/bricks_calendar_title" />
+    <ViewFlipper android:layout_gravity="center" android:id="@id/id_bricks_calendar_week" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:inAnimation="@anim/bricks_roll_in" android:outAnimation="@anim/roll_out" android:autoStart="false">
+        <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="@dimen/resource_size_10" android:textColor="#ff90c0ff" android:id="@id/id_bricks_calendar_week_first" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="@dimen/resource_size_10" android:textColor="#ff90c0ff" android:id="@id/id_bricks_datid_bricks_calendar_week_second" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ViewFlipper>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+        <ViewFlipper android:id="@id/id_bricks_calendar_month_flip" android:layout_width="24.0dip" android:layout_height="24.0dip" android:inAnimation="@anim/bricks_roll_in" android:outAnimation="@anim/roll_out" android:autoStart="false">
+            <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="@dimen/resource_size_18" android:textColor="#ff90c0ff" android:gravity="center" android:id="@id/id_bricks_month_num_first" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="@dimen/resource_size_18" android:textColor="#ff90c0ff" android:gravity="center" android:id="@id/id_bricks_month_num_second" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </ViewFlipper>
+        <ViewFlipper android:id="@id/id_bricks_calendar_day_flip" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="5.0dip" android:inAnimation="@anim/bricks_roll_in" android:outAnimation="@anim/roll_out" android:autoStart="false">
+            <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="@dimen/resource_size_18" android:textColor="#ff90c0ff" android:gravity="center" android:id="@id/id_bricks_day_num_first" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="@dimen/resource_size_18" android:textColor="#ff90c0ff" android:gravity="center" android:id="@id/id_bricks_day_num_second" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </ViewFlipper>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/resource_size_11" android:textColor="@color/bricks_5f6672" android:ellipsize="end" android:gravity="center" android:layout_gravity="bottom" android:id="@id/id_bricks_calendar_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/resource_size_14" android:text="按时间挑演出" android:lines="1" />
+</FrameLayout>

@@ -1,0 +1,104 @@
+#show_venue_legend_single_card {
+  width: 100%;
+}
+#out_line {
+  flex-grow: 1;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: #ffffff4d;
+  border-radius: 6px;
+  align-items: stretch;
+  background-image: linear-gradient(to bottom right, #00000033 0%, #0000004d 100%);
+}
+#left_view {
+  width: 140px;
+  align-items: center;
+  height: 71px;
+}
+#iv_poster {
+  width: 140px;
+  height: 70px;
+  aspect-ratio: 2;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+#tv_top_tag {
+  text-overflow: ellipsis;
+  color: #ffffff;
+  font-size: 10px;
+  fit-content: true;
+  position: absolute;
+  text-align: center;
+  border-radius: 3px;
+  background-color: #00000066;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2.5px;
+  padding-bottom: 2.55px;
+  top: 4px;
+  left: 4px;
+}
+#rl_scan {
+  background-color: #00000066;
+  border-radius: 3px;
+  padding: 2px;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+}
+#iv_scan {
+  width: 11px;
+  height: 11px;
+}
+#tv_scan_num {
+  text-overflow: ellipsis;
+  fit-content: true;
+  margin-left: 1.5px;
+  color: #ffffff;
+  font-size: 9px;
+  font-weight: 600;
+}
+#rl_play {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 19px;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #00000000 0%, #00000099 100%);
+}
+#iv_play {
+  width: 11px;
+  height: 11px;
+  align-self: center;
+  margin-left: 4px;
+}
+#tv_duration {
+  text-overflow: ellipsis;
+  color: #ffffff;
+  font-size: 11px;
+  fit-content: true;
+  margin-left: 3px;
+  text-align: left;
+  font-weight: 600;
+}
+#right_view {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+#tv_title {
+  text-overflow: ellipsis;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+  flex-shrink: 1;
+  lines: 2;
+  fit-content: true;
+  line-height: 18px;
+  text-align: left;
+  margin-left: 12px;
+  margin-right: 12px;
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:id="@id/comment_item" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/comment_magic_tag_viewstub" android:layout="@layout/common_magic_tag_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" />
+    <TextView android:textSize="@dimen/resource_size_14" android:textColor="@color/cg_1" android:ellipsize="end" android:gravity="start" android:id="@id/common_comment_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="51.0dip" android:layout_marginTop="6.0dip" android:maxLines="8" android:lineSpacingExtra="6.0dip" />
+    <ViewStub android:id="@id/common_comment_content_imglist_viewstub" android:layout="@layout/oscar_common_comment_imglist" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="51.0dip" android:layout_marginTop="6.0dip" />
+    <com.taobao.movie.android.app.common.widget.AssociatedFilmView android:id="@id/layout_comment_film_associate" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="51.0dip" android:layout_marginTop="9.0dip" android:layout_marginBottom="9.0dip" />
+    <ViewStub android:id="@id/reply_content_viewstub" android:visibility="gone" android:layout="@layout/common_reply_content_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+    <ViewStub android:id="@id/comment_film_viewstub" android:visibility="gone" android:layout="@layout/common_film_container_v2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="51.0dip" android:layout_marginTop="9.0dip" android:layout_marginBottom="5.0dip" />
+</merge>

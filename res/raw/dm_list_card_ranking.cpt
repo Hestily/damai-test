@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.rank.RankProjectModel",
+    "vClass": "cn.damai.tetris.component.rank.RankProjectView",
+    "pClass": "cn.damai.tetris.component.rank.RankProjectPresenter",
+    "layoutXml": "item_rank_feed_project"
+  }
+}

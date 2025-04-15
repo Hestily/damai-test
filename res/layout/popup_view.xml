@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/calendar_list_bg" android:padding="2.0dip" style="@style/wrap"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="@dimen/resource_size_12" android:paddingBottom="@dimen/resource_size_17" android:layout_width="fill_parent" android:layout_height="125.0dip" android:paddingStart="@dimen/resource_size_12" android:paddingEnd="@dimen/resource_size_12"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.bricks.view.RCRelativeLayoutView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" app:clip_background="true" app:round_corner="@dimen/resource_size_9">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true">
+            <com.alibaba.pictures.moimage.MoImageView android:id="@id/expanded_mask" android:layout_width="250.0dip" android:layout_height="wrap_content" android:scaleType="fitEnd" app:roundedCornerRadius="@dimen/resource_size_9" />
+        </FrameLayout>
+    </com.alibaba.pictures.bricks.view.RCRelativeLayoutView>
+    <com.alibaba.pictures.bricks.view.RCRelativeLayoutView android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" app:clip_background="true" app:round_corner="@dimen/resource_size_9">
+        <TextView android:textSize="@dimen/resource_size_14" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/resource_size_9" android:maxLines="2" android:includeFontPadding="false" android:layout_marginStart="@dimen/resource_size_79" />
+        <TextView android:textSize="@dimen/resource_size_12" android:textColor="#ffffffff" android:id="@id/sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/resource_size_4" android:includeFontPadding="false" android:layout_below="@id/title" android:layout_marginStart="@dimen/resource_size_82" />
+    </com.alibaba.pictures.bricks.view.RCRelativeLayoutView>
+    <com.alibaba.pictures.moimage.MoImageView android:id="@id/poster" android:layout_width="@dimen/resource_size_70" android:layout_height="fill_parent" app:actualImageScaleType="centerCrop" app:failureImage="@drawable/bg_bricks_poster_place_holder_gray" app:placeholderImage="@drawable/bg_bricks_poster_place_holder_gray" app:roundedCornerRadius="@dimen/resource_size_9" />
+</RelativeLayout>

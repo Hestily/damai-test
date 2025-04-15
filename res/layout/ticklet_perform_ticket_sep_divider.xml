@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="fill_parent" android:layout_height="1.0dip" layout="@layout/component_ticket_fix_transparent_view" />
+    <include android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="1.0dip" layout="@layout/component_ticket_fix_transparent_view" />
+    <ImageView android:id="@id/ticket_iv_sep_divider" android:layout_width="fill_parent" android:layout_height="@dimen/margin_12dp" android:src="@drawable/ticket_sep_all_circle_bg_2" android:scaleType="fitXY" />
+    <cn.damai.ticklet.view.HorizontalDivideView android:layout_gravity="center" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginLeft="@dimen/margin_12dp" android:layout_marginTop="-1.0dip" android:layout_marginRight="@dimen/margin_12dp" android:scaleType="fitXY" app:divide_color="#ffced1d6" app:height="@dimen/margin_3dp" app:space="@dimen/margin_5dp" app:width="0.5dip" />
+</FrameLayout>

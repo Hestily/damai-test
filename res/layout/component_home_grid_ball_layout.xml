@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="3.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.pioneer.component.gridball.HomeBallGridViewPager android:id="@id/view_pager" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <cn.damai.pioneer.component.gridball.HomeViewPagerScrollBarView android:layout_gravity="center_horizontal" android:id="@id/scroll_indicator" android:layout_width="25.0dip" android:layout_height="3.0dip" android:layout_marginTop="@dimen/margin_6dp" app:backColor="@drawable/home_grid_ball_item_normal" app:foreColor="@drawable/home_tab_layout_pioneer_indicator" app:leftCornerRadius="1.5dip" app:ratio="0.0" app:rightCornerRadius="1.5dip" />
+</LinearLayout>

@@ -1,0 +1,45 @@
+{
+  "id": "damai_followfans_cell",
+  "type": "gaia-template",
+  "package": {
+    "id": "damai_followfans_cell",
+    "version": "0.0.1",
+    "modify-timestamp": "Mon Apr 08 2024 09:56:15 GMT+0800 (中国标准时间)",
+    "dependencies": { "damai_followfans_avatar": "0.0.0" }
+  },
+  "layers": [
+    {
+      "id": "damai_followfans_avatar",
+      "type": "gaia-template",
+      "sub-type": "custom"
+    },
+    {
+      "id": "damai_followfans_info_view",
+      "type": "view",
+      "layers": [
+        {
+          "id": "name_holder",
+          "type": "view",
+          "layers": [{ "id": "name_title", "type": "text" }]
+        },
+        { "id": "subtitle", "type": "text" },
+        { "id": "show_name", "type": "text" },
+        { "id": "show_info", "type": "text" },
+        {
+          "id": "price_holder",
+          "type": "view",
+          "layers": [
+            { "id": "price_icon", "type": "text" },
+            { "id": "price_number", "type": "text" },
+            { "id": "price_tip", "type": "text" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "followfans_action_view",
+      "type": "view",
+      "layers": [{ "id": "followfans_action_title", "type": "text" }]
+    }
+  ]
+}

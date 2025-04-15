@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0dip" android:textColor="@color/color_666666" android:ellipsize="end" android:gravity="center" android:id="@id/perform_textView" android:background="@drawable/project_detail_perform_bg_defalut" android:paddingLeft="@dimen/margin_14dp" android:paddingRight="@dimen/margin_14dp" android:layout_width="wrap_content" android:layout_height="43.5dip" android:layout_marginLeft="@dimen/margin_6dp" android:layout_marginBottom="@dimen/margin_6dp" android:singleLine="true" />
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/iv_no_sale_tip" android:visibility="gone" android:layout_width="31.0dip" android:layout_height="22.0dip" android:layout_marginBottom="@dimen/margin_6dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</FrameLayout>

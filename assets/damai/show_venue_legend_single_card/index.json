@@ -1,0 +1,48 @@
+{
+  "id": "show_venue_legend_single_card",
+  "type": "gaia-template",
+  "package": {
+    "id": "show_venue_legend_single_card",
+    "version": "0.0.1",
+    "constraint-size": { "width": 375, "height": 96, "zoom": 1 },
+    "modify-timestamp": "Tue Nov 21 2023 19:59:25 GMT+0800 (中国标准时间)",
+    "dependencies": {}
+  },
+  "layers": [
+    {
+      "id": "out_line",
+      "type": "view",
+      "layers": [
+        {
+          "id": "left_view",
+          "type": "view",
+          "layers": [
+            { "id": "iv_poster", "type": "image" },
+            { "id": "tv_top_tag", "type": "text" },
+            {
+              "id": "rl_scan",
+              "type": "view",
+              "layers": [
+                { "id": "iv_scan", "type": "image" },
+                { "id": "tv_scan_num", "type": "text" }
+              ]
+            },
+            {
+              "id": "rl_play",
+              "type": "view",
+              "layers": [
+                { "id": "iv_play", "type": "image" },
+                { "id": "tv_duration", "type": "text" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "right_view",
+          "type": "view",
+          "layers": [{ "id": "tv_title", "type": "text" }]
+        }
+      ]
+    }
+  ]
+}

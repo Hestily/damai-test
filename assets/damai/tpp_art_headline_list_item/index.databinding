@@ -1,0 +1,12 @@
+{
+  "event": { "contentView": { "report": "${report}" } },
+  "data": {
+    "rank": { "value": "${rank}", "extend": { "color": "${rankColor}" } },
+    "info": { "value": "${titleText}" },
+    "tagview": { "extend": { "border-color": "${tagColor}" } },
+    "tag": { "extend": { "color": "${tagColor}" }, "value": "${tag}" },
+    "partline": {
+      "extend": { "background-color": "@{${showPartLine} ? : '#ffffff'}" }
+    }
+  }
+}

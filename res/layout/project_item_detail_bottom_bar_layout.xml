@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center_horizontal" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true">
+        <View android:id="@id/line" android:background="@color/color_EEEEEE" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentTop="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/project_bottom_customer_follow_container_lv" android:layout_width="105.0dip" android:layout_height="fill_parent">
+            <FrameLayout android:orientation="vertical" android:id="@id/project_item_bottom_customer_service_lv" android:paddingLeft="@dimen/margin_21dp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_alignParentLeft="true">
+                <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_24dp" android:textColor="#ff3c3f44" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/iconfont_kefu_" />
+                <TextView android:textSize="10.0dip" android:textColor="@color/color_69717C" android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_2dp" android:layout_marginTop="@dimen/margin_1dp" android:layout_marginBottom="10.0dip" android:text="帮助" />
+            </FrameLayout>
+            <FrameLayout android:orientation="vertical" android:id="@id/project_item_bottom_want_to_see_fl" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_toRightOf="@id/project_item_bottom_customer_service_lv">
+                <cn.damai.uikit.view.SeeAnimateView android:layout_gravity="center" android:id="@id/project_bottom_want_to_see_view" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginBottom="8.0dip" app:lottie_repeatCount="0" />
+                <TextView android:textSize="10.0dip" android:textColor="@color/color_69717C" android:ellipsize="end" android:layout_gravity="bottom|center" android:id="@id/project_item_bottom_follow_text_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/want_to_see" android:singleLine="true" />
+            </FrameLayout>
+            <FrameLayout android:orientation="vertical" android:id="@id/project_item_bottom_block_want_to_see_fl" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_toRightOf="@id/project_item_bottom_customer_service_lv">
+                <ImageView android:layout_gravity="center" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/project_bottom_block_want_icon" android:scaleType="centerInside" />
+                <TextView android:textSize="10.0dip" android:textColor="#ffb1b2b4" android:ellipsize="end" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/want_to_see" android:singleLine="true" />
+            </FrameLayout>
+        </LinearLayout>
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@id/trade_project_detail_purchase_status_bar_container_fl" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/margin_8dp" android:layout_marginRight="@dimen/margin_15dp" android:layout_marginBottom="@dimen/margin_8dp" android:layout_toRightOf="@id/project_bottom_customer_follow_container_lv" />
+    </RelativeLayout>
+</FrameLayout>

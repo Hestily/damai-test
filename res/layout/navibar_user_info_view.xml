@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.damai.uikit.view.DMAvatar android:id="@id/user_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <View android:id="@id/user_icon_right_margin" android:layout_width="9.0dip" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0dip" android:textColor="@color/color_000000" android:ellipsize="end" android:id="@id/user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="140.0dip" android:singleLine="true" android:layout_weight="1.0" />
+            <ImageView android:id="@id/user_tag_view" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginLeft="3.0dip" android:src="@drawable/user_brand_vtag" />
+        </LinearLayout>
+        <View android:id="@id/user_name_bottom_margin" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+        <TextView android:textSize="10.0dip" android:textColor="@color/color_9C9CA5" android:id="@id/user_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

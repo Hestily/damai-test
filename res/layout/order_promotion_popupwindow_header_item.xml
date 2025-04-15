@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:gravity="center_vertical" android:id="@id/ordering_popupwindow_header" android:background="@drawable/order_page_dialog_head_title_bg" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="18.0dip" android:textColor="@color/color_tpp_primary_main_title" android:id="@id/ordering_item_header_title" android:layout_marginLeft="15.0dip" android:text="可参加的特惠活动" android:includeFontPadding="false" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/CommonListItemOrderTitle" />
+    <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="21.0dip" android:textColor="@color/color_tpp_primary_gray_c8" android:id="@id/ordering_item_header_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="17.0dip" android:text="@string/icon_font_close" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

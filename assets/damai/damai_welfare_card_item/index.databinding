@@ -1,0 +1,47 @@
+{
+  "data": {
+    "project_poster": {
+      "value": "@{eval(size(${verticalPic}) > 0) ? ${verticalPic} : @{env(isAndroid) ? 'gaiax_res:bricks_uikit_default_image_bg_gradient_radius3' : '_' }}",
+      "placeholder": "@{env(isAndroid) ? 'bricks_uikit_default_image_bg_gradient_radius3' : ''}"
+    },
+    "category_view": {
+      "extend": { "display": "@{${guideSubCategoryName} ? flex : none}" }
+    },
+    "category_tag": {
+      "value": "${guideSubCategoryName}",
+      "extend": {
+        "fit-content": "true",
+        "padding-bottom": "@{env(isAndroid) ? '1px' : '0px'}",
+        "padding-left": "@{env(isAndroid) ? '3px' : '3px'}",
+        "padding-right": "@{env(isAndroid) ? '3px' : '3px'}",
+        "display": "@{${guideSubCategoryName} ? flex : none}"
+      }
+    },
+    "discount_cover": {
+      "extend": {
+        "display": "@{eval(${marketPromotionTag.type} == 'ZAONIAO')  ? flex : @{eval(size(${marketPromotionTag.value}) > 0) ? flex :  @{eval(size(${marketPromotionTag.desc}) > 0) ? flex : none}}}"
+      }
+    },
+    "discount_zaoniao": {
+      "value": "@{env(isAndroid) ? 'gaiax_res:bricks_welfare_zaodiao_icon' : 'gaiax_res:home_welfare_early_bird_ticket' }",
+      "extend": {
+        "fit-content": "true",
+        "display": "@{eval(${marketPromotionTag.type} == 'ZAONIAO')  ? flex : none}"
+      }
+    },
+    "discount_point": {
+      "value": "${marketPromotionTag.value}",
+      "extend": {
+        "fit-content": "true",
+        "display": "@{eval(${marketPromotionTag.type} == 'ZAONIAO') ? none : @{eval(size(${marketPromotionTag.value}) > 0) ? flex : none}}"
+      }
+    },
+    "discount_desc": {
+      "value": "${marketPromotionTag.desc}",
+      "extend": {
+        "fit-content": "true",
+        "display": "@{eval(${marketPromotionTag.type} == 'ZAONIAO') ? none : @{eval(size(${marketPromotionTag.desc}) > 0) ? flex : none}}"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/location_tip_pop_img_arrow" android:background="@drawable/popwindow_up_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:alpha="0.8" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/location_tip_pop_content_block" android:background="@drawable/popwindow_location_tip_bg" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/location_tip_pop_img_arrow">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/location_tip_pop_content" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="13.0dip" android:textColor="@color/color_tpp_primary_white" android:ellipsize="end" android:id="@id/location_tip_pop_content_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="定位服务尚未开启" android:lines="1" android:singleLine="true" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_60_white" android:ellipsize="end" android:id="@id/location_tip_pop_content_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="开启定位帮您查看附近商品、影院场馆信息" android:lines="1" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:textSize="11.0dip" android:textStyle="bold" android:textColor="@color/color_tpp_primary_white" android:gravity="center" android:id="@id/location_tip_pop_action_btn" android:background="@drawable/common_red_small_btn_7_3" android:layout_width="52.0dip" android:layout_height="21.0dip" android:text="去开启" android:includeFontPadding="false" android:textAlignment="center" />
+        <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="18.0dip" android:textColor="@color/color_tpp_primary_white" android:id="@id/location_tip_pop_action_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/icon_font_close_bold" />
+    </LinearLayout>
+</RelativeLayout>

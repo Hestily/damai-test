@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AliUserAppThemeBase" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:windowBackground">@color/aliuser_color_white</item>
+        <item name="android:actionMenuTextAppearance">@style/AliUserToolbarMenuTextStyle</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="colorAccent">@color/aliuser_default_text_color</item>
+        <item name="colorControlActivated">@color/aliuser_color_lightest_gray</item>
+        <item name="colorControlNormal">@android:color/black</item>
+        <item name="colorPrimary">@color/aliuser_color_white</item>
+        <item name="colorPrimaryDark">@color/aliuser_color_white</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme" parent="@style/Theme.MaterialComponents.Light.Bridge">
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+    <style name="AppTheme_translucent" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme_white" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+    <style name="BaseTbmovieTheme" parent="@style/Theme.MaterialComponents.Light.Bridge">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:actionBarSize">48.0dip</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="actionBarSize">48.0dip</item>
+        <item name="bgFilmDetailAll">@drawable/item_round_selector</item>
+        <item name="bgFilmDetailBottom">@drawable/order_item_bottom_round_bg</item>
+        <item name="bgFilmDetailTop">@drawable/order_item_top_round_bg</item>
+        <item name="film_corner_height">12.0dip</item>
+        <item name="statemanager_button_style">@style/statemanager_button_style</item>
+        <item name="statemanager_hint_style">@style/TbmovieStateHintStyle</item>
+        <item name="statemanager_image_style">@style/TbmovieStateImageStyle</item>
+        <item name="statemanager_loading_style">@style/statemanager_loading_style</item>
+        <item name="statemanager_subhint_style">@style/TbmovieStateSubHintStyle</item>
+        <item name="statemanager_view_style">@style/statemanager_view_style</item>
+    </style>
+    <style name="BaseTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowAnimationStyle">@style/Animation</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+    <style name="DM_NODARK" parent="@style/Theme.MaterialComponents.Light.Bridge">
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+    <style name="NoAnimTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowAnimationStyle">@style/Animation</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+    <style name="NoAnimThemeNew" parent="@style/TppBaseTheme">
+        <item name="android:windowAnimationStyle">@style/Animation</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+    <style name="NoAnimThemeNew_FromCommonBusiness" parent="@style/Theme.Design.Light.NoActionBar">
+        <item name="android:windowAnimationStyle">@style/Animation_FromCommonBusiness</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+    <style name="NoAnimTransBgTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+    <style name="SplashTheme" parent="@style/Theme.MaterialComponents.Light.Bridge">
+        <item name="android:windowBackground">@drawable/launcher_splash_layer</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+    <style name="taomai_h5_theme_DM" parent="@style/taomai_h5_theme">
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+</resources>

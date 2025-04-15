@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/refresh_overView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/scroll_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:id="@id/home_bg_pull" android:layout_width="fill_parent" android:layout_height="1920.0dip" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/pull_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/pull_refresh_img" android:adjustViewBounds="true" />
+                <LinearLayout android:gravity="bottom|center" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/refresh_area" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <FrameLayout android:layout_width="wrap_content" android:layout_height="100.0dip">
+                        <com.taobao.movie.android.commonui.widget.SafeLottieAnimationView android:id="@id/pull_animation" android:layout_width="wrap_content" android:layout_height="fill_parent" app:lottie_autoPlay="false" app:lottie_loop="false" app:lottie_progress="0.0" />
+                        <com.taobao.movie.android.commonui.widget.SafeLottieAnimationView android:id="@id/refresh_animation" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" app:lottie_autoPlay="false" app:lottie_loop="true" app:lottie_progress="0.0" />
+                    </FrameLayout>
+                    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <View android:id="@id/pull_refresh_mask" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="67.5dip" />
+                        <LinearLayout android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+                            <TextView android:textSize="12.0dip" android:textColor="@color/tpp_gray_3" android:layout_gravity="center" android:id="@id/pullrefresh_prompt" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                            <ImageView android:gravity="center" android:id="@id/icon_pull_double_arrow" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="@dimen/padding_2dp" android:src="@drawable/second_floor_pull_double_arrow" />
+                        </LinearLayout>
+                    </FrameLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</merge>

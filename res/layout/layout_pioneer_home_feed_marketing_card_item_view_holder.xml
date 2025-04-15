@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.pictures.bricks.view.BricksStrokeRelativeLayout android:id="@id/all_card_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.moimage.MoImageView android:id="@id/pic" android:layout_width="fill_parent" android:layout_height="fill_parent" app:actualImageScaleType="centerCrop" app:failureImage="@drawable/bricks_default_image_bg_gradient" app:placeholderImage="@drawable/bricks_default_image_bg_gradient" />
+    <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="16.0dip" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/action" android:background="@drawable/bg_home_feed_marketing_card_action" android:layout_width="fill_parent" android:layout_height="@dimen/resource_size_32" android:layout_marginBottom="@dimen/resource_size_18" android:maxLines="1" android:layout_alignParentBottom="true" android:paddingStart="@dimen/resource_size_5" android:paddingEnd="@dimen/resource_size_5" android:layout_marginStart="34.0dip" android:layout_marginEnd="34.0dip" />
+</com.alibaba.pictures.bricks.view.BricksStrokeRelativeLayout>

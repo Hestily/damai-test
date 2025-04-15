@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="abc_bg_color">#ffe41b46</item>
+    <item type="drawable" name="abc_btn_press">#ffc9163c</item>
+    <item type="drawable" name="black_alpha_5">#0d000000</item>
+    <item type="drawable" name="black_bg">#ff000000</item>
+    <item type="drawable" name="color_3A3A7A">#ff3a3a7a</item>
+    <item type="drawable" name="color_60black">#99000000</item>
+    <item type="drawable" name="crop_content_btn_bg">#e52fb3ff</item>
+    <item type="drawable" name="d_buy_button_enable">#ffdbdbdb</item>
+    <item type="drawable" name="d_buy_button_normal">#fffbb102</item>
+    <item type="drawable" name="d_buy_button_press">#ffe19f02</item>
+    <item type="drawable" name="d_buy_red_button_enable">#ffdbdbdb</item>
+    <item type="drawable" name="d_buy_red_button_normal">#ffe41b47</item>
+    <item type="drawable" name="d_buy_red_button_press">#ffd4355a</item>
+    <item type="drawable" name="d_select_sit_button_normal">#ff00bfb5</item>
+    <item type="drawable" name="d_select_sit_button_press">#ff00aca3</item>
+    <item type="drawable" name="damai_star_bg">#ffc8c8c8</item>
+    <item type="drawable" name="default_color_f0f0f0">#fff0f0f0</item>
+    <item type="drawable" name="detail_buy_button_press">#ffe41b46</item>
+    <item type="drawable" name="devider_line">#ffe5e5e5</item>
+    <item type="drawable" name="gray_dbdbdb">#0ddbdbdb</item>
+    <item type="drawable" name="home_default_place_bg">@drawable/img_standard_grey_default</item>
+    <item type="drawable" name="list_bg_color">#fff0f2f5</item>
+    <item type="drawable" name="material_ic_keyboard_arrow_next_black_24dp">@drawable/material_ic_keyboard_arrow_right_black_24dp</item>
+    <item type="drawable" name="material_ic_keyboard_arrow_previous_black_24dp">@drawable/material_ic_keyboard_arrow_left_black_24dp</item>
+    <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+    <item type="drawable" name="notification_template_icon_low_bg">#0cffffff</item>
+    <item type="drawable" name="photo_select_normal">#fff8f8f8</item>
+    <item type="drawable" name="photo_select_press">#ffffffff</item>
+    <item type="drawable" name="rpsdk_face_win_bg">#00000000</item>
+    <item type="drawable" name="transparent">#00ffffff</item>
+    <item type="drawable" name="window_bg">#fff0f2f4</item>
+    <item type="drawable" name="window_bg_my">#fff3f5f6</item>
+    <item type="drawable" name="window_light_red_bg">#ffffdfe7</item>
+    <item type="drawable" name="window_white_bg">#ffffffff</item>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:layout_gravity="center_horizontal" android:id="@id/order_resell_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/common_business_check_circle_selector" />
+    <TextView android:textSize="14.0dip" android:textColor="#ff30aeff" android:gravity="left" android:id="@id/damai_dialog_tip_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="我已阅读并同意《票品转卖服务协议》" android:includeFontPadding="false" android:lineSpacingExtra="3.0dip" />
+</LinearLayout>

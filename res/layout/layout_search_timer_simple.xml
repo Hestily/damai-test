@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_timer" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.damai.uikit.number.DMDigitTextView android:textSize="10.0dip" android:textColor="#fffd7c8f" android:id="@id/tv_timer_day" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="10.0dip" android:textColor="#fffd7c8f" android:id="@id/tv_timer_day_mark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="天" />
+    <cn.damai.uikit.number.DMDigitTextView android:textSize="10.0dip" android:textColor="#fffd7c8f" android:id="@id/tv_timer_hour" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="10.0dip" android:textColor="#fffd7c8f" android:gravity="center_vertical" android:id="@id/tv_timer_hour_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="时" />
+    <cn.damai.uikit.number.DMDigitTextView android:textSize="10.0dip" android:textColor="#fffd7c8f" android:id="@id/tv_timer_min" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="10.0dip" android:textColor="#fffd7c8f" android:id="@id/tv_timer_min_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" android:text="分" />
+    <cn.damai.uikit.number.DMDigitTextView android:textSize="10.0dip" android:textColor="#fffd7c8f" android:id="@id/tv_timer_sec" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="10.0dip" android:textColor="#fffd7c8f" android:id="@id/tv_timer_sec_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" android:text="秒" />
+</LinearLayout>

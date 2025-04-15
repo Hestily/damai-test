@@ -1,0 +1,56 @@
+{
+  "event": {
+    "script_base_info_introduce": {
+      "eventName": "coupon_detail_action",
+      "schema": "${itemDetailUrl}"
+    }
+  },
+  "data": {
+    "groupon_name": {
+      "value": "${itemName}",
+      "extend": {
+        "fit-content": "true",
+        "font-weight": "@{env(isAndroid) ? 400 : 500}"
+      }
+    },
+    "store_name": {
+      "value": "${shopName}",
+      "extend": { "fit-content": "true" }
+    },
+    "store_image": {
+      "value": "@{eval(size(${itemPicUrl}) > 0) ? ${itemPicUrl} : @{env(isAndroid) ? 'gaiax_res:uikit_default_image_bg_grey' : 'gaiax_res:script_can_play_store_default_image' }}",
+      "placeholder": "@{env(isAndroid) ? 'uikit_default_image_bg_grey' : 'script_can_play_store_default_image' }"
+    },
+    "sep_line": {
+      "extend": {
+        "fit-content": "true",
+        "display": "@{${priceDetail} ? flex : @{${totalAmount} ? flex : none}}"
+      }
+    },
+    "groupon_num": {
+      "value": "${priceDetail}",
+      "extend": { "fit-content": "true" }
+    },
+    "groupon_total_price": {
+      "value": "¥ + ${sumPrice}",
+      "extend": {
+        "fit-content": "true",
+        "display": "@{${sumPrice} ? flex : none}"
+      }
+    },
+    "gropun_price_contrainer": {
+      "extend": {
+        "fit-content": "true",
+        "display": "@{${totalAmount} ? flex : none}"
+      }
+    },
+    "groupon_price_desc": {
+      "value": "${displayAmountDesc}",
+      "extend": { "fit-content": "true" }
+    },
+    "real_price": {
+      "value": "¥ + ${totalAmount}",
+      "extend": { "fit-content": "true" }
+    }
+  }
+}

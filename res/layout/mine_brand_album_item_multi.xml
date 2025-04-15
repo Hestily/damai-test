@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingRight="12.0dip" android:layout_width="219.0dip" android:layout_height="118.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="118.0dip" android:layout_height="fill_parent" android:scaleType="center" android:layout_centerVertical="true">
+        <cn.damai.uikit.view.RoundImageView android:id="@id/brand_album_item_pic" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true" app:borderRadius="6.0dip" app:clipLeftBottomRadius="false" app:clipLeftTopRadius="false" app:clipRightBottomRadius="true" app:clipRightTopRadius="true" app:type="round" />
+        <ImageView android:id="@id/brand_banner_item_play" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/dm_poster_video_icon" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="91.0dip" android:layout_height="fill_parent" android:layout_marginLeft="1.0dip" android:layout_alignParentRight="true">
+        <cn.damai.uikit.view.RoundImageView android:id="@id/brand_album_item_pic1" android:layout_width="fill_parent" android:layout_height="58.5dip" android:scaleType="center" android:layout_weight="1.0" android:layout_centerVertical="true" app:borderRadius="6.0dip" app:clipLeftBottomRadius="true" app:clipLeftTopRadius="true" app:clipRightBottomRadius="true" app:clipRightTopRadius="false" app:type="round" />
+        <cn.damai.uikit.view.RoundImageView android:id="@id/brand_album_item_pic2" android:layout_width="fill_parent" android:layout_height="58.5dip" android:scaleType="center" android:layout_weight="1.0" android:layout_centerVertical="true" app:borderRadius="6.0dip" app:clipLeftBottomRadius="true" app:clipLeftTopRadius="true" app:clipRightBottomRadius="false" app:clipRightTopRadius="true" app:type="round" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_alignParentBottom="true">
+        <include layout="@layout/brand_album_bottom" />
+    </RelativeLayout>
+</RelativeLayout>

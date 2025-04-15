@@ -1,0 +1,310 @@
+{
+  "api": "mtop.damai.mec.aristotle.get",
+  "data": {
+    "data": {
+      "spmab": "a2o4t.home",
+      "serverTime": "1671513666480",
+      "pageName": "home"
+    },
+    "level": "0",
+    "more": "false",
+    "nodes": [
+      {
+        "data": {
+          "nodeId": "c6b33b18-8262-4e64-88fd-0a3497e65d0e"
+        },
+        "level": "1",
+        "more": "false",
+        "nodes": [
+          {
+            "data": {
+              "componentId": "dm_home_icon",
+              "action": {
+                "item": {
+                  "trackInfo": {
+                    "spmd": "item_",
+                    "spmc": "category"
+                  }
+                }
+              },
+              "hiddenTitle": "true",
+              "isFilterEmpty": "false",
+              "nodeId": "e792a1b7-1935-49ad-8e60-ec55597be37b",
+              "hiddenFooter": "false"
+            },
+            "level": "2",
+            "more": "false",
+            "nodes": [
+              {
+                "data": {
+                  "dataType": "14",
+                  "action": {
+                    "item": {
+                      "actionType": "1",
+                      "trackInfo": {
+                        "args": {
+                          "titlelabel": "音乐现场"
+                        },
+                        "spmd": "item_",
+                        "spmc": "category"
+                      },
+                      "actionUrl": "damai://V1/SecondLevelHomePage?&groupId=2393&type=100"
+                    }
+                  },
+                  "pic": "https://img.alicdn.com/imgextra/i1/O1CN01AqVPjE1fQVTA2LOAB_!!6000000004001-2-tps-160-160.png",
+                  "title": "音乐现场",
+                  "idx": "1",
+                  "icon1": "",
+                  "icon2": ""
+                },
+                "level": "3",
+                "more": "false",
+                "type": "7531"
+              },
+              {
+                "data": {
+                  "dataType": "14",
+                  "action": {
+                    "item": {
+                      "actionType": "1",
+                      "trackInfo": {
+                        "args": {
+                          "titlelabel": "话剧音乐剧"
+                        },
+                        "spmd": "item_",
+                        "spmc": "category"
+                      },
+                      "actionUrl": "damai://V1/SecondLevelHomePage?groupId=2333&type=100"
+                    }
+                  },
+                  "pic": "https://img.alicdn.com/imgextra/i1/O1CN01kcmPMp1wVrZCrerye_!!6000000006314-2-tps-160-160.png",
+                  "title": "话剧音乐剧",
+                  "idx": "2",
+                  "icon1": "",
+                  "icon2": ""
+                },
+                "level": "3",
+                "more": "false",
+                "type": "7531"
+              },
+              {
+                "data": {
+                  "dataType": "14",
+                  "action": {
+                    "item": {
+                      "actionType": "1",
+                      "trackInfo": {
+                        "args": {
+                          "titlelabel": "展览"
+                        },
+                        "spmd": "item_",
+                        "spmc": "category"
+                      },
+                      "actionUrl": "damai://V1/SecondLevelHomePage?groupId=2370&type=100"
+                    }
+                  },
+                  "pic": "https://img.alicdn.com/imgextra/i3/O1CN01Wx9Gsy1Qo7eSS2c8V_!!6000000002022-2-tps-160-160.png",
+                  "title": "展览",
+                  "idx": "3",
+                  "icon1": "",
+                  "icon2": ""
+                },
+                "level": "3",
+                "more": "false",
+                "type": "7531"
+              },
+              {
+                "data": {
+                  "dataType": "14",
+                  "action": {
+                    "item": {
+                      "actionType": "1",
+                      "trackInfo": {
+                        "args": {
+                          "titlelabel": "脱口秀"
+                        },
+                        "spmd": "item_",
+                        "spmc": "category"
+                      },
+                      "actionUrl": "damai://V1/SecondLevelHomePage?groupId=2416&type=100"
+                    }
+                  },
+                  "pic": "https://img.alicdn.com/imgextra/i2/O1CN01LH3zZQ1aFuDlxABWf_!!6000000003301-2-tps-160-160.png",
+                  "title": "脱口秀",
+                  "idx": "4",
+                  "icon1": "5折起",
+                  "icon2": ""
+                },
+                "level": "3",
+                "more": "false",
+                "type": "7531"
+              },
+              {
+                "data": {
+                  "dataType": "14",
+                  "action": {
+                    "item": {
+                      "actionType": "1",
+                      "trackInfo": {
+                        "args": {
+                          "titlelabel": "儿童亲子"
+                        },
+                        "spmd": "item_",
+                        "spmc": "category"
+                      },
+                      "actionUrl": "damai://V1/SecondLevelHomePage?groupId=2361&type=100"
+                    }
+                  },
+                  "pic": "https://img.alicdn.com/imgextra/i2/O1CN01SuKBOg1sqEinH6J5L_!!6000000005817-2-tps-160-160.png",
+                  "title": "儿童亲子",
+                  "idx": "5",
+                  "icon1": "",
+                  "icon2": ""
+                },
+                "level": "3",
+                "more": "false",
+                "type": "7531"
+              },
+              {
+                "data": {
+                  "dataType": "14",
+                  "action": {
+                    "item": {
+                      "actionType": "1",
+                      "trackInfo": {
+                        "args": {
+                          "titlelabel": "音乐会"
+                        },
+                        "spmd": "item_",
+                        "spmc": "category"
+                      },
+                      "actionUrl": "damai://V1/SecondLevelHomePage?groupId=2346&type=100"
+                    }
+                  },
+                  "pic": "https://img.alicdn.com/imgextra/i3/O1CN0192zIHs1v6NvFeDRO0_!!6000000006123-2-tps-160-160.png",
+                  "title": "音乐会",
+                  "idx": "6",
+                  "icon1": "",
+                  "icon2": ""
+                },
+                "level": "3",
+                "more": "false",
+                "type": "7531"
+              },
+              {
+                "data": {
+                  "dataType": "14",
+                  "action": {
+                    "item": {
+                      "actionType": "1",
+                      "trackInfo": {
+                        "args": {
+                          "titlelabel": "舞蹈芭蕾"
+                        },
+                        "spmd": "item_",
+                        "spmc": "category"
+                      },
+                      "actionUrl": "damai://V1/SecondLevelHomePage?groupId=2362&type=100"
+                    }
+                  },
+                  "pic": "https://img.alicdn.com/imgextra/i4/O1CN01cdgRLS1dKtNO94LhT_!!6000000003718-2-tps-160-160.png",
+                  "title": "舞蹈芭蕾",
+                  "idx": "7",
+                  "icon1": "",
+                  "icon2": ""
+                },
+                "level": "3",
+                "more": "false",
+                "type": "7531"
+              },
+              {
+                "data": {
+                  "dataType": "14",
+                  "action": {
+                    "item": {
+                      "actionType": "1",
+                      "trackInfo": {
+                        "args": {
+                          "titlelabel": "曲苑杂坛"
+                        },
+                        "spmd": "item_",
+                        "spmc": "category"
+                      },
+                      "actionUrl": "damai://V1/SecondLevelHomePage?groupId=2334&type=100"
+                    }
+                  },
+                  "pic": "https://img.alicdn.com/imgextra/i3/O1CN01MRm6bM1TBbBlsvzUT_!!6000000002344-2-tps-160-160.png",
+                  "title": "曲苑杂坛",
+                  "idx": "8",
+                  "icon1": "",
+                  "icon2": ""
+                },
+                "level": "3",
+                "more": "false",
+                "type": "7531"
+              },
+              {
+                "data": {
+                  "dataType": "14",
+                  "action": {
+                    "item": {
+                      "actionType": "2",
+                      "trackInfo": {
+                        "args": {
+                          "titlelabel": "剧本杀"
+                        },
+                        "spmd": "item_",
+                        "spmc": "category"
+                      },
+                      "actionUrl": "https://t.damai.cn/yep/page/m/LCJBSguodu20220614"
+                    }
+                  },
+                  "pic": "https://img.alicdn.com/imgextra/i4/O1CN01yRPDUl1t0lpZ3e73x_!!6000000005840-2-tps-160-160.png",
+                  "title": "剧本杀",
+                  "idx": "9",
+                  "icon1": "",
+                  "icon2": ""
+                },
+                "level": "3",
+                "more": "false",
+                "type": "7531"
+              },
+              {
+                "data": {
+                  "dataType": "14",
+                  "action": {
+                    "item": {
+                      "actionType": "1",
+                      "trackInfo": {
+                        "args": {
+                          "titlelabel": "全部"
+                        },
+                        "spmd": "item_",
+                        "spmc": "category"
+                      },
+                      "actionUrl": "damai://V1/SecondLevelHomePage?id=0&type=100"
+                    }
+                  },
+                  "pic": "https://img.alicdn.com/imgextra/i1/O1CN011caZG522KlfFtLHJw_!!6000000007102-2-tps-160-160.png",
+                  "title": "全部",
+                  "idx": "10",
+                  "icon1": "",
+                  "icon2": ""
+                },
+                "level": "3",
+                "more": "false",
+                "type": "7531"
+              }
+            ],
+            "style": {},
+            "type": "7568"
+          }
+        ]
+      }
+    ]
+  },
+  "ret": [
+    "SUCCESS::调用成功"
+  ],
+  "v": "3.0"
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/daojishi_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.uikit.number.DMDigitTextView android:textSize="12.0dip" android:textColor="@color/color_FF2869" android:id="@id/tv_day" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="10.0dip" android:textColor="@color/color_9C9CA5" android:id="@id/tv_day_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="天" />
+    <cn.damai.uikit.number.DMDigitTextView android:textSize="12.0dip" android:textColor="@color/color_FF2869" android:id="@id/tv_hour" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" />
+    <TextView android:textSize="10.0dip" android:textColor="@color/color_9C9CA5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="时" />
+    <cn.damai.uikit.number.DMDigitTextView android:textSize="12.0dip" android:textColor="@color/color_FF2869" android:id="@id/tv_minute" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" />
+    <TextView android:textSize="10.0dip" android:textColor="@color/color_9C9CA5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="分" />
+    <cn.damai.uikit.number.DMDigitTextView android:textSize="12.0dip" android:textColor="@color/color_FF2869" android:id="@id/tv_second" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" />
+    <TextView android:textSize="10.0dip" android:textColor="@color/color_9C9CA5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="秒" />
+</LinearLayout>

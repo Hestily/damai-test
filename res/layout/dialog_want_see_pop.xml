@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.uikit.view.StrokeLinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" app:sl_corners_radius="21.0dip">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/id_dialog_want_lottie_top" android:layout_width="275.0dip" android:layout_height="220.0dip" android:src="@drawable/icon_bg_want_see_top" />
+            <com.airbnb.lottie.LottieAnimationView android:id="@id/id_dialog_want_lottie" android:layout_width="275.0dip" android:layout_height="220.0dip" app:lottie_autoPlay="true" app:lottie_loop="true" />
+        </FrameLayout>
+        <TextView android:textSize="18.0dip" android:textColor="@color/color_000000" android:id="@id/id_dialog_want_btn_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" android:text="[想看]记录每一次心动" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/color_9c9ca5" android:gravity="center" android:id="@id/id_dialog_want_btn_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="在[我的-想看]能快速找到哦" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" />
+        <TextView android:textSize="18.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/id_dialog_want_btn_tv" android:background="@drawable/bg_submit_button_ff3299_ff2869" android:layout_width="214.0dip" android:layout_height="42.0dip" android:layout_marginTop="21.0dip" android:layout_marginBottom="16.0dip" android:text="去看看" />
+    </cn.damai.uikit.view.StrokeLinearLayout>
+    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="20.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/id_dialog_want_close_btn" android:background="@drawable/bg_pop_ad_close_btn_border" android:layout_width="34.0dip" android:layout_height="34.0dip" android:layout_marginTop="21.0dip" android:text="@string/iconfont_guanbi24" />
+</LinearLayout>

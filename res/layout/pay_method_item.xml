@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="70.0dip">
+        <ImageView android:id="@id/ivPayMethodIcon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="15.0dip" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="15.0dip" android:layout_toRightOf="@id/ivPayMethodIcon" android:layout_centerVertical="true">
+            <TextView android:textSize="14.0dip" android:textColor="@color/text_color_34" android:id="@id/tvPayMethodName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/damai_alipay_title" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/c858585" android:id="@id/tvPayMethodDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/damai_alipay_title" />
+        </LinearLayout>
+        <ImageView android:id="@id/ivSelectedPayMethod" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/c_select_button" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:id="@id/tvpayline" android:background="#ffe5e5e5" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_toRightOf="@id/ivPayMethodIcon" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

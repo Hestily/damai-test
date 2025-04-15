@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.pictures.bricks.view.BricksStrokeLinearLayout android:orientation="vertical" android:id="@id/pioneer_feed_show_performance_stroke_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" app:sl_corners_radius="6.0dip" app:sl_stroke_color="#0d000000" app:sl_stroke_width="1.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.alibaba.pictures.bricks.view.HWRatioLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.alibaba.pictures.bricks.view.GifCareImageView android:id="@id/pioneer_feed_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bricks_uikit_default_pioneer_image_bg_gradient_f5f6f8" android:scaleType="centerCrop" />
+        </com.alibaba.pictures.bricks.view.HWRatioLayout>
+        <ImageView android:layout_gravity="center|right|top" android:id="@id/pioneer_feed_card_img_video_tag" android:visibility="gone" android:layout_width="17.0dip" android:layout_height="17.0dip" android:layout_marginTop="9.0dip" android:layout_marginRight="9.0dip" android:src="@drawable/icon_pioneer_home_feed_card_item_video" android:scaleType="fitXY" />
+        <LinearLayout android:layout_gravity="bottom|center|left" android:orientation="horizontal" android:id="@id/pioneer_feed_card_img_tag_layout" android:background="@drawable/pioneer_feed_show_performance_img_tag_bg" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/pioneer_feed_bottom_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="#ff171717" android:ellipsize="end" android:id="@id/pioneer_feed_card_s1_title" android:paddingLeft="9.0dip" android:paddingRight="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:maxLines="2" android:lineSpacingExtra="3.0dip" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/pioneer_feed_card_s1_sub_title_layout" android:paddingLeft="9.0dip" android:paddingRight="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+            <RelativeLayout android:id="@id/pioneer_feed_card_price_layout" android:paddingLeft="9.0dip" android:paddingRight="9.0dip" android:layout_width="fill_parent" android:layout_height="28.0dip" android:layout_marginBottom="12.0dip">
+                <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="12.0dip" android:textColor="#ff171717" android:id="@id/pioneer_feed_card_price_symbol" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.5dip" />
+                <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="20.0dip" android:textColor="#ff171717" android:id="@id/pioneer_feed_card_price_num" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/pioneer_feed_card_price_symbol" />
+                <TextView android:textSize="12.0dip" android:textColor="#ff171717" android:id="@id/pioneer_feed_card_price_unit" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="9.5dip" android:layout_toRightOf="@id/pioneer_feed_card_price_num" />
+                <TextView android:textSize="12.0dip" android:textColor="#ffc46e31" android:ellipsize="end" android:id="@id/pioneer_feed_card_price_desc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="9.5dip" android:maxLines="1" android:layout_toRightOf="@id/pioneer_feed_card_price_unit" />
+            </RelativeLayout>
+        </LinearLayout>
+        <View android:layout_gravity="bottom|center|right" android:orientation="vertical" android:id="@id/tv_float_right_bottom_view" android:background="#00000000" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginRight="9.0dip" />
+    </FrameLayout>
+</com.alibaba.pictures.bricks.view.BricksStrokeLinearLayout>

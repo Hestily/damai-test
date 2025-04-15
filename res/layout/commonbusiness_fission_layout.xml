@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/ll_title" layout="@layout/commonbusiness_title_layout" />
+    <ScrollView android:id="@id/cb_fission_scrollview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:layout_above="@id/fl_seekbar" android:layout_below="@id/ll_title">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <cn.damai.commonbusiness.view.DmViewPager android:id="@id/cd_fission_viewpager" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/indicator_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_21dp" android:layout_marginRight="@dimen/margin_21dp" />
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:id="@id/fl_seekbar" android:layout_width="fill_parent" android:layout_height="260.0dip" android:layout_alignParentBottom="true">
+        <com.alibaba.pictures.moimage.MoImageView android:id="@id/img_share_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="0.5dip" app:roundBottomLeft="false" app:roundBottomRight="false" app:roundTopLeft="true" app:roundTopRight="true" app:roundedCornerRadius="12.0dip" app:roundingBorderColor="@color/black5unalpha" app:roundingBorderWidth="0.5dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.alibaba.pictures.moimage.MoImageView android:layout_gravity="center_horizontal" android:id="@id/img_share_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_20dp" />
+            <FrameLayout android:layout_gravity="center_horizontal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_10dp">
+                <View android:layout_gravity="center" android:id="@id/seekbar_bg" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginStart="40.0dip" android:layout_marginEnd="40.0dip" />
+                <com.alibaba.pictures.moimage.MoImageView android:layout_gravity="center" android:id="@id/img_want_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.alibaba.pictures.moimage.MoImageView android:layout_gravity="start|center" android:id="@id/img_want_light" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="40.0dip" android:layout_marginEnd="40.0dip" />
+                <androidx.appcompat.widget.AppCompatSeekBar android:id="@id/seekbar_want" android:layout_width="fill_parent" android:layout_height="wrap_content" android:thumb="@drawable/bg_project_share_seekbar_thumb" android:layout_marginStart="40.0dip" android:layout_marginEnd="40.0dip" android:splitTrack="false" />
+                <com.alibaba.pictures.bricks.view.SafeLottieAnimationView android:layout_gravity="center_vertical" android:id="@id/lottie_want_thumb" android:layout_width="45.0dip" android:layout_height="45.0dip" />
+            </FrameLayout>
+            <View android:background="@color/black10unalpha" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="@dimen/margin_10dp" android:layout_marginBottom="@dimen/margin_10dp" android:layout_marginStart="@dimen/margin_22dp" android:layout_marginEnd="@dimen/margin_22dp" />
+            <HorizontalScrollView android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/ll_share_channel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_21dp" android:layout_marginRight="@dimen/margin_21dp">
+                    <cn.damai.commonbusiness.fission.view.FissionShareItemView android:id="@id/icon_wx" android:paddingTop="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="33.0dip" app:desc="微信" app:iconfont="@string/iconfont_fenxiang_weixin_24" />
+                    <cn.damai.commonbusiness.fission.view.FissionShareItemView android:id="@id/icon_friend" android:paddingTop="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="33.0dip" app:desc="朋友圈" app:iconfont="@string/iconfont_fenxiang_pengyouquan_24" />
+                    <cn.damai.commonbusiness.fission.view.FissionShareItemView android:id="@id/icon_weibo" android:paddingTop="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="33.0dip" app:desc="微博" app:iconfont="@string/iconfont_fenxiang_weibo_24" />
+                    <cn.damai.commonbusiness.fission.view.FissionShareItemView android:id="@id/icon_generate_image" android:paddingTop="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" app:desc="生成海报" app:iconfont="@string/iconfont_fenxiang_tupian_24" />
+                </LinearLayout>
+            </HorizontalScrollView>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_21dp" android:layout_marginTop="@dimen/margin_11dp" android:layout_marginRight="@dimen/margin_21dp">
+                <TextView android:textSize="@dimen/margin_10dp" android:textColor="#ff30aeff" android:layout_gravity="center_horizontal" android:id="@id/jubao_desc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_20dp" android:text="举报" />
+                <TextView android:textSize="@dimen/margin_10dp" android:textColor="#ff30aeff" android:layout_gravity="center_horizontal" android:id="@id/copy_url" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="复制链接" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.alibaba.pictures.bricks.view.SafeLottieAnimationView android:id="@id/want_guide_lottie" android:layout_width="91.0dip" android:layout_height="67.5dip" android:layout_marginTop="66.0dip" android:layout_marginStart="48.0dip" />
+    </FrameLayout>
+</RelativeLayout>

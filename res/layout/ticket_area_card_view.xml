@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/root_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="304.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip">
+            <ImageView android:layout_width="15.0dip" android:layout_height="304.0dip" android:src="@drawable/bricks_ticket_area_left_icon" />
+            <LinearLayout android:orientation="vertical" android:background="@drawable/bg_ticket_card_white_corner_left" android:layout_width="wrap_content" android:layout_height="304.0dip">
+                <com.alibaba.pictures.moimage.MoImageView android:id="@id/ticket_card_performImageUrl" android:layout_width="165.0dip" android:layout_height="219.0dip" android:layout_marginTop="16.0dip" android:scaleType="fitXY" android:layout_marginStart="15.0dip" android:layout_marginEnd="5.0dip" app:roundedCornerRadius="6.0dip" />
+                <TextView android:textSize="15.0dip" android:textStyle="bold" android:textColor="@color/bricks_2e333e" android:ellipsize="end" android:id="@id/ticket_card_projectName" android:layout_width="165.0dip" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:maxLines="3" android:lineSpacingExtra="3.0dip" android:layout_marginStart="15.5dip" />
+            </LinearLayout>
+            <ImageView android:layout_width="wrap_content" android:layout_height="304.0dip" android:src="@drawable/bricks_ticket_area_gap" />
+            <FrameLayout android:background="@drawable/bg_ticket_card_white_corner_right" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:layout_gravity="end|center|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.5dip" android:src="@drawable/bricks_ticket_area_stamp" android:layout_marginEnd="9.0dip" />
+                <ImageView android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:src="@drawable/bricks_ticket_area_logo" />
+                <LinearLayout android:orientation="vertical" android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="5.0dip" android:layout_marginEnd="3.0dip">
+                    <TextView android:textSize="11.0dip" android:textColor="@color/bricks_959AA5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="场地" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/bricks_2e333e" android:ellipsize="end" android:id="@id/ticket_card_venueName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:maxLines="2" android:lineSpacingExtra="3.0dip" android:layout_marginEnd="8.0dip" />
+                    <TextView android:textSize="11.0dip" android:textColor="@color/bricks_959AA5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="时间" />
+                    <TextView android:textSize="13.0dip" android:textColor="@color/bricks_2e333e" android:ellipsize="end" android:id="@id/ticket_card_showTimeStr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:maxLines="2" android:layout_marginEnd="10.0dip" />
+                    <TextView android:textSize="11.0dip" android:textColor="@color/bricks_959AA5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="票档" />
+                    <androidx.recyclerview.widget.RecyclerView android:id="@id/ticket_card_skuInfo_package" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

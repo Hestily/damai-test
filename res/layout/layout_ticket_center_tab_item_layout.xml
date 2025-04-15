@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/tab_container" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentBottom="true">
+        <View android:id="@id/feed_tab_indicator" android:background="@drawable/tab_indicator_pioneer" android:layout_width="@dimen/resource_size_36" android:layout_height="@dimen/resource_size_15" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/resource_size_6" android:layout_alignParentBottom="true">
+            <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="@dimen/resource_size_18" android:textColor="#ff171717" android:layout_gravity="center" android:id="@id/tab_title_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/resource_size_1" />
+            <TextView android:textSize="@dimen/resource_size_16" android:textColor="#ff959aa5" android:layout_gravity="center" android:id="@id/tab_title_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </RelativeLayout>
+</RelativeLayout>

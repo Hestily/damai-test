@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ic_wantsee_tips_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="120.0dip" android:src="@drawable/ic_wantsee_tips_arrow" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:id="@id/want_see_bottombar_tip_bg" android:background="@drawable/bg_project_detail_wantsee_tips" android:layout_width="333.0dip" android:layout_height="62.0dip" android:layout_above="@id/ic_wantsee_tips_arrow" android:layout_centerHorizontal="true">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="68.0dip" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/margin_12dp" android:textColor="#ff666666" android:ellipsize="end" android:id="@id/want_see__bottombar_tip_texttop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/damai_detail_wantsee_click_message" android:maxLines="1" android:layout_centerVertical="true" />
+            <com.real.android.nativehtml.android.HtmlView android:id="@id/want_see_bottom_bar_tips_html_view_below" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/common_margin_6" />
+        </LinearLayout>
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="10.0dip" android:textColor="@color/alpha_20_black" android:id="@id/want_see_bottombar_tip_close" android:padding="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:text="@string/iconfont_guanbi12" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <ImageView android:layout_width="56.0dip" android:layout_height="91.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/want_see_bottom_bar_tiplove" android:layout_above="@id/ic_wantsee_tips_arrow" android:layout_alignLeft="@id/want_see_bottombar_tip_bg" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/live_icon" android:layout_width="56.0dip" android:layout_height="108.0dip" android:layout_marginLeft="4.0dip" android:layout_marginBottom="40.0dip" android:layout_above="@id/ic_wantsee_tips_arrow" android:layout_alignLeft="@id/want_see_bottombar_tip_bg" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="@raw/want_see_bottom_tip_heart_pop" />
+</RelativeLayout>

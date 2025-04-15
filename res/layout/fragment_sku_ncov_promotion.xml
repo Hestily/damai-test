@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/view_top" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <cn.damai.uikit.view.MaxHeightLinearLayout android:orientation="vertical" android:id="@id/layout_null" android:background="@drawable/bg_border_corner_f4f5f6_15" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="250.0dip" android:layout_alignParentBottom="true" app:linear_max_ratio="0.8">
+        <FrameLayout android:orientation="vertical" android:id="@id/tm_vip_top_layout" android:background="@drawable/bg_border_corner_white_f4f5f6_15" android:layout_width="fill_parent" android:layout_height="250.0dip" android:layout_marginBottom="-250.0dip" />
+        <FrameLayout android:paddingLeft="@dimen/margin_12dp" android:paddingTop="21.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_18dp">
+            <TextView android:textSize="18.0dip" android:textColor="@color/bricks_333333" android:id="@id/fg_promotion_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="优惠及权益详情" />
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="18.0dip" android:textColor="#33000000" android:gravity="center" android:layout_gravity="center|right" android:id="@id/desc_close" android:paddingLeft="20.0dip" android:paddingRight="@dimen/margin_14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_ahuaban2x" />
+        </FrameLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/fg_promotion_recycler" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/margin_6dp" android:layout_marginRight="@dimen/margin_6dp" android:overScrollMode="never" />
+    </cn.damai.uikit.view.MaxHeightLinearLayout>
+</LinearLayout>

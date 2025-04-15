@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/scheme_project_detail_flyt" android:background="@color/color_ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/id_new_skeleton" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/id_new_project_not_exist_stub" android:layout="@layout/trade_project_detail_not_exist_page" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

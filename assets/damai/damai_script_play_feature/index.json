@@ -1,0 +1,61 @@
+{
+  "id": "damai_script_play_feature",
+  "type": "gaia-template",
+  "package": {
+    "id": "damai_script_play_feature",
+    "version": "0.0.1",
+    "constraint-size": { "width": 360, "height": 74, "zoom": 1 },
+    "modify-timestamp": "Fri Jun 17 2022 10:03:57 GMT+0800 (中国标准时间)",
+    "dependencies": {}
+  },
+  "layers": [
+    {
+      "id": "background",
+      "type": "view",
+      "layers": [
+        {
+          "id": "info",
+          "type": "view",
+          "layers": [
+            {
+              "id": "people_holder",
+              "type": "view",
+              "layers": [
+                { "id": "people_icon", "type": "image" },
+                { "id": "people_text", "type": "text" }
+              ]
+            },
+            {
+              "id": "time_holder",
+              "type": "view",
+              "layers": [
+                { "id": "time_icon", "type": "image" },
+                { "id": "time_text", "type": "text" }
+              ]
+            },
+            {
+              "id": "level_holder",
+              "type": "view",
+              "layers": [
+                { "id": "level_icon", "type": "image" },
+                { "id": "level_text", "type": "text" }
+              ]
+            }
+          ]
+        },
+        { "id": "part_line", "type": "view" },
+        {
+          "id": "tags",
+          "type": "view",
+          "layers": [
+            { "id": "tag_1", "type": "text" },
+            { "id": "tag_2", "type": "text" },
+            { "id": "tag_3", "type": "text" },
+            { "id": "tag_4", "type": "text" },
+            { "id": "tag_5", "type": "text" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="25.0" />
+    <RelativeLayout android:orientation="vertical" android:background="@drawable/pop_layer_bg" android:paddingTop="@dimen/margin_4dp" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="75.0">
+        <LinearLayout android:gravity="center_vertical" android:id="@id/bottom_button" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentBottom="true">
+            <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/perform_bottom_firstbutton" android:background="@drawable/sku_btn_bg" android:layout_width="0.0dip" android:layout_height="44.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="选座" android:layout_weight="1.0" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/perform_bottom_secondbutton" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="44.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+        <ScrollView android:id="@id/preform_scrollview" android:background="@color/white" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_button" android:overScrollMode="never">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:id="@id/project_detail_perform_date_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip">
+                    <TextView android:textSize="@dimen/textsize_13" android:textColor="@color/color_666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_12dp" android:text="@string/project_detail_perform_time" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/project_calendar_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <include layout="@layout/project_calendar_topbar" />
+                        <include layout="@layout/project_calendar_week" />
+                        <cn.damai.uikit.calendar.MaterialCalendarView android:id="@id/perform_date_calendar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_12dp" android:layout_marginTop="@dimen/margin_12dp" android:layout_marginRight="@dimen/margin_12dp" />
+                    </LinearLayout>
+                    <cn.damai.uikit.flowlayout.FlowLayout android:id="@id/project_detail_perform_time_flowlayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_6dp" android:layout_marginTop="18.0dip" android:layout_marginRight="12.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/project_detail_perform_time_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="26.0dip">
+                    <TextView android:textSize="@dimen/textsize_13" android:textColor="@color/color_666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_12dp" android:text="@string/project_detail_perform_title" />
+                    <cn.damai.uikit.flowlayout.FlowLayout android:id="@id/project_detail_perform_flowlayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_6dp" android:layout_marginTop="20.0dip" android:layout_marginRight="12.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/project_detail_perform_price_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip">
+                    <TextView android:textSize="@dimen/textsize_13" android:textColor="@color/color_666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_12dp" android:text="@string/project_detail_perform_price" />
+                    <TextView android:textSize="@dimen/textsize_13" android:textColor="@color/color_666666" android:id="@id/project_detail_perform_price_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_12dp" android:layout_marginTop="@dimen/margin_13dp" android:text="100元，200元" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/main_view" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <in.srain.cube.views.ptr.PtrFrameLayout android:id="@id/ll_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.damai.uikit.view.CompatCoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+                <com.google.android.material.appbar.CollapsingToolbarLayout android:orientation="vertical" android:id="@id/layout_toolbar" android:background="@drawable/shape_rect_gradient_9_f4f5f6_100_f4f5f6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="0.0dip" app:collapsedTitleGravity="left" app:collapsedTitleTextAppearance="@style/Toolbar.TitleText.Collapsed" app:expandedTitleTextAppearance="@style/Toolbar.TitleText" app:layout_scrollFlags="scroll|exitUntilCollapsed">
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <View android:background="@drawable/bg_f456_white_gradient" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentBottom="true" />
+                        <LinearLayout android:orientation="vertical" android:id="@id/header_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_collapseMode="parallax" app:layout_collapseParallaxMultiplier="0.0">
+                            <include layout="@layout/user_center_header_layout" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </com.google.android.material.appbar.CollapsingToolbarLayout>
+                <cn.damai.uikit.snake.HorScrollView android:id="@id/dynamic_title_tv" android:background="#fff4f5f6" android:paddingLeft="9.0dip" android:paddingTop="@dimen/margin_10dp" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </com.google.android.material.appbar.AppBarLayout>
+            <cn.damai.user.userhome.view.NoScrollViewPager android:id="@id/view_pager" android:background="#fff4f5f6" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        </cn.damai.uikit.view.CompatCoordinatorLayout>
+    </in.srain.cube.views.ptr.PtrFrameLayout>
+    <cn.damai.user.userhome.view.UserHomeTitleView android:id="@id/ll_user_center_title" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ImageView android:layout_gravity="end|bottom|center" android:id="@id/submit_btn_pioneer" android:visibility="gone" android:layout_width="75.0dip" android:layout_height="75.0dip" android:layout_marginBottom="43.0dip" android:src="@drawable/icon_publish_new_add_pioneer" android:scaleType="fitXY" android:layout_marginEnd="6.0dip" />
+    <ImageView android:layout_gravity="end|bottom|center" android:id="@id/submit_btn" android:visibility="gone" android:layout_width="52.0dip" android:layout_height="52.0dip" android:layout_marginBottom="@dimen/margin_12dp" android:src="@drawable/icon_publish_new_add" android:layout_marginEnd="21.0dip" />
+</FrameLayout>

@@ -1,0 +1,51 @@
+{
+  "data": {
+    "damai_script_play_payment_method": {
+      "extend": { "background-color": "@{env(isAndroid) ? '' : '#f5f5f5' }" }
+    },
+    "title": { "value": "支付方式" },
+    "payment_icon_0": { "value": "${payToolList[0].icon}" },
+    "payment_text_0": { "value": "${payToolList[0].name}" },
+    "payment_select_0": {
+      "value": "@{eval(${selectIndex} == '0') ? '&#xe690' : '&#xe68d'}",
+      "extend": {
+        "color": "@{eval(${selectIndex} == '0') ? '#FF4886' : '#D9D9D9'}"
+      }
+    },
+    "payment_holder_1": {
+      "extend": { "display": "@{${payToolList[1]} ? flex : none}" }
+    },
+    "payment_icon_1": { "value": "${payToolList[1].icon}" },
+    "payment_text_1": { "value": "${payToolList[1].name}" },
+    "payment_select_1": {
+      "value": "@{eval(${selectIndex} == '1') ? '&#xe690' : '&#xe68d'}",
+      "extend": {
+        "color": "@{eval(${selectIndex} == '1') ? '#FF4886' : '#D9D9D9'}"
+      }
+    }
+  },
+  "event": {
+    "payment_holder_0": {
+      "eventName": "selectPaymentMethod",
+      "selectIndex": "0",
+      "selectValue": "${payToolList[0].code}",
+      "trackInfo": {
+        "args": { "titlelabel": "${payToolList[0].code}" },
+        "trackType": "all",
+        "spmc": "pay",
+        "spmd": "pay_type_0"
+      }
+    },
+    "payment_holder_1": {
+      "eventName": "selectPaymentMethod",
+      "selectIndex": "1",
+      "selectValue": "${payToolList[1].code}",
+      "trackInfo": {
+        "args": { "titlelabel": "${payToolList[1].code}" },
+        "trackType": "all",
+        "spmc": "pay",
+        "spmd": "pay_type_1"
+      }
+    }
+  }
+}

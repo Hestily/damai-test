@@ -1,0 +1,33 @@
+{
+  "video": {
+    "basic": [{
+      "target": {
+        "videoTypes": ["正片"]
+      },
+      "normal": ["start", "end", "pause", "seek", "mid_ad", "after_ad", "nor_ad"],
+      "heartBeat": {
+        "login": 1,
+        "unlogin": 5
+      }
+    }],
+    "2": [{
+      "target": {
+        "videoTypes": ["正片"]
+      },
+      "minPlayedTime": {
+        "minPlayedSeconds": 300,
+        "minPlayedPercent": 50
+      }
+    }],
+    "7": [{
+      "target": {
+        "videoTypes": ["正片"]
+      },
+      "normal": ["end"],
+      "heartBeat": {
+        "login": 1,
+        "unlogin": 1
+      }
+    }]
+  }
+}

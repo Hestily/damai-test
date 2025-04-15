@@ -1,0 +1,27 @@
+{
+  "data": {
+    "title": { "value": "适用门店", "extend": { "fit-content": "true" } },
+    "store_name": { "value": "${name}" },
+    "store_location": { "value": "${address}" },
+    "loc_holder": {
+      "extend": { "display": "@{eval(${status} == '2') ? flex : none}" }
+    },
+    "loc_icon": {
+      "value": "@{env(isAndroid) ? 'gaiax_res:bricks_icon_location' : 'gaiax_res:Location_icon' }"
+    },
+    "loc_icon_text": { "value": "@{${distance} ? ${distance} : '地图'}" },
+    "tele_holder": {
+      "extend": {
+        "display": "@{eval(${status} == '2') ? @{${tels} ? flex : none} : none}"
+      }
+    },
+    "tele_icon": {
+      "value": "@{env(isAndroid) ? 'gaiax_res:bricks_icon_call' : 'gaiax_res:Phone_icon' }"
+    },
+    "tele_icon_text": { "value": "联系商家" }
+  },
+  "event": {
+    "loc_holder": { "eventName": "map" },
+    "tele_holder": { "eventName": "telephone" }
+  }
+}

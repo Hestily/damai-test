@@ -1,0 +1,1248 @@
+{
+  "countrycodes": [
+    {
+      "index": "#",
+      "countryCodeList": [
+        {
+          "domain": "CN",
+          "code": "+86",
+          "name": "中国大陆",
+          "areaCodeExt": "CHN"
+        },
+        {
+          "domain": "HK",
+          "code": "+852",
+          "name": "中国香港",
+          "areaCodeExt": "HKG"
+        },
+        {
+          "domain": "MO",
+          "code": "+853",
+          "name": "中国澳门",
+          "areaCodeExt": "MAC"
+        },
+        {
+          "domain": "TW",
+          "code": "+886",
+          "name": "中国台湾",
+          "areaCodeExt": "TWN"
+        },
+        {
+          "domain": "SG",
+          "code": "+65",
+          "name": "新加坡",
+          "areaCodeExt": "SGP"
+        },
+        {
+          "domain": "MY",
+          "code": "+60",
+          "name": "马来西亚",
+          "areaCodeExt": "MYS"
+        },
+        {
+          "domain": "TH",
+          "code": "+66",
+          "name": "泰国",
+          "areaCodeExt": "THA"
+        },
+        {
+          "domain": "JP",
+          "code": "+81",
+          "name": "日本",
+          "areaCodeExt": "JPN"
+        },
+        {
+          "domain": "KR",
+          "code": "+82",
+          "name": "韩国",
+          "areaCodeExt": "KOR"
+        }
+      ]
+    },
+    {
+      "index": "A",
+      "countryCodeList": [
+        {
+          "domain": "AL",
+          "code": "+355",
+          "name": "阿尔巴尼亚",
+          "areaCodeExt": "ALB"
+        },
+        {
+          "domain": "DZ",
+          "code": "+213",
+          "name": "阿尔及利亚",
+          "areaCodeExt": "DZA"
+        },
+        {
+          "domain": "AF",
+          "code": "+93",
+          "name": "阿富汗",
+          "areaCodeExt": "AFG"
+        },
+        {
+          "domain": "AR",
+          "code": "+54",
+          "name": "阿根廷",
+          "areaCodeExt": "ARG"
+        },
+        {
+          "domain": "AE",
+          "code": "+971",
+          "name": "阿联酋",
+          "areaCodeExt": "ARE"
+        },
+        {
+          "domain": "OM",
+          "code": "+968",
+          "name": "阿曼",
+          "areaCodeExt": "OMN"
+        },
+        {
+          "domain": "AZ",
+          "code": "+994",
+          "name": "阿塞拜疆",
+          "areaCodeExt": "AZE"
+        },
+        {
+          "domain": "IE",
+          "code": "+353",
+          "name": "爱尔兰",
+          "areaCodeExt": "IRL"
+        },
+        {
+          "domain": "EG",
+          "code": "+20",
+          "name": "埃及",
+          "areaCodeExt": "EGY"
+        },
+        {
+          "domain": "ET",
+          "code": "+251",
+          "name": "埃塞俄比亚",
+          "areaCodeExt": "ETH"
+        },
+        {
+          "domain": "EE",
+          "code": "+372",
+          "name": "爱沙尼亚",
+          "areaCodeExt": "EST"
+        },
+        {
+          "domain": "AD",
+          "code": "+376",
+          "name": "安道尔共和国",
+          "areaCodeExt": "AND"
+        },
+        {
+          "domain": "AO",
+          "code": "+244",
+          "name": "安哥拉",
+          "areaCodeExt": "AGO"
+        },
+        {
+          "domain": "AU",
+          "code": "+61",
+          "name": "澳大利亚",
+          "areaCodeExt": "AUS"
+        },
+        {
+          "domain": "AT",
+          "code": "+43",
+          "name": "奥地利",
+          "areaCodeExt": "AUT"
+        },
+        {
+          "domain": "MO",
+          "code": "+853",
+          "name": "中国澳门",
+          "areaCodeExt": "MAC"
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "countryCodeList": [
+        {
+          "domain": "PG",
+          "code": "+675",
+          "name": "巴布亚新几内亚",
+          "areaCodeExt": "PNG"
+        },
+        {
+          "domain": "BS",
+          "code": "+1242",
+          "name": "巴哈马",
+          "areaCodeExt": "BHS"
+        },
+        {
+          "domain": "PK",
+          "code": "+92",
+          "name": "巴基斯坦",
+          "areaCodeExt": "PAK"
+        },
+        {
+          "domain": "PS",
+          "code": "+970",
+          "name": "巴勒斯坦",
+          "areaCodeExt": "PSE"
+        },
+        {
+          "domain": "BH",
+          "code": "+973",
+          "name": "巴林",
+          "areaCodeExt": "BHR"
+        },
+        {
+          "domain": "PA",
+          "code": "+507",
+          "name": "巴拿马",
+          "areaCodeExt": "PAN"
+        },
+        {
+          "domain": "BR",
+          "code": "+55",
+          "name": "巴西",
+          "areaCodeExt": "BRA"
+        },
+        {
+          "domain": "PY",
+          "code": "+595",
+          "name": "巴拉圭",
+          "areaCodeExt": "PRY"
+        },
+        {
+          "domain": "BY",
+          "code": "+375",
+          "name": "白俄罗斯",
+          "areaCodeExt": "BLR"
+        },
+        {
+          "domain": "BG",
+          "code": "+359",
+          "name": "保加利亚",
+          "areaCodeExt": "BGR"
+        },
+        {
+          "domain": "BJ",
+          "code": "+229",
+          "name": "贝宁",
+          "areaCodeExt": "BEN"
+        },
+        {
+          "domain": "BE",
+          "code": "+32",
+          "name": "比利时",
+          "areaCodeExt": "BEL"
+        },
+        {
+          "domain": "PE",
+          "code": "+51",
+          "name": "秘鲁",
+          "areaCodeExt": "PER"
+        },
+        {
+          "domain": "BW",
+          "code": "+267",
+          "name": "博茨瓦纳",
+          "areaCodeExt": "BWA"
+        },
+        {
+          "domain": "PR",
+          "code": "+1787",
+          "name": "波多黎各",
+          "areaCodeExt": "PRI"
+        },
+        {
+          "domain": "PL",
+          "code": "+48",
+          "name": "波兰",
+          "areaCodeExt": "POL"
+        },
+        {
+          "domain": "BO",
+          "code": "+591",
+          "name": "玻利维亚",
+          "areaCodeExt": "BOL"
+        },
+        {
+          "domain": "BZ",
+          "code": "+501",
+          "name": "伯利兹",
+          "areaCodeExt": "BLZ"
+        },
+        {
+          "domain": "BA",
+          "code": "+387",
+          "name": "波斯尼亚和黑塞哥维那",
+          "areaCodeExt": "BIH"
+        },
+        {
+          "domain": "BF",
+          "code": "+226",
+          "name": "布基纳法索",
+          "areaCodeExt": "BFA"
+        },
+        {
+          "domain": "BI",
+          "code": "+257",
+          "name": "布隆迪",
+          "areaCodeExt": "BDI"
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "countryCodeList": [
+        {
+          "domain": "GQ",
+          "code": "+240",
+          "name": "赤道几内亚",
+          "areaCodeExt": "GNQ"
+        }
+      ]
+    },
+    {
+      "index": "D",
+      "countryCodeList": [
+        {
+          "domain": "DK",
+          "code": "+45",
+          "name": "丹麦",
+          "areaCodeExt": "DNK"
+        },
+        {
+          "domain": "DE",
+          "code": "+49",
+          "name": "德国",
+          "areaCodeExt": "DEU"
+        },
+        {
+          "domain": "TL",
+          "code": "+670",
+          "name": "东帝汶",
+          "areaCodeExt": "TLS"
+        },
+        {
+          "domain": "TG",
+          "code": "+228",
+          "name": "多哥",
+          "areaCodeExt": "TGO"
+        },
+        {
+          "domain": "DO",
+          "code": "+1809",
+          "name": "多米尼加共和国",
+          "areaCodeExt": "DOM"
+        }
+      ]
+    },
+    {
+      "index": "E",
+      "countryCodeList": [
+        {
+          "domain": "EC",
+          "code": "+593",
+          "name": "厄瓜多尔",
+          "areaCodeExt": "ECU"
+        },
+        {
+          "domain": "RU",
+          "code": "+7",
+          "name": "俄罗斯",
+          "areaCodeExt": "RUS"
+        }
+      ]
+    },
+    {
+      "index": "F",
+      "countryCodeList": [
+        {
+          "domain": "FR",
+          "code": "+33",
+          "name": "法国",
+          "areaCodeExt": "FRA"
+        },
+        {
+          "domain": "PH",
+          "code": "+63",
+          "name": "菲律宾",
+          "areaCodeExt": "PHL"
+        },
+        {
+          "domain": "FJ",
+          "code": "+679",
+          "name": "斐济",
+          "areaCodeExt": "FJI"
+        },
+        {
+          "domain": "FI",
+          "code": "+358",
+          "name": "芬兰",
+          "areaCodeExt": "FIN"
+        },
+        {
+          "domain": "CV",
+          "code": "+238",
+          "name": "佛得角",
+          "areaCodeExt": "CPV"
+        }
+      ]
+    },
+    {
+      "index": "G",
+      "countryCodeList": [
+        {
+          "domain": "GM",
+          "code": "+220",
+          "name": "冈比亚",
+          "areaCodeExt": "GMB"
+        },
+        {
+          "domain": "CG",
+          "code": "+242",
+          "name": "刚果(布)",
+          "areaCodeExt": "COG"
+        },
+        {
+          "domain": "CD",
+          "code": "+243",
+          "name": "刚果(金)",
+          "areaCodeExt": "COD"
+        },
+        {
+          "domain": "GD",
+          "code": "+1473",
+          "name": "格林纳达",
+          "areaCodeExt": "GRD"
+        },
+        {
+          "domain": "GE",
+          "code": "+995",
+          "name": "格鲁吉亚",
+          "areaCodeExt": "GEO"
+        },
+        {
+          "domain": "CO",
+          "code": "+57",
+          "name": "哥伦比亚",
+          "areaCodeExt": "COL"
+        },
+        {
+          "domain": "CR",
+          "code": "+506",
+          "name": "哥斯达黎加",
+          "areaCodeExt": "CRI"
+        },
+        {
+          "domain": "GY",
+          "code": "+592",
+          "name": "圭亚那",
+          "areaCodeExt": "GUY"
+        },
+        {
+          "domain": "CU",
+          "code": "+53",
+          "name": "古巴",
+          "areaCodeExt": "CUB"
+        }
+      ]
+    },
+    {
+      "index": "H",
+      "countryCodeList": [
+        {
+          "domain": "KZ",
+          "code": "+7",
+          "name": "哈萨克斯坦",
+          "areaCodeExt": "KAZ"
+        },
+        {
+          "domain": "KR",
+          "code": "+82",
+          "name": "韩国",
+          "areaCodeExt": "KOR"
+        },
+        {
+          "domain": "HT",
+          "code": "+509",
+          "name": "海地",
+          "areaCodeExt": "HTI"
+        },
+        {
+          "domain": "NL",
+          "code": "+31",
+          "name": "荷兰",
+          "areaCodeExt": "NLD"
+        },
+        {
+          "domain": "ME",
+          "code": "+382",
+          "name": "黑山共和国",
+          "areaCodeExt": "MNE"
+        },
+        {
+          "domain": "HN",
+          "code": "+504",
+          "name": "洪都拉斯",
+          "areaCodeExt": "HND"
+        }
+      ]
+    },
+    {
+      "index": "J",
+      "countryCodeList": [
+        {
+          "domain": "DJ",
+          "code": "+253",
+          "name": "吉布提",
+          "areaCodeExt": "DJI"
+        },
+        {
+          "domain": "KG",
+          "code": "+996",
+          "name": "吉尔吉斯斯坦",
+          "areaCodeExt": "KGZ"
+        },
+        {
+          "domain": "CZ",
+          "code": "+420",
+          "name": "捷克共和国",
+          "areaCodeExt": "CZE"
+        },
+        {
+          "domain": "GN",
+          "code": "+224",
+          "name": "几内亚",
+          "areaCodeExt": "GIN"
+        },
+        {
+          "domain": "GW",
+          "code": "+245",
+          "name": "几内亚比绍",
+          "areaCodeExt": "GNB"
+        },
+        {
+          "domain": "GH",
+          "code": "+233",
+          "name": "加纳",
+          "areaCodeExt": "GHA"
+        },
+        {
+          "domain": "CA",
+          "code": "+1",
+          "name": "加拿大",
+          "areaCodeExt": "CAN"
+        },
+        {
+          "domain": "GA",
+          "code": "+241",
+          "name": "加蓬",
+          "areaCodeExt": "GAB"
+        },
+        {
+          "domain": "KH",
+          "code": "+855",
+          "name": "柬埔寨",
+          "areaCodeExt": "KHM"
+        },
+        {
+          "domain": "ZW",
+          "code": "+263",
+          "name": "津巴布韦",
+          "areaCodeExt": "ZWE"
+        }
+      ]
+    },
+    {
+      "index": "K",
+      "countryCodeList": [
+        {
+          "domain": "CM",
+          "code": "+237",
+          "name": "喀麦隆",
+          "areaCodeExt": "CMR"
+        },
+        {
+          "domain": "QA",
+          "code": "+974",
+          "name": "卡塔尔",
+          "areaCodeExt": "QAT"
+        },
+        {
+          "domain": "KY",
+          "code": "+1345",
+          "name": "开曼群岛",
+          "areaCodeExt": "CYM"
+        },
+        {
+          "domain": "HR",
+          "code": "+385",
+          "name": "克罗地亚",
+          "areaCodeExt": "HRV"
+        },
+        {
+          "domain": "KM",
+          "code": "+269",
+          "name": "科摩罗",
+          "areaCodeExt": "COM"
+        },
+        {
+          "domain": "CI",
+          "code": "+225",
+          "name": "科特迪瓦",
+          "areaCodeExt": "CIV"
+        },
+        {
+          "domain": "KW",
+          "code": "+965",
+          "name": "科威特",
+          "areaCodeExt": "KWT"
+        },
+        {
+          "domain": "XK",
+          "code": "+383",
+          "name": "科索沃",
+          "areaCodeExt": "XKX"
+        },
+        {
+          "domain": "KE",
+          "code": "+254",
+          "name": "肯尼亚",
+          "areaCodeExt": "KEN"
+        },
+        {
+          "domain": "CW",
+          "code": "+599",
+          "name": "库拉索岛",
+          "areaCodeExt": "CUW"
+        }
+      ]
+    },
+    {
+      "index": "L",
+      "countryCodeList": [
+        {
+          "domain": "LV",
+          "code": "+371",
+          "name": "拉脱维亚",
+          "areaCodeExt": "LVA"
+        },
+        {
+          "domain": "LS",
+          "code": "+266",
+          "name": "莱索托",
+          "areaCodeExt": "LSO"
+        },
+        {
+          "domain": "LA",
+          "code": "+856",
+          "name": "老挝",
+          "areaCodeExt": "LAO"
+        },
+        {
+          "domain": "LB",
+          "code": "+961",
+          "name": "黎巴嫩",
+          "areaCodeExt": "LBN"
+        },
+        {
+          "domain": "LR",
+          "code": "+231",
+          "name": "利比里亚",
+          "areaCodeExt": "LBR"
+        },
+        {
+          "domain": "LY",
+          "code": "+218",
+          "name": "利比亚",
+          "areaCodeExt": "LBY"
+        },
+        {
+          "domain": "LT",
+          "code": "+370",
+          "name": "立陶宛",
+          "areaCodeExt": "LTU"
+        },
+        {
+          "domain": "LU",
+          "code": "+352",
+          "name": "卢森堡",
+          "areaCodeExt": "LUX"
+        },
+        {
+          "domain": "RW",
+          "code": "+250",
+          "name": "卢旺达",
+          "areaCodeExt": "RWA"
+        },
+        {
+          "domain": "RO",
+          "code": "+40",
+          "name": "罗马尼亚",
+          "areaCodeExt": "ROU"
+        }
+      ]
+    },
+    {
+      "index": "M",
+      "countryCodeList": [
+        {
+          "domain": "MG",
+          "code": "+261",
+          "name": "马达加斯加",
+          "areaCodeExt": "MDG"
+        },
+        {
+          "domain": "MV",
+          "code": "+960",
+          "name": "马尔代夫",
+          "areaCodeExt": "MDV"
+        },
+        {
+          "domain": "MT",
+          "code": "+356",
+          "name": "马耳他",
+          "areaCodeExt": "MLT"
+        },
+        {
+          "domain": "MW",
+          "code": "+265",
+          "name": "马拉维",
+          "areaCodeExt": "MWI"
+        },
+        {
+          "domain": "MY",
+          "code": "+60",
+          "name": "马来西亚",
+          "areaCodeExt": "MYS"
+        },
+        {
+          "domain": "ML",
+          "code": "+223",
+          "name": "马里",
+          "areaCodeExt": "MLI"
+        },
+        {
+          "domain": "MK",
+          "code": "+389",
+          "name": "马其顿",
+          "areaCodeExt": "MKD"
+        },
+        {
+          "domain": "MU",
+          "code": "+230",
+          "name": "毛里求斯",
+          "areaCodeExt": "MUS"
+        },
+        {
+          "domain": "MR",
+          "code": "+222",
+          "name": "毛里塔尼亚",
+          "areaCodeExt": "MRT"
+        },
+        {
+          "domain": "US",
+          "code": "+1",
+          "name": "美国",
+          "areaCodeExt": "USA"
+        },
+        {
+          "domain": "MN",
+          "code": "+976",
+          "name": "蒙古",
+          "areaCodeExt": "MNG"
+        },
+        {
+          "domain": "BD",
+          "code": "+880",
+          "name": "孟加拉国",
+          "areaCodeExt": "BGD"
+        },
+        {
+          "domain": "MM",
+          "code": "+95",
+          "name": "缅甸",
+          "areaCodeExt": "MMR"
+        },
+        {
+          "domain": "MD",
+          "code": "+373",
+          "name": "摩尔多瓦",
+          "areaCodeExt": "MDA"
+        },
+        {
+          "domain": "MA",
+          "code": "+212",
+          "name": "摩洛哥",
+          "areaCodeExt": "MAR"
+        },
+        {
+          "domain": "MZ",
+          "code": "+258",
+          "name": "莫桑比克",
+          "areaCodeExt": "MOZ"
+        },
+        {
+          "domain": "MX",
+          "code": "+52",
+          "name": "墨西哥",
+          "areaCodeExt": "MEX"
+        }
+      ]
+    },
+    {
+      "index": "N",
+      "countryCodeList": [
+        {
+          "domain": "NA",
+          "code": "+264",
+          "name": "纳米比亚",
+          "areaCodeExt": "NAM"
+        },
+        {
+          "domain": "ZA",
+          "code": "+27",
+          "name": "南非",
+          "areaCodeExt": "ZAF"
+        },
+        {
+          "domain": "NP",
+          "code": "+977",
+          "name": "尼泊尔",
+          "areaCodeExt": "NPL"
+        },
+        {
+          "domain": "NI",
+          "code": "+505",
+          "name": "尼加拉瓜",
+          "areaCodeExt": "NIC"
+        },
+        {
+          "domain": "NE",
+          "code": "+227",
+          "name": "尼日尔",
+          "areaCodeExt": "NER"
+        },
+        {
+          "domain": "NG",
+          "code": "+234",
+          "name": "尼日利亚",
+          "areaCodeExt": "NGA"
+        },
+        {
+          "domain": "NO",
+          "code": "+47",
+          "name": "挪威",
+          "areaCodeExt": "NOR"
+        }
+      ]
+    },
+    {
+      "index": "P",
+      "countryCodeList": [
+        {
+          "domain": "PT",
+          "code": "+351",
+          "name": "葡萄牙",
+          "areaCodeExt": "PRT"
+        }
+      ]
+    },
+    {
+      "index": "R",
+      "countryCodeList": [
+        {
+          "domain": "JP",
+          "code": "+81",
+          "name": "日本",
+          "areaCodeExt": "JPN"
+        },
+        {
+          "domain": "SE",
+          "code": "+46",
+          "name": "瑞典",
+          "areaCodeExt": "SWE"
+        },
+        {
+          "domain": "CH",
+          "code": "+41",
+          "name": "瑞士",
+          "areaCodeExt": "CHE"
+        }
+      ]
+    },
+    {
+      "index": "S",
+      "countryCodeList": [
+        {
+          "domain": "SV",
+          "code": "+503",
+          "name": "萨尔瓦多",
+          "areaCodeExt": "SLV"
+        },
+        {
+          "domain": "WS",
+          "code": "+685",
+          "name": "萨摩亚",
+          "areaCodeExt": "WSM"
+        },
+        {
+          "domain": "RS",
+          "code": "+381",
+          "name": "塞尔维亚",
+          "areaCodeExt": "SRB"
+        },
+        {
+          "domain": "SL",
+          "code": "+232",
+          "name": "塞拉利昂",
+          "areaCodeExt": "SLE"
+        },
+        {
+          "domain": "SN",
+          "code": "+221",
+          "name": "塞内加尔",
+          "areaCodeExt": "SEN"
+        },
+        {
+          "domain": "CY",
+          "code": "+357",
+          "name": "塞浦路斯",
+          "areaCodeExt": "CYP"
+        },
+        {
+          "domain": "SC",
+          "code": "+248",
+          "name": "塞舌尔",
+          "areaCodeExt": "SYC"
+        },
+        {
+          "domain": "SA",
+          "code": "+966",
+          "name": "沙特阿拉伯",
+          "areaCodeExt": "SAU"
+        },
+        {
+          "domain": "MF",
+          "code": "+590",
+          "name": "圣马丁",
+          "areaCodeExt": "MAF"
+        },
+        {
+          "domain": "VC",
+          "code": "+1784",
+          "name": "圣文森特和格林纳丁斯",
+          "areaCodeExt": "VCT"
+        },
+        {
+          "domain": "LK",
+          "code": "+94",
+          "name": "斯里兰卡",
+          "areaCodeExt": "LKA"
+        },
+        {
+          "domain": "SK",
+          "code": "+421",
+          "name": "斯洛伐克",
+          "areaCodeExt": "SVK"
+        },
+        {
+          "domain": "SI",
+          "code": "+386",
+          "name": "斯洛文尼亚",
+          "areaCodeExt": "SVN"
+        },
+        {
+          "domain": "SZ",
+          "code": "+268",
+          "name": "斯威士兰",
+          "areaCodeExt": "SWZ"
+        },
+        {
+          "domain": "SR",
+          "code": "+597",
+          "name": "苏里南",
+          "areaCodeExt": "SUR"
+        },
+        {
+          "domain": "SD",
+          "code": "+249",
+          "name": "苏丹",
+          "areaCodeExt": "SDN"
+        },
+        {
+          "domain": "SO",
+          "code": "+252",
+          "name": "索马里",
+          "areaCodeExt": "SOM"
+        }
+      ]
+    },
+    {
+      "index": "T",
+      "countryCodeList": [
+        {
+          "domain": "TJ",
+          "code": "+992",
+          "name": "塔吉克斯坦",
+          "areaCodeExt": "TJK"
+        },
+        {
+          "domain": "TH",
+          "code": "+66",
+          "name": "泰国",
+          "areaCodeExt": "THA"
+        },
+        {
+          "domain": "TW",
+          "code": "+886",
+          "name": "中国台湾",
+          "areaCodeExt": "TWN"
+        },
+        {
+          "domain": "TZ",
+          "code": "+255",
+          "name": "坦桑尼亚",
+          "areaCodeExt": "TZA"
+        },
+        {
+          "domain": "TT",
+          "code": "+1868",
+          "name": "特立尼达和多巴哥",
+          "areaCodeExt": "TTO"
+        },
+        {
+          "domain": "TR",
+          "code": "+90",
+          "name": "土耳其",
+          "areaCodeExt": "TUR"
+        },
+        {
+          "domain": "TM",
+          "code": "+993",
+          "name": "土库曼斯坦",
+          "areaCodeExt": "TKM"
+        },
+        {
+          "domain": "TN",
+          "code": "+216",
+          "name": "突尼斯",
+          "areaCodeExt": "TUN"
+        }
+      ]
+    },
+    {
+      "index": "W",
+      "countryCodeList": [
+        {
+          "domain": "GT",
+          "code": "+502",
+          "name": "危地马拉",
+          "areaCodeExt": "GTM"
+        },
+        {
+          "domain": "VE",
+          "code": "+58",
+          "name": "委内瑞拉",
+          "areaCodeExt": "VEN"
+        },
+        {
+          "domain": "BN",
+          "code": "+673",
+          "name": "文莱",
+          "areaCodeExt": "BRN"
+        },
+        {
+          "domain": "UG",
+          "code": "+256",
+          "name": "乌干达",
+          "areaCodeExt": "UGA"
+        },
+        {
+          "domain": "UA",
+          "code": "+380",
+          "name": "乌克兰",
+          "areaCodeExt": "UKR"
+        },
+        {
+          "domain": "UY",
+          "code": "+598",
+          "name": "乌拉圭",
+          "areaCodeExt": "URY"
+        },
+        {
+          "domain": "UZ",
+          "code": "+998",
+          "name": "乌兹别克斯坦",
+          "areaCodeExt": "UZB"
+        }
+      ]
+    },
+    {
+      "index": "X",
+      "countryCodeList": [
+        {
+          "domain": "ES",
+          "code": "+34",
+          "name": "西班牙",
+          "areaCodeExt": "ESP"
+        },
+        {
+          "domain": "GR",
+          "code": "+30",
+          "name": "希腊",
+          "areaCodeExt": "GRC"
+        },
+        {
+          "domain": "HK",
+          "code": "+852",
+          "name": "中国香港",
+          "areaCodeExt": "HKG"
+        },
+        {
+          "domain": "SG",
+          "code": "+65",
+          "name": "新加坡",
+          "areaCodeExt": "SGP"
+        },
+        {
+          "domain": "NZ",
+          "code": "+64",
+          "name": "新西兰",
+          "areaCodeExt": "NZL"
+        },
+        {
+          "domain": "HU",
+          "code": "+36",
+          "name": "匈牙利",
+          "areaCodeExt": "HUN"
+        },
+        {
+          "domain": "SY",
+          "code": "+963",
+          "name": "叙利亚",
+          "areaCodeExt": "SYR"
+        }
+      ]
+    },
+    {
+      "index": "Y",
+      "countryCodeList": [
+        {
+          "domain": "JM",
+          "code": "+1876",
+          "name": "牙买加",
+          "areaCodeExt": "JAM"
+        },
+        {
+          "domain": "AM",
+          "code": "+374",
+          "name": "亚美尼亚",
+          "areaCodeExt": "ARM"
+        },
+        {
+          "domain": "YE",
+          "code": "+967",
+          "name": "也门",
+          "areaCodeExt": "YEM"
+        },
+        {
+          "domain": "IT",
+          "code": "+39",
+          "name": "意大利",
+          "areaCodeExt": "ITA"
+        },
+        {
+          "domain": "IQ",
+          "code": "+964",
+          "name": "伊拉克",
+          "areaCodeExt": "IRQ"
+        },
+        {
+          "domain": "IR",
+          "code": "+98",
+          "name": "伊朗",
+          "areaCodeExt": "IRN"
+        },
+        {
+          "domain": "IL",
+          "code": "+972",
+          "name": "以色列",
+          "areaCodeExt": "ISR"
+        },
+        {
+          "domain": "IN",
+          "code": "+91",
+          "name": "印度",
+          "areaCodeExt": "IND"
+        },
+        {
+          "domain": "ID",
+          "code": "+62",
+          "name": "印度尼西亚",
+          "areaCodeExt": "IDN"
+        },
+        {
+          "domain": "GB",
+          "code": "+44",
+          "name": "英国",
+          "areaCodeExt": "GBR"
+        },
+        {
+          "domain": "VG",
+          "code": "+1284",
+          "name": "英属维尔京群岛",
+          "areaCodeExt": "VGB"
+        },
+        {
+          "domain": "JO",
+          "code": "+962",
+          "name": "约旦",
+          "areaCodeExt": "JOR"
+        },
+        {
+          "domain": "VN",
+          "code": "+84",
+          "name": "越南",
+          "areaCodeExt": "VNM"
+        }
+      ]
+    },
+    {
+      "index": "Z",
+      "countryCodeList": [
+        {
+          "domain": "ZM",
+          "code": "+260",
+          "name": "赞比亚",
+          "areaCodeExt": "ZMB"
+        },
+        {
+          "domain": "TD",
+          "code": "+235",
+          "name": "乍得",
+          "areaCodeExt": "TCD"
+        },
+        {
+          "domain": "CL",
+          "code": "+56",
+          "name": "智利",
+          "areaCodeExt": "CHL"
+        },
+        {
+          "domain": "CF",
+          "code": "+236",
+          "name": "中非",
+          "areaCodeExt": "CAF"
+        },
+        {
+          "domain": "CN",
+          "code": "+86",
+          "name": "中国大陆",
+          "areaCodeExt": "CHN"
+        }
+      ]
+    }
+  ]
+}

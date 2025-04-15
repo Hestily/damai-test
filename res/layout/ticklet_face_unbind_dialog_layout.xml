@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ticklet_face_bind_dialog_ticket_container_lv" android:background="@color/color_f8f8f8" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/ticklet_face_unbind_ticket_dialog_item_seat_info_lv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_18dp" android:layout_marginTop="@dimen/margin_18dp" android:layout_marginRight="@dimen/margin_18dp" />
+        <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_111111" android:id="@id/ticklet_face_unbind_ticket_dialog_item_cert_name_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_18dp" android:layout_marginTop="@dimen/margin_12dp" android:layout_marginRight="@dimen/margin_18dp" android:layout_marginBottom="@dimen/margin_18dp" />
+    </LinearLayout>
+    <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_9dp" android:text="解绑后将无法通过人脸识别入场而改用原有入场方式" style="@style/ticklet_666666_14dp" />
+</merge>

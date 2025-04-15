@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/ticklet_tocomment_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/status_bar_space" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <RelativeLayout android:orientation="vertical" android:paddingLeft="@dimen/margin_15dp" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <ImageView android:id="@id/icon_left_icon" android:background="@drawable/icon_back_black_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/margin_20dp" android:textColor="@color/color_000000" android:gravity="center" android:id="@id/tv_header_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <cn.damai.uikit.snake.HorScrollView android:id="@id/scroll_title" android:layout_width="wrap_content" android:layout_height="48.0dip" />
+    <androidx.viewpager.widget.ViewPager android:id="@id/ticklet_mycomment_viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/scroll_title" />
+</LinearLayout>

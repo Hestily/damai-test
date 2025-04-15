@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.taobao.movie.android.commonui.widget.MovieTitleLinearLayout android:layout_gravity="fill_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:gravity="center" android:id="@id/titlebar_left_container" android:paddingLeft="@dimen/margin_12" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <include android:id="@id/titlebar_left_btn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/margin_4" layout="@layout/titlebar_left_button_item" />
+            <include android:id="@id/titlebar_left_btn2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/margin_4" layout="@layout/titlebar_left_button_item" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/titlebar_title_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="17.0dip" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/titlebar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16" android:layout_marginRight="@dimen/margin_16" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:paddingRight="@dimen/margin_6" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <include android:id="@id/titlebar_right_btn2" android:layout_width="wrap_content" android:layout_height="fill_parent" layout="@layout/titlebar_right_button_item" />
+            <include android:id="@id/titlebar_right_btn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/margin_4" layout="@layout/titlebar_right_button_item" />
+        </LinearLayout>
+    </com.taobao.movie.android.commonui.widget.MovieTitleLinearLayout>
+    <View android:id="@id/line_view" android:background="@color/common_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/space_line_height" />
+</merge>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/margin_14dp" android:textColor="#ff4a90e2" android:gravity="center" android:id="@id/aliuser_menu_item" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="@dimen/aliuser_space_48" android:minHeight="@dimen/aliuser_space_48"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

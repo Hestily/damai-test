@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/pioneer_ai_slide_welcome_view" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/one_arch_recyclerView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="never" />
+    <RelativeLayout android:id="@id/id_slide_ai_bottom_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="90.0dip">
+        <View android:background="@drawable/bg_pioneer_slide_ai" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_marginLeft="@dimen/resource_size_15" android:layout_marginRight="@dimen/resource_size_15" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/resource_size_14" android:textColor="#99444b5b" android:ellipsize="end" android:gravity="start|center" android:id="@id/id_slide_ai_bottom_entrance" android:paddingTop="@dimen/resource_size_10" android:paddingBottom="@dimen/resource_size_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" android:layout_centerVertical="true" android:paddingEnd="40.0dip" android:layout_marginStart="@dimen/resource_size_30" android:layout_marginEnd="@dimen/resource_size_25" android:layout_alignParentStart="true" />
+        <ImageView android:id="@id/ai_entrance" android:layout_width="@dimen/resource_size_35" android:layout_height="@dimen/resource_size_35" android:src="@drawable/icon_pioneer_home_ai_orange" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/resource_size_25" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <ImageView android:id="@id/id_slide_ai_go_to_cert" android:layout_width="98.0dip" android:layout_height="14.0dip" android:src="@drawable/icon_pioneer_cert_damai" android:scaleType="fitXY" />
+    </LinearLayout>
+</LinearLayout>

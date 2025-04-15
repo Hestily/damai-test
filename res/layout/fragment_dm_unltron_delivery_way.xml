@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/id_deliver_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/rl_title" android:layout_width="fill_parent" android:layout_height="64.0dip">
+            <TextView android:textSize="@dimen/margin_16dp" android:textColor="@color/color_000000" android:id="@id/id_deliver_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_999999" android:gravity="center" android:id="@id/id_deliver_ok" android:paddingLeft="21.0dip" android:paddingRight="21.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/iconfont_fucengguanbi16" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <View android:id="@id/line_title" android:background="@color/color_EEEEEE" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/margin_21dp" android:layout_marginRight="@dimen/margin_21dp" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/id_deliver_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</LinearLayout>

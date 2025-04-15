@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.common.CommonTitleModel",
+    "vClass": "cn.damai.tetris.component.common.CommonTitleView",
+    "pClass": "cn.damai.tetris.component.common.CommonTitlePresenter",
+    "layoutXml": "tetris_common_list_title"
+  }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="23.0dip" android:layout_marginRight="10.0dip">
+        <ImageView android:id="@id/iv_line" android:background="#ffdddddd" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/iv_trace_flow_icon" android:background="@drawable/refund_greendot_pic_3x" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="20.0dip" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_trace_info" android:paddingTop="17.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:textColor="@color/main_text_b" android:id="@id/tv_trace_detail" android:layout_marginLeft="5.0dip" android:layout_marginRight="12.0dip" style="@style/wrap" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/main_text_b" android:id="@id/tv_time" android:layout_marginLeft="5.0dip" android:layout_marginTop="6.0dip" style="@style/wrap" />
+        </LinearLayout>
+        <TextView android:id="@id/tv_line" android:background="@color/line_color_e5" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </LinearLayout>
+</LinearLayout>

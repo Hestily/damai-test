@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="22.0dip" android:layout_marginTop="6.0dip" android:layout_marginBottom="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip">
+        <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="14.0dip" android:textColor="@color/tpp_primary_red" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tag_iconfont" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="10.0dip" android:text="@string/iconf_checked" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_subtitle" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/tip_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="5.0dip" android:maxLines="1" android:singleLine="true" android:includeFontPadding="false" />
+    </LinearLayout>
+</FrameLayout>

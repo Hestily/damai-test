@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingTop="@dimen/margin_9dp" android:paddingBottom="@dimen/margin_18dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.pictures.moimage.MoImageView android:layout_gravity="center" android:id="@id/iv_logo" android:layout_width="wrap_content" android:layout_height="15.0dip" android:src="@drawable/tpp_watermark_logo" android:scaleType="centerCrop" />
+</FrameLayout>

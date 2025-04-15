@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/coupon_top_banner_bottombg" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/coupon_top_banner_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="210.0dip" android:overScrollMode="never" />
+    <View android:background="@drawable/bricks_shape_coupon_header_mask" android:layout_width="fill_parent" android:layout_height="102.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/coupon_img_count_info" android:background="@drawable/bricks_juben_shop_banner_title_tip_bg" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="15.0dip" android:layout_marginBottom="24.0dip" android:layout_alignBottom="@id/coupon_top_banner_container" android:layout_marginEnd="40.0dip" android:layout_alignParentEnd="true">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginRight="1.5dip" android:src="@drawable/bricks_icon_img_tag" />
+        <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/coupon_img_count_info_title" android:layout_width="wrap_content" android:layout_height="15.0dip" android:layout_marginRight="1.5dip" android:includeFontPadding="false" />
+    </LinearLayout>
+</RelativeLayout>

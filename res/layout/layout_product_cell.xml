@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="@dimen/default_component_margin_rl" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0dip" android:textColor="#ff000000" android:id="@id/produce_cell_title" android:paddingTop="@dimen/default_component_title_margintop" android:paddingBottom="@dimen/default_component_content_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="周边商品" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="86.0dip" android:layout_marginRight="21.0dip" android:layout_marginBottom="15.0dip">
+        <cn.damai.uikit.view.RoundImageView android:id="@id/produce_cell_img" android:layout_width="86.0dip" android:layout_height="86.0dip" android:scaleType="fitXY" app:borderRadius="6.0dip" app:type="round" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/color_000000" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/produce_cell_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:maxLines="2" android:layout_toRightOf="@id/produce_cell_img" />
+        <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/ll_child_price" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_toRightOf="@id/produce_cell_img" android:layout_alignParentBottom="true">
+            <cn.damai.uikit.number.DMDigitTextView android:textSize="12.0dip" android:textColor="@color/color_FF2869" android:id="@id/tv_fuhao" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-0.5dip" android:text="¥" />
+            <cn.damai.uikit.number.DMDigitTextView android:textSize="16.0dip" android:textColor="@color/color_FF2869" android:id="@id/tv_project_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-0.5dip" android:text="130" />
+            <TextView android:textSize="@dimen/margin_10dp" android:textColor="@color/color_9C9CA5" android:id="@id/tv_project_price_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_3dp" android:text="起" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

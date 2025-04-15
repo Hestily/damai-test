@@ -1,0 +1,51 @@
+{
+  "id": "damai_script_play_cell",
+  "type": "gaia-template",
+  "package": {
+    "id": "damai_script_play_cell",
+    "version": "0.0.1",
+    "modify-timestamp": "Fri Sep 09 2022 10:04:33 GMT+0800 (中国标准时间)",
+    "constraint-size": { "width": 375, "height": 130, "zoom": 1 },
+    "dependencies": {}
+  },
+  "layers": [
+    {
+      "id": "play_cell_bg",
+      "type": "view",
+      "layers": [
+        {
+          "id": "image_back_view",
+          "type": "view",
+          "layers": [
+            { "id": "cover_img", "type": "image" },
+            {
+              "id": "right_top_tag",
+              "type": "view",
+              "layers": [{ "id": "tab_label", "type": "text" }]
+            }
+          ]
+        },
+        {
+          "id": "content_info_view",
+          "type": "view",
+          "layers": [
+            { "id": "play_title", "type": "text" },
+            {
+              "id": "score_and_rank",
+              "type": "view",
+              "layers": [
+                { "id": "score_desc", "type": "text" },
+                { "id": "score_num", "type": "text" }
+              ]
+            },
+            {
+              "id": "player_introduce_view",
+              "type": "view",
+              "layers": [{ "id": "play_introduce", "type": "text" }]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

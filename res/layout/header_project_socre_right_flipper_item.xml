@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/layout_comment_container" android:background="@color/white" android:paddingTop="5.0dip" android:paddingBottom="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:ratingbar="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="12.0dip" android:textColor="@color/black" android:ellipsize="end" android:id="@id/tv_people_comment" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:maxLines="2" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip">
+                <cn.damai.baseview.RCRelativeLayoutView android:layout_width="wrap_content" android:layout_height="wrap_content" ratingbar:round_as_circle="true" ratingbar:stroke_color="#0f000000" ratingbar:stroke_width="0.5dip">
+                    <ImageView android:layout_gravity="center" android:id="@id/user_icon_iv" android:visibility="gone" android:layout_width="21.0dip" android:layout_height="21.0dip" android:src="@drawable/uikit_user_default_icon_trans_white" />
+                </cn.damai.baseview.RCRelativeLayoutView>
+            </FrameLayout>
+            <TextView android:textSize="12.0dip" android:textColor="@color/color_9C9CA5" android:ellipsize="end" android:id="@id/tv_user_name" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:maxLines="1" android:maxEms="11" android:layout_weight="1.0" />
+            <cn.damai.uikit.view.DMRatingBar android:id="@id/user_scoreStar_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" ratingbar:isIndicator="true" ratingbar:showText="false" ratingbar:starCount="5" ratingbar:starDistance="@dimen/margin_1dp" ratingbar:starEmpty="@drawable/rating_empty" ratingbar:starFill="?bgRatingBarStar" ratingbar:starSize="9.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

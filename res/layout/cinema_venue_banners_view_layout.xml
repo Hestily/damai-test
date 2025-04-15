@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/cinema_venue_banner_default_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardCornerRadius="9.0dip" app:cardElevation="0.0dip" app:cardMaxElevation="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/cinema_venue_banner_default_pic" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    </androidx.cardview.widget.CardView>
+    <cn.damai.pioneer.view.CinemaVenueBannerViewPager2Container android:id="@id/cinema_venue_banners_view_pager_host" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/cinema_venue_banners_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </cn.damai.pioneer.view.CinemaVenueBannerViewPager2Container>
+    <LinearLayout android:orientation="horizontal" android:id="@id/cinema_venue_banners_indicator_container" android:background="@drawable/bg_cinema_venue_banners_indicator_container" android:layout_width="wrap_content" android:layout_height="4.0dip" android:layout_marginBottom="6.0dip" app:layout_constraintBottom_toBottomOf="@id/cinema_venue_banners_view_pager_host" app:layout_constraintLeft_toLeftOf="@id/cinema_venue_banners_view_pager_host" app:layout_constraintRight_toRightOf="@id/cinema_venue_banners_view_pager_host" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/order_title_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="15.0dip">
+        <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="17.0dip" android:id="@id/order_refund_tag_new" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/color_tpp_primary_main_title" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:singleLine="true" android:includeFontPadding="false" />
+        <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_main_title" android:id="@id/right_area" android:layout_width="@dimen/margin_16" android:layout_height="wrap_content" android:text="@string/icon_font_right_small" />
+    </LinearLayout>
+    <TextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_assist" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="15.0dip" android:includeFontPadding="false" android:layout_below="@id/order_title_container" />
+    <View android:id="@id/refund_dvd" android:layout_width="fill_parent" android:layout_height="15.0dip" />
+</LinearLayout>

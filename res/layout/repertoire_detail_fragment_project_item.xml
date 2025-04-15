@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_search_item" android:background="@drawable/damai_list_bg" android:paddingLeft="@dimen/margin_18dp" android:paddingTop="22.0dip" android:paddingBottom="@dimen/margin_21dp" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_12dp">
+        <FrameLayout android:paddingTop="@dimen/margin_2dp" android:paddingBottom="@dimen/margin_2dp" android:layout_width="90.0dip" android:layout_height="120.0dip">
+            <ImageView android:background="@drawable/commonbusiness_search_padding_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageView android:id="@id/iv_project_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="0.5dip" />
+            <ImageView android:layout_gravity="bottom|center|left" android:id="@id/mark" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="16.0dip" android:scaleType="centerCrop" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/margin_12dp" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/margin_16dp" android:textColor="@color/color_111111" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_project_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_6dp" android:text="海上开发，每件事打开了电视反馈接口的复活节岛上开发" android:maxLines="2" android:lineSpacingMultiplier="1.2" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/color_222222" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_project_city" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="@dimen/margin_6dp" android:singleLine="true" />
+            <cn.damai.uikit.flowlayout.FlowLayout android:orientation="horizontal" android:id="@id/fl_sales" android:layout_width="fill_parent" android:layout_height="wrap_content" f:layoutDirection="ltr" xmlns:f="http://schemas.android.com/apk/res-auto" />
+            <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/margin_6dp">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_111111" android:id="@id/tv_project_sale_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="¥480-980" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+                    <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_888888" android:id="@id/tv_project_price" android:paddingLeft="@dimen/margin_5dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="¥480-980" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

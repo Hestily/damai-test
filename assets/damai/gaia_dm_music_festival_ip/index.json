@@ -1,0 +1,23 @@
+{
+  "id": "gaia_dm_music_festival_ip",
+  "type": "gaia-template",
+  "package": {
+    "id": "gaia_dm_music_festival_ip",
+    "version": "0.0.1",
+    "modify-timestamp": "Mon Mar 27 2023 11:24:43 GMT+0800 (中国标准时间)",
+    "dependencies": { "gaia_dm_music_festival_ip_list": "0.0.0" },
+    "constraint-size": { "width": 375, "height": 375, "zoom": 1 }
+  },
+  "layers": [
+    {
+      "id": "title_container",
+      "type": "view",
+      "layers": [{ "id": "music_festival_ip_title", "type": "text" }]
+    },
+    {
+      "id": "gaia_dm_music_festival_ip_list",
+      "type": "gaia-template",
+      "sub-type": "custom"
+    }
+  ]
+}

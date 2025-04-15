@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="46.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center" android:id="@id/view_bg" android:background="@drawable/calendar_day_select_bg" android:visibility="gone" android:layout_width="38.0dip" android:layout_height="38.0dip" />
+    <View android:layout_gravity="center" android:id="@id/view_long_select" android:background="@drawable/calendar_day_left_select_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="42.0dip" />
+    <TextView android:textSize="16.0dip" android:textColor="@color/color_000000" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_day" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="10.0dip" android:textColor="@color/color_666666" android:ellipsize="end" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/tv_day_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:maxEms="4" android:singleLine="true" />
+</FrameLayout>

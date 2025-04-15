@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/resource_size_50" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ic_rank" android:layout_width="39.0dip" android:layout_height="16.0dip" />
+    <com.alibaba.pictures.moimage.MoImageView android:id="@id/project_poster" android:layout_width="@dimen/resource_size_50" android:layout_height="@dimen/resource_size_66" android:layout_marginTop="-3.0dip" app:failureImage="@drawable/bg_pioneer_color_f5f6f8_radius_3" app:placeholderImage="@drawable/bg_pioneer_color_f5f6f8_radius_3" app:roundedCornerRadius="@dimen/resource_size_9" app:roundingBorderColor="#ffffd1b1" app:roundingBorderWidth="@dimen/resource_size_1" />
+    <TextView android:textSize="@dimen/resource_size_10" android:textColor="#fffacfaf" android:ellipsize="end" android:id="@id/project_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/resource_size_3" android:maxLines="1" android:includeFontPadding="true" />
+</LinearLayout>

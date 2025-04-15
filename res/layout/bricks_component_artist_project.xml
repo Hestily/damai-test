@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="@dimen/dim_7" android:layout_width="fill_parent" android:layout_height="@dimen/resource_size_89" android:paddingStart="@dimen/dim_7" android:paddingEnd="@dimen/dim_7"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.bricks.view.RoundRadiusImageView android:id="@id/poster" android:layout_width="@dimen/resource_size_49" android:layout_height="@dimen/resource_size_65" android:scaleType="centerCrop" android:layout_centerVertical="true" app:r_round_radius="@dimen/radius_l" app:r_stroke_color="#1a000000" app:r_stroke_width="1.0px" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/dim_6" android:layout_toEndOf="@id/poster">
+        <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="@dimen/font_Headline2_M" android:textColor="@color/cg_1" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:includeFontPadding="false" />
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dim_6" app:divider="@drawable/bricks_vertical_line" app:showDividers="middle">
+            <TextView android:textSize="@dimen/font_Subhead2_R" android:textColor="@color/cg_2_1" android:id="@id/city_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+            <TextView android:textSize="@dimen/font_Subhead2_R" android:textColor="@color/cg_2_1" android:ellipsize="end" android:id="@id/show_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+            <TextView android:textSize="@dimen/font_Subhead2_R" android:textColor="@color/cg_2_1" android:ellipsize="end" android:id="@id/venue_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:includeFontPadding="false" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <LinearLayout android:gravity="bottom" android:id="@id/price_lay" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dim_6">
+            <TextView android:textSize="@dimen/font_Footnote1_R" android:textColor="@color/color_price_font" android:gravity="bottom" android:id="@id/price_prefix" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="¥" android:includeFontPadding="false" />
+            <TextView android:textSize="@dimen/font_Headline2_R" android:textColor="@color/color_price_font" android:ellipsize="end" android:gravity="bottom" android:id="@id/price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:layout_marginStart="@dimen/resource_size_1" android:layout_marginEnd="@dimen/resource_size_1" />
+            <TextView android:textSize="@dimen/font_Caption1_R" android:textColor="@color/cg_3" android:gravity="bottom" android:id="@id/price_suffix" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="起" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/divider" android:background="@color/cg_6" android:layout_width="fill_parent" android:layout_height="@dimen/resource_size_1" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/resource_size_12" android:layout_marginEnd="@dimen/resource_size_12" />
+</RelativeLayout>

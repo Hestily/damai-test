@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.bricks.view.TopRoundLinearLayout android:orientation="vertical" android:id="@id/id_pioneer_pic_desc_container" android:background="@color/bricks_white" android:layout_width="fill_parent" android:layout_height="wrap_content" app:trl_top_radius="24.0dip">
+        <View android:background="@drawable/bg_pioneer_sheet_bg" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_marginBottom="-85.0dip" />
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_marginTop="@dimen/resource_size_20" android:src="@drawable/bg_pioneer_sheet_top_wenzi" android:adjustViewBounds="true" />
+        <ImageView android:layout_gravity="center" android:id="@id/id_pioneer_pic_desc" android:padding="@dimen/resource_size_12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/resource_size_7" android:src="@drawable/bg_pioneer_sheet_bottom_tips" android:adjustViewBounds="true" android:maxHeight="160.0dip" />
+    </com.alibaba.pictures.bricks.view.TopRoundLinearLayout>
+    <View android:background="@color/bricks_white" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_below="@id/id_pioneer_pic_desc_container" />
+    <View android:background="@drawable/bg_pioneer_black_gradient" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="-25.0dip" android:layout_below="@id/id_pioneer_pic_desc_container" />
+    <com.alibaba.pictures.bricks.view.TopRoundLinearLayout android:orientation="horizontal" android:id="@id/id_pioneer_pic_bottom" android:background="@color/bricks_white" android:paddingTop="@dimen/resource_size_15" android:layout_width="fill_parent" android:layout_height="103.0dip" android:layout_below="@id/id_pioneer_pic_desc_container" android:paddingStart="@dimen/resource_size_12" android:paddingEnd="@dimen/resource_size_12" app:trl_top_radius="24.0dip">
+        <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="@dimen/resource_size_18" android:textColor="@color/color_171717" android:gravity="center" android:id="@id/id_pioneer_pic_to_classic" android:background="@drawable/bg_pioneer_switch_left" android:layout_width="0.0dip" android:layout_height="52.0dip" android:text="继续切换" android:layout_weight="1.0" />
+        <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="@dimen/resource_size_18" android:textColor="#ffffffff" android:gravity="center" android:id="@id/id_pioneer_pic_to_keep" android:background="@drawable/bg_pioneer_switch_right" android:layout_width="0.0dip" android:layout_height="52.0dip" android:text="暂不切换" android:layout_weight="1.0" android:layout_marginStart="@dimen/resource_size_12" />
+    </com.alibaba.pictures.bricks.view.TopRoundLinearLayout>
+</RelativeLayout>

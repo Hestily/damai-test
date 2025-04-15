@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alient.onearch.adapter.component.pager.GridViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.alient.onearch.adapter.widget.indicator.PagerIndicator android:layout_gravity="bottom|center" android:id="@id/indicator" android:layout_width="fill_parent" android:layout_height="@dimen/resource_size_25" app:indicator_drawable="@drawable/white_radius" app:indicator_drawable_unselected="@drawable/white_30_radius" />
+</LinearLayout>

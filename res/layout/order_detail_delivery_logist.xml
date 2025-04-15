@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_delivery_logist" android:background="@color/white" android:paddingLeft="@dimen/margin_15dp" android:paddingTop="@dimen/margin_18dp" android:paddingRight="@dimen/margin_15dp" android:paddingBottom="@dimen/margin_18dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_16dp" android:textColor="@color/color_666666" android:id="@id/icon_logist" android:layout_width="@dimen/margin_30dp" android:layout_height="wrap_content" android:text="@string/iconfont_wuliu" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/margin_16dp" android:textColor="@color/color_000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="物流信息" android:layout_toRightOf="@id/icon_logist" android:layout_centerVertical="true" />
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_999999" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_youjiantou24" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_FF2D79" android:id="@id/tv_logist_address" android:paddingLeft="@dimen/margin_30dp" android:paddingTop="@dimen/margin_10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_666666" android:id="@id/tv_logist_time" android:paddingLeft="@dimen/margin_30dp" android:paddingTop="@dimen/margin_9dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+</LinearLayout>

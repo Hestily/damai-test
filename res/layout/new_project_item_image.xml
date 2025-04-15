@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/margin_9dp" android:paddingRight="@dimen/margin_9dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.pictures.bricks.view.HWRatioLayout android:id="@id/id_new_project_item_hw_ratio_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/id_new_project_item_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    </com.alibaba.pictures.bricks.view.HWRatioLayout>
+    <View android:id="@id/id_new_project_item_image_bottom" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="12.0dip" />
+</LinearLayout>

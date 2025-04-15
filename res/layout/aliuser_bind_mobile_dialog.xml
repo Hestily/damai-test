@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:descendantFocusability="afterDescendants" android:layout_width="290.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@drawable/aliuser_bindmobile_dialog_topbg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="20.0dip">
+        <ImageView android:id="@id/aliuser_dialog_logo" android:layout_width="fill_parent" android:layout_height="145.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/aliuser_bindmobile_dialog_bg" android:paddingLeft="@dimen/aliuser_space_20" android:paddingTop="@dimen/aliuser_space_20" android:paddingRight="@dimen/aliuser_space_20" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="21.0dip" android:textColor="@color/aliuser_new_edit_text_color" android:gravity="center" android:id="@id/aliuser_operation_tip" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/aliuser_suggest_bind_mobile" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/aliuser_color_gray" android:id="@id/aliuser_operation_sencondary_tip" android:paddingLeft="@dimen/aliuser_space_8" android:paddingRight="@dimen/aliuser_space_8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aliuser_space_10" android:text="@string/aliuser_suggesst_bind_mobile_content" />
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" android:layout_marginBottom="21.0dip">
+            <Button android:textColor="@color/aliuser_edittext_bg_color_normal" android:id="@id/aliuser_operation_disagree" android:background="@drawable/aliuser_btn_main_orange" android:layout_marginLeft="@dimen/ali_user_space_6" android:layout_marginRight="@dimen/ali_user_space_6" android:text="不同意" android:width="0.0dip" android:layout_weight="1.0" style="@style/AliUserButtonStyle" />
+            <Button android:id="@id/aliuser_operation_agree" android:visibility="visible" android:layout_marginLeft="@dimen/ali_user_space_6" android:layout_marginRight="@dimen/ali_user_space_6" android:text="确认" android:width="0.0dip" android:layout_weight="1.0" style="@style/AliUserButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/aliuser_protocal_inset_ll" android:background="@drawable/aliuser_gray_circle" android:visibility="visible" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginTop="21.0dip">
+        <ImageView android:id="@id/aliuser_protocol_inset" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_margin="11.0dip" android:src="@drawable/aliuser_reg_close" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom" android:id="@id/aliuser_content_frame" android:background="@color/aliuser_bg_transparent" android:layout_width="fill_parent" android:layout_height="700.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/aliuser_web_rl" android:background="@drawable/aliuser_corner_bg" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_marginTop="@dimen/aliuser_space_20">
+        <ImageView android:id="@id/aliuser_auth_title_back_tv" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aliuser_ic_actionbar_close" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="@color/aliuser_new_edit_text_color" android:gravity="center" android:id="@id/aliuser_dialog_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/aliuser_video_title" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/browser_fragment_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/aliuser_web_rl" />
+</RelativeLayout>

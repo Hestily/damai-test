@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="@dimen/margin_18dp" android:paddingRight="@dimen/margin_18dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_account" android:paddingTop="@dimen/margin_20dp" android:paddingBottom="@dimen/margin_20dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="51.0dip" android:layout_height="51.0dip" android:src="@drawable/bg_circle_corner_ee" android:scaleType="center" />
+            <ImageView android:layout_gravity="center" android:id="@id/iv_account_image" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/uikit_user_default_icon_trans_white" />
+            <ImageView android:layout_gravity="bottom|center|right" android:id="@id/iv_account_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="3.0dip" android:src="@drawable/user_v_tag" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/margin_12dp" android:paddingRight="@dimen/margin_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_111111" android:id="@id/tv_account_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_999999" android:id="@id/tv_account_count" android:paddingTop="@dimen/margin_7dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/relation_status_button" android:background="@drawable/bg_item_relation" android:layout_width="63.0dip" android:layout_height="28.0dip" android:layout_alignParentRight="true">
+            <TextView android:textSize="11.0dip" android:textColor="@color/color_222222" android:id="@id/relation_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:background="@color/color_EEEEEE" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

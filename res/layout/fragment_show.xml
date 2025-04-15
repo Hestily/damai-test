@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.uikit.irecycler.IRecyclerView android:id="@id/irc" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:refreshEnabled="true" app:refreshHeaderLayout="@layout/refresh_empty_view" />
+    <RelativeLayout android:id="@id/user_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="330.0dip">
+        <ImageView android:id="@id/user_empty_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="66.0dip" android:src="@drawable/show_nodata" android:scaleType="centerCrop" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

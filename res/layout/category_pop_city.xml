@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/layout_city" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/city_select_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <cn.damai.commonbusiness.city.view.LetterSortBar android:id="@id/city_select_sort_letter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="20.0dip" />
+</FrameLayout>

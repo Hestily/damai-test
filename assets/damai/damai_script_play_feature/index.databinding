@@ -1,0 +1,57 @@
+{
+  "data": {
+    "people_icon": {
+      "value": "gaiax_res:gaiax_res_script_play_feature_icon_people"
+    },
+    "people_text": {
+      "value": "${peopleDesc}",
+      "extend": { "fit-content": "true" }
+    },
+    "time_icon": {
+      "value": "gaiax_res:gaiax_res_script_play_feature_icon_time"
+    },
+    "time_text": {
+      "value": "${costTime}",
+      "extend": { "fit-content": "true" }
+    },
+    "level_icon": {
+      "value": "gaiax_res:gaiax_res_script_play_feature_icon_level"
+    },
+    "level_text": { "value": "${grade}", "extend": { "fit-content": "false" } },
+    "tag_1": {
+      "value": "${tagList[0]}",
+      "extend": {
+        "display": "@{${tagList[0]} ? flex : none}",
+        "fit-content": "false"
+      }
+    },
+    "tag_2": {
+      "value": "${tagList[1]}",
+      "extend": {
+        "display": "@{${tagList[1]} ? flex : none}",
+        "fit-content": "false"
+      }
+    },
+    "tag_3": {
+      "value": "${tagList[2]}",
+      "extend": {
+        "display": "@{${tagList[2]} ? flex : none}",
+        "fit-content": "false"
+      }
+    },
+    "tag_4": {
+      "value": "${tagList[3]}",
+      "extend": {
+        "display": "@{${tagList[3]} ? flex : none}",
+        "fit-content": "false"
+      }
+    },
+    "tag_5": {
+      "value": "${tagList[4]}",
+      "extend": {
+        "display": "@{${tagList[4]} ? flex : none}",
+        "fit-content": "false"
+      }
+    }
+  }
+}

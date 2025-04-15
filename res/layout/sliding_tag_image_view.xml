@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.viewpager2.widget.ViewPager2 android:layout_gravity="center" android:id="@id/sliding_image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/sliding_image_gradient" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_alignParentBottom="true" />
+    <androidx.cardview.widget.CardView android:id="@id/sliding_image_bottom_bar" android:clipChildren="true" android:layout_width="215.0dip" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:layout_alignBottom="@id/sliding_image" android:layout_marginEnd="9.0dip" android:layout_alignParentEnd="true" app:cardBackgroundColor="@color/transparent" app:cardCornerRadius="12.0dip" app:cardElevation="0.0dip" app:cardPreventCornerOverlap="false" app:cardUseCompatPadding="false" app:contentPadding="0.0dip">
+        <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:background="@drawable/basic_venue_black_bg" android:clipChildren="true" android:layout_width="wrap_content" android:layout_height="25.0dip" android:paddingEnd="50.0dip">
+            <com.google.android.material.tabs.TabLayout android:id="@id/sliding_tag" android:background="@drawable/bg_common_alpha_corner_12" android:clipChildren="true" android:layout_width="wrap_content" android:layout_height="fill_parent" app:tabGravity="center" app:tabIndicator="@drawable/tab_background_selector" app:tabIndicatorColor="@color/black" app:tabIndicatorHeight="25.0dip" app:tabMinWidth="0.0dip" app:tabMode="scrollable" app:tabPaddingEnd="0.0dip" app:tabPaddingStart="0.0dip" app:tabSelectedTextColor="@color/white" app:tabTextAppearance="@style/ImageTagsLayoutStyle" app:tabTextColor="@color/white" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="25.0dip">
+            <ImageView android:layout_gravity="end" android:layout_width="8.0dip" android:layout_height="fill_parent" android:src="@drawable/bricks_venue_album_end_gradient_bg" android:scaleType="fitXY" />
+            <TextView android:textSize="9.0dip" android:textColor="@color/color_bricks_primary_70_white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="|" android:layout_marginEnd="@dimen/margin_5dp" />
+            <TextView android:textSize="11.0dip" android:textColor="@color/color_bricks_primary_70_white" android:gravity="center" android:id="@id/alum_tab_jump" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="相册" />
+            <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="8.0dip" android:textColor="@color/color_bricks_primary_70_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_5dp" android:layout_marginRight="@dimen/margin_5dp" android:text="@string/iconfont_ticket_rightarrows" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

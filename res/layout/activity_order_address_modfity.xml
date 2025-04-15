@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/fl_main_content" android:background="@color/color_F5F5F5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/layout_address_main" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="50.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_order_address" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:id="@id/tv_tip_container" android:background="#fffdf1e6" android:paddingLeft="15.0dip" android:paddingTop="8.0dip" android:paddingRight="15.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_eb7609" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_shuoming12" />
+                <TextView android:textSize="13.0dip" android:textColor="#ff979797" android:id="@id/tv_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="3.0dip" android:paddingStart="3.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:layout_gravity="bottom" android:id="@id/layout_bottom" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <Button android:textSize="@dimen/margin_16dp" android:textColor="@color/white" android:id="@id/btn_address_submit" android:background="@drawable/bg_submit_button_normal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="保存" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/layout_pay_freight" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <View android:background="@color/color_eeeeee" android:layout_width="fill_parent" android:layout_height="@dimen/margin_1dp" />
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="12.0dip" android:textColor="@color/main_color" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="17.0dip" android:text="需支付:" android:layout_marginStart="17.0dip" />
+                    <TextView android:textSize="14.0dip" android:textColor="@color/main_color" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="¥" android:layout_marginStart="6.0dip" />
+                    <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/main_color" android:layout_gravity="center_vertical" android:id="@id/tv_freight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginStart="1.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <Button android:textSize="16.0dip" android:textColor="@color/white" android:id="@id/btn_pay" android:background="@drawable/bg_submit_button_normal" android:layout_width="129.0dip" android:layout_height="fill_parent" android:text="保存并付款" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff1f2f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/margin_16dp" android:textColor="@color/black" android:id="@id/tv_desc" android:paddingLeft="18.0dip" android:paddingTop="@dimen/margin_20dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="选择问题类型" />
+            <cn.damai.uikit.flowlayout.FlowLayout android:id="@id/fl_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_12dp" android:layout_marginRight="@dimen/margin_12dp" />
+            <TextView android:textSize="@dimen/margin_16dp" android:textColor="@color/black" android:paddingLeft="18.0dip" android:paddingTop="@dimen/margin_20dp" android:paddingBottom="@dimen/margin_15dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="问题描述" />
+            <EditText android:textSize="@dimen/margin_15dp" android:textColor="@color/color_666666" android:textColorHint="@color/color_cccccc" android:gravity="top" android:id="@id/et_content" android:background="@drawable/bg_border_corner_ff_no_trans" android:padding="@dimen/margin_15dp" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_marginLeft="@dimen/margin_18dp" android:layout_marginRight="@dimen/margin_18dp" android:hint="@string/damai_faq_input_your_feedback_hint" android:maxLines="8" android:maxLength="451" android:lineSpacingExtra="5.0dip" />
+            <TextView android:textSize="@dimen/margin_16dp" android:textColor="@color/black" android:paddingLeft="18.0dip" android:paddingTop="@dimen/margin_20dp" android:paddingBottom="@dimen/margin_9dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="图片（选填）" />
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="13.0dip" android:paddingRight="13.0dip" android:paddingBottom="@dimen/margin_10dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:gravity="center" android:id="@id/fl_add_image" android:paddingLeft="@dimen/margin_6dp" android:paddingTop="@dimen/margin_6dp" android:paddingRight="@dimen/margin_6dp" android:layout_width="@dimen/margin_100dp" android:layout_height="@dimen/margin_100dp">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg_border_corner_ff_no_trans" />
+                    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="18.0dip" android:textColor="@color/color_111111" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_jiahao24" />
+                </FrameLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/ll_add_image" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <Button android:textSize="14.0dip" android:textColor="@color/color_666666" android:gravity="center" android:id="@id/btn_submit" android:background="@drawable/photo_select_normal" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/damai_faq_submit" />
+</LinearLayout>

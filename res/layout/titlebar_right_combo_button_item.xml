@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:background="@drawable/icon_bg_title_button_alpha_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="18.0dip" android:gravity="center" android:layout_gravity="center" android:id="@id/titlebar_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="10.0dip" android:gravity="center" android:layout_gravity="center" android:id="@id/titlebar_button_inner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" />
+    <com.alipay.mobile.mpass.badge.ui.BadgeView android:layout_gravity="center|right|top" android:id="@id/badge_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_8" />
+</FrameLayout>

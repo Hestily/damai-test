@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.rank.RankFilterModel",
+    "vClass": "cn.damai.tetris.component.rank.RankFilterView",
+    "pClass": "cn.damai.tetris.component.rank.RankFilterPresenter",
+    "layoutXml": "item_tetris_rank_filter_layout"
+  }
+}

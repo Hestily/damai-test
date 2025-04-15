@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.pictures.bricks.view.PioneerPullToRefreshHeaderView android:id="@id/header_view" android:layout_width="90.0dip" android:layout_height="90.0dip" android:layout_marginTop="@dimen/resource_size_10" android:layout_centerHorizontal="true" />
+    <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="@dimen/resource_size_11" android:textColor="#ff171717" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-10.0dip" android:layout_below="@id/header_view" android:layout_centerHorizontal="true" />
+</merge>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/comment_report_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0dip" android:textColor="@color/white" android:id="@id/delete" android:paddingLeft="12.0dip" android:paddingTop="10.0dip" android:paddingRight="12.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="删除" android:includeFontPadding="false" />
+    <View android:id="@id/divider_d" android:background="@color/common_divider_color" android:visibility="gone" android:layout_width="@dimen/space_line_height" android:layout_height="20.0dip" android:alpha="0.1" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/white" android:id="@id/share" android:paddingLeft="12.0dip" android:paddingTop="10.0dip" android:paddingRight="12.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="分享" android:includeFontPadding="false" />
+    <View android:id="@id/divider" android:background="@color/common_divider_color" android:layout_width="@dimen/space_line_height" android:layout_height="20.0dip" android:alpha="0.1" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/white" android:id="@id/report" android:paddingLeft="12.0dip" android:paddingTop="10.0dip" android:paddingRight="12.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="举报" android:includeFontPadding="false" />
+</LinearLayout>

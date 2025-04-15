@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/dk_color_F4F5F6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/id_rank_square_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.damai.uikit.view.SimpleTitleLayout android:id="@id/id_rank_square_stl" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <cn.damai.rank.view.WantSeeTips android:layout_gravity="bottom" android:id="@id/want_see_tips_rank_square" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

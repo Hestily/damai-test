@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/item_user_center_empty_view" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/item_user_center_empty_iv" android:layout_width="180.0dip" android:layout_height="180.0dip" android:layout_marginTop="9.0dip" android:src="@drawable/common_error_ticket_empty" />
+    <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/color_2E333E" android:id="@id/item_user_center_empty_title_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_5dp" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/color_959aa5" android:id="@id/item_user_center_empty_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="这里空空的呢～" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/user_center_empty_publish_btn" android:background="@drawable/user_center_empty_btn" android:visibility="gone" android:layout_width="84.0dip" android:layout_height="32.0dip" android:layout_marginTop="10.0dip">
+        <ImageView android:background="@drawable/user_center_btn_add" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginStart="@dimen/margin_12dp" />
+        <TextView android:textSize="@dimen/margin_14dp" android:textStyle="bold" android:textColor="@color/color_ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="去发布" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+    <ImageView android:id="@id/user_center_empty_publish_btn_pioneer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:src="@drawable/pioneer_comment_publish_btn_2" />
+</LinearLayout>

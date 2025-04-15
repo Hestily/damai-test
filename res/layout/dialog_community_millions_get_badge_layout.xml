@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/millions_content" android:layout_width="354.0dip" android:layout_height="372.0dip">
+        <FrameLayout android:background="@drawable/community_millions_btn" android:layout_width="104.0dip" android:layout_height="104.0dip" android:layout_marginTop="194.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+            <TextView android:textSize="21.0dip" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/tv_millions_get" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/community_millions_badge_get_text" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/pb_millions_loading" android:visibility="gone" android:layout_width="33.0dip" android:layout_height="33.0dip" android:layout_marginBottom="5.0dip" android:indeterminateBehavior="repeat" android:indeterminateTint="@color/white" />
+        </FrameLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="30.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip">
+            <CheckBox android:layout_gravity="center_vertical" android:id="@id/cb_millions_agreement" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="3.0dip" android:button="@drawable/common_agreement_checkbox" />
+            <TextView android:textSize="@dimen/text_size_12_dp" android:textColor="@color/white" android:id="@id/tv_millions_agreement" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="40.0dip" android:textColor="@color/tpp_gray_4" android:layout_gravity="center_horizontal" android:id="@id/iv_millions_close_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/icon_font_close" />
+</LinearLayout>

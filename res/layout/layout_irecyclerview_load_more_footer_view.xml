@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/theEndView" layout="@layout/layout_irecyclerview_load_more_footer_the_end_view" />
+    <include android:id="@id/errorView" layout="@layout/layout_irecyclerview_load_more_footer_error_view" />
+    <include android:id="@id/loadingView" layout="@layout/layout_irecyclerview_load_more_footer_loading_view" />
+</merge>

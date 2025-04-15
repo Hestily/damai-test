@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/text_color_33" android:id="@id/order_new_detail_item_number_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="14.0sp" android:textColor="#ffa9a9a9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="票号  " />
+                <TextView android:textSize="14.0sp" android:textColor="@color/text_color_33" android:ellipsize="end" android:id="@id/order_new_detail_item_ticket_number_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="4021498(1000元)" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="#ffa9a9a9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="票码  " />
+                <TextView android:textSize="14.0sp" android:textColor="@color/text_color_33" android:ellipsize="end" android:id="@id/order_new_detail_item_ticket_code_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="\ 4021498222222" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

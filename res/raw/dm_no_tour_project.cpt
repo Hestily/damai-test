@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.project.ProjectCommonModel",
+    "vClass": "cn.damai.tetris.component.project.ProjectView",
+    "pClass": "cn.damai.tetris.component.project.ProjectPresenter",
+    "layoutXml": "bricks_search_list_project"
+  }
+}

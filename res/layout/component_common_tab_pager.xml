@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <com.alient.onearch.adapter.widget.OneTabLayout android:id="@id/component_tab_layout" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toStartOf="@id/action_layout" style="@style/CommonTabStyle" />
+        <LinearLayout android:gravity="center_vertical" android:id="@id/action_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+            <TextView android:textSize="@dimen/default_tab_btn_text" android:textColor="@color/default_tab_btn_text" android:gravity="center" android:id="@id/action_one" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="10.0dip" />
+            <TextView android:textSize="@dimen/default_tab_btn_text" android:textColor="@color/default_tab_btn_text" android:gravity="center" android:id="@id/action_two" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="10.0dip" />
+            <ImageView android:id="@id/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.alient.onearch.adapter.component.tab.GenericTabViewContainer android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.alient.onearch.adapter.component.tab.viewpager.GenericTabViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.alient.onearch.adapter.component.tab.GenericTabViewContainer>
+</LinearLayout>

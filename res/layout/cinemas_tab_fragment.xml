@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/cinema_root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/presale_tips" android:layout="@layout/layout_cinema_list_presale_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/line" android:background="@color/common_divider_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/space_line_height" android:layout_below="@id/presale_tips" />
+    <include android:id="@id/cinema_filter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/line" layout="@layout/oscar_cinema_list_filter_item" />
+    <com.taobao.movie.statemanager.StateLayout android:id="@id/cinemas_state_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/cinema_filter">
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <cn.damai.pioneer.component.tab.ChildRecyclerView android:id="@id/combolist" android:background="@color/color_tpp_primary_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="15.0dip" android:overScrollMode="never" app:horizonScrollEnabled="true" />
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    </com.taobao.movie.statemanager.StateLayout>
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/common_cinemas_login" />
+</RelativeLayout>

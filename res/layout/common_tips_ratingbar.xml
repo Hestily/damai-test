@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RatingBar android:layout_gravity="center_horizontal" android:id="@id/rating_bar" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_marginTop="6.0dip" android:progressDrawable="@drawable/oscar_comment_rating_bar_bg" android:numStars="5" android:rating="0.0" android:stepSize="0.5" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/tips_container" android:layout_width="225.0dip" android:layout_height="wrap_content">
+        <TextView android:textSize="12.0dip" android:textColor="@color/common_color_1006" android:gravity="center" android:layout_width="45.0dip" android:layout_height="wrap_content" android:text="极差" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/common_color_1006" android:gravity="center" android:layout_width="45.0dip" android:layout_height="wrap_content" android:text="较差" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/common_color_1006" android:gravity="center" android:layout_width="45.0dip" android:layout_height="wrap_content" android:text="一般" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/common_color_1006" android:gravity="center" android:layout_width="45.0dip" android:layout_height="wrap_content" android:text="不错" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/common_color_1006" android:gravity="center" android:layout_width="45.0dip" android:layout_height="wrap_content" android:text="很棒" />
+    </LinearLayout>
+</LinearLayout>

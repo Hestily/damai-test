@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.category.CategoryTitleModel",
+    "vClass": "cn.damai.tetris.component.category.CategoryTitleView",
+    "pClass": "cn.damai.tetris.component.category.CategoryTitlePresenter",
+    "layoutXml": "category_list_title"
+  }
+}

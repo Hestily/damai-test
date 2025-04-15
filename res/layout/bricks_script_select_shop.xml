@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/root" android:background="@android:color/white" android:paddingLeft="21.0dip" android:paddingTop="15.0dip" android:paddingRight="21.0dip" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.bricks.view.RoundRadiusImageView android:id="@id/shop_img" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/bricks_uikit_default_image_bg_grey" android:scaleType="fitXY" app:r_round_radius="4.0dip" />
+    <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="4.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="14.0dip" android:textColor="#ff111111" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/shop_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+        <TextView android:textSize="12.0dip" android:textColor="#ff9c9ca5" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/shop_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:singleLine="true" />
+    </LinearLayout>
+    <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="20.0dip" android:textColor="#ffc8c8c8" android:gravity="center" android:id="@id/checkbox" android:padding="5.0dip" android:layout_width="31.0dip" android:layout_height="31.0dip" android:text="@string/iconfont_yuangouxuanweixuanzhong" />
+</LinearLayout>

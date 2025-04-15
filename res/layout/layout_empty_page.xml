@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="44.0dip" android:src="@drawable/realname_error" />
+    <TextView android:textSize="16.0dip" android:textColor="#ffaaaaaa" android:id="@id/tv_empty_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_24dp" android:text="还没有收货地址耶，赶快新增一个？" />
+</merge>

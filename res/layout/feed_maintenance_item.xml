@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="324.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.taobao.movie.statemanager.StateLayout android:id="@id/feed_error_status_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:background="@color/white" android:paddingLeft="@dimen/padding_15dp" android:paddingRight="@dimen/padding_15dp" android:paddingBottom="@dimen/padding_20" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="15.0dip" android:textColor="@color/common_color_1008" android:id="@id/tx_feed_error_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="调整维护中，请稍后再来..." />
+        </LinearLayout>
+    </com.taobao.movie.statemanager.StateLayout>
+</FrameLayout>

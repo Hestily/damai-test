@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/item_click_effect" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="15.0dip" android:textColor="@android:color/black" android:ellipsize="end" android:id="@id/article_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/color_tpp_primary_assist" android:ellipsize="end" android:id="@id/article_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxLines="2" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/article_media" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <com.taobao.movie.android.commonui.widget.SimpleDraweeView android:id="@id/media_image" android:layout_width="22.0dip" android:layout_height="22.0dip" app:actualImageScaleType="centerCrop" app:fadeDuration="0" app:placeholderImage="@drawable/header_icon" app:roundAsCircle="true" app:roundingBorderColor="@color/common_divider_color" app:roundingBorderWidth="1.0px" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_assist" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/media_name" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:singleLine="true" android:layout_weight="1.0" />
+        <com.taobao.movie.android.commonui.widget.FavorLottieAnimationView android:id="@id/article_add_favor" android:visibility="visible" android:layout_width="23.0dip" android:layout_height="23.0dip" app:lottie_autoPlay="false" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_assist" android:gravity="center_vertical" android:id="@id/article_favor_count" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="-1.0dip" />
+        <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="13.0dip" android:textColor="@color/color_tpp_primary_assist" android:gravity="center" android:id="@id/article_add_comment" android:paddingLeft="5.0dip" android:paddingRight="2.5dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconf_do_reply" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_assist" android:gravity="center_vertical" android:id="@id/article_comment_count" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <androidx.legacy.widget.Space android:layout_width="fill_parent" android:layout_height="15.0dip" />
+</LinearLayout>

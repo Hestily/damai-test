@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/color_ffffff" android:paddingTop="50.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/margin_24dp" android:textColor="@color/color_000000" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/ticklet_face_bind_state_tv" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <cn.damai.ticklet.view.TickletFaceBindResultView android:id="@id/ticklet_face_bind_result_msg_cv" android:paddingBottom="50.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_888888" android:id="@id/face_unbind_ticket_title_tv" android:background="@color/color_f8f8f8" android:paddingLeft="@dimen/margin_20dp" android:paddingTop="@dimen/margin_10dp" android:paddingBottom="@dimen/margin_10dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="为同行人设置人脸入场" />
+</LinearLayout>

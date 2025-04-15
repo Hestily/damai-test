@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/cover_bg" android:background="#99000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/tb_price_lv_v2_container" android:background="@drawable/bg_corner_up_12_s_white" android:paddingLeft="21.0dip" android:paddingTop="@dimen/margin_4dp" android:paddingRight="21.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="54.0dip">
+            <TextView android:textSize="20.0dip" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="价格明细" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/color_9C9CA5" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="实际优惠金额以下单页为准" android:lines="1" android:layout_weight="1.0" />
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="16.0dip" android:textColor="@color/color_999999" android:id="@id/seat_list_v2_close" android:paddingLeft="10.0dip" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_fucengguanbi16" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/seat_list_detail_v2_lv" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" />
+    </LinearLayout>
+</RelativeLayout>

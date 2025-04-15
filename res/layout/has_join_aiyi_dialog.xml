@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_has_join_aiyi_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="33.0dip" android:layout_marginRight="33.0dip" android:layout_centerInParent="true">
+        <androidx.cardview.widget.CardView android:id="@id/has_join_cardView" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.alibaba.pictures.moimage.MoImageView android:id="@id/has_join_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            <TextView android:textSize="22.0dip" android:textStyle="bold" android:textColor="@color/common_text_color46" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="70.0dip" android:text="欢迎加入爱艺之城" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/color_tpp_primary_90_white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_has_join_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="120.0dip" />
+            <TextView android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/tv_start_aiyi_bg" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="25.0dip" android:layout_marginRight="25.0dip" android:layout_marginBottom="95.0dip" />
+            <TextView android:textSize="15.0dip" android:textStyle="bold" android:textColor="@color/common_text_color46" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/tv_start_aiyi" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="25.0dip" android:layout_marginRight="25.0dip" android:layout_marginBottom="100.0dip" android:text="开始探索我的爱艺之城" />
+        </androidx.cardview.widget.CardView>
+        <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="24.0dip" android:textStyle="bold" android:textColor="@color/common_text_color46" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/join_aiyi_close" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginTop="37.0dip" android:text="@string/iconf_film_close_icon" />
+    </LinearLayout>
+</RelativeLayout>

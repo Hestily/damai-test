@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rootView" android:background="#ff101011" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.bricks.view.BricksHWRatioLayout android:gravity="center" android:layout_gravity="bottom" android:id="@id/bricks_head_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:bricks_h_w_layout_ratio="0.46666667">
+        <com.alibaba.pictures.bricks.view.SafeLottieAnimationView android:layout_width="fill_parent" android:layout_height="fill_parent" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="@raw/live_header" />
+        <com.alibaba.pictures.bricks.view.SafeLottieAnimationView android:layout_gravity="center_horizontal" android:layout_width="157.0dip" android:layout_height="@dimen/resource_size_21" android:layout_marginTop="@dimen/resource_size_53" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="@raw/live_logo" />
+    </com.alibaba.pictures.bricks.view.BricksHWRatioLayout>
+    <FrameLayout android:id="@id/main_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/live_activity_bottomsheet_container">
+        <FrameLayout android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="right" android:layout_gravity="bottom|center|right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="21.0dip" android:layout_marginBottom="12.0dip">
+            <ImageView android:gravity="center" android:id="@id/live_guide_publish_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/resource_size_2" android:src="@drawable/ic_live_publish_tip" android:layout_marginEnd="@dimen/resource_size_5" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="52.0dip" android:layout_height="wrap_content">
+                <ImageView android:id="@id/submit_btn" android:visibility="gone" android:layout_width="52.0dip" android:layout_height="52.0dip" android:src="@drawable/icon_publish_new_add" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <cn.damai.commonbusiness.tab.TabbarLayout android:id="@id/live_activity_bottomsheet_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <FrameLayout android:id="@id/fl_ge_parent" android:background="@color/color_bricks_primary_80_black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/live_activity_bottomsheet_container">
+        <com.alibaba.pictures.bricks.util.imageloader.BricksGEView android:layout_gravity="bottom|center" android:id="@id/ge_view_wish" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:layout_gravity="bottom|center" android:id="@id/btn_confirm" android:layout_width="126.0dip" android:layout_height="50.0dip" android:layout_marginBottom="134.0dip" />
+        </com.alibaba.pictures.bricks.util.imageloader.BricksGEView>
+    </FrameLayout>
+</RelativeLayout>

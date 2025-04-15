@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/coupons_container" android:layout_width="fill_parent" android:layout_height="49.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0dip" android:textColor="#ff333333" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <TextView android:textSize="12.0dip" android:textColor="#ff9c9ca5" android:gravity="center" android:id="@id/tv_ext_btn" android:background="@drawable/bricks_coupon_cancel_btn" android:layout_width="66.0dip" android:layout_height="25.0dip" android:text="退款" android:layout_marginEnd="9.0dip" />
+    <TextView android:textSize="12.0dip" android:textColor="#ffff2869" android:gravity="center" android:id="@id/tv_action_btn" android:background="@drawable/bricks_coupon_btn" android:layout_width="66.0dip" android:layout_height="25.0dip" android:text="到店使用" />
+    <TextView android:textSize="12.0dip" android:textColor="#ff9c9ca5" android:id="@id/tv_des" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/right_arrow" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/bricks_order_detail_right_arrow" android:layout_marginStart="3.5dip" />
+</LinearLayout>

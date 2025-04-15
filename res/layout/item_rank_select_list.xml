@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="#ff27293d" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.taobao.uikit.extend.feature.view.TUrlImageView android:layout_gravity="center_horizontal" android:id="@id/rank_bg_img" android:layout_width="wrap_content" android:layout_height="212.0dip" android:scaleType="fitStart" android:adjustViewBounds="true" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rank_select_recycler" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="203.0dip" android:layout_marginBottom="@dimen/margin_12dp" />
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/common_top_banner_bottombg" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/bricks_gradient_white_0_100_background" android:layout_width="fill_parent" android:layout_height="115.0dip" android:layout_alignParentBottom="true" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/common_top_banner_container" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="175.0dip" android:layout_marginTop="5.0dip" android:overScrollMode="never" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/common_navbar_infoll" android:background="@drawable/bricks_juben_shop_banner_title_tip_bg" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="15.0dip">
+        <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/common_navbar_info_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="250.0dip" android:lines="1" />
+        <TextView android:textSize="11.0dip" android:textColor="#66ffffff" android:gravity="center_vertical" android:id="@id/common_navbar_info_desc" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:lines="1" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/common_img_count_info" android:background="@drawable/bricks_juben_shop_banner_title_tip_bg" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="15.0dip" android:layout_marginRight="25.0dip" android:layout_marginBottom="6.0dip" android:layout_alignBottom="@id/common_top_banner_container" android:layout_alignParentRight="true">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginRight="1.5dip" android:src="@drawable/bricks_icon_img_tag" android:scaleType="centerCrop" />
+        <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/common_img_count_info_title" android:layout_width="wrap_content" android:layout_height="15.0dip" android:layout_marginRight="1.5dip" android:includeFontPadding="false" />
+    </LinearLayout>
+</RelativeLayout>

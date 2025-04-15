@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff2f3f4" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/mine_setting_title_layout" layout="@layout/mine_title_header" />
+    <ScrollView android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:background="#fff2f3f4" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_push" android:background="@drawable/menu_select_bg" android:layout_width="fill_parent" android:layout_height="55.0dip">
+                <TextView android:textSize="12.0dip" android:textColor="@color/color_333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:text="@string/mine_setting_push_notification_tips" android:layout_weight="1.0" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/color_AAAAAA" android:id="@id/mine_tv_push_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:text="@string/mine_setting_push_status_open" />
+            </LinearLayout>
+            <TextView android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_AAAAAA" android:id="@id/mine_tv_push_content" android:background="#fff2f3f4" android:paddingLeft="16.0dip" android:paddingTop="@dimen/margin_12dp" android:paddingRight="10.0dip" android:paddingBottom="@dimen/margin_18dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mine_setting_push_content_tip" />
+            <TextView android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/rl_recommend_switch" android:background="@drawable/menu_select_bg" android:layout_width="fill_parent" android:layout_height="55.0dip">
+                <TextView android:textSize="12.0dip" android:textColor="@color/color_333333" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="接收营销短信" android:layout_weight="1.0" />
+                <cn.damai.uikit.switchbutton.SwitchButton android:id="@id/rl_sms_switch_btn" android:layout_width="43.0dip" android:layout_height="26.0dip" android:layout_marginRight="16.0dip" android:checked="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:kswBackColor="@drawable/bg_setting_recommend_switch_btn" app:kswThumbColor="@color/color_ffffff" app:kswThumbHeight="25.0dip" app:kswThumbWidth="25.0dip" />
+            </LinearLayout>
+            <TextView android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_AAAAAA" android:id="@id/mine_tv_sms_content" android:background="#fff2f3f4" android:paddingLeft="16.0dip" android:paddingTop="@dimen/margin_12dp" android:paddingRight="10.0dip" android:paddingBottom="@dimen/margin_18dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mine_setting_sms_content_tip" android:lineSpacingExtra="4.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

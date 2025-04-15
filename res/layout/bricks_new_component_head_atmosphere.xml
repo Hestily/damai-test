@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.bricks.view.BricksHWRatioLayout android:layout_gravity="bottom" android:id="@id/bricks_head_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:bricks_h_w_layout_ratio="0.53333336">
+        <ImageView android:id="@id/bricks_head_atmosphere_pic" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <com.alibaba.pictures.bricks.view.SafeLottieAnimationView android:id="@id/bricks_head_atmosphere_lottie" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:lottie_autoPlay="true" app:lottie_loop="true" />
+    </com.alibaba.pictures.bricks.view.BricksHWRatioLayout>
+    <View android:id="@id/bricks_head_atmosphere_click_area" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

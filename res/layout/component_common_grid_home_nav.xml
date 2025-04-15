@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.pictures.bricks.view.AttachFrameLayout android:paddingTop="@dimen/resource_size_9" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@drawable/bg_component_corner_card" android:paddingTop="@dimen/resource_size_5" android:paddingBottom="@dimen/resource_size_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/grid_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+    </FrameLayout>
+</com.alibaba.pictures.bricks.view.AttachFrameLayout>

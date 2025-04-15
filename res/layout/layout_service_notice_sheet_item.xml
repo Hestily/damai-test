@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/sheet_container" android:background="@drawable/service_notice_dialog_bg" android:paddingLeft="12.0dip" android:paddingTop="@dimen/margin_12dp" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="15.0dip" android:textColor="@color/color_2E333E" android:gravity="center_vertical" android:id="@id/sheet_title" android:background="@drawable/service_notice_dialog_title_bg" android:layout_width="fill_parent" android:layout_height="36.0dip" android:paddingStart="12.0dip" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/sheet_content" android:background="@drawable/service_notice_dialog_content_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/last_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="30.0dip" />
+</LinearLayout>

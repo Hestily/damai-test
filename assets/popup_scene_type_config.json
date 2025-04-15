@@ -1,0 +1,9 @@
+{
+  "sceneTypes": [
+    "MainActivity"
+  ],
+  "localPopupPages": [
+    "MainActivity",
+    "SplashMainActivity"
+  ]
+}

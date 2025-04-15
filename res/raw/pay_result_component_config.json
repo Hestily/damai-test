@@ -1,0 +1,140 @@
+{
+  "components": [
+    {
+      "type": 9999,
+      "tag": "common_header",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+          "marginTop": "resource_size_9",
+          "marginLeft": "resource_size_9",
+          "marginRight": "resource_size_9"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 9999,
+          "layoutID": "component_pay_result_header",
+          "model": "com.alient.onearch.adapter.component.header.GenericHeaderModel",
+          "present": "com.alient.onearch.adapter.component.header.GenericHeaderPresent",
+          "view": "com.alient.onearch.adapter.component.header.GenericHeaderView"
+        }
+      ]
+    },
+    {
+      "type": 7638,
+      "layout": {
+        "layoutType": "single",
+        "params": {
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7640,
+          "layoutID": "component_pay_result_ticket_area",
+          "model": "com.alibaba.pictures.bricks.component.order.ticketarea.TicketAreaModel",
+          "present": "com.alibaba.pictures.bricks.component.order.ticketarea.TicketAreaPresent",
+          "view": "com.alibaba.pictures.bricks.component.order.ticketarea.TicketAreaView",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.component.order.ticketarea.TicketAreaBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7639,
+      "tag": "积分权益模块",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+          "marginTop": "resource_size_16",
+          "marginLeft": "resource_size_9",
+          "marginRight": "resource_size_9"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7641,
+          "layoutID": "pay_result_score_and_rights_view",
+          "viewHolder": "cn.damai.ultron.payresult.v2.component.score.PayResultScoreAndRightsViewHolder",
+          "params": {
+            "bean": "cn.damai.ultron.payresult.v2.component.score.model.PayResultScoreAndRightsModel"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7640,
+      "layout": {
+        "layoutType": "single",
+        "params": {
+          "marginTop": "resource_size_16",
+          "marginLeft": "resource_size_9",
+          "marginRight": "resource_size_9"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7642,
+          "layoutID": "component_payresult_banner_layout",
+          "model": "cn.damai.ultron.payresult.v2.component.banner.BannerModel",
+          "present": "cn.damai.ultron.payresult.v2.component.banner.BannerPresenter",
+          "view": "cn.damai.ultron.payresult.v2.component.banner.BannerView",
+          "params": {
+            "bean": "cn.damai.ultron.payresult.v2.component.banner.BannerBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7641,
+      "layout": {
+        "layoutType": "linear",
+        "params": {
+          "dividerHeight": "resource_size_9",
+          "marginTop": "resource_size_16",
+          "marginLeft": "resource_size_9",
+          "marginRight": "resource_size_9"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7643,
+          "layoutID": "component_payresult_brand_layout",
+          "model": "cn.damai.ultron.payresult.v2.component.brand.BrandModel",
+          "present": "cn.damai.ultron.payresult.v2.component.brand.BrandPresenter",
+          "view": "cn.damai.ultron.payresult.v2.component.brand.BrandView",
+          "params": {
+            "bean": "cn.damai.ultron.payresult.v2.component.brand.BrandBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7588,
+      "tag": "project_list",
+      "layout": {
+        "layoutType": "linear",
+        "params": {
+          "marginTop": "resource_size_9",
+          "dividerHeight": "resource_size_9",
+          "marginLeft": "resource_size_9",
+          "marginRight": "resource_size_9"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7587,
+          "model": "com.alibaba.pictures.bricks.component.project.DMProjectModel",
+          "present": "com.alibaba.pictures.bricks.component.project.DMProjectPresent",
+          "view": "com.alibaba.pictures.bricks.component.project.DMProjectView",
+          "layoutID": "bricks_item_dm_project",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.component.project.bean.DMProjectItemBean"
+          }
+        }
+      ]
+    }
+  ]
+}
+

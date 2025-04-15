@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/emptydata_container" android:background="@color/white" android:paddingTop="@dimen/margin_16" android:paddingBottom="@dimen/margin_16" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/margin_5" android:layout_marginBottom="@dimen/margin_20">
+        <TextView android:textColor="@color/common_text_color11" android:id="@id/item_empty_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/commonui_nodata" />
+        <Button android:id="@id/item_empty_btn" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginTop="@dimen/margin_5" android:text="@string/commonui_refresh" style="@style/statemanager_button_style" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.baseview.RCFrameLayoutLayoutView android:id="@id/layout_header" android:layout_width="fill_parent" android:layout_height="188.0dip" android:layout_marginLeft="21.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="21.0dip" app:round_corner="12.0dip">
+        <cn.damai.uikit.banner.Banner android:id="@id/banner" android:layout_width="fill_parent" android:layout_height="fill_parent" app:scroll_time="2000" />
+        <View android:layout_gravity="bottom" android:id="@id/view_bg" android:background="@drawable/live_header_black_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <cn.damai.uikit.scrollsky.SendYouToTheSkyView android:id="@id/sky_view" android:layout_width="fill_parent" android:layout_height="62.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="65.0dip" android:layout_marginRight="15.0dip" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/white" android:ellipsize="end" android:layout_gravity="bottom" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="32.0dip" android:singleLine="true" android:drawableLeft="@drawable/live_white_tv_tag" android:drawablePadding="5.0dip" />
+        <TextView android:textSize="10.0dip" android:textColor="#99ffffff" android:ellipsize="end" android:layout_gravity="bottom" android:id="@id/tv_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="15.0dip" android:singleLine="true" />
+    </cn.damai.baseview.RCFrameLayoutLayoutView>
+</FrameLayout>

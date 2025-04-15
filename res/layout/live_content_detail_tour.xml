@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.uikit.shadowlayout.DMShadowLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="9.0dip" android:layout_marginBottom="3.0dip" app:sl_cornerRadius="12.0dip" app:sl_dx="0.0dip" app:sl_dy="3.0dip" app:sl_shadowColor="#266a7a99" app:sl_shadowRadius="12.0dip">
+        <cn.damai.discover.content.view.DMTourView android:id="@id/live_content_detail_tour" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </cn.damai.uikit.shadowlayout.DMShadowLayout>
+</FrameLayout>

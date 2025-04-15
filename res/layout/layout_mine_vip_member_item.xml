@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.uikit.view.RoundImageView android:layout_gravity="center_vertical" android:id="@id/iv_vip_profit_icon" android:layout_width="42.0dip" android:layout_height="42.0dip" android:src="@drawable/uikit_default_image_bg_gradient" android:scaleType="centerCrop" app:borderRadius="@dimen/margin_9dp" app:type="round" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_9dp" android:layout_marginRight="@dimen/margin_9dp" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/margin_13dp" android:textColor="#ff742626" android:ellipsize="end" android:id="@id/iv_vip_profit_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+        <TextView android:textSize="@dimen/margin_12dp" android:textColor="#99874334" android:ellipsize="end" android:id="@id/iv_vip_profit_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+    <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="@dimen/margin_12dp" android:textColor="#ff742626" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/iv_vip_profit_see" android:paddingLeft="@dimen/margin_15dp" android:paddingRight="@dimen/margin_15dp" android:layout_width="wrap_content" android:layout_height="@dimen/margin_27dp" android:includeFontPadding="false" />
+</LinearLayout>

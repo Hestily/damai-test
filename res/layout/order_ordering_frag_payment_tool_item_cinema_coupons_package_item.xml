@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_coupon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/padding_12" android:paddingEnd="@dimen/padding_12"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_13_dp" android:textColor="@color/bricks_2e333e" android:ellipsize="middle" android:id="@id/tv_coupon_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_12" android:singleLine="true" android:includeFontPadding="false" android:layout_marginEnd="@dimen/margin_6" android:layout_toStartOf="@id/tv_coupon_tips" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_coupon_detail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_7" android:layout_below="@id/tv_coupon_name" android:layout_marginEnd="@dimen/margin_6" android:layout_toStartOf="@id/ll_coupon_price">
+        <TextView android:textSize="@dimen/text_size_12_dp" android:textColor="@color/bricks_959AA5" android:id="@id/tv_coupon_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+        <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="@dimen/text_size_12_dp" android:textColor="@color/tpp_gray_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_2" android:text="@string/icon_font_arrow_right" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/ll_coupon_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_7" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true">
+        <TextView android:textSize="@dimen/text_size_12_dp" android:textColor="@color/tpp_gray_3" android:id="@id/tv_coupon_origin_price" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/ll_price" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-2.0dip">
+            <TextView android:id="@id/tv_price_prefix" android:text="¥" style="@style/ordering_item_price_prefix_tv_style" />
+            <TextView android:textSize="@dimen/text_size_18_dp" android:id="@id/tv_price" style="@style/ordering_item_price_tv_style" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_size_12_dp" android:textColor="@color/color_FF335C" android:id="@id/tv_renewal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="续卡" android:layout_marginStart="@dimen/margin_2dp" />
+        <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="@dimen/text_size_17_dp" android:textColor="@color/tpp_gray_3" android:id="@id/tv_coupon_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/icon_font_no_selected" android:includeFontPadding="false" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/text_size_9_dp" android:textColor="@color/white" android:id="@id/tv_coupon_tips" android:background="@drawable/cinema_coupon_package_tip_bg" android:paddingLeft="4.0dip" android:paddingTop="1.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_above="@id/ll_coupon_price" android:layout_alignParentEnd="true" />
+</RelativeLayout>

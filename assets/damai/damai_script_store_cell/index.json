@@ -1,0 +1,84 @@
+{
+  "id": "damai_script_store_cell",
+  "type": "gaia-template",
+  "package": {
+    "id": "damai_script_store_cell",
+    "version": "0.0.1",
+    "modify-timestamp": "Mon Sep 19 2022 09:50:02 GMT+0800 (中国标准时间)",
+    "dependencies": {}
+  },
+  "layers": [
+    {
+      "id": "store_cell_bg",
+      "type": "view",
+      "layers": [
+        { "id": "store_image", "type": "image" },
+        {
+          "id": "content_info_view",
+          "type": "view",
+          "layers": [
+            { "id": "store_title", "type": "text" },
+            {
+              "id": "score_and_distance",
+              "type": "view",
+              "layers": [
+                {
+                  "id": "star_info_holder",
+                  "type": "view",
+                  "layers": [
+                    {
+                      "id": "star_holder_1",
+                      "type": "view",
+                      "layers": [{ "id": "star_1", "type": "image" }]
+                    },
+                    {
+                      "id": "star_holder_2",
+                      "type": "view",
+                      "layers": [{ "id": "star_2", "type": "image" }]
+                    },
+                    {
+                      "id": "star_holder_3",
+                      "type": "view",
+                      "layers": [{ "id": "star_3", "type": "image" }]
+                    },
+                    {
+                      "id": "star_holder_4",
+                      "type": "view",
+                      "layers": [{ "id": "star_4", "type": "image" }]
+                    },
+                    {
+                      "id": "star_holder_5",
+                      "type": "view",
+                      "layers": [{ "id": "star_5", "type": "image" }]
+                    }
+                  ]
+                },
+                { "id": "score_num", "type": "text" },
+                {
+                  "id": "line_container",
+                  "type": "view",
+                  "layers": [{ "id": "score_dis_spe_line", "type": "text" }]
+                },
+                { "id": "store_distance", "type": "text" }
+              ]
+            },
+            {
+              "id": "store_price_view",
+              "type": "view",
+              "layers": [
+                { "id": "rmb_text", "type": "text" },
+                { "id": "store_price_text", "type": "text" },
+                { "id": "store_price_unit", "type": "text" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "buy_btn",
+          "type": "view",
+          "layers": [{ "id": "buy_text", "type": "text" }]
+        }
+      ]
+    }
+  ]
+}

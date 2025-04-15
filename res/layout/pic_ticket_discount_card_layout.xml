@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/ticket_dicount_profit_card_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_6dp" android:layout_marginRight="@dimen/margin_6dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.commonbusiness.seatbiz.promotion.DiscountPriceView android:gravity="center" android:orientation="vertical" android:id="@id/discount_price_desc" android:layout_width="75.0dip" android:layout_height="83.0dip" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingTop="@dimen/margin_8dp" android:paddingBottom="@dimen/margin_8dp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/margin_15dp" android:textColor="#ff2e333e" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+        <TextView android:textSize="@dimen/margin_12dp" android:textColor="#ff959aa5" android:ellipsize="end" android:id="@id/tv_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="2" />
+    </LinearLayout>
+    <TextView android:textSize="12.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/btn_integral_convert" android:background="@drawable/bg_border_corner_red_24" android:paddingLeft="@dimen/dis_13dp" android:paddingRight="@dimen/dis_13dp" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="12.0dip" android:text="领取" />
+    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="45.0dip" android:textColor="#ffced1d6" android:id="@id/iv_convert_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="12.0dip" android:text="@string/iconfont_yilingqu" />
+</LinearLayout>

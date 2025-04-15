@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/tpp_gray_6" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/statemanager_view_style">
+        <com.alibaba.pictures.moimage.MoImageView android:id="@id/statemanager_img" android:layout_width="160.0dip" android:layout_height="wrap_content" />
+        <TextView android:id="@id/statemanager_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" android:textAlignment="center" style="@style/statemanager_hint_style" />
+        <TextView android:id="@id/statemanager_subhint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:textAlignment="center" style="@style/statemanager_subhint_style" />
+        <Button android:textSize="15.0dip" android:textColor="@color/common_color_1008" android:id="@id/refresh_button" android:background="@drawable/statemanager_error_empty_btn" android:layout_width="100.0dip" android:layout_height="30.0dip" android:layout_marginTop="21.0dip" android:text="@string/commonui_refresh" />
+    </LinearLayout>
+</RelativeLayout>

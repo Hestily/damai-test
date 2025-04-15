@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/block_coupon_select_area" android:clickable="true" android:layout_width="fill_parent" android:layout_height="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_12_dp" android:gravity="left" android:id="@id/ordering_vip_reduce_title" android:layout_width="wrap_content" android:text="@string/ordering_selector_block_vip_reduce_title" android:includeFontPadding="false" android:layout_weight="0.0" style="@style/CommonListItemOrderTitle" />
+    <com.alibaba.pictures.moimage.MoImageView android:layout_gravity="center_vertical" android:id="@id/img_vip" android:layout_width="wrap_content" android:layout_height="15.0dip" android:layout_marginStart="@dimen/margin_4" />
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <TextView android:id="@id/ordering_vip_subtitle" style="@style/ordering_item_subtitle_tv_style" />
+    <TextView android:id="@id/ordering_vip_reduce_des" style="@style/ordering_item_subtitle_tv_style" />
+    <com.taobao.movie.android.commonui.widget.IconFontTextView android:id="@id/block_coupon_select_arrow" android:text="@string/icon_font_right_small" style="@style/ordering_item_arrow_style" />
+</LinearLayout>

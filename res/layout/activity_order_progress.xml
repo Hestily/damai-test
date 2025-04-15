@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_project_mohu_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/order_detail_head_title" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_progress_root" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/activity_order_progress_head" />
+            <cn.damai.uikit.irecycler.IRecyclerView android:id="@id/recycler" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

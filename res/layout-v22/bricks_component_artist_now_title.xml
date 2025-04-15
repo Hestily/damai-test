@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="54.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="@dimen/margin_12dp">
+        <View android:background="#66ced1d6" android:layout_width="1.5dip" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        <View android:background="@drawable/bricks_artist_history_year_prefix" android:layout_width="@dimen/margin_14dp" android:layout_height="@dimen/resource_size_14" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="24.0dip" android:textStyle="bold" android:textColor="#ff2e333e" android:id="@id/artist_now_big_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dim_4" android:layout_marginRight="@dimen/dim_4" android:includeFontPadding="false" android:layout_marginHorizontal="@dimen/dim_4" />
+        <TextView android:textSize="13.0dip" android:textColor="#ff5f6672" android:ellipsize="end" android:id="@id/artist_now_subtitle_tv" android:paddingBottom="@dimen/dim_6" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dim_4" android:layout_marginRight="@dimen/dim_4" android:maxLines="1" android:includeFontPadding="false" android:layout_weight="1.0" android:layout_marginHorizontal="@dimen/dim_4" />
+        <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="12.0dip" android:textColor="#999c9fa6" android:id="@id/artist_future_want_count_desc_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_tixing16" />
+        <TextView android:textSize="10.0dip" android:textColor="#999c9fa6" android:ellipsize="end" android:id="@id/count_data_desc" android:paddingBottom="@dimen/dim_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dim_4" android:layout_marginRight="@dimen/dim_4" android:text="数据说明" android:maxLines="1" android:includeFontPadding="false" android:layout_marginHorizontal="@dimen/dim_4" />
+    </LinearLayout>
+</LinearLayout>

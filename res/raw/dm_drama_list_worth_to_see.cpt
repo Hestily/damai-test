@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.drama.mvp.DramaWorthSeeModel",
+    "vClass": "cn.damai.tetris.component.drama.mvp.DramaWorthSeeView",
+    "pClass": "cn.damai.tetris.component.drama.mvp.DramaWorthSeePresenter",
+    "layoutXml": "item_tetris_drama_worth_2_see"
+  }
+}

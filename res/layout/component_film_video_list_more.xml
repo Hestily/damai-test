@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/film_video_list_more_bg" android:layout_width="100.0dip" android:layout_height="120.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_Subhead2_R" android:textColor="@color/cg_3" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <View android:id="@id/divider" android:background="@color/cg_5" android:layout_width="45.0dip" android:layout_height="@dimen/space_line_height" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" />
+    <TextView android:textSize="@dimen/font_Subhead2_R" android:textColor="@color/cg_3" android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

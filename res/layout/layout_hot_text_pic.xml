@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.damai.uikit.shadowlayout.DMShadowLayout android:layout_width="wrap_content" android:layout_height="wrap_content" app:sl_backgroundColor="#ffffffff" app:sl_cornerRadius="6.0dip" app:sl_dy="3.0dip" app:sl_shadowColor="#266a7a99" app:sl_shadowRadius="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/bg_border_corner_stroke_1_radius_6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginTop="@dimen/margin_12dp" android:layout_marginBottom="@dimen/margin_6dp">
+            <cn.damai.baseview.RCRelativeLayoutView android:layout_width="fill_parent" android:layout_height="fill_parent" app:round_as_circle="true" app:stroke_color="#1a000000" app:stroke_width="1.0px">
+                <ImageView android:id="@id/iv_pic" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            </cn.damai.baseview.RCRelativeLayoutView>
+            <ImageView android:textSize="12.0dip" android:textColor="@color/white" android:gravity="center" android:layout_gravity="bottom|center|left" android:id="@id/iv_number" android:layout_width="@dimen/margin_16dp" android:layout_height="@dimen/margin_16dp" />
+        </FrameLayout>
+        <TextView android:textSize="14.0dip" android:textColor="@color/black" android:ellipsize="end" android:gravity="center" android:id="@id/tv_keyname" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_12dp" android:singleLine="true" />
+    </LinearLayout>
+</cn.damai.uikit.shadowlayout.DMShadowLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.moimage.MoImageView android:id="@id/img_photo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" app:failureImage="@drawable/bricks_venue_album_item_error" app:failureImageScaleType="centerCrop" app:placeholderImage="@drawable/bricks_venue_album_item_error" app:placeholderImageScaleType="centerCrop" app:roundedCornerRadius="6.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_video" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="@dimen/resource_size_22" android:textColor="@color/white" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/play" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_bofang22" />
+        <TextView android:textSize="@dimen/resource_size_11" android:textColor="@color/white" android:id="@id/tv_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

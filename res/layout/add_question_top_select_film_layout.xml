@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/add_question_choose_film_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip">
+        <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="18.0dip" android:textColor="#ff349cec" android:id="@id/add_relative_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconf_film_add_icon" />
+        <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="#ff349cec" android:id="@id/add_relative_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="添加相关影片" />
+        <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="12.0dip" android:textColor="#ff349cec" android:id="@id/add_relative_icon2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_font_right_small" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/add_question_film_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/has_select_film_layout" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="90.0dip" android:layout_centerVertical="true">
+        <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="12.0dip" android:textColor="#ff349cec" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/icon_font_film_icon" />
+        <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="#ff349cec" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_tips_title" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="12.0dip" android:maxLines="1" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/reselect_film_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true">
+        <TextView android:textSize="13.0dip" android:textColor="@color/color_tpp_primary_assist" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="重新选择" />
+        <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_assist" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.5dip" android:text="@string/icon_font_right_small" />
+    </LinearLayout>
+    <View android:background="@color/tpp_gray_6" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.taobao.movie.android.commonui.widget.ScheduleExpandableTextView android:orientation="vertical" android:id="@id/cinema_tip_intro_content" android:paddingLeft="12.0dip" android:paddingTop="6.0dip" android:paddingRight="12.0dip" android:paddingBottom="6.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:exp_textSize="12.0dip" app:maxCollapsedLines="2" />
+</merge>

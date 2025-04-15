@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fl_order_detail" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_order_detail_root" android:background="#ffde3f64" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/order_detail_head_title" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_error_page" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <cn.damai.trade.newtradeorder.ui.orderdetail.ui.view.LinearPullToRefreshView android:orientation="vertical" android:id="@id/lin_refresh_layout" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto">
+                <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar_layout" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stateListAnimator="@drawable/order_detail_appbar_ele">
+                        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="0.0dip" app:collapsedTitleGravity="center" app:layout_scrollFlags="scroll|exitUntilCollapsed">
+                            <include android:id="@id/head_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_collapseMode="parallax" layout="@layout/layout_order_detail_state" />
+                        </com.google.android.material.appbar.CollapsingToolbarLayout>
+                    </com.google.android.material.appbar.AppBarLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+                        <androidx.recyclerview.widget.RecyclerView android:id="@id/irc" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                        <View android:id="@id/bottom_line" android:background="@color/color_eeeeee" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                        <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:id="@id/ll_button_container" android:background="@color/color_white" android:paddingRight="@dimen/margin_15dp" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/margin_50dp" />
+                    </LinearLayout>
+                </androidx.coordinatorlayout.widget.CoordinatorLayout>
+            </cn.damai.trade.newtradeorder.ui.orderdetail.ui.view.LinearPullToRefreshView>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/trade_project_detail_popup_layer_container_flv" android:background="#99000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center|right" android:orientation="vertical" android:id="@id/trade_detail_ll_pop" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginRight="@dimen/margin_15dp">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginRight="35.0dip" android:src="@drawable/dm_refund_up_arrow" />
+        <TextView android:textSize="11.0dip" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/trade_detail_pop_tip_content" android:background="@drawable/trade_shape_676767_bg" android:paddingLeft="@dimen/margin_9dp" android:paddingTop="@dimen/margin_4dp" android:paddingRight="@dimen/margin_9dp" android:paddingBottom="@dimen/margin_4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginRight="@dimen/margin_15dp" />
+    </LinearLayout>
+</FrameLayout>

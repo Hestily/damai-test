@@ -1,0 +1,1620 @@
+{
+  "api": "mtop.damai.mec.aristotle.get",
+  "data": {
+    "data": {
+      "top": {
+        "artistInfoList": [
+          {
+            "ipId": "123",
+            "artistName": "张杰",
+            "cityCodeList": "852,872"
+          },
+          {
+            "ipId": "124",
+            "artistName": "薛之谦",
+            "cityCodeList": "892,882"
+          },
+          {
+            "ipId": "127",
+            "artistName": "凤凰传奇",
+            "cityCodeList": "892,882"
+          },
+          {
+            "ipId": "125",
+            "artistName": "蔡依林",
+            "cityCodeList": "892,882"
+          },
+          {
+            "ipId": "126",
+            "artistName": "周杰伦",
+            "cityCodeList": "892,882"
+          },
+          {
+            "ipId": "127",
+            "artistName": "林俊杰",
+            "cityCodeList": "892,882"
+          },
+          {
+            "ipId": "127",
+            "artistName": "张学友",
+            "cityCodeList": "892,882"
+          },
+          {
+            "ipId": "127",
+            "artistName": "刘德华",
+            "cityCodeList": "892,882"
+          }
+        ],
+        "layerId": "76dcad96-b143-4039-863d-1ae3c265b782",
+        "keywords": [
+          {
+            "comboDispatchId": "613889",
+            "idx": "1",
+            "keyword": "抽周杰伦",
+            "comboDispatchSystem": "om"
+          },
+          {
+            "keyword": "许嵩",
+            "alg": "{\"alginfo\":\"-1rcTrigType-2CITY2QUERY-1rkScore-28.278174-1rcSourceType-2city2query-1rcRecQuery-2许嵩-1recallTrigLen-20.00-1abId-2237526-1pn-21-1sceneId-214177-1rcQCate-2C2Q-1show_id-20-1rcQSim-28.27817-1rcType-2CITY2QUERY-1rcQuery-2852-1rcTrig-2+1\",\"recext\":\"reqid=525afcf9-8479-4e03-923d-1ff7fb1fb050\",\"sam\":\"1007.24177.0.237526\"}"
+          },
+          {
+            "keyword": "陈奕迅",
+            "alg": "{\"alginfo\":\"-1rcTrigType-2CITY2QUERY-1rkScore-27.929126-1rcSourceType-2city2query-1rcRecQuery-2陈奕迅-1recallTrigLen-20.00-1abId-2237526-1pn-21-1sceneId-214177-1rcQCate-2C2Q-1show_id-20-1rcQSim-27.92913-1rcType-2CITY2QUERY-1rcQuery-2852-1rcTrig-2+1\",\"recext\":\"reqid=525afcf9-8479-4e03-923d-1ff7fb1fb050\",\"sam\":\"1007.24177.0.237526\"}"
+          },
+          {
+            "keyword": "凤凰传奇",
+            "alg": "{\"alginfo\":\"-1rcTrigType-2CITY2QUERY-1rkScore-27.886081-1rcSourceType-2city2query-1rcRecQuery-2凤凰传奇-1recallTrigLen-20.00-1abId-2237526-1pn-21-1sceneId-214177-1rcQCate-2C2Q-1show_id-20-1rcQSim-27.88608-1rcType-2CITY2QUERY-1rcQuery-2852-1rcTrig-2+1\",\"recext\":\"reqid=525afcf9-8479-4e03-923d-1ff7fb1fb050\",\"sam\":\"1007.24177.0.237526\"}"
+          },
+          {
+            "keyword": "张杰",
+            "alg": "{\"alginfo\":\"-1rcTrigType-2CITY2QUERY-1rkScore-27.625595-1rcSourceType-2city2query-1rcRecQuery-2张杰-1recallTrigLen-20.00-1abId-2237526-1pn-21-1sceneId-214177-1rcQCate-2C2Q-1show_id-20-1rcQSim-27.62560-1rcType-2CITY2QUERY-1rcQuery-2852-1rcTrig-2+1\",\"recext\":\"reqid=525afcf9-8479-4e03-923d-1ff7fb1fb050\",\"sam\":\"1007.24177.0.237526\"}"
+          },
+          {
+            "keyword": "陶喆",
+            "alg": "{\"alginfo\":\"-1rcTrigType-2CITY2QUERY-1rkScore-27.30586-1rcSourceType-2city2query-1rcRecQuery-2陶喆-1recallTrigLen-20.00-1abId-2237526-1pn-21-1sceneId-214177-1rcQCate-2C2Q-1show_id-20-1rcQSim-27.30586-1rcType-2CITY2QUERY-1rcQuery-2852-1rcTrig-2+1\",\"recext\":\"reqid=525afcf9-8479-4e03-923d-1ff7fb1fb050\",\"sam\":\"1007.24177.0.237526\"}"
+          },
+          {
+            "keyword": "陈楚生",
+            "alg": "{\"alginfo\":\"-1rcTrigType-2CITY2QUERY-1rkScore-27.244228-1rcSourceType-2city2query-1rcRecQuery-2陈楚生-1recallTrigLen-20.00-1abId-2237526-1pn-21-1sceneId-214177-1rcQCate-2C2Q-1show_id-20-1rcQSim-27.24423-1rcType-2CITY2QUERY-1rcQuery-2852-1rcTrig-2+1\",\"recext\":\"reqid=525afcf9-8479-4e03-923d-1ff7fb1fb050\",\"sam\":\"1007.24177.0.237526\"}"
+          },
+          {
+            "keyword": "德云社",
+            "alg": "{\"alginfo\":\"-1rcTrigType-2CITY2QUERY-1rkScore-26.880384-1rcSourceType-2city2query-1rcRecQuery-2德云社-1recallTrigLen-20.00-1abId-2237526-1pn-21-1sceneId-214177-1rcQCate-2C2Q-1show_id-20-1rcQSim-26.88038-1rcType-2CITY2QUERY-1rcQuery-2852-1rcTrig-2+1\",\"recext\":\"reqid=525afcf9-8479-4e03-923d-1ff7fb1fb050\",\"sam\":\"1007.24177.0.237526\"}"
+          },
+          {
+            "keyword": "五月天",
+            "alg": "{\"alginfo\":\"-1rcTrigType-2CITY2QUERY-1rkScore-26.828712-1rcSourceType-2city2query-1rcRecQuery-2五月天-1recallTrigLen-20.00-1abId-2237526-1pn-21-1sceneId-214177-1rcQCate-2C2Q-1show_id-20-1rcQSim-26.82871-1rcType-2CITY2QUERY-1rcQuery-2852-1rcTrig-2+1\",\"recext\":\"reqid=525afcf9-8479-4e03-923d-1ff7fb1fb050\",\"sam\":\"1007.24177.0.237526\"}"
+          },
+          {
+            "keyword": "苏打绿",
+            "alg": "{\"alginfo\":\"-1rcTrigType-2CITY2QUERY-1rkScore-26.746412-1rcSourceType-2city2query-1rcRecQuery-2苏打绿-1recallTrigLen-20.00-1abId-2237526-1pn-21-1sceneId-214177-1rcQCate-2C2Q-1show_id-20-1rcQSim-26.74641-1rcType-2CITY2QUERY-1rcQuery-2852-1rcTrig-2+1\",\"recext\":\"reqid=525afcf9-8479-4e03-923d-1ff7fb1fb050\",\"sam\":\"1007.24177.0.237526\"}"
+          },
+          {
+            "keyword": "刘德华",
+            "alg": "{\"alginfo\":\"-1rcTrigType-2CITY2QUERY-1rkScore-26.51323-1rcSourceType-2city2query-1rcRecQuery-2刘德华-1recallTrigLen-20.00-1abId-2237526-1pn-21-1sceneId-214177-1rcQCate-2C2Q-1show_id-20-1rcQSim-26.51323-1rcType-2CITY2QUERY-1rcQuery-2852-1rcTrig-2+1\",\"recext\":\"reqid=525afcf9-8479-4e03-923d-1ff7fb1fb050\",\"sam\":\"1007.24177.0.237526\"}"
+          }
+        ],
+        "action": {
+          "searchtext": {
+            "trackInfo": {
+              "spmd": "searchtext"
+            }
+          },
+          "license": {
+            "actionType": "2",
+            "trackInfo": {
+              "spmd": "license"
+            },
+            "actionUrl": "https://p.damai.cn/wow/act/act/license"
+          },
+          "search": {
+            "trackInfo": {
+              "spmd": "search"
+            }
+          },
+          "item": {
+            "trackInfo": {
+              "spmc": "top"
+            }
+          },
+          "city": {
+            "trackInfo": {
+              "spmd": "city"
+            }
+          },
+          "scan": {
+            "trackInfo": {
+              "spmd": "scan"
+            }
+          },
+          "message": {
+            "trackInfo": {
+              "spmd": "message"
+            }
+          }
+        },
+        "sectionId": "5c4fa2f2-9c09-45ec-8c56-332876868999"
+      },
+      "spmab": "a2o4t.home",
+      "serverTime": "1713345132375",
+      "pageName": "home"
+    },
+    "level": "0",
+    "more": "false",
+    "nodes": [
+      {
+        "data": {
+          "nodeId": "4f67b502-e8af-43c8-a6b4-b6f828908ea0"
+        },
+        "level": "1",
+        "more": "false",
+        "nodes": [
+          {
+            "data": {
+              "componentId": "ip_remind_statistics",
+              "isFilterEmpty": "false",
+              "nodeId": "f9ab4f2f-506e-4af4-87bb-70519a526c7f"
+            },
+            "level": "2",
+            "type": "7663",
+            "more": "false",
+            "nodes": [
+              {
+                "data": {
+                  "type": "1",
+                  "userPicList": [],
+                  "text": "累计x人次已许愿 y人许愿成功"
+                },
+                "level": "3",
+                "type": "7669",
+                "more": "false"
+              },
+              {
+                "data": {
+                  "type": "2",
+                  "userPicList": [
+                    "https://t7.baidu.com/it/u=1595072465,3644073269&fm=193&f=GIF",
+                    "https://t7.baidu.com/it/u=4198287529,2774471735&fm=193&f=GIF",
+                    "https://t7.baidu.com/it/u=1956604245,3662848045&fm=193&f=GIF",
+                    "https://t7.baidu.com/it/u=2529476510,3041785782&fm=193&f=GIF",
+                    "https://t7.baidu.com/it/u=727460147,2222092211&fm=193&f=GIF",
+                    "https://t7.baidu.com/it/u=2511982910,2454873241&fm=193&f=GIF"
+                  ],
+                  "text": "许愿的<b>张杰</b>巡演官宣啦"
+                },
+                "level": "3",
+                "type": "7669",
+                "more": "false"
+              },
+              {
+                "data": {
+                  "type": "2",
+                  "userPicList": [
+                    "https://t7.baidu.com/it/u=4162611394,4275913936&fm=193&f=GIF",
+                    "https://t7.baidu.com/it/u=1951548898,3927145&fm=193&f=GIF",
+                    "https://t7.baidu.com/it/u=1831997705,836992814&fm=193&f=GIF",
+                    "https://t7.baidu.com/it/u=2405382010,1555992666&fm=193&f=GIF",
+                    "https://t7.baidu.com/it/u=2582370511,530426427&fm=193&f=GIF",
+                    "https://t7.baidu.com/it/u=2851687453,2321283050&fm=193&f=GIF",
+                    "https://t7.baidu.com/it/u=3601447414,1764260638&fm=193&f=GIF"
+                  ],
+                  "text": "许愿的<b>张杰111</b>巡演官宣啦"
+                },
+                "level": "3",
+                "type": "7669",
+                "more": "false"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "data": {
+          "nodeId": "d49c76fc-9b7c-496e-8552-026f4e808ac0"
+        },
+        "level": "1",
+        "more": "false",
+        "nodes": [
+          {
+            "data": {
+              "nodeId": "d49c76fc-9b7c-496e-8552-026f4e808ac0"
+            },
+            "level": "2",
+            "type": "7667",
+            "more": "false",
+            "nodes": [
+              {
+                "data": {
+                  "componentId": "dm_live_artist_wish_mustsee_brand",
+                  "isFilterEmpty": "false",
+                  "title": "必看厂牌",
+                  "nodeId": "547a9aea-b454-42ce-844d-3a96ee3fc504"
+                },
+                "more": "false",
+                "level": "2",
+                "type": "7668",
+                "nodes": [
+                  {
+                    "data": {
+                      "brandId": "31",
+                      "backgroundPic": "https://gw.alicdn.com/imgextra/i4/O1CN01CH4Jr21bgIWIQnOpo_!!6000000003494-0-tps-2000-1125.jpg",
+                      "name": "爱乐汇",
+                      "performanceCount": "5",
+                      "price": "50"
+                    },
+                    "level": "3",
+                    "type": "7672",
+                    "more": "false"
+                  },
+                  {
+                    "data": {
+                      "brandId": "32",
+                      "backgroundPic": "https://gw.alicdn.com/imgextra/i4/O1CN01CH4Jr21bgIWIQnOpo_!!6000000003494-0-tps-2000-1125.jpg",
+                      "name": "爱乐汇2",
+                      "performanceCount": "52",
+                      "price": "51"
+                    },
+                    "level": "3",
+                    "type": "7672",
+                    "more": "false"
+                  },
+                  {
+                    "data": {
+                      "brandId": "32",
+                      "backgroundPic": "https://gw.alicdn.com/imgextra/i4/O1CN01CH4Jr21bgIWIQnOpo_!!6000000003494-0-tps-2000-1125.jpg",
+                      "name": "爱乐汇3",
+                      "performanceCount": "52",
+                      "price": "51"
+                    },
+                    "level": "3",
+                    "type": "7672",
+                    "more": "false"
+                  },
+                  {
+                    "data": {
+                      "brandId": "32",
+                      "backgroundPic": "https://gw.alicdn.com/imgextra/i4/O1CN01CH4Jr21bgIWIQnOpo_!!6000000003494-0-tps-2000-1125.jpg",
+                      "name": "爱乐汇4",
+                      "performanceCount": "52",
+                      "price": "51"
+                    },
+                    "level": "3",
+                    "type": "7672",
+                    "more": "false"
+                  },
+                  {
+                    "data": {
+                      "brandId": "32",
+                      "backgroundPic": "https://gw.alicdn.com/imgextra/i4/O1CN01CH4Jr21bgIWIQnOpo_!!6000000003494-0-tps-2000-1125.jpg",
+                      "name": "爱乐汇5",
+                      "performanceCount": "52",
+                      "price": "51"
+                    },
+                    "level": "3",
+                    "type": "7672",
+                    "more": "false"
+                  }
+                ]
+              },
+              {
+                "data": {
+                  "componentId": "dm_live_artist_wish_renowned_venue",
+                  "isFilterEmpty": "false",
+                  "title": "知名场馆",
+                  "nodeId": "07e1e3dd-e03d-4adf-8983-109a73465f7e"
+                },
+                "more": "false",
+                "level": "2",
+                "type": "7669",
+                "nodes": [
+                  {
+                    "data": {
+                      "venueId": "681",
+                      "backgroundPic": "https://img.alicdn.com/imgextra/i4/O1CN01k8cDl81zhicoo0gBI_!!6000000006746-0-tps-1125-1260.jpg",
+                      "name": "会说笑喜剧",
+                      "performanceCount": "11",
+                      "price": "100"
+                    },
+                    "level": "3",
+                    "type": "7673",
+                    "more": "false"
+                  },
+                  {
+                    "data": {
+                      "venueId": "682",
+                      "backgroundPic": "https://img.alicdn.com/imgextra/i4/O1CN01k8cDl81zhicoo0gBI_!!6000000006746-0-tps-1125-1260.jpg",
+                      "name": "会说笑喜剧2",
+                      "performanceCount": "12",
+                      "price": "102"
+                    },
+                    "level": "3",
+                    "type": "7673",
+                    "more": "false"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "data": {
+          "nodeId": "d49c76fc-9b7c-496e-8552-026f4e808ac0"
+        },
+        "level": "1",
+        "more": "false",
+        "nodes": [
+          {
+            "data": {
+              "nodeId": "dfafd1e7-527c-43ea-8c1a-ab2cb946a211",
+              "title": "感受现场",
+              "hiddenTitle": "true"
+            },
+            "level": "2",
+            "more": "false",
+            "nodes": [
+              {
+                "cr": {
+                  "c": {
+                    "7545": {
+                      "item": {
+                        "ack": "schema2",
+                        "act": "1",
+                        "ag": {
+                          "card_type": "${cardType}"
+                        },
+                        "d": "item_"
+                      }
+                    },
+                    "7547": {
+                      "item": {
+                        "ack": "schema2",
+                        "act": "1",
+                        "ag": {
+                          "card_type": "${cardType}",
+                          "scm": "${scm}",
+                          "alg": "${alg}",
+                          "card_id": "${projectId}"
+                        },
+                        "d": "item_"
+                      }
+                    },
+                    "7548": {
+                      "item": {
+                        "ack": "schema2",
+                        "act": "1",
+                        "ag": {
+                          "card_type": "${cardType}",
+                          "alg": "${alg}",
+                          "card_id": "${id}"
+                        },
+                        "d": "item_"
+                      }
+                    },
+                    "7549": {
+                      "item": {
+                        "ack": "schema2",
+                        "act": "1",
+                        "ag": {
+                          "card_type": "${cardType}",
+                          "scm": "${scm}",
+                          "alg": "${alg}",
+                          "card_id": "${id}"
+                        },
+                        "d": "item_"
+                      }
+                    },
+                    "7550": {
+                      "item": {
+                        "ack": "schema2",
+                        "act": "1",
+                        "ag": {
+                          "card_type": "${cardType}",
+                          "scm": "${scm}",
+                          "alg": "${alg}"
+                        },
+                        "d": "item_"
+                      }
+                    },
+                    "7552": {
+                      "item": {
+                        "ack": "schema2",
+                        "act": "1",
+                        "ag": {
+                          "card_type": "${cardType}"
+                        },
+                        "d": "item_"
+                      }
+                    },
+                    "7553": {
+                      "item": {
+                        "ack": "schema2",
+                        "act": "1",
+                        "ag": {
+                          "item_id": "${contentCard.project.id}",
+                          "card_type": "${cardType}",
+                          "scm": "${scm}",
+                          "alg": "${alg}",
+                          "card_id": "${contentCard.id}"
+                        },
+                        "d": "item_"
+                      },
+                      "project": {
+                        "ack": "contentCard.project.schema2",
+                        "act": "1",
+                        "ag": {
+                          "item_id": "${contentCard.project.id}",
+                          "card_type": "${cardType}",
+                          "scm": "${scm}",
+                          "alg": "${alg}",
+                          "card_id": "${projectId}"
+                        },
+                        "d": "item_product_"
+                      }
+                    },
+                    "7554": {
+                      "item": {
+                        "ack": "schema2",
+                        "act": "1",
+                        "ag": {
+                          "card_type": "${cardType}",
+                          "alg": "${alg}",
+                          "card_id": "${themeCard.id}"
+                        },
+                        "d": "item_"
+                      }
+                    },
+                    "7557": {
+                      "item": {
+                        "ack": "schema2",
+                        "act": "1",
+                        "ag": {
+                          "item_id": "${contentCard.project.id}",
+                          "card_type": "${cardType}",
+                          "scm": "${scm}",
+                          "alg": "${alg}",
+                          "card_id": "${contentCard.id}"
+                        },
+                        "d": "item_"
+                      },
+                      "project": {
+                        "ack": "contentCard.project.schema2",
+                        "act": "1",
+                        "ag": {
+                          "item_id": "${contentCard.project.id}",
+                          "card_type": "${cardType}",
+                          "scm": "${scm}",
+                          "alg": "${alg}",
+                          "card_id": "${contentCard.id}"
+                        },
+                        "d": "item_product_"
+                      }
+                    }
+                  }
+                },
+                "data": {
+                  "componentId": "dm_home_feed",
+                  "keywords": [
+                    {
+                      "showIndicator": "false",
+                      "action": {
+                        "trackInfo": {
+                          "args": {}
+                        }
+                      }
+                    }
+                  ],
+                  "action": {
+                    "item": {
+                      "trackInfo": {
+                        "spmc": "feed_recommend"
+                      }
+                    },
+                    "tab": {
+                      "trackInfo": {
+                        "args": {
+                          "titlelabel": "境内"
+                        },
+                        "spmd": "tab_",
+                        "spmc": "bottom"
+                      }
+                    }
+                  },
+                  "isFilterEmpty": "false",
+                  "title": "境内",
+                  "nodeId": "3eb3ffeb-caf2-45ac-a8bb-8ad601e4dfe0"
+                },
+                "level": "2",
+                "more": "true",
+                "nodes": [
+                  {
+                    "data": {
+                      "schema": "https://t.damai.cn/yep/page/m/gjhxzn",
+                      "buttonText": "立即参与",
+                      "buttonColor1": "#ff844b",
+                      "schema2": "https://t.damai.cn/yep/page/m/gjhxzn",
+                      "buttonColor2": "#e44b21",
+                      "cardType": "2",
+                      "pic": "https://img.alicdn.com/imgextra/i2/O1CN01fvhmvU1X0O2n5Idkk_!!6000000002861-0-tps-480-642.jpg",
+                      "textColor": "#ffffff"
+                    },
+                    "level": "3",
+                    "more": "false",
+                    "type": "7545"
+                  },
+                  {
+                    "data": {
+                      "guideCategoryName": "话剧音乐剧",
+                      "schema": "damai://V1/ProjectPage?id=783154232760",
+                      "projectPic": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01cVmOh92GdSaaoYuOy_!!2251059038.jpg",
+                      "rankType": "1",
+                      "cardType": "4",
+                      "title": "话剧热销榜NO.2",
+                      "categoryName": "话剧歌剧",
+                      "guideCategoryId": "3",
+                      "guideSubCategoryId": "0302020500",
+                      "priceLow": "180",
+                      "schema2": "damai://V1/ProjectPage?id=783154232760",
+                      "tagType": "4",
+                      "tag": "新上架",
+                      "projectDatetime": "2024.06.07",
+                      "projectName": "【北京】青春繁花制作·音乐剧《光影少年》",
+                      "alg": "{\"alginfo\":\"-1rcTable-2damai_cate_city_recall_sx_h-1rkBiz-2damai_rank_xdeepctr_mmoe_din_dg_biz-1pn-21-1abId-2294644-1scatterFlag-2true-1rkScore-20.00152-1sceneId-218735\",\"recext\":\"reqid=a2b8f8e2-87d9-4d1d-b0ce-ff70f4bad579#1713340856642\",\"sam\":\"1007.28735.0.294644\"}",
+                      "marketPromotionTags": [],
+                      "projectId": "783154232760",
+                      "guideSubCategoryName": "音乐剧"
+                    },
+                    "level": "3",
+                    "more": "false",
+                    "type": "7547"
+                  },
+                  {
+                    "data": {
+                      "guideCategoryName": "曲苑杂坛",
+                      "schema": "damai://V1/ProjectPage?id=627153795392",
+                      "projectPic": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN0153lrRf2GdSIVFRHrF_!!2251059038.jpg",
+                      "rankType": "2",
+                      "cardType": "4",
+                      "itemStar": "9",
+                      "title": "相声上新榜NO.1",
+                      "categoryName": "曲苑杂坛",
+                      "guideCategoryId": "5",
+                      "itemScore": "9.4",
+                      "guideSubCategoryId": "0302040100",
+                      "priceLow": "150",
+                      "schema2": "damai://V1/ProjectPage?id=627153795392",
+                      "projectDatetime": "2024.04.17",
+                      "projectName": "【北京】德云社相声大会——广德楼戏园",
+                      "alg": "{\"alginfo\":\"-1rcTable-2damai_cate_city_recall_sx_h-1rkBiz-2damai_rank_xdeepctr_mmoe_din_dg_biz-1pn-21-1abId-2294644-1scatterFlag-2true-1rkScore-20.00052-1sceneId-218735\",\"recext\":\"reqid=a2b8f8e2-87d9-4d1d-b0ce-ff70f4bad579#1713340856642\",\"sam\":\"1007.28735.0.294644\"}",
+                      "marketPromotionTags": [],
+                      "projectId": "627153795392",
+                      "guideSubCategoryName": "相声"
+                    },
+                    "level": "3",
+                    "more": "false",
+                    "type": "7547"
+                  },
+                  {
+                    "data": {
+                      "schema": "damai://V1/DiscoverContentDetail?contentId=12661593",
+                      "schema2": "damai://V1/DiscoverContentDetail?contentId=12661593",
+                      "cardType": "14",
+                      "alg": "{\"alginfo\":\"-1rcTable-2damai_antpay_cate_city_recall_dg_h-1sceneId-218735-1pn-21-1abId-2294644\",\"recext\":\"reqid=a2b8f8e2-87d9-4d1d-b0ce-ff70f4bad579#1713340856642\",\"sam\":\"1007.28735.0.294644\"}",
+                      "contentCard": {
+                        "publishUser": {
+                          "publisherId": "3722802089",
+                          "headImg": "http://perico.damai.cn/userheadphotos/825/165116.jpg",
+                          "nickname": "喵星鸢尾",
+                          "performFilmVipDO": {
+                            "memberFlag": "10"
+                          }
+                        },
+                        "cardType": "14",
+                        "referItemId": "729064710246",
+                        "id": "12661593",
+                        "pic": "https://comment-cdn.damai.cn/dynimg/3f213c1b0b944f55aa9f4a0883223316.jpeg",
+                        "title": "",
+                        "type": "1",
+                        "content": "时隔多年再次来到蜂巢剧场，还是当年的样子，孟氏的先锋戏剧风格一如既往，具有探索精神的青年换了一代又一代。\n\n❤️推荐理由\n元宇宙戏剧节的开幕作品，把VR技术和先锋戏剧结合在一起，选择浮士德这个主题十分贴切\n\n🌟剧情亮点\n把歌德笔下的魔鬼一分为二，在开场引导观众了解浮士德的创作背景，并且选择几位观众上台观看十几分钟VR特效，其余观众看大屏幕投影播放的动画，只可惜清晰度不高效果欠佳。戏剧表演的部分以浮士德和玛格丽特的爱情部分为主，肢体表演、偶的使用和戏谑夸张的风格相互融合。\n\n🥳舞台布置\n混乱的舞台，摆放着各种瓶瓶罐罐，仔细看会发现象征生与死的骷髅头和婴儿标本。几段音乐选的都很不错，符合浮士德的癫狂状态。\n\n❣️其他提示\n全剧时长1小时45分钟，结束后可以在检票口对面亲自体验VR特效。",
+                        "isNewContentCard": "true",
+                        "contentLabels": "strategy",
+                        "isFeature": "1"
+                      }
+                    },
+                    "level": "3",
+                    "more": "false",
+                    "type": "7557"
+                  },
+                  {
+                    "data": {
+                      "guideCategoryName": "音乐现场",
+                      "schema": "damai://V1/ProjectPage?id=777894641317",
+                      "projectPic": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01jK4OeE2GdSaFOAoYe_!!2251059038.png",
+                      "rankType": "2",
+                      "cardType": "4",
+                      "title": "Live上新榜NO.1",
+                      "categoryName": "演唱会",
+                      "guideCategoryId": "1",
+                      "guideSubCategoryId": "0301020100",
+                      "priceLow": "165",
+                      "schema2": "damai://V1/ProjectPage?id=777894641317",
+                      "tagType": "4",
+                      "tag": "新上架",
+                      "projectDatetime": "2024.06.08",
+                      "projectName": "【北京】M-LAB呈献｜曹方「春夏碎步走」2024全国巡演·北京站",
+                      "alg": "{\"alginfo\":\"-1rcTable-2damai_cate_city_recall_sx_h-1rkBiz-2damai_rank_xdeepctr_mmoe_din_dg_biz-1pn-21-1abId-2294644-1scatterFlag-2true-1rkScore-20.00045-1sceneId-218735\",\"recext\":\"reqid=a2b8f8e2-87d9-4d1d-b0ce-ff70f4bad579#1713340856642\",\"sam\":\"1007.28735.0.294644\"}",
+                      "marketPromotionTags": [],
+                      "projectId": "777894641317",
+                      "guideSubCategoryName": "Livehouse"
+                    },
+                    "level": "3",
+                    "more": "false",
+                    "type": "7547"
+                  },
+                  {
+                    "data": {
+                      "schema": "damai://V1/DiscoverContentDetail?contentId=14590926",
+                      "schema2": "damai://V1/DiscoverContentDetail?contentId=14590926",
+                      "cardType": "14",
+                      "alg": "{\"alginfo\":\"-1pn-21-1abId-2294644-1sceneId-218735\",\"recext\":\"reqid=a2b8f8e2-87d9-4d1d-b0ce-ff70f4bad579#1713340856642\",\"sam\":\"1007.28735.0.294644\"}",
+                      "contentCard": {
+                        "publishUser": {
+                          "publisherId": "2215516518955",
+                          "headImg": "http://perico.damai.cn/userheadphotosnew/1125743/225148610_1685536739074.jpg",
+                          "nickname": "张沊岄",
+                          "performFilmVipDO": {
+                            "memberFlag": "0"
+                          }
+                        },
+                        "cardType": "14",
+                        "referItemId": "764585314045",
+                        "project": {
+                          "itemScore": "9.2",
+                          "schema": "damai://V1/ProjectPage?id=781924703213",
+                          "priceLow": "80.0",
+                          "attractiveLabel": {
+                            "icon": "https://img.alicdn.com/imgextra/i2/O1CN01s53WTs1paiNvbxCTK_!!6000000005377-2-tps-33-33.png",
+                            "title": "周末可看"
+                          },
+                          "schema2": "damai://V1/ProjectPage?id=781924703213",
+                          "name": "《婚礼歌手》开心麻花✖百老汇贺岁大戏",
+                          "discount": "",
+                          "verticalPic": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01zcoVbK2GdSaXnrZJN_!!2251059038.png",
+                          "id": "781924703213",
+                          "marketPromotionTags": [
+                            {
+                              "prefix": "",
+                              "subType": "3",
+                              "shortTag": "满减",
+                              "tag": "满2张减1080",
+                              "type": "SHOP"
+                            }
+                          ]
+                        },
+                        "id": "14590926",
+                        "pic": "https://comment-cdn.damai.cn/dynimg/4ec733347899429292f00960f8c162e7.jpeg",
+                        "title": "轻松愉快，周末必看",
+                        "type": "1",
+                        "content": "轻松欢快且炸燃，歌也好听，很有感染力",
+                        "isNewContentCard": "true",
+                        "contentLabels": "strategy",
+                        "isFeature": "1"
+                      }
+                    },
+                    "level": "3",
+                    "more": "false",
+                    "type": "7557"
+                  },
+                  {
+                    "data": {
+                      "guideCategoryName": "曲苑杂坛",
+                      "schema": "damai://V1/ProjectPage?id=627155275239",
+                      "projectPic": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01fz2i2d2GdSIXDF2YA_!!2251059038.jpg",
+                      "rankType": "2",
+                      "cardType": "4",
+                      "itemStar": "9",
+                      "title": "相声上新榜NO.2",
+                      "categoryName": "曲苑杂坛",
+                      "guideCategoryId": "5",
+                      "itemScore": "9.3",
+                      "guideSubCategoryId": "0302040100",
+                      "priceLow": "60",
+                      "schema2": "damai://V1/ProjectPage?id=627155275239",
+                      "projectDatetime": "2024.04.17",
+                      "projectName": "【北京】德云社相声大会——天桥德云社剧场",
+                      "alg": "{\"alginfo\":\"-1rcTable-2damai_cate_city_recall_sx_h-1rkBiz-2damai_rank_xdeepctr_mmoe_din_dg_biz-1pn-21-1abId-2294644-1scatterFlag-2true-1rkScore-20.00045-1sceneId-218735\",\"recext\":\"reqid=a2b8f8e2-87d9-4d1d-b0ce-ff70f4bad579#1713340856642\",\"sam\":\"1007.28735.0.294644\"}",
+                      "marketPromotionTags": [],
+                      "projectId": "627155275239",
+                      "guideSubCategoryName": "相声"
+                    },
+                    "level": "3",
+                    "more": "false",
+                    "type": "7547"
+                  },
+                  {
+                    "data": {
+                      "guideCategoryName": "音乐现场",
+                      "schema": "damai://V1/ProjectPage?id=774272043385",
+                      "projectPic": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i1/2251059038/O1CN01EiIWtO2GdSahumo9c_!!2251059038.jpg",
+                      "cardType": "4",
+                      "categoryName": "演唱会",
+                      "guideCategoryId": "1",
+                      "guideSubCategoryId": "0301030100",
+                      "priceLow": "398",
+                      "schema2": "damai://V1/ProjectPage?id=774272043385",
+                      "projectDatetime": "2024.05.02",
+                      "projectName": "【北京】乐事大波浪·2024北京超级草莓音乐节",
+                      "alg": "{\"alginfo\":\"-1rcTable-2damai_cate_city_recall_sx_h-1rkBiz-2damai_rank_xdeepctr_mmoe_din_dg_biz-1pn-21-1abId-2294644-1scatterFlag-2true-1rkScore-20.00036-1sceneId-218735\",\"recext\":\"reqid=a2b8f8e2-87d9-4d1d-b0ce-ff70f4bad579#1713340856642\",\"sam\":\"1007.28735.0.294644\"}",
+                      "marketPromotionTags": [],
+                      "projectId": "774272043385",
+                      "guideSubCategoryName": "音乐节"
+                    },
+                    "level": "3",
+                    "more": "false",
+                    "type": "7547"
+                  },
+                  {
+                    "data": {
+                      "guideCategoryName": "话剧音乐剧",
+                      "schema": "damai://V1/ProjectPage?id=781645295466",
+                      "projectPic": "https://img.alicdn.com/bao/uploaded/i2/2251059038/O1CN01XV2CSS2GdSaVq8NCG_!!0-item_pic.jpg",
+                      "cardType": "4",
+                      "itemStar": "9",
+                      "categoryName": "话剧歌剧",
+                      "guideCategoryId": "3",
+                      "itemScore": "9.4",
+                      "guideSubCategoryId": "0302020500",
+                      "priceLow": "180",
+                      "schema2": "damai://V1/ProjectPage?id=781645295466",
+                      "projectDatetime": "2024.05.01",
+                      "projectName": "【北京】法语原版音乐剧《摇滚莫扎特》",
+                      "alg": "{\"alginfo\":\"-1rcTable-2damai_cate_city_recall_sx_h-1rkBiz-2damai_rank_xdeepctr_mmoe_din_dg_biz-1pn-21-1abId-2294644-1scatterFlag-2true-1rkScore-20.0003-1sceneId-218735\",\"recext\":\"reqid=a2b8f8e2-87d9-4d1d-b0ce-ff70f4bad579#1713340856642\",\"sam\":\"1007.28735.0.294644\"}",
+                      "marketPromotionTags": [],
+                      "projectId": "781645295466",
+                      "guideSubCategoryName": "音乐剧"
+                    },
+                    "level": "3",
+                    "more": "false",
+                    "type": "7547"
+                  },
+                  {
+                    "data": {
+                      "schema": "damai://V1/DiscoverContentDetail?contentId=12661891",
+                      "schema2": "damai://V1/DiscoverContentDetail?contentId=12661891",
+                      "cardType": "14",
+                      "alg": "{\"alginfo\":\"-1rcTable-2damai_antpay_cate_city_recall_dg_h-1sceneId-218735-1pn-21-1abId-2294644\",\"recext\":\"reqid=a2b8f8e2-87d9-4d1d-b0ce-ff70f4bad579#1713340856642\",\"sam\":\"1007.28735.0.294644\"}",
+                      "contentCard": {
+                        "publishUser": {
+                          "publisherId": "2216500233233",
+                          "headImg": "http://perico.damai.cn/userheadphotosnew/2263129/452625893_1694339674858.jpg",
+                          "nickname": "甄珈525",
+                          "performFilmVipDO": {
+                            "memberFlag": "0"
+                          }
+                        },
+                        "cardType": "14",
+                        "referItemId": "736382029923",
+                        "id": "12661891",
+                        "pic": "https://comment-cdn.damai.cn/dynimg/552e6b8e7d87401eb059d8642557efea.jpg",
+                        "title": "",
+                        "type": "1",
+                        "content": "第一次线下看sketch，有一种在一年一度喜剧大赛现场当观众的感觉。\n🌟剧情亮点\n         三个喜剧团队分别表演的八个节目，每个都不算很长，但是内容都很新，各种梗，而且很有讽刺和教育意义。\n🥳舞台布置\n         舞台面积不大，相对来说布置的没有很复杂，但是古装的，现代的，转换的也很方便。\n❤️推荐理由\n         虽然是小剧场，但是度过了很开心的两个小时。很多小朋友笑的也很开心，感觉大朋友，小朋友全家都适合看。",
+                        "isNewContentCard": "true",
+                        "contentLabels": "strategy",
+                        "isFeature": "1"
+                      }
+                    },
+                    "level": "3",
+                    "more": "false",
+                    "type": "7557"
+                  },
+                  {
+                    "data": {
+                      "guideCategoryName": "展览",
+                      "schema": "damai://V1/ProjectPage?id=769656438193",
+                      "projectPic": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01SSaQf42GdSZPdmgaM_!!2251059038.png",
+                      "cardType": "4",
+                      "itemStar": "8",
+                      "categoryName": "展览休闲",
+                      "guideCategoryId": "7",
+                      "itemScore": "8.9",
+                      "guideSubCategoryId": "0303010300",
+                      "priceLow": "60",
+                      "schema2": "damai://V1/ProjectPage?id=769656438193",
+                      "projectDatetime": "2024.03.23",
+                      "projectName": "【北京】【4.20春日专场】杉本博司：无尽的刹那",
+                      "alg": "{\"alginfo\":\"-1rcTable-2damai_cate_city_recall_sx_h-1rkBiz-2damai_rank_xdeepctr_mmoe_din_dg_biz-1pn-21-1abId-2294644-1scatterFlag-2true-1rkScore-20.00022-1sceneId-218735\",\"recext\":\"reqid=a2b8f8e2-87d9-4d1d-b0ce-ff70f4bad579#1713340856642\",\"sam\":\"1007.28735.0.294644\"}",
+                      "marketPromotionTags": [],
+                      "projectId": "769656438193",
+                      "guideSubCategoryName": "艺术展"
+                    },
+                    "level": "3",
+                    "more": "false",
+                    "type": "7547"
+                  },
+                  {
+                    "data": {
+                      "guideCategoryName": "话剧音乐剧",
+                      "schema": "damai://V1/ProjectPage?id=781498803771",
+                      "projectPic": "https://img.alicdn.com/bao/uploaded/i3/2251059038/O1CN01RCtSVd2GdSaW45Kv5_!!0-item_pic.jpg",
+                      "cardType": "4",
+                      "itemStar": "8",
+                      "categoryName": "话剧歌剧",
+                      "guideCategoryId": "3",
+                      "itemScore": "8.5",
+                      "guideSubCategoryId": "0302020400",
+                      "priceLow": "100",
+                      "schema2": "damai://V1/ProjectPage?id=781498803771",
+                      "projectDatetime": "2024.05.23",
+                      "projectName": "【北京】中国国家话剧院演出 话剧《大宅门》",
+                      "alg": "{\"alginfo\":\"-1rcTable-2damai_cate_city_recall_sx_h-1rkBiz-2damai_rank_xdeepctr_mmoe_din_dg_biz-1pn-21-1abId-2294644-1scatterFlag-2true-1rkScore-20.00029-1sceneId-218735\",\"recext\":\"reqid=a2b8f8e2-87d9-4d1d-b0ce-ff70f4bad579#1713340856642\",\"sam\":\"1007.28735.0.294644\"}",
+                      "marketPromotionTags": [],
+                      "projectId": "781498803771",
+                      "guideSubCategoryName": "话剧"
+                    },
+                    "level": "3",
+                    "more": "false",
+                    "type": "7547"
+                  },
+                  {
+                    "data": {
+                      "schema": "damai://V1/DiscoverContentDetail?contentId=13925857",
+                      "schema2": "damai://V1/DiscoverContentDetail?contentId=13925857",
+                      "cardType": "14",
+                      "alg": "{\"alginfo\":\"-1pn-21-1abId-2294644-1sceneId-218735\",\"recext\":\"reqid=a2b8f8e2-87d9-4d1d-b0ce-ff70f4bad579#1713340856642\",\"sam\":\"1007.28735.0.294644\"}",
+                      "contentCard": {
+                        "publishUser": {
+                          "publisherId": "2200867345718",
+                          "headImg": "http://perico.damai.cn/userheadphotos/623900/124780084.jpg",
+                          "nickname": "老干部朱皮特",
+                          "performFilmVipDO": {
+                            "memberFlag": "0"
+                          }
+                        },
+                        "cardType": "14",
+                        "referItemId": "749433589699",
+                        "project": {
+                          "itemScore": "9.6",
+                          "schema": "damai://V1/ProjectPage?id=775703504056",
+                          "priceLow": "80.0",
+                          "attractiveLabel": {
+                            "icon": "https://img.alicdn.com/imgextra/i4/O1CN01eP7bGa1biaZbQUHfa_!!6000000003499-2-tps-33-33.png",
+                            "title": "话剧高分榜NO.2"
+                          },
+                          "schema2": "damai://V1/ProjectPage?id=775703504056",
+                          "name": "吸血鬼张三",
+                          "discount": "5折起",
+                          "verticalPic": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01iGmFt72GdSa37ASGq_!!2251059038.jpg",
+                          "id": "775703504056",
+                          "marketPromotionTags": [
+                            {
+                              "shortTag": "满减",
+                              "tag": "满2张减1080",
+                              "type": "SHOP",
+                              "value": "500"
+                            }
+                          ]
+                        },
+                        "id": "13925857",
+                        "pic": "https://sentiment.damai.cn/feedBack/feHTbpZNGYZDb2D3ChME.jpg",
+                        "title": "赶上热乎的«吸血鬼张三»明星场啦！",
+                        "type": "1",
+                        "content": "这部剧舞美很棒！刚开始有一段很像超级玛丽的动画非常可爱有新意",
+                        "isNewContentCard": "true",
+                        "contentLabels": "",
+                        "isFeature": "1"
+                      }
+                    },
+                    "level": "3",
+                    "more": "false",
+                    "type": "7557"
+                  },
+                  {
+                    "data": {
+                      "schema": "damai://V1/DiscoverContentDetail?contentId=14892916",
+                      "schema2": "damai://V1/DiscoverContentDetail?contentId=14892916",
+                      "cardType": "14",
+                      "alg": "{\"alginfo\":\"-1pn-21-1abId-2294644-1sceneId-218735\",\"recext\":\"reqid=a2b8f8e2-87d9-4d1d-b0ce-ff70f4bad579#1713340856642\",\"sam\":\"1007.28735.0.294644\"}",
+                      "contentCard": {
+                        "publishUser": {
+                          "publisherId": "2204186902843",
+                          "headImg": "http://perico.damai.cn/userheadphotos/706845/141369185.jpg",
+                          "nickname": "爱看戏的方",
+                          "label": {
+                            "labelType": "ACHIEVEMENT",
+                            "labelTitle": "95"
+                          },
+                          "performFilmVipDO": {
+                            "memberFlag": "0"
+                          }
+                        },
+                        "cardType": "14",
+                        "referItemId": "770687955490",
+                        "id": "14892916",
+                        "pic": "https://comment-cdn.damai.cn/dynimg/918918be2a9542c19eabefd8d0a01040.jpg",
+                        "title": "",
+                        "type": "1",
+                        "content": " 桃红柳绿的时节，就来国话吧",
+                        "isNewContentCard": "true",
+                        "contentLabels": "strategy",
+                        "isFeature": "1"
+                      }
+                    },
+                    "level": "3",
+                    "more": "false",
+                    "type": "7557"
+                  },
+                  {
+                    "data": {
+                      "guideCategoryName": "曲苑杂坛",
+                      "schema": "damai://V1/ProjectPage?id=626250108387",
+                      "projectPic": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i1/2251059038/O1CN01Cnuaz52GdSIRmcXkK_!!2251059038.jpg",
+                      "rankType": "2",
+                      "cardType": "4",
+                      "itemStar": "9",
+                      "title": "相声上新榜NO.3",
+                      "categoryName": "曲苑杂坛",
+                      "guideCategoryId": "5",
+                      "itemScore": "9.3",
+                      "guideSubCategoryId": "0302040100",
+                      "priceLow": "50",
+                      "schema2": "damai://V1/ProjectPage?id=626250108387",
+                      "tagType": "3",
+                      "tag": "我关注的",
+                      "projectDatetime": "2024.04.17",
+                      "projectName": "【北京】德云社相声大会——三庆园",
+                      "alg": "{\"alginfo\":\"-1rcTable-2damai_cate_city_recall_sx_h-1rkBiz-2damai_rank_xdeepctr_mmoe_din_dg_biz-1pn-21-1abId-2294644-1scatterFlag-2true-1rkScore-20.00044-1sceneId-218735\",\"recext\":\"reqid=a2b8f8e2-87d9-4d1d-b0ce-ff70f4bad579#1713340856642\",\"sam\":\"1007.28735.0.294644\"}",
+                      "marketPromotionTags": [],
+                      "projectId": "626250108387",
+                      "guideSubCategoryName": "相声"
+                    },
+                    "level": "3",
+                    "more": "false",
+                    "type": "7547"
+                  },
+                  {
+                    "data": {
+                      "schema": "damai://V1/DiscoverContentDetail?contentId=14146505",
+                      "schema2": "damai://V1/DiscoverContentDetail?contentId=14146505",
+                      "cardType": "14",
+                      "alg": "{\"alginfo\":\"-1pn-21-1abId-2294644-1sceneId-218735\",\"recext\":\"reqid=a2b8f8e2-87d9-4d1d-b0ce-ff70f4bad579#1713340856642\",\"sam\":\"1007.28735.0.294644\"}",
+                      "contentCard": {
+                        "publishUser": {
+                          "publisherId": "3739366714",
+                          "headImg": "http://perico.damai.cn/userheadphotosnew/181028/36205672_1690178836715.jpg",
+                          "nickname": "云西居",
+                          "performFilmVipDO": {
+                            "memberFlag": "0"
+                          }
+                        },
+                        "cardType": "14",
+                        "referItemId": "753232163535",
+                        "id": "14146505",
+                        "pic": "https://comment-cdn.damai.cn/dynimg/515840f92c8e436b848cee08b1f96140.jpg",
+                        "title": "",
+                        "type": "1",
+                        "content": "体验感很好，从步入剧场大门就开始了沉浸式体验",
+                        "isNewContentCard": "true",
+                        "contentLabels": "",
+                        "isFeature": "1"
+                      }
+                    },
+                    "level": "3",
+                    "more": "false",
+                    "type": "7557"
+                  }
+                ],
+                "style": {},
+                "type": "7541"
+              },
+              {
+                "cr": {
+                  "c": {
+                    "7545": {
+                      "item": {
+                        "ack": "schema2",
+                        "act": "1",
+                        "ag": {
+                          "card_type": "${cardType}"
+                        },
+                        "d": "item_"
+                      }
+                    },
+                    "7547": {
+                      "item": {
+                        "ack": "schema2",
+                        "act": "1",
+                        "ag": {
+                          "card_type": "${cardType}",
+                          "scm": "${scm}",
+                          "alg": "${alg}",
+                          "card_id": "${projectId}"
+                        },
+                        "d": "item_"
+                      }
+                    },
+                    "7548": {
+                      "item": {
+                        "ack": "schema2",
+                        "act": "1",
+                        "ag": {
+                          "card_type": "${cardType}",
+                          "alg": "${alg}",
+                          "card_id": "${id}"
+                        },
+                        "d": "item_"
+                      }
+                    },
+                    "7549": {
+                      "item": {
+                        "ack": "schema2",
+                        "act": "1",
+                        "ag": {
+                          "card_type": "${cardType}",
+                          "scm": "${scm}",
+                          "alg": "${alg}",
+                          "card_id": "${id}"
+                        },
+                        "d": "item_"
+                      }
+                    },
+                    "7550": {
+                      "item": {
+                        "ack": "schema2",
+                        "act": "1",
+                        "ag": {
+                          "card_type": "${cardType}",
+                          "scm": "${scm}",
+                          "alg": "${alg}"
+                        },
+                        "d": "item_"
+                      }
+                    },
+                    "7552": {
+                      "item": {
+                        "ack": "schema2",
+                        "act": "1",
+                        "ag": {
+                          "card_type": "${cardType}"
+                        },
+                        "d": "item_"
+                      }
+                    },
+                    "7553": {
+                      "item": {
+                        "ack": "schema2",
+                        "act": "1",
+                        "ag": {
+                          "item_id": "${contentCard.project.id}",
+                          "card_type": "${cardType}",
+                          "scm": "${scm}",
+                          "alg": "${alg}",
+                          "card_id": "${contentCard.id}"
+                        },
+                        "d": "item_"
+                      },
+                      "project": {
+                        "ack": "contentCard.project.schema2",
+                        "act": "1",
+                        "ag": {
+                          "item_id": "${contentCard.project.id}",
+                          "card_type": "${cardType}",
+                          "scm": "${scm}",
+                          "alg": "${alg}",
+                          "card_id": "${projectId}"
+                        },
+                        "d": "item_product_"
+                      }
+                    },
+                    "7554": {
+                      "item": {
+                        "ack": "schema2",
+                        "act": "1",
+                        "ag": {
+                          "card_type": "${cardType}",
+                          "alg": "${alg}",
+                          "card_id": "${themeCard.id}"
+                        },
+                        "d": "item_"
+                      }
+                    },
+                    "7557": {
+                      "item": {
+                        "ack": "schema2",
+                        "act": "1",
+                        "ag": {
+                          "item_id": "${contentCard.project.id}",
+                          "card_type": "${cardType}",
+                          "scm": "${scm}",
+                          "alg": "${alg}",
+                          "card_id": "${contentCard.id}"
+                        },
+                        "d": "item_"
+                      },
+                      "project": {
+                        "ack": "contentCard.project.schema2",
+                        "act": "1",
+                        "ag": {
+                          "item_id": "${contentCard.project.id}",
+                          "card_type": "${cardType}",
+                          "scm": "${scm}",
+                          "alg": "${alg}",
+                          "card_id": "${contentCard.id}"
+                        },
+                        "d": "item_product_"
+                      }
+                    }
+                  }
+                },
+                "data": {
+                  "componentId": "dm_home_feed",
+                  "keywords": [
+                    {
+                      "showIndicator": "false",
+                      "action": {
+                        "trackInfo": {
+                          "args": {}
+                        }
+                      }
+                    }
+                  ],
+                  "offSet": "{\"1\":1}",
+                  "titleRightImageType": "0",
+                  "action": {
+                    "item": {
+                      "trackInfo": {
+                        "spmc": "feed_weekend"
+                      }
+                    },
+                    "tab": {
+                      "trackInfo": {
+                        "args": {
+                          "titlelabel": "海外及港澳台"
+                        },
+                        "spmd": "tab_",
+                        "spmc": "bottom"
+                      }
+                    }
+                  },
+                  "isFilterEmpty": "false",
+                  "title": "海外及港澳台",
+                  "nodeId": "f244d0fb-77fe-4c1a-9882-d74f78427b02"
+                },
+                "level": "2",
+                "more": "true",
+                "nodes": [
+                  {
+                    "data": {
+                      "schema": "https://m.damai.cn/shows/pages/strategy-detail.html?groupId=268",
+                      "schema2": "https://m.damai.cn/shows/pages/strategy-detail.html?groupId=268",
+                      "cardType": "2",
+                      "pic": "https://img.alicdn.com/imgextra/i1/O1CN01BxgqM926ehPMkvO9B_!!6000000007687-0-tps-480-642.jpg"
+                    },
+                    "level": "3",
+                    "more": "false",
+                    "type": "7545"
+                  },
+                  {
+                    "data": {
+                      "schema": "damai://V1/DiscoverContentDetail?contentId=15036913",
+                      "schema2": "damai://V1/DiscoverContentDetail?contentId=15036913",
+                      "cardType": "14",
+                      "contentCard": {
+                        "publishUser": {
+                          "headImg": "https://perico.damai.cn/userheadphotosnew/305741/61148255_1691258205499.jpg",
+                          "nickname": "宁宁崽_",
+                          "performFilmVipDO": {
+                            "memberFlag": "10"
+                          }
+                        },
+                        "cardType": "14",
+                        "referItemId": "777864562882",
+                        "id": "15036913",
+                        "pic": "https://comment-cdn.damai.cn/dynimg/b743338fcd69430b910c3f1e6f569284.jpg",
+                        "title": "玉山碎瓷 国风之美·景德镇御窑瓷器精品展",
+                        "type": "1",
+                        "content": "农业展览馆展览上新🔼在独栋红色小平房内，一览景德镇御窑的碎瓷之美。\n💗推荐理由：\n✔️景德镇御窑珍品\n✔️瓷器文化科普\n✔️国韵瓷器美学\n🌟展览亮点：\n🩵景德镇御窑真迹：\n提到中国瓷器，景德镇是永远也绕不开的地标之一。明清时期，官方御窑在此建造，生产制造了大批精美瓷器。然而，除了那些造型完满运入宫廷的器物之外，每一天，都有无数不尽如人意的瓷器被丢弃抛却，久而久之，形成了一座6米高的碎瓷玉山。\n💛瓷器知识科普：\n展览收集呈现了大量景德镇御窑的碎瓷作品。不仅介绍了明清时期的瓷器特点和发展变迁，还有瓷器纹饰、24节气对照、青花瓷用料演变、以及碎瓷文物修复的相关知识等等。展厅内的许多展品都可扫码免费收听语音讲解，内容非常丰富👍\n💚国风瓷器之美：\n透过碎瓷看历史，越过官窑品文脉。瓷器发展史，也恰恰是国人审美的历史演变。展厅内设有饮品区，环境格外安静清雅，很适合小坐休憩。店内还有可可爱爱的素三彩鸭鸭吉祥物出售哦[机智]\n——————主题店铺信息—————\n主题🎬：御窑四时·景德镇御窑遗址出土瓷器精品展\n时间🈺️：2024.4.2-12.31 9:00-16:00\n⚠️每周一闭馆\n人群👪：展览&瓷器爱好者\n地址📍：中国农业博物馆内10号平房\n朝阳区东三环北路16号\n#0元玩转这座城 #寻春挑战赛 #家门口的博物馆 #出去玩我超听劝 #假期的松弛感是展览给的 #假期去博物馆充电 #上新了展览 #帝都逛展指南 #城市展演推荐官",
+                        "isNewContentCard": "true"
+                      }
+                    },
+                    "level": "3",
+                    "more": "false",
+                    "type": "7557"
+                  },
+                  {
+                    "data": {
+                      "schema": "damai://V1/DiscoverContentDetail?contentId=15027703",
+                      "schema2": "damai://V1/DiscoverContentDetail?contentId=15027703",
+                      "cardType": "14",
+                      "contentCard": {
+                        "publishUser": {
+                          "headImg": "https://perico.damai.cn/userheadphotosnew/610708/122141776_1713077152480.jpg",
+                          "nickname": "大柱的艺术生活",
+                          "performFilmVipDO": {
+                            "memberFlag": "10"
+                          }
+                        },
+                        "videoInfo": {
+                          "coverUrl": "https://comment-cdn.damai.cn/dynimg/059b5aa717434f50981735a0a3daf2fb.jpg",
+                          "videoTime": "351991"
+                        },
+                        "cardType": "14",
+                        "referItemId": "686587929975",
+                        "id": "15027703",
+                        "title": "❗️超级好玩的非传统艺术展",
+                        "type": "1",
+                        "content": "🌟展览：《teamLab：无相艺术空间》 \n🅿️位置：北京朝阳大悦城10楼（青年路地铁站出站即达） \n⏰️营业日期：2024年3月28日至2024年4月30日 （可能会延期）\n💥游玩时长：1~2小时，视个人兴趣而定\n❤️推荐理由\n这不仅仅是一场趣味性很高的展览，也是一场视觉盛宴，各个空间中的交互场景非常多，适合情侣出行与遛娃，能让你沉浸在科技与艺术的世界中。\n🌟展览看点\n项目介绍：《teamLab：无相艺术空间》是一场融合了艺术、科技、自然和儿童游乐场的创新展览，旨在探索人与自然、科技与生活的关系\n\n🎇展览包括多个主题区域，简单讲几个空间：\n🅰️1楼区域适合打卡拍照：\n\n空间1花与人的森林：这里的四周，墙壁、地面、都是花卉影像，地面并不是完全平整的，部分区域突起，应该是在模拟山坡，比较奇幻！\n\n空间2无相之云：需额外付费购买雨衣雨鞋，里面是类似肥皂水模拟出云状泡沫，注意小心地滑\n\n空间3生命的轨迹：可通过小程序操作改变四周的场景，具有一定晕眩 \n\n空间4世界从黑暗中诞生：触摸墙壁上的文字会有对应的画面出现，例如触摸木，就会长出一颗树\n\n空间5呼应的小宇宙群：用手触摸地上的球体，整个展厅内的所有球体会发生颜色的变换，适合拍照\n\n空间6无穷无尽的水晶宇宙：空间中有大量的灯带，可通过小程序或现场设备变更灯带和整体场景的颜色，有一种在空间中穿梭的感觉\n\n🅱️2楼空间适合娱乐：\n\n必玩区域是彩绘世界（海洋+自然）：每个人可以领一张画，然后用蜡笔去上色，绘制成功后拿给工作人员去扫描，你创作的内容就会出现在荧幕上，比如：你画的是花，就出现在地上，你画得是动物或海洋生物就在墙上，这就是发挥想象力的天堂\n\n其他项目则是充满艺术气息的：滑梯、跳床、衡木、跳跳球等，比较适合小孩子\n\n🕐场馆拥挤度\n1楼不算拥挤，2楼跑跳的小朋友较多\n❣️观展提示\n小TIPS：\n①\t展馆内温度较高，建议短袖\n②\t展览空间分上下2层，注意穿舒适的鞋子，需要步行探索\n③\t展馆内不可带水之外的饮品，部分空间需购买配套品才能有良好体验（太虚境+无相之云）\n\n总结：如果你厌倦了传统的艺术展览，想要尝试一些新的体验，那么来这里一定不会失望，同时这里拍照超级出片，每个作品都像是一个立体的画布，你可以从任何角度拍摄，记录下自己的独特体验。",
+                        "isNewContentCard": "true"
+                      }
+                    },
+                    "level": "3",
+                    "more": "false",
+                    "type": "7557"
+                  },
+                  {
+                    "data": {
+                      "schema": "damai://V1/DiscoverContentDetail?contentId=15012213",
+                      "schema2": "damai://V1/DiscoverContentDetail?contentId=15012213",
+                      "cardType": "14",
+                      "contentCard": {
+                        "publishUser": {
+                          "headImg": "https://perico.damai.cn/userheadphotosnew/285120/57024028_1694364507610.jpg",
+                          "nickname": "不规则构成论",
+                          "performFilmVipDO": {
+                            "memberFlag": "10"
+                          }
+                        },
+                        "cardType": "14",
+                        "referItemId": "774250614940",
+                        "id": "15012213",
+                        "pic": "https://comment-cdn.damai.cn/dynimg/56fd0ae9e9eb429bb12b97ba86092b2d.jpg",
+                        "title": "北京新展 | 现场感受中国的侘寂风",
+                        "type": "1",
+                        "content": "我来给大家划重点啦～\n🌟展览看点\n1️⃣个“风格”：侘寂风\n此次展览主要呈现中国侘寂风格，“侘”是在简陋中寻求美感，“寂”代表经过时间沉淀后的庄重感。\n其主要特点是：①原生态的纹理与质感②不对称的流线布局③质朴低调的配色④恰到好处的留白⑤自然元素的融入⑥旧物和时光的痕迹\n-\n1️⃣个“代表”：宋徽宗\n走进展厅具有十足的穿越感，仿佛回到了那个美学的巅峰时代。宋徽宗赵佶强调形神并举，提倡诗、书、画、印结合，是工笔画和“瘦金体”的创始人。\n📷打卡建议\n✓ 触碰真实的古陶瓷\n现场设置古陶瓷触摸感受台，可以亲手感受千年前的器具。\n✓ 瓷画诗乐茶的雅集\n现场有数不尽的展品，可以偶遇免费的讲解老师，茶艺老师，古琴老师等等，现场感受文化的魅力。展厅外有文化市集，有特色周边展出并售卖。\n✓ 投壶游戏\n展览设有投壶游戏，可以体验千年前的文人娱乐。\n❣️观展提示\n1️⃣ 展厅紧邻玉渊潭公园，中华世纪坛还有其他免费展览同时进行，可以一起打卡！\n2️⃣场馆拥挤程度不高，建议古装出行，特别出片。\n3️⃣现场有数十枚免费动物印章与主题付费印章可以盖取。\n————————————\n📍展期和地点\n🖼展览全称：又见徽宗 千年之韵-宋朝艺术之美\n🕰展览时间：2024.03.23-2024.05.09\n📍展览地址：中华世纪坛",
+                        "isNewContentCard": "true"
+                      }
+                    },
+                    "level": "3",
+                    "more": "false",
+                    "type": "7557"
+                  },
+                  {
+                    "data": {
+                      "schema": "damai://V1/DiscoverContentDetail?contentId=14999061",
+                      "schema2": "damai://V1/DiscoverContentDetail?contentId=14999061",
+                      "cardType": "14",
+                      "contentCard": {
+                        "publishUser": {
+                          "headImg": "https://perico.damai.cn/userheadphotos/324450/64890055.jpg",
+                          "nickname": "瑶my瑶",
+                          "performFilmVipDO": {
+                            "memberFlag": "1"
+                          }
+                        },
+                        "cardType": "14",
+                        "referItemId": "768934779700",
+                        "id": "14999061",
+                        "pic": "https://comment-cdn.damai.cn/dynimg/d1de6a2114ba479c894b6c010d33ec69.jpg",
+                        "title": "欢迎来到表情包的世界！！！",
+                        "type": "1",
+                        "content": "🥳推荐理由\n🥇超大展览空间，共分为三层。有emoji的萌脸矩阵、发展简史、社交万象图以及视听交互装置\n🥈门票就是一个表情，入场会给小贴纸，可以在墙上进行自我创作\n🥉适合带娃来玩儿、情侣拍照打卡\n🤩展览亮点\n🎟️穿过表情隧道，来到的就是萌脸矩阵，很适合大家拍照打卡\n🎟️emoji 社交万象图可以互动，站在前面得特定区域移动，屏幕上就会出现表情随着人移动，有趣～\n🎟️最有意思的属于第三层的互动装置，站在前面或者里面，有pad 可以实时根据你的表情呈现出相应得表情，小家伙儿玩的不亦乐乎～\n🤔场馆拥挤度\n周末去的，空间大并不会觉得拥挤，喜欢的地方可以多玩一会儿\n🎫展期和地点\n游览时长：60min \n展期：2024.03.16-06.16\n地点：798艺术区IOMA爱马思艺术中心",
+                        "isNewContentCard": "true"
+                      }
+                    },
+                    "level": "3",
+                    "more": "false",
+                    "type": "7557"
+                  },
+                  {
+                    "data": {
+                      "schema": "damai://V1/DiscoverContentDetail?contentId=14998384",
+                      "schema2": "damai://V1/DiscoverContentDetail?contentId=14998384",
+                      "cardType": "14",
+                      "contentCard": {
+                        "publishUser": {
+                          "headImg": "https://perico.damai.cn/userheadphotos/229768/45953776.jpg",
+                          "nickname": "上海狼",
+                          "performFilmVipDO": {
+                            "memberFlag": "10"
+                          }
+                        },
+                        "cardType": "14",
+                        "referItemId": "757786902747",
+                        "id": "14998384",
+                        "pic": "https://sentiment.damai.cn/feedBack/28tCzFFtKKCDzPZckxcs.jpeg",
+                        "title": "",
+                        "type": "1",
+                        "content": "现场绝对是碾压级别的封神表演",
+                        "isNewContentCard": "true"
+                      }
+                    },
+                    "level": "3",
+                    "more": "false",
+                    "type": "7557"
+                  },
+                  {
+                    "data": {
+                      "schema": "damai://V1/DiscoverContentDetail?contentId=14998332",
+                      "schema2": "damai://V1/DiscoverContentDetail?contentId=14998332",
+                      "cardType": "14",
+                      "contentCard": {
+                        "publishUser": {
+                          "headImg": "https://perico.damai.cn/userheadphotosnew/1157022/231404505_1713282615459.jpg",
+                          "nickname": "狼吞",
+                          "performFilmVipDO": {
+                            "memberFlag": "10"
+                          }
+                        },
+                        "cardType": "14",
+                        "referItemId": "757786902747",
+                        "id": "14998332",
+                        "pic": "https://sentiment.damai.cn/feedBack/8Szcrzamx3eSn3mrHFwe.jpg",
+                        "title": "",
+                        "type": "1",
+                        "content": "出乎意料的有意思！！笑声没有停过",
+                        "isNewContentCard": "true"
+                      }
+                    },
+                    "level": "3",
+                    "more": "false",
+                    "type": "7557"
+                  },
+                  {
+                    "data": {
+                      "schema": "damai://V1/DiscoverContentDetail?contentId=14997833",
+                      "schema2": "damai://V1/DiscoverContentDetail?contentId=14997833",
+                      "cardType": "14",
+                      "contentCard": {
+                        "publishUser": {
+                          "headImg": "https://perico.damai.cn/userheadphotos/953240/190648066.jpg",
+                          "nickname": "佳梦小林",
+                          "performFilmVipDO": {
+                            "memberFlag": "10"
+                          }
+                        },
+                        "cardType": "14",
+                        "referItemId": "627267435040",
+                        "id": "14997833",
+                        "pic": "https://comment-cdn.damai.cn/dynimg/7e757b0dbea4475f8b3cf43e8d3ea226.jpeg",
+                        "title": "第一次追线下",
+                        "type": "1",
+                        "content": "围感超级好，第一次听线下，体验感不错哦～",
+                        "isNewContentCard": "true"
+                      }
+                    },
+                    "level": "3",
+                    "more": "false",
+                    "type": "7557"
+                  },
+                  {
+                    "data": {
+                      "schema": "damai://V1/DiscoverContentDetail?contentId=14995364",
+                      "schema2": "damai://V1/DiscoverContentDetail?contentId=14995364",
+                      "cardType": "14",
+                      "contentCard": {
+                        "publishUser": {
+                          "headImg": "https://perico.damai.cn/userheadphotosnew/1194652/238930547_1701086794460.jpg",
+                          "nickname": "麦子4Mrsw",
+                          "performFilmVipDO": {
+                            "memberFlag": "0"
+                          }
+                        },
+                        "cardType": "14",
+                        "referItemId": "737313696145",
+                        "id": "14995364",
+                        "pic": "https://comment-cdn.damai.cn/dynimg/f0d61c4023dc48e2b45c315c076f4a83.jpeg",
+                        "title": "从文艺复兴时期到现代主义艺术",
+                        "type": "1",
+                        "content": "\n🕐场馆拥挤度\n首先人真的不多，也就偶尔有那么几位静静欣赏的，大部分都是打卡拍照的\n❤️推荐理由\n场景布置的非常棒，虽然都是复刻品但是摆设一点也不含糊，从达芬奇的文艺复兴时期开始到毕加索的立体画派结束，非常值得细细欣赏，重点是票价也不贵，地铁6号线青年路朝阳大悦城F10很方便！\n🌟展览看点\n☞精美的场景设置 梵高的向日葵，最后的晚餐 这些场景的简约复刻\n☞艺术史上的伟大艺术家 喜欢欧洲文艺复兴时期绘画作品的可以安静欣赏，作品的注明内容非常精彩\n☞体验感舒适 一共两层楼，跟随着时间路线慢慢发展变化感受提现不同时期绘画的创作，除了有点作品实在是放在有点高的位置上，其他都可以满分",
+                        "isNewContentCard": "true"
+                      }
+                    },
+                    "level": "3",
+                    "more": "false",
+                    "type": "7557"
+                  },
+                  {
+                    "data": {
+                      "schema": "damai://V1/DiscoverContentDetail?contentId=14989078",
+                      "schema2": "damai://V1/DiscoverContentDetail?contentId=14989078",
+                      "cardType": "14",
+                      "contentCard": {
+                        "publishUser": {
+                          "headImg": "https://perico.damai.cn/userheadphotosnew/1181370/236274154_1711446406708.jpg",
+                          "nickname": "烧肉&大王",
+                          "performFilmVipDO": {
+                            "memberFlag": "10"
+                          }
+                        },
+                        "cardType": "14",
+                        "referItemId": "747813841065",
+                        "id": "14989078",
+                        "pic": "https://comment-cdn.damai.cn/dynimg/0e59cb05bdae480587bf6b08917d2cb2.jpg",
+                        "title": "驼铃声响-丝绸之路艺术展",
+                        "type": "1",
+                        "content": "民生美术馆继2023年的敦煌大展后的又一展览，展出了丝绸之路上的400余件展品。\n❤️推荐理由\n作为史上规模最大的丝绸之路艺术展，主要呈现路上丝绸之路东段，从洛阳、长安到喀什、和田地区的500余组件作品。许多展品都是首次公开展出。\n大展特别推出「永宁绝响」多媒体项目，「坛城沙画」项目，复刻了克孜尔石窟第8窟，38窟。\n我们赶上了一个很好的讲解，内容详实细致。同时会联系讲解未展出的相关展品，拓展石窟，历史，艺术相关知识。感觉受益匪浅。\n🌟展览看点\n❀小河墓地的毡帽\n❀镶嵌红宝石的黄金面具\n❀“赶路的干饭人”吃饼骑驼俑\n❀红底团窠对鸟纹锡袍\n❀狩猎纹缂毛带\n❀橙色印花小绢裙\n❀关字瓦当\n🕐场馆拥挤度\n工作日去的，场馆内人不是很多，主要集中在讲解的周围。\n📷打卡建议\n适合选个时间充裕的日子，听一遍讲解，再自己慢慢的逛逛，听听展馆内的语音装置，最后再去三层看看风起洛阳的片场。\n📍展期和地点\n展期：2024年1月13日-7月13日（周一闭馆，周四-周日有夜展）\n时间10：00-18：00（夜展到21：00）\n地址：北京民生现代美术馆\n❣️观展提示\n公益讲解每天四场，\n分别是10：30，11：30，13：30，15：30\n一般是两小时左右，也有的讲解员会讲的比较细致，时间较长。建议穿舒适的衣服和鞋子。",
+                        "isNewContentCard": "true"
+                      }
+                    },
+                    "level": "3",
+                    "more": "false",
+                    "type": "7557"
+                  },
+                  {
+                    "data": {
+                      "schema": "damai://V1/DiscoverContentDetail?contentId=14979299",
+                      "schema2": "damai://V1/DiscoverContentDetail?contentId=14979299",
+                      "cardType": "14",
+                      "contentCard": {
+                        "publishUser": {
+                          "headImg": "https://perico.damai.cn/userheadphotos/295233/59046661.jpg",
+                          "nickname": "hello-heidi",
+                          "performFilmVipDO": {
+                            "memberFlag": "0"
+                          }
+                        },
+                        "cardType": "14",
+                        "referItemId": "769656438193",
+                        "id": "14979299",
+                        "pic": "https://comment-cdn.damai.cn/dynimg/c04eef4dd8a4432ea58912ff731410c8.jpg",
+                        "title": "UCCA新展|【无尽的刹那】看完非常震撼",
+                        "type": "1",
+                        "content": "最近看到最喜欢的一个展览了\n⚫️杉本博司——无尽的刹那⚪️\n❤️推荐理由\n\n看到他对黑白摄影的理解、运用到突破\n很早就在摄影课上认识过他\n源于他的【剧场】系列作品 对时间的浓缩\n这次展览看到了他更多的系列作品\n🌟展览看点\n\n例如【透视画馆】【海景】【建筑】【光学】\n而感触最深的还是【放电场】和【心经】\n对于胶片摄影的突破\n抛弃照相机，直接在胶片上创作\n不管是摄影爱好者还是普通观众\n都可以在这里感受到他的创意与哲思\n📷打卡建议\n▪️\n⚡️展览名称：杉本博司-无尽的刹那\n📍地址：北京798 UCCA尤伦斯当代艺术中心\n⌚️时间：2024.03.23—2024.06.23",
+                        "isNewContentCard": "true"
+                      }
+                    },
+                    "level": "3",
+                    "more": "false",
+                    "type": "7557"
+                  },
+                  {
+                    "data": {
+                      "schema": "damai://V1/DiscoverContentDetail?contentId=14979223",
+                      "schema2": "damai://V1/DiscoverContentDetail?contentId=14979223",
+                      "cardType": "14",
+                      "contentCard": {
+                        "publishUser": {
+                          "headImg": "https://perico.damai.cn/userheadphotos/295233/59046661.jpg",
+                          "nickname": "hello-heidi",
+                          "performFilmVipDO": {
+                            "memberFlag": "0"
+                          }
+                        },
+                        "cardType": "14",
+                        "referItemId": "766590830975",
+                        "id": "14979223",
+                        "pic": "https://comment-cdn.damai.cn/dynimg/0a38e3ace316452fb8c25cc3b0aeecec.jpg",
+                        "title": "这个展览尊嘟好好拍！！！",
+                        "type": "1",
+                        "content": "假期去了时代美术馆的【请勿见外】\n我真的太爱五颜六色啦～\n展厅全是五颜六色和波点元素\n看着就很开心哇！😄\n🌟展览看点\n\n⛳️迷你高尔夫⛳️\n互动性很强的一个展区\n可以在前台领取球杆和球\n在超大的彩色空间里设置了很多小关卡\n超级好玩～！\n.\n🌈放大的工作室🔍\n这个区域也很好玩儿 超级出片\n有很多放大的生活用品 手机 墨镜 马克笔……\n也很考验拍照的创意哦～\n❤️推荐理由\n\n果然多巴胺会让人快乐💓\n如果你也爱彩色我们就是好朋友！\n📷打卡建议\n\n🌈请勿见外—欢迎来到色彩魔术师Craig&Karl的奇幻乐园\n​🏛北京时代美术馆\n​📍北京市海淀区复兴路69号华熙LIVE·五棵松\n​⏱️周一至周日  10：00-21：30\n​🎟110r/单人  219r/双人",
+                        "isNewContentCard": "true"
+                      }
+                    },
+                    "level": "3",
+                    "more": "false",
+                    "type": "7557"
+                  },
+                  {
+                    "data": {
+                      "schema": "damai://V1/DiscoverContentDetail?contentId=14976214",
+                      "schema2": "damai://V1/DiscoverContentDetail?contentId=14976214",
+                      "cardType": "14",
+                      "contentCard": {
+                        "publishUser": {
+                          "headImg": "https://perico.damai.cn/userheadphotos/706845/141369106.jpg",
+                          "nickname": "麦子18YYl",
+                          "performFilmVipDO": {
+                            "memberFlag": "10"
+                          }
+                        },
+                        "cardType": "14",
+                        "referItemId": "627153795392",
+                        "id": "14976214",
+                        "pic": "https://comment-cdn.damai.cn/dynimg/99ef9d3278964eeeb820c04d86f6a894.jpg",
+                        "title": "喜欢的不得了",
+                        "type": "1",
+                        "content": "👏超赞演员\n张龙森很帅，很可爱，李龙坤比之前也放开了许多，九力一如既往的好。现在龙字科的演员们已经可以很好的互动了，很棒很棒👍希望多多有机会，可以逮到你们的队长和队副。也希望演员们越来越好，走向更大的舞台✌️︎(ᐛ)✌️︎\n🌟精彩亮点\n队里许多演员去助演了，但是仍然很会调动观众的热情🤩\n 💺座位视野\n坐在了一楼的包厢，很方便👍",
+                        "isNewContentCard": "true"
+                      }
+                    },
+                    "level": "3",
+                    "more": "false",
+                    "type": "7557"
+                  },
+                  {
+                    "data": {
+                      "schema": "damai://V1/DiscoverContentDetail?contentId=14975828",
+                      "schema2": "damai://V1/DiscoverContentDetail?contentId=14975828",
+                      "cardType": "14",
+                      "contentCard": {
+                        "publishUser": {
+                          "headImg": "https://perico.damai.cn/userheadphotos/38487/7697569.jpg",
+                          "nickname": "小红littlered",
+                          "performFilmVipDO": {
+                            "memberFlag": "0"
+                          }
+                        },
+                        "cardType": "14",
+                        "referItemId": "755517036025",
+                        "id": "14975828",
+                        "pic": "https://sentiment.damai.cn/feedBack/28pdjawTZsBHQCSyn7K5.jpeg",
+                        "title": "来北京就为一件事！真的笑到腮帮子疼",
+                        "type": "1",
+                        "content": "\n❤️推荐理由\n和闺蜜旅游，晚上在大餐和喜剧演出之间，选择了看演出。毕竟咱俩一致认为，笑能消耗卡路里，然后就来看了，结果笑太多笑累了，看完还是吃了大餐哈哈哈哈…\n🤣爆笑亮点\n每一个演员都太爆笑了，一场演出能解锁好几位喜剧演员💥，他们风格迥异，看完十分过瘾，尤其是和观众的互动，腮帮子笑得嘎嘎疼。而且感受到每一个人的价值观，对生活的观察，细致入微，人生活一次，看更多风景很重要，物料更多的快乐，也很重要。🐶\n\n 🎫厂牌推荐\n波波笑剧场，的确很行，据说发际于草根，经常送惊喜，老板是李波，现场巨炸，偶尔也会来演小剧场，很多演员都是她徒弟，全都很优秀。",
+                        "isNewContentCard": "true"
+                      }
+                    },
+                    "level": "3",
+                    "more": "false",
+                    "type": "7557"
+                  },
+                  {
+                    "data": {
+                      "schema": "damai://V1/DiscoverContentDetail?contentId=14968284",
+                      "schema2": "damai://V1/DiscoverContentDetail?contentId=14968284",
+                      "cardType": "14",
+                      "contentCard": {
+                        "publishUser": {
+                          "headImg": "https://perico.damai.cn/userheadphotosnew/755440/151088189_1711413299751.jpg",
+                          "nickname": "西西在遨游宇宙",
+                          "performFilmVipDO": {
+                            "memberFlag": "10"
+                          }
+                        },
+                        "cardType": "14",
+                        "referItemId": "755850484284",
+                        "id": "14968284",
+                        "pic": "https://comment-cdn.damai.cn/dynimg/44bc95093a374848aacdeed92638f752.jpg",
+                        "title": "喜剧是解药",
+                        "type": "1",
+                        "content": "❤️推荐理由\n又来日常看开放麦啦！惊讶喜剧除了能开出单口喜剧，还能上演漫才、sketch，真是喜剧大荟萃了！各种类型的都能看上，不过要提前说明的是： 因为开放麦是练段子的场地，价格也比较便宜，所以不能确保说一定好笑哦！抱着开盲盒的心态来就对啦～\n🤣爆笑亮点\n通过开放麦也陆续认识了很多演员，徐志胜、童漠南、小鹿等都去演出过。小鹿也是开放麦劳模一枚了，为了今年的专场，不断打磨段子，偶尔会讲到20分钟左右，快赶上一个小主打秀了，真是听的太过瘾了！全程都在哈哈哈哈哈哈哈哈\nSketch的线下氛围太好了～大家怎么都这么会表演！有的时候不得不感叹喜剧演员的信念感真的是很强！ \n💺座位视野\n开放麦价位很便宜，不区分座位，就是先到先得，坐在第一排的话会被主持人互动到\n❣️其他提示\n可以坐到东四或者张自忠路地铁站，下地铁后按照导航走，惊讶喜剧演出场地在小胡同里面\n演出一般19:30开始，演员多的时候会10点左右结束，一般9:30左右结束\n\n工作日的晚上因喜剧变得开心，扫除了一切烦恼，短暂的享受当下的快乐时光，\n\n",
+                        "isNewContentCard": "true"
+                      }
+                    },
+                    "level": "3",
+                    "more": "false",
+                    "type": "7557"
+                  },
+                  {
+                    "data": {
+                      "schema": "damai://V1/DiscoverContentDetail?contentId=14967934",
+                      "schema2": "damai://V1/DiscoverContentDetail?contentId=14967934",
+                      "cardType": "14",
+                      "contentCard": {
+                        "publishUser": {
+                          "headImg": "https://perico.damai.cn/userheadphotosnew/2376567/475313538_1707282108248.jpg",
+                          "nickname": "麦子7hFuV",
+                          "performFilmVipDO": {
+                            "memberFlag": "0"
+                          }
+                        },
+                        "cardType": "14",
+                        "referItemId": "740965737627",
+                        "id": "14967934",
+                        "pic": "https://comment-cdn.damai.cn/dynimg/3a0cf22f3358478a9f2cfbbd56de9e0b.jpg",
+                        "title": "一定要看一场脱口秀！！！",
+                        "type": "1",
+                        "content": "❤️推荐理由\n超搞笑，鬼鬼老师的梗笑点爆棚，和观众互动也非常愉悦，放肆大笑，忘记烦恼，一场酣畅淋漓的视听盛宴\n🤣爆笑亮点\n-大哥喜欢去哪旅游？\n-哈尔滨\n-大哥家哪里的？\n-哈尔滨的\n-……那除了哈尔滨还有哪里印象深刻的？\n-内蒙\n-为啥呢？\n-我媳妇家\n-……\n💺座位视野\n视野很棒，第五排中间位置。",
+                        "isNewContentCard": "true"
+                      }
+                    },
+                    "level": "3",
+                    "more": "false",
+                    "type": "7557"
+                  }
+                ],
+                "style": {},
+                "type": "7541"
+              }
+            ],
+            "type": "9989"
+          }
+        ]
+      }
+    ]
+  },
+  "ret": [
+    "SUCCESS::调用成功"
+  ],
+  "v": "3.0"
+}

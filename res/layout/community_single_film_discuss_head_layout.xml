@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:background="@color/white" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/color_tpp_primary_assist" android:id="@id/community_tv_all_discuss" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="全部" android:layout_centerVertical="true" />
+    <View android:id="@id/community_top_line_one" android:background="@color/color_tpp_primary_divider" android:layout_width="0.5dip" android:layout_height="12.0dip" android:layout_toRightOf="@id/community_tv_all_discuss" android:layout_centerVertical="true" />
+    <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/color_tpp_primary_assist" android:id="@id/community_tv_hot_discuss" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="热门" android:layout_toRightOf="@id/community_top_line_one" android:layout_centerVertical="true" />
+    <View android:id="@id/community_top_line_two" android:background="@color/color_tpp_primary_divider" android:layout_width="0.5dip" android:layout_height="12.0dip" android:layout_toRightOf="@id/community_tv_hot_discuss" android:layout_centerVertical="true" />
+    <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/color_tpp_primary_assist" android:id="@id/community_tv_same_city_discuss" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="同城" android:layout_toRightOf="@id/community_top_line_two" android:layout_centerVertical="true" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/color_tpp_primary_assist" android:id="@id/community_tv_discuss_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:text="1000条评论" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</merge>

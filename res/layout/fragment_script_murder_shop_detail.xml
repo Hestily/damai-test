@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@id/one_arch_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srlEnableLoadMore="false">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/one_arch_recyclerView" android:background="@color/white" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    <com.alient.onearch.adapter.widget.OneTabLayout android:id="@id/sticky_header" android:background="@color/white" android:paddingBottom="2.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/resource_size_53" app:tabMinWidth="@dimen/resource_size_25" app:tabPaddingEnd="0.0dip" app:tabPaddingStart="0.0dip" style="@style/ScriptTabStyle" />
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.damai.commonbusiness.photoselect.imageselected.view.SquareImageView android:layout_gravity="center" android:id="@id/iv_image" android:background="@drawable/add_photo_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" />
+    <RelativeLayout android:layout_gravity="center" android:id="@id/add_photo_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/rv_image">
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="32.0dip" android:textColor="@color/color_AAAAAA" android:id="@id/add_image" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="20.0dip" android:text="@string/iconfont_xiangce24" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/color_AAAAAA" android:id="@id/iv_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/add_image" android:layout_below="@id/add_image" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</FrameLayout>

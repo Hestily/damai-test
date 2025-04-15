@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/bottom_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/city_pass_view" android:background="@android:color/white" android:paddingLeft="6.0dip" android:paddingRight="15.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="35.0dip">
+        <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="9.0dip" android:textColor="@color/color_tpp_primary_assist" android:gravity="center" android:id="@id/city_pass_close" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/iconf_close" />
+        <com.taobao.movie.android.commonui.widget.SimpleDraweeView android:id="@id/city_pass_icon" android:layout_width="13.0dip" android:layout_height="13.0dip" android:layout_marginLeft="5.0dip" app:actualImageScaleType="centerInside" app:failureImage="@drawable/citypass_icon" app:failureImageScaleType="centerInside" app:placeholderImage="@drawable/citypass_icon" app:placeholderImageScaleType="centerInside" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/common_color_1008" android:ellipsize="end" android:id="@id/city_pass_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:maxLines="1" android:singleLine="true" android:layout_weight="1.0" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/common_text_color13" android:ellipsize="end" android:id="@id/city_pass_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" />
+        <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="9.0dip" android:textColor="@color/common_text_color13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/iconf_right_arrow" />
+    </LinearLayout>
+    <View android:id="@id/city_pass_line" android:background="@color/common_divider_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <FrameLayout android:id="@id/btn_buy" android:background="@drawable/select_seat_bottom_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" android:layout_marginBottom="3.0dip">
+        <LinearLayout android:gravity="center" android:orientation="vertical" style="@style/select_seat_bottom">
+            <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/buy_ticket_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/tickets_confirm" android:includeFontPadding="false" />
+            <TextView android:textSize="10.0dip" android:textColor="@android:color/white" android:gravity="center" android:id="@id/buy_ticket_action_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:includeFontPadding="false" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

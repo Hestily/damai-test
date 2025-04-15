@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/fl_inner" android:paddingLeft="@dimen/margin_24dp" android:paddingTop="@dimen/margin_12dp" android:paddingRight="@dimen/margin_24dp" android:paddingBottom="@dimen/margin_12dp" android:layout_width="fill_parent" android:layout_height="100.0dip">
+        <View android:id="@id/loadingLayout_status_bar_space" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_alignParentTop="true" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/loadingLayout_status_bar_space">
+            <FrameLayout android:id="@id/inner_icon" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:id="@id/pull_to_refresh_image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ProgressBar android:layout_gravity="center" android:id="@id/pull_to_refresh_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:indeterminateDrawable="@drawable/uikit_pull_to_refresh_loading" style="?android:progressBarStyleInverse" />
+            </FrameLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</merge>

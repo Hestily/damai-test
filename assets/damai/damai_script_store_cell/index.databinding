@@ -1,0 +1,101 @@
+{
+  "data": {
+    "store_image": {
+      "value": "@{eval(size(${posterUrl}) > 0) ? ${posterUrl} : @{env(isAndroid) ? 'gaiax_res:uikit_default_image_bg_grey' : 'gaiax_res:script_can_play_store_default_image' }}",
+      "placeholder": "@{env(isAndroid) ? 'uikit_default_image_bg_grey' : 'script_can_play_store_default_image' }"
+    },
+    "store_title": {
+      "value": "${name}",
+      "extend": {
+        "fit-content": "true",
+        "font-weight": "@{env(isAndroid) ? '400' : '500'}"
+      }
+    },
+    "score_and_distance": {
+      "extend": {
+        "display": "@{${score} ? flex : @{${distance} ? flex : none}}"
+      }
+    },
+    "star_info_holder": {
+      "extend": {
+        "display": "@{${score} ? flex : none}",
+        "width": "@{${score} ? 68px : 0px}",
+        "margin-top": "@{env(isAndroid) ? '1px' : '0px'}"
+      }
+    },
+    "star_1": {
+      "value": "@{eval(${starValue[0]} == 'zero') ? @{env(isAndroid) ? 'gaiax_res:rating_empty_type_2' : 'gaiax_res:store_star_zero'} : @{eval(${starValue[0]} == 'half') ? @{env(isAndroid) ? 'gaiax_res:rating_half_type_2' : 'gaiax_res:store_star_half'} : @{env(isAndroid) ? 'gaiax_res:rating_fill_type_2' : 'gaiax_res:store_star_full'}}}",
+      "extend": {
+        "fit-content": "true",
+        "display": "@{${score} ? flex : none}"
+      }
+    },
+    "star_2": {
+      "value": "@{eval(${starValue[1]} == 'zero') ? @{env(isAndroid) ? 'gaiax_res:rating_empty_type_2' : 'gaiax_res:store_star_zero'} : @{eval(${starValue[1]} == 'half') ? @{env(isAndroid) ? 'gaiax_res:rating_half_type_2' : 'gaiax_res:store_star_half'} : @{env(isAndroid) ? 'gaiax_res:rating_fill_type_2' : 'gaiax_res:store_star_full'}}}",
+      "extend": {
+        "fit-content": "true",
+        "display": "@{${score} ? flex : none}"
+      }
+    },
+    "star_3": {
+      "value": "@{eval(${starValue[2]} == 'zero') ? @{env(isAndroid) ? 'gaiax_res:rating_empty_type_2' : 'gaiax_res:store_star_zero'} : @{eval(${starValue[2]} == 'half') ? @{env(isAndroid) ? 'gaiax_res:rating_half_type_2' : 'gaiax_res:store_star_half'} : @{env(isAndroid) ? 'gaiax_res:rating_fill_type_2' : 'gaiax_res:store_star_full'}}}",
+      "extend": {
+        "fit-content": "true",
+        "display": "@{${score} ? flex : none}"
+      }
+    },
+    "star_4": {
+      "value": "@{eval(${starValue[3]} == 'zero') ? @{env(isAndroid) ? 'gaiax_res:rating_empty_type_2' : 'gaiax_res:store_star_zero'} : @{eval(${starValue[3]} == 'half') ? @{env(isAndroid) ? 'gaiax_res:rating_half_type_2' : 'gaiax_res:store_star_half'} : @{env(isAndroid) ? 'gaiax_res:rating_fill_type_2' : 'gaiax_res:store_star_full'}}}",
+      "extend": {
+        "fit-content": "true",
+        "display": "@{${score} ? flex : none}"
+      }
+    },
+    "star_5": {
+      "value": "@{eval(${starValue[4]} == 'zero') ? @{env(isAndroid) ? 'gaiax_res:rating_empty_type_2' : 'gaiax_res:store_star_zero'} : @{eval(${starValue[4]} == 'half') ? @{env(isAndroid) ? 'gaiax_res:rating_half_type_2' : 'gaiax_res:store_star_half'} : @{env(isAndroid) ? 'gaiax_res:rating_fill_type_2' : 'gaiax_res:store_star_full'}}}",
+      "extend": {
+        "fit-content": "true",
+        "display": "@{${score} ? flex : none}"
+      }
+    },
+    "score_num": {
+      "value": "${score}",
+      "extend": {
+        "fit-content": "true",
+        "display": "@{${score} ? flex : none}"
+      }
+    },
+    "line_container": {
+      "extend": {
+        "display": "@{${score} ? @{${distance} ? flex : none} : none}"
+      }
+    },
+    "score_dis_spe_line": {
+      "value": "｜",
+      "extend": {
+        "fit-content": "true",
+        "display": "@{${score} ? @{${distance} ? flex : none} : none}"
+      }
+    },
+    "store_distance": {
+      "value": "${distance}",
+      "extend": {
+        "fit-content": "true",
+        "display": "@{${distance} ? flex : none}"
+      }
+    },
+    "store_price_view": {
+      "extend": { "display": "@{${price} ? flex : none}" }
+    },
+    "rmb_text": { "value": "¥", "extend": { "fit-content": "true" } },
+    "store_price_text": {
+      "value": "${price}",
+      "extend": { "fit-content": "true" }
+    },
+    "store_price_unit": { "value": "/人", "extend": { "fit-content": "true" } },
+    "buy_text": {
+      "value": "购买",
+      "extend": { "font-weight": "@{env(isAndroid) ? 400 : 500}" }
+    }
+  }
+}

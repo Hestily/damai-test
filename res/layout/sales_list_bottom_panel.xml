@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/chargecard_item" android:visibility="gone" layout="@layout/order_ordering_frag_payment_chargecard_common" />
+    <View android:background="@color/color_tpp_primary_bg" android:layout_width="fill_parent" android:layout_height="0.70000005dip" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/sale_bottom_upper" android:background="@color/color_tpp_primary_95_white" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="55.0dip">
+        <TextView android:textSize="15.0dip" android:textColor="@color/common_text_color45" android:id="@id/sale_bottom_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="小食总计" android:includeFontPadding="false" android:layout_weight="1.0" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <TextView android:textSize="15.0dip" android:textColor="@color/color_tpp_primary_assist" android:id="@id/sale_bottom_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_centerVertical="true" />
+            <TextView android:textSize="20.0dip" android:textColor="@color/tpp_primary_red" android:id="@id/sale_bottom_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:includeFontPadding="false" android:layout_toRightOf="@id/sale_bottom_value" android:layout_alignBaseline="@id/sale_bottom_value" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/tpp_primary_red" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="元" android:includeFontPadding="false" android:layout_toRightOf="@id/sale_bottom_price" android:layout_alignBaseline="@id/sale_bottom_value" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:gravity="center" android:id="@id/sale_bottom_confirm" android:background="@drawable/main_button_effect" android:layout_width="fill_parent" android:layout_height="55.0dip">
+        <TextView android:textSize="17.0dip" android:textColor="@color/common_text_color46" android:id="@id/sale_bottom_confirm_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="立即购买" />
+    </RelativeLayout>
+</LinearLayout>

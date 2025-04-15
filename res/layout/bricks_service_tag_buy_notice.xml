@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/id_scenic_prefix_line" android:background="@color/bricks_959AA5" android:layout_width="0.5dip" android:layout_height="10.0dip" android:layout_marginRight="6.0dip" />
+    <TextView android:textSize="@dimen/resource_size_11" android:textColor="@color/bricks_5f6672" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="购买须知" />
+    <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="@dimen/resource_size_9" android:textColor="@color/bricks_5f6672" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_xf_jiantousmall_you" android:layout_marginStart="@dimen/resource_size_2" />
+</LinearLayout>

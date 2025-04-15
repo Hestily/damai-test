@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ticklet_list_calendar_tip" android:background="@drawable/bg_ticklet_list_calendar_tip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="33.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip">
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_13dp" android:textColor="?tickletListHeadIconColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_tixing18" android:layout_marginStart="14.0dip" />
+        <TextView android:textSize="@dimen/margin_12dp" android:textColor="?tickletListHeadColor" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="点这里添加日历提醒" android:layout_weight="1.0" android:layout_marginStart="@dimen/margin_6dp" />
+        <TextView android:textSize="@dimen/margin_12dp" android:textColor="?tickletListHeadColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="去添加" />
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_11dp" android:textColor="?tickletListHeadIconColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.5dip" android:text="@string/iconfont_youjiantou12" android:layout_marginEnd="10.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/ticklet_list_vip_tip" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginEnd="@dimen/margin_12dp" android:layout_alignParentEnd="true">
+        <TextView android:textSize="@dimen/margin_14dp" android:textColor="?tickletListHeadColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="票根纪念册" android:layout_marginEnd="-2.0dip" />
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textColor="?tickletListHeadIconColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_youjiantou16" />
+    </LinearLayout>
+</RelativeLayout>

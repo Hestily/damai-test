@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/color_tpp_primary_bg" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@color/common_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="48.0dip">
+            <TextView android:textSize="16.0dip" android:textColor="@color/common_text_color10" android:id="@id/phone_hint" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="手机号码" android:layout_centerVertical="true" />
+            <EditText android:textSize="@dimen/t2" android:textColor="@color/common_text_color10" android:textColorHint="@color/common_text_color13" android:id="@id/oscar_edit_phone" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="28.0dip" android:layout_marginLeft="@dimen/margin_16" android:hint="输入手机号码" android:singleLine="true" android:maxLength="13" android:phoneNumber="true" android:layout_toRightOf="@id/phone_hint" android:layout_centerVertical="true" android:inputType="phone" android:imeOptions="actionDone" android:imeActionLabel="完成" />
+            <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="22.0dip" android:textColor="@color/common_text_color2" android:id="@id/oscar_edit_phone_open_contract" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16" android:layout_marginRight="@dimen/margin_16" android:text="@string/iconf_phone_book" android:layout_alignRight="@id/oscar_edit_phone" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View android:background="@color/common_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerview" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:background="@color/color_tpp_primary_80_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:id="@id/oscar_edit_phone_done" android:layout_marginTop="@dimen/margin_8" android:text="确定" style="@style/button_style_binding" />
+    </LinearLayout>
+</RelativeLayout>

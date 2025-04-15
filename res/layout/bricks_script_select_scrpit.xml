@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip">
+        <com.alibaba.pictures.bricks.view.RoundRadiusImageView android:id="@id/script_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bricks_uikit_default_image_bg_grey" android:scaleType="fitXY" app:r_round_radius="6.0dip" />
+        <View android:layout_gravity="center|right|top" android:id="@id/checkbox_bg" android:background="@android:color/white" android:layout_width="14.0dip" android:layout_height="12.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" />
+        <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center|right|top" android:id="@id/checkbox" android:layout_width="21.0dip" android:layout_height="21.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:text="@string/iconfont_yuangouxuanweixuanzhong" />
+    </FrameLayout>
+    <TextView android:textSize="14.0dip" android:textColor="#ff111111" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/script_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:maxLines="1" android:includeFontPadding="false" />
+</LinearLayout>

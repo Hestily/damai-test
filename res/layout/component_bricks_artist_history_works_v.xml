@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.pictures.bricks.view.RCRelativeLayoutView android:gravity="center_horizontal" android:orientation="vertical" android:paddingBottom="@dimen/resource_size_15" android:layout_width="@dimen/resource_size_94" android:layout_height="197.0dip" app:clip_background="true" app:round_corner_top_left="@dimen/resource_size_21"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="@dimen/resource_size_12" android:textColor="#ff181818" android:gravity="center" android:id="@id/tag" android:layout_width="wrap_content" android:layout_height="@dimen/resource_size_31" />
+        <com.alibaba.pictures.moimage.MoImageView android:id="@id/poster" android:layout_width="fill_parent" android:layout_height="125.0dip" android:layout_below="@id/tag" app:actualImageScaleType="centerCrop" app:failureImage="@drawable/bg_bricks_poster_place_holder_gray" app:placeholderImage="@drawable/bg_bricks_poster_place_holder_gray" app:roundBottomLeft="false" app:roundBottomRight="false" app:roundedCornerRadius="@dimen/resource_size_9" />
+        <com.alibaba.pictures.bricks.view.RCRelativeLayoutView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:clip_background="true" app:round_corner_bottom_left="@dimen/resource_size_9" app:round_corner_bottom_right="@dimen/resource_size_9">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="61.0dip">
+                <View android:id="@id/mask_top" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <View android:id="@id/mask_bottom" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+        </com.alibaba.pictures.bricks.view.RCRelativeLayoutView>
+        <RelativeLayout android:orientation="vertical" android:paddingLeft="@dimen/resource_size_6" android:paddingRight="@dimen/resource_size_6" android:layout_width="wrap_content" android:layout_height="@dimen/resource_size_61" android:layout_alignParentBottom="true">
+            <TextView android:textSize="@dimen/resource_size_10" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/resource_size_15" android:maxLines="2" android:includeFontPadding="false" />
+            <TextView android:textSize="@dimen/resource_size_8" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/resource_size_6" android:maxLines="1" android:includeFontPadding="false" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</com.alibaba.pictures.bricks.view.RCRelativeLayoutView>

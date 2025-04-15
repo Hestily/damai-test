@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.legacy.widget.Space android:id="@id/top_space" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="7.0dip" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/color_tpp_primary_assist" android:layout_gravity="center|left" android:id="@id/tv_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="单人餐" />
+</LinearLayout>

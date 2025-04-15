@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_15_dp" android:textColor="@color/color_tpp_primary_assist" android:id="@id/text_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="你没有可用的券" android:includeFontPadding="false" android:layout_centerInParent="true" />
+</RelativeLayout>

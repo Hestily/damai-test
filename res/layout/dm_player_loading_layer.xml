@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.damai.uikit.irecycler.widget.LoadingView android:layout_gravity="center" android:id="@id/loading_view" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+    <ProgressBar android:id="@id/xf_progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateDrawable="@drawable/bricks_pioneer_pull_to_load_more_loading" />
+</FrameLayout>

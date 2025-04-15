@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/mine_ticket_tab_root_layout" android:paddingTop="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="12.0dip" android:paddingEnd="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.uikit.view.HoleCardView android:id="@id/mine_ticket_tab_all_layout_card" android:layout_width="fill_parent" android:layout_height="184.0dip" app:holeBackgroundColor="@android:color/transparent" app:holeCornerRadius="12.0dip" app:holeScallopRadius="6.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/mine_ticket_tab_all_layout" android:background="@drawable/mine_item_ticket_bg_empty" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <cn.damai.mine.userinfo.view.pioneertab.MineSecondLeveTabView android:id="@id/mine_ticket_tab_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <androidx.viewpager2.widget.ViewPager2 android:id="@id/mine_ticket_view_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <cn.damai.uikit.view.round.RoundRelativeLayout android:id="@id/mine_ticket_go_to_page_layout" android:background="@drawable/bg_pioneer_mine_ticket_tab_bottom_tan" android:layout_width="fill_parent" android:layout_height="46.0dip" app:rBottomRadius="12.0dip">
+                <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="@dimen/resource_size_18" android:textStyle="bold" android:textColor="@color/color_181818" android:paddingLeft="@dimen/margin_15dp" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="票夹" android:layout_alignParentBottom="true" />
+                <LinearLayout android:paddingRight="@dimen/margin_12dp" android:paddingBottom="@dimen/margin_13dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+                    <TextView android:textSize="@dimen/resource_size_12" android:textColor="@color/color_181818" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="查看更多票" />
+                    <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="@dimen/resource_size_12" android:textColor="@color/color_181818" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_xf_bofang" />
+                </LinearLayout>
+            </cn.damai.uikit.view.round.RoundRelativeLayout>
+        </LinearLayout>
+    </cn.damai.uikit.view.HoleCardView>
+    <cn.damai.uikit.view.HoleCardView android:id="@id/mine_ticket_tab_all_empty_layout_card" android:layout_width="fill_parent" android:layout_height="132.0dip" app:holeBackgroundColor="@android:color/transparent" app:holeCornerRadius="12.0dip" app:holeScallopRadius="6.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/mine_ticket_tab_all_empty_layout" android:background="@drawable/mine_item_ticket_bg_empty" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="9.0dip">
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <View android:background="@drawable/pioneer_mine_ticket_tab_layout_indicator" android:layout_width="16.0dip" android:layout_height="3.0dip" android:layout_marginTop="-1.0dip" android:layout_below="@id/empty_tab_title_text" android:layout_centerHorizontal="true" />
+                    <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="@dimen/resource_size_15" android:textColor="#ff171717" android:id="@id/empty_tab_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="演出门票" />
+                </RelativeLayout>
+                <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="@dimen/resource_size_14" android:textColor="#66666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.5dip" android:text="电影票" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:paddingTop="20.5dip" android:paddingBottom="17.5dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="@dimen/resource_size_11" android:textColor="#ffff7600" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="登录" />
+                <TextView android:textSize="@dimen/resource_size_11" android:textColor="#ff959aa5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="后查看可用票" />
+            </LinearLayout>
+            <cn.damai.uikit.view.round.RoundRelativeLayout android:id="@id/mine_ticket_tab_all_bottom_layout" android:background="@drawable/bg_pioneer_mine_ticket_tab_bottom_tan" android:layout_width="fill_parent" android:layout_height="46.0dip" app:rBottomRadius="12.0dip">
+                <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="@dimen/resource_size_16" android:textStyle="bold" android:textColor="@color/color_181818" android:paddingLeft="@dimen/margin_15dp" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="票夹" android:layout_alignParentBottom="true" />
+                <LinearLayout android:paddingRight="@dimen/margin_12dp" android:paddingBottom="@dimen/margin_13dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+                    <TextView android:textSize="@dimen/resource_size_12" android:textColor="@color/color_181818" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="查看更多票" />
+                    <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="@dimen/resource_size_12" android:textColor="@color/color_181818" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_xf_bofang" />
+                </LinearLayout>
+            </cn.damai.uikit.view.round.RoundRelativeLayout>
+        </LinearLayout>
+    </cn.damai.uikit.view.HoleCardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

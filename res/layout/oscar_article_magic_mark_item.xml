@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/white" android:paddingTop="35.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0dip" android:textColor="@color/common_color_1006" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="/ " android:includeFontPadding="false" />
+    <TextView android:textSize="18.0dip" android:textColor="@color/common_text_color9" android:orientation="vertical" android:id="@id/tv_article_magic_mark_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="今日更新" android:includeFontPadding="false" />
+    <TextView android:textSize="18.0dip" android:textColor="@color/common_color_1006" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" /" android:includeFontPadding="false" />
+</LinearLayout>

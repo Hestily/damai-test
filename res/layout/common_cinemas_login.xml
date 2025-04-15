@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/bottom_zone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.taobao.movie.android.app.oscar.ui.cinema.widget.ShowMyLocationView android:id="@id/show_location" android:layout_width="fill_parent" android:layout_height="28.0dip" />
+    <ViewStub android:id="@id/login_view" android:layout="@layout/layout_common_login_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

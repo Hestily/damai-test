@@ -1,0 +1,25 @@
+{
+  "id": "gaia_dm_hot_music_festival_project_list_item",
+  "type": "gaia-template",
+  "package": {
+    "id": "gaia_dm_hot_music_festival_project_list_item",
+    "version": "0.0.1",
+    "modify-timestamp": "Thu Jul 15 2021 16:49:49 GMT+0800 (中国标准时间)",
+    "constraint-size": { "width": 200, "height": 200, "zoom": 1 },
+    "dependencies": {}
+  },
+  "layers": [
+    { "id": "bg_image", "type": "image" },
+    { "id": "festival_title", "type": "text" },
+    {
+      "id": "content_price",
+      "type": "view",
+      "layers": [
+        { "id": "price_prefix", "type": "text" },
+        { "id": "price_num", "type": "text" },
+        { "id": "price_suffix", "type": "text" }
+      ]
+    },
+    { "id": "date_text", "type": "text" }
+  ]
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.moimage.MoImageView android:id="@id/home_head_second_floor_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" />
+    <com.alibaba.pictures.moimage.MoImageView android:id="@id/home_head_second_floor_pic" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/home_head_default_bg" android:layout_width="fill_parent" android:layout_height="132.0dip" android:src="@drawable/bricks_dm_home_guide_bar_full_bg" android:scaleType="fitXY" />
+    <View android:id="@id/home_pull_refresh_bg" android:background="@drawable/bricks_dm_home_pull_down_refresh_bg_v3" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@id/one_arch_refresh_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/home_page_guide" app:srlHeaderHeight="75.0dip" app:srlHeaderMaxDragRate="6.0" app:srlHeaderTriggerRate="0.8">
+        <com.alibaba.pictures.bricks.view.NestedRecyclerView android:id="@id/one_arch_recyclerView" android:background="#fff4f5f6" android:paddingBottom="@dimen/dim_6" android:clipChildren="false" android:clipToPadding="false" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    <com.alibaba.pictures.bricks.home.DMHomeWaterFlowTabLayout android:id="@id/feed_tab" android:background="@color/cg_7" android:paddingBottom="2.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_below="@id/home_page_guide" app:tabGravity="start" app:tabMinWidth="@dimen/resource_size_25" app:tabPaddingEnd="0.0dip" app:tabPaddingStart="0.0dip" style="@style/HomeFeedTabStyle" />
+    <FrameLayout android:id="@id/home_page_guide" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</RelativeLayout>

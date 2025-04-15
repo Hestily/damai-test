@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/relate_project_city_list_ui" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="#1a000000" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <FrameLayout android:id="@id/relate_project_city_list_layout" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/relate_project_city_list" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginTop="8.0dip" />
+        <View android:layout_gravity="right" android:background="@drawable/bg_card_edge_mask" android:layout_width="39.0dip" android:layout_height="fill_parent" android:layout_marginTop="1.0dip" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="176.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/user_iv_header" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="18.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <ImageView android:id="@id/tv_header_v" android:paddingTop="2.0dip" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="18.0dip" android:src="@drawable/user_v_tag" android:layout_alignRight="@id/user_iv_header" android:layout_alignBottom="@id/user_iv_header" />
+    <TextView android:textSize="24.0dip" android:textColor="#ffffffff" android:id="@id/user_tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="20.0dip" android:text="" android:maxLines="1" android:layout_alignParentLeft="true" />
+    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="13.0dip" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/user_tv_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="30.0dip" android:text="" android:maxLines="2" android:layout_toLeftOf="@id/user_iv_header" android:layout_below="@id/user_tv_name" android:layout_alignParentLeft="true" android:lineSpacingMultiplier="1.2" />
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_fans" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true">
+        <RelativeLayout android:gravity="left" android:id="@id/ll_left" android:paddingLeft="18.0dip" android:clickable="true" android:layout_width="125.0dip" android:layout_height="wrap_content">
+            <include layout="@layout/mine_userprofile_fans_new" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/ll_mid" android:clickable="true" android:layout_width="124.899994dip" android:layout_height="wrap_content" android:layout_marginLeft="138.0dip">
+            <include layout="@layout/mine_userprofile_fans_new" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

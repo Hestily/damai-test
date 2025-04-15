@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:background="@color/white" android:paddingBottom="@dimen/margin_15dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0dip" android:textColor="#ff9c9ca5" android:gravity="center" android:paddingRight="@dimen/margin_9dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="分享到" />
+    <ImageView android:layout_gravity="center" android:id="@id/icon_wx" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/icon_wx" />
+    <ImageView android:id="@id/icon_friend" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/icon_friend" />
+    <ImageView android:id="@id/icon_help" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/share_icon_pic" />
+</LinearLayout>

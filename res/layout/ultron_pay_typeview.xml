@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_pay" android:paddingLeft="@dimen/margin_21dp" android:paddingRight="@dimen/margin_21dp" android:layout_width="fill_parent" android:layout_height="36.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_pay" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_6dp" android:layout_marginRight="6.0dip" android:layout_toLeftOf="@id/cb_pay_check" android:layout_toRightOf="@id/iv_pay" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/margin_16dp" android:textColor="@color/color_000000" android:id="@id/tv_pay_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="支付宝" />
+        <TextView android:textSize="@dimen/margin_10dp" android:textColor="@color/color_ff2d79" android:ellipsize="end" android:id="@id/text_promotion" android:background="@drawable/shape_stroke_ff1268" android:paddingLeft="6.0dip" android:paddingTop="1.0dip" android:paddingRight="6.0dip" android:paddingBottom="1.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_9dp" android:text="优惠" android:maxLines="1" />
+    </LinearLayout>
+    <CheckBox android:id="@id/cb_pay_check" android:background="@drawable/dm_purchase_check_select_circle_bg" android:padding="0.0dip" android:clickable="false" android:layout_width="@dimen/margin_16dp" android:layout_height="@dimen/margin_16dp" android:layout_margin="0.0dip" android:button="@null" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

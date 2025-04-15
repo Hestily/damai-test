@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/common_rank_bg1" android:layout_width="208.0dip" android:layout_height="181.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.uikit.view.round.RoundImageView2 android:id="@id/ip_album_item_pic" android:layout_width="208.0dip" android:layout_height="117.0dip" android:scaleType="centerCrop" android:layout_alignParentTop="true" app:rRadius="6.0dip" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    <cn.damai.uikit.view.round.RoundImageView2 android:id="@id/ip_album_item_pic_cover" android:background="@drawable/bg_border_corner_2600000_6" android:layout_width="208.0dip" android:layout_height="117.0dip" android:scaleType="centerCrop" android:layout_alignParentTop="true" app:rRadius="6.0dip" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    <ImageView android:id="@id/ip_video_album_play" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginTop="47.0dip" android:src="@drawable/home_video_icon" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@id/ip_video_pic_tip" android:background="@drawable/bg_border_corner_4_black" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:layout_marginBottom="3.0dip" android:layout_alignRight="@id/ip_album_item_pic" android:layout_alignBottom="@id/ip_album_item_pic">
+        <TextView android:textSize="10.0dip" android:textColor="#ccffffff" android:id="@id/ip_video_pic_tiptv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ip_video_album_desc" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_below="@id/ip_album_item_pic">
+        <TextView android:textSize="14.0dip" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/ip_video_album_item_comment" android:paddingLeft="@dimen/margin_9dp" android:paddingRight="@dimen/margin_9dp" android:layout_width="wrap_content" android:layout_height="32.0dip" android:text="" android:maxLines="1" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/margin_9dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <cn.damai.uikit.view.RoundImageView android:id="@id/ip_video_album_item_header" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" app:type="circle" />
+            <TextView android:textSize="10.0dip" android:textColor="@color/color_9C9CA5" android:id="@id/ip_video_album_item_name" android:paddingLeft="@dimen/margin_5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+            <ImageView android:id="@id/ip_video_album_usericon" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginLeft="3.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

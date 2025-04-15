@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/onearch_white_corner_6" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alient.onearch.adapter.widget.RoundRadiusImageView android:id="@id/list_bg" android:layout_width="fill_parent" android:layout_height="260.0dip" android:scaleType="centerCrop" app:r_round_radius="6.0dip" />
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/title_lay" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="16.5dip" android:layout_marginRight="12.0dip">
+        <ImageView android:id="@id/title" android:layout_width="240.0dip" android:layout_height="15.0dip" android:scaleType="fitStart" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+            <TextView android:textSize="@dimen/font_Subhead2_R" android:textColor="#ff5f6672" android:ellipsize="end" android:gravity="center|right" android:id="@id/more_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="15.0dip" android:text="全部" android:maxLines="1" />
+            <ImageView android:id="@id/more_arrow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/resource_size_2" android:src="@drawable/onearch_icon_right_black_arrow" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.alient.onearch.adapter.widget.pager.SnapHorizontalListView android:id="@id/snap_horizontal_list" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_below="@id/title_lay" android:overScrollMode="never" app:snapGravity="start" />
+</RelativeLayout>

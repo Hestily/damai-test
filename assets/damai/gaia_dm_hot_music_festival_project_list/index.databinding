@@ -1,0 +1,5 @@
+{
+  "data": {
+    "gaia_dm_hot_music_festival_project_list": { "value": "${item.result}" }
+  }
+}

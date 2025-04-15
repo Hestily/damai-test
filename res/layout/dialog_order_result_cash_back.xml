@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="550.0dip">
+        <com.taobao.movie.android.commonui.widget.SafeLottieAnimationView android:id="@id/cash_back_animation_view" android:layout_width="wrap_content" android:layout_height="fill_parent" app:lottie_autoPlay="false" app:lottie_loop="false" app:lottie_progress="0.0" />
+        <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/cash_back_amount_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="205.0dip">
+                <LinearLayout android:gravity="bottom|center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="63.0dip">
+                    <TextView android:textSize="45.0dip" android:textStyle="bold" android:textColor="@color/order_result_cash_back_amount" android:id="@id/cash_back_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" />
+                    <TextView android:textSize="23.0dip" android:textStyle="bold" android:textColor="@color/order_result_cash_back_amount" android:id="@id/cash_back_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/order_result_cash_back_unit" android:layout_marginStart="5.0dip" />
+                </LinearLayout>
+                <TextView android:textSize="13.0dip" android:textColor="@color/order_result_cash_back_summary" android:layout_gravity="center_horizontal" android:id="@id/cash_back_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <View android:id="@id/goto_detail" android:layout_width="200.0dip" android:layout_height="65.0dip" android:layout_marginTop="335.0dip" android:layout_centerHorizontal="true" />
+            <View android:id="@id/close" android:layout_width="75.0dip" android:layout_height="75.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

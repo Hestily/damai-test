@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/search_bar" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+        <LinearLayout android:gravity="center" android:background="@drawable/common_search_edit_background" android:layout_width="0.0dip" android:layout_height="36.0dip" android:layout_marginLeft="@dimen/margin_15" android:layout_marginRight="14.0dip" android:layout_weight="1.0">
+            <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="@dimen/text_size_14_dp" android:textColor="@color/common_color_1008" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_font_search" android:layout_marginStart="8.0dip" />
+            <EditText android:textSize="@dimen/text_size_13_dp" android:textColor="@color/color_tpp_primary_main_title" android:textColorHint="@color/color_tpp_primary_assist" android:id="@id/common_search_edit_text" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:hint="" android:singleLine="true" android:layout_weight="1.0" android:imeOptions="actionSearch" />
+            <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="@dimen/text_size_14_dp" android:textColor="#ff8c8c92" android:gravity="center" android:id="@id/common_search_edit_text_clear" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="fill_parent" android:text="@string/icon_font_close" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_size_13_dp" android:textColor="@color/common_text_color9" android:id="@id/common_search_func_btn" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14.0dip" android:text="取消" />
+    </LinearLayout>
+    <View style="@style/ListItemBorder" />
+</LinearLayout>

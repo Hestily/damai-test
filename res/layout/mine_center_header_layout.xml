@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/mine_center_header_id" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.mine.view.MineUserInfoView android:id="@id/mine_user_info_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <cn.damai.mine.view.MineVipMemberView android:id="@id/layout_mine_vip_member_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_12dp" android:layout_marginTop="@dimen/margin_12dp" android:layout_marginRight="@dimen/margin_12dp" />
+    <cn.damai.mine.view.pioneer.PioneerMineHeadAllView android:id="@id/pioneer_layout_mine_head_all_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

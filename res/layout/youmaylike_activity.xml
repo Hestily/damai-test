@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="20.0dip" android:textColor="@color/white" android:id="@id/close_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="19.0dip" android:layout_marginTop="25.0dip" android:text="@string/iconf_off_single_close" />
+    <FrameLayout android:id="@id/loading_layout" android:background="@drawable/tpp_simple_toast_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:id="@android:id/progress" android:layout_width="30.0dip" android:layout_height="30.0dip" style="@android:style/Widget.ProgressBar" />
+    </FrameLayout>
+</FrameLayout>

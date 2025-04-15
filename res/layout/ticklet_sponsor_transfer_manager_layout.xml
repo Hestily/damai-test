@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ticklet_transfer_manager_list" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:ptr="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/ticklet_sponsor_transfer_manager_title" android:background="@color/white" layout="@layout/ticklet_common_title" />
+    <LinearLayout android:orientation="vertical" android:id="@id/errorPageView" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ticklet_sponsor_transfer_manager_title" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ticklet_sponsor_transfer_list_layout" android:background="@color/color_f2f3f4" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/ticklet_transfer_ll_layout" android:layout_below="@id/ticklet_sponsor_transfer_manager_title">
+        <cn.damai.uikit.irecycler.IRecyclerView android:id="@id/ticklet_sponsor_transfer_list" android:background="@color/white" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ticklet_transfer_ll_layout" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentBottom="true">
+        <View android:background="@color/color_eeeeee" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <TextView android:gravity="center_vertical" android:id="@id/ticklet_transfer_one_ticket_tip" android:paddingLeft="15.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="50.0dip" android:text="@string/ticklet_transfer_limit_one_ticket" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/ticklet_999999_12dp" />
+        <cn.damai.uikit.view.DMActionButtonBgView android:gravity="center" android:id="@id/ticklet_sponsor_transfer_confirm" android:layout_width="160.0dip" android:layout_height="44.0dip" android:layout_marginRight="@dimen/margin_15dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/ticklet_transfer_ll_inputphone_layout" android:background="#99000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/color_F5F5F5" android:paddingLeft="15.0dip" android:paddingRight="@dimen/margin_15dp" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentBottom="true">
+            <EditText android:textSize="@dimen/margin_16dp" android:textColor="@color/color_111111" android:textColorHint="@color/color_BBBBBB" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/ticklet_sponsor_transfer_phone" android:background="@null" android:paddingLeft="9.0dip" android:focusable="true" android:focusableInTouchMode="true" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/ticklet_transfer_ticket_phone_hint" android:layout_weight="1.0" android:inputType="number" />
+            <cn.damai.uikit.view.DMActionButtonBgView android:gravity="center" android:id="@id/ticklet_sponsor_transfer_phone_confirm" android:layout_width="58.0dip" android:layout_height="32.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

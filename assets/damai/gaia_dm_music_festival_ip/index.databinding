@@ -1,0 +1,9 @@
+{
+  "data": {
+    "music_festival_ip_title": {
+      "value": "${style.title}",
+      "extend": { "font-weight": "@{ env(isAndroid) ? '400' : '500' }" }
+    },
+    "gaia_dm_music_festival_ip_list": { "value": "$$" }
+  }
+}

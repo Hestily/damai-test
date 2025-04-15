@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.uikit.iconfont.DMIconFontTextView android:gravity="center" android:id="@id/ticklet_ticket_left_arrow" android:paddingTop="@dimen/margin_20dp" android:paddingBottom="@dimen/margin_20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_ticket_leftarrows" android:layout_toLeftOf="@id/ticklet_ll_main_view" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/ticklet_dddddd_18dp" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ticklet_ll_main_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginBottom="@dimen/margin_9dp" android:layout_centerInParent="true">
+        <include layout="@layout/ticklet_ticket_main_qrcode_layout" />
+        <include layout="@layout/ticklet_ticket_main_qrcode_num_layout" />
+        <include layout="@layout/ticklet_ticket_main_card_layout" />
+        <include layout="@layout/ticklet_ticket_main_imei_layout" />
+        <include layout="@layout/ticklet_ticket_main_paper_layout" />
+        <include layout="@layout/ticklet_ticket_main_transfer_layout" />
+        <include layout="@layout/ticklet_ticket_main_pdf_layout" />
+        <include layout="@layout/ticklet_ticket_main_other_layout" />
+        <include layout="@layout/ticklet_ticket_main_face_layout" />
+    </LinearLayout>
+    <com.taobao.uikit.extend.feature.view.TUrlImageView android:id="@id/test_apng" android:layout_width="@dimen/ticklet_margin_205dp" android:layout_height="fill_parent" android:scaleType="fitXY" android:layout_alignTop="@id/ticklet_ll_main_view" android:layout_alignBottom="@id/ticklet_ll_main_view" android:layout_centerHorizontal="true" />
+    <cn.damai.uikit.iconfont.DMIconFontTextView android:gravity="center" android:id="@id/ticklet_ticket_right_arrow" android:paddingTop="@dimen/margin_20dp" android:paddingBottom="@dimen/margin_20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_ticket_rightarrows" android:layout_toRightOf="@id/ticklet_ll_main_view" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/ticklet_dddddd_18dp" />
+    <ImageView android:id="@id/iv_zxing_state" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginRight="@dimen/margin_15dp" android:src="@drawable/ticket_has_use_state" android:layout_alignParentRight="true" />
+</merge>

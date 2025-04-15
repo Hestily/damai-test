@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/name_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="0.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/off_single_step_content_bg" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="42.0dip">
+        <TextView android:textSize="16.0dip" android:textColor="#ff4b4a50" android:id="@id/tip_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="昵称：" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="16.0dip" android:textColor="#ff4b4a50" android:id="@id/result_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="50.0dip" android:text="黛米普若黛米普若黛米普若黛米普若黛米普若" android:maxLines="1" android:singleLine="true" android:layout_toRightOf="@id/tip_view" android:layout_centerVertical="true" android:alpha="0.0" />
+        <ImageView android:id="@id/progress_view" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="23.0dip" android:src="@drawable/off_single_progress" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="17.0dip" android:textColor="@color/off_single_un_passed" android:id="@id/result_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="23.0dip" android:text="@string/iconf_off_single_close" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:alpha="0.0" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/grab_time_rl" android:background="@drawable/pioneer_home_rob_ticket_left_icon_v2" android:layout_width="wrap_content" android:layout_height="23.0dip" android:scaleType="fitEnd" android:paddingStart="10.0dip" android:paddingEnd="2.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/grab_right">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <com.alibaba.pictures.bricks.view.PuHuiTiNumTextView android:textSize="14.0dip" android:textColor="@color/bricks_171717" android:gravity="center_vertical" android:id="@id/grab_time_tv" android:layout_width="wrap_content" android:layout_height="23.0dip" android:text="" android:maxLines="1" />
+            <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="11.0dip" android:textColor="@color/bricks_171717" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/grab_time_tv_suffix" android:layout_width="wrap_content" android:layout_height="23.0dip" android:text="" android:maxLines="1" />
+        </LinearLayout>
+    </RelativeLayout>
+    <FrameLayout android:id="@id/grab_right" android:layout_width="wrap_content" android:layout_height="23.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent">
+        <FrameLayout android:id="@id/grab_price_view_container" android:background="@drawable/pioneer_home_rob_ticket_right_icon_v2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <com.alibaba.pictures.bricks.view.CustomHighlightsTextView android:layout_gravity="center_vertical" android:id="@id/grab_price_view" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="3.5dip" app:alignItems="baseline" app:flexDirection="row" app:flexWrap="nowrap" />
+        </FrameLayout>
+        <ImageView android:id="@id/grab_time_img" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/pioneer_home_rob_ticket_right_icon" android:scaleType="fitXY" app:layout_constraintBottom_toBottomOf="parent" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

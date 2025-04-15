@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/cinema_root_view" android:paddingBottom="@dimen/tab_container_height" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/decorate_view" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/color_tpp_primary_white" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:layout_below="@id/decorate_view" app:layout_scrollFlags="scroll|enterAlways">
+        <com.taobao.movie.android.commonui.widget.MTitleBar android:id="@id/titlebar" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </androidx.appcompat.widget.Toolbar>
+    <ViewStub android:id="@id/presale_tips" android:layout="@layout/layout_cinema_list_presale_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/toolbar" />
+    <View android:id="@id/line" android:background="@color/common_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/space_line_height" android:layout_below="@id/presale_tips" />
+    <include android:id="@id/cinema_filter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/line" layout="@layout/oscar_cinema_list_filter_item" />
+    <com.taobao.movie.statemanager.StateLayout android:id="@id/cinemas_state_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/cinema_filter">
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/refresh_layout" android:background="@color/color_tpp_primary_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/combolist" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    </com.taobao.movie.statemanager.StateLayout>
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/common_cinemas_login" />
+    <ViewStub android:id="@id/surprise_red_packet_cinemas" android:layout="@layout/surprise_red_coupon_viewstub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</RelativeLayout>

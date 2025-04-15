@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/btn_confirm" android:background="@drawable/submit_unable_btn_h36" android:paddingLeft="@dimen/margin_15dp" android:paddingRight="@dimen/margin_15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0dip" android:textColor="@color/color_FF2D79" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_confirm_num" android:background="@drawable/circle_white_oval" android:visibility="gone" android:layout_width="@dimen/margin_16dp" android:layout_height="@dimen/margin_16dp" android:layout_marginRight="@dimen/margin_3dp" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_confirm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="完成" />
+</LinearLayout>

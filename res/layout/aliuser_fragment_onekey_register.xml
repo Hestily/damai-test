@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/aliuser_onekey_reg_ll" android:paddingLeft="@dimen/aliuser_space_16" android:paddingRight="@dimen/aliuser_space_16" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ali.user.mobile.ui.widget.CircleImageView android:id="@id/aliuser_onekey_reg_avatar" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_marginTop="@dimen/aliuser_space_68" android:src="@drawable/aliuser_logo_tao" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/aliuser_textsize_biggest" android:textColor="@color/aliuser_default_text_color" android:id="@id/aliuser_onekey_reg_account_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aliuser_space_40" android:layout_below="@id/aliuser_onekey_reg_avatar" android:layout_centerHorizontal="true" />
+    <Button android:id="@id/aliuser_onekey_reg_btn" android:layout_marginTop="@dimen/aliuser_space_40" android:text="@string/aliuser_agree_and_onekey_reg" android:layout_below="@id/aliuser_onekey_reg_account_tv" android:layout_centerHorizontal="true" style="@style/AliUserButtonStyle" />
+    <TextView android:gravity="center" android:id="@id/aliuser_switch_mobile_reg" android:paddingTop="@dimen/aliuser_space_20" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/aliuser_switch_mobile_reg" android:layout_below="@id/aliuser_onekey_reg_btn" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="bottom|center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aliuser_space_20" android:layout_marginBottom="@dimen/aliuser_space_24" android:layout_alignParentBottom="true">
+        <include android:id="@id/aliuser_check_rl" layout="@layout/aliuser_check_protocol" />
+        <TextView android:textColor="@color/aliuser_default_text_color" android:id="@id/aliuser_reg_func_menu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/aliuser_space_12" android:text="@string/aliuser_help" android:layout_centerHorizontal="true" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "type": 1,
+      "tag": "EMPTY",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 1,
+          "model": "com.alibaba.pictures.bricks.component.empty.EmptyModel",
+          "present": "com.alibaba.pictures.bricks.component.empty.EmptyPresent",
+          "view": "com.alibaba.pictures.bricks.component.empty.EmptyView",
+          "layoutID": "bricks_component_empty",
+          "params": {
+          }
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "tag": "DIVIDER",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 2,
+          "model": "com.alient.onearch.adapter.component.divider.DividerModel",
+          "present": "com.alient.onearch.adapter.component.divider.DividerPresent",
+          "view": "com.alient.onearch.adapter.component.divider.DividerView",
+          "layoutID": "component_divider",
+          "params": {
+          }
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "tag": "NO_MORE",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+          "marginLeft": "resource_size_12",
+          "marginRight": "resource_size_12"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 3,
+          "model": "com.alient.onearch.adapter.component.nomore.NoMoreModel",
+          "present": "com.alient.onearch.adapter.component.nomore.NoMorePresent",
+          "view": "com.alient.onearch.adapter.component.nomore.NoMoreView",
+          "layoutID": "bricks_component_search_result_no_more",
+          "params": {
+          }
+        }
+      ]
+    },
+    {
+      "type": 7594,
+      "tag": "PROJECT_INFO",
+      "layout": {
+        "layoutType": "linear",
+        "params": {
+          "marginLeft": "resource_size_12",
+          "marginRight": "resource_size_12",
+          "dividerHeight": "resource_size_9"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7595,
+          "model": "com.alibaba.pictures.bricks.component.project.tour2.DMTourProjectModel",
+          "present": "com.alibaba.pictures.bricks.component.project.tour2.DMSearchTourProjectPresenter",
+          "view": "com.alibaba.pictures.bricks.component.project.tour2.DMTourProjectView",
+          "layoutID": "bricks_component_tour_project_item_layout",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.component.project.bean.DMTourProjectItemBean"
+          }
+        },
+        {
+          "type": 7587,
+          "model": "com.alibaba.pictures.bricks.component.project.DMProjectModel",
+          "present": "com.alibaba.pictures.bricks.component.project.DMSearchProjectPresenter",
+          "view": "com.alibaba.pictures.bricks.component.project.DMProjectView",
+          "layoutID": "bricks_item_dm_project",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.component.project.bean.DMProjectItemBean"
+          }
+        }
+      ]
+    }
+  ]
+}

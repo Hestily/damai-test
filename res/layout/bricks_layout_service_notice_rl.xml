@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/rootview" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/v_outside" android:background="#7e000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/rl_bottom" android:background="@drawable/bricks_bg_border_corner_white_12" android:clickable="true" android:layout_width="fill_parent" android:layout_height="500.0dip" android:layout_alignParentBottom="true">
+        <RelativeLayout android:gravity="center_vertical" android:paddingLeft="21.0dip" android:layout_width="fill_parent" android:layout_height="28.0dip" android:layout_marginTop="18.0dip"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TextView android:textSize="20.0dip" android:textColor="#ff000000" android:id="@id/layer_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+            <ImageView android:gravity="center" android:id="@id/layer_close" android:paddingLeft="12.0dip" android:paddingRight="21.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/bricks_x_close" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/project_support_service_irc" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="18.0dip" />
+    </LinearLayout>
+</RelativeLayout>

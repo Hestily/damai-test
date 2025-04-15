@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/mini_card_type_ll" android:background="@drawable/mini_card_info_tag" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="60.0dip">
+        <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="14.0dip" android:textColor="#ffffffff" android:id="@id/mini_card_type" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:id="@id/mini_card_type_split" android:background="#80ffffff" android:layout_width="1.0dip" android:layout_height="12.0dip" android:layout_marginLeft="4.0dip" android:layout_marginTop="5.5dip" android:layout_marginRight="4.0dip" />
+        <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="14.0dip" android:textColor="#ffffffff" android:id="@id/mini_card_type_title_num" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="14.0dip" android:textColor="#ffffffff" android:id="@id/mini_card_type_title_stuff" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/mini_card_info_view_bg" android:padding="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <RelativeLayout android:id="@id/mini_card_price_rl" android:layout_width="fill_parent" android:layout_height="33.0dip">
+                <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="14.0dip" android:textColor="#ff171717" android:id="@id/mini_card_price_symbol" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="￥" android:layout_alignParentBottom="true" />
+                <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="33.0dip" android:textStyle="bold" android:textColor="#ff171717" android:id="@id/mini_card_price_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginTop="-6.0dip" android:includeFontPadding="false" android:layout_toRightOf="@id/mini_card_price_symbol" />
+                <TextView android:textSize="12.0dip" android:textColor="#ff171717" android:ellipsize="end" android:id="@id/mini_card_price_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:text="起" android:maxLines="1" android:layout_toRightOf="@id/mini_card_price_num" android:layout_alignBaseline="@id/mini_card_price_symbol" />
+                <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="12.0dip" android:textColor="#ffc46e31" android:id="@id/mini_card_price_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_toRightOf="@id/mini_card_price_unit" android:layout_alignBaseline="@id/mini_card_price_unit" />
+            </RelativeLayout>
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+                <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="17.0dip" android:textColor="#ff171717" android:id="@id/mini_card_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+                <View android:layout_gravity="end|bottom|center" android:id="@id/mini_card_title_mask" android:background="@drawable/mini_card_info_mask" android:layout_width="76.0dip" android:layout_height="23.0dip" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip">
+                <TextView android:textSize="12.0dip" android:textColor="#ff2e333e" android:id="@id/mini_card_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+                <View android:layout_gravity="end|bottom|center" android:id="@id/mini_card_subtitle_mask" android:background="@drawable/mini_card_info_mask" android:layout_width="76.0dip" android:layout_height="23.0dip" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="end" android:id="@id/mini_card_detail_ll" android:layout_width="92.0dip" android:layout_height="wrap_content" android:layout_marginTop="40.0dip">
+            <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="17.0dip" android:textColor="#ff171717" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="详情" />
+            <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="#ff171717" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-1.0dip" android:text="@string/iconfont_changciqiehuanhoujiantou" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

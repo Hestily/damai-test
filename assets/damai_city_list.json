@@ -1,0 +1,720 @@
+{
+  "groups": [
+    {
+      "sites": [
+        {
+          "cityId": "2561",
+          "cityName": "安庆"
+        },
+        {
+          "cityId": "1717",
+          "cityName": "鞍山"
+        },
+        {
+          "cityId": "253",
+          "cityName": "安顺"
+        },
+        {
+          "cityId": "850",
+          "cityName": "澳门"
+        }
+      ],
+      "spellCode": "A"
+    },
+    {
+      "sites": [
+        {
+          "cityId": "3202",
+          "cityName": "巴彦淖尔"
+        },
+        {
+          "cityId": "2348",
+          "cityName": "保定"
+        },
+        {
+          "cityId": "3126",
+          "cityName": "包头"
+        },
+        {
+          "cityId": "852",
+          "cityName": "北京"
+        },
+        {
+          "cityId": "2536",
+          "cityName": "蚌埠"
+        },
+        {
+          "cityId": "1999",
+          "cityName": "滨州"
+        },
+        {
+          "cityId": "2623",
+          "cityName": "亳州"
+        }
+      ],
+      "spellCode": "B"
+    },
+    {
+      "sites": [
+        {
+          "cityId": "2812",
+          "cityName": "长春"
+        },
+        {
+          "cityId": "159",
+          "cityName": "昌吉"
+        },
+        {
+          "cityId": "702",
+          "cityName": "长沙"
+        },
+        {
+          "cityId": "3014",
+          "cityName": "长治"
+        },
+        {
+          "cityId": "1077",
+          "cityName": "常州"
+        },
+        {
+          "cityId": "2392",
+          "cityName": "承德"
+        },
+        {
+          "cityId": "1377",
+          "cityName": "成都"
+        },
+        {
+          "cityId": "3140",
+          "cityName": "赤峰"
+        },
+        {
+          "cityId": "200",
+          "cityName": "重庆"
+        }
+      ],
+      "spellCode": "C"
+    },
+    {
+      "sites": [
+        {
+          "cityId": "1725",
+          "cityName": "大连"
+        },
+        {
+          "cityId": "2996",
+          "cityName": "大同"
+        },
+        {
+          "cityId": "1975",
+          "cityName": "德州"
+        },
+        {
+          "cityId": "917",
+          "cityName": "东莞"
+        }
+      ],
+      "spellCode": "D"
+    },
+    {
+      "sites": [
+        {
+          "cityId": "923",
+          "cityName": "佛山"
+        },
+        {
+          "cityId": "1826",
+          "cityName": "抚顺"
+        },
+        {
+          "cityId": "356",
+          "cityName": "福州"
+        },
+        {
+          "cityId": "553",
+          "cityName": "抚州"
+        }
+      ],
+      "spellCode": "F"
+    },
+    {
+      "sites": [
+        {
+          "cityId": "1501",
+          "cityName": "广安"
+        },
+        {
+          "cityId": "1493",
+          "cityName": "广元"
+        },
+        {
+          "cityId": "893",
+          "cityName": "广州"
+        },
+        {
+          "cityId": "2103",
+          "cityName": "桂林"
+        },
+        {
+          "cityId": "242",
+          "cityName": "贵阳"
+        }
+      ],
+      "spellCode": "G"
+    },
+    {
+      "sites": [
+        {
+          "cityId": "2648",
+          "cityName": "哈尔滨"
+        },
+        {
+          "cityId": "1185",
+          "cityName": "海口"
+        },
+        {
+          "cityId": "2404",
+          "cityName": "邯郸"
+        },
+        {
+          "cityId": "1580",
+          "cityName": "杭州"
+        },
+        {
+          "cityId": "2520",
+          "cityName": "合肥"
+        },
+        {
+          "cityId": "949",
+          "cityName": "河源"
+        },
+        {
+          "cityId": "2483",
+          "cityName": "衡水"
+        },
+        {
+          "cityId": "3167",
+          "cityName": "呼和浩特"
+        },
+        {
+          "cityId": "1637",
+          "cityName": "湖州"
+        },
+        {
+          "cityId": "667",
+          "cityName": "黄冈"
+        },
+        {
+          "cityId": "627",
+          "cityName": "黄石"
+        },
+        {
+          "cityId": "956",
+          "cityName": "惠州"
+        }
+      ],
+      "spellCode": "H"
+    },
+    {
+      "sites": [
+        {
+          "cityId": "2826",
+          "cityName": "吉林"
+        },
+        {
+          "cityId": "1835",
+          "cityName": "济南"
+        },
+        {
+          "cityId": "1921",
+          "cityName": "济宁"
+        },
+        {
+          "cityId": "1626",
+          "cityName": "嘉兴"
+        },
+        {
+          "cityId": "1015",
+          "cityName": "江门"
+        },
+        {
+          "cityId": "1653",
+          "cityName": "金华"
+        },
+        {
+          "cityId": "3037",
+          "cityName": "晋中"
+        },
+        {
+          "cityId": "1755",
+          "cityName": "锦州"
+        },
+        {
+          "cityId": "644",
+          "cityName": "荆州"
+        },
+        {
+          "cityId": "482",
+          "cityName": "九江"
+        }
+      ],
+      "spellCode": "J"
+    },
+    {
+      "sites": [
+        {
+          "cityId": "90",
+          "cityName": "克拉玛依"
+        },
+        {
+          "cityId": "1229",
+          "cityName": "昆明"
+        }
+      ],
+      "spellCode": "K"
+    },
+    {
+      "sites": [
+        {
+          "cityId": "3368",
+          "cityName": "兰州"
+        },
+        {
+          "cityId": "2337",
+          "cityName": "廊坊"
+        },
+        {
+          "cityId": "1314",
+          "cityName": "丽江"
+        },
+        {
+          "cityId": "1691",
+          "cityName": "丽水"
+        },
+        {
+          "cityId": "1989",
+          "cityName": "聊城"
+        },
+        {
+          "cityId": "3387",
+          "cityName": "临夏"
+        },
+        {
+          "cityId": "1205",
+          "cityName": "陵水"
+        },
+        {
+          "cityId": "271",
+          "cityName": "六盘水"
+        },
+        {
+          "cityId": "2037",
+          "cityName": "柳州"
+        },
+        {
+          "cityId": "2279",
+          "cityName": "洛阳"
+        }
+      ],
+      "spellCode": "L"
+    },
+    {
+      "sites": [
+        {
+          "cityId": "2642",
+          "cityName": "马鞍山"
+        },
+        {
+          "cityId": "1403",
+          "cityName": "绵阳"
+        }
+      ],
+      "spellCode": "M"
+    },
+    {
+      "sites": [
+        {
+          "cityId": "465",
+          "cityName": "南昌"
+        },
+        {
+          "cityId": "1483",
+          "cityName": "南充"
+        },
+        {
+          "cityId": "1038",
+          "cityName": "南京"
+        },
+        {
+          "cityId": "2024",
+          "cityName": "南宁"
+        },
+        {
+          "cityId": "1103",
+          "cityName": "南通"
+        },
+        {
+          "cityId": "1597",
+          "cityName": "宁波"
+        }
+      ],
+      "spellCode": "N"
+    },
+    {
+      "sites": [
+        {
+          "cityId": "476",
+          "cityName": "萍乡"
+        },
+        {
+          "cityId": "1365",
+          "cityName": "普洱"
+        },
+        {
+          "cityId": "379",
+          "cityName": "莆田"
+        }
+      ],
+      "spellCode": "P"
+    },
+    {
+      "sites": [
+        {
+          "cityId": "699",
+          "cityName": "潜江"
+        },
+        {
+          "cityId": "317",
+          "cityName": "黔南"
+        },
+        {
+          "cityId": "2329",
+          "cityName": "秦皇岛"
+        },
+        {
+          "cityId": "1847",
+          "cityName": "青岛"
+        },
+        {
+          "cityId": "386",
+          "cityName": "泉州"
+        }
+      ],
+      "spellCode": "Q"
+    },
+    {
+      "sites": [
+        {
+          "cityId": "2218",
+          "cityName": "三门峡"
+        },
+        {
+          "cityId": "1190",
+          "cityName": "三亚"
+        },
+        {
+          "cityId": "929",
+          "cityName": "汕头"
+        },
+        {
+          "cityId": "872",
+          "cityName": "上海"
+        },
+        {
+          "cityId": "1643",
+          "cityName": "绍兴"
+        },
+        {
+          "cityId": "1703",
+          "cityName": "沈阳"
+        },
+        {
+          "cityId": "906",
+          "cityName": "深圳"
+        },
+        {
+          "cityId": "2495",
+          "cityName": "石家庄"
+        },
+        {
+          "cityId": "1087",
+          "cityName": "苏州"
+        }
+      ],
+      "spellCode": "S"
+    },
+    {
+      "sites": [
+        {
+          "cityId": "1937",
+          "cityName": "泰安"
+        },
+        {
+          "cityId": "2984",
+          "cityName": "太原"
+        },
+        {
+          "cityId": "1680",
+          "cityName": "台州"
+        },
+        {
+          "cityId": "1158",
+          "cityName": "泰州"
+        },
+        {
+          "cityId": "2314",
+          "cityName": "唐山"
+        },
+        {
+          "cityId": "1209",
+          "cityName": "天津"
+        }
+      ],
+      "spellCode": "T"
+    },
+    {
+      "sites": [
+        {
+          "cityId": "1902",
+          "cityName": "潍坊"
+        },
+        {
+          "cityId": "1612",
+          "cityName": "温州"
+        },
+        {
+          "cityId": "586",
+          "cityName": "武汉"
+        },
+        {
+          "cityId": "2528",
+          "cityName": "芜湖"
+        },
+        {
+          "cityId": "81",
+          "cityName": "乌鲁木齐"
+        },
+        {
+          "cityId": "1052",
+          "cityName": "无锡"
+        }
+      ],
+      "spellCode": "W"
+    },
+    {
+      "sites": [
+        {
+          "cityId": "3250",
+          "cityName": "西安"
+        },
+        {
+          "cityId": "2",
+          "cityName": "西宁"
+        },
+        {
+          "cityId": "372",
+          "cityName": "厦门"
+        },
+        {
+          "cityId": "678",
+          "cityName": "咸宁"
+        },
+        {
+          "cityId": "3291",
+          "cityName": "咸阳"
+        },
+        {
+          "cityId": "848",
+          "cityName": "香港"
+        },
+        {
+          "cityId": "770",
+          "cityName": "湘潭"
+        },
+        {
+          "cityId": "4395",
+          "cityName": "襄阳"
+        },
+        {
+          "cityId": "342",
+          "cityName": "新乡"
+        },
+        {
+          "cityId": "1063",
+          "cityName": "徐州"
+        }
+      ],
+      "spellCode": "X"
+    },
+    {
+      "sites": [
+        {
+          "cityId": "1125",
+          "cityName": "盐城"
+        },
+        {
+          "cityId": "1882",
+          "cityName": "烟台"
+        },
+        {
+          "cityId": "1137",
+          "cityName": "扬州"
+        },
+        {
+          "cityId": "609",
+          "cityName": "宜昌"
+        },
+        {
+          "cityId": "539",
+          "cityName": "宜春"
+        },
+        {
+          "cityId": "54",
+          "cityName": "银川"
+        },
+        {
+          "cityId": "1765",
+          "cityName": "营口"
+        },
+        {
+          "cityId": "2079",
+          "cityName": "玉林"
+        },
+        {
+          "cityId": "819",
+          "cityName": "岳阳"
+        }
+      ],
+      "spellCode": "Y"
+    },
+    {
+      "sites": [
+        {
+          "cityId": "937",
+          "cityName": "湛江"
+        },
+        {
+          "cityId": "2374",
+          "cityName": "张家口"
+        },
+        {
+          "cityId": "3415",
+          "cityName": "张掖"
+        },
+        {
+          "cityId": "1148",
+          "cityName": "镇江"
+        },
+        {
+          "cityId": "2148",
+          "cityName": "郑州"
+        },
+        {
+          "cityId": "947",
+          "cityName": "中山"
+        },
+        {
+          "cityId": "1675",
+          "cityName": "舟山"
+        },
+        {
+          "cityId": "913",
+          "cityName": "珠海"
+        },
+        {
+          "cityId": "717",
+          "cityName": "株洲"
+        },
+        {
+          "cityId": "1865",
+          "cityName": "淄博"
+        },
+        {
+          "cityId": "276",
+          "cityName": "遵义"
+        }
+      ],
+      "spellCode": "Z"
+    }
+  ],
+  "hotCity": [
+    {
+      "cityName": "北京",
+      "_pos_": 1,
+      "cityId": "852",
+      "scm": "1003.2.201809053.OTHER_1544355313472_4137817",
+      "url": "damai://V1/HomePage?id=852"
+    },
+    {
+      "cityName": "上海",
+      "_pos_": 2,
+      "cityId": "872",
+      "scm": "1003.2.201809053.OTHER_1543737078353_4137817",
+      "url": "damai://V1/HomePage?id=872"
+    },
+    {
+      "cityName": "广州",
+      "_pos_": 3,
+      "cityId": "893",
+      "scm": "1003.2.201809053.OTHER_1544484162404_4137817",
+      "url": "damai://V1/HomePage?id=893"
+    },
+    {
+      "cityName": "深圳",
+      "_pos_": 4,
+      "cityId": "906",
+      "scm": "1003.2.201809053.OTHER_1546759243491_4137817",
+      "url": "damai://V1/HomePage?id=906"
+    },
+    {
+      "cityName": "杭州",
+      "_pos_": 5,
+      "cityId": "1580",
+      "scm": "1003.2.201809053.OTHER_1543601896712_4137817",
+      "url": "damai://V1/HomePage?id=1580"
+    },
+    {
+      "cityName": "南京",
+      "_pos_": 6,
+      "cityId": "1038",
+      "scm": "1003.2.201809053.OTHER_1545824053903_4137817",
+      "url": "damai://V1/HomePage?id=1038"
+    },
+    {
+      "cityName": "成都",
+      "_pos_": 7,
+      "cityId": "1377",
+      "scm": "1003.2.201809053.OTHER_1547553884824_4137817",
+      "url": "damai://V1/HomePage?id=1377"
+    },
+    {
+      "cityName": "武汉",
+      "_pos_": 8,
+      "cityId": "586",
+      "scm": "1003.2.201809053.OTHER_1546898753224_4137817",
+      "url": "damai://V1/HomePage?id=586"
+    },
+    {
+      "cityName": "香港",
+      "_pos_": 9,
+      "cityId": "848",
+      "scm": "1003.2.201809053.OTHER_1544772452287_4137817",
+      "url": "damai://V1/HomePage?id=848"
+    },
+    {
+      "cityName": "境外",
+      "_pos_": 10,
+      "cityId": "9999",
+      "scm": "1003.2.201809053.OTHER_1544021270544_4137817",
+      "url": "https://p.damai.cn/wow/act/act/damaiglobal?sortType=3&pos=10&acm=201809053.1003.2.4137817&scm=1003.2.201809053.OTHER_1544021270544_4137817"
+    }
+  ],
+  "manual": [
+    {
+      "_pos_": 1,
+      "cityId": "76",
+      "scm": "1003.2.201807252.OTHER_1535664282551_3907818",
+      "url": "https://p.damai.cn/wow/act/act/damaiglobal?pos=1&acm=201807252.1003.2.3907818&scm=1003.2.201807252.OTHER_1535664282551_3907818"
+    }
+  ]
+}

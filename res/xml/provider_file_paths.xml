@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <files-path name="share_images" path="./share_images" />
+    <external-path name="share_file" path="." />
+    <external-files-path name="share_file_inner" path="." />
+    <external-cache-path name="share_cache" path="." />
+    <files-path name="share_app_file" path="." />
+    <cache-path name="share_app_file_inner" path="." />
+</paths>

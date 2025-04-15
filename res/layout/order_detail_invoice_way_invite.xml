@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/order_create_line" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/margin_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/margin_16dp" android:textColor="@color/color_999999" android:paddingTop="@dimen/margin_17dp" android:paddingBottom="@dimen/margin_17dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="取票人名" />
+        <EditText android:textSize="@dimen/margin_16dp" android:textColor="@color/color_222222" android:textColorHint="@color/ucDivider" android:gravity="center_vertical" android:id="@id/edit_invoice_username" android:background="@drawable/transparent" android:paddingLeft="24.0dip" android:paddingTop="@dimen/margin_17dp" android:paddingRight="@dimen/margin_12dp" android:paddingBottom="@dimen/margin_17dp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="填写自取发票人姓名" android:maxLines="2" />
+    </LinearLayout>
+    <LinearLayout android:paddingLeft="@dimen/margin_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/order_create_line" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/margin_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/margin_16dp" android:textColor="@color/color_999999" android:paddingTop="@dimen/margin_17dp" android:paddingBottom="@dimen/margin_17dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="电话号码" />
+        <EditText android:textSize="@dimen/margin_16dp" android:textColor="@color/color_222222" android:textColorHint="@color/ucDivider" android:gravity="center_vertical" android:id="@id/edit_invoice_phone" android:background="@drawable/transparent" android:paddingLeft="24.0dip" android:paddingTop="@dimen/margin_17dp" android:paddingRight="@dimen/margin_12dp" android:paddingBottom="@dimen/margin_17dp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="填写自取发票人手机号码" android:singleLine="true" android:inputType="number" />
+    </LinearLayout>
+    <include layout="@layout/order_create_line" />
+</merge>

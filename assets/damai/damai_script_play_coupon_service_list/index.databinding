@@ -1,0 +1,5 @@
+{
+  "data": {
+    "damai_script_play_coupon_service_list": { "value": "${serviceItemList}" }
+  }
+}

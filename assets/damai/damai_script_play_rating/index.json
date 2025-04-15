@@ -1,0 +1,150 @@
+{
+  "id": "damai_script_play_rating",
+  "type": "gaia-template",
+  "package": {
+    "id": "damai_script_play_rating",
+    "version": "0.0.1",
+    "modify-timestamp": "Tue Jun 14 2022 14:34:22 GMT+0800 (中国标准时间)",
+    "constraint-size": { "width": 375, "height": 89, "zoom": 1 },
+    "dependencies": {}
+  },
+  "layers": [
+    { "id": "background", "type": "view" },
+    {
+      "id": "info_layer",
+      "type": "view",
+      "layers": [
+        { "id": "rating_icon", "type": "image" },
+        {
+          "id": "rating_info",
+          "type": "view",
+          "layers": [
+            { "id": "rating_has_played", "type": "text" },
+            { "id": "rating_want_play", "type": "text" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rating_layer",
+      "type": "view",
+      "layers": [
+        {
+          "id": "rating_point_module",
+          "type": "view",
+          "layers": [
+            {
+              "id": "rating_point_label_holder",
+              "type": "view",
+              "layers": [
+                { "id": "point_label", "type": "text" },
+                { "id": "point_tip_label", "type": "text" }
+              ]
+            },
+            {
+              "id": "rating_point_info",
+              "type": "view",
+              "layers": [
+                {
+                  "id": "rating_star_holder",
+                  "type": "view",
+                  "layers": [
+                    {
+                      "id": "star_holder_1",
+                      "type": "view",
+                      "layers": [
+                        { "id": "star_1", "type": "iconfont" },
+                        { "id": "half_star_1", "type": "iconfont" }
+                      ]
+                    },
+                    {
+                      "id": "star_holder_2",
+                      "type": "view",
+                      "layers": [
+                        { "id": "star_2", "type": "iconfont" },
+                        { "id": "half_star_2", "type": "iconfont" }
+                      ]
+                    },
+                    {
+                      "id": "star_holder_3",
+                      "type": "view",
+                      "layers": [
+                        { "id": "star_3", "type": "iconfont" },
+                        { "id": "half_star_3", "type": "iconfont" }
+                      ]
+                    },
+                    {
+                      "id": "star_holder_4",
+                      "type": "view",
+                      "layers": [
+                        { "id": "star_4", "type": "iconfont" },
+                        { "id": "half_star_4", "type": "iconfont" }
+                      ]
+                    },
+                    {
+                      "id": "star_holder_5",
+                      "type": "view",
+                      "layers": [
+                        { "id": "star_5", "type": "iconfont" },
+                        { "id": "half_star_5", "type": "iconfont" }
+                      ]
+                    }
+                  ]
+                },
+                { "id": "rating_people_number", "type": "text" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rating_point_detail",
+          "type": "view",
+          "layers": [
+            {
+              "id": "rating_detail_item_1",
+              "type": "view",
+              "layers": [
+                {
+                  "id": "rating_indicator_1",
+                  "type": "view",
+                  "layers": [
+                    { "id": "rating_indicator_1_content", "type": "view" }
+                  ]
+                },
+                { "id": "tips_label_1", "type": "text" }
+              ]
+            },
+            {
+              "id": "rating_detail_item_2",
+              "type": "view",
+              "layers": [
+                {
+                  "id": "rating_indicator_2",
+                  "type": "view",
+                  "layers": [
+                    { "id": "rating_indicator_2_content", "type": "view" }
+                  ]
+                },
+                { "id": "tips_label_2", "type": "text" }
+              ]
+            },
+            {
+              "id": "rating_detail_item_3",
+              "type": "view",
+              "layers": [
+                {
+                  "id": "rating_indicator_3",
+                  "type": "view",
+                  "layers": [
+                    { "id": "rating_indicator_3_content", "type": "view" }
+                  ]
+                },
+                { "id": "tips_label_3", "type": "text" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

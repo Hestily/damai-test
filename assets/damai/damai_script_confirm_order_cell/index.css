@@ -1,0 +1,173 @@
+#damai_script_confirm_order_cell {
+  width: 100%;
+  background-color: primaryBackground;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+#background {
+  width: 100%;
+  background-color: #ffffff;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+}
+#top_view {
+  width: 100%;
+  height: 16px;
+  align-items: flex-start;
+  padding-left: 12px;
+  margin-top: 13px;
+}
+#store_image {
+  width: 13px;
+  height: 12px;
+  margin-top: 2px;
+  border-radius: 0px;
+}
+#store_name {
+  text-overflow: ellipsis;
+  color: #000000;
+  font-size: 12px;
+  margin-left: 6px;
+  height: 16px;
+  width: 90%;
+  font-weight: 600;
+}
+#order_info {
+  margin-top: 11px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding-left: 12px;
+}
+#coupon_info {
+  text-overflow: ellipsis;
+  color: #333333;
+  font-size: 18px;
+  lines: 0;
+  fit-content: true;
+  font-weight: 400;
+  line-height: 18px;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+#price_layout {
+  height: 20px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+#rmb_text {
+  text-overflow: ellipsis;
+  color: #333333;
+  font-size: 12px;
+  font-weight: 500;
+  fit-content: true;
+  width: 13px;
+  margin-top: 5px;
+  overflow: visible;
+}
+#coupon_money {
+  text-overflow: ellipsis;
+  color: #333333;
+  font-size: 18px;
+  fit-content: true;
+  font-family: URWDIN-Medium;
+  height: 20px;
+}
+#service_note {
+  background-color: #ffffff;
+  margin-top: 15px;
+  height: 16px;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-left: 12px;
+}
+#service_image1 {
+  width: 11px;
+  height: 11px;
+  background-color: primaryFillColor;
+  margin-left: 1px;
+}
+#service_name1 {
+  text-overflow: ellipsis;
+  color: #000000;
+  font-size: 12px;
+  margin-left: 4px;
+  fit-content: true;
+  height: 16px;
+}
+#service_image2 {
+  width: 11px;
+  height: 11px;
+  background-color: primaryFillColor;
+  border-radius: 0px;
+  margin-left: 5px;
+}
+#service_name2 {
+  text-overflow: ellipsis;
+  height: 20px;
+  color: #000000;
+  font-size: 12px;
+  margin-left: 4px;
+  fit-content: true;
+}
+#service_image3 {
+  width: 11px;
+  height: 11px;
+  border-radius: 7px;
+  background-color: primaryFillColor;
+  margin-left: 5px;
+}
+#service_name3 {
+  text-overflow: ellipsis;
+  height: 20px;
+  color: #000000;
+  font-size: 12px;
+  fit-content: true;
+}
+#service_image4 {
+  width: 11px;
+  height: 11px;
+  border-radius: 7px;
+  background-color: primaryFillColor;
+  margin-left: 5px;
+}
+#service_name4 {
+  text-overflow: ellipsis;
+  height: 20px;
+  color: #000000;
+  font-size: 12px;
+  fit-content: true;
+  margin-left: 4px;
+}
+#service_image5 {
+  width: 11px;
+  height: 11px;
+  border-radius: 7px;
+  background-color: primaryFillColor;
+  margin-left: 5px;
+}
+#service_name5 {
+  text-overflow: ellipsis;
+  height: 20px;
+  color: #000000;
+  font-size: 12px;
+  fit-content: true;
+  margin-left: 4px;
+}
+#service_image6 {
+  width: 11px;
+  height: 11px;
+  border-radius: 7px;
+  background-color: primaryFillColor;
+  margin-left: 5px;
+}
+#service_name6 {
+  text-overflow: ellipsis;
+  height: 20px;
+  color: #000000;
+  font-size: 12px;
+  fit-content: true;
+  margin-left: 4px;
+}

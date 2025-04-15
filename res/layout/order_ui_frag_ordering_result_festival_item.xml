@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.taobao.movie.android.commonui.widget.MoCardView android:layout_width="fill_parent" android:layout_height="65.0dip" android:layout_marginLeft="9.0dip" android:layout_marginRight="9.0dip" app:mocard_background_color="@color/color_tpp_primary_white" app:mocard_background_radius="9.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.alibaba.pictures.moimage.MoImageView android:id="@id/order_result_festival_item_poster" android:layout_width="65.0dip" android:layout_height="65.0dip" app:roundBottomLeft="true" app:roundBottomRight="false" app:roundTopLeft="true" app:roundTopRight="false" app:roundedCornerRadius="9.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="15.0dip" android:textStyle="bold" android:textColor="@color/color_tpp_primary_main_title" android:ellipsize="end" android:id="@id/order_result_festival_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/color_tpp_primary_assist" android:ellipsize="end" android:id="@id/order_result_festival_item_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:singleLine="true" android:includeFontPadding="false" />
+        </LinearLayout>
+        <com.taobao.movie.android.commonui.widget.MoCardTextView android:textSize="12.0dip" android:textColor="#ff148aff" android:gravity="center" android:id="@id/order_result_festival_item_btn" android:paddingLeft="12.5dip" android:paddingRight="12.5dip" android:layout_width="wrap_content" android:layout_height="27.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" app:mocard_background_color="#1a31a9f5" app:mocard_background_radius="16.0dip" />
+    </LinearLayout>
+</com.taobao.movie.android.commonui.widget.MoCardView>

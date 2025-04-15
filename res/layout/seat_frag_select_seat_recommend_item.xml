@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_main_title" android:gravity="center" android:id="@id/recommend_num" android:background="@drawable/recommend_bg_drawable" android:layout_width="48.0dip" android:layout_height="30.0dip" android:layout_marginRight="3.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,98 @@
+{
+  "components": [
+    {
+      "type": 7865,
+      "tag": "feed",
+      "layout": {
+        "layoutType": "feed_list",
+        "params": {
+          "span": 2,
+          "marginLeft": "resource_size_6",
+          "marginRight": "resource_size_6"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7667,
+          "layoutID": "bricks_component_home_marketing_card",
+          "viewHolder": "com.alibaba.pictures.bricks.component.home.feed.HomeMarketingCardViewHolder",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.bean.HomeMarketingCardBean"
+          }
+        },
+        {
+          "type": 7693,
+          "layoutID": "pioneer_home_feed_show_performance_card",
+          "model": "cn.damai.pioneer.model.HomeFeedCardModel",
+          "present": "cn.damai.pioneer.component.tab.HomeFeedCardPresent",
+          "view": "cn.damai.pioneer.view.HomeFeedCardView",
+          "params": {
+            "bean": "cn.damai.pioneer.bean.HomeFeedPerformanceShowCardBean"
+          }
+        },
+        {
+          "type": 7694,
+          "layoutID": "pioneer_home_feed_show_performance_card",
+          "model": "cn.damai.pioneer.model.HomeFeedCardModel",
+          "present": "cn.damai.pioneer.component.tab.HomeFeedCardPresent",
+          "view": "cn.damai.pioneer.view.HomeFeedCardView",
+          "params": {
+            "bean": "cn.damai.pioneer.bean.HomeFeedPerformanceShowCardBean"
+          }
+        },
+        {
+          "type": 7703,
+          "layoutID": "pioneer_home_feed_rank_card",
+          "model": "cn.damai.pioneer.model.HomeFeedRankCardModel",
+          "present": "cn.damai.pioneer.component.tab.HomeFeedRankCardPresent",
+          "view": "cn.damai.pioneer.view.HomeFeedRankCardView",
+          "params": {
+            "bean": "cn.damai.pioneer.bean.HomeFeedRankCardBean"
+          }
+        },
+        {
+          "type": 7702,
+          "layoutID": "pioneer_home_feed_common_card",
+          "viewHolder": "cn.damai.pioneer.view.HomeFeedCommonCardViewHolder",
+          "params": {
+            "bean": "cn.damai.pioneer.bean.HomeFeedCommonCardBean"
+          }
+        },
+        {
+          "type": 7926,
+          "layoutID": "component_pioneer_love_art_city_layout",
+          "viewHolder": "cn.damai.pioneer.component.feed.LoveArtCityViewHolder",
+          "params": {
+            "bean": "cn.damai.pioneer.bean.LoveArtCityBean"
+          }
+        },
+        {
+          "type": 7927,
+          "layoutID": "component_pioneer_show_brand_layout",
+          "viewHolder": "cn.damai.pioneer.component.feed.showbrand.ShowBrandViewHolder",
+          "params": {
+            "bean": "cn.damai.pioneer.bean.ShowBrandBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7871,
+      "tag": "feed_load_more",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7699,
+          "layoutID": "component_pioneer_home_feed_load_more",
+          "viewHolder": "cn.damai.pioneer.component.tab.category.viewholder.LoadMoreViewHolder",
+          "params": {
+          }
+        }
+      ]
+    }
+  ]
+}

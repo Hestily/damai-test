@@ -1,0 +1,156 @@
+{
+  "components": [
+    {
+      "type": 9993,
+      "tag": "common_divider",
+      "layout": {
+        "layoutType": "single"
+      },
+      "viewTypes": [
+        {
+          "type": 9993,
+          "model": "com.alient.onearch.adapter.component.divider.DividerModel",
+          "present": "com.alient.onearch.adapter.component.divider.DividerPresent",
+          "view": "com.alient.onearch.adapter.component.divider.DividerView",
+          "layoutID": "component_divider"
+        }
+      ]
+    },
+    {
+      "type": 7587,
+      "tag": "project_filter_panel",
+      "layout": {
+        "layoutType": "single"
+      },
+      "viewTypes": [
+        {
+          "type": 7586,
+          "layoutID": "bricks_component_project_filter_layout",
+          "model": "com.alibaba.pictures.bricks.component.channel.ProjectFilterModel",
+          "present": "com.alibaba.pictures.bricks.component.channel.ProjectFilterPresent",
+          "view": "com.alibaba.pictures.bricks.component.channel.ProjectFilterView",
+          "params": {
+          }
+        }
+      ]
+    },
+    {
+      "type": 5002,
+      "tag": "banner",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "indicatorType": "5",
+          "marginTop": "resource_size_10"
+        }
+      },
+      "container": {
+        "type": 5002,
+        "layoutID": "component_loop_banner",
+        "model": "com.alient.onearch.adapter.component.banner.loop.LoopBannerModel",
+        "present": "com.alient.onearch.adapter.component.banner.loop.LoopBannerPresenter",
+        "view": "com.alient.onearch.adapter.component.banner.loop.LoopBannerView"
+      },
+      "viewTypes": [
+        {
+          "type": 5002,
+          "layoutID": "bricks_mo_banner_child_view",
+          "model": "com.alibaba.pictures.bricks.component.banner.BannerModel",
+          "present": "com.alibaba.pictures.bricks.component.banner.BannerPresent",
+          "view": "com.alibaba.pictures.bricks.component.banner.BannerView",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.component.banner.BannerBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 5030,
+      "tag": "channel_brand",
+      "des": "厂牌号",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "gap": "resource_size_9"
+        }
+      },
+      "container": {
+        "type": 5030,
+        "layoutID": "component_common_horizontal_dm",
+        "viewHolder": "com.alient.onearch.adapter.component.horizontal.GenericHorizontalViewHolder"
+      },
+      "viewTypes": [
+        {
+          "type": 5048,
+          "layoutID": "bricks_channel_brand_view",
+          "viewHolder": "com.alibaba.pictures.bricks.component.channel.ChannelBrandCardViewHolder",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.channel.bean.ChannelBrandBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 5019,
+      "tag": "channel_brand",
+      "des": "大戏将售",
+      "layout": {
+        "layoutType": "single"
+      },
+      "viewTypes": [
+        {
+          "type": 50191,
+          "layoutID": "bricks_dm_project_broadcast_coming",
+          "viewHolder": "com.alibaba.pictures.bricks.component.channel.DMProjectBroadCastViewHolder",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.channel.bean.DMProjectShowBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7588,
+      "tag": "project_list_panel",
+      "layout": {
+        "layoutType": "linear",
+        "params": {
+          "marginLeft": "resource_size_12",
+          "marginRight": "resource_size_12",
+          "dividerHeight": "resource_size_9"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7588,
+          "layoutID": "bricks_component_hor_rank_card",
+          "model": "com.alibaba.pictures.bricks.component.channel.RankCardModel",
+          "present": "com.alibaba.pictures.bricks.component.channel.RankCardPresent",
+          "view": "com.alibaba.pictures.bricks.component.channel.RankCardView",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.bean.RankBean"
+          }
+        },
+        {
+          "type": 7589,
+          "layoutID": "bricks_component_project_tips",
+          "model": "com.alibaba.pictures.bricks.component.channel.ProjectTipsModel",
+          "present": "com.alibaba.pictures.bricks.component.channel.ProjectTipsPresent",
+          "view": "com.alibaba.pictures.bricks.component.channel.ProjectTipsView",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.bean.ProjectTipsBean"
+          }
+        },
+        {
+          "type": 7587,
+          "model": "com.alibaba.pictures.bricks.component.project.DMProjectModel",
+          "present": "com.alibaba.pictures.bricks.component.project.DMProjectPresent",
+          "view": "com.alibaba.pictures.bricks.component.project.DMProjectView",
+          "layoutID": "bricks_item_dm_project",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.component.project.bean.DMProjectItemBean"
+          }
+        }
+      ]
+    }
+  ]
+}

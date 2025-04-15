@@ -1,0 +1,31 @@
+{
+  "id": "tpp_art_headline",
+  "type": "gaia-template",
+  "package": {
+    "id": "tpp_art_headline",
+    "version": "0.0.1",
+    "modify-timestamp": "Thu Feb 06 2025 10:35:32 GMT+0800 (中国标准时间)",
+    "dependencies": { "tpp_art_headline_list": "0.0.0" }
+  },
+  "layers": [
+    {
+      "id": "header",
+      "type": "view",
+      "layers": [
+        { "id": "title", "type": "text" },
+        { "id": "subtitle", "type": "text" }
+      ]
+    },
+    {
+      "id": "container_list",
+      "type": "view",
+      "layers": [
+        {
+          "id": "tpp_art_headline_list",
+          "type": "gaia-template",
+          "sub-type": "custom"
+        }
+      ]
+    }
+  ]
+}

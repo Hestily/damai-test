@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0dip" android:textColor="@color/color_000000" android:gravity="center" android:id="@id/tv_title" android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="42.0dip" />
+    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="8.0dip" android:textColor="@color/color_999999" android:id="@id/view_jiantou" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/iconfont_youjiantou12" />
+    <View android:id="@id/view_line" android:background="@color/color_eeeeee" android:layout_width="0.5dip" android:layout_height="8.0dip" android:layout_marginLeft="8.0dip" />
+</LinearLayout>

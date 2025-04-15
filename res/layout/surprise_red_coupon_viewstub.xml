@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.taobao.movie.android.app.redpacket.surpriseredpacket.view.SurpriseRedCouponView android:id="@id/surprise_red_packet" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

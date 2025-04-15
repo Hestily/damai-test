@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="8.0dip" android:paddingBottom="8.0dip" style="@style/CommonListItemContainerWhite"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/detail_title" android:text="电影票" style="@style/CommonListItemOrderTitle" />
+</RelativeLayout>

@@ -1,0 +1,152 @@
+{
+  "ret": [
+    "SUCCESS::调用成功"
+  ],
+  "data": {
+    "nodes": [
+      {
+        "nodes": [
+          {
+            "nodes": [
+              {
+                "data": {
+                  "venue": [
+                    {
+                      "venueId": "59764",
+                      "name": "上海大剧院",
+                      "performanceCount": "16",
+                      "headPic": "http://mx-venue.oss-cn-beijing.aliyuncs.com/fca152e0-ec73-4ced-bd83-34afb7123f53.png"
+                    },
+                    {
+                      "venueId": "2155005",
+                      "name": "九棵树未来艺术中心",
+                      "performanceCount": "21",
+                      "headPic": "http://mx-venue.oss-cn-beijing.aliyuncs.com/baee04cd-8871-486e-a270-4013e248d765.png"
+                    }
+                  ],
+                  "brand": [
+                    {
+                      "brandId": "59764",
+                      "name": "上海大剧院",
+                      "performanceCount": "16",
+                      "headPic": "http://mx-venue.oss-cn-beijing.aliyuncs.com/fca152e0-ec73-4ced-bd83-34afb7123f53.png"
+                    },
+                    {
+                      "brandId": "2155005",
+                      "name": "九棵树未来艺术中心",
+                      "performanceCount": "21",
+                      "headPic": "http://mx-venue.oss-cn-beijing.aliyuncs.com/baee04cd-8871-486e-a270-4013e248d765.png"
+                    }
+                  ],
+                  "loopBanner": [
+                    {
+                      "img": "https://gw.alicdn.com/imgextra/i3/O1CN01YuWGQT2AH7dsCA69S_!!6000000008177-0-tps-1656-530.jpg",
+                      "url": "https://www.baidu.com/"
+                    },
+                    {
+                      "lottie": "https://g.alicdn.com/ani-assets/f8cb363f56f643afa6dca7f67a428ff8/0.0.1/lottie.json",
+                      "img": "https://t7.baidu.com/it/u=4198287529,2774471735&fm=193&f=GIF",
+                      "url": "https://www.baidu.com/"
+                    },
+                    {
+                      "img": "https://gw.alicdn.com/imgextra/i3/O1CN01aAu3mL1TNVePwXv0t_!!6000000002370-1-tps-720-405.gif",
+                      "url": "https://www.baidu.com/"
+                    },
+                    {
+                      "img": "https://t7.baidu.com/it/u=2529476510,3041785782&fm=193&f=GIF",
+                      "url": "https://www.baidu.com/"
+                    },
+                    {
+                      "img": "https://t7.baidu.com/it/u=727460147,2222092211&fm=193&f=GIF",
+                      "url": "https://www.baidu.com/"
+                    },
+                    {
+                      "img": "https://t7.baidu.com/it/u=2511982910,2454873241&fm=193&f=GIF",
+                      "url": "https://www.baidu.com/"
+                    }
+                  ]
+                },
+                "level": "3",
+                "more": "false",
+                "type": "7931"
+              }
+            ],
+            "data": {
+              "componentId": "dm_pioneer_banner_card",
+              "isFilterEmpty": "false",
+              "nodeId": "3dbd5a02-16f2-49b7-8096-c97059f59200"
+            },
+            "level": "2",
+            "more": "false",
+            "style": {
+
+            },
+            "type": "7917"
+          }
+        ],
+        "data": {
+          "nodeId": "186b95dc-98cc-44fd-8da4-d3c259b1fbce"
+        },
+        "level": "1",
+        "more": "false"
+      }
+    ],
+    "data": {
+      "top": {
+        "layerId": "25031087-cc59-47d5-b06f-83d629d41bb4",
+        "action": {
+          "barSearch": {
+            "trackInfo": {
+              "spmd": "searchtext"
+            }
+          },
+          "item": {
+            "trackInfo": {
+              "spmc": "top"
+            }
+          },
+          "bar_follow_btn": {
+            "trackInfo": {
+              "spmd": "follow",
+              "exposeEventName": "",
+              "clickEventName": ""
+            }
+          },
+          "city": {
+            "trackInfo": {
+              "spmd": "city"
+            }
+          },
+          "barResource": {
+            "trackInfo": {
+              "spmd": "resource"
+            }
+          },
+          "bar_share": {
+            "trackInfo": {
+              "spmd": "share",
+              "exposeEventName": "",
+              "clickEventName": ""
+            }
+          }
+        },
+        "sectionId": "8c03d117-cca5-4858-a632-0d1ecdd0c775",
+        "entrance": {
+          "lottie": "",
+          "comboDispatchId": "342101",
+          "icon": "https://gw.alicdn.com/imgextra/i1/O1CN010ewB2Y1KD8Afon0YY_!!6000000001129-1-tps-112-60.gif",
+          "idx": "1",
+          "comboDispatchSystem": "cms",
+          "jumpUrl": "https://t.taopiaopiao.com/yep/page/m/wm0jn4ggth"
+        }
+      },
+      "spmab": "a2o4t.pioneer_discovery",
+      "serverTime": "1736995155440",
+      "pageName": "pioneer_discovery"
+    },
+    "level": "0",
+    "more": "false"
+  },
+  "v": "3.0",
+  "api": "mtop.damai.mec.aristotle.get"
+}

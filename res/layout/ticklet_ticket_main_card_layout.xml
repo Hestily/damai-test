@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ticklet_card_view" android:background="@drawable/shape_solid_radius4_f7f7f7" android:visibility="gone" android:layout_width="@dimen/ticklet_margin_205dp" android:layout_height="@dimen/ticklet_margin_205dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/tv_card_image" android:layout_width="180.0dip" android:layout_height="130.0dip" android:src="@drawable/ticket_card_new_icon" />
+    <TextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/tv_card_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_8dp" style="@style/ticklet_3f3f3f_14dp" />
+    <TextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/tv_card_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/common_margin_5" style="@style/ticklet_3f3f3f_14dp" />
+</LinearLayout>

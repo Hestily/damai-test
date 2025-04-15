@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="155.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.bricks.view.RoundImageView android:id="@id/script_info_header_img" android:layout_width="98.0dip" android:layout_height="132.0dip" android:layout_marginLeft="12.0dip" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_centerVertical="true" app:borderRadius="6.0dip" app:type="round" />
+    <TextView android:textSize="@dimen/margin_10dp" android:textColor="@color/white" android:gravity="center" android:id="@id/script_info_header_limit_tag" android:background="@drawable/bricks_limit_ebb189_c68557_background" android:paddingLeft="@dimen/margin_4dp" android:paddingRight="@dimen/margin_4dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/margin_15dp" android:layout_marginTop="@dimen/margin_2dp" android:layout_marginRight="@dimen/margin_2dp" android:text="城限" android:layout_alignTop="@id/script_info_header_img" android:layout_alignRight="@id/script_info_header_img" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_toRightOf="@id/script_info_header_img">
+        <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="20.0dip" android:textColor="@color/white" android:ellipsize="end" android:id="@id/script_info_header_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="33.0dip">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/script_detail_top_follow_layout" android:background="@drawable/bricks_bg_border_corner_fff_30" android:layout_width="0.0dip" android:layout_height="30.0dip" android:layout_marginRight="12.0dip" android:layout_weight="1.0">
+                <com.airbnb.lottie.LottieAnimationView android:id="@id/script_detail_top_wanna_2_see_icon" android:layout_width="24.0dip" android:layout_height="22.0dip" app:lottie_repeatCount="0" />
+                <TextView android:textSize="12.0dip" android:textColor="#ff3b3f43" android:gravity="center" android:layout_gravity="center" android:id="@id/script_detail_top_wanna_2_see_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="想玩" android:layout_centerHorizontal="true" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/script_detail_top_play_layout" android:background="@drawable/bricks_bg_border_corner_fff_30" android:layout_width="0.0dip" android:layout_height="30.0dip" android:layout_weight="1.0">
+                <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="16.0dip" android:textColor="#ff3b3f43" android:gravity="center" android:id="@id/script_detail_top_play_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:text="@string/iconfont_bianji24" />
+                <TextView android:textSize="12.0dip" android:textColor="#ff3b3f43" android:gravity="center" android:layout_gravity="center" android:id="@id/script_detail_top_play_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+            </LinearLayout>
+            <View android:id="@id/script_detail_top_place_h" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="1.0px" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

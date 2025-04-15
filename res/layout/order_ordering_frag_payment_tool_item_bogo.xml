@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/block_bogo_select_area" android:background="@drawable/list_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="35.0dip" style="@style/OrderCommonMarketItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="left" android:id="@id/block_bogo_select_name" android:layout_width="0.0dip" android:layout_marginRight="8.0dip" android:text="会员买一赠一" android:layout_weight="1.0" style="@style/CommonListItemOrderTitle" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/common_text_color11" android:ellipsize="end" android:gravity="right" android:id="@id/bogo_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:text="" android:singleLine="true" />
+    <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_assist" android:gravity="right" android:id="@id/block_bogo_select_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_font_right_small" />
+</LinearLayout>

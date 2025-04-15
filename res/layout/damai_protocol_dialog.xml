@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="50.0dip" android:paddingRight="50.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.damai.uikit.view.MaxHeightLinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/damai_protocol_dialog_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/rl_protocol_dialog_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/iv_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/damai_protocol_dialog_dna" />
+            <FrameLayout android:id="@id/fl_cancel_btn" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignBottom="@id/iv_background" />
+            <FrameLayout android:id="@id/fl_ok_btn" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_above="@id/fl_cancel_btn" />
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_text_content" android:paddingLeft="7.0dip" android:paddingTop="10.0dip" android:paddingRight="7.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_above="@id/fl_ok_btn">
+                <cn.damai.uikit.view.DMProtocolDialogTextItemView android:id="@id/tips1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <cn.damai.uikit.view.DMProtocolDialogTextItemView android:id="@id/tips2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <cn.damai.uikit.view.DMProtocolDialogTextItemView android:id="@id/tips3" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <cn.damai.uikit.view.DMProtocolDialogTextItemView android:id="@id/tips4" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+    </cn.damai.uikit.view.MaxHeightLinearLayout>
+</FrameLayout>

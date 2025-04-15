@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.category.RankListModel",
+    "vClass": "cn.damai.tetris.component.category.RankListView",
+    "pClass": "cn.damai.tetris.component.category.RankListPresenter",
+    "layoutXml": "common_rank_item"
+  }
+}

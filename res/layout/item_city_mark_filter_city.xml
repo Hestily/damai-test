@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="10.0dip" android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/mark_s4_filter_title" android:background="@drawable/icon_city_mark_name_bg" android:paddingLeft="9.0dip" android:paddingTop="0.5dip" android:paddingRight="9.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="3.0dip" android:lines="1" />
+    <FrameLayout android:background="@drawable/bg_item_city_mark_icon_ring" android:padding="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <cn.damai.uikit.view.RoundImageView android:id="@id/mark_s4_filter_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+    </FrameLayout>
+</FrameLayout>

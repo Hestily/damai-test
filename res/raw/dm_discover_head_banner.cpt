@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.discover.mvp.ThemeBannerModel",
+    "vClass": "cn.damai.tetris.component.discover.mvp.ThemeBannerView",
+    "pClass": "cn.damai.tetris.component.discover.mvp.ThemeBannerPresenter",
+    "layoutXml": "item_discover_theme_banner"
+  }
+}

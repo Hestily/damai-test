@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/shape_rect_bottom_cor_12_solid_white" android:paddingBottom="12.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/item_filter_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/item_filter_reset_and_confirm_layout" />
+</LinearLayout>

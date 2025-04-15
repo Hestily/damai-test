@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/id_new_project_normal_count_down_layout" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.uikit.shadowlayout.DMShadowLayout android:layout_width="fill_parent" android:layout_height="94.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" app:sl_cornerRadius="6.0dip" app:sl_shadowColor="#40365433" app:sl_shadowRadius="6.0dip">
+        <com.alibaba.pictures.bricks.view.RoundRadiusImageView android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="?bgCountDownTipBottom" android:scaleType="fitXY" app:r_round_radius="8.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="1.5dip">
+            <com.alibaba.pictures.bricks.view.RoundRadiusImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="?bgCountDownTip" android:scaleType="fitXY" app:r_round_radius="8.0dip" />
+            <View android:background="@drawable/shape_rect_corner_8_storke" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/resource_size_12" android:textColor="@color/color_3c3f44" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:text="仅" />
+                    <TextView android:id="@id/id_project_count_down_day_v2" style="@style/StyleCountDownTextView" />
+                    <cn.damai.trade.view.MTabDigit android:id="@id/id_project_count_down_day" android:layout_width="wrap_content" android:layout_height="fill_parent" app:backgroundColor="?colorFF0080to171717" app:corner_size="3.0dip" app:leftRightPadding="6.0dip" app:textColor="@color/white" app:textSize="14.0dip" app:topBottomPadding="10.0dip" />
+                    <TextView android:textSize="@dimen/resource_size_12" android:textColor="@color/color_3c3f44" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:text="天" />
+                    <TextView android:id="@id/id_project_count_down_hour_v2" style="@style/StyleCountDownTextView" />
+                    <cn.damai.trade.view.MTabDigit android:id="@id/id_project_count_down_hour" android:layout_width="wrap_content" android:layout_height="wrap_content" app:backgroundColor="?colorFF0080to171717" app:corner_size="3.0dip" app:leftRightPadding="6.0dip" app:textColor="@color/white" app:textSize="14.0dip" app:topBottomPadding="10.0dip" />
+                    <TextView android:textSize="@dimen/resource_size_12" android:textColor="@color/color_3c3f44" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:text="时" />
+                    <TextView android:id="@id/id_project_count_down_min_v2" style="@style/StyleCountDownTextView" />
+                    <cn.damai.trade.view.MTabDigit android:id="@id/id_project_count_down_min" android:layout_width="wrap_content" android:layout_height="wrap_content" app:backgroundColor="?colorFF0080to171717" app:corner_size="3.0dip" app:leftRightPadding="6.0dip" app:textColor="@color/white" app:textSize="14.0dip" app:topBottomPadding="10.0dip" />
+                    <TextView android:textSize="@dimen/resource_size_12" android:textColor="@color/color_3c3f44" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:text="分" />
+                    <TextView android:id="@id/id_project_count_down_second_v2" style="@style/StyleCountDownTextView" />
+                    <cn.damai.trade.view.MTabDigit android:id="@id/id_project_count_down_second" android:layout_width="wrap_content" android:layout_height="wrap_content" app:backgroundColor="?colorFF0080to171717" app:corner_size="3.0dip" app:leftRightPadding="6.0dip" app:textColor="@color/white" app:textSize="14.0dip" app:topBottomPadding="10.0dip" />
+                    <TextView android:textSize="@dimen/resource_size_12" android:textColor="@color/color_3c3f44" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:text="秒" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/shape_rect_corner_24_solid_white" android:layout_width="wrap_content" android:layout_height="22.0dip" android:layout_marginTop="12.0dip">
+                    <TextView android:textSize="10.0dip" android:textColor="@color/color_69717C" android:id="@id/id_project_count_sell_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/resource_size_12" android:layout_marginRight="@dimen/resource_size_12" android:text="10月24号  13：30开抢" />
+                    <TextView android:textSize="10.0dip" android:textColor="@color/bricks_2e333e" android:gravity="center" android:id="@id/id_project_ticket_remind_me" android:background="?bgCountDownRemindBg" android:paddingLeft="11.0dip" android:paddingRight="11.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="18.0dip" android:layout_marginRight="2.0dip" android:text="添加日历提醒" />
+                </LinearLayout>
+            </LinearLayout>
+            <cn.damai.trade.view.RightClipImageView android:id="@id/id_project_count_grap_ticket" android:visibility="gone" android:layout_width="51.0dip" android:layout_height="22.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="1.0dip" android:src="@drawable/icon_project_grap_ticket" android:scaleType="fitXY" android:layout_alignParentRight="true" app:rightClipRadius="7.0dip" />
+        </RelativeLayout>
+    </cn.damai.uikit.shadowlayout.DMShadowLayout>
+</FrameLayout>

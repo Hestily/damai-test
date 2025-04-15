@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff0f2f4" android:paddingLeft="10.0dip" android:paddingTop="19.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:image="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="12.0sp" android:textColor="#ffb1b1b1" android:id="@id/tv_msg_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_message_group_inner_item" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/tv_msg_time">
+        <cn.damai.uikit.view.RoundImageView android:id="@id/iv_msg_icon" android:background="@drawable/dm_default_logo" android:layout_width="47.0dip" android:layout_height="47.0dip" android:scaleType="centerCrop" image:borderRadius="4.0dip" image:type="circle" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip">
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff333333" android:ellipsize="end" android:id="@id/tv_msg_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="13.0sp" android:textColor="#ffa5a5a5" android:ellipsize="end" android:id="@id/tv_msg_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:maxLines="2" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

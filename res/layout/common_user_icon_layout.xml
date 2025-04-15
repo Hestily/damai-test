@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.taobao.movie.android.commonui.widget.SimpleDraweeView android:layout_width="15.0dip" android:layout_height="15.0dip" app:placeholderImage="@drawable/header_place_holder" app:roundAsCircle="true" app:roundingBorderColor="@color/white" app:roundingBorderWidth="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

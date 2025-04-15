@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/lay_sex_sel" android:background="@drawable/shape_photo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+        <TextView android:textSize="18.0dip" android:textColor="#ff514647" android:gravity="center" android:id="@id/tv_first" android:layout_width="fill_parent" android:layout_height="41.0dip" android:text="相册" />
+        <View android:id="@id/line" android:background="#ffe9e9e9" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" />
+        <TextView android:textSize="18.0dip" android:textColor="#ff514647" android:gravity="center" android:id="@id/tv_second" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="41.0dip" android:text="拍照" />
+    </LinearLayout>
+    <TextView android:textSize="18.0dip" android:textColor="#ff007aff" android:gravity="center" android:id="@id/tv_cancel" android:background="@drawable/shape_photo" android:layout_width="fill_parent" android:layout_height="41.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="10.0dip" android:text="取消" />
+</LinearLayout>

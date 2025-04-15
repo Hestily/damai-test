@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/layout_background" android:layout_width="300.0dip" android:layout_height="415.0dip">
+        <com.alibaba.pictures.moimage.MoImageView android:layout_gravity="center" android:id="@id/iv_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" app:actualImageScaleType="fitXY" />
+        <com.taobao.movie.android.commonui.widget.SafeLottieAnimationView android:layout_gravity="center" android:id="@id/lottie_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:lottie_autoPlay="false" />
+        <View android:layout_gravity="bottom" android:id="@id/click_area" android:layout_width="fill_parent" android:layout_height="120.0dip" />
+    </FrameLayout>
+    <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="@color/common_text_color46" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/join_aiyi_close" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="37.0dip" android:text="@string/iconf_film_close_icon" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ray_verify_code" android:background="@drawable/edittext_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="35.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@color/main_color" android:gravity="center" android:id="@id/tv_verify_code" android:background="@drawable/sel_verify_code_bg" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:clickable="true" android:layout_width="90.0dip" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_marginBottom="10.0dip" android:text="@string/include_verify_code_01" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/light_black_444" android:textColorHint="#ff999999" android:ellipsize="middle" android:id="@id/edit_phone_num" android:background="#00000000" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:hint="@string/damai_cinemaorder_phone_number_toast11" android:singleLine="true" android:layout_toLeftOf="@id/tv_verify_code" android:layout_alignParentBottom="true" android:inputType="number" />
+    </RelativeLayout>
+</RelativeLayout>

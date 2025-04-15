@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/ali_ucc_login_frame" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/ali_ucc_new_login_content" android:background="@drawable/ali_ucc_dialog_xmlbg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="54.0dip" android:layout_marginRight="54.0dip">
+        <FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="5.0dip">
+            <ImageView android:layout_gravity="center|right" android:id="@id/ali_ucc_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/ali_ucc_dialog_close" android:scaleType="centerInside" />
+            <TextView android:textSize="18.0dip" android:textColor="@color/ali_ucc_login_dialog_title" android:layout_gravity="center_horizontal" android:id="@id/ali_ucc_bind_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ali_ucc_login_title" />
+        </FrameLayout>
+        <com.ali.user.open.core.webview.AliUccCustomToolbar android:id="@id/ali_user_webview_toolbar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+        <FrameLayout android:id="@id/ali_user_webview_container" android:background="@drawable/ali_ucc_dialog_xmlbg" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="378.0dip" />
+    </LinearLayout>
+</FrameLayout>

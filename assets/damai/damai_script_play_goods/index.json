@@ -1,0 +1,35 @@
+{
+  "id": "damai_script_play_goods",
+  "type": "gaia-template",
+  "package": {
+    "id": "damai_script_play_goods",
+    "version": "0.0.1",
+    "constraint-size": { "width": 375, "height": 76, "zoom": 1 },
+    "modify-timestamp": "Fri Mar 18 2022 15:27:31 GMT+0800 (中国标准时间)",
+    "dependencies": {}
+  },
+  "layers": [
+    { "id": "goods_image", "type": "image" },
+    {
+      "id": "content_info_view",
+      "type": "view",
+      "layers": [
+        { "id": "goods_title", "type": "text" },
+        {
+          "id": "goods_price_view",
+          "type": "view",
+          "layers": [
+            { "id": "rmb_text", "type": "text" },
+            { "id": "goods_price_text", "type": "text" },
+            { "id": "goods_price_unit", "type": "text" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "buy_btn",
+      "type": "view",
+      "layers": [{ "id": "buy_text", "type": "text" }]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="14.0dip" android:textColor="#ff148aff" android:id="@id/order_time_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:text="@string/iconf_valid_period" android:includeFontPadding="false" android:layout_centerVertical="true" />
+    <com.taobao.movie.android.app.order.ui.widget.OrderTimerTextView android:textSize="14.0dip" android:textColor="#ff148aff" android:gravity="right" android:id="@id/order_time_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:minWidth="40.0dip" android:lines="1" android:includeFontPadding="false" android:layout_toRightOf="@id/order_time_icon" android:layout_centerVertical="true" />
+</merge>

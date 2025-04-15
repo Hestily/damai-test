@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="216.0dip" android:layout_marginLeft="21.0dip" android:layout_marginRight="21.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/mine_brand_project_1" android:layout_width="103.0dip" android:layout_height="fill_parent" layout="@layout/mine_brand_project_item" />
+    <View android:id="@id/mine_brand_project_div1" android:layout_width="12.0dip" android:layout_height="fill_parent" />
+    <include android:id="@id/mine_brand_project_2" android:layout_width="103.0dip" android:layout_height="fill_parent" layout="@layout/mine_brand_project_item" />
+    <View android:id="@id/mine_brand_project_div2" android:layout_width="12.0dip" android:layout_height="fill_parent" />
+    <include android:id="@id/mine_brand_project_3" android:layout_width="103.0dip" android:layout_height="fill_parent" layout="@layout/mine_brand_project_item" />
+</LinearLayout>

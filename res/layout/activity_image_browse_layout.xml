@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/project_item_image_browse_title_bar" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_20dp" android:textColor="@color/color_ffffff" android:gravity="center_vertical" android:id="@id/image_browse_back_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/iconfont_fanhui24" android:layout_centerVertical="true" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/white" android:id="@id/image_browse_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/project_item_image_info_rv" android:paddingLeft="@dimen/margin_15dp" android:paddingRight="@dimen/margin_15dp" android:layout_width="fill_parent" android:layout_height="72.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="16.0dip" android:textColor="@color/white" android:id="@id/image_browse_position_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/margin_12dp" android:textColor="#ff9c9ca5" android:ellipsize="end" android:id="@id/image_intro_tv" android:layout_width="149.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:singleLine="true" android:layout_toLeftOf="@id/download_image_tv" android:layout_toRightOf="@id/image_browse_position_tv" android:layout_centerVertical="true" />
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="32.0dip" android:textColor="#ffffffff" android:id="@id/download_image_tv" android:background="@drawable/commonbusiness_image_download_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_xiazai32" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <cn.damai.commonbusiness.view.DmViewPager android:id="@id/image_browse_viewer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/project_item_image_info_rv" android:layout_below="@id/project_item_image_browse_title_bar" android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.pictures.bricks.view.BricksStrokeLinearLayout android:orientation="vertical" android:id="@id/pioneer_feed_common_stroke_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" app:sl_corners_radius="6.0dip" app:sl_stroke_color="#0d000000" app:sl_stroke_width="1.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.bricks.view.HWRatioLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.alibaba.pictures.bricks.view.GifCareImageView android:id="@id/pioneer_feed_common_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/home_default_image_bg_gradient_pioneer" android:scaleType="centerCrop" />
+    </com.alibaba.pictures.bricks.view.HWRatioLayout>
+</com.alibaba.pictures.bricks.view.BricksStrokeLinearLayout>

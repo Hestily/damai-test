@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_search_item" android:background="@drawable/bricks_item_normal_card_bg_r6" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:clipChildren="false" android:clipToPadding="false" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/space" android:layout_width="fill_parent" android:layout_height="15.0dip" />
+    <LinearLayout android:orientation="horizontal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.pictures.bricks.view.DMPosterView android:id="@id/poster" android:layout_width="71.0dip" android:layout_height="101.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_project_right" android:paddingLeft="@dimen/margin_9dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="15.0dip" android:textColor="@color/color_000000" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_project_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:maxLines="2" android:lineSpacingExtra="@dimen/margin_3dp" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_score_follow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_4dp">
+                <TextView android:textSize="11.5dip" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_project_follow_desc" android:background="@drawable/bricks_bg_border_corner_8f3f" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/margin_16dp" android:layout_marginRight="6.0dip" android:text="我想看" />
+                <View android:id="@id/tv_project_follow_desc_divider" android:background="@color/color_pioneer_primary_20" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="10.0dip" android:layout_marginRight="6.0dip" />
+                <TextView android:textSize="11.5dip" android:textColor="@color/color_bricks_secondary_orange" android:ellipsize="end" android:id="@id/tv_artistName" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="11.5dip" android:textColor="@color/color_bricks_secondary_orange" android:id="@id/layout_score_preifx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:text="大麦评分" />
+                <com.alibaba.pictures.bricks.view.DigitTextView android:textSize="14.0dip" android:textColor="@color/color_bricks_secondary_orange" android:id="@id/layout_score" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="11.5dip" android:textColor="@color/color_pioneer_primary" android:id="@id/layout_score_postfix" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="分" android:contentDescription="只在大麦先锋版展示" android:paddingStart="1.0dip" />
+                <View android:id="@id/tv_project_rank_mark" android:background="#ffe1e1e4" android:visibility="visible" android:layout_width="1.0dip" android:layout_height="10.0dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" />
+                <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_bricks_secondary_orange" android:ellipsize="end" android:id="@id/tv_project_rank" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:id="@id/tv_project_address_info_block" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="11.5dip" android:textColor="#ff4d4d56" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_project_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_4dp" android:singleLine="true" />
+                        <com.google.android.flexbox.FlexboxLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_4dp" app:alignItems="center" app:flexDirection="row">
+                            <TextView android:textSize="11.5dip" android:textColor="#ff4d4d56" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_project_city" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" app:layout_flexShrink="0.0" />
+                            <com.alibaba.pictures.kit.ui.EndCoverTextView android:textSize="11.5dip" android:textColor="#ff4d4d56" android:gravity="center_vertical" android:id="@id/tv_project_venueName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" app:layout_flexShrink="1.0" />
+                            <include android:id="@id/tv_project_dis_divider" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="10.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" app:layout_flexShrink="0.0" layout="@layout/uikit_divider_v" />
+                            <TextView android:textSize="11.5dip" android:textColor="@color/color_pioneer_main_body" android:id="@id/tv_project_dis_pioneer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_flexShrink="0.0" />
+                        </com.google.android.flexbox.FlexboxLayout>
+                        <TextView android:textSize="11.5dip" android:textColor="#ff4d4d56" android:id="@id/tv_project_dis" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="13.0dip" android:layout_marginTop="@dimen/margin_4dp" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/tv_project_address_info_block" android:layout_alignParentBottom="true">
+                        <com.alibaba.pictures.bricks.view.FlowLayout android:id="@id/fl_sales2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_weight="1.0" />
+                        <LinearLayout android:id="@id/id_project_price_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip">
+                            <com.alibaba.pictures.bricks.view.DMCommonPriceView android:id="@id/tv_project_price_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-3.0dip" />
+                            <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_pioneer_primary_black" android:gravity="bottom" android:id="@id/tv_yixiajia" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="已下架" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/id_project_status_tv_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <TextView android:textSize="@dimen/resource_size_12" android:textColor="@color/white" android:gravity="center" android:id="@id/id_project_status_tv" android:visibility="gone" android:layout_width="54.0dip" android:layout_height="27.0dip" android:layout_marginLeft="6.0dip" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <com.alibaba.pictures.bricks.component.project.TimerView android:id="@id/dm_project_timer_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginBottom="@dimen/margin_4dp" />
+    <RelativeLayout android:id="@id/space_bottom" android:layout_width="fill_parent" android:layout_height="15.0dip">
+        <include android:id="@id/ll_search_bottom_div" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" layout="@layout/bricks_item_ededed_line" />
+    </RelativeLayout>
+</LinearLayout>

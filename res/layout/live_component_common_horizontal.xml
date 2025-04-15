@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.bricks.view.RoundImageView android:id="@id/live_card_bg_pic" android:layout_width="fill_parent" android:layout_height="80.0dip" android:scaleType="fitXY" app:borderRadius="6.0dip" app:type="round" />
+    <ImageView android:id="@id/live_card_flag" android:layout_width="38.0dip" android:layout_height="38.0dip" android:contentDescription="flag" />
+    <LinearLayout android:orientation="vertical" android:id="@id/live_card_info" android:layout_width="fill_parent" android:layout_height="100.0dip">
+        <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="#ff2e333e" android:id="@id/live_card_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="10.0dip" android:textColor="#ff9c9ca5" android:ellipsize="end" android:id="@id/live_card_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:maxWidth="60.0dip" android:maxLines="1" android:layout_alignParentRight="true" android:layout_marginEnd="8.0dip" />
+            <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="8.0dip" android:textColor="#ff9c9ca5" android:gravity="center_vertical" android:id="@id/live_card_all_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/iconfont_youjiantou12" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <com.alibaba.pictures.bricks.view.ProgrammaticallyScrollableRecyclerView android:id="@id/horizontal_container" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="10.0dip" android:overScrollMode="never" />
+    </LinearLayout>
+    <View android:layout_gravity="right" android:id="@id/live_card_go_to_all" android:layout_width="90.0dip" android:layout_height="28.0dip" />
+</FrameLayout>

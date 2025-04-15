@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.uikit.view.round.RoundImageView2 android:id="@id/common_banner_view_bg" android:background="@color/accent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" app:rRadius="6.0dip" />
+    <ImageView android:id="@id/common_banner_view_play" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/icon_video_play_white" android:layout_centerInParent="true" />
+</RelativeLayout>

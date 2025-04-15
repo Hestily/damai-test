@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.damai.uikit.view.StrokeLinearLayout android:orientation="vertical" android:id="@id/note_stroke_layout" android:background="@drawable/bg_circle_content_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_9dp" app:sl_corners_radius="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.uikit.view.StrokeLinearLayout android:orientation="vertical" android:background="@drawable/bg_circle_card" android:layout_width="fill_parent" android:layout_height="wrap_content" app:sl_corners_radius="6.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/item_discover_big_note_head_1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="62.0dip">
+                <cn.damai.discover.content.view.UserInfoView android:id="@id/content_detail_user_info" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/margin_12dp" android:layout_marginTop="@dimen/margin_15dp" app:avatarRightMargin="9.0dip" app:userAvatarSize="size_30x30" />
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <ImageView android:id="@id/iv_selected" android:layout_width="22.0dip" android:layout_height="38.0dip" android:src="@drawable/bricks_feed_note_card_feature" android:layout_marginEnd="@dimen/margin_12dp" />
+            </LinearLayout>
+            <TextView android:textSize="15.0dip" android:textColor="@color/black" android:id="@id/note_s1_title" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:lineSpacingExtra="6.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/item_discover_big_note_head_2" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15.0dip" android:textColor="@color/black" android:id="@id/note_s1_title_2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_weight="1.0" android:lineSpacingExtra="6.0dip" />
+            <ImageView android:id="@id/iv_selected_2" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="38.0dip" android:layout_marginLeft="6.0dip" android:src="@drawable/bricks_feed_note_card_feature" />
+        </LinearLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="@dimen/margin_9dp" android:layout_marginRight="12.0dip">
+            <cn.damai.uikit.view.NineGridView android:id="@id/comment_hl_content_pics_v2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:clip_children_bound_radius="6.0dip" app:nine_child_spacing="3.0dip" />
+        </FrameLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/note_relate_ui" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_8dp">
+            <ImageView android:id="@id/note_relate_icon" android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/theme_tip_icon" android:scaleType="fitXY" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/color_9C9CA5" android:ellipsize="end" android:id="@id/note_relate_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:lines="1" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_15dp" android:layout_marginBottom="@dimen/margin_15dp">
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="15.0dip" android:textColor="@color/color_9C9CA5" android:gravity="center_vertical" android:id="@id/tv_share" android:layout_width="25.0dip" android:layout_height="fill_parent" android:text="@string/iconfont_fenxiang44" />
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <cn.damai.comment.view.PraiseView android:id="@id/comment_hl_praise_layout" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/comment_like_layout" android:paddingLeft="13.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ImageView android:gravity="center" android:id="@id/comment_like_numicon" android:paddingLeft="4.0dip" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dm_icon_like_unselect" />
+                <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_9C9CA5" android:id="@id/comment_like_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.5dip" android:text="想看" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/comment_reply_layout" android:paddingLeft="13.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:gravity="center" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dm_icon_reply" />
+                <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_9C9CA5" android:id="@id/comment_num_reply" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.5dip" android:text="回复" />
+            </LinearLayout>
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="14.0dip" android:textColor="#ffb7b7c2" android:gravity="center" android:id="@id/note_more_action" android:paddingLeft="13.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="25.0dip" android:text="@string/iconfont_Gengduo18" />
+        </LinearLayout>
+    </cn.damai.uikit.view.StrokeLinearLayout>
+</cn.damai.uikit.view.StrokeLinearLayout>

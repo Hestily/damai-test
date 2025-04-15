@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="center_vertical" android:id="@id/layout_step_detail" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.damai.uikit.number.DMDigitTextView android:textSize="12.0dip" android:textColor="@color/color_666666" android:ellipsize="end" android:id="@id/tv_detail_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="40.0dip" android:singleLine="true" />
+        <cn.damai.uikit.number.DMDigitTextView android:textSize="12.0dip" android:textColor="@color/color_666666" android:layout_gravity="right" android:id="@id/tv_detail_price" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</FrameLayout>

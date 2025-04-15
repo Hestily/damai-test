@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/ll_coupon_order_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/tv_coupon_order_num" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ticklet_000000_16dp" />
+    <ImageView android:id="@id/iv_coupon_order_icon" android:layout_width="@dimen/margin_15dp" android:layout_height="@dimen/margin_15dp" android:layout_marginLeft="@dimen/margin_7dp" android:src="@drawable/ticklet_check_order_icon" />
+</merge>

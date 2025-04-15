@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.taobao.movie.android.commonui.widget.SimpleDraweeView android:id="@id/film_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.taobao.movie.android.commonui.widget.SimpleDraweeView android:id="@id/film_image" android:background="@color/common_text_color14" android:layout_width="fill_parent" android:layout_height="fill_parent" fresco:actualImageScaleType="centerCrop" fresco:fadeDuration="0" fresco:failureImage="@drawable/oscar_default_image" fresco:failureImageScaleType="centerInside" fresco:placeholderImage="@drawable/oscar_default_image" fresco:placeholderImageScaleType="centerInside" fresco:retryImage="@drawable/oscar_default_image" fresco:retryImageScaleType="centerInside" style="@style/small_round_style" />
+    <ImageView android:layout_gravity="center" android:id="@id/icon_play" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/play_icon" />
+    <View android:id="@id/radius_fg" android:background="@drawable/image_tag_view_radius_fg_big" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

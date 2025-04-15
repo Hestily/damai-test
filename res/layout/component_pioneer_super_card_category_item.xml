@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="@dimen/resource_size_78" android:paddingEnd="@dimen/resource_size_4"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/category_expand_lay_bg" android:background="@drawable/bg_pioneer_super_card_b_account_list" android:layout_width="wrap_content" android:layout_height="@dimen/resource_size_58" android:layout_marginBottom="@dimen/resource_size_8" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:id="@id/category_collapse_lay" android:layout_width="@dimen/resource_size_56" android:layout_height="@dimen/resource_size_50" android:layout_marginBottom="@dimen/resource_size_12" android:layout_alignParentBottom="true">
+        <cn.damai.pioneer.component.supercard.v2.CategoryItemView android:id="@id/category_item" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/b_account_item_selected_bg" android:visibility="visible" android:layout_width="@dimen/resource_size_70" android:layout_height="@dimen/resource_size_78" android:alpha="0.0" android:layout_marginStart="@dimen/resource_size_4">
+        <View android:id="@id/selected_box" android:background="@drawable/bg_pioneer_super_card_category_b_account_selected" android:layout_width="@dimen/resource_size_70" android:layout_height="@dimen/resource_size_70" />
+        <View android:background="@drawable/bg_pioneer_super_card_category_b_account_selected_bottom" android:layout_width="@dimen/resource_size_31" android:layout_height="@dimen/resource_size_8" />
+    </LinearLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="bottom" android:orientation="horizontal" android:id="@id/category_expand_lay" android:layout_width="wrap_content" android:layout_height="@dimen/resource_size_78" android:layout_alignParentBottom="true" android:paddingStart="@dimen/resource_size_4" android:paddingEnd="@dimen/resource_size_4" app:divider="@drawable/divider_super_card_b_account" app:showDividers="middle" />
+</RelativeLayout>

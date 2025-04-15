@@ -1,0 +1,68 @@
+#tpp_film_detail_announcement_item {
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  border-radius: 9px;
+  background-color: #ffffff;
+  position: absolute;
+}
+#background_view {
+  height: 60px;
+  background-color: #ffffff;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+  border-radius: 9px;
+}
+#arrow_view {
+  width: 12px;
+  height: 12px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 12px;
+}
+#right_arrow {
+  width: 16px;
+  height: 16px;
+  font-family: iconfont2;
+  font-style: normal;
+  font-size: 12px;
+  color: #959aa5;
+}
+#label_view {
+  height: 100%;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin-left: 6px;
+}
+#title {
+  text-overflow: ellipsis;
+  color: #2e333e;
+  font-size: 13px;
+  flex-shrink: 1;
+  width: 100%;
+  font-weight: 500;
+  fit-content: true;
+}
+#sub_title {
+  width: 100%;
+  text-overflow: ellipsis;
+  color: #959aa5;
+  font-size: 10px;
+  margin-top: 4px;
+  flex-shrink: 1;
+  font-weight: 400;
+  fit-content: true;
+}
+#icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 7px;
+  background-color: primaryFillColor;
+  margin-left: 12px;
+}

@@ -1,0 +1,10 @@
+{
+  "data": {
+    "info_title": { "value": "服务项目" },
+    "damai_script_play_coupon_service_list": { "value": "$$" },
+    "amount_title": { "value": "总价" },
+    "amount_price": { "value": "${totalPrice}" },
+    "coupon_title": { "value": "团购价" },
+    "coupon_price": { "value": "${promotionPrice}" }
+  }
+}

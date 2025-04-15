@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="324.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/statemanager_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" style="?statemanager_loading_style" />
+    <TextView android:textColor="@color/common_color_1008" android:id="@id/statemanager_subhint" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="27.0dip" style="?statemanager_hint_style" />
+</LinearLayout>

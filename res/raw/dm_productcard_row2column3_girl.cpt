@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.girl.mvp.ColumnModel",
+    "vClass": "cn.damai.tetris.component.girl.mvp.ColumnView",
+    "pClass": "cn.damai.tetris.component.girl.mvp.ColumnPresenter",
+    "layoutXml": "subgroup_3column_layout"
+  }
+}

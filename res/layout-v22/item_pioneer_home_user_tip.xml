@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/id_pioneer_home_header_tip_layout" android:paddingLeft="@dimen/resource_size_15" android:paddingRight="@dimen/resource_size_15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/resource_size_15"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/id_pioneer_home_header_tip_top" android:background="@color/black" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginTop="@dimen/resource_size_5" android:rotation="45.0" android:layout_marginStart="@dimen/resource_size_15" />
+    <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="@dimen/resource_size_13" android:textColor="@color/bricks_white" android:background="@drawable/bg_pioneer_home_header_tip" android:paddingLeft="@dimen/resource_size_12" android:paddingTop="@dimen/resource_size_6" android:paddingRight="@dimen/resource_size_12" android:paddingBottom="@dimen/resource_size_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-7.0dip" android:text="@string/home_pioneer_header_tip" android:paddingHorizontal="@dimen/resource_size_12" android:paddingVertical="@dimen/resource_size_6" />
+</LinearLayout>

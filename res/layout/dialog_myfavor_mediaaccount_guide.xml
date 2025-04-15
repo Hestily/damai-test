@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/round_8_dialog_background" android:paddingLeft="15.0dip" android:paddingTop="15.0dip" android:paddingRight="15.0dip" android:paddingBottom="20.0dip" android:layout_width="290.0dip" android:layout_height="315.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="22.5dip">
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_assist" android:id="@id/dialog_myfavor_mediaaccount_guide_closebtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconf_community_close" />
+        </LinearLayout>
+        <ImageView android:id="@id/dialog_myfavor_mediaaccount_guide_image" android:layout_width="173.0dip" android:layout_height="163.0dip" />
+        <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/dialog_myfavor_mediaaccount_guide_confirmbtn" android:background="@drawable/gradient_red_small_l2r_btn" android:layout_width="109.0dip" android:layout_height="40.0dip" android:layout_marginTop="38.0dip" android:text="好的" />
+    </LinearLayout>
+</FrameLayout>

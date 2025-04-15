@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#ff825542" android:paddingLeft="@dimen/resource_size_12" android:paddingTop="@dimen/resource_size_5" android:paddingRight="@dimen/resource_size_12" android:paddingBottom="@dimen/resource_size_5" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/script_shop_tip_bg" android:paddingLeft="@dimen/resource_size_12" android:paddingRight="@dimen/resource_size_12" android:layout_width="fill_parent" android:layout_height="@dimen/resource_size_35">
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/resource_size_12" android:textColor="@color/color_eb7609" android:id="@id/tip_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_tixingmian_" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/resource_size_12" android:textColor="@color/color_eb7609" android:ellipsize="end" android:gravity="center" android:id="@id/content" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" android:layout_centerVertical="true" android:layout_marginStart="@dimen/resource_size_4" android:layout_toEndOf="@id/tip_icon" />
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/resource_size_12" android:textColor="@color/color_eb7609" android:id="@id/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_youjiantou12" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</FrameLayout>

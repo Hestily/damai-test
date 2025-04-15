@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/margin_21dp" android:paddingTop="@dimen/margin_18dp" android:paddingRight="@dimen/margin_21dp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_image" android:layout_width="@dimen/margin_16dp" android:layout_height="@dimen/margin_16dp" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_000000" android:id="@id/tv_ticket_guide_title" android:paddingLeft="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="预填邮箱地址" android:layout_toRightOf="@id/iv_image" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/margin_14dp" android:textColor="#ff30aeff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_15dp" android:text="填写" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_666666" android:layout_width="@dimen/margin_12dp" android:layout_height="@dimen/margin_12dp" android:text="@string/iconfont_youjiantou24" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_666666" android:id="@id/tv_ticket_guide_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_9dp" android:text="请提前填写收货地址信息，您可在【我的】页面点击收货地址进行填写和修改，特别说明：电子票订单不支持配送" android:lineSpacingExtra="@dimen/margin_3dp" />
+    <cn.damai.uikit.view.DashedLine android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/margin_18dp" app:dashColor="#ffdbdbdb" app:dashGap="2.0dip" app:dashOrientation="horizontal" app:dashWidth="2.0dip" app:strokeW="1.0dip" />
+</LinearLayout>

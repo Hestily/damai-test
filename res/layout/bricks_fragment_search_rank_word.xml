@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:id="@id/search_v2_history_word_title_bg" android:background="@drawable/bg_pioneer_search_top_gradient_fold" android:layout_width="fill_parent" android:layout_height="30.0dip" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:id="@id/search_v2_history_word_ui" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <RelativeLayout android:gravity="center_vertical" android:id="@id/search_v2_history_word_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip">
+                            <TextView android:textSize="16.0dip" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="搜索历史" />
+                            <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="20.0dip" android:textColor="#ff4f5a6e" android:gravity="center_vertical" android:id="@id/search_v2_history_clear" android:paddingLeft="@dimen/margin_15dp" android:paddingRight="@dimen/margin_15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_user_delete" android:layout_alignParentEnd="true" />
+                        </RelativeLayout>
+                        <LinearLayout android:orientation="horizontal" android:id="@id/search_v2_history_layout_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <cn.damai.uikit.copy.view.ExpandFlowLayout android:id="@id/search_v2_history_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_weight="1.0" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" />
+                            <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="23.0dip" android:textColor="#ff4f5a6e" android:gravity="center_vertical" android:id="@id/pioneer_search_v2_history_clear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.5dip" android:text="@string/iconfont_user_delete" android:paddingEnd="21.0dip" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <androidx.recyclerview.widget.RecyclerView android:id="@id/search_v2_iconList" android:background="@drawable/bg_pioneer_search_icon_list_corner" android:paddingTop="8.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="12.0dip" />
+                    <com.alibaba.pictures.bricks.search.v2.view.SearchHotListView android:id="@id/search_v2_hot_word_ui" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

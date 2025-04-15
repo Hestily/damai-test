@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/resource_size_9" android:paddingBottom="@dimen/resource_size_9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/resource_size_15" android:layout_marginRight="@dimen/resource_size_15"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/ticket_trip_divider_dash_line" android:layout_width="0.0dip" android:layout_height="2.0dip" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/resource_size_12" android:textColor="@color/bricks_999999" android:id="@id/id_trip_scrip_divider_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/resource_size_3" android:layout_marginRight="@dimen/resource_size_3" />
+    <View android:background="@drawable/ticket_trip_divider_dash_line" android:layout_width="0.0dip" android:layout_height="2.0dip" android:layout_weight="1.0" />
+</LinearLayout>

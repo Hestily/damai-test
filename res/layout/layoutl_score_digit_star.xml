@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_score" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.bricks.view.DigitTextView android:textSize="13.0dip" android:textColor="@color/color_score_font" android:gravity="center_vertical" android:id="@id/score_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" />
+    <cn.damai.uikit.view.ScoreStarViewV2 android:layout_gravity="center_vertical" android:id="@id/score_icon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="3.0dip" app:colorType="yellow" />
+</LinearLayout>

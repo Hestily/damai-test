@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.damai.pioneer.component.supercard.viewpager.SuperCardProjectInfoView android:id="@id/banner" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.alient.onearch.adapter.widget.pager.SnapHorizontalListView android:id="@id/list" android:clipChildren="true" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/list_indicator_container" android:layout_width="351.0dip" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.alient.onearch.adapter.widget.banner.IndicatorView android:id="@id/list_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/resource_size_6" android:layout_marginEnd="@dimen/resource_size_8" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

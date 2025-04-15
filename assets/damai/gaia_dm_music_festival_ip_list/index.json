@@ -1,0 +1,33 @@
+{
+  "id": "gaia_dm_music_festival_ip_list",
+  "type": "gaia-template",
+  "sub-type": "scroll",
+  "row-spacing": 0,
+  "item-spacing": 0,
+  "direction": "horizontal",
+  "edge-insets": "{0,15,0,15}",
+  "line-spacing": 0,
+  "interitem-spacing": 0,
+  "package": {
+    "id": "gaia_dm_music_festival_ip_list",
+    "version": "0.0.1",
+    "modify-timestamp": "Mon Mar 27 2023 11:25:51 GMT+0800 (中国标准时间)",
+    "dependencies": {
+      "gaia_dm_music_festival_ip_list_item": "0.0.0",
+      "gaia_dm_music_festival_ip_list_item_multi": "0.0.0"
+    },
+    "constraint-size": { "width": 375, "height": 233, "zoom": 1 }
+  },
+  "layers": [
+    {
+      "id": "gaia_dm_music_festival_ip_list_item",
+      "type": "gaia-template",
+      "sub-type": "custom"
+    },
+    {
+      "id": "gaia_dm_music_festival_ip_list_item_multi",
+      "type": "gaia-template",
+      "sub-type": "custom"
+    }
+  ]
+}

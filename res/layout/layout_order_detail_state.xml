@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/margin_21dp" android:paddingRight="@dimen/margin_21dp" android:paddingBottom="@dimen/margin_24dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/ll_notice" layout="@layout/layout_order_detail_notice" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_24dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/margin_20dp" android:textColor="@color/white" android:id="@id/tv_order_state" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_white" android:id="@id/tv_order_state_des" android:paddingTop="@dimen/margin_9dp" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/white" android:id="@id/tv_pay_after_num" android:paddingTop="@dimen/margin_6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/mask_white_70" android:id="@id/tv_pay_tip" android:paddingTop="@dimen/margin_9dp" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/ll_order_head_button" android:paddingTop="@dimen/margin_24dp" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_12dp" android:textColor="@color/white" android:layout_gravity="center|right|top" android:id="@id/icon_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_5dp" android:text="@string/iconfont_youjiantou24" />
+    </FrameLayout>
+</LinearLayout>

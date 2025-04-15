@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/bricks_horizontal_layout" android:background="@drawable/bricks_group_coupons_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.bricks.view.RoundRadiusImageView android:id="@id/bricks_horizontal_layout_bg" android:layout_width="fill_parent" android:layout_height="200.0dip" android:src="@drawable/bricks_home_horizontal_colorbg" android:scaleType="centerCrop" app:r_round_radius="6.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bricks_horizontal_layout_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="16.5dip" android:layout_marginRight="12.0dip">
+        <ImageView android:id="@id/bricks_horizontal_layout_title" android:layout_width="240.0dip" android:layout_height="15.0dip" android:scaleType="fitStart" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/font_Subhead2_R" android:textColor="#ff5f6672" android:ellipsize="end" android:gravity="center|right" android:layout_gravity="center|right" android:id="@id/bricks_horizontal_layout_more" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="15.0dip" android:text="全部" android:maxLines="1" android:layout_weight="1.0" android:layout_toLeftOf="@id/bricks_horizontal_layout_title" android:layout_alignParentRight="true" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/bricks_horizontal_layout_moreimg" android:paddingTop="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bricks_icon_right_black_arrow" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/horizontal_container" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_below="@id/bricks_horizontal_layout_top" android:overScrollMode="never" />
+</RelativeLayout>

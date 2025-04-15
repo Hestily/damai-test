@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingVertical="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="25.0dip" android:layout_height="12.0dip" android:src="@drawable/ticket_trip_real_name_icon" />
+    <TextView android:textSize="@dimen/resource_size_12" android:textColor="#ff6c7077" android:id="@id/id_ticket_cert_name_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="174.0dip" android:layout_marginStart="@dimen/resource_size_6" />
+</LinearLayout>

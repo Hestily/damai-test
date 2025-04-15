@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="71.0dip" android:paddingStart="@dimen/slide_mine_edge_left" android:paddingEnd="@dimen/slide_mine_edge_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/id_pioneer_my_orders" style="@style/PropertyContainerStyle">
+        <ImageView android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/icon_pioneer_order" android:scaleType="fitXY" />
+        <com.alibaba.pictures.bricks.view.FakeBoldTextView android:text="@string/mine_pioneer_order" style="@style/PropertyTextStyle" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/id_pioneer_my_ticket" style="@style/PropertyContainerStyle">
+        <ImageView android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/icon_pioneer_ticket" android:scaleType="fitXY" />
+        <com.alibaba.pictures.bricks.view.FakeBoldTextView android:text="@string/mine_pioneer_ticket" style="@style/PropertyTextStyle" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/id_pioneer_my_focus" style="@style/PropertyContainerStyle">
+        <ImageView android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/icon_pioneer_wantsee" android:scaleType="fitXY" />
+        <com.alibaba.pictures.bricks.view.FakeBoldTextView android:text="@string/mine_pioneer_want_see" style="@style/PropertyTextStyle" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/id_pioneer_my_reservation" android:layout_marginEnd="@dimen/resource_size_9" style="@style/PropertyContainerStyle">
+        <FrameLayout android:layout_width="28.0dip" android:layout_height="28.0dip">
+            <ImageView android:id="@id/id_pioneer_my_grab_count_img" android:layout_width="28.0dip" android:layout_height="28.0dip" android:scaleType="fitXY" />
+            <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="@dimen/resource_size_13" android:textStyle="bold" android:textColor="#ff7eff00" android:gravity="center" android:layout_gravity="center" android:id="@id/id_pioneer_my_grab_count" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" />
+        </FrameLayout>
+        <com.alibaba.pictures.bricks.view.FakeBoldTextView android:text="@string/mine_pioneer_reservation" style="@style/PropertyTextStyle" />
+    </LinearLayout>
+</LinearLayout>

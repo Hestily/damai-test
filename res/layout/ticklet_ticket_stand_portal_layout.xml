@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/ll_stand_portal_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/ll_stand_portal_view_bg" android:background="@drawable/shape_f7f8fa_6_bg" android:paddingLeft="@dimen/margin_14dp" android:paddingTop="@dimen/margin_6dp" android:paddingRight="@dimen/margin_14dp" android:paddingBottom="@dimen/margin_6dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_12dp" android:layout_marginTop="@dimen/margin_7dp" android:layout_marginRight="@dimen/margin_12dp" android:layout_marginBottom="@dimen/margin_10dp" android:minWidth="@dimen/ticklet_margin_205dp" android:minHeight="30.0dip">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/tv_stand_portal_entry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_6dp" android:layout_weight="1.0" style="@style/ticklet_999999_13dp" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_stand_portal_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <TextView android:id="@id/tv_stand_portal_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_3dp" android:text="导航入场" style="@style/ticklet_ff2d79_13dp" />
+                <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_ff2d79" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_1dp" android:text="@string/iconfont_youjiantou_" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="right" android:orientation="horizontal" android:id="@id/ll_stand_portal_icon2" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_7dp">
+            <TextView android:id="@id/tv_stand_portal_icon2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_3dp" android:text="导航入场" style="@style/ticklet_ff2d79_13dp" />
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_ff2d79" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_1dp" android:text="@string/iconfont_youjiantou_" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

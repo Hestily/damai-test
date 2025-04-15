@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/mo_recyclerview_fragment_content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/background_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/combolist" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+</FrameLayout>

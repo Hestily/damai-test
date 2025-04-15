@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_start_01" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_start_02" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_start_03" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_start_04" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_start_05" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_start_06" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_start_07" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_start_08" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_start_09" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_start_10" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_start_11" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_start_12" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_start_13" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_start_14" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_start_15" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_start_16" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_start_17" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_start_18" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_start_19" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_start_20" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_start_21" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_start_22" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_start_23" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_start_24" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_start_25" />
+</animation-list>

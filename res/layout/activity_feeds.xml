@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_alignParentBottom="true">
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="22.0dip" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/brand_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/iconfont_fanhui24" android:maxLines="1" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="20.0dip" android:textColor="#ff000000" android:id="@id/brand_user_tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="大家说" android:maxLines="1" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/activity_feeds" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

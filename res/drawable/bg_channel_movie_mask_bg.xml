@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:bottomLeftRadius="@dimen/channel_movie_poster_corner_pioneer" android:bottomRightRadius="@dimen/channel_movie_poster_corner_pioneer" />
+    <gradient android:startColor="@color/black" android:endColor="@color/transparent" android:angle="90.0" />
+</shape>

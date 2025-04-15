@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/ll_mine_service_container" android:background="@drawable/bg_olympic_banner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="9.0dip">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/bg_user_center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_12dp" android:layout_marginTop="@dimen/margin_14dp" android:text="我的服务" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="13.0dip">
+                <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_mine_common_orderlist" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/margin_28dp" android:layout_height="@dimen/margin_28dp" android:src="@drawable/icon_mine_orderlist" />
+                    <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_000000" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_6dp" android:text="@string/mine_user_center_my_orders" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_mine_common_purchase" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/margin_28dp" android:layout_height="@dimen/margin_28dp" android:src="@drawable/icon_mine_movier" />
+                    <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_000000" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_6dp" android:text="@string/mine_user_center_common_user" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_mine_user_center_address" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/margin_28dp" android:layout_height="@dimen/margin_28dp" android:src="@drawable/icon_mine_address" />
+                    <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_000000" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_6dp" android:text="@string/mine_user_center_address" />
+                </LinearLayout>
+                <RelativeLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_mine_evaluate" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:id="@id/iv_mine_evaluated" android:layout_width="@dimen/margin_28dp" android:layout_height="@dimen/margin_28dp" android:src="@drawable/icon_mine_evaluate" android:layout_centerHorizontal="true" />
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_6dp" android:layout_below="@id/iv_mine_evaluated" android:layout_centerHorizontal="true">
+                        <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_000000" android:id="@id/tv_mine_evaluated" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="评价" android:includeFontPadding="false" />
+                        <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_666666" android:id="@id/tv_mine_evaluated_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_3dp" android:text="10" android:includeFontPadding="false" />
+                    </LinearLayout>
+                    <FrameLayout android:id="@id/fl_mine_evaluated_badge" android:paddingLeft="@dimen/margin_18dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                        <ImageView android:textSize="@dimen/margin_10dp" android:textColor="@color/color_ffffff" android:gravity="center" android:background="@drawable/icon_badge" android:layout_width="6.0dip" android:layout_height="6.0dip" />
+                    </FrameLayout>
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_mine_coupon" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:id="@id/iv_mine_coupon" android:layout_width="@dimen/margin_28dp" android:layout_height="@dimen/margin_28dp" android:src="@drawable/icon_mine_coupon" android:layout_centerHorizontal="true" />
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_6dp" android:layout_below="@id/iv_mine_coupon" android:layout_centerHorizontal="true">
+                        <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_000000" android:id="@id/tv_mine_coupon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="优惠券" android:includeFontPadding="false" />
+                        <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_666666" android:id="@id/tv_mine_coupon_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_3dp" android:text="@string/mine_user_center_to_evaluate_perform" android:includeFontPadding="false" />
+                    </LinearLayout>
+                    <FrameLayout android:id="@id/fl_mine_coupon_badge" android:paddingLeft="@dimen/margin_18dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                        <ImageView android:textSize="@dimen/margin_10dp" android:gravity="center" android:background="@drawable/icon_badge" android:layout_width="6.0dip" android:layout_height="6.0dip" />
+                    </FrameLayout>
+                </RelativeLayout>
+            </LinearLayout>
+            <cn.damai.uikit.flowlayout.FlowLayout android:id="@id/fl_dynamic_menu_layout_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_marginRight="13.0dip" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_extend_state" android:layout_width="fill_parent" android:layout_height="31.0dip" android:layout_marginLeft="@dimen/margin_1dp" android:layout_marginTop="9.0dip" android:layout_marginRight="@dimen/margin_1dp" android:layout_marginBottom="1.0dip">
+                <TextView android:textSize="@dimen/margin_10dp" android:textColor="@color/color_999999" android:id="@id/tv_extend_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="收起" />
+                <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_10dp" android:textColor="@color/color_999999" android:id="@id/tv_extend_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_4dp" android:text="@string/iconfont_xiangshangjiantou_" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

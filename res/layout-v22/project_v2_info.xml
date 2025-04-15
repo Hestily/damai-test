@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/project_info_container_ll" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.trade.newtradeorder.ui.projectdetail.projectdetailnew.video.ProjectPicAndVideoView android:gravity="center_horizontal" android:id="@id/layout_video_and_pic" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="247.0dip" />
+    <FrameLayout android:id="@id/project_info_container_fl" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.pictures.moimage.MoImageView android:id="@id/project_info_container_bg_default" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="213.0dip" android:scaleType="matrix" />
+        <ImageView android:id="@id/project_info_container_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:background="@drawable/bg_project_v2_info_black_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:id="@id/project_info_container_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="46.0dip">
+            <LinearLayout android:id="@id/project_info_notice_flipper_ll" android:background="@drawable/bg_border_project_info_notice" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginRight="9.0dip" android:layout_marginBottom="9.0dip" android:layout_marginHorizontal="9.0dip">
+                <ViewFlipper android:id="@id/project_info_notice_flipper" android:layout_width="fill_parent" android:layout_height="33.0dip" android:inAnimation="@anim/flipper_in" android:outAnimation="@anim/flipper_out">
+                    <include android:id="@id/info_notice_ui" layout="@layout/project_v2_info_notice" />
+                </ViewFlipper>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/project_info_container" android:paddingLeft="12.0dip" android:paddingTop="12.0dip" android:paddingRight="12.0dip" android:paddingBottom="22.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginRight="9.0dip" android:layout_marginHorizontal="9.0dip" android:paddingHorizontal="12.0dip">
+                <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <FrameLayout android:id="@id/project_poster_fl" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                        <cn.damai.uikit.view.DMPosterView android:id="@id/project_poster" android:layout_width="78.0dip" android:layout_height="104.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/uikit_default_image_bg_gradient" />
+                        <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="9.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/project_poster_tv" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="16.0dip" android:layout_marginLeft="3.0dip" android:layout_marginTop="3.0dip" android:paddingHorizontal="3.0dip" />
+                        <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="9.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/project_poster_tv_pioneer" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="16.0dip" android:layout_marginLeft="3.0dip" android:layout_marginTop="3.0dip" android:paddingHorizontal="3.0dip" />
+                    </FrameLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/project_title_ll" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/project_poster_fl" app:layout_constraintTop_toTopOf="parent">
+                        <cn.damai.uikit.flowlayout.FlowLayout android:id="@id/project_show_tags_fl" android:visibility="gone" android:layout_width="80.0dip" android:layout_height="20.0dip" android:layout_marginBottom="@dimen/margin_6dp" app:layoutDirection="ltr" />
+                        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="16.0dip" android:textColor="@color/C_white" android:id="@id/project_title_tv1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+                            <TextView android:textSize="16.0dip" android:textColor="@color/C_white" android:id="@id/project_title_tv1_fake" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+                        </FrameLayout>
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip">
+                            <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="16.0dip" android:textColor="@color/C_white" android:ellipsize="end" android:id="@id/project_title_tv2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" android:layout_weight="1.0" />
+                            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="10.0dip" android:textColor="@color/C_white" android:gravity="center" android:id="@id/project_title_iconfont" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginTop="8.0dip" android:text="@string/iconfont_Gengduo18" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/project_time_ll" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" app:layout_constraintBottom_toTopOf="@id/project_time_tips_info" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/project_poster_fl" app:layout_constraintTop_toBottomOf="@id/project_title_ll" app:layout_constraintVertical_bias="1.0">
+                        <cn.damai.uikit.number.DMDigitTextView android:textSize="16.0dip" android:textColor="#e6ffffff" android:ellipsize="end" android:id="@id/project_timer_day_star" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+                        <View android:id="@id/project_timer_day_div" android:background="@color/white" android:layout_width="10.0dip" android:layout_height="1.5dip" android:layout_marginLeft="1.5dip" android:layout_marginRight="1.5dip" android:layout_marginHorizontal="1.5dip" />
+                        <cn.damai.uikit.number.DMDigitTextView android:textSize="16.0dip" android:textColor="#e6ffffff" android:ellipsize="end" android:id="@id/project_timer_day_end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+                    </LinearLayout>
+                    <TextView android:textSize="12.0dip" android:textColor="#a6ffffff" android:ellipsize="end" android:id="@id/project_time_tips_info" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:maxLines="2" android:includeFontPadding="false" android:lineSpacingMultiplier="0.9" app:layout_constraintBottom_toBottomOf="@id/project_poster_fl" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/project_poster_fl" app:layout_constraintTop_toBottomOf="@id/project_time_ll" app:layout_constraintVertical_bias="1.0" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

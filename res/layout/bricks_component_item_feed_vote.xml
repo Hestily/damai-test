@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.pictures.bricks.view.BricksStrokeLinearLayout android:orientation="vertical" android:id="@id/item_feed_vote_ui" android:layout_width="fill_parent" android:layout_height="wrap_content" app:sl_corners_radius="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/item_feed_vote_top_img" android:layout_width="fill_parent" android:layout_height="90.0dip" android:scaleType="centerCrop" />
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/bricks_item_vote_layout" />
+        <com.alibaba.pictures.bricks.view.DMCategroyTagView android:layout_gravity="left" android:id="@id/item_vote_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginTop="17.0dip" />
+        <ImageView android:layout_gravity="left" android:id="@id/item_vote_tag_img" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginTop="17.0dip" android:src="@drawable/bricks_feed_vote_tag_img" />
+    </FrameLayout>
+</com.alibaba.pictures.bricks.view.BricksStrokeLinearLayout>

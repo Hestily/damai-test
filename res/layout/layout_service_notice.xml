@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/rootview" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/v_outside" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.damai.uikit.view.MaxHeightLinearLayout android:orientation="vertical" android:id="@id/layout_bottom" android:background="@drawable/bg_border_corner_f4f5f6_12" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="250.0dip" android:layout_alignParentBottom="true" app:linear_max_ratio="0.8">
+        <RelativeLayout android:background="@drawable/bg_border_corner_white_12" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <cn.damai.commonbusiness.servicenotice.DmServiceAndNoticeIndicatorView android:id="@id/indicator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="50.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_17dp" android:textColor="#33000000" android:gravity="center" android:id="@id/ok" android:paddingLeft="@dimen/margin_12dp" android:paddingTop="@dimen/margin_18dp" android:paddingRight="@dimen/margin_12dp" android:layout_width="wrap_content" android:layout_height="50.0dip" android:text="@string/iconfont_a_huaban2x" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/service_notice_container" android:background="@color/color_F4F5F6" android:layout_width="fill_parent" android:layout_height="fill_parent" android:flipInterval="30" />
+    </cn.damai.uikit.view.MaxHeightLinearLayout>
+</RelativeLayout>

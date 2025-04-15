@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="65.0dip" android:layout_height="@dimen/resource_size_59"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.moimage.MoImageView android:id="@id/bricks_ball_icon" android:layout_width="@dimen/resource_size_35" android:layout_height="@dimen/resource_size_35" android:layout_marginTop="5.5dip" android:src="@drawable/bricks_home_ball_icon" android:layout_centerHorizontal="true" app:failureImage="@drawable/bricks_home_ball_icon" app:placeholderImage="@drawable/bricks_home_ball_icon" />
+    <com.alibaba.pictures.bricks.view.FixWLinearLayout android:id="@id/bricks_ball_label_layout" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="60.0dip" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_marginStart="@dimen/resource_size_15" android:layout_alignStart="@id/bricks_ball_icon">
+        <View android:id="@id/bricks_icon_holder" android:layout_width="0.0dip" android:layout_height="1.0dip" />
+        <FrameLayout android:id="@id/bricks_ball_rl_label" android:background="@drawable/bricks_home_ball_tips_bg" android:layout_width="wrap_content" android:layout_height="@dimen/resource_size_16" android:minWidth="28.0dip">
+            <TextView android:textSize="@dimen/resource_size_9" android:textColor="@color/cg_7" android:gravity="center" android:layout_gravity="center" android:id="@id/bricks_ball_label" android:paddingLeft="@dimen/dim_3" android:paddingRight="@dimen/dim_3" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="52.0dip" android:maxLines="1" />
+        </FrameLayout>
+    </com.alibaba.pictures.bricks.view.FixWLinearLayout>
+    <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="@dimen/font_Subhead2_R" android:textColor="#ff030e24" android:ellipsize="end" android:id="@id/bricks_ball_name" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_below="@id/bricks_ball_icon" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:paddingLeft="21.0dip" android:paddingRight="21.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="86.0dip" android:layout_height="89.0dip">
+            <LinearLayout android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <cn.damai.uikit.number.DMDigitTextView android:textSize="12.0dip" android:textColor="#ff582331" android:id="@id/tv_money_prefix" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="￥" />
+                <cn.damai.uikit.number.DMDigitTextView android:textSize="24.0dip" android:textColor="#ff582331" android:id="@id/tv_money" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:textSize="10.0dip" android:textColor="#ffa67070" android:gravity="center" android:id="@id/tv_money_desc" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="14.0dip" android:textColor="#ff582331" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="10.0dip" android:textColor="@color/color_999999" android:ellipsize="end" android:id="@id/tv_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/ll_integral_convert" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="20.0dip">
+            <TextView android:id="@id/checkbox" android:background="@drawable/radio_unselected_big" android:layout_width="24.0dip" android:layout_height="24.0dip" android:button="@null" android:layout_centerVertical="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/vip_tag" android:layout_width="wrap_content" android:layout_height="15.0dip">
+        <com.alibaba.pictures.bricks.view.RoundImageView2 android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/common_vip_tag_rectangle" android:scaleType="fitXY" android:adjustViewBounds="true" app:rTopLeftRadius="3.0dip" />
+        <TextView android:textSize="@dimen/margin_10dp" android:textColor="#ffff6666" android:gravity="center" android:id="@id/tv_vip_tag" android:background="@drawable/coupon_vip_tag_bg" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="专享" />
+    </LinearLayout>
+    <LinearLayout android:gravity="left" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_coupon_unused_reson" android:paddingTop="6.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ll_container">
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_14dp" android:textColor="#ff9c9ca5" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_tishi_" />
+        <TextView android:textSize="@dimen/margin_12dp" android:textColor="#ff9c9ca5" android:gravity="left" android:id="@id/tv_coupon_unused_reson_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/margin_14dp" android:textColor="#ff000000" android:gravity="left" android:id="@id/tv_coupon_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</RelativeLayout>

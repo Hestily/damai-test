@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/view_top" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/main" android:background="@drawable/ncov_sku_bg" android:paddingLeft="21.0dip" android:paddingTop="@dimen/margin_4dp" android:paddingRight="21.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip">
+            <TextView android:textSize="20.0dip" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="价格明细" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/color_9C9CA5" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="实际优惠金额以下单页为准" android:lines="1" android:layout_weight="1.0" />
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="16.0dip" android:textColor="@color/color_999999" android:id="@id/btn_close" android:paddingLeft="10.0dip" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_fucengguanbi16" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:layout_width="fill_parent" android:layout_height="30.0dip" />
+    </LinearLayout>
+</LinearLayout>

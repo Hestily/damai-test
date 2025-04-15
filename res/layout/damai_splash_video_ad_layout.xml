@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/splash_layout" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:android_custom="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.videobase.view.SystemMediaPlayerView android:id="@id/splash_ad_video_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" />
+    <cn.damai.launcher.splash.SplashRoundProgressBar android:id="@id/homepage_advert_pb" android:clickable="true" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="25.0dip" android:layout_marginRight="15.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" app:roundColor="#ffe51b46" app:roundProgressColor="#ffe51b46" app:roundWidthProgressBar="2.0dip" app:textColor="@android:color/white" app:textSize="10.0dip" />
+    <FrameLayout android:id="@id/iv_splash_ad_logo_layout" android:background="@color/color_ffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ImageView android:layout_gravity="center" android:id="@id/iv_splash_ad_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" android:layout_marginBottom="35.0dip" android:src="@drawable/launcher_splash_logo" />
+    </FrameLayout>
+    <cn.damai.uikit.view.ArcCorverView android:id="@id/iv_splash_arc" android:layout_width="93.0dip" android:layout_height="93.0dip" android:layout_above="@id/iv_splash_ad_logo_layout" android:layout_alignParentRight="true" app:arcGravity="rightBottom" app:coverColor="#ffffffff" />
+    <TextView android:textSize="11.0dip" android:textColor="#ffffffff" android:id="@id/tv_splash_ads_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="25.0dip" android:text="广告" android:shadowColor="#73000000" android:shadowDx="1.5" android:shadowDy="0.0" android:shadowRadius="2.0" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <RelativeLayout android:id="@id/splash_ads_click_zone" android:background="@drawable/shape_splash_click_zone" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip" android:layout_marginBottom="18.0dip" android:layout_above="@id/iv_splash_ad_logo_layout">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textSize="@dimen/textsize_14" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tv_splash_ads_click" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/splash_ads_click_zone_desc" android:maxLines="1" />
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/textsize_14" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_youjiantou24" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

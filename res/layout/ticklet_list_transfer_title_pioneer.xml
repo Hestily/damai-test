@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ticklet_list_ll_tranfer_accept_pioneer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:background="@drawable/ticklet_list_transfer_title_bg_pioneer" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginTop="@dimen/margin_6dp">
+        <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/bricks_white" android:id="@id/ticklet_transfer_message_content_tv_pioneer" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/ticklet_perform_transfer_num" android:layout_weight="1.0" android:layout_marginStart="65.0dip" />
+        <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="@dimen/margin_12dp" android:textColor="@color/bricks_white" android:id="@id/ticklet_transfer_message_content_end_tv_pioneer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="去查看" />
+        <ImageView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_15dp" android:src="@drawable/ticklet_pioneer_right_arraw" android:layout_centerVertical="true" />
+    </LinearLayout>
+    <ImageView android:layout_width="48.0dip" android:layout_height="41.0dip" android:layout_marginLeft="@dimen/margin_10dp" android:src="@drawable/ticklet_list_transfer_title_icon_pioneer" />
+</RelativeLayout>

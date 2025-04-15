@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:background="#fff5f5f5" android:paddingBottom="100.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/statemanager_top_holder" android:layout_width="fill_parent" android:layout_height="105.0dip" />
+    <ImageView android:id="@id/statemanager_img" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <ImageView android:id="@id/statemanager_img_pioneer" android:layout_width="180.0dip" android:layout_height="180.0dip" android:layout_marginBottom="21.0dip" android:src="@drawable/cinema_no_data_with_filter" />
+    <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="14.0dip" android:textColor="@color/bricks_2e333e" android:gravity="center" android:id="@id/statemanager_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginRight="25.0dip" android:text="" android:includeFontPadding="false" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/bricks_959AA5" android:id="@id/statemanager_subhint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="2.0dip" android:text="" android:includeFontPadding="false" />
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView android:layout_width="107.5dip" android:layout_height="32.0dip" android:layout_marginTop="9.0dip" app:cardCornerRadius="12.0dip" app:cardElevation="0.0dip">
+            <View android:background="@drawable/pioneer_buy_button_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="12.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/statemanager_button_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="" />
+            <Button android:textColor="@color/transparent" android:layout_gravity="center" android:id="@id/statemanager_button" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </androidx.cardview.widget.CardView>
+        <Button android:id="@id/statemanager_right_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginLeft="12.0dip" style="?statemanager_button_style" />
+    </LinearLayout>
+</LinearLayout>

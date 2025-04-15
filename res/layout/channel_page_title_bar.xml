@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/channel_header_bar" android:background="@drawable/bricks_guide_bar" android:layout_width="fill_parent" android:layout_height="44.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/status_bar_space" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/channel_header_container" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_22dp" android:textColor="#ff3c3f44" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/channel_header_back" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/iconfont_zuojiantou_" android:layout_marginStart="@dimen/margin_11dp" />
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/channel_header_search_layout" android:background="@drawable/home_guide_search_bg" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_weight="1.0" android:layout_marginStart="@dimen/margin_11dp" android:layout_marginEnd="21.0dip">
+            <com.alibaba.pictures.bricks.view.DMUpMarqueeView android:id="@id/channel_header_search" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dim_7" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/font_Subhead2_M" android:textColor="@color/cg_7" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/channel_header_search_btn" android:background="@drawable/home_top_search_btn" android:layout_width="54.0dip" android:layout_height="26.0dip" android:text="@string/home_top_search_btn" android:layout_marginEnd="@dimen/dim_3" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

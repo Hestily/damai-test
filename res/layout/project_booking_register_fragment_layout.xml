@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/project_poster_mask_iv" android:background="#ff9d9d9d" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/project_book_title" layout="@layout/header_project_title_layout" />
+        <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@id/project_booking_register_pull_to_refresh_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <cn.damai.uikit.irecycler.DamaiRootRecyclerView android:id="@id/project_booking_register_recycler_view" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/project_detail_botton_bar_height" android:overScrollMode="never" />
+        </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/project_booking_register_error_page_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:layout_gravity="bottom" android:id="@id/project_booking_register_bottom_bar_lv" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentBottom="true" layout="@layout/project_item_detail_bottom_bar_layout" />
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/margin_15dp" android:paddingRight="@dimen/margin_15dp" android:paddingBottom="@dimen/margin_9dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/top_line" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/margin_15dp" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_order_content" android:background="@drawable/bg_border_corner_white_2" android:paddingTop="@dimen/margin_18dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/order_list_project" />
+        <include layout="@layout/order_list_item_self" />
+        <include layout="@layout/order_list_item_pay_choose" />
+        <RelativeLayout android:orientation="vertical" android:id="@id/rl_isWorkflowOrder_view" android:paddingLeft="@dimen/margin_15dp" android:paddingRight="@dimen/margin_15dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/margin_50dp">
+            <include layout="@layout/layout_order_detail_line" />
+            <Button android:textSize="@dimen/margin_13dp" android:textColor="@color/color_FF2D79" android:gravity="center" android:id="@id/order_item_refund" android:background="@drawable/bg_border_corner_remind" android:layout_width="70.0dip" android:layout_height="25.0dip" android:text="@string/order_bt_isWorkflowOrder" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

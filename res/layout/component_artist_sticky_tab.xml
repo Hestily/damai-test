@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.pictures.bricks.artist.ArtistStickyTabLayout android:id="@id/component_sticky_tab_layout" android:layout_width="fill_parent" android:layout_height="@dimen/resource_size_40" android:layout_marginBottom="-7.0dip" android:elevation="@dimen/resource_size_1" app:tabGravity="start" app:tabMinWidth="@dimen/resource_size_25" app:tabPaddingEnd="9.0dip" app:tabPaddingStart="12.0dip" style="@style/BricksArtistTabStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

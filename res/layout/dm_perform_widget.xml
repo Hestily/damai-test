@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/dm_perform_ll" android:background="@drawable/dm_perform_widget_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="6.0dip">
+        <ImageView android:background="@drawable/widget_dm_logo" android:layout_width="16.0dip" android:layout_height="16.0dip" android:scaleType="centerCrop" />
+        <ImageView android:background="@drawable/widget_city_hot_search" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:scaleType="centerCrop" />
+        <ImageView android:id="@id/dm_perform_widget_city_name_dot" android:background="@drawable/dm_perform_widget_point" android:visibility="gone" android:layout_width="3.0dip" android:layout_height="3.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" />
+        <TextView android:textSize="12.0dip" android:textColor="#ffc887ff" android:gravity="center" android:id="@id/dm_perform_widget_city_name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+        <TextView android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <ImageView android:id="@id/dm_perform_widget_search_area" android:background="@drawable/widget_search_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" />
+    </LinearLayout>
+    <FrameLayout android:background="@drawable/dm_perform_widget_context_bg" android:paddingLeft="2.0dip" android:paddingTop="8.0dip" android:paddingRight="2.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="6.0dip">
+        <GridView android:id="@id/dm_perform_widget_gv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:horizontalSpacing="2.0dip" android:verticalSpacing="4.0dip" android:numColumns="2" />
+        <LinearLayout android:id="@id/dm_perform_widget_empty_ll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip">
+            <ImageView android:background="@drawable/widget_empty_scenes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" />
+            <TextView android:textColor="#ff98a7c2" android:id="@id/dm_perform_widget_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="33.0dip" android:text="当前城市暂无热搜演出\n点击查看更多精彩内容" android:lineSpacingMultiplier="1.2" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

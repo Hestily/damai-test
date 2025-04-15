@@ -1,0 +1,53 @@
+{
+  "components": [
+    {
+      "type": 7879,
+      "tag": "feed",
+      "layout": {
+        "layoutType": "linear",
+        "params": {
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7880,
+          "model": "com.alibaba.pictures.bricks.component.project.DMProjectModel",
+          "present": "com.alibaba.pictures.bricks.component.project.DMProjectPresent4Discover",
+          "view": "com.alibaba.pictures.bricks.component.project.DMProjectView",
+          "layoutID": "bricks_item_dm_project",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.component.project.bean.DMProjectItemBean"
+          }
+        },
+        {
+          "type": 7903,
+          "layoutID": "pioneer_live_feed_rank_card",
+          "model": "cn.damai.pioneer.model.HomeFeedRankCardModel",
+          "present": "cn.damai.pioneer.component.tab.LiveFeedRankCardPresent",
+          "view": "cn.damai.pioneer.view.LiveFeedRankCardView",
+          "params": {
+            "bean": "cn.damai.pioneer.bean.HomeFeedRankCardBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7871,
+      "tag": "feed_load_more",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7699,
+          "layoutID": "component_pioneer_home_feed_load_more",
+          "viewHolder": "cn.damai.pioneer.component.tab.category.viewholder.LoadMoreViewHolder",
+          "params": {
+          }
+        }
+      ]
+    }
+  ]
+}

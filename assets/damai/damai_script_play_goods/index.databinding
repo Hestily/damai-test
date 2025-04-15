@@ -1,0 +1,19 @@
+{
+  "data": {
+    "goods_image": {
+      "value": "${projectPic}",
+      "placeholder": "gaiax_res_script_play_goods_placeholder"
+    },
+    "goods_title": {
+      "value": "${projectName}",
+      "extend": { "fit-content": "true" }
+    },
+    "rmb_text": { "value": "¥", "extend": { "fit-content": "true" } },
+    "goods_price_text": {
+      "value": "${priceLow}",
+      "extend": { "fit-content": "true" }
+    },
+    "goods_price_unit": { "value": "/人", "extend": { "fit-content": "true" } },
+    "buy_text": { "value": "购买" }
+  }
+}

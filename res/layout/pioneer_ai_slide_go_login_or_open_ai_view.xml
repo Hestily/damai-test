@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="367.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-20.0dip" android:src="@drawable/my_tab_logout_bg_new" />
+        <TextView android:textSize="@dimen/resource_size_14" android:textColor="@color/bricks_959AA5" android:id="@id/id_pioneer_ai_slide_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="登录后享受更多服务" />
+        <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="18.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/id_pioneer_ai_slide_action_btn" android:background="@drawable/pioneer_bg_171717_corner_12_shape" android:layout_width="106.0dip" android:layout_height="36.0dip" android:layout_marginTop="@dimen/resource_size_23" android:text="登录" />
+    </LinearLayout>
+</RelativeLayout>

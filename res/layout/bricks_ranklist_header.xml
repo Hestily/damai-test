@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/header_image" android:layout_width="fill_parent" android:layout_height="215.0dip" android:src="@drawable/bricks_ranklist_header_bg_top" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="100.0dip">
+        <ImageView android:layout_width="120.0dip" android:layout_height="17.0dip" android:layout_marginLeft="21.0dip" android:src="@drawable/bricks_rank_list_header" android:scaleType="centerCrop" android:layout_alignParentBottom="true" />
+        <TextView android:textSize="30.0dip" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:maxLines="1" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/white" android:id="@id/tv_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:layout_marginBottom="14.0dip" />
+    </LinearLayout>
+    <View android:background="@drawable/bricks_discount_lv_bg" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_alignBottom="@id/header_image" />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="48.0dip" android:paddingStart="@dimen/resource_size_12" android:paddingEnd="@dimen/resource_size_12"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/title_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <ImageView android:id="@id/title_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitStart" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/default_tab_text_selected" android:textColor="#ff2e333e" android:gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/title_right_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" />
+            <TextView android:textSize="@dimen/resource_size_12" android:textColor="#4dffffff" android:gravity="center" android:id="@id/common_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/resource_size_6" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="end|center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toEndOf="@id/title_container" android:layout_alignParentEnd="true">
+        <TextView android:textSize="@dimen/default_tab_btn_text" android:textColor="@color/default_tab_btn_text" android:gravity="center" android:id="@id/action_one" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="10.0dip" />
+        <TextView android:textSize="@dimen/default_tab_btn_text" android:textColor="@color/default_tab_btn_text" android:gravity="center" android:id="@id/action_two" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="10.0dip" />
+        <View android:id="@id/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

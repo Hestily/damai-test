@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="#fff6f7f8" android:layout_width="fill_parent" android:layout_height="9.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="110.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_width="105.0dip" android:layout_height="33.0dip" android:src="?bgDetailLikeTitle" android:scaleType="fitXY" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/resource_size_21">
+                <cn.damai.uikit.number.DMDigitTextView android:textSize="36.0dip" android:textColor="?bgDetailLikeDigColor" android:id="@id/want_see_number_dtv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <cn.damai.uikit.number.DMDigitTextView android:textSize="12.0dip" android:textColor="@color/bricks_2e333e" android:gravity="bottom" android:id="@id/want_see_number_suffix_dtv" android:paddingLeft="3.0dip" android:paddingTop="@dimen/margin_18dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/resource_size_12" android:textColor="@color/color_69717C" android:ellipsize="end" android:id="@id/want_see_desc_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" android:layout_marginStart="@dimen/resource_size_21" android:layout_marginEnd="@dimen/resource_size_21" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/wanna_see_btn" android:layout_width="64.0dip" android:layout_height="28.0dip" android:layout_marginEnd="21.0dip">
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="14.0dip" android:textColor="@color/C_white" android:id="@id/wanna_see_tag_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_xianxin24" android:layout_marginEnd="2.0dip" />
+            <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="12.0dip" android:id="@id/wanna_see_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

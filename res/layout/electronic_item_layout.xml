@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="42.0dip">
+        <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="21.0dip" android:textColor="@color/tpp_primary_red" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/icon_font_electronic_icon" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/common_text_color45" android:ellipsize="end" android:id="@id/tv_electronic_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="电子资料馆电子访客证" android:maxLines="1" android:layout_weight="1.0" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/tpp_primary_red" android:ellipsize="end" android:id="@id/tv_electronic_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="去设置" android:maxLines="1" />
+        <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="12.0dip" android:textColor="@color/tpp_primary_red" android:id="@id/electronic_right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:text="@string/icon_font_right_small" />
+    </LinearLayout>
+    <View android:id="@id/electronic_line" android:background="@color/common_color_1011" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_assist" android:ellipsize="end" android:id="@id/tv_electronic_des" android:paddingLeft="12.0dip" android:paddingTop="12.0dip" android:paddingRight="12.0dip" android:paddingBottom="15.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+</LinearLayout>

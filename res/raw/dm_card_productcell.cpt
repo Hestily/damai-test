@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.common.ProductCellModel",
+    "vClass": "cn.damai.tetris.component.common.ProductCellView",
+    "pClass": "cn.damai.tetris.component.common.ProductCellPresenter",
+    "layoutXml": "layout_product_cell"
+  }
+}

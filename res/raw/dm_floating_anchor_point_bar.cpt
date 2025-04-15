@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.drama.mvp.AnchorFloatingModel",
+    "vClass": "cn.damai.tetris.component.drama.mvp.AnchorFloatingView",
+    "pClass": "cn.damai.tetris.component.drama.mvp.AnchorFloatingPresenter",
+    "layoutXml": "item_tetris_anchor_floating"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "data": {
+    "role_image_view": {
+      "value": "@{eval(size(${picUrl}) > 0) ? ${picUrl} : @{env(isAndroid) ? 'gaiax_res:uikit_default_image_bg_grey' : 'gaiax_res:script_other_relate_script_default_image' }}",
+      "placeholder": "@{env(isAndroid) ? 'uikit_default_image_bg_grey' : 'script_other_relate_script_default_image' }"
+    }
+  }
+}

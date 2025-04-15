@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff8f8f8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/comment_title_bar_space_view" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="44.0dip">
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_20dp" android:textColor="@color/color_000000" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/comment_iv_manager_left_icon" android:paddingLeft="@dimen/margin_15dp" android:paddingRight="@dimen/margin_15dp" android:layout_width="wrap_content" android:layout_height="44.0dip" android:text="@string/iconfont_Daohangguanbi18" />
+            <LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="24.0dip" android:textColor="#ff6dc772" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:text="@string/iconfont_Successfulpayment" />
+                <TextView android:textSize="20.0dip" android:textColor="#ff6dc772" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="发布完成" />
+            </LinearLayout>
+            <TextView android:textSize="13.0dip" android:textColor="@color/color_FF2869" android:gravity="center" android:layout_gravity="center|right" android:id="@id/comment_success_share_btn" android:background="@drawable/evaluate_success_share_btn" android:layout_width="54.0dip" android:layout_height="25.0dip" android:layout_marginRight="21.0dip" android:text="@string/share" />
+        </FrameLayout>
+        <View android:id="@id/comment_bottom_line" android:background="@color/color_EDEDED" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    </LinearLayout>
+    <cn.damai.uikit.irecycler.IRecyclerView android:id="@id/comment_list" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" app:refreshEnabled="true" app:refreshHeaderLayout="@layout/refresh_empty_view" />
+</LinearLayout>

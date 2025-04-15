@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:layout_gravity="bottom" android:id="@id/mask_layer" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+    <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="16.0dip" android:textColor="@color/white" android:layout_gravity="bottom|center|left" android:id="@id/icon_mute" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:layout_marginBottom="9.0dip" android:text="@string/iconfont_voice_off" />
+    <TextView android:textSize="16.0dip" android:textColor="@color/C_white" android:layout_gravity="bottom|center|right" android:id="@id/tv_page_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="21.0dip" android:layout_marginBottom="9.0dip" android:maxLines="1" android:includeFontPadding="false" />
+</FrameLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:id="@id/comment_item" android:background="@color/white" android:paddingLeft="12.0dip" android:paddingTop="15.0dip" android:paddingRight="12.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.taobao.movie.android.app.ui.filmcomment.widget.UserNickView2V2 android:gravity="center_vertical" android:id="@id/common_comment_user" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.taobao.movie.android.app.ui.filmcomment.widget.CommonCommentBlockView android:gravity="center_vertical" android:id="@id/common_comment_block" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bottom_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip">
+        <TextView android:textSize="12.0sp" android:textColor="@color/common_color_1006" android:id="@id/common_comment_time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/comment_help_container" android:background="@drawable/oscar_common_help_pink_bg_v2" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginLeft="51.0dip">
+            <ImageView android:id="@id/help_emoji_image" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="10.0dip" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/cb_red_app" android:id="@id/help_text" android:paddingLeft="3.0dip" android:paddingRight="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="有帮助 138" android:singleLine="true" android:includeFontPadding="false" />
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <com.taobao.movie.android.commonui.widget.FavorLottieAnimationView android:textColor="@color/cg_2" android:id="@id/common_comment_favor_btn" android:visibility="visible" android:layout_width="28.0dip" android:layout_height="28.0dip" app:lottie_autoPlay="false" />
+        <TextView android:textSize="@dimen/resource_size_12" android:textColor="@color/cg_2" android:gravity="center_vertical" android:id="@id/common_comment_favor_count" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" />
+        <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="@dimen/resource_size_15" android:textColor="@color/cg_2" android:gravity="center" android:id="@id/common_comment_reply_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/iconf_do_reply" />
+        <TextView android:textSize="@dimen/resource_size_12" android:textColor="@color/cg_2" android:gravity="center_vertical" android:id="@id/common_comment_reply_count" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" />
+        <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="@dimen/resource_size_15" android:textColor="@color/cg_2" android:gravity="center" android:id="@id/bottom_extra_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/iconf_report" />
+    </LinearLayout>
+    <androidx.legacy.widget.Space android:visibility="gone" android:layout_width="fill_parent" android:layout_height="15.0dip" />
+</merge>

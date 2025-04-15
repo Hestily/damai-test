@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_show_more_item" android:background="@color/tpp_gray_6" android:layout_width="@dimen/movie_poster_width" android:layout_height="@dimen/movie_poster_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="13.0dip" android:textColor="@color/color_tpp_primary_subtitle" android:id="@id/tv_homepage_show_more_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/film_detail_all_tag" />
+        <View android:id="@id/tv_homepage_show_more_divider" android:background="@color/common_text_color44" android:layout_width="40.0dip" android:layout_height="@dimen/space_line_height" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/color_tpp_primary_subtitle" android:id="@id/tv_homepage_show_more_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

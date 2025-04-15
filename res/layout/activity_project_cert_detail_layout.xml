@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/title_bar_space" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_20dp" android:textColor="@color/color_000000" android:gravity="center_vertical" android:id="@id/title_left_icon" android:paddingLeft="15.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/iconfont_fanhui24" />
+        <TextView android:textSize="17.0dip" android:textColor="@color/color_000000" android:ellipsize="end" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/trade_project_cert_detail_activity_title" android:singleLine="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <View android:background="@color/color_EDEDED" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <ScrollView android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_cert_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginStart="14.0dip" android:layout_marginEnd="14.0dip">
+            <cn.damai.trade.view.AutoHideTextView android:id="@id/tv_company_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/margin_24dp" app:title_text="@string/trade_project_cert_detail_company_name" />
+            <cn.damai.trade.view.AutoHideTextView android:id="@id/tv_credit_code" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:minHeight="@dimen/margin_24dp" app:title_text="@string/trade_project_cert_detail_credit_code" />
+            <cn.damai.trade.view.AutoHideTextView android:id="@id/tv_company_type" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:minHeight="@dimen/margin_24dp" app:title_text="@string/trade_project_cert_detail_company_type" />
+            <cn.damai.trade.view.AutoHideTextView android:id="@id/tv_legal_person_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:minHeight="@dimen/margin_24dp" app:title_text="@string/trade_project_cert_detail_legal_person_name" />
+            <cn.damai.trade.view.AutoHideTextView android:id="@id/tv_detail_address" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:minHeight="@dimen/margin_24dp" app:title_text="@string/trade_project_cert_detail_address" />
+            <cn.damai.trade.view.AutoHideTextView android:id="@id/tv_legal_detail_capital" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:minHeight="@dimen/margin_24dp" app:title_text="@string/trade_project_cert_detail_capital" />
+            <cn.damai.trade.view.AutoHideTextView android:id="@id/tv_legal_term" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:minHeight="@dimen/margin_24dp" app:title_text="@string/trade_project_cert_detail_term" />
+            <TextView android:textSize="@dimen/margin_14dp" android:textColor="#ff4a4a4a" android:id="@id/tv_pic_list_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/trade_project_cert_detail_activity_pic_title" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

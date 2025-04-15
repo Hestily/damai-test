@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/chargecard_zone" android:background="@drawable/bg_order_payment_chargecard" android:padding="0.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="33.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0dip" android:textColor="@color/color_tpp_primary_main_title" android:id="@id/name_and_balance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <TextView android:textSize="15.0dip" android:textColor="@color/tpp_primary_red" android:id="@id/charge_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_toLeftOf="@id/chargecard_open_switch" android:layout_centerVertical="true" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/chargecard_open_switch" android:layout_width="30.0dip" android:layout_height="16.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/ordering_mcard_switch_close" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </LinearLayout>
+</RelativeLayout>

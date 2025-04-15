@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:lottie="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentBottom="true" />
+    </FrameLayout>
+    <LinearLayout android:gravity="bottom|center" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/default_frame" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="34.0dip" android:layout_height="34.0dip" android:layout_marginBottom="2.0dip">
+            <com.airbnb.lottie.LottieAnimationView android:id="@id/tab_image" android:layout_width="34.0dip" android:layout_height="34.0dip" android:layout_marginBottom="2.0dip" lottie:lottie_autoPlay="false" lottie:lottie_loop="false" />
+            <FrameLayout android:id="@id/tab_temp_cover_img_ui" android:background="@drawable/shape_tab_cover_circle" android:padding="2.0dip" android:visibility="gone" android:layout_width="34.0dip" android:layout_height="34.0dip">
+                <cn.damai.commonbusiness.tab.CoverImageView android:id="@id/tab_temp_cover_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            </FrameLayout>
+        </FrameLayout>
+        <TextView android:textSize="10.0dip" android:textColor="@color/color_000000" android:gravity="center" android:id="@id/tab_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="9.0dip" android:includeFontPadding="false" />
+    </LinearLayout>
+    <View android:layout_gravity="right" android:id="@id/v_badge" android:background="@drawable/icon_badge" android:visibility="invisible" android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="10.0dip" />
+    <View android:layout_gravity="bottom" android:id="@id/tab_click_view" android:layout_width="fill_parent" android:layout_height="60.0dip" />
+</FrameLayout>

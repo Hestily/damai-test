@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="12.0dip" />
+    <gradient android:startColor="@color/home_ticket_remind_gold_start" android:endColor="@color/home_ticket_remind_gold_end" android:angle="0.0" />
+</shape>

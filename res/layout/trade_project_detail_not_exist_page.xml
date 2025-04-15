@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/trade_project_detail_not_exist_page_fl" android:background="@color/base_background_color" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_ticket_tip" android:paddingBottom="@dimen/margin_15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/common_error_ticket_empty" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_999999" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_ticket_tip" android:paddingTop="@dimen/margin_10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_project_no_exist_tip" android:layout_centerInParent="true" android:lineSpacingMultiplier="1.3" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.uikit.view.DashedLine android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/margin_21dp" android:layout_marginTop="3.0dip" android:layout_marginRight="@dimen/margin_21dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" app:dashColor="#ffdbdbdb" app:dashGap="2.0dip" app:dashOrientation="horizontal" app:dashWidth="2.0dip" app:strokeW="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <include layout="@layout/layout_ticket_guide_pre_base" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TableLayout android:id="@id/ticket_guide_row" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <cn.damai.uikit.view.DashedLine android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/margin_21dp" android:layout_marginTop="3.0dip" android:layout_marginRight="@dimen/margin_21dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:dashColor="#ffdbdbdb" app:dashGap="2.0dip" app:dashOrientation="horizontal" app:dashWidth="2.0dip" app:strokeW="1.0dip" />
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/mine_member_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_12dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/fl_mine_center_header_avatar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_12dp" android:layout_marginRight="@dimen/margin_10dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+            <cn.damai.uikit.view.avatar.AvatarView android:layout_gravity="center" android:id="@id/mine_center_header_avatar_view" android:layout_width="wrap_content" android:layout_height="wrap_content" app:avatarViewSize="size_63x63" />
+            <cn.damai.pioneer.view.PioneerAvatar android:layout_gravity="center" android:id="@id/mine_center_header_avatar_view_pioneer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:avatar_size="size_60dp" />
+        </FrameLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.constraintlayout.widget.ConstraintLayout android:gravity="center_vertical" android:id="@id/ll_mine_name_label" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="17.0dip" android:textColor="@color/black" android:ellipsize="end" android:id="@id/mine_center_header_user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_5dp" android:lines="1" android:includeFontPadding="false" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_mine_viptag_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip">
+                <ImageView android:id="@id/mine_center_user_vip_tag" android:visibility="gone" android:layout_width="66.0dip" android:layout_height="15.0dip" android:layout_marginRight="3.0dip" android:scaleType="fitXY" />
+                <ImageView android:id="@id/mine_center_user_common_tag" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="3.0dip" android:src="@drawable/user_v_tag" android:scaleType="fitXY" />
+                <ImageView android:id="@id/mine_center_user_type_tag" android:visibility="gone" android:layout_width="66.0dip" android:layout_height="15.0dip" android:scaleType="fitXY" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/mine_follow_praise_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/mine_center_header_focus_count_ui" android:paddingTop="2.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <cn.damai.uikit.number.DMDigitTextView android:textSize="14.0dip" android:textColor="@color/color_2E333E" android:id="@id/mine_center_header_focus_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/color_5F6672" android:id="@id/mine_center_header_focus_count_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginBottom="@dimen/margin_1dp" android:text="关注" />
+                </LinearLayout>
+                <ImageView android:id="@id/focus_and_fans_divider" android:background="@drawable/bg_line_corner_332e333e_1" android:layout_width="1.0px" android:layout_height="@dimen/margin_10dp" android:layout_marginLeft="@dimen/margin_12dp" android:layout_marginRight="@dimen/margin_12dp" />
+                <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/mine_center_header_fans_count_ui" android:paddingTop="2.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <cn.damai.uikit.number.DMDigitTextView android:textSize="14.0dip" android:textColor="@color/color_2E333E" android:id="@id/mine_center_header_fans_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/color_5F6672" android:id="@id/mine_center_header_fans_count_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginBottom="@dimen/margin_1dp" android:text="粉丝" />
+                </LinearLayout>
+                <ImageView android:id="@id/fans_and_zan_divider" android:background="@drawable/bg_line_corner_332e333e_1" android:layout_width="1.0px" android:layout_height="@dimen/margin_10dp" android:layout_marginLeft="@dimen/margin_12dp" android:layout_marginRight="@dimen/margin_12dp" />
+                <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/mine_center_header_zan_count_ui" android:paddingTop="2.0dip" android:paddingBottom="4.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <cn.damai.uikit.number.DMDigitTextView android:textSize="14.0dip" android:textColor="@color/color_2E333E" android:id="@id/mine_center_header_zan_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/color_5F6672" android:id="@id/mine_center_header_zan_count_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginBottom="@dimen/margin_1dp" android:text="获赞与想看" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="14.0dip" android:textColor="#ff5f6672" android:ellipsize="end" android:layout_gravity="left" android:id="@id/mine_unlogin_desc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_3dp" android:text="开启你的娱乐生活" android:lines="1" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

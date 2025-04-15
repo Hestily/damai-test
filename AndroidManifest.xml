@@ -1,0 +1,2115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="33" android:compileSdkVersionCodename="13" package="cn.damai" platformBuildVersionCode="33" platformBuildVersionName="13">
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true" android:xlargeScreens="true"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/>
+    <uses-permission android:maxSdkVersion="32" android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:maxSdkVersion="30" android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <queries>
+        <package android:name="com.autonavi.minimap"/>
+        <package android:name="com.taobao.movie.android"/>
+        <package android:name="com.eg.android.AlipayGphone"/>
+        <package android:name="com.taobao.movie.android.debug"/>
+        <package android:name="com.youku.phone"/>
+        <package android:name="com.tencent.mobileqq"/>
+        <package android:name="com.tencent.mm"/>
+        <package android:name="com.taobao.taobao"/>
+        <package android:name="com.color.safecenter"/>
+        <package android:name="com.oppo.safe"/>
+        <package android:name="com.alibaba.android.rimet"/>
+        <package android:name="com.tmall.wireless"/>
+        <package android:name="com.taobao.movie.android"/>
+        <package android:name="com.sina.weibo"/>
+        <package android:name="com.yunos.account"/>
+        <package android:name="com.alibaba.android.rimet.aliding"/>
+        <package android:name="com.huawei.contacts"/>
+        <package android:name="com.huawei.camera"/>
+        <package android:name="com.coloros.securepay"/>
+        <intent>
+            <action android:name="com.taobao.open.intent.action.GETWAY"/>
+        </intent>
+        <provider android:authorities="com.android.calendar"/>
+        <provider android:authorities="com.oplus.privacysandbox.provider"/>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:host="com.android.contacts" android:mimeType="vnd.android.cursor.item/*" android:scheme="content"/>
+        </intent>
+        <intent>
+            <action android:name="*"/>
+            <data android:scheme="tbopen"/>
+        </intent>
+        <package android:name="com.eg.android.AlipayGphoneRC"/>
+        <package android:name="hk.alipay.wallet"/>
+        <package android:name="hk.alipay.walletRC"/>
+        <package android:name="com.coloros.assistantscreen"/>
+        <package android:name="com.oplus.metis"/>
+        <package android:name="com.oplus.pantanal.ums"/>
+        <intent>
+            <action android:name="com.hihonor.push.action.BIND_PUSH_SERVICE"/>
+        </intent>
+        <intent>
+            <action android:name="com.huawei.hms.core.aidlservice"/>
+        </intent>
+        <intent>
+            <action android:name="com.huawei.hms.core"/>
+        </intent>
+    </queries>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-permission android:name="android.permission.RUN_INSTRUMENTATION"/>
+    <uses-permission android:name="android.intent.action.VIEW"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"/>
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="cn.cyberidentity.certification.AUTH"/>
+    <uses-permission android:name="com.hihonor.security.permission.ACCESS_THREAT_DETECTION"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <permission android:name="cn.damai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="cn.damai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="com.oplus.permission.safe.AI_APP"/>
+    <uses-permission android:name="com.oplus.metis.factdata.permission.DATABASE"/>
+    <uses-permission android:name="com.hihonor.brain.permission.KIT_SERVICE_ACCESS"/>
+    <uses-permission android:name="com.taobao.taobao.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="cn.damai.permission.MIPUSH_RECEIVE"/>
+    <permission android:name="cn.damai.permission.MIPUSH_RECEIVE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.meizu.flyme.push.permission.RECEIVE"/>
+    <permission android:name="cn.damai.push.permission.MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="cn.damai.push.permission.MESSAGE"/>
+    <uses-permission android:name="com.meizu.c2dm.permission.RECEIVE"/>
+    <permission android:name="cn.damai.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="cn.damai.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE"/>
+    <uses-permission android:name="com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE"/>
+    <uses-permission android:name="com.vivo.notification.permission.BADGE_ICON"/>
+    <permission android:name="cn.damai.permission.PROCESS_PUSH_MSG" android:protectionLevel="signature"/>
+    <permission android:name="cn.damai.permission.PUSH_PROVIDER" android:protectionLevel="signature"/>
+    <permission android:name="cn.damai.permission.PUSH_WRITE_PROVIDER" android:protectionLevel="signature"/>
+    <uses-permission android:name="cn.damai.permission.PROCESS_PUSH_MSG"/>
+    <uses-permission android:name="cn.damai.permission.PUSH_PROVIDER"/>
+    <uses-permission android:name="com.meizu.flyme.permission.PUSH"/>
+    <uses-permission android:name="com.hihonor.push.permission.READ_PUSH_NOTIFICATION_INFO"/>
+    <application android:allowBackup="false" android:allowNativeHeapPointerTagging="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:largeHeap="true" android:name="com.ali.mobisecenhance.ld.StubApplication" android:requestLegacyExternalStorage="true" android:supportsRtl="true" android:theme="@style/AppTheme" android:usesCleartextTraffic="true">
+        <service android:exported="false" android:name="anetwork.channel.aidl.NetworkService">
+            <intent-filter>
+                <action android:name="anetwork.channel.aidl.IRemoteNetworkGetter"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="mtopsdk.xstate.XStateService">
+            <intent-filter>
+                <action android:name="mtopsdk.xstate.aidl.IXState"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.taobao.orange.service.OrangeApiService">
+            <intent-filter>
+                <action android:name="com.taobao.orange.service.OrangeApiService"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="true" android:name="com.taobao.accs.EventReceiver" android:process=":channel"/>
+        <receiver android:exported="true" android:name="com.taobao.agoo.AgooCommondReceiver" android:process=":channel">
+            <intent-filter>
+                <action android:name="com.taobao.movie.android.intent.action.COMMAND"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.taobao.taobao.intent.action.COMMAND"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="PARTNER_CODE" android:value="damai"/>
+        <provider android:authorities="cn.damai.ttp_platform" android:exported="false" android:name="com.alibaba.pictures.ttp.util.AppLifeCycleHelperInitializer"/>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.comment.ui.CommentDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="commentdetail" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.issue.IssueActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="issue" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.selector.ScriptSelectActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="script_selector" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.evaluate.ui.EvaluateSuccessActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="evaluate_success" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="com.alibaba.pictures.bricks.channel.activity.NewShowCalendarActivity" android:screenOrientation="portrait" android:theme="@style/NoAnimThemeNew">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="cms_common_second_v2" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:launchMode="singleTask" android:name="cn.damai.commonbusiness.city.CitySelectActivity" android:screenOrientation="portrait" android:theme="@style/NoAnimTheme">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="home_cityselect" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.pay.AliPayActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:exported="false" android:launchMode="singleTask" android:name="cn.damai.commonbusiness.screenshot.ScreenFloatActivity" android:theme="@style/Theme.FeedBack">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="screen_float" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="cn.damai.commonbusiness.imagebrowse.ui.ImageBrowseActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="trade" android:path="/imagebrowse" android:scheme="damai"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="image_browse" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="cn.damai.commonbusiness.imagebrowse.ui.ImageGalleryActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="image_gallery" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="standard" android:name="cn.damai.h5container.H5MainActivity" android:screenOrientation="portrait" android:theme="@style/NoAnimTheme">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="webview" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:hardwareAccelerated="true" android:launchMode="standard" android:name="cn.damai.h5container.DMH5Activity" android:screenOrientation="portrait" android:theme="@style/taomai_h5_theme" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="new_webview" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:launchMode="singleTask" android:name="cn.damai.im.AliMeActivity" android:screenOrientation="portrait" android:theme="@style/NoAnimTheme" android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="alime" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:launchMode="singleInstance" android:name="cn.damai.ddshare.DDShareActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="cn.damai.commonbusiness.share.ShareActivity" android:screenOrientation="portrait" android:theme="@style/TranslucentBase">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="share" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="cn.damai.commonbusiness.share.ShareMiddleActivity" android:screenOrientation="portrait" android:theme="@style/TranslucentBase">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="share_main" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="cn.damai.commonbusiness.share.ShareOrderActivity" android:screenOrientation="portrait" android:theme="@style/TranslucentBase">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="share_order" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="cn.damai.commonbusiness.share.WeiboShareActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser" android:windowSoftInputMode="adjustResize"/>
+        <service android:exported="false" android:name="com.sina.weibo.sdk.net.DownloadService"/>
+        <activity android:exported="true" android:name="cn.damai.wxapi.WXEntryActivity" android:screenOrientation="portrait" android:theme="@style/TranslucentBase"/>
+        <activity android:exported="true" android:launchMode="singleTop" android:name="cn.damai.wxapi.WXPayEntryActivity"/>
+        <activity android:exported="false" android:name="cn.damai.wxapi.DamaiWXPayActivity"/>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.commonbusiness.zoomimage.ZoomImageActivity" android:screenOrientation="portrait" android:theme="@style/TranslucentBase"/>
+        <activity android:exported="true" android:name="cn.damai.ResultActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="cn.damai.commonbusiness.qrcode.QRCodeActivity" android:screenOrientation="portrait" android:theme="@style/NoAnimTheme">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="home_scan" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.commonbusiness.qrcode.QrCodeResultActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="cn.damai.commonbusiness.photoselect.imageselected.PreviewDeleteActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="cn.damai.commonbusiness.photoselect.imageselected.ImageSelectorActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="cn.damai.commonbusiness.photoselect.imageselected.PreviewActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="cn.damai.commonbusiness.photoselect.imageselected.ClipImageActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="cn.damai.login.havana.OverseaAccountLoginInterceptActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="oversea_account_login_intercept" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.commonbusiness.faceverify.activity.IdentityInfoQueryActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.commonbusiness.faceverify.activity.FaceVerifyFailedActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.h5container.CaptureActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="android.taobao.windvane.runtimepermission.PermissionActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="cn.damai.interactProvider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_provider"/>
+        </provider>
+        <provider android:authorities="cn.damai.h5.fileProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.taomai.android.h5container.api.TaoMaiFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/h5_file_paths"/>
+        </provider>
+        <provider android:authorities="cn.damai.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/tencent_filepaths"/>
+        </provider>
+        <activity android:exported="true" android:name="cn.damai.commonbusiness.share.AlipayEntryActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true" android:name="cn.damai.commonbusiness.photoselect.imageselected.ImageSelectFolderActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:name="cn.damai.commonbusiness.fission.FissionActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="fissionshare" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="cn.damai.commonbusiness.fission.FissionUpgradeActivity" android:screenOrientation="portrait" android:theme="@style/NoAnimTransBgTheme">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="fission_beautify_share" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" android:exported="false" android:hardwareAccelerated="true" android:name="cn.damai.player.mock.YouKuPlayerTest" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="player" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" android:exported="false" android:name="cn.damai.player.mock.YoukuPlayerMock" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="player_test" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:name="cn.damai.videobrowse.VideoBrowseActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="videobrowse" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.dramachannel.ui.DramaCommingActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="drama_comming" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.livehouse.ComponentActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="live_house_second_page" android:scheme="damai"/>
+                <data android:host="cms_common_second" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="cn.damai.login.authlogin.AuthLoginActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="auth_third" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="false" android:name="cn.damai.login.loginaccs.LoginAccsService">
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.RECEIVE"/>
+            </intent-filter>
+        </service>
+        <activity android:exported="true" android:name="cn.damai.solid.SoLibInstallActivity"/>
+        <activity android:exported="false" android:name="cn.damai.rank.RankSquareCMSActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="cms_rank_square" android:scheme="damai"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="rank_square" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.commonbusiness.scriptmurder.shopdetail.ShopDetailActivity" android:screenOrientation="portrait" android:theme="@style/NoAnimTheme">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="script_shop_detail" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.commonbusiness.scriptmurder.scriptdetail.ScriptDetailActivity" android:screenOrientation="portrait" android:theme="@style/NoAnimTheme">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="script_detail" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.commonbusiness.scriptmurder.coupon.CouponDetailActivity" android:screenOrientation="portrait" android:theme="@style/NoAnimTheme">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="script_coupon_detail" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="false" android:name="com.taobao.orange.accssupport.OrangeAccsService">
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.RECEIVE"/>
+            </intent-filter>
+        </service>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="cn.damai.push.PushMessageActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="cn.damai" android:path="/thirdpush" android:scheme="agoo"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="org.android.agoo.xiaomi.app_id" android:value="appid=2882303761517123928"/>
+        <meta-data android:name="org.android.agoo.xiaomi.app_key" android:value="appkey=5871712399928"/>
+        <meta-data android:name="org.android.agoo.oppo.app_key" android:value="CJPfAymm89Sk40kKSsKso880o"/>
+        <meta-data android:name="org.android.agoo.oppo.app_secret" android:value="1bEf504D10D1FB31d54e33d8c727c9Ea"/>
+        <meta-data android:name="org.android.agoo.meizu.app_id" android:value="appid=121695"/>
+        <meta-data android:name="org.android.agoo.meizu.app_key" android:value="appkey=9ae04b466b7149e3a54b32b649f68f95"/>
+        <meta-data android:name="com.huawei.hms.client.appid" android:value="appid=10064044"/>
+        <meta-data android:name="com.vivo.push.api_key" android:value="3cdbd848-8165-4a7d-9f84-4684396c5f1f"/>
+        <meta-data android:name="com.hihonor.push.app_id" android:value="104413992"/>
+        <meta-data android:name="com.vivo.push.app_id" android:value="13160"/>
+        <service android:exported="false" android:name="com.amap.api.location.APSService"/>
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="581307900fbc26b51e3e53c5a5e5ee42"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="cn.damai.common.askpermission.PermissionDelegateActivity" android:theme="@style/Permission_Delegate_Theme"/>
+        <activity android:configChanges="colorMode|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:name="cn.damai.commonbusiness.seatbiz.sku.qilin.ui.NcovSkuActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="sku" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.trade.newtradeorder.ui.orderdetail.ui.activity.OrderModifyAddressActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="order_modify_address" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.mine.activity.CustomersActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="customers" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.mine.activity.UserExtrasActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="user_extras_data" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.mine.activity.AddressListMVPActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="my_address_list" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.mine.report.ReportActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="report" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.commonbusiness.contacts.ui.activity.AddContactsActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="add_contact" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.commonbusiness.address.ui.AddAddressActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="addaddress" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.commonbusiness.address.ui.AreaCodeChooseActivity" android:screenOrientation="portrait" android:theme="@style/theme_activity_translucent" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="area_code_choose" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="com.alibaba.pictures.picturesbiz.page.venue.VenueDetailActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="venue_detail" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:launchMode="singleTop" android:name="cn.damai.commonbusiness.servicenotice.DmServiceAndNoticeActivity" android:theme="@style/translucent_activity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="service_notice" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="com.alibaba.pictures.picturesbiz.page.comment.EvaluateListActivityV2" android:screenOrientation="portrait" android:theme="@style/NoAnimThemeNew_FromCommonBusiness">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="evaluate_list" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.mine.grablist.MyGrabbingListActivity" android:screenOrientation="portrait" android:theme="@style/NoAnimThemeNew_FromCommonBusiness">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="grab_list" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.artist.ArtistActivity" android:screenOrientation="portrait" android:theme="@style/NoAnimThemeNew_FromCommonBusiness">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="cineastedetail"/>
+                <data android:host="artist_detail" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.oplus.ocs.card.AUTH_CODE" android:value="@string/oppo_pantanal_auth_code_release"/>
+        <meta-data android:name="com.hihonor.mcs.client.appid" android:value="104413992"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <activity android:exported="false" android:name="cn.damai.pioneer.page.PioneerGuideActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.mine.activity.EditNicknameActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="editnickname" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.mine.activity.EditDescActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="editdesc" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="true" android:launchMode="singleTask" android:name="cn.damai.homepage.MainActivity" android:screenOrientation="portrait" android:theme="@style/DM_NODARK">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="home" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:launchMode="standard" android:name="cn.damai.homepage.PioneerGuideMainActivity" android:screenOrientation="portrait" android:theme="@style/pioneer_guide" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:launchMode="singleTask" android:name="cn.damai.pioneer.HomePioneerActivity" android:screenOrientation="portrait" android:theme="@style/DM_NODARK">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="home_pioneer" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:launchMode="singleTask" android:name="cn.damai.feedmini.FeedMiniActivity" android:screenOrientation="portrait" android:theme="@style/DM_NODARK">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="feed_mini" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.category.venue.activity.VenueActivity" android:screenOrientation="portrait" android:theme="@style/DM_NODARK" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="venue" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="cn.damai.category.category.ui.CategoryProxyActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="category" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="cn.damai.category.category.ui.CategoryDetailActivity" android:screenOrientation="portrait" android:theme="@style/category_trans">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="category_category" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="cn.damai.category.grab.ui.GrabActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="grab" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="standard" android:name="cn.damai.category.inventory.ui.DetailedActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="detailed_list" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.category.ranking.ui.RankListActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="rank" android:scheme="damai"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="ranking" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.category.category.ui.NewBrandListActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="new_brand_list2" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.category.category.ui.NewStarListActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="new_star_list2" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.user.crop.CropImageActivity"/>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.user.ModifyAvatarActivity" android:screenOrientation="portrait" android:theme="@style/NoAnimThemeNew">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="modifyavatar" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.user.userprofile.UserIndexActivity" android:screenOrientation="portrait" android:theme="@style/NoAnimThemeNew">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="userprofile" android:scheme="damai"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="m.damai.cn" android:path="/damai/activity/passport/index.html" android:scheme="http"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="m.damai.cn" android:path="/damai/activity/passport/index.html" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.user.brand.BrandActivity" android:screenOrientation="portrait" android:theme="@style/NoAnimThemeNew">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="brand" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.user.userhome.activity.UserHomeActivity" android:screenOrientation="portrait" android:theme="@style/NoAnimThemeNew">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="user_home" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.user.repertoite.ui.GalleryImagesActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="gallery_images" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.user.star.StarIndexActivity" android:screenOrientation="portrait" android:theme="@style/NoAnimThemeNew"/>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.user.userprofile.FeedsActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="feedspage" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.user.userprofile.IdolSelectActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="idol_select" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:name="cn.damai.user.ipdrama.IpDramaActivity" android:screenOrientation="portrait" android:theme="@style/NoAnimThemeNew">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="ipdrama" android:scheme="damai"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="repertoire" android:scheme="damai"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="m.damai.cn" android:path="/app/dmfe/dramas/pages/ip/index.html" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.user.star.second.StarSecondActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="artist_official_content_list_page" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="cn.damai.discover.main.ui.TabLiveActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="discover" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.discover.main.ui.ThemeActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="discover_theme_activity" android:scheme="damai"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="m.damai.cn" android:path="/damai/activity/discover/themepage.html" android:scheme="http"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="m.damai.cn" android:path="/damai/activity/discover/themepage.html" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.discover.main.ui.ThemeCircleActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="discover_circle_activity" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.discover.main.ui.ProjectListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="theme_project_list" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.discover.content.ui.ContentDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="discover_content_detail" android:scheme="damai"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="m.damai.cn" android:path="/damai/activity/discover/detail.html" android:scheme="https"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="m.damai.cn" android:path="/damai/activity/discover/detail.html" android:scheme="http"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="cn.damai.discover.media.MediaPagerActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="discover_media_pager" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="cn.damai.mine.activity.MineMainActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="damai.cn" android:path="/mine" android:scheme="https"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="user_center" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="cn.damai.yymember.YYMemberTabActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="yy_member_tab" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.mine.activity.UserCouponsActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="coupons" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.mine.activity.CouponDetailActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="coupon_detail" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.mine.mycollect.ui.MyCollectActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="mine_collect" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.setting.ProtocolActivity" android:screenOrientation="portrait"/>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.setting.AboutActivity" android:screenOrientation="portrait"/>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.setting.SettingActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="settings" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.setting.MessagePushActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="message_push_setting" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:exported="false" android:name="cn.damai.setting.PreSettingSwitchActivity" android:screenOrientation="portrait"/>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.setting.PrivacySettingActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="privacy_setting" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.mine.activity.FeedBackListActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="feedback_list" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.mine.activity.MyFeedBackListActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="my_feedback_list" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.mine.activity.MyFeedBackDetailActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="my_feed_back_detail" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.mine.activity.FeedBackActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="feed_back_report" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.mine.activity.AccountSafeActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="account_safe" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.mine.relationship.RelationShipActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="relation" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.mine.activity.EditAccountInfoActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="editaccount" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.mine.activity.LogisticsDetailActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="logistics" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="true" android:launchMode="singleTask" android:name="cn.damai.login.havana.LoginActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme_translucent">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="login" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:launchMode="singleTask" android:name="cn.damai.mine.activity.RealNameAuthActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="nameauth" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.mine.activity.RealNameAuthStatusActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="realname_auth_result" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.mine.activity.RealNameAuthErrorActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="realname_error" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.mine.activity.RealNameFaceVerifyFailedActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="realname_failed" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:launchMode="singleTask" android:name="cn.damai.mine.activity.IntegralActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="my_integral" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.setting.PermissionEntranceActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="permission_entrance" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.mine.wantsee.MyWantSeeActivity" android:screenOrientation="portrait" android:theme="@style/BaseTbmovieTheme">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="my_want_see" android:scheme="damai"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="MyWantSee" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.mine.wantpraise.WantPraiseActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="want_praise" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:launchMode="singleTop" android:name="cn.damai.launcher.splash.SplashMainActivity" android:screenOrientation="portrait" android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="cn.damai.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="launcher" android:scheme="damai"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="V1" android:scheme="damai"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="piao.cn" android:scheme="damai"/>
+            </intent-filter>
+            <meta-data android:name="android.notch_support" android:value="true"/>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.launcher.splash.SplashWebViewActivity"/>
+        <provider android:authorities="cn.damai.adbimtmap_prload" android:exported="false" android:initOrder="600" android:name="cn.damai.launcher.splash.model.AdBitmapPreloadProvider"/>
+        <meta-data android:name="EasyGoClient" android:value="true"/>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:launchMode="singleTask" android:name="cn.damai.search.ui.SearchResultActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="search_result" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:launchMode="singleTask" android:name="cn.damai.search.ui.SearchAccountActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="search_account_more_list" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.message.MessageMainActivity" android:screenOrientation="portrait" android:theme="@style/NoAnimThemeNew">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="home_message" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.message.ui.activity.MessageListActivity" android:screenOrientation="portrait" android:theme="@style/NoAnimThemeNew">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="home_messagelist" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.message.ui.activity.MessageFollowCommentActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="message_follow_comment" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.search.ui.SearchPrivilegeResultActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="search_privilege_result" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:launchMode="standard" android:name="cn.damai.filmdetail.activity.DMFilmDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="show_detail" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+        </activity>
+        <receiver android:enabled="true" android:exported="true" android:name="cn.damai.widget.DmPerformWidget">
+            <intent-filter android:priority="100">
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="customizedWidget"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/dm_perform_widget_info"/>
+        </receiver>
+        <service android:exported="false" android:name="cn.damai.widget.GridViewService" android:permission="android.permission.BIND_REMOTEVIEWS"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.alibaba.pictures.behavix.PictureReceiver">
+            <intent-filter>
+                <action android:name="com.tmall.android.dai.intent.action.INITIALIZE_COMPLETE"/>
+            </intent-filter>
+        </receiver>
+        <activity android:exported="true" android:name="com.alibaba.pictures.behavix.test.TestActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="true" android:launchMode="standard" android:name="cn.damai.trade.newtradeorder.ui.projectdetail.ui.activity.ProjectDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <action android:name="cn.damai.intent.action.PRO_DETAIL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="@string/nav_schema"/>
+                <data android:host="detail"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="trade" android:path="/detail" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="projectdetail" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="m.damai.cn" android:path="/damai/perform/item.html" android:scheme="http"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="m.damai.cn" android:path="/damai/perform/item.html" android:scheme="https"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="detail.damai.cn" android:path="/item.htm" android:scheme="https"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="m.damai.cn" android:path="/damai/detail/item.html" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.trade.newtradeorder.ui.projectdetail.projectdetailitem.ui.activity.ProjectCertDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="project_cert_detail" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="cn.damai.trade.newtradeorder.ui.projectdetail.scenic.ScenicDetailActivity" android:screenOrientation="portrait" android:theme="@style/NoAnimThemeNew_FromCommonBusiness">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="scenic_detail" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="cn.damai.trade.newtradeorder.ui.projectdetail.scenic.component.buy.ScenicDetailBuyTicketActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme_translucent_no_anim">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="scenic_buy" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="cn.damai.trade.newtradeorder.ui.projectdetail.venuemap.ProjectVenueMapActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="cn.damai.intent.action.PRO_VENUE_DETAIL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="venuemap" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:launchMode="singleTask" android:name="com.alibaba.pictures.bricks.search.v2.SearchActivity" android:screenOrientation="portrait" android:theme="@style/NoAnimThemeNew_FromCommonBusiness" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="home_search" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:name="com.alibaba.pictures.bricks.channel.NewCalendarV2Activity" android:screenOrientation="portrait" android:theme="@style/NoAnimThemeNew_FromCommonBusiness">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="cms_common_second_v3" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="com.alibaba.pictures.bricks.search.coupon.CouponProjectSearchActivity" android:screenOrientation="portrait" android:theme="@style/NoAnimThemeNew_FromCommonBusiness">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="coupon_project_search" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:name="com.alibaba.pictures.bricks.channel.activity.BricksChannelPageActivity" android:screenOrientation="portrait" android:theme="@style/NoAnimThemeNew_FromCommonBusiness">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="channel" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:name="com.alibaba.pictures.bricks.album.AlbumCommonActivity" android:screenOrientation="portrait" android:theme="@style/NoAnimThemeNew_FromCommonBusiness">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="album_common" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.taobao.movie.android.app.oscar.ui.cinema.activity.CinemaMainActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:theme="@style/TbmovieTheme.NoActionbar">
+            <intent-filter>
+                <action android:name="cinemalist"/>
+                <action android:name="selectcinema"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.taobao.movie.android.picviewer.PictureViewActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:theme="@style/TbmovieTheme.Toolbar">
+            <intent-filter>
+                <action android:name="imageViewer"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:launchMode="singleTop" android:name="com.taobao.movie.android.app.oscar.ui.cinema.activity.ScheduleListRootActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:theme="@style/TbmovieTheme.Toolbar">
+            <intent-filter>
+                <action android:name="selectschedule"/>
+                <action android:name="cinemadetail"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.taobao.movie.android.app.oscar.ui.cinema.activity.SchedulePromotionInfoActivity" android:resizeableActivity="true" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="promotioninfo"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:launchMode="singleTop" android:name="com.taobao.movie.android.app.oscar.ui.cinema.activity.SearchCinemaActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:theme="@style/TbmovieTheme.NoActionbar" android:windowSoftInputMode="adjustPan|stateVisible"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.taobao.movie.android.app.order.ui.activity.SalesListActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:theme="@style/TbmovieTheme.Toolbar">
+            <intent-filter>
+                <action android:name="cinemasales"/>
+                <action android:name="cinemasalelist"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.taobao.movie.android.app.goods.order.GoodsPayResultActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:theme="@style/TbmovieTheme.Toolbar">
+            <intent-filter>
+                <action android:name="goodspayresult"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:label="OffSingleCheckActivity" android:name="com.taobao.movie.android.app.offsingle.OffSingleCheckActivity" android:resizeableActivity="true" android:theme="@style/TbmovieTheme.NoActionbar.Translucent"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.taobao.movie.android.app.home.simplified.SimplifiedBusinessActivity" android:resizeableActivity="true" android:theme="@style/TbmovieTheme.NoActionbar.Translucent">
+            <intent-filter>
+                <action android:name="simplifiedbusiness"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.taobao.movie.android.app.seat.ui.activity.SelectSeatActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:theme="@style/TbmovieTheme.NoActionbar">
+            <intent-filter>
+                <action android:name="seatpick"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.taobao.movie.android.app.order.ui.activity.SalesOrderActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:theme="@style/TbmovieTheme.Toolbar">
+            <intent-filter>
+                <action android:name="salesorder"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.taobao.movie.android.app.order.ui.activity.OrderingNewActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:theme="@style/TbmovieTheme.Toolbar">
+            <intent-filter>
+                <action android:name="ordering"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.taobao.movie.android.app.order.ui.activity.OrderingResultSuccessActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:theme="@style/TbmovieTheme.Toolbar">
+            <intent-filter>
+                <action android:name="orderingsuccess"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.taobao.movie.android.app.profile.ui.EditorUserPhoneActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateVisible">
+            <intent-filter>
+                <action android:name="edituserphone"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:launchMode="singleTop" android:name="com.taobao.movie.android.app.oscar.search.RemoteSearchActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:theme="@style/TbmovieTheme.NoActionbar" android:windowSoftInputMode="adjustPan|stateVisible">
+            <intent-filter>
+                <action android:name="searchcinema"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.taobao.movie.android.app.oscar.ui.cinema.activity.CinemasInCityAmapActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:theme="@style/TbmovieTheme">
+            <intent-filter>
+                <action android:name="cinemalistamap"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.taobao.movie.android.app.oscar.ui.cinema.activity.CinemaListAmapActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:theme="@style/TbmovieTheme">
+            <intent-filter>
+                <action android:name="map"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.taobao.movie.android.app.product.ui.activity.TicketRemindActivity" android:resizeableActivity="true" android:theme="@style/TbmovieTheme.NoActionbar.Translucent">
+            <intent-filter>
+                <action android:name="ticketremind"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.taobao.movie.android.app.product.ui.activity.QrCodeFullScreenActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:theme="@style/TbmovieTheme.NoActionbar"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:label="FilmReviewActivity" android:name="com.taobao.movie.android.app.oscar.ui.film.activity.FilmReviewActivity" android:resizeableActivity="true" android:theme="@style/TbmovieTheme.NoActionbar.Translucent"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.taobao.movie.android.app.oscar.ui.film.activity.FilmDetailPictureActivity" android:resizeableActivity="true" android:theme="@style/TbmovieTheme.Toolbar.Translucent">
+            <intent-filter>
+                <action android:name="filmposter"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.taobao.movie.android.app.common.activity.FilmPinterestActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:theme="@style/TbmovieTheme.Toolbar">
+            <intent-filter>
+                <action android:name="filmPinterest"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.taobao.movie.android.app.cineaste.ui.activity.ArtistePictureActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:theme="@style/TbmovieTheme.Toolbar"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.taobao.movie.android.app.oscar.ui.film.activity.PickPictureActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:theme="@style/TbmovieTheme.NoActionbar"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.taobao.movie.android.app.common.activity.PinterestActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:theme="@style/TbmovieTheme.Toolbar">
+            <intent-filter>
+                <action android:name="pinterest"/>
+                <action android:name="artistePinterest"/>
+                <action android:name="pickPinterest"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.taobao.movie.android.app.common.activity.ArtisteAlbumActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:theme="@style/TbmovieTheme.Toolbar">
+            <intent-filter>
+                <action android:name="artistalbum"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="cn.damai.com.youku.arch.data" android:exported="false" android:name="com.youku.arch.v3.data.local.DataCacheProvider"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:exported="true" android:name="com.alibaba.pictures.share.common.ui.MovieShowShareActivity" android:theme="@style/ShareTransparentTheme" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="movieshare"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:name="com.alibaba.pictures.share.weiboshare.WeiboAuthActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="true" android:launchMode="singleTop" android:name="com.alibaba.pictures.share.wxapi.WXEntryActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.alibaba.pictures.share.weiboshare.WeiboShareActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.alibaba.pictures.share.qqshare.QQShareActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.tencent.connect.common.AssistActivity" android:screenOrientation="portrait" android:theme="@style/Assist_Style"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.tencent.tauth.AuthActivity" android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tencent100895387"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tencent206444"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:launchMode="singleTop" android:name="com.alibaba.pictures.share.apshare.ShareEntryActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:launchMode="singleTop" android:name="com.alibaba.pictures.share.ddshare.DDShareActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.trade.RefundActivity" android:screenOrientation="portrait"/>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:launchMode="singleTask" android:name="cn.damai.trade.oldtradeorder.ui.orderdetail.detail.activity.OrderDetailNewActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="my_orderdetails" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:launchMode="singleTask" android:name="cn.damai.trade.newtradeorder.ui.orderdetail.ui.activity.OrderDetailActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="my_hn_orderdetails" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:launchMode="singleTop" android:name="cn.damai.trade.newtradeorder.ui.orderdetail.ui.activity.OrderDetailNoticeActivity" android:theme="@style/translucent_activity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="order_detail_notice" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.trade.newtradeorder.ui.orderdetail.ui.activity.OrderDetailProgressActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="order_detail_progress" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.damai.trade.newtradeorder.ui.projectdetail.robticketstrategy.TicketGuideActity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="rob_ticket_strategy" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.trade.newtradeorder.ui.orderdetail.ui.activity.HnOrderInvoiceActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="hn_order_create_invoice" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.trade.newtradeorder.ui.orderdetail.ui.activity.OrderInvoiceActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="order_create_invoice" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.trade.newtradeorder.ui.orderdetail.ui.activity.OrderInvoiceDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="order_invoice_detail" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.trade.newtradeorder.ui.orderdetail.ui.activity.HNOrderInvoiceDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="hn_order_invoice_detail" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="api_key" android:value="9p87zLEwMDhRufGsvd6pRX2V"/>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation" android:exported="true" android:launchMode="singleTask" android:name="cn.damai.trade.newtradeorder.ui.orderlist.ui.activity.OrderListActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="my_showorder" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="true" android:name="cn.damai.trade.coupon.ui.CouponOrderConfirmActivity" android:screenOrientation="portrait" android:theme="@style/NoAnimTheme" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="coupon_order_confirm" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="true" android:name="cn.damai.trade.coupon.ui.orderdeatile.OrderDetailActivity" android:screenOrientation="portrait" android:theme="@style/NoAnimTheme" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="coupon_order_detail" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="cn.damai.trade.newtradeorder.ui.orderdetail.ui.activity.CouponPayResultActivity" android:screenOrientation="portrait" android:theme="@style/NoAnimTheme" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="coupon_pay_result" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="false" android:name="com.alibaba.analytics.AnalyticsService" android:process=":channel"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:launchMode="singleTop" android:name="com.taobao.movie.android.app.oscar.ui.community.CommunityNewHomeActivity" android:screenOrientation="portrait" android:theme="@style/TbmovieTheme.Toolbar">
+            <intent-filter>
+                <action android:name="community"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:launchMode="singleTop" android:name="com.taobao.movie.android.app.oscar.ui.community.FilmFestivalIndexActivity" android:screenOrientation="portrait" android:theme="@style/TbmovieTheme.Toolbar"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.taobao.movie.android.app.oscar.ui.community.CommunityFilmHallDetailActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:theme="@style/TbmovieTheme.Toolbar">
+            <intent-filter>
+                <action android:name="artshowroom"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.taobao.movie.android.app.community.CommunityBattleDetailActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:theme="@style/TbmovieTheme.Toolbar">
+            <intent-filter>
+                <action android:name="battledetail"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.taobao.movie.android.app.community.CommunityFilmCalendarActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:theme="@style/TbmovieTheme.Toolbar">
+            <intent-filter>
+                <action android:name="filmcalendar"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.taobao.movie.android.app.community.DiscussQuestionDetailActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:theme="@style/TbmovieTheme.Toolbar">
+            <intent-filter>
+                <action android:name="discussquestion"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.taobao.movie.android.app.community.DiscussTopicListActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:theme="@style/TbmovieTheme.Toolbar">
+            <intent-filter>
+                <action android:name="topicselection"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.taobao.movie.android.app.community.DiscussDetailActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:theme="@style/TbmovieTheme.Toolbar">
+            <intent-filter>
+                <action android:name="discussdetail"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.taobao.movie.android.app.community.DiscussAreaActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:theme="@style/TbmovieTheme.Toolbar" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="movietopicdiscusslist"/>
+                <action android:name="topicdiscusslist"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:launchMode="singleTop" android:name="com.taobao.movie.android.app.community.adddiscuss.AddDiscussActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:theme="@style/TbmovieTheme">
+            <intent-filter>
+                <action android:name="discusssns"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:launchMode="singleTop" android:name="com.taobao.movie.android.app.community.adddiscuss.AddQuestionActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:theme="@style/TbmovieTheme">
+            <intent-filter>
+                <action android:name="addquestion"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:launchMode="singleTop" android:name="com.taobao.movie.android.app.community.filmfavor.FilmFavorSelectActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:theme="@style/TbmovieTheme.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:launchMode="singleTop" android:name="com.taobao.movie.android.app.community.youmaylike.YouMayLikeActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:theme="@style/TbmovieTheme.Toolbar">
+            <intent-filter>
+                <action android:name="youmaylike"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize|uiMode" android:exported="false" android:hardwareAccelerated="true" android:name="com.taomai.android.h5container.ui.TaoMaiH5Activity" android:screenOrientation="portrait" android:theme="@style/taomai_h5_theme" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="h5windwane"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="colorMode|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:launchMode="singleTask" android:name="cn.damai.ultron.view.activity.DmOrderActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="ultron" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:launchMode="singleTop" android:name="cn.damai.ultron.secondpage.deliveryway.DmUltronDeliveryWayActivity" android:theme="@style/translucent_activity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="ultron_delivery_list" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:launchMode="singleTop" android:name="cn.damai.ultron.secondpage.phonecode.DmUltronPhoneCodeActivity" android:theme="@style/translucent_activity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="ultron_code_list" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:launchMode="singleTop" android:name="cn.damai.ultron.secondpage.pickup.DmUltronPickUpActivity" android:theme="@style/translucent_activity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="ultron_pickup_address" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:launchMode="singleTop" android:name="cn.damai.ultron.view.activity.DmUltronPromotionActivityOld" android:theme="@style/translucent_activity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="ultron_promotion_old" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="cn.damai.ultron.ordercheck.OrderInfoCheckActivity" android:screenOrientation="portrait" android:theme="@style/translucent_activity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="cn.damai.ultron.payresult.v2.PayResultActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="purchase_pay_success" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:launchMode="singleTop" android:name="cn.damai.ultron.secondpage.notice.view.DmPurchaseNoticeActivity" android:theme="@style/translucent_activity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="purchase_notice" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.ultron.secondpage.selfaddress.view.DmSelfAddressActivity" android:theme="@style/translucent_activity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="purchase_self_address" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.ultron.secondpage.chooseaddress.DmChoseAddressListActivity" android:theme="@style/translucent_activity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="purchase_address_list" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.ultron.secondpage.pickup.OrderDetailPickupAddressListActivity" android:theme="@style/translucent_activity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="purchase_pickup_address_list" android:scheme="@string/nav_schema"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|layoutDirection|locale|orientation" android:exported="false" android:launchMode="singleTop" android:name="com.taobao.android.preview.DXTemplatePreviewActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <meta-data android:name="flutterProjectType" android:value="module"/>
+        <meta-data android:name="flutterEmbedding" android:value="2"/>
+        <activity android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|orientation|screenLayout|screenSize" android:exported="false" android:name="cn.damai.fluttercommon.DMBaseFlutterActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:exported="false" android:launchMode="singleTop" android:name="cn.damai.fluttercommon.DMNFCActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Flutter"/>
+        <activity android:exported="false" android:launchMode="singleTop" android:name="cn.damai.fluttercommon.DMHDActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Flutter.Transparent"/>
+        <activity android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|orientation|screenLayout|screenSize" android:exported="false" android:hardwareAccelerated="true" android:name="com.idlefish.flutterboost.containers.FlutterBoostActivity" android:screenOrientation="portrait" android:theme="@style/DMHummerTheme.Flutter" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="cn.damai.ticklet.ui.activity.TickletVenueActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="ticket_venuepoint" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="cn.damai.ticklet.ui.activity.TickletListActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="member_ticketwalletlist" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="cn.damai.ticklet.ui.activity.TicketDeatilActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="member_ticketwalletinfo" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="cn.damai.ticklet.ui.activity.TickletTransferManageActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateVisible"/>
+        <activity android:exported="true" android:name="cn.damai.ticklet.ui.activity.TicketDetailAcceptTransferActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="ticklet" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.ticklet.ui.activity.TickletAttendanceActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="cn.damai.ticklet.ui.activity.TicketPerformanceNoticeActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="ticket_notice" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="cn.damai.ticklet.ui.activity.TicketMyCommentActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="mycomment" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.ticklet.ui.activity.TicketSouvenirActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="ticklet_sounenvir" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.ticklet.ui.activity.TickletFaceSettingActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="ticklet_facesetting" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <receiver android:exported="false" android:name="cn.damai.ticklet.broadcast.TickletExternalCallBrodcast">
+            <intent-filter>
+                <action android:name="broadcast.external.call.ticklet"/>
+            </intent-filter>
+        </receiver>
+        <activity android:exported="false" android:name="cn.damai.seat.ui.RegionActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="ql_jpg_region_activity" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.seat.ui.SeatActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="ql_jpg_seat_activity" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.seat.ui.TSeatActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="ql_svg_seat_activity" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.damai.seat.ui.VRImageActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="vr_seat_activity" android:scheme="damai"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="false" android:name="com.youku.arch.beast.PcsAccsService">
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.RECEIVE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.youku.arch.beast.apas.remote.ApasApiService">
+            <intent-filter>
+                <action android:name="com.youku.arch.beast.action.APAS"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="cn.damai.update.provider" android:exported="false" android:grantUriPermissions="true" android:name="com.taobao.update.provider.UpdateProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/apk_paths"/>
+        </provider>
+        <service android:exported="true" android:name="com.alibaba.ut.abtest.internal.debug.whitelist.EvoAccsService">
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.RECEIVE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.taobao.slide.accs.SlideAccsService"/>
+        <receiver android:exported="false" android:name="com.alibaba.pictures.accs.AgooBroadcastReceiver" android:process=":channel">
+            <intent-filter>
+                <action android:name="com.taobao.movie.action.PUSH_NOTIFY_ACTION"/>
+                <action android:name="com.taobao.movie.action.PUSH_CLICK_ACTION"/>
+                <action android:name="com.taobao.movie.action.PUSH_DELETE_ACTION"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="true" android:name="com.taobao.accs.ChannelService" android:process=":channel">
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.SERVICE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="org.agoo.android.intent.action.PING_V4"/>
+                <category android:name="taobao"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.taobao.accs.ChannelService$KernelService" android:process=":channel"/>
+        <service android:name="com.taobao.accs.internal.AccsJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":channel"/>
+        <service android:exported="true" android:name="com.taobao.accs.data.MsgDistributeService">
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.RECEIVE"/>
+            </intent-filter>
+            <meta-data android:name="bundleLocation" android:value="com.youku.pushreceiver"/>
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.SERVICE"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="true" android:name="com.taobao.accs.ServiceReceiver" android:process=":channel">
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.COMMAND"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.START_FROM_AGOO"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.alibaba.pictures.accs.MoiveAccsService">
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.RECEIVE"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="cn.damai:channel" android:name="com.taobao.accs.AccsIPCProvider" android:process=":channel"/>
+        <service android:exported="true" android:name="com.alibaba.pictures.accs.TaobaoIntentService" android:process=":channel">
+            <intent-filter>
+                <action android:name="org.agoo.android.intent.action.RECEIVE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="org.android.agoo.accs.AgooService" android:process=":channel">
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.RECEIVE"/>
+            </intent-filter>
+            <meta-data android:name="bundleLocation" android:value="com.youku.pushreceiver"/>
+        </service>
+        <service android:exported="true" android:name="com.taobao.agoo.TaobaoMessageIntentReceiverService" android:process=":channel">
+            <intent-filter>
+                <action android:name="org.android.agoo.client.MessageReceiverService"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="true" android:name="com.alibaba.pictures.accs.MeizuPushMsgReceiver">
+            <intent-filter>
+                <action android:name="com.meizu.flyme.push.intent.MESSAGE"/>
+                <action android:name="com.meizu.flyme.push.intent.REGISTER.FEEDBACK"/>
+                <action android:name="com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"/>
+                <action android:name="com.meizu.c2dm.intent.REGISTRATION"/>
+                <action android:name="com.meizu.c2dm.intent.RECEIVE"/>
+                <category android:name="com.taobao.movie.android"/>
+            </intent-filter>
+        </receiver>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.alibaba.pictures.picpermission.mantle.PermissionBaseActivity" android:theme="@style/transparent_activity"/>
+        <activity android:multiprocess="true" android:name="com.alibaba.security.realidentity.ui.activity.RpLoadingActivity" android:theme="@style/RP_FullScreenTheme"/>
+        <activity android:hardwareAccelerated="true" android:multiprocess="true" android:name="com.alibaba.security.realidentity.ui.activity.ALBiometricsActivity" android:theme="@style/RP_FullScreenTheme"/>
+        <activity android:multiprocess="true" android:name="com.alibaba.security.realidentity.ui.activity.RPWebViewActivity"/>
+        <activity android:multiprocess="true" android:name="com.alibaba.security.realidentity.ui.activity.RPTakePhotoActivity"/>
+        <service android:exported="false" android:name="com.alibaba.security.rp.service.DynamicRPJsbridgeService">
+            <intent-filter>
+                <action android:name="RP"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.taobao.android.service.AidlBridgeService"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="mtopsdk.extra.antiattack.CheckCodeValidateActivity" android:screenOrientation="portrait" android:taskAffinity="mtopsdk.extra">
+            <intent-filter>
+                <action android:name="mtopsdk.mtop.antiattack.checkcode.validate.activity_action"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="com.alibaba.wireless.security.open.middletier.fc.ui.ContainerActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentResult4323"/>
+                <action android:name="com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentCreate4323"/>
+                <action android:name="com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentLog4323"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.alibaba-inc.check.login.status.resume" android:value="0"/>
+        </activity>
+        <activity android:exported="false" android:name="com.alibaba.wireless.security.open.middletier.fc.ui.ExtContainerActivity" android:theme="@android:style/Theme.Holo.Dialog.NoActionBar">
+            <intent-filter>
+                <action android:name="com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentResult4323"/>
+                <action android:name="com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentCreate4323"/>
+                <action android:name="com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentLog4323"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.alibaba-inc.check.login.status.resume" android:value="0"/>
+        </activity>
+        <meta-data android:name="org.chromium.content.browser.NUM_SANDBOXED_SERVICES" android:value="1"/>
+        <meta-data android:name="org.chromium.content.browser.SANDBOXED_SERVICES_NAME" android:value="com.taobao.uc.service.SandboxedProcessService"/>
+        <service android:isolatedProcess="true" android:name="com.taobao.uc.service.SandboxedProcessService0" android:process=":sandboxed_process0"/>
+        <meta-data android:name="org.chromium.content.browser.SANDBOXED_PRIVILEGED_SERVICES_NAME" android:value="com.taobao.uc.service.SandboxedPrivilegedProcessService"/>
+        <service android:isolatedProcess="false" android:name="com.taobao.uc.service.SandboxedPrivilegedProcessService0" android:process=":sandboxed_privilege_process0"/>
+        <meta-data android:name="org.chromium.content.browser.NUM_GPU_SERVICES" android:value="1"/>
+        <meta-data android:name="org.chromium.content.browser.GPU_SERVICES_NAME" android:value="com.taobao.uc.service.GpuProcessService"/>
+        <service android:isolatedProcess="false" android:name="com.taobao.uc.service.GpuProcessService0" android:process=":gpu_process"/>
+        <activity android:name="com.alibaba.verificationsdk.ui.VerifyActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:name="com.youku.gaiax.fastpreview.ui.FastPreviewActivity" android:theme="@style/Theme.AppCompat">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="gaiax" android:path="/preview" android:scheme="youku"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="com.youku.insightvision.sdk.openadsdk.ui.activity.WebViewActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="webview" android:scheme="insight"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="true" android:name="com.youku.playhistory.StarterService">
+            <intent-filter>
+                <action android:name="android.youku.playhistory.STARTER"/>
+            </intent-filter>
+        </service>
+        <receiver android:enabled="true" android:exported="false" android:name="com.alibaba.emas.datalab.controller.DaiReceiver">
+            <intent-filter>
+                <action android:name="com.tmall.android.dai.intent.action.INITIALIZE_COMPLETE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.alibaba.emas.datalab.controller.DaiUpdateReceiver">
+            <intent-filter>
+                <data android:scheme="DAI_cml_cc_smart_android_version_update"/>
+                <action android:name="com.tmall.android.dai.intent.action.COMPUTE_COMPLETE"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.sina.weibo.sdk.web.WebActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:launchMode="singleTask" android:name="com.sina.weibo.sdk.share.ShareTransActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="cn.damai.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.sina.weibo.sdk.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/filepaths"/>
+        </provider>
+        <activity android:exported="false" android:name="io.flutter.plugins.urllauncher.WebViewActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <provider android:authorities="cn.damai.flutter.share_provider" android:exported="false" android:grantUriPermissions="true" android:name="io.flutter.plugins.share.ShareFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/flutter_share_file_paths"/>
+        </provider>
+        <activity android:exported="true" android:name="androidx.compose.ui.tooling.PreviewActivity"/>
+        <provider android:authorities="cn.damai.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
+        </provider>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <activity android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.alipay.sdk.app.H5PayActivity" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.alipay.sdk.app.H5AuthActivity" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:launchMode="singleInstance" android:name="com.alipay.sdk.app.PayResultActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:launchMode="singleTask" android:name="com.alipay.sdk.app.AlipayResultActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.alipay.sdk.app.H5OpenAuthActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.alipay.sdk.app.APayEntranceActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTask" android:name="com.ali.user.mobile.login.ui.UserLoginActivity" android:screenOrientation="behind" android:theme="@style/AliUserAppThemeLogin" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTask" android:name="com.ali.user.mobile.login.ui.HalfTransparentUserLoginActivity" android:theme="@style/AliUserLoginTransparentTheme" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ali.user.mobile.login.ui.AliUserContainer" android:theme="@style/AliUserLoginTransparentTheme" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:name="com.ali.user.mobile.webview.WebViewActivity" android:theme="@style/AliUserAppThemeBase" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ali.user.mobile.webview.AliUserRegisterWebviewActivity" android:screenOrientation="behind" android:theme="@style/AliUserAppThemeBase" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ali.user.mobile.webview.HtmlActivity" android:screenOrientation="behind" android:theme="@style/AliUserAppThemeBase" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:launchMode="singleTask" android:name="com.ali.user.mobile.register.ui.AliUserRegisterActivity" android:screenOrientation="behind" android:theme="@style/AliUserAppThemeBase" android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="reg.taobao.com" android:path="/member/new_register.jhtml" android:scheme="https"/>
+                <data android:host="reg.taobao.com" android:path="/verify" android:scheme="https"/>
+                <data android:host="reg.taobao.com" android:path="/verify" android:scheme="http"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTask" android:name="com.ali.user.mobile.webview.AliUserWebTransparent" android:theme="@style/aliuser_transparent" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTask" android:name="com.ali.user.mobile.webview.AliUserWebLoginTransparent" android:theme="@style/aliuser_transparent" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ali.user.mobile.webview.TransparentWebViewActivity" android:theme="@style/aliuser_transparent" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:name="com.ali.user.mobile.register.ui.AliUserRegisterChoiceRegionActivity" android:theme="@style/AliUserAppThemeBase" android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="my.m.taobao.com" android:pathPrefix="/go/openMobileArea" android:scheme="http"/>
+                <data android:host="my.m.taobao.com" android:pathPrefix="/go/openMobileArea" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.taobao.android.sns4android.bind.AuthMiddleActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:name="com.ali.user.mobile.permission.PermissionActivity" android:theme="@style/Aliuser.Theme.Permission.Transparent"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="true" android:launchMode="singleTask" android:name="com.taobao.login4android.scan.QrScanActivity" android:screenOrientation="portrait" android:theme="@style/AliUserAppThemeBase" android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="passport" android:path="/qrlogin" android:scheme="youku"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.taobao.login4android.scan.QrScanTransparentActivity" android:theme="@style/AliUserLoginTransparentTheme" android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="passport" android:path="/qrlogin/transparent" android:scheme="youku"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="true" android:launchMode="singleTask" android:name="com.taobao.android.sso.v2.result.ResultActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:exported="false" android:name="com.alibaba.poplayerconsole.PopLayerDebugActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="tb.cn" android:path="/n/poplayerdebug" android:scheme="http"/>
+                <data android:host="tb.cn" android:path="/n/poplayerdebug" android:scheme="poplayer"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="false" android:name="com.alibaba.poplayerconsole.PopLayerConsole"/>
+        <activity android:name="com.ali.user.open.core.webview.BaseWebViewActivity" android:screenOrientation="portrait" android:theme="@style/AliMember.Base.AppTheme"/>
+        <receiver android:exported="false" android:name="com.ali.user.open.receiver.SessionSyncReceiver">
+            <intent-filter>
+                <action android:name="aliuser_sync_session"/>
+            </intent-filter>
+        </receiver>
+        <activity android:launchMode="singleTop" android:name="com.ali.user.open.ucc.webview.UccWebViewActivity" android:screenOrientation="portrait" android:theme="@style/AliMember.Base.AppTheme">
+            <meta-data android:name="com.alibaba-inc.check.login.status.resume" android:value="0"/>
+        </activity>
+        <activity android:name="com.ali.user.open.ucc.webview.CloneUccWebViewActivity" android:screenOrientation="portrait" android:theme="@style/AliMember.Base.AppTheme">
+            <meta-data android:name="com.alibaba-inc.check.login.status.resume" android:value="0"/>
+        </activity>
+        <activity android:launchMode="singleTop" android:name="com.ali.user.open.ucc.webview.WebViewDialogActivity" android:theme="@style/Theme.AppCompat.UccTranslucent">
+            <meta-data android:name="com.alibaba-inc.check.login.status.resume" android:value="0"/>
+        </activity>
+        <activity android:launchMode="singleTop" android:name="com.ali.user.open.ucc.webview.WebViewTransparentActivity" android:theme="@style/Theme.AppCompat.UccTranslucent">
+            <meta-data android:name="com.alibaba-inc.check.login.status.resume" android:value="0"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:launchMode="singleTop" android:multiprocess="true" android:name="com.ali.user.open.ucc.ui.UccActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+            <meta-data android:name="com.alibaba-inc.check.login.status.resume" android:value="0"/>
+        </activity>
+        <service android:exported="true" android:name="com.ali.user.open.ucc.remote.RemoteUccService">
+            <intent-filter>
+                <action android:name="com.ali.user.open.ucc.IRemoteUccService"/>
+            </intent-filter>
+        </service>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:launchMode="singleTop" android:multiprocess="true" android:name="com.ali.user.open.oauth.ui.OauthActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+            <meta-data android:name="com.alibaba-inc.check.login.status.resume" android:value="0"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:multiprocess="true" android:name="com.ali.user.open.oauth.ui.OAuthWebViewActivity" android:screenOrientation="portrait" android:theme="@style/AliMember.Base.AppTheme">
+            <meta-data android:name="com.alibaba-inc.check.login.status.resume" android:value="0"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:multiprocess="true" android:name="com.ali.user.open.tbauth.ui.TbAuthWebViewActivity" android:screenOrientation="portrait" android:theme="@style/AliMember.Base.AppTheme">
+            <meta-data android:name="com.alibaba-inc.check.login.status.resume" android:value="0"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:multiprocess="true" android:name="com.ali.user.open.tbauth.ui.TbAuthActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+            <meta-data android:name="com.alibaba-inc.check.login.status.resume" android:value="0"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:multiprocess="true" android:name="com.ali.user.open.tbauth.ui.ICBUAuthActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+            <meta-data android:name="com.alibaba-inc.check.login.status.resume" android:value="0"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="true" android:hardwareAccelerated="true" android:name="com.taobao.android.ultron.common.UltronSwitchActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar" android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="test.taobao.com" android:path="/newultron/switch.htm" android:scheme="http"/>
+            </intent-filter>
+        </activity>
+        <receiver android:enabled="true" android:exported="false" android:name="com.taobao.android.jarviswe.receiver.BehaviXIPVReceiver">
+            <intent-filter>
+                <action android:name="BehaviX_Feature_IPV"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="cn.damai.FileShareProvider" android:enabled="true" android:exported="false" android:grantUriPermissions="true" android:name="com.oplus.pantanal.seedling.file.provider.FileShareProvider" android:readPermission="com.oplus.permission.safe.ASSISTANT">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_file_paths"/>
+        </provider>
+        <meta-data android:name="com.hihonor.intelligence.suggestion-kit.enableFlag" android:value="true"/>
+        <service android:name="com.taobao.accs.windvane.BrowserACCSService"/>
+        <service android:enabled="true" android:name="com.xiaomi.push.service.XMPushService" android:process=":pushservice"/>
+        <service android:enabled="true" android:exported="false" android:name="com.xiaomi.push.service.XMJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":pushservice"/>
+        <service android:enabled="true" android:exported="true" android:name="com.xiaomi.mipush.sdk.PushMessageHandler" android:permission="com.xiaomi.xmsf.permission.MIPUSH_RECEIVE"/>
+        <service android:enabled="true" android:name="com.xiaomi.mipush.sdk.MessageHandleService"/>
+        <receiver android:exported="false" android:name="com.xiaomi.push.service.receivers.PingReceiver" android:process=":pushservice">
+            <intent-filter>
+                <action android:name="com.xiaomi.push.PING_TIMER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="org.android.agoo.xiaomi.MiPushBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.MESSAGE_ARRIVED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.ERROR"/>
+            </intent-filter>
+        </receiver>
+        <service android:directBootAware="true" android:enabled="true" android:exported="true" android:name="com.huawei.hms.support.api.push.service.HmsMsgService" android:process=":pushservice">
+            <intent-filter>
+                <action android:name="com.huawei.push.msg.NOTIFY_MSG"/>
+                <action android:name="com.huawei.push.msg.PASSBY_MSG"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="org.android.agoo.huawei.HuaweiRcvService">
+            <intent-filter>
+                <action android:name="com.huawei.push.action.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="true" android:name="org.android.agoo.mezu.MeizuPushReceiver">
+            <intent-filter>
+                <action android:name="com.meizu.flyme.push.intent.MESSAGE"/>
+                <action android:name="com.meizu.flyme.push.intent.REGISTER.FEEDBACK"/>
+                <action android:name="com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"/>
+                <action android:name="com.meizu.c2dm.intent.REGISTRATION"/>
+                <action android:name="com.meizu.c2dm.intent.RECEIVE"/>
+                <category android:name="cn.damai"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="true" android:name="com.heytap.msp.push.service.CompatibleDataMessageCallbackService" android:permission="com.coloros.mcs.permission.SEND_MCS_MESSAGE">
+            <intent-filter>
+                <action android:name="com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.heytap.msp.push.service.DataMessageCallbackService" android:permission="com.heytap.mcs.permission.SEND_PUSH_MESSAGE">
+            <intent-filter>
+                <action android:name="com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"/>
+                <action android:name="com.heytap.msp.push.RECEIVE_MCS_MESSAGE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.vivo.push.sdk.service.CommandClientService" android:permission="com.push.permission.UPSTAGESERVICE"/>
+        <receiver android:exported="false" android:name="org.android.agoo.vivo.VivoReceiver">
+            <intent-filter>
+                <action android:name="com.vivo.pushclient.action.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="org.android.agoo.honor.HonorMsgService">
+            <intent-filter>
+                <action android:name="com.hihonor.push.action.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <meta-data android:name="MIPUSH_SDK_VERSION_CODE" android:value="50909"/>
+        <meta-data android:name="MIPUSH_SDK_VERSION_NAME" android:value="5_9_9-C"/>
+        <activity android:enabled="true" android:excludeFromRecents="true" android:exported="true" android:launchMode="singleInstance" android:name="com.xiaomi.mipush.sdk.NotificationClickedActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <meta-data android:name="supportStyle" android:value="scene|voip"/>
+        </activity>
+        <receiver android:directBootAware="true" android:exported="true" android:name="com.huawei.hms.support.api.push.PushMsgReceiver" android:permission="cn.damai.permission.PROCESS_PUSH_MSG">
+            <intent-filter>
+                <action android:name="com.huawei.intent.action.PUSH_DELAY_NOTIFY"/>
+                <action android:name="com.huawei.intent.action.PUSH"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="true" android:exported="true" android:name="com.huawei.hms.support.api.push.PushReceiver" android:permission="cn.damai.permission.PROCESS_PUSH_MSG">
+            <intent-filter>
+                <action android:name="com.huawei.android.push.intent.REGISTRATION"/>
+                <action android:name="com.huawei.android.push.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="cn.damai.huawei.push.provider" android:exported="true" android:name="com.huawei.hms.support.api.push.PushProvider" android:readPermission="cn.damai.permission.PUSH_PROVIDER" android:writePermission="cn.damai.permission.PUSH_WRITE_PROVIDER"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:push" android:value="push:6.3.0.304"/>
+        <meta-data android:name="com.huawei.hms.min_api_level:push:push" android:value="1"/>
+        <activity android:exported="false" android:name="com.huawei.hms.support.api.push.TransActivity"/>
+        <service android:exported="true" android:name="com.meizu.cloud.pushsdk.NotificationService"/>
+        <receiver android:exported="false" android:name="com.meizu.cloud.pushsdk.MzPushSystemReceiver" android:permission="com.meizu.flyme.permission.PUSH">
+            <intent-filter>
+                <action android:name="com.meizu.flyme.push.intent.PUSH_SYSTEM"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="sdkVersion" android:value="3000"/>
+        <meta-data android:name="sdk_version_vivo" android:value="484"/>
+        <meta-data android:name="local_iv" android:value="MzMsMzQsMzUsMzYsMzcsMzgsMzksNDAsNDEsMzIsMzgsMzcsMzYsMzUsMzQsMzMsI0AzNCwzMiwzMywzNywzMywzNCwzMiwzMywzMywzMywzNCw0MSwzNSwzNSwzMiwzMiwjQDMzLDM0LDM1LDM2LDM3LDM4LDM5LDQwLDQxLDMyLDM4LDM3LDMzLDM1LDM0LDMzLCNAMzQsMzIsMzMsMzcsMzMsMzQsMzIsMzMsMzMsMzMsMzQsNDEsMzUsMzIsMzIsMzI"/>
+        <meta-data android:name="com.hihonor.push.sdk_version" android:value="7.0.61.302"/>
+        <provider android:authorities="cn.damai.aaidinitprovider" android:exported="false" android:initOrder="500" android:name="com.huawei.hms.aaid.InitProvider"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:opendevice" android:value="opendevice:6.3.0.304"/>
+        <meta-data android:name="com.huawei.hms.min_api_level:opendevice:push" android:value="1"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:base" android:value="base:6.4.0.302"/>
+        <meta-data android:name="com.huawei.hms.min_api_level:base:hmscore" android:value="1"/>
+        <meta-data android:name="availableLoaded" android:value="yes"/>
+        <activity android:configChanges="fontScale|layoutDirection|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:excludeFromRecents="true" android:exported="false" android:hardwareAccelerated="true" android:name="com.huawei.hms.activity.BridgeActivity" android:screenOrientation="behind" android:theme="@style/Base_Translucent">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.huawei.hms.activity.EnableServiceActivity"/>
+        <provider android:authorities="cn.damai.AGCInitializeProvider" android:exported="false" android:name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider"/>
+        <service android:exported="false" android:name="com.huawei.agconnect.core.ServiceDiscovery"/>
+    </application>
+</manifest>

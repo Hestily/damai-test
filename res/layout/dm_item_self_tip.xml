@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingLeft="@dimen/margin_20dp" android:paddingTop="@dimen/margin_16dp" android:paddingRight="@dimen/margin_20dp" android:paddingBottom="@dimen/margin_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_000000" android:id="@id/tv_self_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="请您在演出当天15:00后在梅赛德斯奔驰中心2号门取票机进行自助取票。建议提早到达，避免临近演出大人流排队拥挤。" android:lineSpacingExtra="@dimen/margin_10dp" />
+</RelativeLayout>

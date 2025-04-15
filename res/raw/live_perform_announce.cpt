@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.online.mvp.ProjectListModel",
+    "vClass": "cn.damai.tetris.component.online.mvp.ProjectListView",
+    "pClass": "cn.damai.tetris.component.online.mvp.ProjectListPresenter",
+    "layoutXml": "item_tetris_online_pro_layout"
+  }
+}

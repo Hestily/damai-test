@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/contentLayout" android:background="@drawable/bricks_list_bg_radius" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/tour_project_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/tour_recyclerView" android:paddingLeft="@dimen/margin_12dp" android:paddingRight="@dimen/margin_12dp" android:paddingBottom="@dimen/margin_9dp" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include android:id="@id/tour_more_line" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="@dimen/margin_12dp" android:layout_marginTop="@dimen/margin_6dp" android:layout_marginRight="@dimen/margin_12dp" layout="@layout/bricks_item_ededed_line" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/tour_more_info" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="39.0dip">
+            <TextView android:textSize="@dimen/margin_12dp" android:textColor="#ff959aa5" android:id="@id/tour_more_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="@dimen/margin_8dp" android:textColor="#ff959aa5" android:gravity="center" android:id="@id/tour_more_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_3dp" android:text="@string/iconfont_ticket_rightarrows" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/tour_space" android:background="#fff6f7f8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="7.5dip" />
+</LinearLayout>

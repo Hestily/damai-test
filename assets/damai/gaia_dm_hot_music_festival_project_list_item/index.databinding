@@ -1,0 +1,26 @@
+{
+  "event": {
+    "gaia_dm_hot_music_festival_project_list_item": {
+      "value": "${schema}",
+      "spm": { "spmc": "hotmusic", "spmd": "item_" },
+      "spmArgs": { "titlelabel": "热门演出", "item_id": "${id}" }
+    }
+  },
+  "data": {
+    "bg_image": { "value": "${verticalPic}" },
+    "festival_title": {
+      "value": "${name}",
+      "extend": { "fit-content": "true" }
+    },
+    "price_prefix": { "value": "¥", "extend": { "fit-content": "true" } },
+    "price_num": {
+      "value": "${priceLow}",
+      "extend": {
+        "fit-content": "true",
+        "font-family": "@{ env(isAndroid) ? 'damai_digit' : 'URWDIN-Medium'}"
+      }
+    },
+    "price_suffix": { "value": "起", "extend": { "fit-content": "true" } },
+    "date_text": { "value": "${onSaleTime}" }
+  }
+}

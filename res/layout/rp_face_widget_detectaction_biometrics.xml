@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.security.realidentity.ui.widgets.DetectActionWidget android:id="@id/widget_abfl_detectaction" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.alibaba.security.realidentity.ui.widgets.RPDetectCoreView android:id="@id/abfl_widget_da_maskview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:id="@id/abfl_widget_da_maskview_blurview" android:background="@android:color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:alpha="0.7" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/widget_da_self_name_parent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="55.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+            <TextView android:textSize="32.0px" android:textColor="#ff333333" android:gravity="center" android:id="@id/abfl_widget_guide_subtext_left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/face_guide_please" />
+            <TextView android:textSize="32.0px" android:textColor="#ff4178ff" android:gravity="center" android:id="@id/widget_da_self_name" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <TextView android:textSize="32.0px" android:textColor="#ff333333" android:gravity="center" android:id="@id/abfl_widget_guide_subtext_right" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/face_detect_self_action" />
+        </LinearLayout>
+        <TextView android:textSize="48.0px" android:textColor="#ff333333" android:gravity="center" android:id="@id/abfl_widget_da_mainPrompt" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/abfl_widget_da_actionGuidance_anim_image" android:layout_width="200.0px" android:layout_height="200.0px" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="36.0px" android:textColor="@android:color/white" android:gravity="center" android:id="@id/abfl_waiting_tip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/face_detect_uploading" />
+    </com.alibaba.security.realidentity.ui.widgets.DetectActionWidget>
+</merge>

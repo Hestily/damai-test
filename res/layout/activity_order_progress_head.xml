@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/margin_24dp" android:textColor="@color/color_333333" android:id="@id/tv_order_progress_state" android:paddingLeft="@dimen/margin_30dp" android:paddingTop="@dimen/margin_24dp" android:paddingRight="@dimen/margin_15dp" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_000000" android:id="@id/tv_order_progress_desc" android:paddingLeft="@dimen/margin_30dp" android:paddingTop="@dimen/margin_12dp" android:paddingRight="@dimen/margin_15dp" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:layout_width="fill_parent" android:layout_height="@dimen/margin_24dp" />
+    <View android:id="@id/line_progress_btn" android:background="@color/color_EEEEEE" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/ll_progress_btn" android:paddingTop="@dimen/margin_12dp" android:paddingRight="@dimen/margin_15dp" android:paddingBottom="@dimen/margin_12dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:background="@color/color_f8f8f8" android:layout_width="fill_parent" android:layout_height="12.0dip" />
+    <View android:background="@color/color_white" android:layout_width="fill_parent" android:layout_height="24.0dip" />
+</LinearLayout>

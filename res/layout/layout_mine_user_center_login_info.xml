@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rv_mine_user_login_profile" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rv_user_head" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/fl_mine_user_icon" android:paddingLeft="@dimen/margin_21dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <cn.damai.uikit.view.DMAvatar android:id="@id/fl_mine_user_avatar" android:layout_width="wrap_content" android:layout_height="wrap_content" app:avatarSize="size_60x60" />
+        </FrameLayout>
+        <cn.damai.mine.view.RowLayout android:id="@id/mine_nick_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_9dp" android:layout_marginTop="@dimen/margin_23dp" android:layout_toRightOf="@id/fl_mine_user_icon">
+            <TextView android:textSize="@dimen/margin_20dp" android:textColor="@color/color_ffffff" android:ellipsize="end" android:id="@id/tv_mine_user_nick_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="麦小嗨开心" android:lines="1" android:includeFontPadding="false" />
+            <ImageView android:id="@id/iv_mine_vip_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="19.0dip" android:layout_marginLeft="3.0dip" android:scaleType="fitXY" />
+            <ImageView android:gravity="center" android:id="@id/iv_mine_user_type" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="16.0dip" android:layout_marginLeft="3.0dip" android:includeFontPadding="false" />
+        </cn.damai.mine.view.RowLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/lv_mine_user_no_login" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_9dp" android:layout_marginTop="@dimen/margin_6dp" android:layout_toRightOf="@id/fl_mine_user_icon" android:layout_below="@id/mine_nick_layout">
+            <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_ffffff" android:id="@id/tv_mine_user_login_prompt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="快去登录吧" android:includeFontPadding="false" />
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_ffffff" android:gravity="center_vertical" android:id="@id/tv_mine_login_indicator" android:paddingLeft="@dimen/margin_3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_youjiantou24" android:includeFontPadding="false" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/lv_mine_user_login" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_9dp" android:layout_marginTop="@dimen/margin_6dp" android:layout_toRightOf="@id/fl_mine_user_icon" android:layout_below="@id/mine_nick_layout">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_mine_user_real_name_prompt" android:background="@drawable/nickname_status" android:paddingLeft="@dimen/margin_6dp" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="@dimen/margin_16dp" android:layout_marginRight="6.0dip">
+                <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="10.0dip" android:textColor="@color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_tixingmian_" />
+                <TextView android:textSize="@dimen/margin_10dp" android:textColor="@color/white" android:id="@id/tv_mine_real_name_prompt_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_3dp" />
+            </LinearLayout>
+            <TextView android:textSize="10.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_mine_user_nick_status" android:background="@drawable/nickname_status" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="16.0dip" android:layout_marginRight="6.0dip" android:includeFontPadding="false" />
+            <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tv_mine_user_desc" android:paddingRight="@dimen/margin_21dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="暂无简介涨粉慢" android:maxLines="1" android:singleLine="true" android:includeFontPadding="false" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

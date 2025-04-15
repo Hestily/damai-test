@@ -1,0 +1,36 @@
+#damai_script_play_coupon_service_item {
+  width: 100%;
+  height: 27px;
+  background-color: #ffffff;
+  flex-direction: row;
+  align-items: center;
+}
+#service_title {
+  text-overflow: ellipsis;
+  height: 20px;
+  color: #666666;
+  font-size: 14px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin-left: 12px;
+  margin-right: 6px;
+}
+#service_count {
+  width: 80px;
+  text-overflow: ellipsis;
+  height: 20px;
+  color: #666666;
+  font-size: 14px;
+  text-align: right;
+  fit-content: true;
+  margin-right: 6px;
+}
+#service_price {
+  width: 74px;
+  text-overflow: ellipsis;
+  height: 20px;
+  color: #666666;
+  font-size: 14px;
+  margin-right: 12px;
+  text-align: right;
+}

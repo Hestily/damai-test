@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.music.mvp.DiscoverFeedPluginModel",
+    "vClass": "cn.damai.tetris.component.music.mvp.DiscoverFeedPluginView",
+    "pClass": "cn.damai.tetris.component.music.mvp.DiscoverFeedPluginPresenter",
+    "layoutXml": "item_tetris_discover_feed_head_plugin"
+  }
+}

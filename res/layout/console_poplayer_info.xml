@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="#cc000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textSize="13.0sp" android:textColor="#ff888888" android:id="@id/status" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <Spinner android:id="@id/configset_switch" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0.0dip" />
+        <TextView android:textSize="13.0sp" android:textColor="#ff999999" android:id="@id/configset" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <TextView android:textSize="13.0sp" android:textColor="#ff999999" android:id="@id/current_poplayer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+</ScrollView>

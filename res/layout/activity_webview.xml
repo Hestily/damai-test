@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/ad_detail_uc_tool_container" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <ImageView android:id="@id/ad_web_close_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/ad_web_close_selector" android:layout_centerVertical="true" />
+        <TextView android:ellipsize="end" android:gravity="center" android:id="@id/ad_webview_custom_title_txt" android:layout_width="200.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ProgressBar android:id="@id/ad_detail_uc_progress" android:layout_width="fill_parent" android:layout_height="2.0dip" android:max="100" android:progressDrawable="@drawable/ad_webview_progressbar" android:layout_below="@id/ad_detail_uc_tool_container" style="?android:progressBarStyleHorizontal" />
+    <com.youku.insightvision.sdk.openadsdk.SplashAdWebView android:id="@id/insight_webview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ad_detail_uc_progress" />
+</RelativeLayout>

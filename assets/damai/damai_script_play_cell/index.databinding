@@ -1,0 +1,56 @@
+{
+  "event": { "damai_script_play_cell": { "eventName": "item" } },
+  "data": {
+    "damai_script_play_cell": {
+      "extend": {
+        "padding-bottom": "@{env(isAndroid) ? '4.5' : '9'}",
+        "padding-top": "@{env(isAndroid) ? '4.5' : '0'}"
+      }
+    },
+    "cover_img": {
+      "value": "@{eval(size(${posterUrl}) > 0) ? ${posterUrl} : @{env(isAndroid) ? 'gaiax_res:uikit_default_image_bg_grey' : 'gaiax_res:script_other_relate_script_default_image' }}",
+      "placeholder": "@{env(isAndroid) ? 'uikit_default_image_bg_grey' : 'script_other_relate_script_default_image' }"
+    },
+    "right_top_tag": {
+      "extend": { "display": "@{${soleTagTemp} ? flex : none}" }
+    },
+    "tab_label": {
+      "extend": {
+        "fit-content": "true",
+        "margin-bottom": "@{env(isAndroid) ? '0px' : '0px'}",
+        "font-weight": "@{env(isAndroid) ? '400' : '500'}",
+        "display": "@{${soleTagTemp} ? flex : none}"
+      },
+      "value": "${soleTagTemp}"
+    },
+    "play_title": {
+      "value": "${name}",
+      "extend": {
+        "fit-content": "true",
+        "font-weight": "@{env(isAndroid) ? '400' : '500'}"
+      }
+    },
+    "score_and_rank": { "extend": { "display": "@{${score} ? flex : none}" } },
+    "score_desc": {
+      "value": "大麦评分",
+      "extend": {
+        "fit-content": "true",
+        "display": "@{${score} ? flex : none}"
+      }
+    },
+    "score_num": {
+      "value": "${score}",
+      "extend": {
+        "fit-content": "true",
+        "display": "@{${score} ? flex : none}"
+      }
+    },
+    "play_introduce": {
+      "value": "${playDesc}",
+      "extend": {
+        "fit-content": "true",
+        "display": "@{${playDesc} ? flex : none}"
+      }
+    }
+  }
+}

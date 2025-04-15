@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/community_share_favor_comment_layout" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_marginTop="-6.0dip" android:weightSum="3.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/community_favor_framelayout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <com.taobao.movie.android.commonui.widget.SafeLottieAnimationView android:layout_gravity="center" android:id="@id/article_add_favor" android:visibility="visible" android:layout_width="32.5dip" android:layout_height="32.5dip" app:lottie_autoPlay="false" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_assist" android:gravity="center|left" android:id="@id/article_favor_count" android:paddingTop="@dimen/margin_3" android:paddingRight="@dimen/margin_3" android:paddingBottom="@dimen/margin_3" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:minWidth="30.0dip" android:text="0" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/community_comment_framelayout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="21.0dip" android:textColor="@color/color_tpp_primary_assist" android:gravity="center" android:id="@id/article_add_comment" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="13.0dip" android:text="@string/icon_font_comment_icon" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_assist" android:gravity="center" android:id="@id/article_comment_count" android:paddingTop="@dimen/margin_4" android:paddingRight="@dimen/margin_4" android:paddingBottom="@dimen/margin_4" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="0" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/community_share_framelayout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="21.0dip" android:textColor="@color/color_tpp_primary_assist" android:gravity="center" android:layout_gravity="center" android:id="@id/article_detail_share" android:paddingLeft="5.0dip" android:paddingRight="2.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:text="@string/icon_font_share_icon" />
+    </FrameLayout>
+</LinearLayout>

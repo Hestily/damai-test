@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/guide_top" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.25" />
+    <RelativeLayout android:background="@drawable/pop_layer_bg" android:paddingTop="@dimen/margin_4dp" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="@id/guide_top">
+        <TextView android:textSize="16.0dip" android:textColor="#ff3d3d3d" android:id="@id/fg_promotion_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_centerHorizontal="true" />
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="16.0dip" android:textColor="@color/color_999999" android:id="@id/desc_close" android:padding="@dimen/common_margin_15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/iconfont_fucengguanbi16" android:layout_alignParentRight="true" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/fg_promotion_recycler" android:paddingLeft="18.0dip" android:paddingRight="18.0dip" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="40.0dip" android:layout_below="@id/fg_promotion_title" android:overScrollMode="never" />
+        <View android:background="@color/color_eeeeee" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="20.0dip" android:layout_below="@id/fg_promotion_title" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

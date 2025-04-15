@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="@dimen/resource_size_42"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/tab_indicator" android:background="@drawable/tab_indicator_pioneer" android:layout_width="@dimen/resource_size_36" android:layout_height="@dimen/resource_size_15" android:layout_marginBottom="@dimen/resource_size_4" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@id/tab_container" android:layout_width="wrap_content" android:layout_height="@dimen/resource_size_39" android:layout_centerHorizontal="true">
+        <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="@dimen/resource_size_16" android:textColor="#ff171717" android:ellipsize="end" android:gravity="center" android:id="@id/tab_text" android:background="@color/red" android:padding="@dimen/resource_size_1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

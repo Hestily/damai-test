@@ -1,0 +1,9 @@
+{
+  "GaiaXBuildInProviderModule": "com.youku.gaiax.provider.module.js.GaiaXBuildInProviderModule",
+  "GaiaXOneArchModule": "com.youku.gaiax.provider.module.js.GaiaXOneArchModule",
+  "GaiaXTemplateCustomDialogModule": "com.youku.gaiax.provider.module.js.GaiaXTemplateCustomDialogModule",
+  "GaiaXBuildInModule": "com.youku.gaiax.provider.module.js.GaiaXBuildInModule",
+  "GaiaXLogModule": "com.youku.gaiax.provider.module.js.GaiaXLogModule",
+  "GaiaXNativeEventModule": "com.youku.gaiax.provider.module.js.GaiaXNativeEventModule",
+  "GaiaXNativeTargetModule": "com.youku.gaiax.provider.module.js.GaiaXNativeTargetModule"
+}

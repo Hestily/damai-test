@@ -1,0 +1,14 @@
+#damai_script_play_role {
+  width: 63px;
+  border-radius: 6px;
+  height: 84px;
+}
+#role_image_view {
+  background-color: primaryFillColor;
+  border-radius: 6px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 63px;
+  height: 84px;
+  margin-top: 0px;
+}

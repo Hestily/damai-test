@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/padding_3dp" android:paddingEnd="@dimen/padding_3dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/danmaku_notice" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/item_filmdetail_danmaku_wall_notice" />
+    <include android:id="@id/danmaku_common" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/danmaku_notice" layout="@layout/item_filmdetail_danmaku_wall_common" />
+    <include android:id="@id/danmaku_creator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/danmaku_common" layout="@layout/item_filmdetail_danmaku_wall_creator" />
+    <include android:id="@id/danmaku_mine" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/danmaku_creator" layout="@layout/item_filmdetail_danmaku_wall_mine" />
+</RelativeLayout>

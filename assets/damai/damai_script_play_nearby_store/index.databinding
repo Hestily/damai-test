@@ -1,0 +1,56 @@
+{
+  "data": {
+    "title": { "value": "${name}" },
+    "rating_star_holder": {
+      "extend": { "display": "@{${storeScore} ? flex : none}" }
+    },
+    "star_1": {
+      "value": "${starValue[0]}",
+      "extend": { "fit-content": "false" }
+    },
+    "star_2": {
+      "value": "${starValue[1]}",
+      "extend": { "fit-content": "false" }
+    },
+    "star_3": {
+      "value": "${starValue[2]}",
+      "extend": { "fit-content": "false" }
+    },
+    "star_4": {
+      "value": "${starValue[3]}",
+      "extend": { "fit-content": "false" }
+    },
+    "star_5": {
+      "value": "${starValue[4]}",
+      "extend": { "fit-content": "false" }
+    },
+    "rating_point": {
+      "value": "${storeScore}",
+      "extend": {
+        "fit-content": "true",
+        "margin-top": "@{env(isAndroid) ? 2px : 0px }"
+      }
+    },
+    "loc_text": { "value": "${address}" },
+    "loc_holder": {
+      "extend": { "display": "@{eval(${status} == '2') ? flex : none}" }
+    },
+    "loc_icon": {
+      "value": "@{env(isAndroid) ? 'gaiax_res:bricks_icon_location' : 'gaiax_res:Location_icon' }"
+    },
+    "loc_icon_text": { "value": "@{${distance} ? ${distance} : '地图'}" },
+    "tele_holder": {
+      "extend": {
+        "display": "@{eval(${status} == '2') ? @{${telUrl} ? flex : none} : none}"
+      }
+    },
+    "tele_icon": {
+      "value": "@{env(isAndroid) ? 'gaiax_res:bricks_icon_call' : 'gaiax_res:Phone_icon' }"
+    },
+    "tele_icon_text": { "value": "联系商家" }
+  },
+  "event": {
+    "loc_holder": { "eventName": "map" },
+    "tele_holder": { "eventName": "telephone" }
+  }
+}

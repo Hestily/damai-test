@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingBottom="@dimen/resource_size_9" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/pioneer_marketing_banner_bg" android:background="@drawable/pioneer_marketing_container_bg" android:layout_width="305.0dip" android:layout_height="144.0dip" android:layout_marginBottom="-6.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:layout_constraintBottom_toBottomOf="@id/pioneer_marketing_banner" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <FrameLayout android:id="@id/pioneer_marketing_banner" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <cn.damai.pioneer.component.marketing.PioneerMarketingBanner android:id="@id/banner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

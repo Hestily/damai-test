@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/pioneer_homepage_item_container" android:layout_width="71.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/pioneer_homepage_coupon_container" android:layout_width="71.0dip" android:layout_height="94.0dip">
+        <com.alibaba.pictures.bricks.view.RoundImageView android:id="@id/pioneer_homepage_item_image_normal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg_pioneer_group_coupon" android:scaleType="centerCrop" app:borderRadius="9.0dip" app:type="round" />
+        <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="10.0dip" android:textColor="@color/color_181818" android:gravity="center" android:id="@id/tv_coupon_type" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.5dip" android:layout_alignParentTop="true" />
+            <com.alibaba.pictures.bricks.view.CustomHighlightsTextView android:id="@id/tv_coupon_origin_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:layout_alignParentTop="true" android:layout_centerInParent="true" app:alignItems="baseline" app:flexDirection="row" app:flexWrap="nowrap" />
+            <com.alibaba.pictures.bricks.view.CustomHighlightsTextView android:id="@id/tv_coupon_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" android:layout_alignParentBottom="true" android:layout_centerInParent="true" app:alignItems="flex_end" app:flexDirection="row" app:flexWrap="nowrap" />
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

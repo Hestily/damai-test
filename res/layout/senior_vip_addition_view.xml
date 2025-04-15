@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="15.0dip" android:paddingBottom="@dimen/margin_21dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/senior_vip_tag" />
+    <TextView android:textSize="11.0dip" android:textColor="#ff210276" android:id="@id/tv_discount_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/margin_3dp" />
+</LinearLayout>

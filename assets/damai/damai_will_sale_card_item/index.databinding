@@ -1,0 +1,32 @@
+{
+  "data": {
+    "project_poster": {
+      "value": "@{eval(size(${verticalPic}) > 0) ? ${verticalPic} : @{env(isAndroid) ? 'gaiax_res:bricks_uikit_default_image_bg_gradient_radius3' : '_' }}",
+      "placeholder": "@{env(isAndroid) ? 'bricks_uikit_default_image_bg_gradient_radius3' : ''}"
+    },
+    "category_view": {
+      "extend": { "display": "@{${topRight} ? flex : none}" }
+    },
+    "category_tag": {
+      "value": "${topRight}",
+      "extend": {
+        "fit-content": "true",
+        "padding-bottom": "@{env(isAndroid) ? '1px' : '0px'}",
+        "padding-left": "@{env(isAndroid) ? '3px' : '3px'}",
+        "padding-right": "@{env(isAndroid) ? '3px' : '3px'}",
+        "display": "@{${topRight} ? flex : none}"
+      }
+    },
+    "bottom_text": {
+      "value": "${bottomLeft.value}",
+      "extend": {
+        "highlight-font-family": "URWDIN-Medium",
+        "highlight-font-size": "10px",
+        "highlight-tag": "^",
+        "fit-content": "true",
+        "padding-bottom": "@{env(isAndroid) ? '0px' : '1px'}",
+        "padding-left": "@{env(isAndroid) ? '0px' : '1px'}"
+      }
+    }
+  }
+}

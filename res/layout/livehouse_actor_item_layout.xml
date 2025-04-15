@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/actor_layout" android:background="@color/aliuser_color_white" android:layout_width="50.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/aritst_image_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/actor_image_bg" android:layout_width="47.0dip" android:layout_height="47.0dip" android:src="@drawable/livehouse_actor_image_bg" />
+        <ImageView android:layout_gravity="center" android:id="@id/actor_image" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+    </FrameLayout>
+    <ImageView android:id="@id/artist_tag_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/artist_tag_bg" android:layout_alignParentRight="true" />
+    <TextView android:textSize="10.0dip" android:textColor="#ffffffff" android:id="@id/artist_tag_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:layout_alignParentRight="true" />
+    <TextView android:textSize="12.0dip" android:textColor="#ff333333" android:ellipsize="end" android:id="@id/actor_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-2.0dip" android:layout_marginTop="6.0dip" android:text="哈哈" android:singleLine="true" android:layout_below="@id/aritst_image_layout" android:layout_centerHorizontal="true" />
+</RelativeLayout>

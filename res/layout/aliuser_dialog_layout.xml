@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/aliuser_dialog_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="17.0dip" android:textColor="@color/aliuser_color_black" android:gravity="center" android:layout_gravity="center" android:id="@id/aliuser_dialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="29.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="29.0dip" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/aliuser_color_black" android:gravity="center" android:id="@id/aliuser_dialog_message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="16.0dip" />
+        <View android:background="#ffbfbfbf" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="15.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="54.0dip">
+            <Button android:textSize="17.0dip" android:textColor="@color/aliuser_color_black" android:gravity="center" android:id="@id/aliuser_dialog_cancel" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:singleLine="true" android:layout_weight="1.0" />
+            <View android:id="@id/aliuser_dialog_split" android:background="#ffbfbfbf" android:layout_width="1.0px" android:layout_height="fill_parent" />
+            <Button android:textSize="17.0dip" android:textColor="#ffff5000" android:gravity="center" android:id="@id/aliuser_dialog_confirm" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:singleLine="true" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

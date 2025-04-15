@@ -1,0 +1,90 @@
+{
+  "event": {
+    "cell_container": { "eventName": "item" },
+    "iv_store_icon": { "eventName": "store_detail_action" },
+    "store_name": { "eventName": "store_detail_action" },
+    "store_right_arrow": { "eventName": "store_detail_action" },
+    "btn_status": { "eventName": "bottom_btn_action" }
+  },
+  "data": {
+    "iv_store_icon": {
+      "value": "@{eval(size(${shopIcon}) > 0) ? ${shopIcon} : @{env(isAndroid) ? 'gaiax_res:bricks_coupon_store' : 'gaiax_res:coupon_info_store_img' }}",
+      "placeholder": "@{env(isAndroid) ? 'bricks_coupon_store' : 'coupon_info_store_img' }"
+    },
+    "store_name": {
+      "extend": {
+        "fit-content": "true",
+        "display": "@{${shopName} ? flex : none}",
+        "font-weight": "@{env(isAndroid) ? '400' : '500' }"
+      },
+      "value": "${shopName}"
+    },
+    "store_right_arrow": {
+      "extend": {
+        "fit-content": "true",
+        "margin-top": "@{env(isAndroid) ? 2px : 0px}",
+        "display": "@{${shopName} ? flex : none}"
+      },
+      "value": "&#xe670;"
+    },
+    "order_status": {
+      "extend": {
+        "fit-content": "true",
+        "display": "@{${orderStatus} ? flex : none}",
+        "color": "${showStatusColor}"
+      },
+      "value": "${orderStatus}"
+    },
+    "groupon_name": {
+      "value": "${itemName}",
+      "extend": {
+        "fit-content": "true",
+        "font-weight": "@{env(isAndroid) ? '400' : '500' }"
+      }
+    },
+    "groupon_valid_time": {
+      "extend": {
+        "fit-content": "true",
+        "extend": { "display": "@{${expireTime} ? flex : none}" }
+      },
+      "value": "${expireTime}"
+    },
+    "groupon_price_view": {
+      "extend": { "display": "@{${totalAmount} ? flex : none}" }
+    },
+    "rmb_text": {
+      "value": "¥",
+      "extend": {
+        "fit-content": "true",
+        "margin-top": "@{env(isAndroid) ? 7px : 2px }"
+      }
+    },
+    "store_price_text": {
+      "value": "${totalAmount}",
+      "extend": { "fit-content": "true" }
+    },
+    "store_price_unit": {
+      "value": "/共 + ${quantity} + 张",
+      "extend": {
+        "fit-content": "true",
+        "display": "@{${quantity} ? flex : none}",
+        "margin-top": "@{env(isAndroid) ? 6px : 0px }"
+      }
+    },
+    "store_image": {
+      "value": "@{eval(size(${itemPicUrl}) > 0) ? ${itemPicUrl} : @{env(isAndroid) ? 'gaiax_res:uikit_default_image_bg_grey' : 'gaiax_res:script_can_play_store_default_image' }}",
+      "placeholder": "@{env(isAndroid) ? 'uikit_default_image_bg_grey' : 'script_can_play_store_default_image' }"
+    },
+    "sep_line": {
+      "extend": {
+        "display": "@{eval(${commentType} == '1') ? flex : @{eval(${commentType} == '2') ? flex : none}}"
+      }
+    },
+    "bottom_btn_status": {
+      "extend": {
+        "display": "@{eval(${commentType} == '1') ? flex : @{eval(${commentType} == '2') ? flex : none}}"
+      }
+    },
+    "buy_text": { "value": "${actionDesc}" }
+  }
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:background="@color/color_tpp_primary_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" fresco:cardCornerRadius="6.0dip" fresco:cardElevation="0.0dip" fresco:cardMaxElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.taobao.movie.android.commonui.widget.TppAnimImageView android:id="@id/nine_pic_item" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" fresco:actualImageScaleType="centerCrop" fresco:placeholderImage="@drawable/common_pic_item_bg" />
+        <TextView android:textSize="10.0dip" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/nine_pic_item_tag" android:background="@drawable/common_pic_item_tag_bg" android:paddingLeft="6.0dip" android:paddingTop="4.0dip" android:paddingRight="6.0dip" android:paddingBottom="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="GIF" android:includeFontPadding="false" android:layout_alignRight="@id/nine_pic_item" android:layout_alignBottom="@id/nine_pic_item" />
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/image_tag_view_radius_fg_6dp" android:scaleType="fitXY" android:layout_alignLeft="@id/nine_pic_item" android:layout_alignTop="@id/nine_pic_item" android:layout_alignRight="@id/nine_pic_item" android:layout_alignBottom="@id/nine_pic_item" />
+        <View android:id="@id/image_mask" android:background="@color/color_tpp_primary_40_black" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textSize="30.0dip" android:textStyle="bold" android:textColor="@color/white" android:id="@id/tv_img_num" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+7" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

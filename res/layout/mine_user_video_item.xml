@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="260.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="190.0dip">
+        <ImageView android:id="@id/brand_user_video_bg" android:layout_width="fill_parent" android:layout_height="190.0dip" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+        <ImageView android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/dm_poster_video_icon" android:scaleType="centerCrop" android:layout_centerInParent="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/black" android:gravity="left" android:id="@id/brand_user_video_title" android:paddingLeft="15.0dip" android:paddingTop="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="70.0dip" android:text="" android:maxLines="2" android:layout_below="@id/brand_user_video_bg" />
+</LinearLayout>

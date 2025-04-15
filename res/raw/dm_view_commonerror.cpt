@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.common.CommonErrorModel",
+    "vClass": "cn.damai.tetris.component.common.CommonErrorView",
+    "pClass": "cn.damai.tetris.component.common.CommonErrorPresenter",
+    "layoutXml": "tetris_common_errorview"
+  }
+}

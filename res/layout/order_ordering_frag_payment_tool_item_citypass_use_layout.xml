@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/block_presalecode_select_area" android:background="@color/common_text_color46" android:clickable="true" android:layout_width="fill_parent" android:layout_height="35.0dip" style="@style/OrderCommonMarketItem"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/use_citypass_title" android:layout_marginRight="6.0dip" android:text="@string/ordering_selector_block_use_citypass" style="@style/CommonListItemOrderTitle" />
+    <ImageView android:id="@id/activity_tag" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/citypass_small" android:scaleType="fitXY" />
+    <com.taobao.movie.android.commonui.widget.SimpleDraweeView android:id="@id/remote_activity_tag" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="10.0dip" fresco:actualImageScaleType="fitXY" fresco:failureImage="@drawable/citypass_small" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/tpp_primary_red" android:gravity="right" android:id="@id/use_citypass_desc" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:layout_weight="1.0" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/block_citypass_open_switch" android:layout_width="30.0dip" android:layout_height="16.0dip" android:src="@drawable/ordering_mcard_switch_close" />
+</LinearLayout>

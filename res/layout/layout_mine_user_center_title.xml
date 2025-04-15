@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.moimage.MoImageView android:id="@id/mine_title_background" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="centerCrop" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_user_info" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/margin_12dp" android:layout_weight="1.0">
+            <cn.damai.uikit.view.DMAvatar android:id="@id/fl_user_avatar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" app:avatarSize="size_30x30" />
+            <cn.damai.pioneer.view.PioneerAvatar android:layout_gravity="center" android:id="@id/pioneer_user_avatar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" app:avatar_size="size_30dp" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_000000" android:ellipsize="end" android:id="@id/tv_nick_name" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_9dp" android:maxLines="1" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/user_tag_view" app:layout_constraintTop_toTopOf="parent" />
+                <ImageView android:id="@id/user_tag_view" android:visibility="gone" android:layout_width="13.0dip" android:layout_height="12.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/tv_nick_name" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_title_right" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="@dimen/margin_26dp" android:textColor="@color/color_3C3F44" android:gravity="center" android:id="@id/tv_setting" android:layout_width="29.0dip" android:layout_height="29.0dip" android:layout_marginRight="12.0dip" android:text="@string/iconfont_setting_new" />
+            <FrameLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_message" android:layout_width="wrap_content" android:layout_height="45.0dip" android:layout_marginRight="11.0dip">
+                <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="@dimen/margin_24dp" android:textColor="@color/color_3C3F44" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_message" android:layout_width="29.0dip" android:layout_height="29.0dip" android:text="@string/iconfont_message_new" />
+                <TextView android:textSize="10.0dip" android:textColor="@color/color_ffffff" android:gravity="center" android:layout_gravity="right" android:id="@id/view_msg_badge" android:background="@drawable/icon_badge" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginTop="4.0dip" />
+            </FrameLayout>
+            <TextView android:textSize="10.0dip" android:textColor="@color/bricks_171717" android:id="@id/tv_to_classic" android:paddingLeft="9.0dip" android:paddingTop="3.0dip" android:paddingRight="12.0dip" android:paddingBottom="3.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="切回经典版" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

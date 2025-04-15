@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.taobao.movie.android.commonui.widget.TppGifImageView android:id="@id/article_image" android:background="@color/common_text_color14" android:layout_width="fill_parent" android:layout_height="fill_parent" fresco:actualImageScaleType="centerCrop" fresco:fadeDuration="0" fresco:placeholderImage="@drawable/content_default_logo" fresco:placeholderImageScaleType="centerInside" />
+    <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="12.0dip" android:textColor="@color/white" android:id="@id/article_image_tag" android:background="@drawable/topic_image_bg" android:paddingLeft="10.0dip" android:paddingTop="18.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_alignLeft="@id/article_image" android:layout_alignRight="@id/article_image" android:layout_alignBottom="@id/article_image" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/image_tag_view_radius_fg" android:scaleType="fitXY" android:layout_alignLeft="@id/article_image" android:layout_alignTop="@id/article_image" android:layout_alignRight="@id/article_image" android:layout_alignBottom="@id/article_image" />
+</RelativeLayout>

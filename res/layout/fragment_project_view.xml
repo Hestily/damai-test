@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@id/id_new_project_refresh" android:background="@color/color_bricks_primary_bg" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="63.0dip">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/id_new_project_recycler" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/id_new_project_title_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/project_detail_title_bar" layout="@layout/project_detail_title_bar_layout" />
+        <com.google.android.material.tabs.TabLayout android:id="@id/id_new_project_tabs" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="46.0dip" style="@style/Project_Tabs_Style" />
+        <View android:id="@id/project_detail_title_bar_divider" android:background="@color/master_black_10" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </LinearLayout>
+    <include android:id="@id/project_bottom_container" layout="@layout/project_v2_bottom_layout" />
+    <cn.damai.rank.view.WantSeeGuideTips android:id="@id/want_see_guide_tips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="52.0dip" android:layout_marginStart="@dimen/margin_9dp" android:layout_marginEnd="@dimen/margin_9dp" />
+    <FrameLayout android:id="@id/id_new_project_popup_layer_container" android:background="#99000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

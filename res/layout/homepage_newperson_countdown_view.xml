@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/coupon_countdown_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="60.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/count_down_info_container" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginTop="10.0dip">
+        <com.alibaba.pictures.moimage.MoImageView android:layout_gravity="center_horizontal" android:id="@id/count_down_indicator_iv" android:layout_width="11.0dip" android:layout_height="8.0dip" android:layout_marginTop="2.0dip" android:scaleType="fitXY" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-3.0dip" android:layout_marginStart="70.0dip">
+            <cn.damai.uikit.number.DMDigitTextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/color_ff4886" android:ellipsize="end" android:id="@id/count_down_value_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginEnd="@dimen/margin_2dp" />
+            <cn.damai.homepage.util.window.dialog.dialogitems.NewPersonCountDownTextView android:textSize="11.0dip" android:textStyle="bold" android:textColor="@color/bricks_2e333e" android:ellipsize="end" android:id="@id/count_down_value_time_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.alibaba.pictures.moimage.MoImageView android:id="@id/new_person_countdown_pic" android:layout_width="55.0dip" android:layout_height="55.0dip" android:layout_marginStart="@dimen/margin_10dp" android:layout_alignParentStart="true" />
+</FrameLayout>

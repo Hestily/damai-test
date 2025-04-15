@@ -1,0 +1,352 @@
+{
+  "components": [
+    {
+      "type": 9999,
+      "tag": "common_header",
+      "layout": {
+        "layoutType": "single"
+      },
+      "viewTypes": [
+        {
+          "type": 9999,
+          "layoutID": "bricks_component_common_header_dm",
+          "model": "com.alient.onearch.adapter.component.header.GenericHeaderModel",
+          "present": "com.alient.onearch.adapter.component.header.GenericHeaderPresent",
+          "view": "com.alient.onearch.adapter.component.header.GenericHeaderView"
+        }
+      ]
+    },
+    {
+      "type": 9993,
+      "tag": "common_divider",
+      "layout": {
+        "layoutType": "single"
+      },
+      "viewTypes": [
+        {
+          "type": 9993,
+          "model": "com.alient.onearch.adapter.component.divider.DividerModel",
+          "present": "com.alient.onearch.adapter.component.divider.DividerPresent",
+          "view": "com.alient.onearch.adapter.component.divider.DividerView",
+          "layoutID": "component_divider"
+        }
+      ]
+    },
+    {
+      "type": 9995,
+      "tag": "generic_footer",
+      "layout": {
+        "layoutType": "single",
+        "params": {}
+      },
+      "viewTypes": [
+        {
+          "type": 9995,
+          "layoutID": "component_common_footer",
+          "model": "com.alient.onearch.adapter.component.footer.v2.GenericFooterModel",
+          "present": "com.alient.onearch.adapter.component.footer.v2.GenericFooterPresent",
+          "view": "com.alient.onearch.adapter.component.footer.v2.GenericFooterView"
+        }
+      ]
+    },
+    {
+      "type": 7509,
+      "tag": "script_murder_banner",
+      "layout": {
+        "layoutType": "linear",
+        "params": {
+          "gap": "resource_size_6"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7508,
+          "layoutID": "bricks_component_script_view_info_header",
+          "model": "com.alibaba.pictures.bricks.component.script.ScriptInfoModel",
+          "present": "com.alibaba.pictures.bricks.component.script.ScriptInfoPresent",
+          "view": "com.alibaba.pictures.bricks.component.script.ScriptInfoView",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.component.script.ScriptInfoHeaderBean"
+          }
+        },
+        {
+          "type": 9002,
+          "layoutID": "component_common_gaiax",
+          "model": "com.alient.gaiax.container.render.GenericGaiaxModel",
+          "present": "com.alient.gaiax.container.render.GenericGaiaxPresenter",
+          "view": "com.alient.gaiax.container.render.GenericGaiaxView"
+        }
+      ]
+    },
+    {
+      "type": 7504,
+      "tag": "script_murder_base_info",
+      "layout": {
+        "layoutType": "linear"
+      },
+      "viewTypes": [
+        {
+          "type": 7505,
+          "layoutID": "component_script_shop_info_view",
+          "model": "com.alibaba.pictures.bricks.component.scriptmurder.ShopInfoModel",
+          "present": "com.alibaba.pictures.bricks.component.scriptmurder.ShopInfoPresent",
+          "view": "com.alibaba.pictures.bricks.component.scriptmurder.ShopInfoView",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.bean.ShopInfoBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 9996,
+      "tag": "sticky_header",
+      "layout": {
+        "layoutType": "sticky"
+      },
+      "viewTypes": [
+        {
+          "type": 9996,
+          "layoutID": "component_sticky_header_script",
+          "model": "com.alient.onearch.adapter.component.header.sticky.StickyHeaderModel",
+          "present": "com.alient.onearch.adapter.component.header.sticky.StickyHeaderPresent",
+          "view": "com.alient.onearch.adapter.component.header.sticky.StickyHeaderView"
+        }
+      ]
+    },
+    {
+      "type": 7506,
+      "tag": "script_murder_dm",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "gap": "resource_size_9"
+        }
+      },
+      "container": {
+        "type": 7506,
+        "layoutID": "bricks_component_dm_list",
+        "model": "com.alient.onearch.adapter.component.horizontal.GenericHorizontalModel",
+        "present": "com.alient.onearch.adapter.component.horizontal.GenericHorizontalPresenter",
+        "view": "com.alient.onearch.adapter.component.horizontal.GenericHorizontalView"
+      },
+      "viewTypes": [
+        {
+          "type": 9000,
+          "layoutID": "component_common_gaiax",
+          "model": "com.alient.gaiax.container.render.GenericGaiaxModel",
+          "present": "com.alient.gaiax.container.render.GenericGaiaxPresenter",
+          "view": "com.alient.gaiax.container.render.GenericGaiaxView"
+        }
+      ]
+    },
+    {
+      "type": 7507,
+      "tag": "script_murder_goods",
+      "layout": {
+        "layoutType": "single",
+        "params": {}
+      },
+      "viewTypes": [
+        {
+          "type": 9001,
+          "layoutID": "component_common_gaiax",
+          "model": "com.alient.gaiax.container.render.GenericGaiaxModel",
+          "present": "com.alient.gaiax.container.render.GenericGaiaxPresenter",
+          "view": "com.alient.gaiax.container.render.GenericGaiaxView"
+        }
+      ]
+    },
+    {
+      "type": 7503,
+      "tag": "script_murder_comment",
+      "layout": {
+        "layoutType": "linear",
+        "params": {
+          "backgroundColor": "#F4F5F6"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7504,
+          "layoutID": "evaluate_item_layout",
+          "model": "com.alibaba.pictures.picturesbiz.component.comment.OneEvaluateModel",
+          "present": "com.alibaba.pictures.picturesbiz.component.comment.OneEvaluatePresent",
+          "view": "com.alibaba.pictures.picturesbiz.component.comment.OneEvaluateView",
+          "params": {
+            "bean": "cn.damai.comment.bean.CommentsItemBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7514,
+      "tag": "script_murder_shop",
+      "layout": {
+        "layoutType": "linear",
+        "params": {
+          "backgroundColor": "#F4F5F6",
+          "dividerHeight": "resource_size_9"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 9006,
+          "layoutID": "component_common_gaiax",
+          "model": "com.alient.gaiax.container.render.GenericGaiaxModel",
+          "present": "com.alient.gaiax.container.render.GenericGaiaxPresenter",
+          "view": "com.alient.gaiax.container.render.GenericGaiaxView"
+        }
+      ]
+    },
+    {
+      "type": 7520,
+      "tag": "script_murder_hot_goods",
+      "layout": {
+        "layoutType": "linear",
+        "params": {
+          "backgroundColor": "#F4F5F6"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 9009,
+          "layoutID": "component_common_gaiax",
+          "model": "com.alient.gaiax.container.render.GenericGaiaxModel",
+          "present": "com.alient.gaiax.container.render.GenericGaiaxPresenter",
+          "view": "com.alient.gaiax.container.render.GenericGaiaxView"
+        }
+      ]
+    },
+    {
+      "type": 7515,
+      "tag": "script_murder_similar_play",
+      "layout": {
+        "layoutType": "linear",
+        "params": {
+          "backgroundColor": "#F4F5F6"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 9007,
+          "layoutID": "component_common_gaiax",
+          "model": "com.alient.gaiax.container.render.GenericGaiaxModel",
+          "present": "com.alient.gaiax.container.render.GenericGaiaxPresenter",
+          "view": "com.alient.gaiax.container.render.GenericGaiaxView"
+        }
+      ]
+    },
+    {
+      "type": 7510,
+      "tag": "script_murder_play_score",
+      "layout": {
+        "layoutType": "single",
+        "params": {}
+      },
+      "viewTypes": [
+        {
+          "type": 9003,
+          "layoutID": "component_common_gaiax",
+          "model": "com.alient.gaiax.container.render.GenericGaiaxModel",
+          "present": "com.alient.gaiax.container.render.GenericGaiaxPresenter",
+          "view": "com.alient.gaiax.container.render.GenericGaiaxView"
+        }
+      ]
+    },
+    {
+      "type": 7511,
+      "tag": "script_murder_play_good_comment",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "gap": "resource_size_9"
+        }
+      },
+      "container": {
+        "type": 7511,
+        "layoutID": "component_common_horizontal",
+        "model": "com.alient.onearch.adapter.component.horizontal.GenericHorizontalModel",
+        "present": "com.alient.onearch.adapter.component.horizontal.GenericHorizontalPresenter",
+        "view": "com.alient.onearch.adapter.component.horizontal.GenericHorizontalView"
+      },
+      "viewTypes": [
+        {
+          "type": 9004,
+          "layoutID": "component_common_gaiax",
+          "model": "com.alient.gaiax.container.render.GenericGaiaxModel",
+          "present": "com.alient.gaiax.container.render.GenericGaiaxPresenter",
+          "view": "com.alient.gaiax.container.render.GenericGaiaxView"
+        }
+      ]
+    },
+    {
+      "type": 7512,
+      "tag": "script_murder_play_introduce",
+      "layout": {
+        "layoutType": "linear",
+        "params": {
+          "paddingBottom": "resource_size_12",
+          "paddingLeft": "resource_size_12",
+          "paddingRight": "resource_size_12"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7509,
+          "layoutID": "bricks_component_common_fold_textview",
+          "model": "com.alibaba.pictures.bricks.component.text.FoldTextViewModel",
+          "present": "com.alibaba.pictures.bricks.component.text.FoldTextViewPresent",
+          "view": "com.alibaba.pictures.bricks.component.text.FoldTextViewView",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.component.text.FoldTextViewBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7513,
+      "tag": "script_murder_character",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "gap": "resource_size_9"
+        }
+      },
+      "container": {
+        "type": 7511,
+        "layoutID": "component_common_horizontal",
+        "model": "com.alient.onearch.adapter.component.horizontal.GenericHorizontalModel",
+        "present": "com.alient.onearch.adapter.component.horizontal.GenericHorizontalPresenter",
+        "view": "com.alient.onearch.adapter.component.horizontal.GenericHorizontalView"
+      },
+      "viewTypes": [
+        {
+          "type": 9005,
+          "layoutID": "component_common_gaiax",
+          "model": "com.alient.gaiax.container.render.GenericGaiaxModel",
+          "present": "com.alient.gaiax.container.render.GenericGaiaxPresenter",
+          "view": "com.alient.gaiax.container.render.GenericGaiaxView"
+        }
+      ]
+    },
+    {
+      "type": 7508,
+      "tag": "script_murder_place_holder",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+          "backgroundColor": "#FFFFFF"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7506,
+          "layoutID": "component_common_empty",
+          "model": "com.alient.onearch.adapter.component.empty.GenericEmptyModel",
+          "present": "com.alient.onearch.adapter.component.empty.GenericEmptyPresent",
+          "view": "com.alient.onearch.adapter.component.empty.GenericEmptyView"
+        }
+      ]
+    }
+  ]
+}

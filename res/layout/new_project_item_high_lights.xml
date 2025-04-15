@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="9.0dip" android:paddingRight="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/id_new_project_item_high_light_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="@dimen/resource_size_15" android:textColor="@color/bricks_2e333e" android:ellipsize="end" android:id="@id/id_new_project_item_high_light_title" android:paddingLeft="@dimen/resource_size_12" android:paddingRight="@dimen/resource_size_12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginBottom="12.0dip" android:text="演出亮点" android:lines="1" />
+        <cn.damai.uikit.view.StrokeLinearLayout android:orientation="vertical" android:id="@id/id_new_project_item_high_light_container" android:paddingTop="@dimen/resource_size_12" android:paddingBottom="@dimen/resource_size_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/resource_size_12" android:layout_marginRight="@dimen/resource_size_12" app:sl_corners_radius="@dimen/resource_size_9" app:sl_stroke_color="?iconNumBgBorder" app:sl_stroke_width="1.0px" />
+    </LinearLayout>
+</LinearLayout>

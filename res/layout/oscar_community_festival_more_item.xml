@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_show_more_item" android:background="@color/color_tpp_primary_bg" android:layout_width="166.5dip" android:layout_height="95.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0dip" android:textColor="@color/color_tpp_primary_subtitle" android:id="@id/tv_homepage_show_more_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/film_detail_all_tag" android:layout_centerInParent="true" />
+</RelativeLayout>

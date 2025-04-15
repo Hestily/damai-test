@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.common.AccountAlbumModel",
+    "vClass": "cn.damai.tetris.component.common.AccountAlbumView",
+    "pClass": "cn.damai.tetris.component.common.AccountAlbumPresenter",
+    "layoutXml": "layout_common_account_album"
+  }
+}

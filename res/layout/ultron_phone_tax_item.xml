@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0dip" android:textColor="#ff2e333e" android:ellipsize="end" android:id="@id/text_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:maxLines="1" android:layout_toLeftOf="@id/checkbox" android:layout_centerVertical="true" />
+    <CheckBox android:enabled="false" android:id="@id/checkbox" android:background="@drawable/dm_purchase_check_tax_select_circle_bg" android:focusable="false" android:clickable="false" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="12.0dip" android:button="@null" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:id="@id/line" android:background="#ffeaeaea" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.uikit.shadowlayout.DMShadowLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:sl_backgroundColor="#ffffffff" app:sl_cornerRadius="12.0dip" app:sl_dx="0.0dip" app:sl_dy="3.0dip" app:sl_shadowColor="#266a7a99" app:sl_shadowRadius="6.0dip">
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_corner_12_storke_gray" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="88.0dip">
+            <cn.damai.uikit.view.RoundImageView android:id="@id/img_p" android:layout_width="48.0dip" android:layout_height="64.0dip" app:borderRadius="4.0dip" app:type="round" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip">
+                <TextView android:textSize="16.0dip" android:textColor="@color/black" android:ellipsize="end" android:id="@id/title_p" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/color_9C9CA5" android:ellipsize="end" android:id="@id/city_time_addr" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="北京 | 2019.06.30 19:30 | 鸟巢" android:lines="1" android:layout_below="@id/title_p" />
+                <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                    <TextView android:textSize="14.0dip" android:textColor="@color/color_FF2869" android:gravity="bottom" android:id="@id/price_pending" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="价格待定" />
+                    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/price_ui" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="12.0dip" android:textColor="@color/color_FF2869" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="¥" />
+                        <cn.damai.uikit.number.DMDigitTextView android:textSize="16.0dip" android:textColor="@color/color_FF2869" android:id="@id/project_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" />
+                        <TextView android:textSize="10.0dip" android:textColor="@color/color_9C9CA5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="起" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </cn.damai.uikit.shadowlayout.DMShadowLayout>
+</FrameLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="@dimen/margin_21dp" android:paddingRight="@dimen/margin_21dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_artist_banner" android:layout_width="fill_parent" android:layout_height="100.0dip" android:src="@drawable/uikit_default_image_bg_grey" android:scaleType="fitXY" />
+    <LinearLayout android:orientation="vertical" android:id="@id/vip_ticket_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/margin_12dp" android:textColor="#ffeb7609" android:gravity="center" android:id="@id/tv_ticket_state" android:background="@drawable/bg_vip_artist_ticket_state" android:paddingLeft="@dimen/margin_12dp" android:paddingRight="@dimen/margin_12dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginTop="@dimen/margin_18dp" android:text="🔥火爆抢购中" />
+        <ImageView android:id="@id/iv_artist_icon" android:layout_width="fill_parent" android:layout_height="100.0dip" android:src="@drawable/uikit_default_image_bg_grey" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/bg_vip_artist_time" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginBottom="15.0dip">
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/margin_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <cn.damai.user.star.club.item.ticketactivity.AtistClubTimer android:layout_gravity="center_vertical" android:id="@id/ll_timer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <TextView android:textSize="@dimen/margin_10dp" android:textColor="#ff9c9ca5" android:layout_gravity="center_vertical" android:id="@id/tv_time_time_time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/margin_12dp" android:textColor="#fff8d2b2" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/btn_vip_state" android:background="@drawable/bg_vip_artist_btn" android:paddingLeft="@dimen/margin_12dp" android:paddingRight="@dimen/margin_12dp" android:layout_width="wrap_content" android:layout_height="@dimen/margin_25dp" android:layout_marginLeft="@dimen/margin_12dp" android:layout_marginRight="@dimen/margin_12dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

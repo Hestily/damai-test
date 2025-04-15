@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ali.user.open.core.webview.AliUccCustomToolbar android:id="@id/ali_user_webview_toolbar" android:layout_width="fill_parent" android:layout_height="48.0dip" app:navigationIcon="@drawable/member_sdk_auth_back" />
+    <FrameLayout android:id="@id/ali_user_webview_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

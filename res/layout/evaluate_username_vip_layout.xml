@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/resource_size_15" android:textColor="@color/bricks_2e333e" android:ellipsize="end" android:id="@id/comment_user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:lineSpacingExtra="@dimen/margin_3dp" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/comment_vip_icon" android:layout_width="58.0dip" android:layout_height="13.0dip" android:layout_marginLeft="@dimen/margin_6dp" />
+    <cn.damai.uikit.view.UserTagView android:layout_gravity="center_vertical" android:id="@id/user_tag_view" android:layout_width="wrap_content" android:layout_height="16.0dip" android:layout_marginLeft="@dimen/margin_6dp" />
+</LinearLayout>

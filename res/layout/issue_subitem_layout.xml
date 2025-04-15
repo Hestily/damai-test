@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ratingbar="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0dip" android:textColor="@color/color_111111" android:gravity="center|right" android:layout_gravity="center_vertical" android:id="@id/issue_subitem_comment_tip" android:layout_width="64.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_10dp" android:lines="1" />
+    <cn.damai.uikit.view.DMRatingBar android:id="@id/issue_subitem_evaluate_grade_view" android:layout_width="wrap_content" android:layout_height="wrap_content" ratingbar:integerMark="true" ratingbar:isIndicator="false" ratingbar:showText="false" ratingbar:starCount="5" ratingbar:starDistance="12.0dip" ratingbar:starEmpty="@drawable/rating_empty" ratingbar:starFill="@drawable/rating_fill" ratingbar:starSize="22.0dip" />
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.commonbusiness.yymember.view.MemberDamaiAuthView android:gravity="bottom" android:layout_gravity="bottom" android:id="@id/member_damai_auth" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" />
+    <cn.damai.commonbusiness.yymember.view.MemberDamaiAuthView android:gravity="bottom" android:layout_gravity="bottom" android:id="@id/member_taopiaopiao_auth" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" />
+</FrameLayout>

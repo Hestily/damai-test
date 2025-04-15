@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.taobao.movie.android.commonui.widget.SimpleDraweeView android:id="@id/mcard_header_icon" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginLeft="15.0dip" android:scaleType="centerCrop" android:layout_centerVertical="true" fresco:roundedCornerRadius="19.0dip" fresco:roundingBorderColor="@color/common_text_color35" fresco:roundingBorderWidth="1.0dip" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/common_text_color10" android:id="@id/mcard_header_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:maxLines="2" android:layout_toRightOf="@id/mcard_header_icon" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View style="@style/ListItemBorderWithMarginDp" />
+</LinearLayout>

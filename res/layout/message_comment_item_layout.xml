@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/comment_item_layout" android:paddingTop="22.5dip" android:paddingBottom="22.5dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/comment_userinfo_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip">
+        <cn.damai.uikit.view.DMAvatar android:id="@id/comment_header_damai_avatar" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <RelativeLayout android:paddingTop="@dimen/margin_6dp" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginLeft="@dimen/margin_15dp" android:layout_toRightOf="@id/comment_header_damai_avatar" android:layout_centerVertical="true">
+            <TextView android:textSize="14.0dip" android:textColor="@color/color_111111" android:ellipsize="end" android:id="@id/comment_user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="@dimen/margin_15dp" android:singleLine="true" android:layout_toLeftOf="@id/comment_date" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/color_aaaaaa" android:ellipsize="end" android:id="@id/main_reply_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="回复 @伍尔妇 的评论回复" android:singleLine="true" android:layout_alignParentBottom="true" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/color_aaaaaa" android:ellipsize="end" android:id="@id/comment_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:singleLine="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/subreply_layout" android:background="@color/color_f8f8f8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="93.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="@dimen/margin_18dp" android:layout_below="@id/comment_userinfo_layout">
+        <TextView android:textSize="14.0dip" android:textColor="@color/color_111111" android:id="@id/main_reply_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_12dp" android:layout_marginTop="@dimen/margin_12dp" android:layout_marginRight="@dimen/margin_12dp" android:layout_marginBottom="@dimen/margin_12dp" android:lineSpacingExtra="@dimen/margin_3dp" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/project_layout" android:layout_width="111.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/venus_rank_item_image_layout" android:layout_width="fill_parent" android:layout_height="148.0dip">
+        <cn.damai.uikit.shadowlayout.DMShadowLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:sl_shadowColor="#1a000000" app:sl_shadowRadius="3.0dip">
+            <cn.damai.uikit.view.RoundImageView android:id="@id/venus_rank_item_image" android:background="@drawable/uikit_default_image_bg_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="0.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" app:borderRadius="2.0dip" app:type="round" xmlns:app="http://schemas.android.com/apk/res-auto" />
+        </cn.damai.uikit.shadowlayout.DMShadowLayout>
+        <cn.damai.uikit.tag.DMCategroyTagView android:textSize="10.0dip" android:textColor="@color/white" android:layout_gravity="right" android:id="@id/venus_rank_item_image_tag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" />
+        <TextView android:textSize="20.0dip" android:textColor="@color/color_ffffff" android:gravity="center" android:layout_gravity="bottom" android:id="@id/venus_rank_item_rank" android:background="@drawable/item_rank" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginLeft="3.0dip" android:layout_marginBottom="3.0dip" />
+    </FrameLayout>
+    <TextView android:textSize="13.0dip" android:textColor="@color/color_000000" android:ellipsize="end" android:id="@id/venus_rank_item_title" android:paddingLeft="@dimen/margin_3dp" android:paddingRight="@dimen/margin_3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:maxLines="2" android:lineSpacingMultiplier="1.1" />
+    <TextView android:id="@id/venus_rank_item_time" android:paddingLeft="@dimen/margin_3dp" android:paddingRight="@dimen/margin_3dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:singleLine="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/venus_rank_item_price_layout" android:paddingLeft="@dimen/margin_3dp" android:paddingRight="@dimen/margin_3dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip">
+        <cn.damai.uikit.number.DMDigitTextView android:textSize="16.0dip" android:textColor="#ffff2d79" android:id="@id/venus_rank_item_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_1dp" android:singleLine="true" />
+        <TextView android:textSize="10.0dip" android:textColor="@color/color_666666" android:id="@id/venus_rank_item_price_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="起" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

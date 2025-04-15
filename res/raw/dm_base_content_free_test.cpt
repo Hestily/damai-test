@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.star.content.free.ContentFreeTestModel",
+    "vClass": "cn.damai.tetris.component.star.content.free.ContentFreeTestView",
+    "pClass": "cn.damai.tetris.component.star.content.free.ContentFreeTestPresenter",
+    "layoutXml": "tetris_dm_base_content_free_main"
+  }
+}

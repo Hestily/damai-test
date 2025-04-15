@@ -1,0 +1,134 @@
+{
+  "components": [
+    {
+      "type": 7900,
+      "tag": "Ai侧边栏关注组件",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "gap": "resource_size_15",
+          "marginLeft": "resource_size_15",
+          "marginRight": "resource_size_15",
+          "marginTop": "resource_size_15"
+        }
+      },
+      "container": {
+        "type": 7900,
+        "layoutID": "bricks_component_flex_wrap_view",
+        "viewHolder": "cn.damai.pioneer.component.slideai.FlexWrapViewHolder"
+      },
+      "viewTypes": [
+        {
+          "type": 7909,
+          "layoutID": "pioneer_ai_slide_focus_card_view",
+          "viewHolder": "cn.damai.pioneer.component.slideai.AiSlideFocusCardHolder",
+          "params": {
+            "bean": "cn.damai.pioneer.bean.AiFocusCardBean"
+          }
+        },
+        {
+          "type": 7910,
+          "layoutID": "pioneer_ai_slide_focus_btn_view",
+          "viewHolder": "cn.damai.pioneer.component.slideai.AiSlideFocusBtnHolder",
+          "params": {
+            "bean": "cn.damai.pioneer.bean.AiFocusCardBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7902,
+      "tag": "Ai侧边栏 未登录时占位EmptyView",
+      "layout": {
+        "layoutType": "linear",
+        "params": {
+          "paddingTop": "resource_size_10",
+          "paddingLeft": "resource_size_15",
+          "paddingRight": "resource_size_15"
+        }
+      },
+      "viewTypes": {
+        "type": 7912,
+        "layoutID": "pioneer_ai_slide_empty_view",
+        "viewHolder": "cn.damai.pioneer.component.slideai.AiSlideEmptyHolder",
+        "params": {
+          "bean": "cn.damai.pioneer.bean.AiEmptyBean"
+        }
+      }
+    },
+    {
+      "type": 7898,
+      "tag": "Ai侧边栏 消息通知",
+      "layout": {
+        "layoutType": "linear",
+        "params": {
+          "marginLeft": "resource_size_15",
+          "marginRight": "resource_size_15",
+          "marginTop": "resource_size_15"
+        }
+      },
+      "viewTypes": {
+        "type": 7907,
+        "layoutID": "pioneer_ai_slide_message",
+        "viewHolder": "cn.damai.pioneer.component.slideai.message.AiSlideMessageViewHolder",
+        "params": {
+          "bean": "cn.damai.pioneer.bean.AiMessageBean"
+        }
+      }
+    },
+    {
+      "type": 7903,
+      "tag": "Ai侧边栏 登录",
+      "layout": {
+        "layoutType": "linear",
+        "params": {
+        }
+      },
+      "viewTypes": {
+        "type": 7913,
+        "layoutID": "pioneer_ai_slide_go_login_or_open_ai_view",
+        "viewHolder": "cn.damai.pioneer.component.slideai.AiSlideGoLoginHolder",
+        "params": {
+          "bean": "cn.damai.pioneer.bean.AiGoLoginOrAiBean"
+        }
+      }
+    },
+    {
+      "type": 7901,
+      "tag": "Ai侧边栏开启Ai",
+      "layout": {
+        "layoutType": "linear",
+        "params": {
+        }
+      },
+      "viewTypes": {
+        "type": 7911,
+        "layoutID": "pioneer_ai_slide_go_login_or_open_ai_view",
+        "viewHolder": "cn.damai.pioneer.component.slideai.AiSlideGoOpenAiHolder",
+        "params": {
+          "bean": "cn.damai.pioneer.bean.AiGoLoginOrAiBean"
+        }
+      }
+    },
+    {
+      "type": 7899,
+      "tag": "抢票日历",
+      "layout": {
+        "layoutType": "linear",
+        "params": {
+          "marginLeft": "resource_size_15",
+          "marginRight": "resource_size_15",
+          "marginTop": "resource_size_15"
+        }
+      },
+      "viewTypes": {
+        "type": 7908,
+        "layoutID": "component_pioneer_slider_grab_calendar",
+        "viewHolder": "cn.damai.pioneer.component.grabitem.calendar.PioneerGrabCalendarViewHolder",
+        "params": {
+          "bean": "cn.damai.pioneer.bean.PioneerGrabCalendarBean"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/realname_center_real_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="62.0dip" android:layout_below="@id/mine_base_header_left">
+        <TextView android:textSize="14.0dip" android:textColor="@color/color_111111" android:id="@id/realname_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_18dp" android:text="真实姓名" android:layout_centerVertical="true" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/color_aaaaaa" android:gravity="center|right" android:id="@id/realname_auth_result_name" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginRight="@dimen/margin_18dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center_vertical" android:id="@id/realname_authed_tag_layout" android:background="@drawable/realname_auth_staus_tag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="22.0dip" android:layout_marginRight="@dimen/margin_9dp" android:layout_toLeftOf="@id/realname_auth_result_name" android:layout_centerVertical="true">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_8dp" android:layout_marginRight="4.0dip" android:src="@drawable/realname_authed" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_8dp" android:text="已实名" />
+        </LinearLayout>
+        <View android:background="@color/color_eeeeee" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="@dimen/margin_18dp" android:layout_marginRight="@dimen/margin_18dp" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/realname_center_certype_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="62.0dip" android:layout_below="@id/realname_center_real_layout">
+        <TextView android:textSize="14.0dip" android:textColor="@color/color_111111" android:id="@id/realname_certype" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_18dp" android:text="身份证号" android:layout_centerVertical="true" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/color_aaaaaa" android:gravity="center|right" android:id="@id/real_name_cert_num" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="@dimen/margin_24dp" android:layout_marginRight="@dimen/margin_18dp" android:layout_toRightOf="@id/realname_certype" android:layout_centerVertical="true" />
+        <View android:background="@color/color_eeeeee" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="@dimen/margin_18dp" android:layout_marginRight="@dimen/margin_18dp" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/realname_center_certnum_layout" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="62.0dip" android:layout_below="@id/realname_center_certype_layout">
+        <TextView android:textSize="14.0dip" android:textColor="@color/color_111111" android:id="@id/realname_cernum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_18dp" android:text="扫脸认证" android:layout_centerVertical="true" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/realname_status_face_status_img" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:layout_toLeftOf="@id/realname_auth_status_layout" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center_vertical" android:id="@id/realname_auth_status_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <TextView android:textSize="14.0dip" android:textColor="@color/color_aaaaaa" android:gravity="center|right" android:id="@id/realname_auth_status" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginRight="@dimen/margin_12dp" android:text="测试" android:layout_toLeftOf="@id/icon_more3" android:layout_centerVertical="true" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/icon_more3" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_12dp" android:src="@drawable/arrow_gray_right_icon" />
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView android:textColor="@color/color_888888" android:id="@id/realname_auth_result" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_18dp" android:layout_marginTop="@dimen/margin_18dp" android:layout_marginRight="@dimen/margin_18dp" android:text="实名认证成功后，身份信息不可修改，如非本人，请联系客服解决。" android:layout_below="@id/realname_center_certnum_layout" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include layout="@layout/authenticate_interests_view" />
+    </LinearLayout>
+</RelativeLayout>

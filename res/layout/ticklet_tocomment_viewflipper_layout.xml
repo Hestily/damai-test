@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.damai.uikit.view.RoundImageView android:layout_gravity="center_vertical" android:id="@id/ticklet_comment_header" android:layout_width="@dimen/margin_20dp" android:layout_height="@dimen/margin_20dp" android:layout_marginLeft="@dimen/margin_12dp" />
+    <TextView android:textColor="#ff9c9ca5" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/ticklet_comment_content" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="@dimen/margin_9dp" android:layout_marginRight="@dimen/aliuser_space_12" android:text="“真是太好看了，力宏大大就是我的男神啊，越来…”" android:singleLine="true" />
+</LinearLayout>

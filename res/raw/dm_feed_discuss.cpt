@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.discover.mvp.DiscussModel",
+    "vClass": "cn.damai.tetris.component.discover.mvp.DiscussView",
+    "pClass": "cn.damai.tetris.component.discover.mvp.DiscussPresenter",
+    "layoutXml": "item_feed_discuss"
+  }
+}

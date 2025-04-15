@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_comment_container" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="30.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.damai.uikit.view.DMAvatar android:layout_gravity="center" android:id="@id/user_icon_dmavatar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/uikit_user_default_icon_trans_white" android:layout_centerVertical="true" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/color_333333" android:ellipsize="end" android:id="@id/tv_people_comment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:maxWidth="230.0dip" android:maxLines="1" android:layout_toRightOf="@id/user_icon_dmavatar" android:layout_centerVertical="true" />
+    <TextView android:textSize="10.0dip" android:textColor="@color/color_999999" android:ellipsize="end" android:id="@id/tv_user_date" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="12.0dip" android:maxLines="1" android:maxEms="11" android:layout_toRightOf="@id/tv_people_comment" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</LinearLayout>

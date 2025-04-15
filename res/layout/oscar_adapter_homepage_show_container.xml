@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/vs_oscar_adapter_homepage_show_title_container" android:layout="@layout/oscar_adapter_homepage_show_title_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/vs_oscar_adapter_homepage_soon_show_tab_container" android:layout="@layout/oscar_adapter_homepage_soon_show_tab_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_smart_video_express" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

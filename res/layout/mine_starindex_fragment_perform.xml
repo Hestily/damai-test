@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/performing_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/mine_starindex_fragment_perform_xunyantitle" />
+            <TextView android:background="#1a000000" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="21.0dip" android:layout_marginRight="21.0dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/layout_video" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <cn.damai.uikit.irecycler.HorizontalRecyclerView android:id="@id/hrv_video" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginBottom="18.0dip" />
+                <TextView android:background="#1a000000" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="21.0dip" android:layout_marginRight="21.0dip" />
+            </LinearLayout>
+            <TextView android:textSize="16.0dip" android:textColor="@color/color_000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:layout_marginTop="16.0dip" android:text="巡演城市" />
+            <cn.damai.uikit.irecycler.HorizontalRecyclerView android:id="@id/hrv_city" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="18.0dip" />
+            <include android:id="@id/hrv_xunyan_flipper" layout="@layout/mine_starindex_xunyan_layout" />
+        </LinearLayout>
+        <include android:id="@id/hrv_xunyan_banner" layout="@layout/mine_starindex_xunyan_banner_layout" />
+    </LinearLayout>
+    <ImageView android:id="@id/artist_pro_banner" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="21.0dip" android:layout_marginRight="21.0dip" android:layout_marginBottom="@dimen/margin_5dp" />
+    <LinearLayout android:orientation="vertical" android:id="@id/artist_more_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="#149c9ca5" android:layout_width="fill_parent" android:layout_height="9.0dip" android:layout_marginBottom="18.0dip" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/black" android:id="@id/startindex_morepro_title" android:paddingLeft="22.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="更多演出" />
+        <cn.damai.uikit.irecycler.HorizontalRecyclerView android:id="@id/user_project_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:layout_marginTop="6.0dip" android:layout_marginBottom="18.0dip" />
+        <View android:id="@id/bottom_divider_line" android:background="#149c9ca5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="9.0dip" />
+    </LinearLayout>
+</LinearLayout>

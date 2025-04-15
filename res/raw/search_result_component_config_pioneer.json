@@ -1,0 +1,158 @@
+{
+  "components": [
+    {
+      "type": 2,
+      "tag": "DIVIDER",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 2,
+          "model": "com.alient.onearch.adapter.component.divider.DividerModel",
+          "present": "com.alient.onearch.adapter.component.divider.DividerPresent",
+          "view": "com.alient.onearch.adapter.component.divider.DividerView",
+          "layoutID": "component_divider",
+          "params": {
+          }
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "tag": "NO_MORE",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+          "marginLeft": "resource_size_12",
+          "marginRight": "resource_size_12"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 3,
+          "model": "com.alient.onearch.adapter.component.nomore.NoMoreModel",
+          "present": "com.alient.onearch.adapter.component.nomore.NoMorePresent",
+          "view": "com.alient.onearch.adapter.component.nomore.NoMoreView",
+          "layoutID": "bricks_component_search_result_no_more",
+          "params": {
+          }
+        }
+      ]
+    },
+    {
+      "type": 9995,
+      "tag": "COMPONENT_FOOTER",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+          "marginLeft": "resource_size_12",
+          "marginRight": "resource_size_12"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 9995,
+          "model": "com.taobao.movie.android.app.search.v2.component.footer.SearchFooterModel",
+          "present": "com.taobao.movie.android.app.search.v2.component.footer.SearchFooterPresent",
+          "view": "com.taobao.movie.android.app.search.v2.component.footer.SearchFooterView",
+          "layoutID": "bricks_component_footer_search",
+          "params": {
+          }
+        }
+      ]
+    },
+    {
+      "type": 7863,
+      "tag": "taopiaopiao_search_show",
+      "layout": {
+        "layoutType": "linear",
+        "params": {
+          "dividerHeight": "resource_size_9",
+          "marginLeft": "resource_size_12",
+          "marginRight": "resource_size_12"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7691,
+          "layoutID": "component_search_film",
+          "model": "com.taobao.movie.android.app.search.v2.component.film.FilmModel",
+          "present": "com.taobao.movie.android.app.search.v2.component.film.FilmPresent",
+          "view": "com.taobao.movie.android.app.search.v2.component.film.FilmView",
+          "params": {
+            "bean": "com.taobao.movie.android.integration.oscar.model.ShowMo"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7864,
+      "tag": "taopiaopiao_search_cinema",
+      "layout": {
+        "layoutType": "linear",
+        "params": {
+          "dividerHeight": "resource_size_9",
+          "marginLeft": "resource_size_12",
+          "marginRight": "resource_size_12"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7692,
+          "layoutID": "component_search_cinema",
+          "model": "com.taobao.movie.android.app.search.v2.component.cinema.CinemaModel",
+          "present": "com.taobao.movie.android.app.search.v2.component.cinema.CinemaPresent",
+          "view": "com.taobao.movie.android.app.search.v2.component.cinema.CinemaView"
+        }
+      ]
+    },
+    {
+      "type": 5090,
+      "tag": "taopiaopiao_search_show",
+      "layout": {
+        "layoutType": "linear",
+        "params": {
+          "dividerHeight": "resource_size_9",
+          "marginLeft": "resource_size_12",
+          "marginRight": "resource_size_12"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 5090,
+          "layoutID": "component_search_film",
+          "model": "com.taobao.movie.android.app.search.v2.component.film.FilmModel",
+          "present": "com.taobao.movie.android.app.search.v2.component.film.FilmPresent",
+          "view": "com.taobao.movie.android.app.search.v2.component.film.FilmView",
+          "params": {
+            "bean": "com.taobao.movie.android.integration.oscar.model.ShowMo"
+          }
+        }
+      ]
+    },
+    {
+      "type": 5091,
+      "tag": "taopiaopiao_search_cinema",
+      "layout": {
+        "layoutType": "linear",
+        "params": {
+          "dividerHeight": "resource_size_9",
+          "marginLeft": "resource_size_12",
+          "marginRight": "resource_size_12"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 5091,
+          "layoutID": "component_search_cinema",
+          "model": "com.taobao.movie.android.app.search.v2.component.cinema.CinemaModel",
+          "present": "com.taobao.movie.android.app.search.v2.component.cinema.CinemaPresent",
+          "view": "com.taobao.movie.android.app.search.v2.component.cinema.CinemaView"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/title_bar_space" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+        <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:id="@id/header_layout" layout="@layout/header_seat_page" />
+            <FrameLayout android:id="@id/region_view_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/header_layout" />
+            <RelativeLayout android:id="@id/main_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="44.0dip" />
+        </RelativeLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/region_fg_container" android:background="#99000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

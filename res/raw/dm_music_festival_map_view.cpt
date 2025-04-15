@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.music.mvp.MusicFestivalModel",
+    "vClass": "cn.damai.tetris.component.music.mvp.MusicFestivalView",
+    "pClass": "cn.damai.tetris.component.music.mvp.MusicFestivalPresenter",
+    "layoutXml": "item_tetris_music_festival_map_layout"
+  }
+}

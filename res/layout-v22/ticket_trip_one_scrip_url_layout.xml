@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="@dimen/resource_size_8" android:layout_width="fill_parent" android:layout_height="83.0dip" android:layout_marginLeft="@dimen/resource_size_15" android:layout_marginRight="@dimen/resource_size_15" android:layout_marginHorizontal="@dimen/resource_size_15" android:paddingHorizontal="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/id_trip_check_url_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/id_trip_check_url_pre" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/ticket_trip_url_check_icon" android:layout_alignParentBottom="true" />
+        <TextView android:textSize="@dimen/resource_size_12" android:textColor="@color/ticklet_color_0091ff" android:gravity="center" android:id="@id/id_trip_check_url_tv" android:layout_width="wrap_content" android:layout_height="16.0dip" android:lines="1" android:layout_alignTop="@id/id_trip_check_url_pre" android:layout_marginStart="3.0dip" android:layout_toEndOf="@id/id_trip_check_url_pre" />
+    </RelativeLayout>
+    <View android:layout_gravity="bottom" android:background="#734499ff" android:layout_width="0.5dip" android:layout_height="12.5dip" />
+    <RelativeLayout android:id="@id/id_trip_copy_url_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/id_trip_copy_url_pre" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/ticket_trip_url_copy_icon" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/resource_size_10" />
+        <TextView android:textSize="@dimen/resource_size_12" android:textColor="@color/ticklet_color_0091ff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="16.0dip" android:text="复制链接" android:lines="1" android:layout_alignTop="@id/id_trip_copy_url_pre" android:layout_marginStart="3.0dip" android:layout_toEndOf="@id/id_trip_copy_url_pre" />
+    </RelativeLayout>
+</LinearLayout>

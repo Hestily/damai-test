@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/home_bottom_bar_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_18dp" android:textColor="@color/white" android:id="@id/yk_player_voice_btn" android:paddingLeft="@dimen/margin_15dp" android:paddingTop="@dimen/margin_9dp" android:paddingRight="@dimen/margin_10dp" android:paddingBottom="@dimen/margin_9dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_shengyinguan22" />
+    <View android:id="@id/yk_player_bottom_padding" android:layout_width="fill_parent" android:layout_height="@dimen/margin_20dp" />
+</LinearLayout>

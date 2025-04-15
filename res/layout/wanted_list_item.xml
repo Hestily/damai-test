@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/wanted_list_root" android:background="@drawable/item_click_effect" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.taobao.movie.android.commonui.widget.SimpleDraweeView android:id="@id/pic_poster" android:background="@color/common_text_color14" android:layout_width="@dimen/image_width" android:layout_height="@dimen/image_height" android:layout_centerVertical="true" fresco:actualImageScaleType="centerCrop" fresco:fadeDuration="0" style="@style/small_round_style" />
+        <LinearLayout android:orientation="vertical" android:paddingTop="2.0dip" android:paddingRight="15.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_marginRight="6.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="16.0dip" android:textColor="@color/color_tpp_primary_main_title" android:ellipsize="end" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:singleLine="true" android:includeFontPadding="false" />
+            <FrameLayout android:id="@id/diff_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip">
+                <LinearLayout android:gravity="center_vertical" android:id="@id/rating_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="13.0dip" android:gravity="center_vertical" android:id="@id/tv_remark_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_3" android:text="@string/remark_title" android:singleLine="true" style="@style/FilmRemarkTitle" />
+                    <TextView android:textSize="13.0dip" android:gravity="top" android:id="@id/tv_remark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/FilmRemarkNumber" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/want_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="13.0dip" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_want_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_3" style="@style/FilmRemarkNumber" />
+                    <TextView android:textSize="13.0dip" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_want_count_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/want_title" style="@style/FilmWantTitle" />
+                </LinearLayout>
+            </FrameLayout>
+            <TextView android:textSize="13.0dip" android:textColor="@color/common_color_1008" android:id="@id/director" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:singleLine="true" android:includeFontPadding="false" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/common_color_1008" android:ellipsize="end" android:id="@id/play_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/common_color_1008" android:ellipsize="end" android:gravity="bottom" android:id="@id/film_want_comment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" android:lineSpacingExtra="4.0dip" />
+        </LinearLayout>
+        <TextView android:id="@id/buy_btn" android:padding="0.0dip" android:text="购票" style="@style/buy_button_style_small_7_3" />
+    </LinearLayout>
+    <TextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_gray_c8" android:gravity="top" android:id="@id/tv_tips" android:background="@color/white" android:paddingLeft="12.0dip" android:paddingTop="3.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="来源于优酷的预约记录" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.projectfilter.ProjectFilterModel",
+    "vClass": "cn.damai.tetris.component.projectfilter.ProjectFilterView",
+    "pClass": "cn.damai.tetris.component.projectfilter.ProjectFilterPresenter",
+    "layoutXml": "item_tetris_project_filter_layout"
+  }
+}

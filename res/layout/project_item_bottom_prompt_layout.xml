@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:background="#ffffeaf1" android:paddingLeft="@dimen/margin_15dp" android:paddingRight="@dimen/margin_15dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_FF2D79" android:ellipsize="end" android:id="@id/project_bottom_prompt_content_tv" android:paddingTop="@dimen/margin_10dp" android:paddingBottom="@dimen/margin_10dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+</LinearLayout>

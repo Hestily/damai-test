@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_performance_more_item" android:layout_width="84.0dip" android:layout_height="117.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_subtitle" android:id="@id/tv_homepage_performance_more_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/film_detail_all_tag" />
+    </LinearLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/image_tag_view_radius_fg" android:scaleType="fitXY" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="12.0dip" android:textColor="@color/bricks_white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/project_bottom_un_want_tips" android:background="@drawable/bg_project_bottom_un_want_gradient" android:layout_width="wrap_content" android:layout_height="28.0dip" android:text="抱歉，当前项目不支持想看，相关提醒功能同步关闭" android:maxLines="1" android:paddingStart="13.0dip" android:paddingEnd="40.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/project_bottom_un_want_tips_arrow_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_project_bottom_un_want_tips" android:layout_marginStart="40.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/project_bottom_un_want_tips" />
+    <FrameLayout android:id="@id/project_bottom_un_want_tips_close_fl" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginEnd="5.0dip" app:layout_constraintBottom_toBottomOf="@id/project_bottom_un_want_tips" app:layout_constraintRight_toRightOf="@id/project_bottom_un_want_tips" app:layout_constraintTop_toTopOf="@id/project_bottom_un_want_tips">
+        <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="10.0dip" android:textColor="@color/bricks_white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_guanbi12" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

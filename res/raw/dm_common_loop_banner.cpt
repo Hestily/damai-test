@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.drama.mvp.LoopViewPagerBannerModel",
+    "vClass": "cn.damai.tetris.component.drama.mvp.LoopViewPagerBannerView",
+    "pClass": "cn.damai.tetris.component.drama.mvp.LoopViewPagerBannerPresenter",
+    "layoutXml": "item_tetris_loop_viewpager_banner"
+  }
+}

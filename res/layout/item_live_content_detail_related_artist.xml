@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingTop="9.0dip" android:paddingBottom="@dimen/margin_15dp" android:layout_width="60.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/live_content_detail_related_artist" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/artist_avatar_lay" android:background="@drawable/bg_artist_avatar" android:layout_width="@dimen/resource_size_60" android:layout_height="@dimen/resource_size_60" android:layout_alignParentLeft="true">
+            <RelativeLayout android:layout_gravity="center" android:background="@drawable/bg_circle_white" android:layout_width="@dimen/resource_size_54" android:layout_height="@dimen/resource_size_54">
+                <cn.damai.uikit.banner.sub.RoundRadiusImageView android:id="@id/live_content_detail_related_brand_avatar" android:layout_width="@dimen/resource_size_50" android:layout_height="@dimen/resource_size_50" android:layout_centerInParent="true" app:r_round_radius="@dimen/resource_size_50" />
+                <ImageView android:id="@id/live_content_detail_related_brand_tag" android:layout_width="@dimen/resource_size_16" android:layout_height="@dimen/resource_size_16" android:src="@drawable/user_v_tag" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/resource_size_3" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </FrameLayout>
+        <TextView android:textSize="15.0dip" android:textColor="@color/color_000000" android:ellipsize="end" android:id="@id/live_content_detail_related_artist_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_9dp" android:maxLines="1" android:layout_below="@id/artist_avatar_lay" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

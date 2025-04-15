@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/item" android:background="@drawable/item_click_effect" android:layout_width="fill_parent" android:layout_height="50.0dip" android:minHeight="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_15_dp" android:textColor="@color/common_text_color9" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/text_size_13_dp" android:textColor="@color/common_text_color11" android:id="@id/title" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="搜索记录" android:layout_centerVertical="true" />
+    <RelativeLayout android:id="@id/delete" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="@dimen/text_size_13_dp" android:textColor="@color/common_text_color11" android:id="@id/left_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconf_delete_comment" android:includeFontPadding="false" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/text_size_13_dp" android:textColor="@color/common_text_color11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:text="清除搜索记录" android:layout_toRightOf="@id/left_icon" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:id="@id/dvd_margin" android:background="@color/common_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_alignParentBottom="true" />
+    <View android:id="@id/dvd_nomargin" android:background="@color/common_divider_color" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+</RelativeLayout>

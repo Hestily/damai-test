@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/realname_notice_bar_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_18dp" android:layout_marginTop="@dimen/margin_12dp" android:layout_marginRight="@dimen/margin_18dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="16.0dip" android:textColor="#ffeb7609" android:layout_gravity="center_vertical" android:id="@id/realname_right_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_12dp" android:text="@string/iconfont_tixingmian_" />
+    <TextView android:textSize="@dimen/margin_12dp" android:textColor="#ffeb7609" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_4dp" android:text="可选择填写您的姓名、证件信息，用于在被盗保护、修改密码、换绑手机号时进行身份校验。请您注意实名认证成功后，身份信息不可修改" />
+</LinearLayout>

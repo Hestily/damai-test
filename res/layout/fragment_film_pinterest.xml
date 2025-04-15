@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.taobao.movie.android.commonui.widget.MToolBar android:id="@id/toolbar" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.taobao.movie.android.app.common.widget.TypeTabPageIndicator android:id="@id/tab_indicator" android:background="@drawable/type_tab_bg_default" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:overScrollMode="never" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textSize="16.0dip" android:layout_gravity="center" android:id="@id/empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="暂无图片" />
+    </FrameLayout>
+</LinearLayout>

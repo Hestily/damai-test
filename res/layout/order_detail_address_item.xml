@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/address_container" android:paddingLeft="@dimen/margin_15dp" android:paddingTop="@dimen/margin_18dp" android:paddingRight="@dimen/margin_15dp" android:paddingBottom="@dimen/margin_18dp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_16dp" android:textColor="@color/color_666666" android:paddingTop="2.0dip" android:layout_width="@dimen/margin_30dp" android:layout_height="wrap_content" android:text="@string/iconfont_wodeshouhuodizhi_" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/margin_16dp" android:textColor="@color/color_000000" android:id="@id/tv_contacts_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_666666" android:id="@id/tv_address_full" android:paddingTop="@dimen/margin_9dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/color_FF4886" android:layout_gravity="center_vertical" android:id="@id/modify_address_btn" android:background="@drawable/bg_border_address_modify" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/order_modify_address_btn_text" android:paddingStart="9.0dip" android:paddingEnd="9.0dip" android:layout_marginStart="@dimen/margin_19dp" />
+    </LinearLayout>
+    <View android:id="@id/line" android:background="#45979797" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="9.0dip" android:layout_marginStart="30.0dip" android:layout_marginEnd="6.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/address_ex" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginStart="30.0dip">
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="11.0dip" android:textColor="#ff979797" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_xinxi" />
+        <TextView android:textSize="11.0dip" android:textColor="#ff979797" android:id="@id/address_ex_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="3.0dip" />
+    </LinearLayout>
+</LinearLayout>

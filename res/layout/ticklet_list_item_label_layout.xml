@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="@dimen/margin_2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_6dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.damai.uikit.iconfont.DMIconFontTextView android:gravity="center" android:id="@id/ticklet_perform_tip_icon" android:paddingTop="@dimen/margin_1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ticklet_white_12dp" />
+    <TextView android:id="@id/ticklet_perform_list_label_content" android:paddingLeft="@dimen/margin_2dp" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ticklet_white_12dp" />
+</LinearLayout>

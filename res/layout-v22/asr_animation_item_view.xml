@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/asr_input_card_layout_bg" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="124.0dip" android:paddingHorizontal="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0dip" android:textColor="#ff444b5b" android:gravity="center" android:layout_gravity="center" android:id="@id/statusText" android:layout_width="wrap_content" android:layout_height="16.0dip" android:layout_marginTop="15.0dip" android:text="松手发送 上滑取消" android:includeFontPadding="false" android:letterSpacing="0.0" />
+    <FrameLayout android:id="@id/touchLayout" android:background="@drawable/asr_input_card" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="15.0dip">
+        <com.alibaba.pictures.bricks.view.SafeLottieAnimationView android:id="@id/lottie_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:lottie_autoPlay="false" app:lottie_repeatCount="-1" />
+    </FrameLayout>
+    <TextView android:textSize="12.0dip" android:textColor="#ffe6e6e6" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="8.0dip" android:text="内容由 AI 大模型生成，请仔细甄别" android:includeFontPadding="false" android:letterSpacing="0.0" />
+</LinearLayout>

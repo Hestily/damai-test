@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ali_user_sso_guide_activity" android:background="@color/aliuser_bg_color" android:padding="@dimen/ali_user_space_20" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ali_user_guide_close_layout" android:padding="@dimen/ali_user_space_20" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+        <ImageView android:id="@id/ali_user_guide_close" android:background="@drawable/aliuser_guide_close" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ali_user_guide_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ali_user_guide_margin_top" android:layout_centerHorizontal="true">
+        <TextView android:textStyle="bold" android:id="@id/ali_user_guide_app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ali_user_space_20" android:layout_marginRight="@dimen/ali_user_space_20" android:text="@string/aliuser_account_login" />
+    </LinearLayout>
+    <ImageButton android:id="@id/ali_user_guide_tb_login_btn" android:background="@drawable/aliuser_sso_tb_login" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ali_user_space_20" android:layout_below="@id/ali_user_guide_title" android:layout_centerHorizontal="true" />
+    <ImageButton android:id="@id/ali_user_guide_alipay_login_btn" android:background="@drawable/aliuser_sso_alipay_login" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ali_user_space_20" android:layout_below="@id/ali_user_guide_tb_login_btn" android:layout_centerHorizontal="true" />
+    <ImageButton android:id="@id/ali_user_guide_account_login_btn" android:background="@drawable/aliuser_sso_account_login" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ali_user_space_20" android:layout_below="@id/ali_user_guide_alipay_login_btn" android:layout_centerHorizontal="true" />
+</RelativeLayout>

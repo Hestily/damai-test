@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bricks_list_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="90.0dip" android:paddingStart="@dimen/damai_margin_right_left" android:paddingEnd="@dimen/damai_line_spacing_right">
+        <FrameLayout android:id="@id/artist_avatar_lay" android:layout_width="63.0dip" android:layout_height="63.0dip" android:layout_centerVertical="true">
+            <RelativeLayout android:layout_gravity="center" android:layout_width="63.0dip" android:layout_height="63.0dip">
+                <com.alibaba.pictures.bricks.view.RoundRadiusImageView android:id="@id/artist_avatar" android:layout_width="63.0dip" android:layout_height="63.0dip" android:scaleType="centerCrop" android:layout_centerVertical="true" app:r_round_radius="6.0dip" app:r_stroke_color="#1a000000" app:r_stroke_width="1.0px" />
+                <ImageView android:id="@id/vip_tag" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginBottom="-1.0dip" android:src="@drawable/bricks_artist_v_tag" android:layout_alignBottom="@id/artist_avatar" android:layout_marginEnd="-1.0dip" android:layout_alignEnd="@id/artist_avatar" />
+            </RelativeLayout>
+        </FrameLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/damai_column_spacing" android:layout_toEndOf="@id/artist_avatar_lay">
+            <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="@dimen/project_headline1" android:textColor="@color/bricks_2e333e" android:ellipsize="end" android:id="@id/artist_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="240.0dip" android:lines="1" />
+            <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/damai_maintitle_subtitle_spacing2">
+                <com.alibaba.pictures.bricks.view.DMDigitDinBoldTextView android:textSize="@dimen/secondry_auxiliary_text" android:textStyle="bold" android:textColor="@color/primaryInfo" android:id="@id/fans_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/bricks_5f6672" android:id="@id/fans" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="粉丝" android:layout_marginEnd="5.0dip" />
+                <View android:id="@id/divider" android:background="#ff9b9b9b" android:layout_width="1.0dip" android:layout_height="9.0dip" android:layout_marginEnd="5.0dip" />
+                <com.alibaba.pictures.bricks.view.DMDigitDinBoldTextView android:textSize="@dimen/secondry_auxiliary_text" android:textStyle="bold" android:textColor="@color/primaryInfo" android:id="@id/performance_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/bricks_5f6672" android:id="@id/performance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="在售演出" android:layout_marginEnd="5.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/secondry_auxiliary_text" android:textColor="@color/cb_red_app" android:gravity="center" android:id="@id/goto_home" android:background="@drawable/bricks_btn_artist_goto_home" android:layout_width="54.0dip" android:layout_height="27.0dip" android:text="去主页" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <com.alibaba.pictures.bricks.component.artist.wishcity.TourCityView android:id="@id/artist_tour_city_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/ll_search_bottom_div" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" layout="@layout/bricks_item_ededed_line" />
+</LinearLayout>

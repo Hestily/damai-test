@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/combolist" android:background="#fff4f5f6" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <com.taobao.movie.android.commonui.widget.MToolBar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll|enterAlways" />
+    <View android:id="@id/reply_mask" android:background="#33000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/send_discuss_btn" android:layout_width="77.0dip" android:layout_height="77.0dip" android:layout_marginBottom="3.0dip" android:src="@drawable/send_discuss_btn" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <FrameLayout android:id="@id/fl_comment_input" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_comment_reply_edit" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/category_ball_container_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/horizontal_container" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/indicatorContainer" android:background="@drawable/category_ball_icon_indicator_container_bg" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="3.0dip" android:layout_marginTop="-4.0dip" android:layout_marginBottom="6.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/horizontal_container">
+        <View android:id="@id/slideIndicator" android:background="@drawable/category_ball_icon_indicator_bg" android:layout_width="8.0dip" android:layout_height="3.0dip" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

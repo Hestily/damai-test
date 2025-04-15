@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="center_horizontal" android:layout_width="42.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/margin_6dp">
+        <View android:layout_gravity="center_horizontal" android:id="@id/express_line" android:background="@color/color_eeeeee" android:visibility="visible" android:layout_width="2.0px" android:layout_height="fill_parent" />
+        <View android:layout_gravity="center_horizontal" android:id="@id/express_line2" android:background="@color/color_eeeeee" android:visibility="gone" android:layout_width="2.0px" android:layout_height="fill_parent" android:layout_marginTop="@dimen/margin_24dp" />
+        <View android:layout_gravity="center_horizontal" android:id="@id/express_line3" android:background="@color/color_eeeeee" android:visibility="gone" android:layout_width="2.0px" android:layout_height="@dimen/margin_24dp" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_express_state" android:layout_width="9.0dip" android:layout_height="9.0dip" android:layout_marginTop="@dimen/margin_24dp" android:src="@drawable/order_confirmation_wallet_icon" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/margin_18dp" android:paddingBottom="@dimen/margin_6dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_888888" android:id="@id/tv_express_info" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_AAAAAA" android:id="@id/tv_express_time" android:paddingTop="@dimen/margin_3dp" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

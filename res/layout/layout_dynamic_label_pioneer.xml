@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/resource_size_41"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/tab_container" android:layout_width="wrap_content" android:layout_height="@dimen/resource_size_29">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/resource_size_13" android:textStyle="bold" android:textColor="#ffff7600" android:ellipsize="end" android:layout_gravity="center" android:id="@id/tab_title_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:paddingStart="@dimen/resource_size_12" android:paddingEnd="@dimen/resource_size_12" android:layout_marginStart="@dimen/resource_size_2" />
+            <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="@dimen/resource_size_13" android:textColor="@color/color_pioneer_home_tab_text_normal" android:ellipsize="end" android:layout_gravity="center" android:id="@id/tab_title_normal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:paddingStart="@dimen/resource_size_12" android:paddingEnd="@dimen/resource_size_12" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

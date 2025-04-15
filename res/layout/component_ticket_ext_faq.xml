@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:paddingStart="@dimen/resource_size_12" android:paddingEnd="@dimen/resource_size_12">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/resource_size_16" android:textColor="@color/black" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/resource_size_10" android:layout_alignParentStart="true" />
+            <ImageView android:id="@id/title_icon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:scaleType="fitXY" android:layout_centerVertical="true" android:layout_toEndOf="@id/title" />
+            <TextView android:textSize="@dimen/resource_size_13" android:textColor="#ff0091ff" android:id="@id/faq_entrance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ticklet_custom_service_tip" android:layout_centerVertical="true" android:layout_toStartOf="@id/right_arrow" />
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/resource_size_13" android:textColor="@color/color_999999" android:id="@id/right_arrow" android:paddingTop="@dimen/margin_1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_youjiantou24" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/resource_size_13" android:textColor="@color/color_999999" android:ellipsize="end" android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/resource_size_8" android:maxLines="1" />
+        <cn.damai.uikit.flowlayout.FlowLayout android:orientation="horizontal" android:id="@id/faq" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutDirection="ltr" />
+    </LinearLayout>
+</FrameLayout>

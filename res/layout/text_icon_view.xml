@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/color_tpp_primary_assist" android:gravity="end" android:id="@id/tip_tv" android:layout_width="0.0dip" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/CommonListItemText" />
+    <com.taobao.movie.android.commonui.widget.SimpleDraweeView android:id="@id/tip_iv" android:background="@android:color/white" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginLeft="3.0dip" android:scaleType="fitXY" app:actualImageScaleType="fitXY" />
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/margin_16dp" android:textColor="@color/color_111111" android:gravity="center" android:id="@id/tabName" android:paddingTop="@dimen/margin_12dp" android:paddingBottom="@dimen/margin_12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_3dp" android:layout_marginRight="@dimen/margin_3dp" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/white" android:gravity="center" android:id="@id/unreadTips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_toRightOf="@id/tabName" />
+</RelativeLayout>

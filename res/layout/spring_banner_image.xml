@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.taobao.movie.android.commonui.widget.SimpleDraweeView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" fresco:fadeDuration="0" fresco:failureImage="@color/color_tpp_primary_bg" fresco:failureImageScaleType="fitXY" fresco:placeholderImage="@color/color_tpp_primary_bg" fresco:placeholderImageScaleType="fitXY" fresco:retryImage="@color/color_tpp_primary_bg" fresco:retryImageScaleType="fitXY" />
+    <TextView android:textSize="8.0dip" android:textColor="@color/white" android:gravity="center" android:layout_gravity="bottom|center|right" android:id="@id/advert_flag" android:background="@drawable/spring_banner_advert_flag_bg" android:layout_width="25.0dip" android:layout_height="17.0dip" android:text="广告" />
+</FrameLayout>

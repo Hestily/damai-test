@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/resource_size_4" android:paddingRight="@dimen/resource_size_12" android:paddingBottom="@dimen/resource_size_12" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/id_new_project_item_hl_prefix" android:layout_width="33.0dip" android:layout_height="33.0dip" android:scaleType="fitXY" />
+    <TextView android:textSize="@dimen/resource_size_14" android:textColor="@color/bricks_2e333e" android:id="@id/id_new_project_item_hl_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/resource_size_4" android:layout_marginTop="@dimen/resource_size_10" android:layout_marginRight="@dimen/resource_size_12" android:lineSpacingExtra="6.0dip" />
+</LinearLayout>

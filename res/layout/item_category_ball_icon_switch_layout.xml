@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:layout_gravity="center" android:id="@id/item_category_ball_icon_half_container" android:layout="@layout/item_category_ball_half_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:layout_gravity="center" android:id="@id/item_category_ball_icon_third_container" android:layout="@layout/item_category_ball_third_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:layout_gravity="center" android:id="@id/item_category_ball_icon_quarter_container" android:layout="@layout/item_category_ball_quarter_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:layout_gravity="center" android:id="@id/item_category_ball_icon_multiple_container" android:clipChildren="false" android:layout="@layout/bricks_home_ball_component_live" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

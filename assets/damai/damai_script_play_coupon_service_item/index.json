@@ -1,0 +1,16 @@
+{
+  "id": "damai_script_play_coupon_service_item",
+  "type": "gaia-template",
+  "package": {
+    "id": "damai_script_play_coupon_service_item",
+    "version": "0.0.1",
+    "constraint-size": { "width": 375, "height": 27, "zoom": 1 },
+    "modify-timestamp": "Fri Jun 17 2022 10:04:57 GMT+0800 (中国标准时间)",
+    "dependencies": {}
+  },
+  "layers": [
+    { "id": "service_title", "type": "text" },
+    { "id": "service_count", "type": "text" },
+    { "id": "service_price", "type": "text" }
+  ]
+}

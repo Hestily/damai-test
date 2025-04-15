@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.brand.BrandHeaderModel",
+    "vClass": "cn.damai.tetris.component.brand.BrandHeaderView",
+    "pClass": "cn.damai.tetris.component.brand.BrandHeaderPresenter",
+    "layoutXml": "card_brand_header_common"
+  }
+}

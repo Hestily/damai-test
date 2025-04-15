@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" android:layout_marginEnd="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="9.0dip" android:textColor="@color/bricks_2e333e" android:id="@id/sku_dollar_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="￥" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/bricks_2e333e" android:ellipsize="end" android:id="@id/sku_price_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="115.0dip" android:maxLines="1" android:layout_marginEnd="5.0dip" app:layout_constraintLeft_toRightOf="@id/sku_dollar_tv" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/bricks_2e333e" android:gravity="center" android:id="@id/sku_ellipsis_tv" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-8.0dip" android:text="..." app:layout_constraintBottom_toBottomOf="@id/sku_price_tv" app:layout_constraintRight_toRightOf="@id/sku_price_tv" />
+</androidx.constraintlayout.widget.ConstraintLayout>

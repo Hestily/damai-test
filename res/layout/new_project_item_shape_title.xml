@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="15.0dip" android:textColor="@color/bricks_2e333e" android:id="@id/id_new_project_item_shape_title" android:background="@color/white" android:padding="@dimen/resource_size_12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/resource_size_9" android:layout_marginRight="@dimen/resource_size_9" />
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="34.0dip" android:textColor="#ff3c3f44" android:id="@id/icon_guide" android:paddingTop="@dimen/margin_18dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_nv16" />
+    <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_000000" android:id="@id/tv_guide_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_12dp" />
+    <TextView android:textSize="@dimen/margin_11dp" android:textColor="@color/color_666666" android:id="@id/tv_guide_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_3dp" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_button" android:background="@drawable/bg_ticket_guide_btn" android:paddingLeft="@dimen/margin_21dp" android:paddingRight="@dimen/margin_21dp" android:layout_width="wrap_content" android:layout_height="@dimen/margin_25dp" android:layout_marginTop="@dimen/margin_9dp" android:layout_marginBottom="@dimen/margin_18dp">
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="@color/color_00BD67" android:id="@id/icon_button_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_3dp" android:text="@string/iconfont_duihaomian_" />
+        <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/white" android:id="@id/tv_button_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="登录" />
+    </LinearLayout>
+</LinearLayout>

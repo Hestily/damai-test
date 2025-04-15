@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="36.0dip" android:paddingStart="@dimen/slide_mine_edge_left" android:paddingEnd="@dimen/slide_mine_edge_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="@dimen/resource_size_18" android:textColor="@color/bricks_2e333e" android:id="@id/id_slide_action_pre_fix_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/resource_size_14" android:textColor="@color/bricks_2e333e" android:id="@id/id_slide_action_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/resource_size_15" />
+    <View android:id="@id/id_slide_action_red_tag" android:background="@drawable/bg_slide_action_red_point" android:layout_width="5.0dip" android:layout_height="5.0dip" android:layout_marginStart="@dimen/resource_size_4" />
+    <TextView android:textSize="@dimen/resource_size_11" android:textColor="@color/bricks_9C9CA5" android:gravity="end" android:id="@id/id_slide_action_right_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" />
+</LinearLayout>

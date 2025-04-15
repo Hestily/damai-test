@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/id_trip_scrip_root_view" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/id_trip_voucher_code_layout" layout="@layout/ticket_trip_ven_code_layout" />
+    <com.alibaba.pictures.bricks.view.HWRatioLayout android:id="@id/id_trip_qrcode_img_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/resource_size_15" android:layout_marginRight="@dimen/resource_size_15" app:h_w_layout_ratio="1.0">
+        <ImageView android:id="@id/id_trip_qrcode_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    </com.alibaba.pictures.bricks.view.HWRatioLayout>
+    <include android:id="@id/id_trip_qrcode_url_layout" layout="@layout/ticket_trip_one_scrip_url_layout" />
+    <include android:id="@id/id_trip_file_url_layout" layout="@layout/ticket_trip_one_scrip_url_layout" />
+    <include android:id="@id/id_trip_supplier_url_layout" layout="@layout/ticket_trip_one_scrip_url_layout" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/id_trip_empty_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_width="87.0dip" android:layout_height="51.0dip" android:src="@drawable/ticket_trip_empty_bg" />
+        <TextView android:textSize="@dimen/resource_size_14" android:textColor="@color/bricks_999999" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/resource_size_13" android:text="请根据现场指引入园" />
+    </LinearLayout>
+</LinearLayout>

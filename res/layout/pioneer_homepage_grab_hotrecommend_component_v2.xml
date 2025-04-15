@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="80.0dip" app:cardCornerRadius="12.0dip" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@drawable/pioneer_homepage_grab_bg" android:layout_width="fill_parent" android:layout_height="36.0dip" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="26.0dip">
+        <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="16.0dip" android:textColor="@color/color_181818" android:layout_gravity="bottom" android:id="@id/bricks_hotrecommend_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" />
+        <ImageView android:id="@id/bricks_hotrecommend_title_flash" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:src="@drawable/pioneer_hotrecommend_title_flash" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/bricks_hotrecommend_title" app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/hotrecommend_subtitle" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" app:layout_constraintBottom_toBottomOf="@id/bricks_hotrecommend_title" app:layout_constraintLeft_toRightOf="@id/bricks_hotrecommend_title_flash" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="@id/bricks_hotrecommend_title">
+            <com.alibaba.pictures.bricks.view.DMUpMarqueeView android:layout_gravity="center_vertical" android:id="@id/hotrecommend_subtitle_content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:visibility="visible" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginTop="24.0dip">
+        <com.alient.onearch.adapter.widget.banner.Banner android:id="@id/banner" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <cn.damai.pioneer.component.grabitem.PioneerGrabIndicator android:layout_gravity="bottom|center" android:id="@id/indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" app:indicatorStyle="line" />
+    </FrameLayout>
+</androidx.cardview.widget.CardView>

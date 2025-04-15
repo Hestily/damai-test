@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/xunyan_flipper_item_1" layout="@layout/mine_starindex_xunyan_flipper_item" />
+    <include android:id="@id/xunyan_flipper_item_2" layout="@layout/mine_starindex_xunyan_flipper_item" />
+    <include android:id="@id/xunyan_flipper_item_3" layout="@layout/mine_starindex_xunyan_flipper_item" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/white" android:paddingTop="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0dip" android:textStyle="bold" android:textColor="@color/common_text_color36" android:id="@id/tv_article_more_magic_tip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="神点评" android:layout_weight="1.0" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/color_tpp_primary_assist" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="更多" />
+    <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="8.0dip" android:textColor="@color/color_tpp_primary_assist" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="15.0dip" android:text="@string/iconf_right_arrow" />
+</LinearLayout>

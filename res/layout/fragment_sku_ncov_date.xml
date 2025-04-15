@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.damai.uikit.irecycler.HorizontalRecyclerView android:id="@id/hrv_canlendar" android:layout_width="fill_parent" android:layout_height="38.0dip" />
+    <include layout="@layout/sku_calendar_week" />
+    <cn.damai.commonbusiness.seatbiz.sku.qilin.widget.CalendarView android:id="@id/view_calendar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

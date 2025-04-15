@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/share_page" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <RelativeLayout android:id="@id/share_page_bg_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/share_page_poster" android:paddingTop="70.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/uikit_default_image_bg_grey" android:scaleType="fitCenter" android:layout_centerHorizontal="true" />
+            <ImageView android:layout_gravity="center" android:id="@id/share_page_qrcode_img" android:background="@drawable/bg_corner_6_white" android:padding="@dimen/margin_6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_18dp" android:layout_below="@id/share_page_poster" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/white" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/share_page_reward_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_18dp" android:layout_marginTop="12.0dip" android:layout_marginRight="@dimen/margin_18dp" android:layout_marginBottom="@dimen/margin_20dp" android:text="长按识别二维码 来大麦看演出" android:maxLines="1" android:layout_below="@id/share_page_qrcode_img" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>

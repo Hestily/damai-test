@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/ll_root" android:background="@drawable/item_round_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_9dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_coupons" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_12" android:layout_marginStart="@dimen/margin_12" android:layout_marginEnd="@dimen/margin_12">
+            <TextView android:textSize="@dimen/text_size_15_dp" android:textStyle="bold" android:textColor="@color/bricks_2e333e" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/bricks_959AA5" android:gravity="right" android:id="@id/tv_sub_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_coupons" android:layout_width="fill_parent" android:layout_height="57.0dip" android:layout_marginTop="@dimen/margin_9" android:layout_marginBottom="@dimen/margin_9" />
+    </LinearLayout>
+</LinearLayout>

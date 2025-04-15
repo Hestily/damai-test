@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/divide_line" android:background="@color/common_text_color14" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" />
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip">
+        <TextView android:textSize="13.0dip" android:textColor="@color/common_text_color9" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="特色服务" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/oscar_cinema_filter_key_nor_txt" android:id="@id/key" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="不限" />
+    </LinearLayout>
+    <com.google.android.flexbox.FlexboxLayout android:id="@id/flexboxlayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="16.0dip" app:alignContent="space_around" app:alignItems="flex_start" app:dividerDrawableHorizontal="@drawable/flex_divider" app:dividerDrawableVertical="@drawable/flex_divider" app:flexWrap="wrap" app:showDividerHorizontal="middle" app:showDividerVertical="middle" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/common_text_color2" android:gravity="center" android:id="@id/extend" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="展开" />
+</LinearLayout>

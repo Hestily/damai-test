@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.pictures.kit.ui.FixedRatioFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:fixed_edge="width" app:wh_ratio="0.742"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.moimage.MoImageView android:id="@id/home_feed_rank_card_item_poster" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:failureImage="@drawable/home_feed_rank_default_r4" app:placeholderImage="@drawable/home_feed_rank_default_r4" app:roundedCornerRadius="4.0dip" app:roundingBorderColor="@color/color_bricks_primary_10_black" app:roundingBorderWidth="0.5dip" />
+    <View android:layout_gravity="bottom" android:id="@id/home_feed_rank_card_item_cover" android:background="@drawable/bricks_image_bottom_cover_r4" android:layout_width="fill_parent" android:layout_height="33.0dip" />
+    <ImageView android:layout_gravity="bottom" android:id="@id/home_feed_rank_card_item_poster_rank" android:layout_width="13.5dip" android:layout_height="18.0dip" android:layout_marginBottom="2.5dip" android:src="@drawable/feed_rank_1" android:layout_marginStart="5.0dip" />
+</com.alibaba.pictures.kit.ui.FixedRatioFrameLayout>

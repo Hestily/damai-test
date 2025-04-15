@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/emptydata_container" android:background="@android:color/white" android:paddingTop="@dimen/margin_125" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="20.0dip">
+        <TextView android:id="@id/item_empty_hint" android:text="@string/nodata" style="@style/CommonListItemText" />
+        <Button android:id="@id/item_empty_btn" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginTop="5.0dip" android:text="@string/refresh" style="@style/combolist_button_style" />
+    </LinearLayout>
+</LinearLayout>

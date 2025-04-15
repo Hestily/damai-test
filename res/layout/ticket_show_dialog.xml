@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/ticklet_rl_layout" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/margin_14dp" android:textColor="#ff999999" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/ticklet_float_layer_perform_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="44.0dip" android:layout_marginTop="@dimen/margin_30dp" android:layout_marginRight="44.0dip" android:layout_marginBottom="10.0dip" android:maxLines="2" android:layout_alignParentTop="true" />
+    <RelativeLayout android:id="@id/ticklet_float_layer_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ticklet_float_layer_perform_name">
+        <LinearLayout android:id="@id/ticklet_ll_float_layer_top_sep" android:background="@drawable/ticklet_list_nologin_bg" android:layout_width="fill_parent" android:layout_height="27.0dip" android:layout_marginLeft="17.0dip" android:layout_marginRight="17.0dip" android:layout_alignParentTop="true">
+            <TextView android:id="@id/ticklet_float_layer_top_sep" android:background="@drawable/ticket_layer_top_icon" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ScrollView android:id="@id/ticklet_float_layer_ll_viewpager" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_30dp" android:layout_below="@id/ticklet_ll_float_layer_top_sep">
+            <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <cn.damai.ticklet.view.TickletDetailViewPager android:id="@id/verticalviewpager" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_marginRight="17.0dip" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </ScrollView>
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="18.0dip" android:textColor="@color/color_cccccc" android:gravity="right" android:layout_gravity="bottom" android:id="@id/dft_close" android:background="@color/white" android:paddingLeft="@dimen/margin_18dp" android:paddingTop="5.0dip" android:paddingRight="@dimen/margin_18dp" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_marginRight="17.0dip" android:text="@string/iconfont_guanbi24" android:layout_below="@id/ticklet_ll_float_layer_top_sep" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/ticklet_showall_container" android:background="#80000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/ticklet_perform_popwindow_layout" android:background="@drawable/ticklet_popwindow_bg" android:paddingLeft="@dimen/margin_1dp" android:paddingRight="@dimen/margin_1dp" android:layout_width="140.0dip" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/ticklet_perform_popwindow_top_layout" android:background="@drawable/ticklet_perform_popwindow_bg" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_centerHorizontal="true">
+            <TextView android:textSize="13.0sp" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/ticklet_perform_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_2dp" android:layout_marginTop="@dimen/margin_6dp" android:layout_marginRight="@dimen/margin_2dp" android:text="开心麻花爆笑舞台剧《老友记》第14轮哈哈哈哈哈哈" android:maxLines="2" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/ticklet_perform_showtime" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_6dp" android:text="17:30" android:layout_below="@id/ticklet_perform_name" />
+        </LinearLayout>
+        <RelativeLayout android:gravity="center" android:orientation="vertical" android:id="@id/ticklet_perform_popwindow_bottom_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_below="@id/ticklet_perform_popwindow_top_layout">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ticklet_perform_type_card_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/color_222222" android:id="@id/card_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="刷身份证入场" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/color_222222" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="点击查看座位号" android:layout_centerHorizontal="true" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ticklet_perform_type_qrcode_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="12.0sp" android:textColor="@color/color_222222" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="点击验票入场" android:layout_centerHorizontal="true" />
+                <ImageView android:id="@id/qrcode_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_6dp" android:src="@drawable/ticklet_pop_code" />
+            </LinearLayout>
+        </RelativeLayout>
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ticklet_popwindow_diver" android:layout_alignTop="@id/ticklet_perform_popwindow_bottom_layout" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

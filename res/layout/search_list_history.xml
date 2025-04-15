@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:paddingLeft="@dimen/margin_21dp" android:paddingTop="@dimen/margin_18dp" android:paddingBottom="@dimen/margin_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0dip" android:textColor="@color/color_000000" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="搜索历史" android:layout_weight="1.0" />
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="14.0dip" android:textColor="@color/color_000000" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/iv_delete" android:paddingLeft="@dimen/margin_15dp" android:paddingRight="@dimen/margin_15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_shanchu_" />
+    </LinearLayout>
+    <cn.damai.uikit.flowlayout.FlowLayout android:orientation="horizontal" android:id="@id/fl_hotsearch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:layout_marginRight="9.0dip" f:layoutDirection="ltr" xmlns:f="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

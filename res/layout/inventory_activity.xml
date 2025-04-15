@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/ll_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar_layout" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stateListAnimator="@drawable/inventory_appbar">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:collapsedTitleGravity="center" app:layout_scrollFlags="scroll|exitUntilCollapsed">
+                <ImageView android:id="@id/iv_image" android:layout_width="fill_parent" android:layout_height="240.0dip" android:scaleType="centerCrop" />
+                <View android:id="@id/iv_image_shape" android:layout_width="fill_parent" android:layout_height="240.0dip" />
+                <include android:id="@id/head_bar" app:layout_collapseMode="parallax" layout="@layout/inventory_header" />
+                <LinearLayout android:gravity="top" android:orientation="vertical" android:id="@id/nav_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_collapseMode="pin">
+                    <include layout="@layout/inventory_title" />
+                </LinearLayout>
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/irc" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <include layout="@layout/inventory_error_page" />
+    <ImageView android:layout_gravity="right" android:id="@id/tv_collect_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65.0dip" android:layout_marginRight="78.0dip" android:src="@drawable/bg_collect_tip" />
+</FrameLayout>

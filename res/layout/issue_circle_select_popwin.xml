@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/evaluate_item_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ratingbar="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.uikit.shadowlayout.DMShadowLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:sl_dx="10.0dip" app:sl_dy="10.0dip" app:sl_shadowColor="#0a6a7a99" app:sl_shadowRadius="12.0dip">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/issue_circle_popwin_shape_bg" android:paddingTop="@dimen/margin_15dp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/margin_12dp" android:paddingEnd="@dimen/margin_12dp">
+            <TextView android:textSize="14.0dip" android:textColor="@color/color_9c9ca5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="请选择圈子进行内容关联" />
+            <include android:id="@id/select_null" android:layout_width="fill_parent" android:layout_height="50.0dip" layout="@layout/issue_circle_select_popwin_item" />
+            <include android:id="@id/select_1" android:layout_width="fill_parent" android:layout_height="50.0dip" layout="@layout/issue_circle_select_popwin_item" />
+            <include android:id="@id/select_2" android:layout_width="fill_parent" android:layout_height="50.0dip" layout="@layout/issue_circle_select_popwin_item" />
+            <include android:id="@id/select_3" android:layout_width="fill_parent" android:layout_height="50.0dip" layout="@layout/issue_circle_select_popwin_item" />
+        </LinearLayout>
+    </cn.damai.uikit.shadowlayout.DMShadowLayout>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/root_view" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.moimage.MoImageView android:id="@id/ticket_area_top_background_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <include android:id="@id/ticket_area_card_title_bar_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/ticket_area_card_title_bar_view" />
+    <com.alibaba.pictures.bricks.view.ticket.TicketAreaCardView android:id="@id/ticket_area_card_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/ticket_area_card_title_bar_view" />
+</androidx.constraintlayout.widget.ConstraintLayout>

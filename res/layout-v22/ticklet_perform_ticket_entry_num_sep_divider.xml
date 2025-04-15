@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="fill_parent" android:layout_height="1.0dip" layout="@layout/component_ticket_fix_transparent_view" />
+    <include android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="5.5dip" android:layout_marginRight="5.5dip" android:layout_marginHorizontal="5.5dip" layout="@layout/component_ticket_fix_transparent_view" />
+    <View android:background="@drawable/ticket_tn_entry_num_bg_below_half_new" android:layout_width="fill_parent" android:layout_height="@dimen/margin_6dp" />
+</FrameLayout>

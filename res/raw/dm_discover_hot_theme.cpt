@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.discover.mvp.CircleHotHorModel",
+    "vClass": "cn.damai.tetris.component.discover.mvp.CircleHotHorView",
+    "pClass": "cn.damai.tetris.component.discover.mvp.CircleHotHorPresenter",
+    "layoutXml": "item_horizontal_circle_layout"
+  }
+}

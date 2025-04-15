@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="@dimen/margin_15dp" android:paddingRight="@dimen/margin_15dp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fl="http://schemas.android.com/apk/res-auto">
+    <cn.damai.ticklet.view.TickletDetailItemView android:id="@id/ticklet_detail_custservice_top_info" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <cn.damai.uikit.flowlayout.FlowLayout android:orientation="horizontal" android:id="@id/ticklet_detail_custservice_pro" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" fl:layoutDirection="ltr" />
+</LinearLayout>

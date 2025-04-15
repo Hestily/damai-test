@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/id_time_line_layout" android:layout_width="fill_parent" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="8.0dip" android:layout_height="fill_parent" android:layout_marginLeft="11.0dip">
+        <View android:id="@id/time_line_top" android:background="@drawable/bg_time_line_top" android:layout_width="2.0dip" android:layout_height="18.0dip" android:layout_centerHorizontal="true" />
+        <View android:id="@id/time_line_middle" android:background="@drawable/bg_time_circle" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginBottom="12.0dip" android:layout_alignParentBottom="true" />
+        <View android:id="@id/time_line_bottom" android:background="@drawable/bg_time_line_bottom" android:layout_width="2.0dip" android:layout_height="10.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <TextView android:textSize="10.0dip" android:textColor="@color/color_ffffff" android:gravity="center" android:id="@id/time_line_top_tag" android:background="@drawable/bg_border_note_timeline_top" android:visibility="gone" android:layout_width="38.0dip" android:layout_height="15.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="13.0dip" android:text="@string/time_line_top" />
+    <cn.damai.uikit.number.DMDigitTextView android:textSize="14.0dip" android:textColor="@color/color_333333" android:ellipsize="end" android:id="@id/time_line_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="14.0dip" android:lines="1" />
+</LinearLayout>

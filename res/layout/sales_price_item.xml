@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/sale_bottom_upper" android:background="@color/color_tpp_primary_95_white" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0dip" android:textColor="@color/common_text_color45" android:gravity="right" android:id="@id/sale_bottom_value" android:layout_width="0.0dip" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_weight="1.0" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/common_text_color45" android:id="@id/sale_bottom_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="小食总计: " android:includeFontPadding="false" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/tpp_primary_red" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="￥" android:includeFontPadding="false" android:layout_toRightOf="@id/sale_bottom_price" android:layout_alignBaseline="@id/sale_bottom_value" />
+    <TextView android:textSize="20.0dip" android:textColor="#ffff005e" android:id="@id/sale_bottom_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+</LinearLayout>

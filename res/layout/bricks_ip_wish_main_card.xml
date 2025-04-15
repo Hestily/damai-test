@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/bricks_wish_item_view_container" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="77.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/bricks_wish_container_rect" android:clipChildren="false" android:layout_width="60.0dip" android:layout_height="60.0dip">
+        <cn.damai.uikit.copy.shadowlayout.DMShadowLayout android:layout_gravity="center" android:id="@id/bricks_wish_shadow_offset" android:layout_width="89.0dip" android:layout_height="89.0dip" android:layout_marginTop="@dimen/margin_2dp" app:sl_dx="0.0dip" app:sl_dy="0.0dip" app:sl_shadowColor="#99ffffff" app:sl_shadowRadius="6.0dip" />
+        <View android:id="@id/bricks_wish_shadow_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.alibaba.pictures.bricks.view.RoundRadiusImageView android:id="@id/id_bricks_wish_head_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:r_round_radius="6.0dip" />
+        <View android:id="@id/id_bricks_wish_head_mask" android:background="@drawable/bricks_ip_wish_head_mask" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textSize="@dimen/resource_size_9" android:textColor="@color/white" android:layout_gravity="end" android:id="@id/id_bricks_wish_top_right_tag" android:background="@drawable/bricks_ip_wish_top_right_tag" android:paddingLeft="2.5dip" android:paddingRight="2.5dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.alibaba.pictures.bricks.view.CornerFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:clip_corner_radius="6.0dip">
+            <ImageView android:id="@id/id_bricks_wish_head_shining" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/icon_artist_shining" />
+        </com.alibaba.pictures.bricks.view.CornerFrameLayout>
+        <TextView android:textSize="@dimen/resource_size_11" android:textColor="@color/white" android:ellipsize="end" android:gravity="bottom" android:layout_gravity="bottom" android:id="@id/id_bricks_wish_name_tv" android:background="@drawable/bricks_artist_name_bg" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:paddingBottom="@dimen/resource_size_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.discover.mvp.FeedProjectModel",
+    "vClass": "cn.damai.tetris.component.discover.mvp.FeedProjectView",
+    "pClass": "cn.damai.tetris.component.discover.mvp.FeedProjectPresenter",
+    "layoutXml": "item_discover_feed_project"
+  }
+}

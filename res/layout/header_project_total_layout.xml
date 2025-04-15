@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:gravity="center_horizontal" android:id="@id/project_header_video" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="222.0dip" android:layout_marginBottom="-12.0dip">
+        <include layout="@layout/header_project_video" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/header_base_uill" android:background="@drawable/bg_header_corner_white_shape" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/header_notice_ui_root" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ViewFlipper android:id="@id/header_notice_ui_flipper" android:background="@drawable/bg_project_notice" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginLeft="21.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="21.0dip" android:inAnimation="@anim/flipper_in" android:outAnimation="@anim/flipper_out">
+                <include android:id="@id/header_notice_ui" layout="@layout/header_project_notice" />
+            </ViewFlipper>
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_12dp" android:textColor="#ffeb7609" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="27.0dip" android:layout_marginRight="31.0dip" android:text="@string/iconfont_youjiantouxiao12" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <include android:id="@id/header_base_info_ui" layout="@layout/header_project_info" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/irc_tour" android:background="@color/white" android:paddingTop="11.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="56.0dip" />
+    <include android:id="@id/header_promotion_newll" layout="@layout/header_project_marketing_list" />
+    <include android:id="@id/header_show_time_ui" layout="@layout/header_project_show_time" />
+    <include android:id="@id/header_venue_ui" layout="@layout/header_project_venue" />
+    <include android:id="@id/header_service_etc_ui" layout="@layout/header_project_service_etc" />
+    <include android:id="@id/project_header_grab_tip" android:visibility="gone" layout="@layout/header_project_grab_tips" />
+    <include android:id="@id/header_want_see_ui" layout="@layout/header_project_want_see" />
+    <include android:id="@id/header_socre_ui" layout="@layout/header_project_socre_layout" />
+    <include android:id="@id/header_rank_rating_ui" layout="@layout/header_project_rank_list" />
+    <include layout="@layout/project_item_comment_hl_layout" />
+    <include android:id="@id/header_market_ui" layout="@layout/header_project_market" />
+</LinearLayout>

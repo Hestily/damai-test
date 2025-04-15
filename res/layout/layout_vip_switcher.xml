@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/vip_ui_layout" android:paddingLeft="21.0dip" android:paddingRight="21.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.uikit.view.RoundImageView android:id="@id/vip_level_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" android:layout_marginBottom="7.0dip" android:scaleType="centerCrop" app:borderRadius="12.0dip" app:type="round" />
+    <cn.damai.uikit.view.DMAvatar android:layout_gravity="center_vertical" android:id="@id/icon_star_vip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_12dp" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="63.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/margin_15dp" android:textColor="@color/color_white" android:id="@id/vip_text_name" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <cn.damai.uikit.view.autoScroll.AutoTextSwitcher android:id="@id/vip_text_switcher" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:textSize="12.0dip" android:textColor="@color/color_white" android:gravity="center" android:id="@id/vip_ui_btn" android:background="@drawable/bg_vip_add_white_trans" android:paddingLeft="9.0dip" android:paddingRight="9.0dip" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:id="@id/ticklet_transfer_face_unbind_dialog_rv" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/ticklet_transfer_face_unbind_recycler_view" android:background="@color/color_f9f9f9" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_666666" android:gravity="center" android:id="@id/ticklet_transfer_face_unbind_note_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_9dp" android:text="解绑后将无法通过人脸识别入场而改用原有入场方式" android:layout_centerHorizontal="true" android:lineSpacingExtra="@dimen/margin_3dp" />
+</merge>

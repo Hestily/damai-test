@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@drawable/item_round_selector" android:layout_width="fill_parent" android:layout_height="65.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon_phone" android:layout_width="39.0dip" android:layout_height="39.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/icon_phone_order" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_main_title" android:id="@id/block_presalecode_select_area_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:text="@string/icon_font_right_small" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginRight="50.0dip" android:layout_toRightOf="@id/icon_phone" android:layout_centerVertical="true">
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/color_tpp_primary_main_title" android:layout_gravity="center_vertical" android:id="@id/ordering_phone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/color_tpp_primary_main_title" android:ellipsize="end" android:id="@id/ordering_phone_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:singleLine="true" android:includeFontPadding="false" />
+    </LinearLayout>
+</RelativeLayout>

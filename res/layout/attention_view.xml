@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_follow" android:background="@drawable/user_chat_bg" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="57.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="@color/white" android:id="@id/tv_follow_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:text="@string/iconfont_jiahao24" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_follow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="关注" />
+</LinearLayout>

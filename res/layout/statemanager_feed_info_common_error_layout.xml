@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/color_tpp_primary_bg" android:layout_width="fill_parent" android:layout_height="324.0dip" style="?statemanager_view_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/statemanager_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/response_common_error" />
+    <TextView android:textSize="15.0dip" android:textColor="@color/common_color_1008" android:gravity="center" android:id="@id/statemanager_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="19.0dip" />
+    <TextView android:textColor="@color/common_color_1008" android:id="@id/statemanager_subhint" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?statemanager_subhint_style" />
+    <Button android:textSize="13.0dip" android:textColor="@color/common_color_1008" android:id="@id/statemanager_button" android:background="@drawable/common_gray_round_btn_default2" android:layout_width="98.0dip" android:layout_height="40.0dip" android:layout_marginTop="15.0dip" />
+</LinearLayout>

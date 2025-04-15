@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alient.onearch.adapter.widget.OneTabLayout android:id="@id/tags" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/resource_size_27" app:normalTextBackground="@drawable/component_tag_tab_normal_bg" app:normalTextColor="@color/cg_1" app:normalTextSize="12" app:selectedTextBackground="@drawable/component_tag_tab_selected_bg" app:selectedTextColor="@color/cb_red_app" app:selectedTextSize="12" app:tabContentStart="@dimen/resource_size_10" app:tabGravity="start" app:tabIndicator="@null" app:tabMinWidth="58.0dip" app:tabMode="scrollable" app:tabPaddingEnd="4.5dip" app:tabPaddingStart="4.5dip" app:tabRippleColor="@null" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/horizontal_container" android:background="?bgFilmDetailBottom" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:overScrollMode="never" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/ll_order_buy_container" android:paddingLeft="@dimen/margin_15dp" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/bg_color_ec" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginEnd="@dimen/margin_15dp" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_18dp" android:layout_marginRight="@dimen/margin_15dp">
+        <TextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_666666" android:id="@id/tv_count" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="1280(1层看台) x 2套/共4张" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/margin_10dp" android:textColor="#ffff5f5f" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_sku_taopiao" android:background="@drawable/bg_border_corner_ff5f5f" android:paddingLeft="4.0dip" android:paddingTop="@dimen/margin_1dp" android:paddingRight="@dimen/margin_4dp" android:paddingBottom="@dimen/margin_1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="套票" />
+        <TextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_666666" android:id="@id/tv_price" android:paddingLeft="@dimen/margin_3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="¥2560" />
+    </LinearLayout>
+</RelativeLayout>

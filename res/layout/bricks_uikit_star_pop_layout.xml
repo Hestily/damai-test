@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/bricks_issue_star_tip_bg" android:paddingLeft="@dimen/margin_6dp" android:paddingTop="@dimen/margin_2dp" android:paddingRight="@dimen/margin_6dp" android:paddingBottom="@dimen/margin_3dp" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/uikit_first" android:layout_width="@dimen/margin_12dp" android:layout_height="@dimen/margin_12dp" android:layout_marginBottom="@dimen/margin_1dp" android:src="@drawable/bricks_rating_fill" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/color_000000" android:id="@id/tip_grade" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_3dp" android:layout_marginRight="@dimen/margin_3dp" android:layout_marginBottom="@dimen/margin_1dp" />
+</LinearLayout>

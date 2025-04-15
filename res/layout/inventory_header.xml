@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/margin_13dp" android:textColor="@color/white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_detail_title" android:background="@drawable/inventory_subtitle_bg" android:paddingLeft="@dimen/margin_6dp" android:paddingRight="@dimen/margin_6dp" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginTop="@dimen/margin_9dp" android:layout_marginRight="@dimen/margin_15dp" android:singleLine="true" />
+    <TextView android:textSize="@dimen/margin_22dp" android:textColor="@color/white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_sub_title" android:layout_width="wrap_content" android:layout_height="@dimen/margin_30dp" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginTop="@dimen/margin_9dp" android:layout_marginRight="@dimen/margin_15dp" android:layout_marginBottom="@dimen/margin_9dp" android:text="请一定相信爱情" android:singleLine="true" />
+</LinearLayout>

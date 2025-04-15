@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/add_contacts_container" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/add_contacts_title_layout" android:background="@color/color_ffffff" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <ImageView android:id="@id/add_contacts_back_icon" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/icon_back_black_normal" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/color_222222" android:gravity="center" android:id="@id/add_contacts_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/add_contacts_title_text" android:layout_weight="1.0" />
+    </FrameLayout>
+    <View android:id="@id/add_contacts_title_line" android:background="@color/color_EEEEEE" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/add_contacts_title_layout" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/add_contacts_tip" android:background="@drawable/realname_notice_bar_bg" android:paddingLeft="@dimen/margin_12dp" android:paddingTop="@dimen/margin_9dp" android:paddingRight="@dimen/margin_12dp" android:paddingBottom="@dimen/margin_9dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="@dimen/margin_18dp" android:layout_marginRight="12.0dip" android:layout_marginBottom="@dimen/margin_9dp" android:layout_below="@id/add_contacts_title_line">
+        <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="16.0dip" android:textColor="#ffeb7609" android:id="@id/ticklet_header_notice_icon" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_2dp" android:text="@string/iconfont_tishimian_" />
+        <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_eb7609" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/add_contacts_tip" android:lineSpacingExtra="@dimen/margin_2dp" />
+    </LinearLayout>
+    <RelativeLayout android:background="@drawable/activity_add_contracts_titlebg" android:paddingTop="1.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="9.0dip" android:layout_below="@id/add_contacts_tip">
+        <FrameLayout android:id="@id/add_contacts_info_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip">
+            <include layout="@layout/add_contacts_info_layout" />
+        </FrameLayout>
+        <View android:id="@id/add_contacts_title_line2" android:background="@color/color_EEEEEE" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_below="@id/add_contacts_info_layout" />
+        <cn.damai.commonbusiness.contacts.view.RealNameTipView android:id="@id/add_contacts_notice" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="12.0dip" android:layout_below="@id/add_contacts_title_line2" />
+    </RelativeLayout>
+    <FrameLayout android:background="@color/color_ffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <View android:background="#1a000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <TextView android:textSize="@dimen/margin_16dp" android:textColor="@color/color_ffffff" android:gravity="center" android:id="@id/add_contacts_save_btn" android:background="@drawable/damai_btn_rightbottom_sharp_corner_bg" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="9.0dip" android:text="确定" />
+    </FrameLayout>
+</RelativeLayout>

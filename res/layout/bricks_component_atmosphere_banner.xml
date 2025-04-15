@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/bricks_atmosphere_banner_block" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.moimage.MoImageView android:id="@id/bricks_atmosphere_banner_block_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" app:failureImage="@drawable/bricks_uikit_default_pioneer_image_bg_gradient" app:placeholderImage="@drawable/bricks_uikit_default_pioneer_image_bg_gradient" />
+    <FrameLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.pictures.moimage.MoImageView android:id="@id/bricks_atmosphere_banner_block_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" app:failureImage="@drawable/bricks_image_bg_pioneer_bottom_r12" app:placeholderImage="@drawable/bricks_image_bg_pioneer_bottom_r12" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/bricks_atmosphere_banner_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip" />
+    </FrameLayout>
+</LinearLayout>

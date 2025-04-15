@@ -1,0 +1,18 @@
+{
+  "data": {
+    "title": { "value": "${title}", "extend": { "fit-content": "false" } },
+    "bgImageView": {
+      "value": "@{eval(size(${smallBackgroundUrl}) > 0) ? ${smallBackgroundUrl} : @{env(isAndroid) ? 'gaiax_res:uikit_default_image_bg_grey' : 'gaiax_res:gaiax_placeholder' }}",
+      "placeholder": "@{env(isAndroid) ? 'uikit_default_image_bg_grey' : 'gaiax_placeholder' }"
+    },
+    "logoImageView": {
+      "value": "@{eval(size(${icon}) > 0) ? ${icon} : @{env(isAndroid) ? 'gaiax_res:common_pic_item_bg' : 'gaiax_res:gaiax_placeholder' }}",
+      "placeholder": "@{env(isAndroid) ? 'uikit_default_image_bg_grey' : 'gaiax_placeholder' }"
+    },
+    "infoLabel": {
+      "value": "${subTitle}",
+      "extend": { "fit-content": "false" }
+    },
+    "descLabel": { "value": "${desc}", "extend": { "fit-content": "false" } }
+  }
+}

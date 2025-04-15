@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/v_left" android:visibility="gone" android:layout_width="@dimen/margin_11dp" android:layout_height="62.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_tour" android:paddingLeft="@dimen/margin_6dp" android:paddingRight="@dimen/margin_6dp" android:layout_width="98.0dip" android:layout_height="44.0dip" android:layout_marginLeft="@dimen/margin_4dp" android:layout_marginRight="@dimen/margin_5dp">
+        <cn.damai.uikit.view.MarqueTextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_111111" android:ellipsize="marquee" android:id="@id/tv_tour_city" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="北京站" android:singleLine="true" android:includeFontPadding="false" android:marqueeRepeatLimit="marquee_forever" />
+        <TextView android:textSize="10.0dip" android:textColor="#ff69717c" android:ellipsize="end" android:id="@id/tv_tour_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="2019.02.12-02.20" android:singleLine="true" />
+    </LinearLayout>
+    <View android:id="@id/v_right" android:visibility="gone" android:layout_width="@dimen/margin_12dp" android:layout_height="62.0dip" />
+</LinearLayout>

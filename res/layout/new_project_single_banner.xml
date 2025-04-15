@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="@dimen/resource_size_9" android:paddingRight="@dimen/resource_size_9" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/id_new_project_atmospheric_banner_container" android:background="@color/white" android:padding="@dimen/resource_size_12" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.pictures.bricks.view.RoundRadiusImageView android:id="@id/id_new_project_atmospheric_banner_img" android:layout_width="fill_parent" android:layout_height="96.0dip" android:src="@drawable/uikit_default_image_bg_grey" android:scaleType="fitXY" app:r_round_radius="9.0dip" app:r_stroke_color="#1a000000" app:r_stroke_width="1.0px" />
+    </FrameLayout>
+</FrameLayout>

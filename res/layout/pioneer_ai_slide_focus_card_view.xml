@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.uikit.banner.sub.RoundRadiusImageView android:id="@id/id_slide_ai_focus_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:r_round_radius="18.0dip" />
+    <ImageView android:id="@id/id_slide_ai_focus_foreground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/resource_size_18" android:layout_marginRight="@dimen/resource_size_18" android:scaleType="centerCrop" />
+    <View android:layout_gravity="bottom" android:background="@drawable/pioneer_slide_ai_focus_f" android:layout_width="fill_parent" android:layout_height="65.0dip" />
+    <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="@dimen/resource_size_14" android:textColor="@color/color_ffffff" android:ellipsize="end" android:layout_gravity="bottom" android:id="@id/id_slide_ai_focus_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/resource_size_12" android:layout_marginRight="@dimen/resource_size_12" android:layout_marginBottom="35.0dip" android:lines="1" />
+    <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="@dimen/resource_size_16" android:textColor="@color/color_ffffff" android:ellipsize="end" android:layout_gravity="bottom" android:id="@id/id_slide_ai_focus_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/resource_size_12" android:layout_marginRight="@dimen/resource_size_12" android:layout_marginBottom="@dimen/resource_size_10" android:lines="1" />
+</FrameLayout>

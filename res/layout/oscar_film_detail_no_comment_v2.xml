@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="?bgFilmDetailBottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.pictures.moimage.MoImageView android:id="@id/film_no_comment_img" android:background="@drawable/film_detail_no_comment" android:layout_width="112.0dip" android:layout_height="102.0dip" android:layout_marginTop="42.0dip" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/tpp_gray_3" android:id="@id/film_detail_block_left_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="45.0dip" android:text="还没有人评过，淘票票鼓励真情实感的评价" android:singleLine="true" android:includeFontPadding="false" />
+</LinearLayout>

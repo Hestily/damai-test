@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="98.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@drawable/homepage_rank_top_bg_second" android:layout_width="6.0dip" android:layout_height="91.0dip" android:layout_marginLeft="92.0dip" android:layout_marginTop="12.0dip" />
+    <View android:background="@drawable/homepage_rank_top_bg_first" android:layout_width="6.0dip" android:layout_height="103.0dip" android:layout_marginLeft="86.0dip" android:layout_marginTop="6.0dip" />
+    <cn.damai.uikit.view.RoundImageView android:id="@id/homepage_rank_top_item_image" android:background="@drawable/uikit_default_image_bg_gradient" android:layout_width="86.0dip" android:layout_height="115.0dip" app:borderRadius="6.0dip" app:type="round" />
+    <View android:background="@drawable/bricks_homepage_project_image_border" android:layout_width="86.0dip" android:layout_height="115.0dip" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/color_000000" android:ellipsize="end" android:id="@id/homepage_rank_top_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:maxLines="1" android:minLines="1" android:layout_below="@id/homepage_rank_top_item_image" />
+    <TextView android:textSize="12.0dip" android:textColor="#ff9c9ca5" android:ellipsize="end" android:id="@id/homepage_rank_top_item_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:maxLines="1" android:minLines="1" android:layout_below="@id/homepage_rank_top_item_title" />
+</RelativeLayout>

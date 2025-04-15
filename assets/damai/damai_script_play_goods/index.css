@@ -1,0 +1,81 @@
+#damai_script_play_goods {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  padding-bottom: 12px;
+  justify-content: space-between;
+}
+#goods_image {
+  width: 48px;
+  height: 64px;
+  border-radius: 6px;
+  mode: aspectFill;
+  margin-right: 12px;
+  margin-left: 12px;
+}
+#content_info_view {
+  height: 64px;
+  flex-shrink: 1;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+  position: absolute;
+  left: 72px;
+  right: 70px;
+}
+#goods_title {
+  text-overflow: ellipsis;
+  color: #333333;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  margin-top: 0px;
+  width: 100%;
+  height: 20px;
+  fit-content: true;
+}
+#goods_price_view {
+  width: 100%;
+  align-items: center;
+}
+#rmb_text {
+  width: 100px;
+  text-overflow: ellipsis;
+  color: #ff2869;
+  font-size: 12px;
+  font-weight: 500;
+  fit-content: true;
+}
+#goods_price_text {
+  width: 100px;
+  text-overflow: ellipsis;
+  color: #ff2869;
+  font-size: 16px;
+  fit-content: true;
+  font-weight: 500;
+}
+#goods_price_unit {
+  width: 100px;
+  text-overflow: ellipsis;
+  color: #000000;
+  font-size: 12px;
+  fit-content: true;
+  margin-left: 4px;
+}
+#buy_btn {
+  width: 46px;
+  height: 24px;
+  background-color: #ff2869;
+  border-radius: 12px;
+  align-self: center;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+#buy_text {
+  width: 46px;
+  text-overflow: ellipsis;
+  color: #ffffff;
+  font-size: 12px;
+  height: 24px;
+  text-align: center;
+}

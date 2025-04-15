@@ -1,0 +1,60 @@
+{
+  "data": {
+    "script_poster": {
+      "value": "${posterUrl}",
+      "placeholder": "@{env(isAndroid) ? 'uikit_default_image_bg_grey' : 'script_other_relate_script_default_image'}"
+    },
+    "limit_view": {
+      "extend": { "display": "@{${soleTagTemp} ? flex : none}" }
+    },
+    "limt_tag": {
+      "value": "${soleTagTemp}",
+      "extend": {
+        "fit-content": "true",
+        "display": "@{${soleTagTemp} ? flex : none}"
+      }
+    },
+    "script_point": {
+      "value": "${score}",
+      "extend": {
+        "fit-content": "true",
+        "display": "@{${score} ? flex : none}"
+      }
+    },
+    "script_point_unit": {
+      "value": "分",
+      "extend": {
+        "fit-content": "true",
+        "display": "@{${score} ? flex : none}"
+      }
+    },
+    "poster_name": { "value": "${name}" },
+    "tags_holder": {
+      "extend": { "margin-bottom": "@{env(isAndroid) ? '6px' : '12px'}" }
+    },
+    "level_label": {
+      "value": "${difficultyName}",
+      "extend": {
+        "display": "@{eval(size(${difficultyName}) > 0) ? flex : none}"
+      }
+    },
+    "partline": {
+      "extend": {
+        "display": "@{eval(size(${playerNum}) > 0) ? @{eval(size(${difficultyName}) > 0) ? flex : none} : none}"
+      }
+    },
+    "people_label": {
+      "value": "${playerNum} + '人'",
+      "extend": { "display": "@{eval(size(${playerNum}) > 0) ? flex : none}" }
+    },
+    "partline2": {
+      "extend": {
+        "display": "@{eval(size(${scriptTime}) > 0) ? @{eval(size(${playerNum}) > 0) ? flex : @{eval(size(${difficultyName}) > 0) ? flex : none}} : none}"
+      }
+    },
+    "time_label": {
+      "value": "${scriptTime} + '小时'",
+      "extend": { "display": "@{eval(size(${scriptTime}) > 0) ? flex : none}" }
+    }
+  }
+}

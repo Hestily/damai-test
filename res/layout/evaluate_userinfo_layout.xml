@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/title_bar_space" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/evaluate_detail_user_info" android:layout_width="fill_parent" android:layout_height="47.0dip">
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_20dp" android:textColor="@color/color_3C3F44" android:gravity="center_vertical" android:id="@id/mine_add_address_title_left_icon" android:paddingLeft="@dimen/margin_21dp" android:paddingRight="@dimen/margin_3dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/iconfont_zuojiantou_" />
+        <cn.damai.uikit.view.DMAvatar android:id="@id/detail_uikit_damai_avatar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_9dp" android:layout_marginBottom="@dimen/margin_3dp" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingRight="@dimen/margin_2dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_000000" android:ellipsize="end" android:id="@id/comment_user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:lineSpacingExtra="@dimen/margin_3dp" />
+                <cn.damai.uikit.view.UserTagView android:layout_gravity="center_vertical" android:id="@id/user_tag_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/comment_vip_icon" android:layout_width="wrap_content" android:layout_height="14.0dip" android:layout_marginLeft="@dimen/margin_6dp" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/margin_10dp" android:textColor="@color/color_9C9CA5" android:ellipsize="end" android:id="@id/comment_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/white" android:gravity="center" android:id="@id/evaluate_detail_title_relation" android:background="@drawable/submit_enable_btn_h36" android:paddingLeft="@dimen/margin_5dp" android:paddingRight="@dimen/margin_5dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/margin_25dp" android:minWidth="54.0dip" android:text="关注" />
+        <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_FF2D79" android:gravity="center_vertical" android:id="@id/comment_detail_share" android:background="@drawable/submit_btn_ffe9f0" android:paddingLeft="@dimen/margin_15dp" android:paddingRight="@dimen/margin_15dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/margin_25dp" android:layout_marginLeft="@dimen/margin_12dp" android:layout_marginRight="@dimen/margin_21dp" android:text="分享" />
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="22.0dip" android:textColor="#ff5f6672" android:gravity="center" android:id="@id/comment_detail_more_btn" android:paddingRight="@dimen/margin_24dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/iconfont_Gengduo18" />
+    </LinearLayout>
+</LinearLayout>

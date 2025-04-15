@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/project_want_see_and_score_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginRight="9.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/project_want_see_ui" layout="@layout/project_v2_want_see" />
+    <include android:id="@id/project_score_ui" layout="@layout/project_v2_score_layout" />
+</LinearLayout>

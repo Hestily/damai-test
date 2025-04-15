@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="80.0dip" app:cardCornerRadius="9.0dip" app:cardElevation="0.0dip" app:cardMaxElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="4.0dip" android:layout_marginBottom="10.0dip" android:layout_marginStart="12.0dip">
+        <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/color_pioneer_primary_black" android:id="@id/channel_film_market_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="6.0dip" android:layout_marginEnd="7.0dip">
+            <com.alibaba.pictures.moimage.MoImageView android:id="@id/channel_film_market_iv" android:layout_width="40.0dip" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="13.0dip" android:textColor="#ff444b5b" android:id="@id/channel_film_market_sub_title" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="6.0dip" android:maxLines="2" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_gravity="end|bottom|center" android:background="@drawable/bg_pioneer_popular_title" android:layout_width="24.0dip" android:layout_height="26.0dip" />
+</androidx.cardview.widget.CardView>

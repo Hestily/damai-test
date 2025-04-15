@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:paddingBottom="9.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.uikit.view.RoundImageView android:id="@id/homepage_waterflow_venues_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/homepage_waterflow_venues_default_bg" app:borderRadius="6.0dip" app:type="round" />
+    <ImageView android:id="@id/homepage_waterflow_venues_shade" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/homepage_waterflow_venues_default_shade" />
+    <cn.damai.baseview.RCRelativeLayoutView android:orientation="vertical" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" app:round_corner="6.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/homepage_waterflow_venues_tag" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:background="#33ffffff" android:layout_width="0.0dip" android:layout_height="0.5dip" android:layout_weight="1.0" />
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="16.0dip" android:textColor="#99ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_huabian" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/color_ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="精选厂牌" android:singleLine="true" />
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="16.0dip" android:textColor="#99ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_huabianfan" />
+            <View android:background="#33ffffff" android:layout_width="0.0dip" android:layout_height="0.5dip" android:layout_weight="1.0" />
+        </LinearLayout>
+        <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/homepage_waterflow_venues_header_icon_layout" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_marginTop="12.0dip" android:layout_below="@id/homepage_waterflow_venues_tag" android:layout_centerHorizontal="true">
+            <ImageView android:background="@drawable/homepage_waterflow_venues_header_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <cn.damai.uikit.view.RoundImageView android:layout_gravity="center" android:id="@id/homepage_waterflow_venues_header_icon" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/uikit_user_default_icon_trans_white" android:scaleType="centerCrop" app:type="circle" />
+            <ImageView android:layout_gravity="bottom|center|right" android:id="@id/homepage_waterflow_venues_header_v_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/user_v_tag" />
+        </FrameLayout>
+        <TextView android:textSize="16.0dip" android:textColor="@color/color_ffffff" android:id="@id/homepage_waterflow_venues_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:singleLine="true" android:layout_below="@id/homepage_waterflow_venues_header_icon_layout" android:layout_centerHorizontal="true" />
+        <View android:id="@id/homepage_waterflow_venues_desc_top_dash" android:background="@drawable/homepage_waterflow_venues_dash" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="6.0dip" android:layout_below="@id/homepage_waterflow_venues_name" />
+        <TextView android:textSize="12.0dip" android:textColor="#66ffffff" android:ellipsize="end" android:id="@id/homepage_waterflow_venues_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:maxLines="2" android:layout_below="@id/homepage_waterflow_venues_desc_top_dash" android:layout_centerHorizontal="true" android:lineSpacingExtra="3.0dip" />
+        <View android:id="@id/homepage_waterflow_venues_desc_bottom_dash" android:background="@drawable/homepage_waterflow_venues_dash" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/homepage_waterflow_venues_desc" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/homepage_waterflow_venues_entrance_btn" android:background="@drawable/homepage_waterflow_venues_entrance_btn_bg" android:layout_width="120.0dip" android:layout_height="30.0dip" android:layout_marginBottom="3.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <TextView android:textSize="12.0dip" android:textColor="@color/color_ffffff" android:id="@id/homepage_waterflow_venues_entrance_btn_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="点击了解" android:singleLine="true" />
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="10.0dip" android:textColor="@color/color_ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="@string/iconfont_youjiantou12" />
+        </LinearLayout>
+    </cn.damai.baseview.RCRelativeLayoutView>
+</FrameLayout>

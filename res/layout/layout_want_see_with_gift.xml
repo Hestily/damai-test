@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/want_see_with_gift_img" android:layout_width="64.0dip" android:layout_height="18.0dip" android:src="@drawable/want_see_with_gift_tips" />
+    <com.alibaba.pictures.moimage.MoImageView android:id="@id/want_see_with_gift_flash_view" android:visibility="gone" android:layout_width="37.0dip" android:layout_height="15.0dip" android:src="@drawable/flash_view" android:scaleType="fitXY" />
+</FrameLayout>

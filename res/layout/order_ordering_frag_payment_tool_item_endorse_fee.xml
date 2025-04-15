@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/OrderCommonMarketItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/refund_item" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="36.0dip">
+        <TextView android:id="@id/tv_title" android:text="@string/ordering_selector_block_endorse_fee_title" android:includeFontPadding="false" android:layout_weight="0.0" style="@style/ordering_module_title_tv_style" />
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <TextView android:id="@id/tv_sub_title" android:visibility="gone" style="@style/ordering_item_subtitle_tv_style" />
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/ll_price" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_2">
+            <TextView android:id="@id/tv_price_prefix" style="@style/ordering_item_price_prefix_tv_style" />
+            <TextView android:textSize="@dimen/text_size_18_dp" android:id="@id/tv_price" style="@style/ordering_item_price_tv_style" />
+        </LinearLayout>
+        <com.taobao.movie.android.commonui.widget.IconFontTextView android:id="@id/block_endorse_fee_arrow" android:text="@string/icon_font_right_small" style="@style/ordering_item_arrow_style" />
+    </LinearLayout>
+    <include android:id="@id/fl_refund_endorse" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_4" android:layout_marginBottom="@dimen/margin_15" android:layout_marginStart="@dimen/margin_9" android:layout_marginEnd="@dimen/margin_9" layout="@layout/order_ordering_frag_payment_tool_item_endorse_equity" />
+</LinearLayout>

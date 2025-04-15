@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ticklet_face_view" android:background="@drawable/shape_solid_radius4_f7f7f7" android:visibility="gone" android:layout_width="@dimen/ticklet_margin_205dp" android:layout_height="@dimen/ticklet_margin_205dp" android:layout_below="@id/tv_tips"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="86.0dip" android:textColor="@color/color_111111" android:layout_gravity="center_horizontal" android:id="@id/ticklet_iv_face_icon" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_faceicon_" />
+    <TextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/ticklet_face_name_cert" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_12dp" style="@style/ticklet_3f3f3f_14dp" />
+</LinearLayout>

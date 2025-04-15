@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/parent" android:background="#b3000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="37.0dip" android:layout_marginRight="37.0dip" android:layout_centerInParent="true">
+        <RelativeLayout android:background="@drawable/vip_dialog_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.taobao.movie.android.app.ui.widget.SelectableRoundedImageView android:id="@id/title_bg" android:layout_width="fill_parent" android:layout_height="70.0dip" android:scaleType="centerCrop" app:sriv_left_top_corner_radius="8.0dip" app:sriv_right_top_corner_radius="8.0dip" />
+            <TextView android:textSize="19.0dip" android:textColor="#ff4c3615" android:ellipsize="end" android:gravity="center" android:id="@id/tv_select_seat_bogo_dialog_title" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="70.0dip" android:maxLines="1" />
+            <LinearLayout android:orientation="vertical" android:id="@id/content_zone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="23.0dip" android:layout_marginTop="26.0dip" android:layout_marginRight="23.0dip" android:layout_marginBottom="5.0dip" android:layout_below="@id/title_bg" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/btn_zone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:layout_marginRight="22.0dip" android:layout_marginBottom="23.0dip" android:layout_below="@id/content_zone">
+                <TextView android:textSize="14.0dip" android:textColor="#ffc4a056" android:gravity="center" android:id="@id/btn_left" android:background="@drawable/vip_give_up_btn_bg" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_marginRight="10.0dip" android:layout_weight="1.0" />
+                <TextView android:textSize="14.0dip" android:textColor="#ff4c3615" android:gravity="center" android:id="@id/btn_right" android:background="@drawable/vip_common_btn_bg" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+        </RelativeLayout>
+        <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="30.0dip" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/close_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/iconf_round_close" />
+    </LinearLayout>
+</RelativeLayout>

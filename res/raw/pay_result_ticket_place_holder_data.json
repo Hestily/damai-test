@@ -1,0 +1,58 @@
+{
+  "api": "mtop.damai.wireless.order.paydone.combo.get",
+  "data": {
+    "data": {
+      "spmab": "a2o4t.payresult",
+      "serverTime": "1671513666480",
+      "pageName": "payresult"
+    },
+    "level": "0",
+    "more": "false",
+    "nodes": [
+      {
+        "data": {
+          "nodeId": "c6b33b18-8262-4e64-88fd-0a3497e65d0e"
+        },
+        "level": "1",
+        "more": "false",
+        "nodes": [
+          {
+            "data": {
+              "componentId": "dm_home_ticket",
+              "action": {
+                "item": {
+                  "trackInfo": {
+                    "spmd": "item_",
+                    "spmc": "category"
+                  }
+                }
+              },
+              "hiddenTitle": "true",
+              "isFilterEmpty": "false",
+              "nodeId": "e792a1b7-1935-49ad-8e60-ec55597be37b",
+              "hiddenFooter": "false"
+            },
+            "level": "2",
+            "more": "false",
+            "nodes": [
+              {
+                "data": {
+                  "resultDesc": ""
+                },
+                "level": "3",
+                "more": "false",
+                "type": "7640"
+              }
+            ],
+            "style": {},
+            "type": "7638"
+          }
+        ]
+      }
+    ]
+  },
+  "ret": [
+    "SUCCESS::调用成功"
+  ],
+  "v": "3.0"
+}

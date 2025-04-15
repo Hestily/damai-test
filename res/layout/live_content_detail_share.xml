@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/margin_12dp" android:paddingEnd="@dimen/margin_12dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/live_wanna_see_top_ui" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/live_content_detail_follow_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.airbnb.lottie.LottieAnimationView android:id="@id/content_detail_wanna_2_see_icon" android:layout_width="22.0dip" android:layout_height="22.0dip" app:lottie_repeatCount="0" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/color_333333" android:gravity="center" android:id="@id/live_content_detail_follow_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/margin_3dp" />
+            <cn.damai.uikit.banner.sub.RoundRadiusImageView android:layout_width="1.0dip" android:layout_height="9.0dip" android:layout_marginLeft="9.0dip" android:src="@color/color_999999" app:r_round_radius="2.0dip" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/color_9C9CA5" android:id="@id/live_content_detail_tip_1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:text="第一个想看的人，你的品味很不错呦～" />
+            <RelativeLayout android:id="@id/live_content_detail_head_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="9.0dip">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/live_content_detail_head_lv" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="@dimen/margin_4dp" />
+            </RelativeLayout>
+            <TextView android:textSize="12.0dip" android:textColor="@color/color_9C9CA5" android:gravity="center" android:id="@id/live_content_detail_tip_focus_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="15.0dip">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <com.taobao.movie.android.commonui.widget.SafeLottieAnimationView android:id="@id/btn_icon" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginBottom="6.0dip" app:lottie_autoPlay="true" app:lottie_fileName="film_love_big_lottie.json" app:lottie_loop="false" />
+            <TextView android:textSize="18.0dip" android:textColor="@color/color_tpp_primary_main_title" android:gravity="center_vertical" android:id="@id/tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wanted_tip_already" android:layout_toRightOf="@id/btn_icon" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView android:textSize="14.5dip" android:textColor="@color/color_tpp_primary_assist" android:ellipsize="end" android:gravity="center" android:id="@id/tv_want_count_index" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_coupon_item" android:background="@drawable/wanted_dialog_normal_item_bg" android:layout_width="fill_parent" android:layout_height="78.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip">
+        <RelativeLayout android:background="@drawable/product_coupon_left_valid_coupon_bg" android:layout_width="78.0dip" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <TextView android:textSize="15.0dip" android:textColor="@color/white" android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="¥" android:includeFontPadding="false" />
+                <TextView android:textSize="30.0dip" android:textColor="@color/white" android:gravity="bottom" android:id="@id/tv_cost" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" />
+            </LinearLayout>
+        </RelativeLayout>
+        <com.taobao.movie.android.app.ui.product.item.MoCircleDashLine android:layout_width="3.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-3.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                <TextView android:textSize="14.0dip" android:textColor="@color/color_tpp_primary_main_title" android:ellipsize="end" android:gravity="center|left" android:id="@id/tv_coupon_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:text="" android:maxLines="2" />
+                <TextView android:textSize="11.0dip" android:textColor="@color/color_tpp_primary_assist" android:gravity="center|left" android:id="@id/tv_coupon_expired" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="有效期至2019年12月18日" android:layout_below="@id/tv_coupon_desc" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/rl_youku_wanted" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="15.0dip">
+        <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="15.0dip" android:textColor="@color/common_color_1006" android:id="@id/check_youku_wanted" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconf_selected_no" android:includeFontPadding="false" android:layout_centerVertical="true" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/check_youku_wanted" android:layout_centerVertical="true">
+            <TextView android:textSize="11.0dip" android:textColor="@color/color_tpp_primary_assist" android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.5dip" android:text="想看记录也在优酷展示，可在线播放会收到提醒，可在设置中关闭" android:lineSpacingExtra="2.5dip" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

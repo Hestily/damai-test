@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/ticklet_list_item_bg_top" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/ticklet_perform_head" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_21dp" android:layout_marginTop="@dimen/margin_18dp" android:layout_marginRight="@dimen/margin_21dp" android:layout_marginBottom="@dimen/margin_18dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="转送票退票管理" android:layout_alignParentLeft="true" style="@style/ticklet_000000_20dp" />
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:id="@id/ticklet_perform_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_5dp" android:text="@string/iconfont_xiangxiajiantou_" android:layout_alignParentRight="true" style="@style/ticklet_000000_18dp" />
+    </RelativeLayout>
+    <TextView android:id="@id/ticklet_perform_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_21dp" android:layout_marginRight="@dimen/margin_21dp" style="@style/ticklet_000000_14dp" />
+    <TextView android:gravity="center" android:id="@id/ticklet_perform_action" android:background="@drawable/submit_enable_btn_h44" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="@dimen/margin_21dp" android:layout_marginTop="@dimen/margin_21dp" android:layout_marginRight="@dimen/margin_21dp" android:layout_marginBottom="@dimen/margin_30dp" android:text="查看详情" style="@style/ticklet_white_16dp" />
+</merge>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/layout_left" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="fill_parent" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layout_bg" android:background="@drawable/mine_starindex_fragment_xunyan_bg_hui" android:layout_width="98.0dip" android:layout_height="96.0dip">
+            <TextView android:textSize="16.0dip" android:textColor="@color/color_000000" android:ellipsize="end" android:id="@id/tv_city" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:singleLine="true" />
+            <TextView android:textSize="10.0dip" android:textColor="#ff9c9ca5" android:ellipsize="end" android:id="@id/tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="9.0dip" android:singleLine="true" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/btn_buy" android:background="@drawable/mine_starindex_fragment_btn_bg" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="1.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="9.0dip" android:layout_marginRight="6.0dip" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:textSize="10.0dip" android:textColor="@color/red" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_tag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="16.0dip" android:singleLine="true" />
+    </FrameLayout>
+    <View android:id="@id/layout_right" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="fill_parent" />
+</LinearLayout>

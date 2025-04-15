@@ -1,0 +1,43 @@
+{
+  "components": [
+    {
+      "type": 7924,
+      "tag": "feed",
+      "layout": {
+        "layoutType": "linear",
+        "params": {
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7930,
+          "model": "com.alibaba.pictures.bricks.component.venue.card.VenueCardModel",
+          "present": "com.alibaba.pictures.bricks.component.venue.card.VenueCardPresent",
+          "view": "com.alibaba.pictures.bricks.component.venue.card.VenueCardView",
+          "layoutID": "bricks_component_venue_cell_layout",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.component.venue.card.VenueCardBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7871,
+      "tag": "feed_load_more",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7699,
+          "layoutID": "component_pioneer_home_feed_load_more",
+          "viewHolder": "cn.damai.pioneer.component.tab.category.viewholder.CinemaVenueCustomLoadMoreViewHolder",
+          "params": {
+          }
+        }
+      ]
+    }
+  ]
+}

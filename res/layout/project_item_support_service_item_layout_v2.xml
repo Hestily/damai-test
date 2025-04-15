@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/margin_12dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.pictures.moimage.MoImageView android:id="@id/project_support_indicator_iv" android:layout_width="12.0dip" android:layout_height="12.0dip" android:scaleType="fitXY" />
+    <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_111111" android:ellipsize="end" android:id="@id/project_support_content_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_3dp" android:maxLines="1" />
+</LinearLayout>

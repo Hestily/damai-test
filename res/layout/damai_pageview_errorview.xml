@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/teris_page_empty_view" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/teris_page_empty_img" android:layout_width="115.0dip" android:layout_height="115.0dip" android:layout_marginTop="216.0dip" android:src="@drawable/common_error_net" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/color_aaaaaa" android:gravity="center" android:id="@id/teris_page_empty_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="18.0dip" android:text="这里空空如也～" android:maxLines="1" android:layout_below="@id/teris_page_empty_img" android:layout_centerHorizontal="true" />
+</RelativeLayout>

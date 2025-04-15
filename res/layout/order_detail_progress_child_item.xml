@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/margin_12dp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/line_item" android:background="@color/color_eeeeee" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginBottom="@dimen/margin_12dp" />
+    <TextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_999999" android:id="@id/tv_itemText" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/line_center" android:layout_width="fill_parent" android:layout_height="9.0dip" />
+    <TextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_999999" android:id="@id/tv_itemData" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

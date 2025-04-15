@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_component_corner_card" android:paddingBottom="@dimen/resource_size_15" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.pictures.bricks.component.artist.tab.ArtistTabLayout android:id="@id/component_tab_layout" android:layout_width="fill_parent" android:layout_height="@dimen/resource_size_68" android:layout_marginTop="@dimen/resource_size_15" style="@style/ChannelArtistTabStyle" />
+    <View android:background="#1a000000" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="@dimen/resource_size_10" android:layout_marginBottom="@dimen/resource_size_12" android:layout_marginStart="@dimen/resource_size_12" android:layout_marginEnd="@dimen/resource_size_12" />
+    <com.alient.onearch.adapter.component.tab.GenericTabViewContainer android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

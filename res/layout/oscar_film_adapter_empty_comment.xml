@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/comment_empty_bg" android:layout_width="120.0dip" android:layout_height="120.0dip" />
+    <TextView android:textSize="18.0dip" android:textColor="#ff333333" android:id="@id/comment_empty_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="当前标签还没有影评哦" />
+    <TextView android:textSize="13.0dip" android:textColor="#ff999999" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="“要不先看看其他的~”" />
+</LinearLayout>

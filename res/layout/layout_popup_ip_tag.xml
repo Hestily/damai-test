@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="42.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ip_tags_tag_bg" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginRight="12.0dip">
+        <TextView android:textSize="14.0dip" android:textColor="@color/color_9C9CA5" android:gravity="center_vertical" android:id="@id/ip_tags_tag_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="9.0dip" android:layout_marginRight="9.0dip" android:maxWidth="140.0dip" android:maxLines="1" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="16.0dip" android:textColor="@color/color_3c3f44" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/ip_tags_tag_zan" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:text="@string/iconfont_zan24" android:layout_toRightOf="@id/ip_tags_tag_title" />
+        <TextView android:textSize="10.0dip" android:textColor="@color/color_9C9CA5" android:gravity="center_vertical" android:id="@id/ip_tags_tag_count" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="9.0dip" android:text="101" android:layout_toRightOf="@id/ip_tags_tag_zan" android:layout_centerVertical="true" />
+    </LinearLayout>
+</FrameLayout>

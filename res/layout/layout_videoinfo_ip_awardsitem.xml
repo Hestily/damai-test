@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/ipinfo_descinfo" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="@color/mask_white_80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_huabian" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/mask_white_80" android:gravity="center" android:id="@id/brand_header_desc_tag" android:layout_width="wrap_content" android:layout_height="41.5dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="这是一个|和高效的|这是" android:maxLines="1" />
+    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="@color/mask_white_80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_huabianfan" />
+</LinearLayout>

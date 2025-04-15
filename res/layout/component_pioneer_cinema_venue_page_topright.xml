@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/venuepage_topright_brand" layout="@layout/component_pioneer_cinema_venue_page_topright_item" />
+    <View android:id="@id/venuepage_topright_midgap" android:layout_width="6.0dip" android:layout_height="6.0dip" />
+    <include android:id="@id/venuepage_topright_venue" layout="@layout/component_pioneer_cinema_venue_page_topright_item" />
+</LinearLayout>

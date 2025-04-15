@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/fl_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_25dp" android:textColor="@color/white" android:gravity="center" android:id="@id/iv_icon" android:background="@drawable/bg_message_recommend_icon" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginRight="@dimen/margin_15dp" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_unread_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" />
+    </FrameLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/rl_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginRight="18.0dip" android:layout_marginBottom="21.0dip" android:layout_toRightOf="@id/fl_icon">
+        <RelativeLayout android:id="@id/rl_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <TextView android:textSize="12.0dip" android:textColor="#ffaaaaaa" android:id="@id/tv_latest_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="18.0dip" android:textColor="#ff111111" android:ellipsize="end" android:id="@id/tv_model_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_toLeftOf="@id/tv_latest_time" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:textSize="14.0dip" android:textColor="#ff888888" android:ellipsize="end" android:id="@id/tv_latest_msg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:singleLine="true" android:layout_below="@id/rl_title" />
+    </RelativeLayout>
+</RelativeLayout>

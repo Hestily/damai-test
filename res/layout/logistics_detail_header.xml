@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="106.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="97.0dip">
+        <ImageView android:id="@id/iv_header_image" android:layout_width="45.0dip" android:layout_height="60.0dip" android:layout_marginLeft="@dimen/margin_18dp" android:layout_marginRight="@dimen/margin_12dp" android:src="@drawable/uikit_default_image_bg_gradient" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="60.0dip">
+            <TextView android:textSize="16.0dip" android:textColor="@color/main_color" android:id="@id/tv_info_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="已签收" />
+            <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <TextView android:textSize="12.0dip" android:textColor="@color/color_888888" android:id="@id/tv_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="顺丰快递：79387412983479312" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/color_888888" android:id="@id/tv_contact" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="官方电话：暂无" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/color_F5F5F5" android:layout_width="fill_parent" android:layout_height="9.0dip" />
+</LinearLayout>

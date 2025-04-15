@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="25.0" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_border_corner_white_12" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="75.0">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <cn.damai.trade.newtradeorder.ui.projectdetail.projectdetailitem.ui.view.AnchorIndicatorView android:id="@id/project_item_notice" android:layout_width="fill_parent" android:layout_height="53.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_16dp" android:textColor="#663c3f44" android:gravity="center" android:id="@id/project_notice_matter_complete_btn_tv" android:paddingLeft="@dimen/margin_21dp" android:paddingTop="@dimen/margin_18dp" android:paddingRight="@dimen/margin_21dp" android:layout_width="wrap_content" android:layout_height="50.0dip" android:text="@string/iconfont_fucengguanbi16" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <androidx.viewpager.widget.ViewPager android:id="@id/project_notice_matter_view_pager" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:flipInterval="30" />
+    </LinearLayout>
+</LinearLayout>

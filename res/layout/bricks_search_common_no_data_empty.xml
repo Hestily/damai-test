@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/icon" android:layout_width="220.0dip" android:layout_height="220.0dip" android:src="@drawable/bricks_common_error_empty" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="14.0dip" android:textColor="#ff9c9ca4" android:gravity="center_horizontal" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="160.0dip" android:layout_below="@id/icon" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

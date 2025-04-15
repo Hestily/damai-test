@@ -1,0 +1,83 @@
+{
+  "id": "gaia_dm_music_festival_ip_list_item",
+  "type": "gaia-template",
+  "package": {
+    "engines": { "gaiax": ">=0.0.1" },
+    "id": "gaia_dm_music_festival_ip_list_item",
+    "version": "0",
+    "priority": "0",
+    "modify-timestamp": "Mon Mar 27 2023 11:24:55 GMT+0800 (中国标准时间)",
+    "constraint-size": { "width": 220, "height": 233, "zoom": 1 },
+    "dependencies": {}
+  },
+  "layers": [
+    {
+      "id": "container",
+      "type": "view",
+      "layers": [
+        { "id": "bg", "type": "image" },
+        {
+          "id": "header_container",
+          "type": "view",
+          "layers": [
+            {
+              "id": "header_content",
+              "type": "view",
+              "layers": [
+                {
+                  "id": "title_contaier",
+                  "type": "view",
+                  "layers": [
+                    { "id": "header_title", "type": "text" },
+                    { "id": "header_right_arrow", "type": "iconfont" }
+                  ]
+                },
+                { "id": "header_subtitle", "type": "text" }
+              ]
+            },
+            {
+              "id": "header_img_container",
+              "type": "view",
+              "layers": [
+                { "id": "header_img", "type": "image" },
+                { "id": "vip_tag", "type": "image" }
+              ]
+            }
+          ]
+        },
+        { "id": "line", "type": "view" },
+        {
+          "id": "content_container",
+          "type": "view",
+          "layers": [
+            { "id": "content_img", "type": "image" },
+            {
+              "id": "content_right",
+              "type": "view",
+              "layers": [
+                {
+                  "id": "content_right_text",
+                  "type": "view",
+                  "layers": [
+                    { "id": "content_title", "type": "text" },
+                    { "id": "content_subtitle", "type": "text" }
+                  ]
+                },
+                {
+                  "id": "content_price",
+                  "type": "view",
+                  "layers": [
+                    { "id": "price_prefix", "type": "text" },
+                    { "id": "price_num", "type": "text" },
+                    { "id": "price_suffix", "type": "text" }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        { "id": "bottom_text", "type": "richtext" }
+      ]
+    }
+  ]
+}

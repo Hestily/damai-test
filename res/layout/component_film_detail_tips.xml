@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingBottom="@dimen/resource_size_10" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/bg_film_detail_tips" android:layout_width="fill_parent" android:layout_height="@dimen/resource_size_33" android:paddingStart="@dimen/resource_size_10">
+        <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="@dimen/font_Subhead2_R" android:textColor="#ffff8533" android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconf_off_muted" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/resource_size_1" />
+        <TextView android:textSize="@dimen/font_Subhead2_R" android:textColor="#ffff8533" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_centerVertical="true" android:layout_toStartOf="@id/action_layout" android:layout_toEndOf="@id/icon" />
+        <RelativeLayout android:gravity="center" android:id="@id/action_layout" android:layout_width="@dimen/resource_size_33" android:layout_height="@dimen/resource_size_33" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+            <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="@dimen/font_Subhead2_R" android:textColor="#ffff8533" android:id="@id/action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/film_reputation_zero_info_ll" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/cg_1" android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/film_waiting_for_you" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/film_detail_reputation_empty_desc" android:maxLines="1" android:includeFontPadding="false" />
+    <TextView android:textSize="10.0dip" android:textColor="@color/color_tpp_primary_assist" android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/film_find_nice_movie" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_3dp" android:text="@string/film_detail_reputation_empty_sub_desc" android:maxLines="1" android:includeFontPadding="false" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/ll_mine_order_container" android:background="@color/white" layout="@layout/layout_mine_user_center_order" />
+    <include android:background="@color/white" layout="@layout/layout_mine_user_center_service" />
+    <include layout="@layout/layout_mine_user_center_logistics" />
+</merge>

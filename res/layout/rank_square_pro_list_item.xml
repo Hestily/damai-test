@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/aliuser_bg_color" android:paddingLeft="@dimen/margin_15dp" android:paddingTop="15.0dip" android:paddingRight="@dimen/margin_14dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/squre_image_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <cn.damai.tetris.component.online.viewholder.OnLinePosterView android:id="@id/squre_image_project" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="64.0dip" android:src="@drawable/uikit_default_image_bg_gradient" android:scaleType="fitXY" app:borderRadius="6.0dip" app:type="round" />
+            <cn.damai.tetris.component.online.viewholder.OnLinePosterView android:id="@id/squre_image_theme" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/uikit_default_image_bg_gradient" android:scaleType="fitXY" app:borderRadius="6.0dip" app:type="round" />
+        </RelativeLayout>
+        <ImageView android:id="@id/icon_index" android:layout_width="@dimen/margin_16dp" android:layout_height="@dimen/margin_16dp" android:layout_alignBottom="@id/squre_image_layout" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/color_000000" android:ellipsize="end" android:id="@id/squre_tv_rank_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="开心麻花" android:maxLines="2" android:layout_toRightOf="@id/squre_image_layout" android:lineSpacingMultiplier="1.2" />
+        <LinearLayout android:id="@id/theme_price_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/squre_image_layout" android:layout_alignBottom="@id/squre_image_layout">
+            <cn.damai.uikit.number.DMDigitTextView android:textSize="10.0dip" android:textColor="@color/color_ff2d79" android:gravity="bottom" android:layout_gravity="bottom" android:id="@id/tv_money_mark" android:paddingLeft="@dimen/margin_12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="¥" />
+            <cn.damai.uikit.number.DMDigitTextView android:textSize="16.0dip" android:textColor="@color/color_ff2d79" android:gravity="bottom" android:layout_gravity="bottom" android:id="@id/tv_money" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="690" />
+            <TextView android:textSize="10.0dip" android:textColor="#ff9c9ca5" android:gravity="bottom" android:layout_gravity="bottom" android:paddingLeft="@dimen/margin_3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="起" />
+        </LinearLayout>
+        <cn.damai.uikit.number.DMDigitTextView android:textSize="10.0dip" android:textColor="#ff9c9ca5" android:ellipsize="end" android:id="@id/join_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_12dp" android:singleLine="true" android:layout_toRightOf="@id/squre_image_layout" android:layout_alignBottom="@id/squre_image_layout" />
+        <cn.damai.uikit.number.DMDigitTextView android:textSize="12.0dip" android:textColor="@color/color_ff2d79" android:id="@id/tv_money_mark_unknown" android:paddingLeft="@dimen/margin_12dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="价格待定" android:layout_toRightOf="@id/squre_image_layout" android:layout_alignBottom="@id/squre_image_layout" />
+    </RelativeLayout>
+    <View android:id="@id/bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/margin_9dp" />
+</LinearLayout>

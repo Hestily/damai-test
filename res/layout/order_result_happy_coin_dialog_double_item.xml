@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/icon" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginTop="8.0dip" android:src="@drawable/happy_coin_icon" android:layout_centerHorizontal="true" />
+        <View android:id="@id/happy_coin_right" android:background="@drawable/happy_coin_right" android:visibility="invisible" android:layout_width="21.0dip" android:layout_height="21.0dip" android:layout_marginLeft="28.0dip" android:layout_marginTop="26.0dip" />
+        <View android:id="@id/happy_coin_double_icon" android:background="@drawable/happy_coin_double" android:layout_width="25.0dip" android:layout_height="15.0dip" android:layout_marginLeft="34.0dip" />
+    </RelativeLayout>
+    <TextView android:textSize="10.0dip" android:textColor="@color/color_tpp_primary_assist" android:layout_gravity="center_horizontal" android:id="@id/happy_coin_double_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" />
+</FrameLayout>

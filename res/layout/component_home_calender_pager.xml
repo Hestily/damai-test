@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:paddingBottom="@dimen/resource_size_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alient.onearch.adapter.component.pager.GridViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" />
+    <com.alient.onearch.adapter.widget.indicator.PagerIndicator android:layout_gravity="bottom|center" android:id="@id/indicator" android:background="@drawable/bricks_home_calendar_indicator_bg" android:layout_width="@dimen/resource_size_18" android:layout_height="@dimen/resource_size_4" app:indicator_auto_size="true" app:indicator_drawable="@drawable/onearch_tab_layout_item_indicator" app:indicator_drawable_unselected="@drawable/bricks_home_calender_item_normal" app:indicator_height="@dimen/resource_size_4" app:indicator_margin="0.0dip" app:indicator_width="@dimen/resource_size_9" />
+</FrameLayout>

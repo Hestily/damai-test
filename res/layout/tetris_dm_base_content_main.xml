@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/content_vip_header_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/content_vip_divide_line_layout" android:background="@color/white" android:paddingLeft="@dimen/margin_21dp" android:paddingTop="@dimen/margin_17dp" android:paddingRight="@dimen/margin_21dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <View android:background="#26000000" android:layout_width="0.0dip" android:layout_height="0.5dip" android:layout_weight="1.0" />
+            <ImageView android:layout_width="94.0dip" android:layout_height="14.0dip" android:src="@drawable/icon_vip_title" />
+            <View android:background="#26000000" android:layout_width="0.0dip" android:layout_height="0.5dip" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/content_vip_join_button_layout" android:background="@color/transparent" android:paddingLeft="21.0dip" android:paddingRight="21.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TextView android:textSize="16.0dip" android:textColor="#fff8d2b2" android:gravity="center" android:id="@id/content_vip_join_button_text" android:background="@drawable/bg_border_corner_ff_black_22" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginTop="8.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/content_style_title_container" android:paddingLeft="21.0dip" android:paddingTop="12.0dip" android:paddingRight="21.0dip" android:paddingBottom="0.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <include layout="@layout/tetris_dm_base_content_main_title_layout" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/content_main_list" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/margin_12dp" android:textColor="#ff30aeff" android:gravity="center_horizontal" android:id="@id/content_main_list_show_more" android:background="@color/white" android:paddingBottom="@dimen/margin_18dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="展开更多" />
+</LinearLayout>

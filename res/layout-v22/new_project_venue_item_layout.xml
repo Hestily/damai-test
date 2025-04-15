@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/id_bricks_venue_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="end" android:id="@id/venue_ui_bg" android:layout_width="104.0dip" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="@dimen/resource_size_12" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/venue_ui" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="14.0dip" android:textColor="@color/black" android:ellipsize="end" android:id="@id/venue_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/id_bricks_venue_name_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip">
+                <TextView android:textSize="12.0dip" android:textColor="@color/color_69717c" android:ellipsize="end" android:id="@id/venue_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:lines="1" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/extra_ui" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/extra_ui" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" app:layout_constraintBottom_toBottomOf="@id/venue_address" app:layout_constraintEnd_toStartOf="@id/extends_view" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toEndOf="@id/venue_address" app:layout_constraintTop_toTopOf="parent">
+                    <View android:id="@id/show_count_tv_grap" android:background="@color/color_9C9CA5" android:layout_width="0.5dip" android:layout_height="10.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:alpha="0.4" android:layout_marginHorizontal="5.0dip" />
+                    <TextView android:textSize="12.0dip" android:textColor="?bgDetailVenueCountColor" android:id="@id/show_count_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="10.0dip" android:textColor="@color/color_9C9CA5" android:id="@id/show_count_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.5dip" android:text="@string/iconfont_youjiantou12" />
+                </LinearLayout>
+                <View android:id="@id/extends_view" android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="1.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/extra_ui" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_min="1.0dip" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/with_seat_pic_ui" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip">
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="18.0dip" android:textColor="?bgDetailVenueColor" android:id="@id/seat_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_xuanzuo" />
+            <com.alibaba.pictures.bricks.view.DigitTextView android:textSize="10.0dip" android:textColor="?bgDetailVenueDescColor" android:id="@id/with_seat_pic_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="无座位图" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/venue_map_ui" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip">
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="18.0dip" android:textColor="?bgDetailVenueColor" android:id="@id/venue_location_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_dizhi" />
+            <com.alibaba.pictures.bricks.view.DigitTextView android:textSize="10.0dip" android:textColor="?bgDetailVenueDescColor" android:id="@id/venue_distance_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="- -" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:id="@id/id_venue_divider" android:background="@color/bricks_959AA5" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:alpha="0.15" android:layout_marginHorizontal="12.0dip" />
+</FrameLayout>

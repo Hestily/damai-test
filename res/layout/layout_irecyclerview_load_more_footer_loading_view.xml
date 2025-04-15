@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.damai.uikit.irecycler.widget.LoadingView android:layout_gravity="center" android:layout_width="36.0dip" android:layout_height="36.0dip" style="?android:progressBarStyleSmallInverse"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,33 @@
+{
+  "event": { "damai_script_play_cell_go_see": { "eventName": "item" } },
+  "data": {
+    "play_image": {
+      "value": "@{eval(size(${posterUrl}) > 0) ? ${posterUrl} : @{env(isAndroid) ? 'gaiax_res:uikit_default_image_bg_grey' : 'gaiax_res:script_other_relate_script_default_image' }}",
+      "placeholder": "@{env(isAndroid) ? 'uikit_default_image_bg_grey' : 'script_other_relate_script_default_image' }"
+    },
+    "play_title": { "value": "${name}", "extend": { "fit-content": "true" } },
+    "score_and_rank": { "extend": { "display": "@{${score} ? flex : none}" } },
+    "score_desc": {
+      "value": "大麦评分",
+      "extend": {
+        "fit-content": "true",
+        "display": "@{${score} ? flex : none}"
+      }
+    },
+    "score_num": {
+      "value": "${score}",
+      "extend": {
+        "fit-content": "true",
+        "display": "@{${score} ? flex : none}"
+      }
+    },
+    "play_introduce": {
+      "value": "${playDesc}",
+      "extend": {
+        "fit-content": "true",
+        "display": "@{${playDesc} ? flex : none}"
+      }
+    },
+    "see_text": { "value": "去看看" }
+  }
+}

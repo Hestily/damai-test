@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.moimage.MoImageView android:id="@id/discover_want_flip_image" android:layout_width="fill_parent" android:layout_height="fill_parent" app:failureImage="@drawable/bricks_image_bg_pioneer_r9" app:placeholderImage="@drawable/bricks_image_bg_pioneer_r9" />
+    <com.alibaba.pictures.moimage.MoImageView android:id="@id/discover_want_flip_want_icon" android:layout_width="10.0dip" android:layout_height="9.0dip" android:layout_marginLeft="4.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/project_item_want_tag_heart" />
+</FrameLayout>

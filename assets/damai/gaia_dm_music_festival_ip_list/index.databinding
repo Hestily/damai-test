@@ -1,0 +1,16 @@
+{
+  "data": {
+    "gaia_dm_music_festival_ip_list": {
+      "value": "${item.result}",
+      "extend": {
+        "item-type": {
+          "path": "@{ ${contents} ? styleB : styleA}",
+          "config": {
+            "styleA": "gaia_dm_music_festival_ip_list_item",
+            "styleB": "gaia_dm_music_festival_ip_list_item_multi"
+          }
+        }
+      }
+    }
+  }
+}

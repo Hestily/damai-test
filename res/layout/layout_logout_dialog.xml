@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/lay_sex_sel" android:background="@drawable/shape_jubao" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+        <TextView android:textSize="12.0dip" android:textColor="@color/color_888888" android:gravity="center" android:id="@id/tv_first" android:layout_width="fill_parent" android:layout_height="45.0dip" android:text="确定要退出登录吗？" />
+        <View android:background="@color/line_color_dd" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <TextView android:textSize="18.0dip" android:textColor="@color/main_color" android:gravity="center" android:id="@id/tv_second" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="确认" />
+    </LinearLayout>
+    <TextView android:textSize="18.0dip" android:textColor="#ff007aff" android:gravity="center" android:id="@id/tv_cancel" android:background="@drawable/shape_jubao" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/Cancel" />
+</LinearLayout>

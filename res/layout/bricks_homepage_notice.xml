@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dim_6" android:paddingEnd="@dimen/dim_6"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/bricks_home_notice_bg" android:layout_width="fill_parent" android:layout_height="36.0dip">
+        <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="20.0dip" android:textColor="#ff3c3f44" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_shengyin" android:layout_marginStart="9.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="@dimen/font_Subhead2_R" android:textColor="@color/bricks_2e333e" android:ellipsize="end" android:id="@id/home_notice_content" android:layout_width="0.0dip" android:layout_height="wrap_content" android:lines="1" android:layout_marginStart="6.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/home_notice_arrow" app:layout_constraintStart_toEndOf="@id/tv_title" app:layout_constraintTop_toTopOf="parent" />
+        <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="10.0dip" android:textColor="#ff3c3f44" android:id="@id/home_notice_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_youjiantou_" android:layout_marginEnd="8.5dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

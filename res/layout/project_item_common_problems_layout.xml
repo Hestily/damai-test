@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/color_ffffff" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fl="http://schemas.android.com/apk/res-auto">
+    <cn.damai.uikit.flowlayout.FlowLayout android:orientation="horizontal" android:id="@id/project_common_problems_fl" android:background="@color/color_ffffff" android:paddingLeft="16.0dip" android:paddingTop="@dimen/project_modul_top" android:paddingRight="@dimen/margin_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content" fl:layoutDirection="ltr" />
+    <TextView android:textSize="13.0dip" android:textColor="#ff30aeff" android:gravity="center" android:id="@id/project_item_more_text_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_5dp" android:layout_marginBottom="@dimen/margin_15dp" android:text="更多问题" android:includeFontPadding="false" />
+</LinearLayout>

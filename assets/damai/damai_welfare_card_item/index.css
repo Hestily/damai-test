@@ -1,0 +1,71 @@
+#damai_welfare_card_item {
+  flex-direction: column;
+  align-items: center;
+  height: 66px;
+  width: 100%;
+}
+#project_poster {
+  mode: aspectFill;
+  height: 66px;
+  border-color: #00000026;
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 3px;
+  width: 100%;
+}
+#category_view {
+  position: absolute;
+  justify-content: flex-end;
+  align-items: center;
+  padding-left: 3px;
+  padding-right: 2px;
+  width: 100%;
+  height: 18px;
+}
+#category_tag {
+  text-overflow: ellipsis;
+  color: #ffffff;
+  font-size: 9px;
+  fit-content: true;
+  flex-shrink: 1;
+  text-align: left;
+  background-color: #000000e6;
+  border-radius: 3px;
+}
+#discount_cover {
+  position: absolute;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  background-image: linear-gradient(to bottom, #00000000 0%, #00000059 50%, #000000b3 100%);
+  align-items: flex-end;
+  padding-top: 10px;
+  width: 100%;
+  height: 32px;
+  top: 34px;
+  padding-left: 4px;
+  padding-bottom: 0px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+#discount_zaoniao {
+  width: 26px;
+  height: 9px;
+  border-radius: 0px;
+  margin-bottom: 4px;
+}
+#discount_point {
+  width: 100px;
+  text-overflow: ellipsis;
+  color: #ffffff;
+  font-size: 13px;
+  fit-content: true;
+  font-family: URWDIN-Medium;
+  height: 18px;
+}
+#discount_desc {
+  color: #ffffff;
+  font-size: 10px;
+  width: 100px;
+  height: 12px;
+  margin-bottom: 3px;
+}

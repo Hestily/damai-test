@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/damai_list_bg" android:paddingLeft="@dimen/margin_21dp" android:paddingTop="@dimen/margin_18dp" android:paddingRight="@dimen/margin_21dp" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/iv_project_image_layout" android:background="@drawable/bg_border_corner_stroke_1_radius_6" android:padding="1.0px" android:layout_width="48.0dip" android:layout_height="64.0dip">
+            <cn.damai.uikit.view.RoundImageView android:id="@id/iv_project_image" android:layout_width="fill_parent" android:layout_height="fill_parent" app:borderRadius="6.0dip" app:type="round" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/margin_12dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/margin_16dp" android:textColor="@color/color_000000" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_project_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:lineSpacingMultiplier="1.2" />
+            <TextView android:textSize="12.0dip" android:textColor="#ff9c9ca5" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_project_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/tv_project_div" android:background="@color/color_eeeeee" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="@dimen/margin_18dp" />
+</LinearLayout>

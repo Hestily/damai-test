@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.drama.mvp.ProjectBroadcastListModel",
+    "vClass": "cn.damai.tetris.component.drama.mvp.ProjectBroadcastListView",
+    "pClass": "cn.damai.tetris.component.drama.mvp.ProjectBroadcastListPresenter",
+    "layoutXml": "item_tetris_project_broadcast_list"
+  }
+}

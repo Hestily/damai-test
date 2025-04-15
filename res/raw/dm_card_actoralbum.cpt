@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.common.ActorAlbumModel",
+    "vClass": "cn.damai.tetris.component.common.ActorAlbumView",
+    "pClass": "cn.damai.tetris.component.common.ActorAlbumPresenter",
+    "layoutXml": "layout_actoralbum_ip"
+  }
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="#fffaf4f2" android:layout_width="fill_parent" android:layout_height="68.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.taobao.movie.android.commonui.widget.SimpleDraweeView android:id="@id/city_pass_icon" android:layout_width="37.0dip" android:layout_height="30.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="18.0dip" fresco:placeholderImage="@drawable/citypass_big" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="14.0dip" android:textColor="@color/color_tpp_primary_main_title" android:ellipsize="end" android:id="@id/city_pass_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="已开通杭州城市卡，体验期7天后到期" android:includeFontPadding="false" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/color_tpp_primary_main_title" android:id="@id/city_pass_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="已节省5元" />
+    </LinearLayout>
+    <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="11.0dip" android:textColor="#ffd4b675" android:id="@id/profile_item_right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="16.0dip" android:text="@string/iconf_right_arrow_bold" />
+</LinearLayout>

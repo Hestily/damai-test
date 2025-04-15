@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.taobao.movie.android.commonui.widget.TppGifImageView android:id="@id/image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" fresco:actualImageScaleType="fitXY" fresco:backgroundImage="@color/common_text_color14" fresco:fadeDuration="0" fresco:failureImage="@drawable/content_default_logo" fresco:failureImageScaleType="centerInside" fresco:placeholderImage="@drawable/content_default_logo" fresco:placeholderImageScaleType="centerInside" fresco:retryImage="@drawable/content_default_logo" fresco:retryImageScaleType="centerInside" style="@style/small_round_style" />
+    <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="12.0dip" android:textColor="@color/white" android:layout_gravity="bottom" android:id="@id/image_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" />
+</merge>

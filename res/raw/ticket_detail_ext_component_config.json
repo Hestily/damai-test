@@ -1,0 +1,219 @@
+{
+  "components": [
+    {
+      "type": 9996,
+      "tag": "sticky_header",
+      "layout": {
+        "layoutType": "sticky",
+        "params": {
+          "backgroundColor": "#FFFFFF"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 9996,
+          "layoutID": "component_sticky_ticket_ext_margin_header_venue",
+          "model": "com.alient.onearch.adapter.component.header.sticky.StickyHeaderModel",
+          "present": "com.alient.onearch.adapter.component.header.sticky.StickyHeaderPresent",
+          "view": "com.alient.onearch.adapter.component.header.sticky.StickyHeaderView"
+        }
+      ]
+    },
+    {
+      "type": 7537,
+      "tag": "divider",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7526,
+          "layoutID": "component_ticket_ext_divider",
+          "viewHolder": "cn.damai.ticklet.ui.detailholder.TicketExtDividerViewHolder"
+        },
+        {
+          "type": 7529,
+          "layoutID": "component_ticket_nft_ext_divider",
+          "viewHolder": "cn.damai.ticklet.ui.detailholder.TicketExtDividerViewHolder"
+        },
+        {
+          "type": 7530,
+          "layoutID": "component_ticket_holder_ext_divider",
+          "viewHolder": "cn.damai.ticklet.ui.detailholder.TicketExtHolderViewHolder"
+        },
+        {
+          "type": 7531,
+          "layoutID": "component_ticket_holder_ext_no_divider",
+          "viewHolder": "cn.damai.ticklet.ui.detailholder.TicketExtHolderViewHolder"
+        }
+      ]
+    },
+    {
+      "type": 7530,
+      "tag": "instruction",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7519,
+          "layoutID": "component_ticket_ext_service",
+          "viewHolder": "cn.damai.ticklet.ui.detailholder.TicketExtServiceViewHolder",
+          "params": {
+            "bean": "cn.damai.ticklet.bean.TicketExtServiceBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7535,
+      "tag": "exchange_tag",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7524,
+          "layoutID": "component_ticket_ext_service",
+          "viewHolder": "cn.damai.ticklet.ui.detailholder.TicketExtServiceViewHolder",
+          "params": {
+            "bean": "cn.damai.ticklet.bean.TicketExtServiceBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7532,
+      "tag": "order_detail",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7521,
+          "layoutID": "component_ticket_ext_service",
+          "viewHolder": "cn.damai.ticklet.ui.detailholder.TicketExtOrderViewHolder",
+          "params": {
+            "bean": "cn.damai.ticklet.bean.TicketExtServiceBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7536,
+      "tag": "order_detail",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7525,
+          "layoutID": "component_ticket_ext_service",
+          "viewHolder": "cn.damai.ticklet.ui.detailholder.TicketExtServiceViewHolder",
+          "params": {
+            "bean": "cn.damai.ticklet.bean.TicketExtServiceBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7533,
+      "tag": "faq",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7522,
+          "layoutID": "component_ticket_ext_faq",
+          "viewHolder": "cn.damai.ticklet.ui.detailholder.TicketExtFAQViewHolder",
+          "params": {
+            "bean": "cn.damai.ticklet.bean.TicketExtFAQBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7534,
+      "tag": "ad",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7523,
+          "layoutID": "ticklet_detail_advert_module_item_view",
+          "viewHolder": "cn.damai.ticklet.ui.detailholder.TicketExtAdViewHolder",
+          "params": {
+            "bean": "cn.damai.ticklet.bean.TicketExtAdListsBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7531,
+      "tag": "map",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7520,
+          "layoutID": "component_ticket_ext_scene_venue",
+          "viewHolder": "cn.damai.ticklet.ui.detailholder.TicketExtMapViewHolder",
+          "params": {
+            "bean": "cn.damai.ticklet.bean.TicketExtMapBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7538,
+      "tag": "perform",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7527,
+          "layoutID": "ticklet_detail_perform_ticket_kernel_layout",
+          "viewHolder": "cn.damai.ticklet.ui.detailholder.TicketDetailPerformViewHolder"
+        }
+      ]
+    },
+    {
+      "type": 7539,
+      "tag": "bottom_shadow",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7528,
+          "layoutID": "component_ticket_bottom_shadow",
+          "viewHolder": "cn.damai.ticklet.ui.detailholder.TicketBottomShadowViewHolder"
+        }
+      ]
+    }
+  ]
+}

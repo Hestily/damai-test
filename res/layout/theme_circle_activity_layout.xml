@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/color_ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fragment_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.damai.uikit.view.CircleSimpleTitleLayout android:id="@id/theme_circle_title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="right" android:orientation="vertical" android:id="@id/circle_new_publish_ui" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_marginBottom="5.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <ImageView android:layout_width="52.0dip" android:layout_height="52.0dip" android:src="@drawable/icon_publish_new_add" />
+    </LinearLayout>
+</RelativeLayout>

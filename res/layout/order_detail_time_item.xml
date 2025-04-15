@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="@dimen/margin_15dp" android:paddingTop="@dimen/margin_18dp" android:paddingRight="@dimen/margin_15dp" android:paddingBottom="@dimen/margin_18dp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/margin_16dp" android:textColor="@color/color_000000" android:paddingBottom="@dimen/margin_6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="订单信息" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/margin_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_999999" android:id="@id/tv_order_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="订单编号：1050699618" android:layout_weight="1.0" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/color_FF2D79" android:id="@id/tv_order_copy_id" android:paddingLeft="@dimen/margin_12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_12dp" android:text="复制" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_order_time_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

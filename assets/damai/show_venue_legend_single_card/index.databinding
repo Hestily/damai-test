@@ -1,0 +1,30 @@
+{
+  "data": {
+    "iv_poster": {
+      "value": "@{eval(size(${coverUrl}) > 0) ? ${coverUrl} : gaiax_res:bricks_venue_album_item_error}",
+      "placeholder": "bricks_venue_album_item_error"
+    },
+    "tv_top_tag": {
+      "value": "置顶",
+      "extend": { "display": "@{eval(${isTop} == 'true') ? flex : none}" }
+    },
+    "rl_scan": { "extend": { "display": "@{${pv} ? flex : none}" } },
+    "iv_scan": { "value": "gaiax_res:bricks_venue_legend_scan" },
+    "tv_scan_num": { "value": "${pv}" },
+    "rl_play": {
+      "extend": { "display": "@{eval(${hasVideo} == 'true') ? flex : none}" }
+    },
+    "iv_play": { "value": "gaiax_res:bricks_venue_legend_play" },
+    "tv_duration": {
+      "value": "${videoTime}",
+      "extend": { "display": "@{${videoTime} ? flex : none}" }
+    },
+    "tv_title": {
+      "value": "${title}",
+      "extend": {
+        "display": "@{${title} ? flex : none}",
+        "fit-content": "true"
+      }
+    }
+  }
+}

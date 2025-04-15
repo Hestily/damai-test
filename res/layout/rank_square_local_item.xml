@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="@dimen/margin_6dp" android:paddingTop="@dimen/margin_12dp" android:paddingRight="@dimen/margin_6dp" android:paddingBottom="@dimen/margin_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fl_image" android:layout_width="fill_parent" android:layout_height="120.0dip">
+        <View android:layout_gravity="center_vertical" android:id="@id/image_item3" android:background="@drawable/category_rank_step3_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="42.0dip" android:layout_marginTop="@dimen/margin_12dp" android:layout_marginBottom="@dimen/margin_12dp" />
+        <View android:layout_gravity="center_vertical" android:id="@id/image_item2" android:background="@drawable/category_rank_step2_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="24.0dip" android:layout_marginTop="@dimen/margin_6dp" android:layout_marginRight="@dimen/margin_6dp" android:layout_marginBottom="@dimen/margin_6dp" />
+        <cn.damai.uikit.view.RoundImageView android:layout_gravity="center_vertical" android:id="@id/image_item" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/margin_12dp" android:src="@drawable/uikit_default_image_bg_gradient" android:scaleType="fitXY" app:borderRadius="6.0dip" app:type="round" />
+        <ImageView android:background="@drawable/bg_border_corner_1a0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/margin_12dp" />
+        <cn.damai.uikit.tag.DMCategroyTagView android:layout_gravity="center|right|top" android:id="@id/image_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginRight="15.0dip" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_000000" android:ellipsize="end" android:id="@id/tv_rank_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="亲子上新榜" android:singleLine="true" />
+    <TextView android:textSize="@dimen/margin_12dp" android:textColor="#ff9c9ca5" android:ellipsize="end" android:id="@id/tv_rank_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="宝妈宝爸都在看" android:singleLine="true" />
+</LinearLayout>

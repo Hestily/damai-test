@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cube_ptr_hours_ago"> 小时之前</string>
+    <string name="cube_ptr_last_update">上次更新: </string>
+    <string name="cube_ptr_minutes_ago"> 分钟之前</string>
+    <string name="cube_ptr_pull_down">下拉</string>
+    <string name="cube_ptr_pull_down_to_refresh">下拉刷新</string>
+    <string name="cube_ptr_refresh_complete">更新完成.</string>
+    <string name="cube_ptr_refreshing">加载中...</string>
+    <string name="cube_ptr_release_to_refresh">释放刷新</string>
+    <string name="cube_ptr_seconds_ago"> 秒之前</string>
+    <string name="srl_component_falsify" formatted="false">"%s 虚假区域
+代表运行时拖动的高度【%.1fdp】 
+而不会显示任何东西"</string>
+    <string name="srl_content_empty">SmartRefreshLayout中没有找到内容视图。您是否忘记在xml布局文件中添加？</string>
+    <string name="srl_footer_failed">加载失败</string>
+    <string name="srl_footer_finish">加载完成</string>
+    <string name="srl_footer_loading">正在加载…</string>
+    <string name="srl_footer_nothing">没有更多数据了</string>
+    <string name="srl_footer_pulling">上拉加载更多</string>
+    <string name="srl_footer_refreshing">等待头部刷新完成…</string>
+    <string name="srl_footer_release">释放立即加载</string>
+    <string name="srl_header_failed">刷新失败</string>
+    <string name="srl_header_finish">刷新完成</string>
+    <string name="srl_header_loading">等待底部加载完成…</string>
+    <string name="srl_header_pulling">下拉可以刷新</string>
+    <string name="srl_header_refreshing">正在刷新…</string>
+    <string name="srl_header_release">释放立即刷新</string>
+    <string name="srl_header_secondary">释放进入二楼</string>
+    <string name="srl_header_update">上次更新 M-d HH:mm</string>
+</resources>

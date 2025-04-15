@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/margin_15dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/title_container" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/service_support_icon" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="15.0dip" />
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="15.0dip" android:textColor="#8c709bff" android:id="@id/service_support" android:paddingTop="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="12.0dip" android:textColor="@color/color_2E333E" android:id="@id/project_service_item_tag_name_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_69717c" android:id="@id/project_service_item_tag_desc_tv" android:paddingLeft="12.0dip" android:paddingTop="@dimen/margin_5dp" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/project_service_tag_lv" android:lineSpacingExtra="2.0dip" />
+    <include layout="@layout/layout_service_notice_conditional_refund" />
+    <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_69717c" android:id="@id/project_service_item_tag_desc_other_tv" android:paddingLeft="12.0dip" android:paddingTop="@dimen/margin_7dp" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/project_service_tag_lv" android:lineSpacingExtra="2.0dip" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" layout="@layout/layout_service_notice_item_action" />
+    <FrameLayout android:id="@id/project_service_item_tag_ll" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_7dp" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <cn.damai.uikit.view.RoundImageView android:id="@id/project_service_item_tag_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/uikit_default_image_bg_grey" app:borderRadius="6.0dip" app:type="round" />
+        <ImageView android:background="@drawable/bg_border_corner_dadfe4" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <View android:layout_width="fill_parent" android:layout_height="@dimen/margin_15dp" />
+    <View android:id="@id/line" android:background="#ffd5d7db" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
+</LinearLayout>

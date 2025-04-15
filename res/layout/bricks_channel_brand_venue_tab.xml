@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fl_channel_brand_venue_item" android:layout_width="wrap_content" android:layout_height="86.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/fl_channel_brand_venue_container_rect" android:background="@color/white" android:clipChildren="false" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginBottom="8.0dip">
+        <View android:id="@id/border_brand_venue" android:background="@drawable/bricks_bg_channel_brand_venue_border" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <androidx.cardview.widget.CardView android:id="@id/cv_channel_brand_venue_container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardCornerRadius="6.0dip" app:cardElevation="0.0dip">
+            <com.alibaba.pictures.moimage.MoImageView android:id="@id/iv_channel_brand_venue_tab" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:failureImage="@drawable/bricks_uikit_default_image_bg_gradient" app:placeholderImage="@drawable/bricks_uikit_default_image_bg_gradient" />
+        </androidx.cardview.widget.CardView>
+        <com.alibaba.pictures.bricks.view.CornerFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:clip_corner_radius="6.0dip">
+            <ImageView android:id="@id/iv_channel_brand_venue_shining" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/icon_artist_shining" />
+        </com.alibaba.pictures.bricks.view.CornerFrameLayout>
+        <TextView android:textSize="@dimen/resource_size_11" android:textColor="@color/white" android:ellipsize="end" android:gravity="bottom" android:layout_gravity="bottom" android:id="@id/tv_channel_brand_venue_name" android:background="@drawable/bricks_artist_name_bg" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:paddingBottom="@dimen/resource_size_4" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+    </FrameLayout>
+    <ImageView android:layout_gravity="bottom|center" android:id="@id/indicator_brand_venue_triangle" android:visibility="invisible" android:layout_width="20.5dip" android:layout_height="8.0dip" android:layout_marginTop="8.0dip" android:src="@drawable/bricks_channel_brand_venue_tab_triangle" android:scaleType="fitXY" />
+</FrameLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/color_ffffff" android:paddingLeft="@dimen/margin_21dp" android:paddingTop="@dimen/project_modul_top" android:paddingRight="@dimen/margin_21dp" android:paddingBottom="@dimen/project_modul_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="80.0dip" android:layout_height="80.0dip">
+        <cn.damai.uikit.view.RoundImageView android:id="@id/artist_image" android:layout_width="80.0dip" android:layout_height="80.0dip" android:src="@drawable/uikit_user_default_icon" android:scaleType="fitXY" app:type="circle" />
+        <ImageView android:background="@drawable/bg_border_oval_1a0_trans_project" android:layout_width="80.0dip" android:layout_height="80.0dip" android:scaleType="fitXY" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_12dp" android:layout_marginRight="@dimen/margin_12dp" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0dip" android:textColor="@color/color_000000" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/tv_artist_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            <cn.damai.uikit.view.DMLRLabelView android:id="@id/tv_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_6dp" />
+        </LinearLayout>
+        <TextView android:textSize="12.0dip" android:textColor="#ff9c9ca5" android:ellipsize="end" android:id="@id/tv_artist_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_2dp" android:maxLines="2" android:lineSpacingExtra="@dimen/margin_4dp" />
+    </LinearLayout>
+    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_12dp" android:textColor="#ff3c3f44" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_youjiantou24" />
+</LinearLayout>

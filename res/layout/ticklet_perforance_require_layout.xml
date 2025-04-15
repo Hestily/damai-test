@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/ticklet_common_title" />
+    <cn.damai.uikit.irecycler.IRecyclerView android:id="@id/ticklet_notice_list" android:background="@drawable/ticklet_perform_notice_bg" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginTop="@dimen/margin_16dp" android:layout_marginRight="@dimen/margin_15dp" android:layout_marginBottom="40.0dip" android:layout_weight="1.0" android:overScrollMode="never" app:refreshEnabled="true" app:refreshHeaderLayout="@layout/refresh_empty_view" />
+    <LinearLayout android:orientation="vertical" android:id="@id/errorPageView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

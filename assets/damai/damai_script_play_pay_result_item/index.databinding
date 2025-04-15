@@ -1,0 +1,55 @@
+{
+  "data": {
+    "pay_status_icon": {
+      "value": "@{eval(${isPaid} == 'true') ? @{${resultDesc} ? '&#xe641' : '&#xe642'} : '&#xe642'}",
+      "extend": {
+        "color": "@{eval(${isPaid} == 'true') ? @{${resultDesc} ? '#6DC772' : '#ffaa00'} : '#ffaa00'}"
+      }
+    },
+    "pay_status_text": {
+      "value": "@{${resultDesc} ? ${resultDesc} : '支付结果处理中'}",
+      "extend": {
+        "fit-content": "true",
+        "color": "@{eval(${isPaid} == 'true') ? @{${resultDesc} ? '#6DC772' : '#ffaa00'} : '#ffaa00'}"
+      }
+    },
+    "pay_result_desc": {
+      "value": "${paymentInfo}",
+      "extend": { "height": "@{${paymentInfo} ? 56px : 25px}" }
+    },
+    "home_btn_text": {
+      "value": "@{eval(${buttons[0].buttonType} == '1') ? ${buttons[0].buttonText} : ${buttons[1].buttonText}}"
+    },
+    "order_btn_text": {
+      "value": "@{eval(${buttons[0].buttonType} == '2') ? ${buttons[0].buttonText} : ${buttons[1].buttonText}}"
+    }
+  },
+  "event": {
+    "home_btn": {
+      "eventName": "home_action",
+      "nativeUrl": "@{eval(${buttons[0].buttonType} == '1') ? ${buttons[0].nativeUrl} : ${buttons[1].nativeUrl}}",
+      "trackInfo": {
+        "args": {
+          "titlelabel": "@{eval(${isPaid} == 'true') ? '200' : @{eval(${isPaid} == 'false') ? '201' : '500'}}",
+          "contentlabel": "@{${resultDesc} ? ${resultDesc} : '支付结果处理中'}"
+        },
+        "trackType": "all",
+        "spmc": "tools",
+        "spmd": "gotohomebtn"
+      }
+    },
+    "order_btn": {
+      "eventName": "order_action",
+      "nativeUrl": "@{eval(${buttons[0].buttonType} == '2') ? ${buttons[0].nativeUrl} : ${buttons[1].nativeUrl}}",
+      "trackInfo": {
+        "args": {
+          "titlelabel": "@{eval(${isPaid} == 'true') ? '200' : @{eval(${isPaid} == 'false') ? '201' : '500'}}",
+          "contentlabel": "@{${resultDesc} ? ${resultDesc} : '支付结果处理中'}"
+        },
+        "trackType": "all",
+        "spmc": "tools",
+        "spmd": "showorderdetailbtn"
+      }
+    }
+  }
+}

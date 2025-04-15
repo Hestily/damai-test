@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="159.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/blur_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.viewpager2.widget.ViewPager2 android:layout_gravity="top" android:id="@id/super_card_project_info_view_pager" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.alient.onearch.adapter.widget.banner.IndicatorView android:layout_gravity="center_horizontal" android:id="@id/indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/resource_size_24" android:layout_marginRight="@dimen/resource_size_24" android:layout_marginBottom="@dimen/resource_size_6" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

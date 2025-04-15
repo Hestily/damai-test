@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/add_address_root_lv" android:background="@color/color_f8f8f8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/common_business_add_address_title_lv" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/top_status_bar_space" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+        <RelativeLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="48.0dip">
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_18dp" android:textColor="@color/color_000000" android:gravity="center_vertical" android:id="@id/common_business_add_address_title_left_tv" android:paddingLeft="@dimen/margin_15dp" android:paddingRight="@dimen/margin_15dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/iconfont_fanhui18" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="@dimen/textsize_18" android:textColor="@color/color_000000" android:gravity="center" android:id="@id/common_business_add_address_title_main_tv" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="新增收货地址" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <View style="@style/style_horizontal_line_mine_page" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@color/color_ffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <TextView android:id="@id/common_business_consignee_name_text" android:text="@string/common_business_str_consignee" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/style_add_address_left_static_text" />
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_16dp" android:textColor="@color/color_ff2d79" android:gravity="center_vertical" android:id="@id/common_business_choose_consignee_tv" android:paddingRight="@dimen/margin_15dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/iconfont_gerenshezhi24" android:layout_alignParentRight="true" />
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:id="@id/common_business_clear_consignee_name_iv" android:layout_toLeftOf="@id/common_business_choose_consignee_tv" style="@style/style_add_address_clear_btn" />
+            <EditText android:id="@id/common_business_consignee_name_et" android:hint="@string/common_business_str_hint_input_consignee_name" android:layout_toLeftOf="@id/common_business_clear_consignee_name_iv" android:layout_toRightOf="@id/common_business_consignee_name_text" android:imeOptions="actionDone" style="@style/style_add_address_edit_text" />
+        </RelativeLayout>
+        <View style="@style/style_add_address_divider_line" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <TextView android:id="@id/common_business_consignee_phone_text" android:layout_height="wrap_content" android:text="@string/common_business_str_phone_num" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/style_add_address_left_static_text" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/common_business_area_code_container_lv" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+                <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_999999" android:gravity="center" android:id="@id/common_business_area_code_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+86" android:layout_toLeftOf="@id/common_business_area_code_indicator_tv" />
+                <cn.damai.uikit.iconfont.DMIconFontTextView android:id="@id/common_business_area_code_indicator_tv" android:layout_centerVertical="true" style="@style/style_add_address_right_arrow" />
+            </LinearLayout>
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:id="@id/common_business_clear_consignee_phone_iv" android:layout_toLeftOf="@id/common_business_area_code_container_lv" style="@style/style_add_address_clear_btn" />
+            <EditText android:id="@id/common_business_consignee_phone_et" android:hint="@string/common_business_str_hint_input_phone_num" android:layout_toLeftOf="@id/common_business_clear_consignee_phone_iv" android:layout_toRightOf="@id/common_business_consignee_phone_text" style="@style/style_add_address_edit_text" />
+        </RelativeLayout>
+        <View style="@style/style_add_address_divider_line" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <TextView android:id="@id/common_business_consignee_region_text" android:text="@string/common_business_str_region" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/style_add_address_left_static_text" />
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:id="@id/common_business_consignee_region_indicator" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/style_add_address_right_arrow" />
+            <TextView android:ellipsize="end" android:id="@id/common_business_consignee_region_tv" android:layout_toLeftOf="@id/common_business_consignee_region_indicator" android:layout_toRightOf="@id/common_business_consignee_region_text" android:layout_centerVertical="true" style="@style/style_add_address_edit_text" />
+        </RelativeLayout>
+        <View style="@style/style_add_address_divider_line" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <TextView android:id="@id/common_business_consignee_street_text" android:text="@string/common_business_str_street" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/style_add_address_left_static_text" />
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:id="@id/common_business_consignee_street_indicator" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/style_add_address_right_arrow" />
+            <TextView android:id="@id/common_business_consignee_street_tv" android:layout_toLeftOf="@id/common_business_consignee_street_indicator" android:layout_toRightOf="@id/common_business_consignee_street_text" android:layout_centerVertical="true" style="@style/style_add_address_edit_text" />
+        </RelativeLayout>
+        <View style="@style/style_add_address_divider_line" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/common_business_detail_address_text" android:layout_marginTop="@dimen/margin_16dp" android:text="@string/common_business_str_detail_address" android:layout_alignParentLeft="true" style="@style/style_add_address_left_static_text" />
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:id="@id/common_business_clear_consignee_detail_address_iv" android:layout_height="50.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/style_add_address_clear_btn" />
+            <EditText android:gravity="top" android:id="@id/common_business_consignee_detail_address_et" android:paddingTop="@dimen/margin_15dp" android:paddingBottom="@dimen/margin_15dp" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="80.0dip" android:hint="@string/common_business_str_hint_detail_address" android:layout_toLeftOf="@id/common_business_clear_consignee_detail_address_iv" android:layout_toRightOf="@id/common_business_detail_address_text" android:lineSpacingExtra="3.0dip" android:fadeScrollbars="true" style="@style/style_add_address_middle_editable_text" />
+        </RelativeLayout>
+        <View style="@style/style_horizontal_line_mine_page" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/address_protocol_layout" android:paddingTop="@dimen/margin_12dp" android:paddingBottom="11.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <CheckBox android:id="@id/address_protocol_checkbox" android:background="@drawable/checkbox_address_add_protocol" android:layout_width="12.0dip" android:layout_height="12.0dip" android:button="@null" android:layout_marginStart="@dimen/margin_12dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <TextView android:textSize="13.0dip" android:textColor="#ff2e333e" android:id="@id/protocol_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/address_protocol_title" android:layout_marginStart="@dimen/margin_3dp" android:layout_marginEnd="@dimen/margin_12dp" app:layout_constraintBottom_toBottomOf="@id/address_protocol_checkbox" app:layout_constraintStart_toEndOf="@id/address_protocol_checkbox" app:layout_constraintTop_toTopOf="@id/address_protocol_checkbox" />
+            <TextView android:textSize="12.0dip" android:id="@id/protocol_content" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/address_protocol_content" android:paddingEnd="@dimen/margin_12dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@id/protocol_title" app:layout_constraintTop_toBottomOf="@id/protocol_title" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <View style="@style/style_horizontal_line_mine_page" />
+        <FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="85.0dip" app:layout_constraintStart_toEndOf="@id/address_protocol_checkbox" app:layout_constraintTop_toBottomOf="@id/protocol_content">
+            <TextView android:textSize="16.0dip" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/common_business_add_address_title_right_tv" android:background="@drawable/project_buy_btn_usable_bg_selector" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="5.0dip" android:text="@string/common_business_str_save" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

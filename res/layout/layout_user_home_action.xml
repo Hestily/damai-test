@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_user_follow" android:paddingLeft="21.0dip" android:paddingTop="@dimen/margin_11dp" android:paddingRight="21.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:orientation="vertical" android:id="@id/ll_mine_followed" android:paddingTop="@dimen/margin_9dp" android:layout_width="fill_parent" android:layout_height="74.0dip" android:layout_weight="1.0">
+            <cn.damai.uikit.number.DMDigitTextView android:textSize="@dimen/margin_20dp" android:textColor="@color/color_000000" android:id="@id/tv_mine_followed_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_3dp" android:text="关注" android:includeFontPadding="false" android:layout_below="@id/tv_mine_followed_count" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:orientation="vertical" android:id="@id/ll_mine_fans" android:paddingTop="@dimen/margin_9dp" android:layout_width="fill_parent" android:layout_height="74.0dip" android:layout_weight="1.0">
+            <cn.damai.uikit.number.DMDigitTextView android:textSize="@dimen/margin_20dp" android:textColor="@color/color_000000" android:id="@id/tv_mine_fans_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_3dp" android:text="粉丝" android:includeFontPadding="false" android:layout_below="@id/tv_mine_fans_count" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:orientation="vertical" android:id="@id/ll_mine_support" android:paddingTop="@dimen/margin_9dp" android:layout_width="fill_parent" android:layout_height="74.0dip" android:layout_weight="1.0">
+            <cn.damai.uikit.number.DMDigitTextView android:textSize="@dimen/margin_20dp" android:textColor="@color/color_000000" android:id="@id/tv_mine_support_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_3dp" android:text="获赞与想看" android:includeFontPadding="false" android:layout_below="@id/tv_mine_support_count" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_tip_content" android:background="@drawable/bg_user_notice" android:paddingLeft="35.0dip" android:paddingRight="@dimen/margin_12dp" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginBottom="@dimen/margin_9dp">
+        <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_333333" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_tip_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+</LinearLayout>

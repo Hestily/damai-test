@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/ll_content" android:background="#fff1f2f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.uikit.irecycler.IRecyclerView android:id="@id/irc" android:layout_width="fill_parent" android:layout_height="fill_parent" app:refreshEnabled="false" />
+    <include android:id="@id/ll_empty_page" android:visibility="gone" layout="@layout/null_page" />
+</FrameLayout>

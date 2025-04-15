@@ -1,0 +1,177 @@
+#gaia_dm_music_festival_ip_list_item_multi {
+  width: 220px;
+  height: 245px;
+  border-radius: 0px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 5px;
+}
+#container {
+  width: 208px;
+  flex-direction: column;
+  border-radius: 6px;
+  background-color: #ffffff;
+  border-color: rgba(255, 185, 185, 0.15);
+  border-width: 1px;
+  border-style: solid;
+  margin-top: 0px;
+  height: 220px;
+  overflow: true;
+}
+#bg {
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+  position: absolute;
+  border-color: rgba(255, 185, 185, 0.15);
+  border-width: 1px;
+  border-style: solid;
+}
+#header_container {
+  width: 100%;
+  height: 65px;
+  border-radius: 0px;
+  overflow: hidden;
+  padding-left: 14px;
+  padding-right: 14px;
+  align-items: center;
+}
+#header_content {
+  flex-direction: column;
+  flex-grow: 1;
+}
+#title_contaier {
+  align-items: center;
+  width: 100%;
+}
+#header_title {
+  height: 25px;
+  text-align: left;
+  text-shadow: 0px 2px 4px 0px rgba(165, 8, 212, 0.12);
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.6399999999999999;
+  lines: 1;
+  line-height: 25px;
+  background-image: linear-gradient(to right, #ff45bd 0%, #d34bff 100%);
+  flex-grow: 1;
+  fit-content: true;
+}
+#header_right_arrow {
+  font-family: iconfont;
+  font-style: normal;
+  font-size: 16px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  flex-shrink: 1;
+  width: 20px;
+}
+#header_subtitle {
+  text-align: left;
+  font-weight: 0;
+  font-size: 10px;
+  line-height: 17px;
+  letter-spacing: 0.2;
+  lines: 1;
+  height: 17px;
+  width: 100%;
+  color: #ff45bd;
+}
+#header_img_container {
+  width: 46px;
+  height: 46px;
+}
+#header_img {
+  width: 46px;
+  height: 46px;
+  border-radius: 23px;
+  border-color: #ffd8e3;
+  border-width: 3px;
+  border-style: solid;
+}
+#vip_tag {
+  width: 12px;
+  height: 12px;
+  border-radius: 7px;
+  background-color: primaryFillColor;
+  position: absolute;
+  top: 34px;
+  left: 34px;
+}
+#line {
+  background-color: #d4d4d44d;
+  height: 0.5px;
+  margin-left: 4.5px;
+  margin-right: 4.5px;
+}
+#content_container {
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  opacity: 1;
+  flex-grow: 1;
+  height: 79px;
+}
+#left_child_container {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  padding-top: 12px;
+  margin-left: 12px;
+}
+#left_content_img {
+  width: 87px;
+  height: 87px;
+  border-radius: 6px;
+  mode: scaleToFill;
+}
+#left_content_title {
+  text-align: left;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  color: #000000;
+  letter-spacing: 0;
+  width: 100%;
+  height: 12px;
+  fit-content: true;
+  lines: 2;
+  margin-top: 9px;
+  text-overflow: ellipsis;
+  flex-grow: 1;
+}
+#right_child_container {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  margin-top: 0px;
+  padding-top: 12px;
+  margin-left: 12px;
+}
+#right_ content_img {
+  height: 87px;
+  border-radius: 6px;
+  width: 87px;
+  mode: scaleToFill;
+}
+#right_ content_title {
+  text-align: left;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  color: #000000;
+  letter-spacing: 0;
+  width: 100%;
+  height: 16px;
+  fit-content: true;
+  lines: 2;
+  margin-top: 9px;
+  text-overflow: ellipsis;
+  flex-grow: 1;
+}

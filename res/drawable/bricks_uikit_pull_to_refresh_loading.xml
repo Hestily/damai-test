@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_logo_0" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_logo_1" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_logo_2" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_logo_3" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_logo_4" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_logo_5" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_logo_6" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_logo_7" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_logo_8" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_logo_9" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_logo_10" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_logo_11" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_logo_12" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_logo_13" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_logo_14" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_logo_15" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_logo_16" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_logo_17" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_logo_18" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_logo_19" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_logo_20" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_logo_21" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_logo_22" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_logo_23" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_logo_24" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_logo_25" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_logo_26" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_logo_27" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_logo_28" />
+    <item android:duration="33" android:drawable="@drawable/uikit_pull_to_refresh_logo_29" />
+</animation-list>

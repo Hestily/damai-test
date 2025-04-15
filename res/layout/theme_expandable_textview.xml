@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0dip" android:textColor="@color/color_tpp_primary_main_title" android:ellipsize="end" android:id="@id/expandable_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="4.0dip" />
+    <TextView android:textSize="15.0dip" android:textColor="#ff80c0e4" android:gravity="left" android:id="@id/expand_collapse" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_below="@id/expandable_text" android:layout_alignParentLeft="true" />
+</RelativeLayout>

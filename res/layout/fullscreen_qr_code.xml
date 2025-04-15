@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.taobao.movie.android.commonui.widget.SimpleDraweeView android:id="@id/qr_code" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" app:actualImageScaleType="center" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/bar_code_content" android:padding="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:rotation="90.0">
+        <ImageView android:id="@id/bar_code" android:layout_width="fill_parent" android:layout_height="125.0dip" />
+        <com.taobao.movie.android.commonui.widget.autofixtext.AutofitTextView android:textSize="40.0dip" android:textColor="@color/common_text_color10" android:gravity="center" android:id="@id/bar_code_num" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:maxLines="1" android:lines="1" />
+    </LinearLayout>
+</LinearLayout>

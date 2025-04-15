@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.taobao.movie.android.commonui.widget.RoundedTextView android:textSize="10.0dip" android:textColor="@color/common_text_color4" android:gravity="center" android:id="@id/activity_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:includeFontPadding="false" app:background_color="@color/common_text_color4" app:padding_horizontal="4" app:padding_vertical="2" app:round_radius="6" app:round_type="stroke" />
+</RelativeLayout>

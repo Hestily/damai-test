@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_Footnote2_R" android:textColor="#ffff5991" android:gravity="center" android:layout_gravity="center" android:id="@id/home_grab_content_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxWidth="61.0dip" android:lines="1" />
+</LinearLayout>

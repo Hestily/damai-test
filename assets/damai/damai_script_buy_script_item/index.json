@@ -1,0 +1,45 @@
+{
+  "id": "damai_script_buy_script_item",
+  "type": "gaia-template",
+  "package": {
+    "id": "damai_script_buy_script_item",
+    "version": "0.0.1",
+    "constraint-size": { "width": 199, "height": 180, "zoom": 1 },
+    "modify-timestamp": "Fri Sep 09 2022 10:04:54 GMT+0800 (中国标准时间)",
+    "dependencies": {}
+  },
+  "layers": [
+    { "id": "script_poster", "type": "image" },
+    {
+      "id": "limit_view",
+      "type": "view",
+      "layers": [
+        {
+          "id": "limit_holder",
+          "type": "view",
+          "layers": [{ "id": "limt_tag", "type": "text" }]
+        }
+      ]
+    },
+    {
+      "id": "script_poster_cover",
+      "type": "view",
+      "layers": [
+        { "id": "script_point", "type": "text" },
+        { "id": "script_point_unit", "type": "text" }
+      ]
+    },
+    { "id": "poster_name", "type": "text" },
+    {
+      "id": "tags_holder",
+      "type": "view",
+      "layers": [
+        { "id": "level_label", "type": "text" },
+        { "id": "partline", "type": "view" },
+        { "id": "people_label", "type": "text" },
+        { "id": "partline2", "type": "view" },
+        { "id": "time_label", "type": "text" }
+      ]
+    }
+  ]
+}

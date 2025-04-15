@@ -1,0 +1,103 @@
+{
+  "data": {
+    "store_image": {
+      "value": "@{eval(size(${storeIcon}) > 0) ? ${storeIcon} : @{env(isAndroid) ? 'gaiax_res:bricks_coupon_store' : 'gaiax_res:coupon_info_store_img' }}"
+    },
+    "store_name": {
+      "extend": {
+        "fit-content": "false",
+        "font-weight": "@{env(isAndroid) ? '400' : '600'}"
+      },
+      "value": "${storeName}"
+    },
+    "coupon_info": {
+      "extend": {
+        "fit-content": "true",
+        "font-weight": "@{env(isAndroid) ? '400' : '500'}"
+      },
+      "value": "${itemTitle}"
+    },
+    "price_layout": {
+      "extend": {
+        "display": "@{${skuPriceTxt} ? flex : @{eval(${skuPriceTxt}=='0') ? flex : none}}"
+      }
+    },
+    "rmb_text": {
+      "value": "¥",
+      "extend": {
+        "fit-content": "true",
+        "margin-top": "@{env(isAndroid) ? 5px : 3px }"
+      }
+    },
+    "coupon_money": {
+      "value": "${skuPriceTxt}",
+      "extend": { "fit-content": "true" }
+    },
+    "service_image1": {
+      "value": "@{env(isAndroid) ? 'gaiax_res:bricks_coupon_service' : 'gaiax_res:coupon_info_service_img' }",
+      "extend": { "display": "@{${tags[0].text} ? flex : none}" }
+    },
+    "service_name1": {
+      "extend": {
+        "fit-content": "true",
+        "display": "@{${tags[0].text} ? flex : none}"
+      },
+      "value": "${tags[0].text}"
+    },
+    "service_image2": {
+      "value": "@{env(isAndroid) ? 'gaiax_res:bricks_coupon_service' : 'gaiax_res:coupon_info_service_img' }",
+      "extend": { "display": "@{${tags[1].text} ? flex : none}" }
+    },
+    "service_name2": {
+      "extend": {
+        "fit-content": "true",
+        "display": "@{${tags[1].text} ? flex : none}"
+      },
+      "value": "${tags[1].text}"
+    },
+    "service_image3": {
+      "value": "@{env(isAndroid) ? 'gaiax_res:bricks_coupon_service' : 'gaiax_res:coupon_info_service_img' }",
+      "extend": { "display": "@{${tags[2].text} ? flex : none}" }
+    },
+    "service_name3": {
+      "extend": {
+        "fit-content": "true",
+        "display": "@{${tags[2].text} ? flex : none}"
+      },
+      "value": "${tags[2].text}"
+    },
+    "service_image4": {
+      "value": "@{env(isAndroid) ? 'gaiax_res:bricks_coupon_service' : 'gaiax_res:coupon_info_service_img' }",
+      "extend": { "display": "@{${tags[3].text} ? flex : none}" }
+    },
+    "service_name4": {
+      "extend": {
+        "fit-content": "true",
+        "display": "@{${tags[3].text} ? flex : none}"
+      },
+      "value": "${tags[3].text}"
+    },
+    "service_image5": {
+      "value": "@{env(isAndroid) ? 'gaiax_res:bricks_coupon_service' : 'gaiax_res:coupon_info_service_img' }",
+      "extend": { "display": "@{${tags[4].text} ? flex : none}" }
+    },
+    "service_name5": {
+      "extend": {
+        "fit-content": "true",
+        "display": "@{${tags[4].text} ? flex : none}"
+      },
+      "value": "${tags[4].text}"
+    },
+    "service_image6": {
+      "value": "@{env(isAndroid) ? 'gaiax_res:bricks_coupon_service' : 'gaiax_res:coupon_info_service_img' }",
+      "extend": { "display": "@{${tags[5].text} ? flex : none}" }
+    },
+    "service_name6": {
+      "extend": {
+        "fit-content": "true",
+        "display": "@{${tags[5].text} ? flex : none}"
+      },
+      "value": "${tags[5].text}"
+    }
+  }
+}

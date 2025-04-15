@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.damai.tetris.component.home.widget.banner.sub.RoundRadiusImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="@dimen/resource_size_88" android:src="@drawable/uikit_default_image_bg_gradient" android:scaleType="centerCrop" android:layout_marginStart="@dimen/resource_size_12" android:layout_marginEnd="@dimen/resource_size_12" app:r_round_radius="@dimen/resource_size_12"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

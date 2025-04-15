@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="13.0dip" android:textColor="@color/color_999999" android:id="@id/tv_order_time" android:paddingTop="@dimen/margin_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/copy_bg_filter_fast_btn_selector_white" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginBottom="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.bricks.view.SafeLottieAnimationView android:layout_gravity="end" android:id="@id/fast_filter_tv_lottie" android:layout_width="@dimen/resource_size_25" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" android:layout_marginEnd="-3.0dip" app:lottie_autoPlay="false" app:lottie_loop="false" app:lottie_rawRes="@raw/pioneer_home_feed_tab" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/color_FF2869" android:layout_gravity="center" android:id="@id/fast_filter_tv" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

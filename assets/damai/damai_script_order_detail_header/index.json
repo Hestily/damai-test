@@ -1,0 +1,52 @@
+{
+  "id": "damai_script_order_detail_header",
+  "type": "gaia-template",
+  "package": {
+    "id": "damai_script_order_detail_header",
+    "version": "0.0.1",
+    "modify-timestamp": "Fri Jun 17 2022 10:03:04 GMT+0800 (中国标准时间)",
+    "dependencies": {}
+  },
+  "layers": [
+    {
+      "id": "script_base_info_introduce",
+      "type": "view",
+      "layers": [
+        {
+          "id": "content_info_view",
+          "type": "view",
+          "layers": [
+            { "id": "groupon_name", "type": "text" },
+            { "id": "store_name", "type": "text" }
+          ]
+        },
+        { "id": "store_image", "type": "image" }
+      ]
+    },
+    { "id": "sep_line", "type": "view" },
+    {
+      "id": "groupon_num_price",
+      "type": "view",
+      "layers": [
+        {
+          "id": "groupon_num_contrainer",
+          "type": "view",
+          "layers": [{ "id": "groupon_num", "type": "text" }]
+        },
+        { "id": "groupon_total_price", "type": "text" }
+      ]
+    },
+    {
+      "id": "groupon_real_price",
+      "type": "view",
+      "layers": [
+        {
+          "id": "gropun_price_contrainer",
+          "type": "view",
+          "layers": [{ "id": "groupon_price_desc", "type": "text" }]
+        },
+        { "id": "real_price", "type": "text" }
+      ]
+    }
+  ]
+}

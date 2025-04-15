@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_content_wrapper" android:paddingLeft="21.0dip" android:paddingRight="21.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+        <TextView android:textSize="14.0dip" android:textColor="@color/color_666666" android:ellipsize="end" android:id="@id/tv_comment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="分享图片" android:maxLines="4" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:lineSpacingMultiplier="1.4" />
+        <cn.damai.uikit.view.NineGridlayout android:id="@id/ninelayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_below="@id/tv_comment" />
+        <TextView android:textSize="12.0dip" android:textColor="#ffff1268" android:gravity="center" android:id="@id/user_feed_fabuquanzi" android:background="@drawable/user_feeds_quanzitxt_bg" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="23.0dip" android:layout_marginTop="12.0dip" android:text="" android:layout_below="@id/ninelayout" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="right" android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/feeds_interact_layout" />
+    </RelativeLayout>
+</LinearLayout>

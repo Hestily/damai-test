@@ -1,0 +1,324 @@
+{
+  "components": [
+    {
+      "type": 9999,
+      "tag": "common_header",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+          "marginLeft": "resource_size_12",
+          "marginRight": "resource_size_12"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 9999,
+          "layoutID": "bricks_component_common_header_pioneer",
+          "model": "com.alient.onearch.adapter.component.header.GenericHeaderModel",
+          "present": "com.alient.onearch.adapter.component.header.GenericHeaderPresent",
+          "view": "cn.damai.pioneer.component.header.PioneerGenericHeaderView"
+        }
+      ]
+    },
+    {
+      "type": 9998,
+      "tag": "common_tab",
+      "layout": {
+        "layoutType": "raw_list",
+        "params": {
+          "marginLeft": "resource_size_9",
+          "marginRight": "resource_size_9",
+          "marginBottom": "resource_size_9"
+        }
+      },
+      "container": {
+        "type": 9998,
+        "layoutID": "bricks_component_common_tab_home_dm",
+        "model": "com.alient.onearch.adapter.component.tab.generic.GenericTabModel",
+        "present": "com.alient.onearch.adapter.component.tab.generic.GenericTabPresenter",
+        "view": "com.alient.onearch.adapter.component.tab.generic.GenericTabView"
+      }
+    },
+    {
+      "type": 7878,
+      "tag": "feed_tab",
+      "layout": {
+        "layoutType": "raw_list"
+      },
+      "container": {
+        "type": 7878,
+        "layoutID": "component_pioneer_live_feed_tab",
+        "viewHolder": "cn.damai.pioneer.component.tab.category.viewholder.LiveFeedCategoryViewHolder"
+      }
+    },
+    {
+      "type": 7877,
+      "tag": "want_block",
+      "local_des": "发现页我的想看模块",
+      "layout": {
+        "layoutType": "raw_list",
+        "params": {
+          "marginLeft": "resource_size_12",
+          "marginRight": "resource_size_12",
+          "marginBottom": "resource_size_9"
+        }
+      },
+      "container": {
+        "type": 7877,
+        "layoutID": "component_pioneer_discover_want_card",
+        "viewHolder": "cn.damai.pioneer.component.tab.category.viewholder.DiscoverPageWantViewHolder"
+      }
+    },
+    {
+      "type": 7879,
+      "tag": "feed",
+      "layout": {
+        "layoutType": "linear",
+        "params": {
+          "marginLeft": "resource_size_6",
+          "marginRight": "resource_size_6"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7880,
+          "model": "com.alibaba.pictures.bricks.component.project.DMProjectModel",
+          "present": "com.alibaba.pictures.bricks.component.project.DMProjectPresent4Discover",
+          "view": "com.alibaba.pictures.bricks.component.project.DMProjectView",
+          "layoutID": "bricks_item_dm_project",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.component.project.bean.DMProjectItemBean"
+          }
+        },
+        {
+          "type": 7903,
+          "layoutID": "pioneer_live_feed_rank_card",
+          "model": "cn.damai.pioneer.model.HomeFeedRankCardModel",
+          "present": "cn.damai.pioneer.component.tab.LiveFeedRankCardPresent",
+          "view": "cn.damai.pioneer.view.LiveFeedRankCardView",
+          "params": {
+            "bean": "cn.damai.pioneer.bean.HomeFeedRankCardBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7869,
+      "tag": "page_top",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7695,
+          "layoutID": "component_pioneer_live_top",
+          "viewHolder": "cn.damai.pioneer.component.tab.category.viewholder.LivePageTopViewHolder",
+          "params": {
+          }
+        }
+      ]
+    },
+    {
+      "type": 7871,
+      "tag": "feed_load_more",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7699,
+          "layoutID": "component_pioneer_home_feed_load_more",
+          "viewHolder": "cn.damai.pioneer.component.tab.category.viewholder.LoadMoreViewHolder",
+          "params": {
+          }
+        }
+      ]
+    },
+    {
+      "type": 7874,
+      "tag": "dm_pione_discover_icon",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "marginBottom": "resource_size_9",
+          "rowHeight": "resource_size_65",
+          "columnCount": 5,
+          "rowCount": 3
+        }
+      },
+      "container": {
+        "type": 7874,
+        "layoutID": "component_home_grid_ball_layout",
+        "model": "com.alient.onearch.adapter.component.pager.PagerGridModel",
+        "present": "cn.damai.pioneer.component.gridball.HomeGridBallPagerGridPresenter",
+        "view": "cn.damai.pioneer.component.gridball.HomeGridBallPagerGridView"
+      },
+      "viewTypes": [
+        {
+          "type": 7874,
+          "layoutID": "bricks_home_ball_component_live",
+          "model": "com.alibaba.pictures.bricks.component.home.ball.HomeBallModel",
+          "present": "com.alibaba.pictures.bricks.component.home.ball.HomeBallPresent",
+          "view": "com.alibaba.pictures.bricks.component.home.ball.LiveBallView",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.bean.HomeBallBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7875,
+      "tag": "dm_pioneer_discover_tab_button",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "gap": "resource_size_9",
+          "listMarginLeft": "resource_size_12",
+          "listMarginRight": "resource_size_12",
+          "listMargin": "resource_size_12",
+          "marginBottom": "resource_size_9"
+        }
+      },
+      "container": {
+        "type": 7875,
+        "layoutID": "component_common_horizontal",
+        "viewHolder": "com.alibaba.pictures.bricks.component.live.LiveHorizontalViewHolder"
+      },
+      "viewTypes": [
+        {
+          "type": 7875,
+          "layoutID": "bricks_components_live_calendar_entrance",
+          "viewHolder": "com.alibaba.pictures.bricks.component.live.LiveCalendarViewHolder",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.bean.LiveEntranceBean"
+          }
+        },
+        {
+          "type": 7876,
+          "layoutID": "bricks_components_live_groupbuy_entrance",
+          "viewHolder": "com.alibaba.pictures.bricks.component.live.LiveGroupBuyViewHolder",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.bean.LiveEntranceBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7880,
+      "tag": "live_pioneer_low_price",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "marginLeft": "resource_size_12",
+          "marginRight": "resource_size_12",
+          "marginBottom": "resource_size_9"
+        }
+      },
+      "container": {
+        "type": 7880,
+        "layoutID": "component_pioneer_low_price_component",
+        "model": "cn.damai.pioneer.model.LiveLowPriceContainerModel",
+        "present": "cn.damai.pioneer.presenter.LiveLowPriceContainerPresent",
+        "view": "cn.damai.pioneer.view.LiveLowPriceContainerView"
+      },
+      "viewTypes": [
+        {
+          "type": 7881,
+          "desc": "发现低价演出项目",
+          "layoutID": "component_pioneer_low_price_card",
+          "viewHolder": "cn.damai.pioneer.view.LiveLowPriceItemViewHolder",
+          "params": {
+            "bean": "cn.damai.pioneer.bean.LiveLowPriceItemBean"
+          }
+        },
+        {
+          "type": 7882,
+          "desc": "发现低价电影项目",
+          "layoutID": "component_pioneer_low_price_card",
+          "viewHolder": "cn.damai.pioneer.view.LiveLowPriceItemViewHolder",
+          "params": {
+            "bean": "cn.damai.pioneer.bean.LiveLowPriceItemBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7906,
+      "tag": "dm_pioneer_discover_tab_button",
+      "localDesc": "爱艺之城和云包场入口卡",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "gap": "resource_size_6",
+          "listMarginLeft": "resource_size_12",
+          "listMarginRight": "resource_size_12",
+          "listMargin": "resource_size_12",
+          "marginBottom": "resource_size_9"
+        }
+      },
+      "container": {
+        "type": 7906,
+        "layoutID": "component_common_horizontal",
+        "viewHolder": "com.alibaba.pictures.bricks.component.aiyi.LiveAiyiHorizontalViewHolder"
+      },
+      "viewTypes": [
+        {
+          "type": 7937,
+          "layoutID": "bricks_components_live_aiyi_entrance",
+          "viewHolder": "com.alibaba.pictures.bricks.component.aiyi.AiyiEntranceViewHolder",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.bean.LiveEntranceBean"
+          }
+        },
+        {
+          "type": 7938,
+          "layoutID": "bricks_components_live_baochang_entrance",
+          "viewHolder": "com.alibaba.pictures.bricks.component.aiyi.BaochangEntranceViewHolder",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.bean.LiveEntranceBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7907,
+      "tag": "dm_pioneer_group_bug",
+      "localDesc": "天天低价+大麦团购",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "gap": "resource_size_6",
+          "listMargin": "resource_size_12",
+          "marginBottom": "resource_size_6"
+        }
+      },
+      "container": {
+        "type": 7907,
+        "layoutID": "component_common_horizontal",
+        "viewHolder": "com.alibaba.pictures.bricks.component.aiyi.LiveAiyiHorizontalViewHolder"
+      },
+      "viewTypes": [
+        {
+          "type": 7939,
+          "layoutID": "pioneer_component_group_buy",
+          "viewHolder": "cn.damai.pioneer.component.groupbuy.LowPriceEntranceViewHolder",
+          "params": {
+            "bean": "cn.damai.pioneer.bean.PioneerLowPriceBean"
+          }
+        },
+        {
+          "type": 7940,
+          "layoutID": "pioneer_component_group_buy",
+          "viewHolder": "cn.damai.pioneer.component.groupbuy.GroupBuyEntranceViewHolder",
+          "params": {
+            "bean": "cn.damai.pioneer.bean.PioneerGroupBuyBean"
+          }
+        }
+      ]
+    }
+  ]
+}

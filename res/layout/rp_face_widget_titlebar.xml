@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.security.realidentity.ui.widgets.TitleBarWidget android:id="@id/widget_title_bar" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:id="@id/abfl_widget_tb_close_parent" android:layout_width="120.0px" android:layout_height="80.0px" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <ImageView android:id="@id/abfl_widget_tb_close" android:layout_width="36.0px" android:layout_height="36.0px" android:src="@drawable/rp_face_top_back" android:scaleType="centerInside" android:adjustViewBounds="true" />
+        </LinearLayout>
+        <TextView android:textSize="38.0px" android:textColor="@color/rpsdk_top_bar_title_color" android:gravity="center" android:id="@id/tvTitle" android:layout_width="fill_parent" android:layout_height="80.0px" />
+    </com.alibaba.security.realidentity.ui.widgets.TitleBarWidget>
+</merge>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.alibaba.pictures.bricks.view.BricksCommonDigitTextView android:textSize="15.0dip" android:textColor="@color/cb_orange" android:id="@id/project_price_char" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.alibaba.pictures.bricks.view.BricksCommonDigitTextView android:textSize="22.0dip" android:textColor="@color/cb_orange" android:ellipsize="end" android:id="@id/project_price_pre" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <View android:id="@id/project_price_middle_line" android:background="@color/color_FF4886" android:layout_width="@dimen/margin_10dp" android:layout_height="@dimen/margin_2dp" android:layout_marginLeft="@dimen/margin_2dp" android:layout_marginTop="@dimen/margin_2dp" android:layout_marginRight="@dimen/margin_2dp" />
+        <com.alibaba.pictures.bricks.view.BricksCommonDigitTextView android:textSize="22.0dip" android:id="@id/project_price_suffix" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:layout_gravity="center_vertical" android:id="@id/project_price_dash" android:background="#1a000000" android:visibility="gone" android:layout_width="800.0dip" android:layout_height="1.0dip" />
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="51.0dip" android:paddingHorizontal="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.pictures.moimage.MoImageView android:id="@id/iv_pay_icon" android:layout_width="21.0dip" android:layout_height="21.0dip" />
+    <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="15.0dip" android:textColor="@color/color_tpp_primary_main_title" android:gravity="center_vertical" android:id="@id/tv_pay_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="4.0dip" android:text="支付宝" />
+    <TextView android:textSize="10.0dip" android:textColor="@color/tpp_primary_red" android:gravity="center_vertical" android:id="@id/tv_pay_desc" android:background="@drawable/bg_red_stroke" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="15.0dip" android:paddingHorizontal="4.0dip" />
+    <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="@dimen/text_size_17_dp" android:textColor="@color/tpp_gray_3" android:id="@id/tv_pay_option_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/icon_font_no_selected" android:includeFontPadding="false" />
+</LinearLayout>

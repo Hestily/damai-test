@@ -1,0 +1,37 @@
+{
+  "data": {
+    "background": {
+      "value": "'gaiax_res:gaiax_res_scriptplay_detail_comment_bg_' + ${bgIndex}"
+    },
+    "header_icon": {
+      "value": "@{${imgUrl} ? ${imgUrl} : 'gaiax_res:uikit_user_default_icon'}",
+      "placeholder": "uikit_user_default_icon"
+    },
+    "user_nick": {
+      "value": "${userNick}",
+      "extend": { "fit-content": "true" }
+    },
+    "user_tag_img": {
+      "value": "@{env(isAndroid) ? 'gaiax_res:high_leve_player_transpant' : 'gaiax_res:gaiax_res_script_play_comment_icon'}",
+      "extend": { "display": "@{eval(${userTypeCode} == '3') ? flex : none}" }
+    },
+    "user_info_label": {
+      "value": "玩过 + ${playedCount} + 场",
+      "extend": {
+        "display": "@{${playedCount} ? flex : none}",
+        "fit-content": "false"
+      }
+    },
+    "user_comment_label": {
+      "value": "@{eval(size(${mainGrade}) > 0) ? '^' + ${mainGrade} + '^' + ' ' + ${filterContentText} : ${filterContentText}}",
+      "extend": {
+        "highlight-color": "#FF8F3F",
+        "highlight-font-family": "URWDIN-Medium",
+        "highlight-font-size": "13px",
+        "highlight-tag": "^",
+        "fit-content": "true",
+        "line-height": "@{env(isAndroid) ? 15px : 17px}"
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/purchase_top_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/purchase_recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/purchase_bottom_layout" android:layout_below="@id/purchase_top_layout" />
+    <LinearLayout android:orientation="vertical" android:id="@id/purchase_bottom_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

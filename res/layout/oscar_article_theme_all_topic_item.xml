@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="55.0dip">
+        <TextView android:textSize="16.0dip" android:textColor="@color/common_text_color9" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_15dp" android:text="全部主题" android:layout_weight="1.0" />
+        <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="12.0dip" android:textColor="@color/common_text_color13" android:id="@id/profile_item_right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/padding_15dp" android:text="@string/iconf_right_arrow" />
+    </LinearLayout>
+    <View android:id="@id/bottom_line" android:background="@color/color_tpp_primary_bg" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+</LinearLayout>

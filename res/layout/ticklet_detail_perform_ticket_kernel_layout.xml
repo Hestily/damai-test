@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.damai.uikit.view.FrameLayoutGradientView android:id="@id/color_mask_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.damai.ticklet.view.TickletDetailPerformTicketView android:id="@id/ticklet_detail_kernel" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</cn.damai.uikit.view.FrameLayoutGradientView>

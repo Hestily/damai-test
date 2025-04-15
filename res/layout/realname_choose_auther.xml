@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@color/white" android:clickable="true" android:layout_width="fill_parent" android:layout_height="380.0dip">
+        <TextView android:textSize="@dimen/margin_16dp" android:textColor="@color/color_111111" android:gravity="center" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="选择认证人" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/chooseauther_irc" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    </LinearLayout>
+</FrameLayout>

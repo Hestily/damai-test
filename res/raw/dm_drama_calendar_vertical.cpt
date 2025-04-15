@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.drama.mvp.VerticalDramaByMonthModel",
+    "vClass": "cn.damai.tetris.component.drama.mvp.VerticalDramaByMonthView",
+    "pClass": "cn.damai.tetris.component.drama.mvp.VerticalDramaByMonthPresenter",
+    "layoutXml": "item_tetris_vertical_drama_month"
+  }
+}

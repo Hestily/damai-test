@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="15.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.bricks.view.RoundImageView2 android:layout_width="26.0dip" android:layout_height="fill_parent" android:src="@drawable/bricks_senior_vip_tag" android:scaleType="fitXY" android:adjustViewBounds="true" app:rLeftRadius="3.0dip" />
+    <TextView android:textSize="9.0dip" android:textStyle="bold" android:textColor="#ff210276" android:gravity="center" android:id="@id/tv_discount" android:background="@drawable/senior_vip_tag_bg" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+</LinearLayout>

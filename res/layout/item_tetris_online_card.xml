@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="98.0dip" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_18dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/onlive_date_layout" android:layout_width="98.0dip" android:layout_height="21.0dip">
+        <TextView android:textSize="12.0dip" android:textColor="#ff9c9ca5" android:layout_gravity="bottom" android:id="@id/onlive_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="今天 " />
+        <View android:background="#ff9c9ca5" android:layout_width="34.0dip" android:layout_height="0.20000005dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="13.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/pro_inner_layout" android:layout_width="98.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_15dp">
+        <cn.damai.tetris.component.online.viewholder.OnLinePosterView android:id="@id/item_poster" android:layout_width="98.0dip" android:layout_height="131.0dip" android:scaleType="fitXY" app:borderRadius="6.0dip" app:type="round" />
+        <TextView android:textSize="14.0dip" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/item_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="2019摩登兄弟“成长风暴”巡回演唱会" android:lines="2" android:lineSpacingExtra="5.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/item_price_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+            <TextView android:textSize="12.0dip" android:textColor="#ffff2869" android:id="@id/item_price_flag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="¥" />
+            <cn.damai.uikit.number.DMDigitTextView android:textSize="16.0dip" android:textColor="#ffff2869" android:id="@id/item_price_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="10.0dip" android:textColor="#ff9c9ca5" android:id="@id/item_price_above" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginBottom="1.0dip" android:text="起" android:includeFontPadding="false" />
+            <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_FF2D79" android:id="@id/tv_project_price_confirm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="免费观看" android:includeFontPadding="false" />
+            <TextView android:textSize="10.0dip" android:textColor="#ff9c9ca5" android:ellipsize="end" android:layout_gravity="bottom" android:id="@id/item_price_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginBottom="0.5dip" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.drama.mvp.FilterModel",
+    "vClass": "cn.damai.tetris.component.drama.mvp.FilterView",
+    "pClass": "cn.damai.tetris.component.drama.mvp.FilterPresenter",
+    "layoutXml": "item_tetris_project_filter_ui"
+  }
+}

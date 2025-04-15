@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/aliuser_qrcode_layout_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@id/aliuser_qr_container" android:layout_width="fill_parent" android:layout_height="@dimen/aliuser_qrcode_layout_width">
+        <include android:layout_gravity="center" android:id="@id/aliuser_login_qr_code" android:layout_width="@dimen/aliuser_qrcode_layout_width" android:layout_height="@dimen/aliuser_qrcode_layout_width" layout="@layout/ali_user_qr_code_view" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aliuser_space_10" android:layout_below="@id/aliuser_qr_container">
+        <TextView android:textSize="@dimen/aliuser_text_24_px" android:textColor="@android:color/black" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="请使用驿站掌柜或者淘宝APP扫码登录" android:singleLine="true" android:layout_centerHorizontal="true" />
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aliuser_space_10" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aliuser_space_20">
+            <TextView android:textSize="@dimen/aliuser_text_24_px" android:textColor="@android:color/black" android:gravity="center" android:id="@id/aliuser_go_pwd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="账户密码登录" android:singleLine="true" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/aliuser_text_24_px" android:textColor="@android:color/black" android:gravity="center" android:id="@id/aliuser_go_taobao_pwd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="淘宝账户密码登录" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

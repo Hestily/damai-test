@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:background="@color/color_f2f3f4" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <TextView android:textSize="@dimen/textsize_16" android:textColor="@color/color_999999" android:gravity="center_vertical" android:id="@id/common_business_street_select_cancel_tv" android:paddingLeft="@dimen/margin_12dp" android:paddingRight="@dimen/margin_12dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/common_business_str_cancel" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="@dimen/textsize_16" android:textColor="@color/main_color" android:gravity="center_vertical" android:id="@id/common_business_street_select_completed_tv" android:paddingLeft="@dimen/margin_12dp" android:paddingRight="@dimen/margin_12dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/common_business_str_completed" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <cn.damai.uikit.wheel.WheelView android:id="@id/common_business_street_wheel_view" android:layout_width="fill_parent" android:layout_height="200.0dip" />
+    </LinearLayout>
+</FrameLayout>

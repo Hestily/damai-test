@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/choose_from_first" android:background="#ffffffff" android:paddingTop="15.0dip" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/choose_header_frompic" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_subtitle" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="从相册选" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/choose_from_second" android:background="#ffffffff" android:paddingTop="15.0dip" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/choose_header_fromcamera" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_subtitle" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="拍照" />
+    </LinearLayout>
+</LinearLayout>

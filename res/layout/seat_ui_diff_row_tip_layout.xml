@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="21.0dip" android:paddingRight="21.0dip" android:layout_width="fill_parent" android:layout_height="44.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/bg_corner_6_solid_fff4eb_stroke_ffd4ac" android:layout_width="fill_parent" android:layout_height="35.0dip">
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="14.0dip" android:textColor="#ffeb7609" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/iconfont_tixing24" />
+        <TextView android:textSize="12.0dip" android:textColor="#ffeb7609" android:id="@id/tb_seat_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_6dp" android:text="已选座位不在同一排" android:layout_weight="1.0" />
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="#ffeb7609" android:gravity="center" android:id="@id/tb_seat_tip_close" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/iconfont_fucengguanbi16" />
+    </LinearLayout>
+</FrameLayout>

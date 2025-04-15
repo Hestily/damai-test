@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+        <TextView android:textSize="14.0dip" android:textColor="#ff9a9a9a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="姓        名：" />
+        <TextView android:textSize="14.0dip" android:textColor="#ff343434" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="张超" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+        <TextView android:textSize="14.0dip" android:textColor="#ff9a9a9a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="证件号码：" />
+        <TextView android:textSize="14.0dip" android:textColor="#ff343434" android:id="@id/tv_cardid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="\ 123123198012121" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+        <TextView android:textSize="14.0dip" android:textColor="#ff9a9a9a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="证件类型：" />
+        <TextView android:textSize="14.0dip" android:textColor="#ff343434" android:id="@id/tv_cardtype" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="身份证" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+        <TextView android:textSize="14.0dip" android:textColor="#ff9a9a9a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="座  位  号：" />
+        <TextView android:textSize="14.0dip" android:textColor="#ff343434" android:id="@id/tv_seatnum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="座位号" />
+    </LinearLayout>
+</LinearLayout>

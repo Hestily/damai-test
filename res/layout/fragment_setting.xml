@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/mine_setting_title_layout" layout="@layout/mine_title_header" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_bind_account" android:background="#fffff7e9" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="32.0dip">
+        <TextView android:textSize="11.0dip" android:textColor="@color/color_bricks_primary_subtitle" android:ellipsize="end" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="您还未绑定淘宝账号，绑定后可激活淘麦VIP身份" android:lines="1" android:layout_weight="1.0" />
+        <TextView android:textSize="11.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="去绑定" />
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="@color/cg_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_youjiantou_" />
+    </LinearLayout>
+    <ScrollView android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:background="#fff2f3f4" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip">
+                <RelativeLayout android:id="@id/rl_account_info" android:background="@drawable/menu_setting_select_top_corner_bg" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                    <TextView android:textSize="14.0dip" android:textColor="@color/cg_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="个人资料" android:layout_centerVertical="true" />
+                    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="@color/cg_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="18.0dip" android:text="@string/iconfont_youjiantou_" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/rl_account_safe" android:background="@drawable/menu_setting_select_bottom_corner_bg" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                    <TextView android:textSize="14.0dip" android:textColor="@color/cg_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="账号安全" android:layout_centerVertical="true" />
+                    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="@color/cg_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="18.0dip" android:text="@string/iconfont_youjiantou_" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_push" android:background="@drawable/menu_setting_select_corner_bg" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="9.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip">
+                <TextView android:textSize="14.0dip" android:textColor="@color/black_22" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/mine_setting_message_tips" android:layout_centerVertical="true" />
+                <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="@color/cg_3" android:id="@id/iv_push" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="18.0dip" android:text="@string/iconfont_youjiantou12" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip">
+                <RelativeLayout android:id="@id/rl_privacy" android:background="@drawable/menu_setting_select_top_corner_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                    <TextView android:textSize="14.0dip" android:textColor="@color/cg_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/privacy_setting" android:layout_centerVertical="true" />
+                    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="@color/cg_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="18.0dip" android:text="@string/iconfont_youjiantou12" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/mine_setting_privacy_summary" android:background="@drawable/menu_setting_select_rectangle_bg" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                    <TextView android:textSize="14.0dip" android:textColor="@color/cg_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="隐私政策摘要" android:layout_centerVertical="true" />
+                    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="@color/cg_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="18.0dip" android:text="@string/iconfont_youjiantou12" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/rl_help" android:background="@drawable/menu_setting_select_rectangle_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                    <TextView android:textSize="14.0dip" android:textColor="@color/cg_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/damai_more_help_center" android:layout_centerVertical="true" />
+                    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="@color/cg_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="18.0dip" android:text="@string/iconfont_youjiantou12" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/rl_protocol" android:background="@drawable/menu_setting_select_rectangle_bg" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                    <TextView android:textSize="14.0dip" android:textColor="@color/cg_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="协议规则" android:layout_centerVertical="true" />
+                    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="@color/cg_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="18.0dip" android:text="@string/iconfont_youjiantou12" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/rl_system_permission" android:background="@drawable/menu_setting_select_rectangle_bg" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                    <TextView android:textSize="14.0dip" android:textColor="@color/cg_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="系统权限" android:layout_centerVertical="true" />
+                    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="@color/cg_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="18.0dip" android:text="@string/iconfont_youjiantou12" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/rl_person_information_share_list" android:background="@drawable/menu_setting_select_rectangle_bg" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                    <TextView android:textSize="14.0dip" android:textColor="@color/cg_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="个人信息共享清单" android:layout_centerVertical="true" />
+                    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="@color/cg_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="18.0dip" android:text="@string/iconfont_youjiantou12" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/rl_person_information_collect_list" android:background="@drawable/menu_setting_select_bottom_corner_bg" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                    <TextView android:textSize="14.0dip" android:textColor="@color/cg_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="个人信息收集清单" android:layout_centerVertical="true" />
+                    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="@color/cg_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="18.0dip" android:text="@string/iconfont_youjiantou12" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip">
+                <RelativeLayout android:id="@id/rl_about" android:background="@drawable/menu_setting_select_top_corner_bg" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                    <TextView android:textSize="14.0dip" android:textColor="@color/cg_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/damai_more_about_barley" android:layout_centerVertical="true" />
+                    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="@color/cg_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="18.0dip" android:text="@string/iconfont_youjiantou12" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/rl_update" android:background="@drawable/menu_setting_select_rectangle_bg" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                    <TextView android:textSize="14.0dip" android:textColor="@color/cg_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/damai_more_check_update" android:layout_centerVertical="true" />
+                    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="@color/cg_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="18.0dip" android:text="@string/iconfont_youjiantou12" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/rl_phone" android:background="@drawable/menu_setting_select_rectangle_bg" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                    <TextView android:textSize="14.0dip" android:textColor="@color/cg_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/damai_more_service_phone" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/text_color_999" android:id="@id/tv_phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="18.0dip" android:text="1010-3721" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/mine_setting_feedback_lv" android:background="@drawable/menu_setting_select_rectangle_bg" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                    <TextView android:textSize="14.0dip" android:textColor="@color/cg_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/damai_faq_feedback_title" />
+                </LinearLayout>
+                <RelativeLayout android:id="@id/rl_clear" android:background="@drawable/menu_setting_select_bottom_corner_bg" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                    <TextView android:textSize="14.0dip" android:textColor="@color/cg_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/damai_more_empty_cache" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/text_color_999" android:id="@id/tv_cache_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="0M" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="12.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:id="@id/setting_bottom_btn_container_fl" android:background="@color/color_ffffff" android:paddingBottom="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@drawable/btn_shadow_bg" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="@dimen/margin_7dp" android:layout_marginTop="12.0dip" android:layout_marginRight="@dimen/margin_7dp" />
+        <TextView android:textSize="@dimen/margin_16dp" android:textColor="@color/color_ffffff" android:gravity="center" android:id="@id/logout_btn" android:background="@drawable/damai_btn_rightbottom_sharp_corner_bg" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:text="@string/damai_more_exit_sign" />
+        <View android:background="@color/color_eeeeee" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </FrameLayout>
+</LinearLayout>

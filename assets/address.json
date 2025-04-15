@@ -1,0 +1,37 @@
+{
+    "cellData" : [
+      {
+        "fields" : {
+            "post": "311300",
+            "mobilephone": "15128265468",
+            "value": "收货地址 : 浙江省 杭州市 临安市 锦城街道 青山湖国家森林公园 ",
+            "name": "伯泽1",
+            "mobileColor":"#00ffff",
+            "mobileSize":"19",
+            "iconUrl" : "https:\/\/img.alicdn.com\/tfs\/TB1u4ZnsuuSBuNjy1XcXXcYjFXa-32-32.png"
+        },
+        "id" : "1",
+        "type" : "biz",
+        "tag" : "trade_test_address",
+        "events":{
+          "itemClick":[
+            {
+              "type":"openUrl",
+              "fields":{
+                "url":"http://www.baidu.com"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "template" : {
+      "tags" : "trade_test_address",
+      "url" : "https://ossgw.alicdn.com/rapid-oss-bucket/template_online/trade_test_address/43794933/trade_test_address_android.xml",
+      "level" : "2",
+      "version" : "3",
+      "useSwitch" : "true",
+      "name" : "trade_test_address"
+    },
+    "cellType" : "trade_test_address"
+}

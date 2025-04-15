@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/feed_head_icon_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.taobao.movie.android.commonui.widget.SimpleDraweeView android:id="@id/feed_media_icon" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_centerVertical="true" fresco:actualImageScaleType="centerCrop" fresco:fadeDuration="0" fresco:placeholderImage="@drawable/header_place_holder" fresco:placeholderImageScaleType="fitXY" fresco:roundAsCircle="true" />
+        <com.alibaba.pictures.moimage.MoImageView android:layout_gravity="bottom|center|right" android:id="@id/feed_media_verify" android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_alignRight="@id/feed_media_icon" android:layout_alignBottom="@id/feed_media_icon" />
+        <TextView android:textSize="11.0dip" android:textColor="@color/color_tpp_primary_assist" android:ellipsize="end" android:id="@id/feed_media_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:maxLines="1" android:layout_toRightOf="@id/feed_media_icon" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_feed_praise_layout" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <com.taobao.movie.android.commonui.widget.SafeLottieAnimationView android:id="@id/feed_article_add_favor" android:visibility="visible" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginRight="1.0dip" fresco:lottie_autoPlay="false" />
+        <TextView android:textSize="11.0dip" android:textColor="@color/color_tpp_primary_assist" android:gravity="center_vertical" android:id="@id/feed_article_favor_count" android:paddingTop="@dimen/margin_3" android:paddingBottom="@dimen/margin_3" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:text="0" />
+    </LinearLayout>
+</merge>

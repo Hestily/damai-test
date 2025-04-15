@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/search_box" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:background="@android:color/white" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="18.0dip" android:textColor="@color/common_text_color11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconf_search" />
+            <EditText android:textSize="13.0dip" android:textColorHint="@color/common_text_color11" android:id="@id/serach_edit_text" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_4" android:hint="搜索附近位置" android:singleLine="true" android:layout_weight="1.0" android:imeOptions="actionSearch" />
+            <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="18.0dip" android:textColor="@color/common_text_color11" android:id="@id/serach_clear_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconf_round_close" />
+        </LinearLayout>
+        <View android:background="@color/common_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/space_line_height" />
+    </LinearLayout>
+    <com.taobao.movie.statemanager.StateLayout android:id="@id/list_state" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/combolist" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    </com.taobao.movie.statemanager.StateLayout>
+</LinearLayout>

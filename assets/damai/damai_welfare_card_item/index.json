@@ -1,0 +1,28 @@
+{
+  "id": "damai_welfare_card_item",
+  "type": "gaia-template",
+  "package": {
+    "id": "damai_welfare_card_item",
+    "version": "0.0.1",
+    "modify-timestamp": "Tue Mar 07 2023 17:23:11 GMT+0800 (中国标准时间)",
+    "constraint-size": { "width": 375, "height": 66, "zoom": 1 },
+    "dependencies": {}
+  },
+  "layers": [
+    { "id": "project_poster", "type": "image" },
+    {
+      "id": "category_view",
+      "type": "view",
+      "layers": [{ "id": "category_tag", "type": "text" }]
+    },
+    {
+      "id": "discount_cover",
+      "type": "view",
+      "layers": [
+        { "id": "discount_zaoniao", "type": "image" },
+        { "id": "discount_point", "type": "text" },
+        { "id": "discount_desc", "type": "text" }
+      ]
+    }
+  ]
+}

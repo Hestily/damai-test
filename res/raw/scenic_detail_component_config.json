@@ -1,0 +1,318 @@
+{
+  "components": [
+    {
+      "type": 9999,
+      "tag": "common_header",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+          "marginTop": "resource_size_9",
+          "marginLeft": "resource_size_12",
+          "marginRight": "resource_size_12"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 9999,
+          "layoutID": "bricks_component_common_header_home_dm",
+          "model": "com.alient.onearch.adapter.component.header.GenericHeaderModel",
+          "present": "com.alient.onearch.adapter.component.header.GenericHeaderPresent",
+          "view": "com.alient.onearch.adapter.component.header.GenericHeaderView"
+        }
+      ]
+    },
+    {
+      "type": 9993,
+      "tag": "common_divider",
+      "layout": {
+        "layoutType": "single"
+      },
+      "viewTypes": [
+        {
+          "type": 9993,
+          "model": "com.alient.onearch.adapter.component.divider.DividerModel",
+          "present": "com.alient.onearch.adapter.component.divider.DividerPresent",
+          "view": "com.alient.onearch.adapter.component.divider.DividerView",
+          "layoutID": "component_divider"
+        }
+      ]
+    },
+    {
+      "type": 9995,
+      "tag": "generic_footer",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+          "backgroundColor": "#FFFFFF"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 9995,
+          "layoutID": "component_common_footer",
+          "model": "com.alient.onearch.adapter.component.footer.v2.GenericFooterModel",
+          "present": "com.alient.onearch.adapter.component.footer.v2.GenericFooterPresent",
+          "view": "com.alient.onearch.adapter.component.footer.v2.GenericFooterView"
+        }
+      ]
+    },
+    {
+      "type": 7501,
+      "tag": "script_murder_base_info",
+      "layout": {
+        "layoutType": "linear",
+        "params": {
+          "backgroundColor": "#FFFFFF"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7502,
+          "layoutID": "component_script_venue_info_view",
+          "model": "com.alibaba.pictures.bricks.component.scriptmurder.VenueInfoModel",
+          "present": "com.alibaba.pictures.bricks.component.scriptmurder.VenueInfoPresent",
+          "view": "com.alibaba.pictures.bricks.component.scriptmurder.VenueInfoView",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.bean.VenueInfoBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 9996,
+      "tag": "sticky_header",
+      "layout": {
+        "layoutType": "sticky",
+        "params": {
+          "backgroundColor": "#FFFFFF"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 9996,
+          "layoutID": "component_sticky_header_venue",
+          "model": "com.alient.onearch.adapter.component.header.sticky.StickyHeaderModel",
+          "present": "com.alient.onearch.adapter.component.header.sticky.StickyHeaderPresent",
+          "view": "com.alient.onearch.adapter.component.header.sticky.StickyHeaderView"
+        }
+      ]
+    },
+    {
+      "type": 7502,
+      "tag": "script_murder_one_project",
+      "layout": {
+        "layoutType": "linear",
+        "params": {
+          "backgroundColor": "#FFFFFF"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7503,
+          "layoutID": "component_one_project_item_view",
+          "model": "com.alibaba.pictures.picturesbiz.component.project.OneProjectModel",
+          "present": "com.alibaba.pictures.picturesbiz.component.project.venue.OldVenueProjectPresent",
+          "view": "com.alibaba.pictures.picturesbiz.component.project.OneProjectView",
+          "params": {
+            "bean": "cn.damai.commonbusiness.search.bean.ProjectItemBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7508,
+      "tag": "script_murder_place_holder",
+      "layout": {
+        "layoutType": "single",
+        "params": {
+          "backgroundColor": "#FFFFFF"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7506,
+          "layoutID": "component_common_empty",
+          "model": "com.alient.onearch.adapter.component.empty.GenericEmptyModel",
+          "present": "com.alient.onearch.adapter.component.empty.GenericEmptyPresent",
+          "view": "com.alient.onearch.adapter.component.empty.GenericEmptyView"
+        }
+      ]
+    },
+    {
+      "type": 7894,
+      "tag": "venue_benefit",
+      "des": "场馆页权益组件",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "gap": "resource_size_12",
+          "marginTop": "resource_size_9",
+          "listMarginLeft": "resource_size_12",
+          "listMarginRight": "resource_size_12"
+        }
+      },
+      "container": {
+        "type": 7894,
+        "layoutID": "bricks_component_common_horizontal_transparent",
+        "viewHolder": "com.alient.onearch.adapter.component.horizontal.GenericHorizontalViewHolder"
+      },
+      "viewTypes": [
+        {
+          "type": 7898,
+          "layoutID": "component_channel_benefit_card",
+          "model": "com.alibaba.pictures.bricks.component.channel.benefit.ChannelBenefitCardModel",
+          "present": "com.alibaba.pictures.bricks.component.channel.benefit.ChannelBenefitCardPresenter",
+          "view": "com.alibaba.pictures.bricks.component.venue.benefit.ScenicBenefitCardView",
+          "params": {
+            "bean": "cn.damai.channel.benefit.bean.BenefitItemVO"
+          }
+        },
+        {
+          "type": 7899,
+          "layoutID": "component_channel_benefit_card",
+          "model": "com.alibaba.pictures.bricks.component.channel.benefit.ChannelBenefitCardModel",
+          "present": "com.alibaba.pictures.bricks.component.channel.benefit.ChannelBenefitCardPresenter",
+          "view": "com.alibaba.pictures.bricks.component.venue.benefit.ScenicBenefitCardView",
+          "params": {
+            "bean": "cn.damai.channel.benefit.bean.BenefitItemVO"
+          }
+        },
+        {
+          "type": 7900,
+          "layoutID": "component_channel_benefit_single_card",
+          "model": "com.alibaba.pictures.bricks.component.channel.benefit.ChannelBenefitCardModel",
+          "present": "com.alibaba.pictures.bricks.component.channel.benefit.ChannelBenefitCardPresenter",
+          "view": "com.alibaba.pictures.bricks.component.venue.benefit.ScenicBenefitSingleCardView",
+          "params": {
+            "bean": "cn.damai.channel.benefit.bean.BenefitItemVO"
+          }
+        },
+        {
+          "type": 7901,
+          "layoutID": "component_channel_benefit_single_card",
+          "model": "com.alibaba.pictures.bricks.component.channel.benefit.ChannelBenefitCardModel",
+          "present": "com.alibaba.pictures.bricks.component.channel.benefit.ChannelBenefitCardPresenter",
+          "view": "com.alibaba.pictures.bricks.component.venue.benefit.ScenicBenefitSingleCardView",
+          "params": {
+            "bean": "cn.damai.channel.benefit.bean.BenefitItemVO"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7887,
+      "tag": "scenic_detail_vertical_tabs",
+      "layout": {
+        "layoutType": "raw_list",
+        "marginTop": "resource_size_9"
+      },
+      "container": {
+        "desc": "景点详情纵向多TAB容器组件-已配置",
+        "type": 7887,
+        "layoutID": "bricks_component_vertical_tab_4_scenic",
+        "model": "cn.damai.trade.newtradeorder.ui.projectdetail.scenic.component.ScenicVerticalTabModel",
+        "present": "cn.damai.trade.newtradeorder.ui.projectdetail.scenic.component.ScenicVerticalTabPresent",
+        "view": "cn.damai.trade.newtradeorder.ui.projectdetail.scenic.component.ScenicVerticalTabView"
+      }
+    },
+    {
+      "type": 7888,
+      "tag": "scenic_detail_vertical_one_tab",
+      "desc": "景点详情纵向多TAB容器组件-待完善",
+      "layout": {
+        "layoutType": "list",
+        "params": {
+          "gap": "resource_size_12",
+          "listMarginLeft": "resource_size_9",
+          "listMarginRight": "resource_size_9",
+          "marginLeft": "resource_size_9",
+          "marginRight": "resource_size_9"
+        }
+      },
+      "container": {
+        "desc": "景点详情纵向多TAB容器组件-待完善",
+        "type": 7888,
+        "layoutID": "component_common_horizontal",
+        "viewHolder": "com.alient.onearch.adapter.component.horizontal.GenericHorizontalViewHolder"
+      },
+      "viewTypes": [
+        {
+          "type": 7892,
+          "desc": "景点详情纵向多TAB容器组件-待完善",
+          "layoutID": "bricks_home_project_item",
+          "model": "com.alibaba.pictures.bricks.component.home.HomeProjectItemModel",
+          "present": "com.alibaba.pictures.bricks.component.home.HomeProjectItemPresent",
+          "view": "com.alibaba.pictures.bricks.component.home.HomeProjectItemView",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.bean.HomeProjectItemBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7892,
+      "tag": "scenic_detail_venue_info",
+      "desc": "景点基础信息组件-已配置",
+      "layout": {
+        "layoutType": "single"
+      },
+      "viewTypes": [
+        {
+          "type": 7895,
+          "layoutID": "bricks_component_scenic_site_info_view",
+          "viewHolder": "cn.damai.trade.newtradeorder.ui.projectdetail.scenic.component.ScenicBasicInfoViewHolder",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.component.venue.basicinfo.bean.VenueBasicInfoBean"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7893,
+      "desc": "景点基础Album-已配置",
+      "tag": "scenic_detail_venue_common_album",
+      "layout": {
+        "layoutType": "single"
+      },
+      "viewTypes": [
+        {
+          "type": 7897,
+          "layoutID": "bricks_component_scenic_album_view",
+          "viewHolder": "cn.damai.trade.newtradeorder.ui.projectdetail.scenic.component.ScenicAlbumViewHolder",
+          "params": {
+            "bean": "com.alibaba.pictures.bricks.component.venue.album.data.AlbumMo"
+          }
+        }
+      ]
+    },
+    {
+      "type": 7503,
+      "tag": "script_murder_comment",
+      "layout": {
+        "layoutType": "linear",
+        "params": {
+          "marginLeft": "resource_size_3",
+          "marginRight": "resource_size_3"
+        }
+      },
+      "viewTypes": [
+        {
+          "type": 7504,
+          "layoutID": "evaluate_item_layout",
+          "viewHolder": "cn.damai.trade.newtradeorder.ui.projectdetail.scenic.component.ScenicEvaluateViewHolder",
+          "params": {
+            "bean": "cn.damai.comment.bean.CommentsItemBean"
+          }
+        },
+        {
+          "type": 7902,
+          "layoutID": "layout_scenic_evaluate_footer_item",
+          "viewHolder": "cn.damai.trade.newtradeorder.ui.projectdetail.scenic.component.ScenicEvaluateFooterViewHolder",
+          "params": {
+            "bean": "cn.damai.trade.newtradeorder.ui.projectdetail.scenic.component.bean.ScenicEvaluateFooter"
+          }
+        }
+      ]
+    }
+  ]
+}

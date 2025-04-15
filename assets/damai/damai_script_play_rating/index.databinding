@@ -1,0 +1,88 @@
+{
+  "data": {
+    "rating_icon": {
+      "value": "@{env(isAndroid) ? 'gaiax_res:dm_ip_score_title' : 'gaiax_res:gaiax_res_scriptplay_detail_rating'}"
+    },
+    "rating_has_played": {
+      "value": "${wantPlayCountGaia}",
+      "extend": { "fit-content": "true" }
+    },
+    "rating_want_play": {
+      "value": "${playedCountGaia}",
+      "extend": { "fit-content": "true" }
+    },
+    "point_label": {
+      "value": "${itemScore}",
+      "extend": {
+        "fit-content": "true",
+        "display": "@{${itemScore} ? flex : none}"
+      }
+    },
+    "point_tip_label": {
+      "value": "${itemScoreDesc}",
+      "extend": { "fit-content": "true" }
+    },
+    "rating_star_holder": {
+      "extend": { "margin-top": "@{env(isAndroid) ? 4px : 0px}" }
+    },
+    "star_1": {
+      "value": "&#xe685",
+      "extend": { "color": "${starColor[0]}", "fit-content": "false" }
+    },
+    "half_star_1": {
+      "value": "&#xe6b9",
+      "extend": { "display": "${halfStarVisiable[0]}", "fit-content": "false" }
+    },
+    "star_2": {
+      "value": "&#xe685",
+      "extend": { "color": "${starColor[1]}", "fit-content": "false" }
+    },
+    "half_star_2": {
+      "value": "&#xe6b9",
+      "extend": { "display": "${halfStarVisiable[1]}", "fit-content": "false" }
+    },
+    "star_3": {
+      "value": "&#xe685",
+      "extend": { "color": "${starColor[2]}", "fit-content": "false" }
+    },
+    "half_star_3": {
+      "value": "&#xe6b9",
+      "extend": { "display": "${halfStarVisiable[2]}", "fit-content": "false" }
+    },
+    "star_4": {
+      "value": "&#xe685",
+      "extend": { "color": "${starColor[3]}", "fit-content": "false" }
+    },
+    "half_star_4": {
+      "value": "&#xe6b9",
+      "extend": { "display": "${halfStarVisiable[3]}", "fit-content": "false" }
+    },
+    "star_5": {
+      "value": "&#xe685",
+      "extend": { "color": "${starColor[4]}", "fit-content": "false" }
+    },
+    "half_star_5": {
+      "value": "&#xe6b9",
+      "extend": { "display": "${halfStarVisiable[4]}", "fit-content": "false" }
+    },
+    "rating_people_number": {
+      "value": "${totalGaia}",
+      "extend": { "fit-content": "true" }
+    },
+    "rating_indicator_1_content": { "extend": { "width": "${model1.ratio}" } },
+    "tips_label_1": {
+      "value": "${model1.scoreDesc} + ' ' +  ${model1.statScore}",
+      "extend": { "fit-content": "true" }
+    },
+    "rating_indicator_2_content": { "extend": { "width": "${model2.ratio}" } },
+    "tips_label_2": {
+      "value": "${model2.scoreDesc} + ' ' +  ${model2.statScore}",
+      "extend": { "fit-content": "true" }
+    },
+    "rating_indicator_3_content": { "extend": { "width": "${model3.ratio}" } },
+    "tips_label_3": {
+      "value": "${model3.scoreDesc} + ' ' +  ${model3.statScore}",
+      "extend": { "fit-content": "true" }
+    }
+  }
+}

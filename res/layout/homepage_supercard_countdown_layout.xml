@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fr_countdown_day_time" android:background="@drawable/bg_homepage_border_corner_ffebef_3" android:visibility="gone" android:layout_width="@dimen/margin_22dp" android:layout_height="@dimen/margin_22dp">
+        <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_FF4886" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_countdown_day_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/margin_11dp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tv_countdown_day_desc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_4dp" android:layout_marginRight="@dimen/margin_4dp" android:text="天" android:maxLines="1" />
+    <FrameLayout android:id="@id/fr_countdown_hour_time" android:background="@drawable/bg_homepage_border_corner_ffebef_3" android:visibility="gone" android:layout_width="@dimen/margin_22dp" android:layout_height="@dimen/margin_22dp">
+        <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_FF4886" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_countdown_hour_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/margin_11dp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tv_countdown_hour_desc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_4dp" android:layout_marginRight="@dimen/margin_4dp" android:text="时" android:maxLines="1" />
+    <FrameLayout android:id="@id/fr_countdown_minute_time" android:background="@drawable/bg_homepage_border_corner_ffebef_3" android:visibility="gone" android:layout_width="@dimen/margin_22dp" android:layout_height="@dimen/margin_22dp">
+        <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_FF4886" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_countdown_minute_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/margin_11dp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tv_countdown_minute_desc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_4dp" android:layout_marginRight="@dimen/margin_4dp" android:text="分" android:maxLines="1" />
+    <FrameLayout android:id="@id/fr_countdown_second_time" android:background="@drawable/bg_homepage_border_corner_ffebef_3" android:visibility="gone" android:layout_width="@dimen/margin_22dp" android:layout_height="@dimen/margin_22dp">
+        <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="@dimen/margin_14dp" android:textColor="@color/color_FF4886" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_countdown_second_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/margin_11dp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tv_countdown_second_desc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_4dp" android:text="秒" android:maxLines="1" />
+    <TextView android:textSize="@dimen/margin_11dp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tv_countdown_suffix_desc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+</merge>

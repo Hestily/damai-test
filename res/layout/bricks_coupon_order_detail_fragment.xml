@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/id_container_order_detail" android:background="#fff6f7f8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_page" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.alibaba.pictures.bricks.view.LinearPullToRefreshView android:orientation="vertical" android:id="@id/lin_refresh_layout" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar_layout" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="0.0dip" app:collapsedTitleGravity="center" app:layout_scrollFlags="scroll|exitUntilCollapsed">
+                        <include android:id="@id/head_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/bricks_item_order_tips_layout" />
+                    </com.google.android.material.appbar.CollapsingToolbarLayout>
+                </com.google.android.material.appbar.AppBarLayout>
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/irc" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        </com.alibaba.pictures.bricks.view.LinearPullToRefreshView>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/order_detail_bottom" android:background="#ffffffff" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip">
+            <TextView android:textSize="16.0dip" android:textColor="#ffd4d4d4" android:gravity="center" android:id="@id/tv_cancel_action" android:background="@drawable/bricks_cancel_round_bg" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/bricks_coupon_order_cancel" android:layout_weight="1.0" android:layout_marginEnd="5.0dip" />
+            <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_pay_action" android:background="@drawable/bricks_confirm_pay_round_bg" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/bricks_coupon_pay" android:layout_weight="1.0" android:layout_marginStart="5.0dip" />
+            <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_use_action" android:background="@drawable/bricks_confirm_pay_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/bricks_coupon_use" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/bricks_black" android:gravity="center_vertical" android:id="@id/tv_comment_des" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/bricks_coupon_comment_des" android:layout_weight="1.0" />
+            <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_comment_action" android:background="@drawable/bricks_confirm_pay_bg" android:visibility="gone" android:layout_width="150.0dip" android:layout_height="fill_parent" android:text="@string/bricks_coupon_comment" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

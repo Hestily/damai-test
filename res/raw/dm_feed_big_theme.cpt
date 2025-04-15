@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.discover.mvp.BigThemeModel",
+    "vClass": "cn.damai.tetris.component.discover.mvp.BigThemeView",
+    "pClass": "cn.damai.tetris.component.discover.mvp.BigThemePresenter",
+    "layoutXml": "item_discover_feed_big_theme"
+  }
+}

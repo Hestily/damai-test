@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="center_horizontal" android:layout_width="40.0dip" android:layout_height="fill_parent">
+        <View android:layout_gravity="center_horizontal" android:id="@id/express_line" android:background="@color/color_e7e7e7" android:layout_width="2.0px" android:layout_height="fill_parent" />
+        <View android:layout_gravity="center_horizontal" android:id="@id/express_line2" android:background="@color/color_e7e7e7" android:visibility="gone" android:layout_width="2.0px" android:layout_height="fill_parent" android:layout_marginTop="@dimen/margin_20dp" />
+        <View android:layout_gravity="center_horizontal" android:id="@id/express_line3" android:background="@color/color_e7e7e7" android:visibility="gone" android:layout_width="2.0px" android:layout_height="@dimen/margin_20dp" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_express_state" android:layout_width="9.0dip" android:layout_height="9.0dip" android:layout_marginTop="20.0dip" android:src="@drawable/order_confirmation_wallet_icon" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_999999" android:id="@id/tv_express_info" android:paddingTop="@dimen/margin_15dp" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_cccccc" android:id="@id/tv_express_time" android:paddingTop="@dimen/margin_2dp" android:paddingBottom="@dimen/margin_15dp" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:id="@id/line_bottom" android:background="@color/color_e7e7e7" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </LinearLayout>
+</LinearLayout>

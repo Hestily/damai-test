@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="#ffffffff" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <gradient android:startColor="#ffe7ecff" android:endColor="#00000000" android:angle="180.0" android:type="linear" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <gradient android:startColor="#fff9f0ff" android:endColor="#00000000" android:angle="0.0" android:type="linear" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/home_top_bg_layer2" />
+</layer-list>

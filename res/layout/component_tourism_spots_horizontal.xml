@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:backgroundTint="@color/transparent" app:cardBackgroundColor="@color/transparent" app:cardCornerRadius="9.0dip" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/tourism_spots_tab_background" android:layout_width="fill_parent" android:layout_height="70.0dip" android:scaleType="fitXY" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="45.0dip">
+            <ImageView android:id="@id/tourism_tab_name_pic" android:background="@color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="14.0dip" android:scaleType="fitStart" android:layout_marginStart="12.0dip" />
+            <TextView android:textSize="15.0dip" android:textStyle="bold" android:textColor="@color/bricks_2e333e" android:id="@id/tourism_tab_name_text" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="21.0dip" android:layout_marginStart="12.0dip" />
+            <View android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="5.0dip" android:layout_weight="1.0" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/bricks_5f6672" android:id="@id/tourism_btn_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="12.0dip" android:textColor="@color/bricks_5f6672" android:id="@id/tourism_tab_jiantou" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_youjiantou_" android:includeFontPadding="false" android:layout_marginEnd="12.0dip" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/horizontal_container" android:paddingBottom="9.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="45.0dip" android:overScrollMode="never" android:paddingStart="6.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/tourism_btn_name" />
+    </FrameLayout>
+</androidx.cardview.widget.CardView>

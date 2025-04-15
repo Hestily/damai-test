@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/project_perform_canlendar_topbar_bg" android:layout_width="fill_parent" android:layout_height="25.0dip" android:layout_marginLeft="@dimen/margin_12dp" android:layout_marginTop="18.0dip" android:layout_marginRight="@dimen/margin_12dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0dip" android:textColor="@color/color_222222" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="日" android:layout_weight="1.0" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/color_222222" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="一" android:layout_weight="1.0" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/color_222222" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="二" android:layout_weight="1.0" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/color_222222" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="三" android:layout_weight="1.0" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/color_222222" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="四" android:layout_weight="1.0" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/color_222222" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="五" android:layout_weight="1.0" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/color_222222" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="六" android:layout_weight="1.0" />
+</LinearLayout>

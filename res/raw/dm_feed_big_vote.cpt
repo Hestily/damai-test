@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.discover.mvp.BigVoteModel",
+    "vClass": "cn.damai.tetris.component.discover.mvp.BigVoteView",
+    "pClass": "cn.damai.tetris.component.discover.mvp.BigVotePresenter",
+    "layoutXml": "item_feed_big_vote"
+  }
+}

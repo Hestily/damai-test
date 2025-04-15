@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/bricks_id_welfare_bg" android:layout_width="fill_parent" android:layout_height="113.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.bricks.view.RoundRadiusImageView android:id="@id/bricks_id_welfare_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" app:r_round_radius="6.0dip" />
+    <ImageView android:layout_gravity="center" android:id="@id/bricks_id_welfare_img_content" android:layout_width="80.0dip" android:layout_height="80.0dip" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/bricks_id_welfare_img_title" android:layout_width="55.0dip" android:layout_height="14.0dip" android:layout_marginTop="@dimen/resource_size_12" />
+    <TextView android:textSize="@dimen/resource_size_11" android:textColor="@color/bricks_5f6672" android:ellipsize="end" android:gravity="center" android:layout_gravity="bottom" android:id="@id/bricks_id_welfare_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="@dimen/resource_size_14" android:lines="1" />
+</FrameLayout>

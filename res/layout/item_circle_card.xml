@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/circle_card_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_6dp" android:layout_marginBottom="@dimen/margin_6dp">
+        <cn.damai.tetris.component.home.widget.banner.sub.RoundRadiusImageView android:id="@id/iv_circle_pic" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="3.0dip" android:src="@drawable/defult_circle_head" android:scaleType="centerCrop" app:r_round_radius="4.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/circle_content_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/margin_6dp">
+            <TextView android:textSize="14.0dip" android:textColor="@color/color_333333" android:ellipsize="end" android:id="@id/tv_circle_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+            <TextView android:textSize="10.0dip" android:ellipsize="end" android:id="@id/tv_circle_sub" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:maxLines="1" />
+        </LinearLayout>
+        <ImageView android:id="@id/iv_circle_action_icon" android:visibility="gone" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginTop="3.0dip" android:src="@drawable/item_reward_icon" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+</LinearLayout>

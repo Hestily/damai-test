@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/head" layout="@layout/header_calendar" />
+    <LinearLayout android:orientation="vertical" android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:flipInterval="30" android:layout_below="@id/head">
+        <cn.damai.baseview.PinnedSectionListView android:id="@id/popu_star_pro_list" android:background="@color/transparent" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/transparent" android:cacheColorHint="#00000000" android:divider="@color/touming" android:dividerHeight="1.0px" android:overScrollMode="never" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/calendar_clickview" android:background="#99000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:background="@drawable/c_gesture_pic1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="180.0dip" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

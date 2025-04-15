@@ -1,0 +1,112 @@
+#damai_script_play_cell_go_see {
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 4.5px;
+  padding-bottom: 4.5px;
+}
+#play_cell_bg {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  align-items: center;
+  padding-top: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 12px;
+  border-radius: 6px;
+}
+#play_image {
+  width: 63px;
+  border-radius: 6px;
+  mode: aspectFill;
+  margin-right: 12px;
+  border-color: #0000000f;
+  border-width: 0.5px;
+  border-style: solid;
+  height: 84px;
+}
+#content_info_view {
+  flex-shrink: 1;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+  width: 100%;
+  height: 100%;
+}
+#play_title {
+  text-overflow: ellipsis;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0px;
+  lines: 2;
+  text-align: left;
+  width: 100%;
+  fit-content: true;
+}
+#score_and_rank {
+  width: 100%;
+  align-items: center;
+  height: 20px;
+  margin-top: 3px;
+}
+#score_desc {
+  width: 100%;
+  text-overflow: ellipsis;
+  color: #4d4d56;
+  font-size: 12px;
+  fit-content: true;
+  height: 14px;
+  font-weight: 400;
+}
+#score_num {
+  text-overflow: ellipsis;
+  height: 16px;
+  color: #ff8f3f;
+  font-size: 14px;
+  font-weight: 500;
+  fit-content: true;
+  overflow: visible;
+  text-align: left;
+  margin-bottom: 1px;
+  margin-left: 2px;
+  width: 100%;
+}
+#player_introduce_view {
+  width: 100%;
+  align-items: center;
+  margin-top: 6px;
+}
+#play_introduce {
+  text-overflow: ellipsis;
+  color: #4d4d56;
+  font-size: 12px;
+  fit-content: true;
+  width: 100%;
+}
+#btn_go_see {
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  height: 27px;
+  border-radius: 12.5px;
+  background-color: #ffffff;
+  border-color: #ff79bd;
+  border-width: 1px;
+  border-style: solid;
+  width: 54px;
+}
+#see_text {
+  text-overflow: ellipsis;
+  color: #ff79bd;
+  font-size: 12px;
+  text-align: center;
+  height: 25px;
+  width: 66px;
+  border-radius: 12.5px;
+}

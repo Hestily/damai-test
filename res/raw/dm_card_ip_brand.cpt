@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.brand.BrandIpModel",
+    "vClass": "cn.damai.tetris.component.brand.BrandIpView",
+    "pClass": "cn.damai.tetris.component.brand.BrandIpPresenter",
+    "layoutXml": "layout_ip_brandcard"
+  }
+}

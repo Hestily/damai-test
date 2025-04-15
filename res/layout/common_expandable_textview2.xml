@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0dip" android:textColor="@color/common_text_color10" android:ellipsize="end" android:id="@id/expandable_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:lineSpacingExtra="11.0dip" />
+    <LinearLayout android:gravity="bottom|center|right" android:layout_gravity="bottom|center|right" android:orientation="horizontal" android:id="@id/ll_more" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:background="@drawable/film_detail_expand_more_bg" android:layout_width="30.0dip" android:layout_height="18.0dip" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/common_color_1004" android:gravity="center" android:id="@id/expand_collapse" android:background="@color/white" android:paddingLeft="3.0dip" android:paddingRight="@dimen/margin_20" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/oscar_article_film_express_more" />
+    </LinearLayout>
+</FrameLayout>

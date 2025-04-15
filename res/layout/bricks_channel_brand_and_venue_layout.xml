@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bricks_theme_chanel_venue_content_bg" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="12.0dip">
+        <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="15.0dip" android:textColor="@color/bricks_2e333e" android:id="@id/rv_brand_venue_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.alibaba.pictures.moimage.MoImageView android:id="@id/rv_brand_venue_img" android:layout_width="wrap_content" android:layout_height="18.0dip" android:layout_marginStart="6.0dip" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_brand_venue" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/margin_8dp" />
+    <com.alibaba.pictures.bricks.component.channel.brandandvenue.BrandAndVenueView android:id="@id/brand_and_venue_info" android:layout_width="fill_parent" android:layout_height="154.0dip" />
+</LinearLayout>

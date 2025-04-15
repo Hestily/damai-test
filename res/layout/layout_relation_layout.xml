@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#fff4f5f6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/rl_relation_holder" android:background="@drawable/mine_relation_bg" android:layout_width="fill_parent" android:layout_height="100.0dip" />
+    <cn.damai.uikit.irecycler.IRecyclerView android:id="@id/irc" android:layout_width="fill_parent" android:layout_height="fill_parent" app:loadMoreFooterLayout="@layout/mine_list_irc_footer_layout" app:refreshEnabled="true" app:refreshHeaderLayout="@layout/refresh_empty_view" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

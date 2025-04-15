@@ -1,0 +1,5 @@
+{
+  "data": {
+    "tip_desc": { "value": "${pageDesc}", "extend": { "fit-content": "true" } }
+  }
+}

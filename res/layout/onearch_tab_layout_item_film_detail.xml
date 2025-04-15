@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingBottom="@dimen/resource_size_5" android:layout_width="wrap_content" android:layout_height="@dimen/resource_size_55"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/tab_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/tab_indicator_lottie" android:layout_width="25.0dip" android:layout_height="15.0dip" android:layout_alignBottom="@id/tab_text" android:layout_marginEnd="7.0dip" android:layout_alignEnd="@id/tab_text" />
+        <TextView android:gravity="center" android:id="@id/tab_text" android:paddingLeft="10.0dip" android:paddingTop="3.0dip" android:paddingRight="10.0dip" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/resource_size_10" android:gravity="center" android:id="@id/bubble" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_alignParentTop="true" android:layout_toEndOf="@id/tab_text" />
+        <TextView android:textSize="@dimen/resource_size_8" android:textColor="@color/white" android:id="@id/rich_bubble" android:paddingTop="@dimen/resource_size_1" android:paddingBottom="@dimen/resource_size_2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/resource_size_15" android:paddingStart="@dimen/resource_size_4" android:paddingEnd="@dimen/resource_size_4" android:layout_marginStart="@dimen/resource_size_20" />
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/tab_icon_lottie" android:layout_width="@dimen/resource_size_20" android:layout_height="@dimen/resource_size_20" android:layout_centerVertical="true" android:layout_toEndOf="@id/tab_text" />
+    </RelativeLayout>
+    <ImageView android:id="@id/tab_indicator" android:layout_width="@dimen/resource_size_18" android:layout_height="@dimen/resource_size_4" android:layout_below="@id/tab_content" android:layout_centerHorizontal="true" />
+</RelativeLayout>

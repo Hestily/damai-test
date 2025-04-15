@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.damai.uikit.view.StrokeLinearLayout android:orientation="vertical" android:id="@id/item_feed_vote_ui" android:background="@drawable/bg_circle_vote_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_9dp" app:sl_corners_radius="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.uikit.view.StrokeLinearLayout android:orientation="vertical" android:background="@drawable/bg_circle_card" android:layout_width="fill_parent" android:layout_height="wrap_content" app:sl_corners_radius="8.0dip">
+        <FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:id="@id/vote_title_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_15dp" android:layout_marginStart="@dimen/margin_12dp">
+                <ImageView android:layout_width="@dimen/margin_18dp" android:layout_height="@dimen/margin_18dp" android:layout_marginTop="2.0dip" android:src="@drawable/vote_icon" />
+                <TextView android:textSize="16.0dip" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/item_feed_vote_title" android:layout_marginStart="6.0dip" />
+            </LinearLayout>
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/item_big_vote_layout" />
+        </FrameLayout>
+    </cn.damai.uikit.view.StrokeLinearLayout>
+</cn.damai.uikit.view.StrokeLinearLayout>

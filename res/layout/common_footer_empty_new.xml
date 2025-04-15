@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0dip" android:textColor="@color/color_9C9CA5" android:gravity="center" android:id="@id/tv_des" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_30dp" android:text="咦～ 没有了，点击更多榜单去看看吧" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_30dp" android:layout_marginBottom="30.0dip" android:src="@drawable/bricks_bg_rank_list" />
+</LinearLayout>

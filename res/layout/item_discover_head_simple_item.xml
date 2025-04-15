@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="45.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/fixed_sub_img" android:layout_width="wrap_content" android:layout_height="10.0dip" android:layout_marginTop="15.0dip" android:scaleType="fitXY" />
+    <TextView android:textSize="10.0dip" android:textColor="#ff9c9ca5" android:ellipsize="end" android:id="@id/fixed_sub_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxLines="1" android:layout_below="@id/fixed_sub_img" />
+    <cn.damai.uikit.banner.sub.RoundRadiusImageView android:id="@id/fixed_bg_img" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginTop="@dimen/margin_11dp" android:scaleType="centerCrop" android:layout_below="@id/fixed_sub_title" app:r_round_radius="4.0dip" />
+</RelativeLayout>

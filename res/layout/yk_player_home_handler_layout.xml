@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/yk_player_video_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+    <RelativeLayout android:id="@id/yk_pause_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/yk_player_video_bofang_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/yk_player_bofang_btn" android:layout_centerInParent="true" />
+        <cn.damai.uikit.irecycler.widget.LoadingView android:id="@id/yk_player_loading" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/yk_bottom_bar_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include layout="@layout/yk_player_home_bottombar" />
+    </FrameLayout>
+</RelativeLayout>

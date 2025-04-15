@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingBottom="@dimen/resource_size_12" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.bricks.view.BricksStrokeLinearLayout android:orientation="vertical" android:id="@id/id_bricks_wish_full_container" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:sl_corners_radius="@dimen/resource_size_12">
+        <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="@dimen/resource_size_16" android:textColor="@color/white" android:id="@id/id_bricks_wish_top_title" android:paddingBottom="@dimen/resource_size_9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:paddingStart="@dimen/resource_size_12" />
+            <LinearLayout android:gravity="center" android:id="@id/id_bricks_wish_right_action" android:paddingLeft="@dimen/resource_size_12" android:paddingTop="3.0dip" android:paddingRight="@dimen/resource_size_12" android:paddingBottom="@dimen/resource_size_11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+                <TextView android:textSize="@dimen/resource_size_12" android:textColor="@color/color_bricks_primary_60_white" android:id="@id/id_bricks_wish_right_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="12.0dip" android:textColor="@color/color_bricks_primary_60_white" android:paddingLeft="@dimen/resource_size_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_youjiantou12" />
+            </LinearLayout>
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/id_bricks_ip_main_recycler" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+        <com.alibaba.pictures.bricks.view.BricksStrokeLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/id_bricks_ip_city_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/resource_size_9" app:sl_corners_radius="@dimen/resource_size_12">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center" android:id="@id/id_bricks_ip_city_list" android:layout_width="fill_parent" android:layout_height="47.0dip" />
+                <ImageView android:id="@id/id_bricks_ip_city_left_img" android:layout_width="40.0dip" android:layout_height="65.0dip" />
+            </FrameLayout>
+        </com.alibaba.pictures.bricks.view.BricksStrokeLinearLayout>
+    </com.alibaba.pictures.bricks.view.BricksStrokeLinearLayout>
+    <com.alibaba.pictures.bricks.view.SafeLottieAnimationView android:layout_gravity="center" android:id="@id/id_bricks_ip_wish_success_lottie" android:visibility="gone" android:layout_width="160.0dip" android:layout_height="160.0dip" android:layout_marginBottom="@dimen/resource_size_12" />
+</FrameLayout>

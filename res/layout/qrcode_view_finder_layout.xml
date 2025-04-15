@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/top_of_viewfinder" android:background="@color/qrcode_viewfinder_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/scan_tip" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="「将二维码放入框内即可扫描」" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/qrcode_scan_frame_layout" android:layout_width="fill_parent" android:layout_height="250.0dip">
+        <RelativeLayout android:background="@color/qrcode_viewfinder_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <RelativeLayout android:id="@id/port_view" android:layout_width="250.0dip" android:layout_height="fill_parent">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/qrcode_corner_left_top" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/qrcode_corner_left_bottom" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/qrcode_corner_right_top" android:scaleType="centerInside" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/qrcode_corner_right_bottom" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+            <ImageView android:id="@id/splash_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout android:background="@color/qrcode_viewfinder_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/bottom_of_viewfinder" android:background="@null" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <RelativeLayout android:background="@color/qrcode_viewfinder_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+    </RelativeLayout>
+</LinearLayout>

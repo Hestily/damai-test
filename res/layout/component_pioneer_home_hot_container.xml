@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/pioneer_home_item_bg" android:paddingTop="5.0dip" android:paddingBottom="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/title_lay" android:layout_width="wrap_content" android:layout_height="fill_parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <FrameLayout android:id="@id/fl_container_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="12.0dip">
+            <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="@dimen/resource_size_16" android:textColor="@color/color_171717" android:id="@id/tv_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="6.0dip" />
+        </FrameLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/title_right_more" android:paddingRight="@dimen/resource_size_12" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+            <TextView android:textSize="@dimen/resource_size_12" android:textColor="#ff030e24" android:id="@id/more" android:paddingBottom="1.5dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="全部" android:layout_marginEnd="-3.0dip" />
+            <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="@dimen/resource_size_12" android:textColor="#ff030e24" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_youjiantouxiao12" />
+        </LinearLayout>
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_movie_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title_lay" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_show_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/rv_movie_content" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ticklet_perform_no_ticket" android:layout_width="fill_parent" android:layout_height="278.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/ticklet_noticket_main_bg" android:layout_width="228.81dip" android:layout_height="194.0dip" android:src="@drawable/ticklet_list_nologin_star_new" android:scaleType="fitXY" />
+    <TextView android:gravity="center" android:id="@id/ticklet_noticket_main_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ticklet_list_nologin_stars_title_tips_new" style="@style/ticklet_000000_14dp" />
+    <TextView android:gravity="center" android:id="@id/ticklet_noticket_sub_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/ticklet_list_nologin_stars_subtitle_tips_new" style="@style/ticklet_999999_14dp" />
+</LinearLayout>

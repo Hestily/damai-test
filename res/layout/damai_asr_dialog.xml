@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.damai.baseview.CropImageView android:id="@id/iv_img" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:background="#ff242525" android:layout_width="fill_parent" android:layout_height="57.0dip">
+            <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/tv_cancel" android:background="@drawable/publish_crop_btn_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/Cancel" android:layout_weight="1.0" />
+            <ImageButton android:gravity="center" android:id="@id/ib_gress" android:background="@drawable/publish_crop_btn_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/publish_filter_whirl_normal" android:layout_weight="1.0" />
+            <RelativeLayout android:id="@id/rl_lock" android:background="@drawable/publish_crop_btn_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/iv_lock" android:background="@drawable/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/publish_filter_locking_press" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/tv_ok" android:background="@drawable/publish_crop_btn_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/damai_damaicapture_selection" android:layout_weight="1.0" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

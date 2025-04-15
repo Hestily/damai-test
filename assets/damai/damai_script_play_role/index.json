@@ -1,0 +1,12 @@
+{
+  "id": "damai_script_play_role",
+  "type": "gaia-template",
+  "package": {
+    "id": "damai_script_play_role",
+    "version": "0.0.1",
+    "modify-timestamp": "Tue Apr 26 2022 17:28:45 GMT+0800 (中国标准时间)",
+    "constraint-size": { "width": 63, "height": 84, "zoom": 1 },
+    "dependencies": {}
+  },
+  "layers": [{ "id": "role_image_view", "type": "image" }]
+}

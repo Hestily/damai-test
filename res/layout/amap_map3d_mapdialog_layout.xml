@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="vertical" android:background="#fffafafa" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="#ff898989" android:gravity="center" android:id="@id/amap_map3d_dialog_title" android:layout_width="fill_parent" android:layout_height="33.0dip" android:text="北京市" />
+            <LinearLayout android:background="@drawable/amap_map3d_divider_vertical_bright_opaque" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <TextView android:textColor="#ff4c90f9" android:gravity="center" android:id="@id/amap_map3d_dialog_status" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="暂停" android:layout_below="@id/amap_map3d_dialog_title" />
+            <LinearLayout android:background="@drawable/amap_map3d_divider_vertical_bright_opaque" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <TextView android:textColor="#ffff0000" android:gravity="center" android:id="@id/amap_map3d_dialog_delete" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="取消下载" android:layout_below="@id/amap_map3d_dialog_status" />
+            <TextView android:textColor="#ff000000" android:gravity="center" android:id="@id/amap_map3d_dialog_cancle" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="9.0dip" android:text="取消" android:layout_below="@id/amap_map3d_dialog_status" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

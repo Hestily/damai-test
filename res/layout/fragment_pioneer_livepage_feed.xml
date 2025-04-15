@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.tabs.TabLayout android:layout_gravity="center_vertical" android:id="@id/feed_tags" android:background="@drawable/bg_pioneer_live_feed_tab_bottom" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/resource_size_30" android:layout_marginTop="-4.0dip" app:selectedIndicatorBackground="@null" app:tabGravity="start" app:tabMinWidth="@dimen/resource_size_25" app:tabPaddingEnd="1.0dip" app:tabPaddingStart="1.0dip" style="@style/HomeFeedTabStyle" />
+    <com.youku.arch.v3.page.state.StateView android:id="@id/state_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.damai.pioneer.component.tab.ChildRecyclerView android:id="@id/one_arch_recyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.youku.arch.v3.page.state.StateView>
+</LinearLayout>

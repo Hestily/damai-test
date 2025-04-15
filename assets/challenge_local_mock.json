@@ -1,0 +1,91 @@
+{
+  "isLongtermProject": 0,
+  "color": "#6B41C1",
+  "historyPerformFlag": 0,
+  "timeTitle": "2024.07.01-2025.06.01 多次入场通票联票测试",
+  "userPerformConfig": {},
+  "transferringNum": 0,
+  "esouvenirEnable": 0,
+  "performDetailTitle": "票详情",
+  "startTime": "2024-10-03 19:30:00",
+  "isMoreEnter": 1,
+  "performStatus": 30,
+  "startTimeByLong": 1729061430000,
+  "userVenueVO": {
+    "venueName": "盘古测试场馆-上海",
+    "lng": 121.667831,
+    "detailLocation": "上海市浦东新区川沙新镇迪士尼(地铁站)上海迪士尼度假区",
+    "venueId": "1092001",
+    "localeName": "乌鲁木齐市 | 晴澈万人场馆测试01（勿删！！！）",
+    "lat": 31.14132
+  },
+  "memberLevel": 1,
+  "transferState": 1,
+  "extAttr": {},
+  "isTimeChanged": 1,
+  "isCertPerform": 0,
+  "performId": "215532119",
+  "productSystemId": "PWY",
+  "ticketQuantity": 100,
+  "expireTime": 1727971200000,
+  "createTime": 1720438351000,
+  "tenantId": "97",
+  "performOpList": [
+    {
+      "performOpType": 9,
+      "performOpDesc": "查看我的票",
+      "extAttr": {}
+    },
+    {
+      "performOpType": 3,
+      "performOpDesc": "转送好友",
+      "extAttr": {}
+    },
+    {
+      "performOpType": 7,
+      "performOpDesc": "纪念票",
+      "extAttr": {
+        "targetUrl": "https://m.wapa.taopiaopiao.com/tickets/moviemine/pages/souvenir/detail.html?souvenirId=185598&bizType=Perform"
+      }
+    }
+  ],
+  "endTime": 1727964000000,
+  "userTicketVOList": [
+    {
+      "tradeOrderId": "4023869511913538008",
+      "voucherCertNo": "",
+      "tips": "已退票",
+      "voucherCertName": "",
+      "standPortal": {
+        "mode": 1
+      },
+      "price": "0.15元",
+      "productSystemVoucherId": "5600810006",
+      "productSystemVoucherIdWithPre": "T.N：5600810006",
+      "seatInfo": "无座位",
+      "checkDirection": 0,
+      "voucherUniqueKey": "PWY_5600810006",
+      "verifyCode": "PWY_XetPL65e2K5v903u+aCzOxE7cKGQ5CZA2SmmfE3LNeYkf2/YuQvK6Jff5zd3F3do",
+      "isForgotCardEntrance": 0,
+      "voucherType": 2,
+      "priceValue": 15,
+      "ticketType": 1,
+      "transferState": 0,
+      "extAttr": {},
+      "voucherState": 4,
+      "performId": "215532119",
+      "productSystemId": "PWY",
+      "transferType": 1,
+      "priceId": "280698533",
+      "activityCodeInfoVO": {},
+      "transferCnt": 0
+    }
+  ],
+  "userProjectVO": {
+    "itemId": "813594478522",
+    "productSystemId": "PWY",
+    "tenantId": "97",
+    "projectName": "本地演出数据本地本地本地典民族歌剧演出《党的女儿》",
+    "projectId": "221310005"
+  }
+}

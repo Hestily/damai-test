@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/rl_show_more_item" android:layout_width="@dimen/pioneer_poster_width" android:layout_height="@dimen/pioneer_poster_height" android:elevation="0.0dip" app:cardCornerRadius="9.0dip" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.bricks.component.home.moviecard.CombinedImageView android:id="@id/pioneer_iv_more_images" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/pioneer_mask_image" android:background="#b3171717" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/pioneer_item_cover" android:layout_width="fill_parent" android:layout_height="33.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pioneer_hot_more_arrow" android:layout_marginStart="4.0dip" />
+        <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:textSize="12.0dip" android:textColor="#ffffffff" android:id="@id/pioneer_tv_homepage_show_more_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_2dp" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

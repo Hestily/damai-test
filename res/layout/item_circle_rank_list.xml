@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_theme_content_card" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_rank_head_layout" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="28.0dip">
+        <ImageView android:id="@id/iv_action_icon" android:visibility="gone" android:layout_width="38.0dip" android:layout_height="16.0dip" android:layout_marginLeft="4.0dip" android:layout_marginBottom="4.0dip" android:src="@drawable/circle_rank_icon" android:layout_alignParentBottom="true" />
+        <TextView android:textSize="10.0dip" android:textColor="@color/color_9c9ca5" android:id="@id/theme_rank_end" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginBottom="4.0dip" android:text="已结束" android:layout_toRightOf="@id/iv_action_icon" android:layout_alignParentBottom="true" />
+        <LinearLayout android:id="@id/theme_rank_count_down_ui" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/iv_action_icon" android:layout_alignParentBottom="true">
+            <TextView android:textSize="10.0dip" android:textColor="@color/color_9c9ca5" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="距离活动结束" />
+            <cn.damai.uikit.number.DMDigitTextView android:id="@id/theme_rank_day_num" android:text="00" style="@style/Circle_CountDown_Num_Text_Style" />
+            <TextView android:id="@id/theme_rank_day_text" android:text="天" style="@style/Theme_CountDown_Text_Style" />
+            <cn.damai.uikit.number.DMDigitTextView android:id="@id/theme_rank_hour_num" android:text="00" style="@style/Circle_CountDown_Num_Text_Style" />
+            <TextView android:id="@id/theme_rank_hour_text" android:text="时" style="@style/Theme_CountDown_Text_Style" />
+            <cn.damai.uikit.number.DMDigitTextView android:id="@id/theme_rank_minute_num" android:text="00" style="@style/Circle_CountDown_Num_Text_Style" />
+            <TextView android:id="@id/theme_rank_minute_text" android:text="分" style="@style/Theme_CountDown_Text_Style" />
+            <cn.damai.uikit.number.DMDigitTextView android:id="@id/theme_rank_second_num" android:text="00" style="@style/Circle_CountDown_Num_Text_Style" />
+            <TextView android:id="@id/theme_rank_second_text" android:text="秒" style="@style/Theme_CountDown_Text_Style" />
+        </LinearLayout>
+        <TextView android:textSize="10.0dip" android:textColor="@color/color_333333" android:id="@id/rule_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/item_circle_rule" android:layout_toLeftOf="@id/iv_action_des_icon" android:layout_alignParentBottom="true" />
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="11.0dip" android:textColor="@color/color_333333" android:id="@id/iv_action_des_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" android:text="@string/iconfont_youjiantou_" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_rank_mid_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/margin_12dp" android:paddingEnd="@dimen/margin_12dp">
+        <TextView android:textSize="@dimen/margin_16dp" android:textColor="@color/black" android:ellipsize="end" android:id="@id/tv_rank_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_12dp" android:maxLines="1" />
+        <View android:id="@id/line" android:background="#0a000000" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="@dimen/margin_8dp" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/rank_list_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/theme_rank_lv" android:layout_width="fill_parent" android:layout_height="104.0dip" />
+        <View android:layout_gravity="end|bottom|center" android:background="@drawable/bg_circle_rank_lv_end_mask_shape" android:layout_width="51.0dip" android:layout_height="103.0dip" />
+    </FrameLayout>
+</LinearLayout>

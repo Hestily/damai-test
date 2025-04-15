@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/layout_main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:lottie="http://schemas.android.com/apk/res-auto">
+    <com.google.vr.sdk.widgets.pano.VrPanoramaView android:id="@id/vr_pan_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/iv_preload_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <View android:id="@id/mask_view" android:background="#73000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/loading_view" android:layout_width="90.0dip" android:layout_height="90.0dip" android:layout_centerInParent="true" lottie:lottie_autoPlay="true" lottie:lottie_fileName="vr_loading.json" lottie:lottie_imageAssetsFolder="vr_loading_images" lottie:lottie_loop="true" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/white" android:id="@id/tv_loading_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/seat_vr_loading_tip" android:layout_below="@id/loading_view" android:layout_centerHorizontal="true" />
+    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="24.0dip" android:textColor="@color/white" android:id="@id/ic_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:layout_marginTop="54.0dip" android:text="@string/iconfont_fanhui24" />
+    <TextView android:textSize="10.0dip" android:textColor="@color/white" android:id="@id/tv_vr_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="21.0dip" android:text="@string/seat_vr_image_tip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

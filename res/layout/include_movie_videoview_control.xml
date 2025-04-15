@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/color_tpp_primary_60_black" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/replay" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="25.0dip" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconf_replay" />
+        <TextView android:textSize="@dimen/text_size_11_dp" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="重播" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/next_video" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="117.0dip">
+        <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="25.0dip" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconf_next_video" />
+        <TextView android:textSize="@dimen/text_size_11_dp" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="下一视频" />
+    </LinearLayout>
+</LinearLayout>

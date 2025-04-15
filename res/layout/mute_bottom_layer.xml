@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:id="@id/home_video_mask_root" android:layout_width="fill_parent" android:layout_height="120.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.taobao.movie.android.utils.ShapeView android:layout_gravity="bottom" android:id="@id/mask_layer" android:layout_width="fill_parent" android:layout_height="100.0dip" app:shape_gradientOrientation="TOP_BOTTOM" app:shape_gradient_endColor="@color/black" app:shape_gradient_startColor="#00ffffff" />
+    <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="17.0dip" android:textColor="@color/white" android:layout_gravity="bottom" android:id="@id/btn_mute" android:paddingLeft="13.0dip" android:paddingTop="14.0dip" android:paddingRight="13.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="@string/icon_font_mute_on" />
+</FrameLayout>

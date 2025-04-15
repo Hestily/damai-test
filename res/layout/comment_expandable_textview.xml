@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0dip" android:textStyle="bold" android:textColor="@color/common_text_color36" android:gravity="start" android:id="@id/common_reply_nickname" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="15.0dip" android:textColor="@color/color_tpp_primary_assist" android:ellipsize="end" android:id="@id/comment_exception_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="该评论已删除" android:layout_below="@id/common_reply_nickname" android:lineSpacingExtra="4.0dip" />
+    <com.taobao.movie.android.commonui.widget.richtext.RichTextView android:textSize="15.0dip" android:textColor="@color/common_text_color38" android:ellipsize="end" android:id="@id/expandable_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/comment_exception_text" />
+    <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_assist" android:gravity="right" android:layout_gravity="center_horizontal" android:id="@id/expand_collapse" android:background="@drawable/comment_reply_expandable_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_below="@id/expandable_text" android:layout_alignParentRight="true" />
+</RelativeLayout>

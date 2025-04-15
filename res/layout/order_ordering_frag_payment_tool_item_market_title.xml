@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/order_item_round_bg" android:paddingTop="@dimen/padding_12" android:paddingBottom="@dimen/padding_9" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/OrderCommonMarketItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_size_15_dp" android:textStyle="bold" android:textColor="@color/color_tpp_primary_main_title" android:gravity="center|left" android:id="@id/refund_title" android:layout_width="wrap_content" android:layout_height="21.0dip" android:text="@string/ordering_selector_market_title" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/text_size_12_dp" android:textColor="@color/tpp_secondary_blue" android:ellipsize="end" android:id="@id/refund_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_10" android:singleLine="true" android:layout_toRightOf="@id/refund_title" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fl_soon_show_tab_container" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.flexbox.FlexboxLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" app:alignItems="center" app:showDividerHorizontal="middle">
+        <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:id="@id/soon_show_tab_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" app:layout_flexShrink="1.0" />
+        <include android:id="@id/soon_show_divider_2" layout="@layout/soon_show_title_divider" />
+        <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:id="@id/soon_show_tab_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" app:layout_flexShrink="1.0" />
+        <include android:id="@id/soon_show_divider_3" layout="@layout/soon_show_title_divider" />
+        <com.alibaba.pictures.bricks.view.PuHuiTiTextView android:id="@id/soon_show_tab_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" app:layout_flexShrink="1.0" />
+    </com.google.android.flexbox.FlexboxLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center|right" android:orientation="horizontal" android:id="@id/ll_homepage_show_container_tab_entrance" android:layout_width="wrap_content" android:layout_height="24.0dip">
+        <TextView android:textSize="@dimen/text_size_12_dp" android:textColor="#ff181818" android:ellipsize="end" android:id="@id/tv_homepage_show_container_combine_entrance" android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="全部" android:maxLines="1" android:maxEms="10" android:singleLine="true" />
+        <com.taobao.movie.android.commonui.widget.IconFontTextView android:textSize="12.0dip" android:textColor="#ff181818" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_font_arrow_right" />
+    </LinearLayout>
+</FrameLayout>

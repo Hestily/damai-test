@@ -1,0 +1,153 @@
+#damai_script_play_group_buying_item {
+  width: 100%;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-bottom: 9px;
+}
+#content_view {
+  flex-grow: 1;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: #dddddd;
+  border-radius: 6px;
+  align-items: stretch;
+  padding-left: 12px;
+  padding-right: 12px;
+  max-height: 135px;
+  background-color: #ffffff;
+}
+#item_poster {
+  width: 63px;
+  height: 63px;
+  background-color: primaryFillColor;
+  border-radius: 6px;
+  mode: aspectFill;
+  border-color: #0000001a;
+  border-style: solid;
+  border-width: 0.5px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+#item_info_holder {
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin-left: 13px;
+  margin-right: 13px;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+#item_info_title {
+  text-overflow: ellipsis;
+  color: #333333;
+  font-size: 15px;
+  font-weight: 500;
+  flex-shrink: 1;
+  lines: 2;
+  fit-content: true;
+  line-height: 20px;
+  margin-bottom: 2px;
+}
+#item_store_name {
+  text-overflow: ellipsis;
+  color: #9c9c9c;
+  font-size: 12px;
+  font-weight: 400;
+  lines: 1;
+  width: 100%;
+  flex-shrink: 1;
+  height: 14px;
+  margin-bottom: 4px;
+}
+#refund_view {
+  align-items: center;
+  height: 16px;
+  justify-content: flex-start;
+  flex-shrink: 1;
+  margin-bottom: 4px;
+}
+#time_out_view {
+  text-overflow: ellipsis;
+  color: #6a7a99;
+  font-size: 10px;
+  border-color: #6a7a99;
+  border-width: 0.5px;
+  border-style: solid;
+  font-style: normal;
+  text-decoration: none;
+  height: 15px;
+  fit-content: true;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 3px;
+  max-width: 70px;
+}
+#anytime_view {
+  text-overflow: ellipsis;
+  color: #6a7a99;
+  font-size: 10px;
+  border-color: #6a7a99;
+  border-width: 0.5px;
+  border-style: solid;
+  font-style: normal;
+  text-decoration: none;
+  height: 15px;
+  fit-content: true;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 3px;
+  margin-left: 3px;
+  max-width: 70px;
+}
+#item_info_price_holder {
+  align-items: center;
+}
+#price_unit {
+  width: 10px;
+  text-overflow: ellipsis;
+  height: 14px;
+  color: #ff4886;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+}
+#price {
+  width: 100px;
+  text-overflow: ellipsis;
+  height: 20px;
+  color: #ff4886;
+  font-size: 16px;
+  font-family: URWDIN-Medium;
+  fit-content: true;
+}
+#price_origin {
+  text-overflow: ellipsis;
+  height: 13px;
+  color: #9c9c9c;
+  font-size: 11px;
+  font-family: PingFang SC;
+  fit-content: true;
+  text-decoration: line-through;
+  text-align: left;
+  margin-left: 3px;
+  margin-top: 2px;
+}
+#item_btn_holder {
+  width: 54px;
+  height: 27px;
+  border-radius: 13px;
+  border-color: #ff4886;
+  border-width: 1px;
+  border-style: solid;
+  margin-top: 30px;
+}
+#item_btn {
+  width: 100%;
+  text-overflow: ellipsis;
+  height: 100%;
+  color: #ff4886;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 500;
+}

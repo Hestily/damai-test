@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff5f6f7" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/project_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/resource_size_12" android:paddingEnd="@dimen/resource_size_12">
+        <include layout="@layout/bricks_item_dm_project" />
+        <View android:id="@id/bg_recommend_new_header" android:layout_width="fill_parent" android:layout_height="@dimen/resource_size_20" android:layout_margin="0.5dip" />
+    </FrameLayout>
+    <View android:id="@id/divider" android:layout_width="fill_parent" android:layout_height="@dimen/resource_size_9" />
+</LinearLayout>

@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "title": "全部",
+      "fragment": "com.alibaba.pictures.bricks.search.SearchAllResultFragment"
+    },
+    {
+      "title": "演出",
+      "fragment": "com.alibaba.pictures.bricks.search.SearchPerformanceFragment"
+    },
+    {
+      "title": "艺人",
+      "fragment": "com.alibaba.pictures.bricks.search.SearchArtistFragment"
+    },
+    {
+      "title": "厂牌",
+      "fragment": "com.alibaba.pictures.bricks.search.SearchBrandIdFragment"
+    },
+    {
+      "title": "场馆",
+      "fragment": "com.alibaba.pictures.bricks.search.SearchVenueFragment"
+    },
+    {
+      "title": "资讯",
+      "fragment": "com.alibaba.pictures.bricks.search.SearchInformationFragment"
+    }
+  ]
+}

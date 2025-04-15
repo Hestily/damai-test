@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/luck_draw_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/tv_item_title" android:text="观影代金券" style="@style/oscar_payment_result_tv_style1" />
+    <RelativeLayout android:id="@id/rl_cost" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_below="@id/tv_item_title">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:id="@id/tv_item_subtitle" android:layout_centerVertical="true" style="@style/oscar_payment_result_tv_style2" />
+            <TextView android:textSize="12.0dip" android:id="@id/tv_item_unit" android:layout_marginLeft="3.0dip" android:layout_marginBottom="1.0dip" android:layout_toRightOf="@id/tv_item_subtitle" android:layout_alignBaseline="@id/tv_item_subtitle" style="@style/oscar_payment_result_tv_style2" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView android:id="@id/tv_item_choose" android:text="选我" style="@style/oscar_payment_result_tv_style3" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.uikit.view.PraiseAnimateView android:layout_gravity="center_vertical" android:id="@id/evaluate_praise_view" android:layout_width="28.0dip" android:layout_height="28.0dip" app:lottie_repeatCount="0" />
+    <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_9C9CA5" android:layout_gravity="center_vertical" android:id="@id/evaluate_praise_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_3dp" android:text="点赞" />
+</merge>

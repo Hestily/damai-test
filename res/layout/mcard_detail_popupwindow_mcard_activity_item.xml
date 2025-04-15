@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.taobao.movie.android.commonui.widget.RoundedTextView android:textSize="10.0dip" android:textColor="@color/tpp_secondary_green" android:id="@id/mcard_vip_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" app:background_color="@color/tpp_secondary_green" app:padding_horizontal="4" app:round_radius="3" app:round_radius_unit="dp" app:round_type="stroke" app:text_color="@color/tpp_secondary_green" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/tpp_gray_3" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/mcard_vip_title" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginLeft="6.0dip" android:maxLines="1" android:includeFontPadding="false" android:layout_toRightOf="@id/mcard_vip_tag" android:layout_centerVertical="true" />
+</RelativeLayout>

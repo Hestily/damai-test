@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="end" android:gravity="center|left" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="绿野仙踪" android:singleLine="true" android:layout_toLeftOf="@id/duration" />
+    <TextView android:gravity="center" android:id="@id/duration" android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginRight="@dimen/margin_15dp" android:text="1:20" android:layout_alignParentRight="true" />
+</RelativeLayout>

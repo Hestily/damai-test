@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/margin_9dp" android:paddingRight="@dimen/margin_9dp" android:layout_width="85.0dip" android:layout_height="28.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/resource_size_16" android:textColor="@color/bricks_333333" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+    <View android:id="@id/indicator" android:background="@drawable/bg_scenic_buy_ticket_indicator" android:layout_width="16.0dip" android:layout_height="3.0dip" android:layout_marginTop="5.0dip" />
+</LinearLayout>

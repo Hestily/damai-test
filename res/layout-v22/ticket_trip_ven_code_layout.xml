@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.uikit.view.StrokeLinearLayout android:orientation="vertical" android:id="@id/id_trip_voucher_code_style_single" android:background="#1abfb5ff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/resource_size_15" android:layout_marginRight="@dimen/resource_size_15" android:layout_marginHorizontal="@dimen/resource_size_15" app:sl_corners_radius="2.0dip">
+        <View android:background="@drawable/ticket_trip_venchar_gradient_bg" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/id_trip_voucher_code_click_area_1" android:paddingLeft="@dimen/resource_size_9" android:paddingTop="9.0dip" android:paddingRight="@dimen/resource_size_9" android:paddingBottom="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/resource_size_9" android:paddingVertical="9.0dip">
+            <ImageView android:layout_width="13.0dip" android:layout_height="13.0dip" android:src="@drawable/ticket_trip_voucher_no_prefix_icon" />
+            <TextView android:textSize="@dimen/resource_size_12" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ticket_trip_voucher_code" android:layout_marginStart="3.0dip" />
+            <View android:layout_width="0.0dip" android:layout_height="1.0px" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/resource_size_12" android:textColor="#ff0091ff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ticket_trip_voucher_copy" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/resource_size_14" android:textColor="#ff6c7077" android:id="@id/id_trip_voucher_code_no_tv1" android:paddingLeft="@dimen/resource_size_9" android:paddingRight="@dimen/resource_size_9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/resource_size_9" android:lineSpacingExtra="2.0dip" android:paddingHorizontal="@dimen/resource_size_9" />
+    </cn.damai.uikit.view.StrokeLinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/id_trip_voucher_code_style_multi" android:background="#1abfb5ff" android:paddingLeft="@dimen/resource_size_9" android:paddingRight="@dimen/resource_size_9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/resource_size_9">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/id_trip_voucher_code_click_area_2" android:paddingTop="@dimen/resource_size_6" android:paddingBottom="@dimen/resource_size_6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/resource_size_6">
+            <ImageView android:layout_width="13.0dip" android:layout_height="13.0dip" android:src="@drawable/ticket_trip_voucher_no_prefix_icon" />
+            <TextView android:textSize="@dimen/resource_size_12" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ticket_trip_voucher_code" android:layout_marginStart="3.0dip" />
+            <cn.damai.ticklet.view.TicketLineTextView android:textSize="@dimen/resource_size_12" android:textColor="#ff6c7077" android:id="@id/id_trip_voucher_code_no_tv2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginRight="3.0dip" android:lines="1" android:layout_weight="1.0" android:layout_marginHorizontal="3.0dip" />
+            <TextView android:textSize="@dimen/resource_size_12" android:textColor="#ff0091ff" android:id="@id/id_trip_voucher_code_copy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ticket_trip_voucher_copy" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/resource_size_14" android:textColor="#ff6c7077" android:id="@id/id_trip_voucher_code_no_tv3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/resource_size_6" android:lineSpacingExtra="2.0dip" />
+    </LinearLayout>
+</LinearLayout>

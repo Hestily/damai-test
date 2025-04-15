@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff777777" android:layout_width="375.0dip" android:layout_height="300.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/share_page_projectbg" android:layout_width="fill_parent" android:layout_height="139.0dip" android:scaleType="fitXY" android:contentDescription="TODO" />
+    <ImageView android:id="@id/xxx" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="1.0dip" />
+    <RelativeLayout android:orientation="vertical" android:background="#fff8f8f8" android:layout_width="fill_parent" android:layout_height="161.0dip">
+        <TextView android:textSize="25.0dip" android:textStyle="bold" android:textColor="#ff000000" android:ellipsize="end" android:gravity="left" android:id="@id/share_page_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="15.0dip" android:maxLines="2" />
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="20.0dip" android:layout_below="@id/share_page_title" android:layout_alignParentBottom="true">
+            <cn.damai.uikit.number.DMDigitTextView android:textSize="30.0dip" android:textColor="#ffff2869" android:id="@id/share_wx_img_price" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="20.0dip" android:textColor="#ff999999" android:id="@id/share_wx_img_originalprice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" />
+            <TextView android:textSize="20.0dip" android:textColor="#ff666666" android:ellipsize="end" android:gravity="right" android:id="@id/share_wx_img_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:maxLines="1" android:layout_weight="1.0" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

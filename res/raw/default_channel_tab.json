@@ -1,0 +1,104 @@
+{
+  "data": [
+    {
+      "args": "{\"groupId\":\"1111\",\"categoryId\":\"1\"}",
+      "isShowFilter": 1,
+      "name": "音乐现场",
+      "patternName": "category_music_scene",
+      "patternVersion": "1.1",
+      "spmb": "category_musical",
+      "type": 100
+    },
+    {
+      "args": "{\"categoryId\":\"3\"}",
+      "isShowFilter": 1,
+      "name": "话剧音乐剧",
+      "patternName": "category_drama_new",
+      "patternVersion": "4.2",
+      "spmb": "category_drama",
+      "type": 100
+    },
+    {
+      "args": "{\"groupId\":\"1887\",\"needRank\":\"1\"}",
+      "isShowFilter": 1,
+      "name": "脱口秀",
+      "patternName": "category_crosstalk",
+      "patternVersion": "2.1",
+      "spmb": "category_talkshow",
+      "type": 100
+    },
+    {
+      "args": "{\"categoryId\":\"7\"}",
+      "isShowFilter": 1,
+      "name": "展览",
+      "patternName": "category_leisure",
+      "patternVersion": "2.1",
+      "spmb": "category_leisure",
+      "type": 100
+    },
+    {
+      "args": "{\"groupId\":\"1888\"}",
+      "isShowFilter": 1,
+      "name": "曲苑杂坛",
+      "patternName": "category_crosstalk",
+      "patternVersion": "3.1",
+      "spmb": "category_crosstalk",
+      "type": 100
+    },
+    {
+      "args": "{\"categoryId\":\"2\"}",
+      "isShowFilter": 1,
+      "name": "音乐会",
+      "patternName": "category_concert",
+      "patternVersion": "1.1",
+      "spmb": "category_concert",
+      "type": 100
+    },
+    {
+      "args": "{\"categoryId\":\"4\"}",
+      "isShowFilter": 1,
+      "name": "舞蹈芭蕾",
+      "patternName": "category_dance",
+      "patternVersion": "1.1",
+      "spmb": "category_dance",
+      "type": 100
+    },
+    {
+      "args": "{\"groupId\":\"1889\",\"needRank\":\"1\" }",
+      "isShowFilter": 1,
+      "name": "沉浸式演出",
+      "patternName": "category_immersive",
+      "patternVersion": "1.1",
+      "spmb": "category_immersive",
+      "type": 100
+    },
+    {
+      "args": "{\"categoryId\":\"100\"}",
+      "isShowFilter": 1,
+      "name": "儿童亲子",
+      "patternName": "category_children",
+      "patternVersion": "1.1",
+      "spmb": "category_children",
+      "type": 100
+    },
+    {
+      "args": "{\"categoryId\":\"6\"}",
+      "isShowFilter": 1,
+      "name": "体育",
+      "patternName": "category_sport",
+      "patternVersion": "1.1",
+      "spmb": "category_sport",
+      "type": 100
+    },
+    {
+      "args": "{\"categoryId\":\"0\",\"sortType\":\"10\"}",
+      "isShowFilter": 1,
+      "name": "全部",
+      "patternName": "category_all",
+      "patternVersion": "2.0",
+      "spmb": "category_all",
+      "type": 100
+    }
+  ],
+  "version": "2.0"
+}

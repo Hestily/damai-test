@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.commonbusiness.view.PagerSlidingTabStrip android:textSize="@dimen/margin_16dp" android:textColor="@color/color_999999" android:id="@id/indicator" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="45.0dip" app:indicatorHeight="1.5dip" app:leftPadding="10.0dip" app:rightPadding="10.0dip" app:tabSpaceLeftAndRight="15.0dip" app:tabStripPaddingLeftRight="5.0dip" app:tabTextChooseColor="@color/color_000000" app:underlineHeight="1.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/select_null" android:layout_width="fill_parent" android:layout_height="74.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip">
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="16.0dip" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center" android:layout_width="21.0dip" android:layout_height="21.0dip" android:text="@string/iconfont_jinzhi24" />
+        <TextView android:textSize="18.0dip" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="不同步到任何圈子" />
+    </LinearLayout>
+    <View android:background="@color/color_eeeeee" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" />
+    <androidx.viewpager.widget.ViewPager android:id="@id/vPager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:flipInterval="30" />
+</LinearLayout>

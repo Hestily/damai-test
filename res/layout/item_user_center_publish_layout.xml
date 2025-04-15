@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/item_discover_feed_time_line" />
+    <cn.damai.uikit.view.StrokeLinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:sl_corners_radius="8.0dip">
+        <RelativeLayout android:background="@drawable/bg_publish_gradient" android:layout_width="fill_parent" android:layout_height="76.0dip">
+            <TextView android:textSize="16.0dip" android:textColor="#ffaf8cfc" android:id="@id/id_user_publish_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginTop="18.0dip" android:maxWidth="200.0dip" android:lines="1" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/color_9c9ca5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginTop="40.0dip" android:text="发布新鲜现场，记录精彩生活" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/id_user_publish_btn" android:background="@drawable/bg_publish_btn" android:paddingBottom="5.0dip" android:layout_width="84.0dip" android:layout_height="43.0dip" android:layout_marginTop="22.0dip" android:layout_marginRight="7.0dip" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </cn.damai.uikit.view.StrokeLinearLayout>
+</LinearLayout>

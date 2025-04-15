@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/resource_size_14" android:textColor="@color/bricks_2e333e" android:ellipsize="end" android:id="@id/id_bricks_horizontal_head_title" android:paddingLeft="@dimen/resource_size_12" android:paddingRight="@dimen/resource_size_12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" android:layout_above="@id/view_pager" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/horizontal_container" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:overScrollMode="never" />
+</LinearLayout>

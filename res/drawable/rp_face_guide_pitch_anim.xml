@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="125" android:drawable="@drawable/rp_face_guide_pitch1" />
+    <item android:duration="125" android:drawable="@drawable/rp_face_guide_pitch2" />
+    <item android:duration="125" android:drawable="@drawable/rp_face_guide_pitch3" />
+    <item android:duration="125" android:drawable="@drawable/rp_face_guide_pitch4" />
+    <item android:duration="125" android:drawable="@drawable/rp_face_guide_pitch5" />
+    <item android:duration="125" android:drawable="@drawable/rp_face_guide_pitch6" />
+    <item android:duration="125" android:drawable="@drawable/rp_face_guide_pitch7" />
+    <item android:duration="125" android:drawable="@drawable/rp_face_guide_pitch8" />
+    <item android:duration="125" android:drawable="@drawable/rp_face_guide_pitch9" />
+    <item android:duration="125" android:drawable="@drawable/rp_face_guide_pitch10" />
+    <item android:duration="125" android:drawable="@drawable/rp_face_guide_pitch11" />
+    <item android:duration="125" android:drawable="@drawable/rp_face_guide_pitch12" />
+    <item android:duration="275" android:drawable="@drawable/rp_face_guide_pitch13" />
+</animation-list>

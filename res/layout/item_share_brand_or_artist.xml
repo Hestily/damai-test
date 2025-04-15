@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.damai.uikit.view.RoundImageView android:id="@id/share_artist_avatar" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/uikit_user_default_icon" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textSize="13.0dip" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/share_artist_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:maxLines="1" android:includeFontPadding="false" android:layout_toRightOf="@id/share_artist_avatar" android:layout_alignParentTop="true" />
+    <TextView android:textSize="11.0dip" android:textColor="#ff9c9ca5" android:ellipsize="end" android:id="@id/share_artist_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="1" android:lines="1" android:layout_alignLeft="@id/share_artist_name" android:layout_alignBottom="@id/share_artist_avatar" />
+</merge>

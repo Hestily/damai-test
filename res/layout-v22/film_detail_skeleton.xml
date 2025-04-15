@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffe9ebef" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="216.0dip">
+        <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="44.0dip" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_bofang22" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:background="@drawable/bg_film_shape_rect_top_radius_12_solid_white" android:padding="@dimen/resource_size_12" android:layout_width="fill_parent" android:layout_height="160.0dip" android:layout_marginLeft="@dimen/resource_size_9" android:layout_marginRight="@dimen/resource_size_9">
+        <View android:id="@id/id_new_ske_post" android:background="@drawable/bg_film_shape_rect_radius_6_solid_e9ebef" android:layout_width="82.0dip" android:layout_height="109.0dip" android:layout_centerVertical="true" />
+        <View android:id="@id/id_new_top_line1" android:background="@drawable/bg_film_shape_rect_radius_6_solid_e9ebef" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_alignTop="@id/id_new_ske_post" android:layout_marginStart="@dimen/resource_size_12" android:layout_toEndOf="@id/id_new_ske_post" />
+        <View android:id="@id/id_new_top_line2" android:background="@drawable/bg_film_shape_rect_radius_4_solid_e9ebef" android:layout_width="fill_parent" android:layout_height="@dimen/resource_size_18" android:layout_marginTop="9.0dip" android:layout_below="@id/id_new_top_line1" android:layout_marginStart="@dimen/resource_size_12" android:layout_marginEnd="68.0dip" android:layout_toEndOf="@id/id_new_ske_post" />
+        <View android:id="@id/id_new_top_line3" android:background="@drawable/bg_film_shape_rect_radius_4_solid_e9ebef" android:layout_width="fill_parent" android:layout_height="@dimen/resource_size_18" android:layout_marginTop="9.0dip" android:layout_below="@id/id_new_top_line2" android:layout_marginStart="@dimen/resource_size_12" android:layout_marginEnd="82.0dip" android:layout_toEndOf="@id/id_new_ske_post" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/margin_29dp" android:layout_marginTop="9.0dip" android:layout_below="@id/id_new_top_line3" android:layout_marginStart="@dimen/resource_size_12" android:layout_marginEnd="30.0dip" android:layout_toEndOf="@id/id_new_ske_post">
+            <View android:background="@drawable/bg_film_shape_rect_radius_4_solid_e9ebef" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <View android:background="@drawable/bg_film_shape_rect_radius_4_solid_e9ebef" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginStart="@dimen/resource_size_12" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_film_shape_rect_top_radius_12_f4f5f6" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-12.0dip">
+        <RelativeLayout android:background="@drawable/bg_film_shape_rect_top_radius_12_solid_white" android:layout_width="fill_parent" android:layout_height="91.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="@dimen/margin_12dp" android:layout_marginRight="12.0dip" android:layout_marginHorizontal="12.0dip">
+            <View android:id="@id/id_new_ske_score" android:background="@drawable/bg_film_shape_rect_radius_6_solid_e9ebef" android:layout_width="74.0dip" android:layout_height="18.0dip" android:layout_marginTop="12.0dip" android:layout_alignParentTop="true" android:layout_marginStart="12.0dip" />
+            <View android:id="@id/id_new_ske_score2" android:background="@drawable/bg_film_shape_rect_radius_6_solid_e9ebef" android:layout_width="82.0dip" android:layout_height="39.0dip" android:layout_marginTop="10.0dip" android:layout_below="@id/id_new_ske_score" android:layout_marginStart="12.0dip" />
+            <View android:id="@id/id_new_ske_score3" android:background="@drawable/bg_film_shape_rect_radius_6_solid_e9ebef" android:layout_width="fill_parent" android:layout_height="25.0dip" android:layout_marginTop="47.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="44.0dip" android:layout_toEndOf="@id/id_new_ske_score2" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="9.0dip" android:layout_marginHorizontal="24.0dip">
+            <View android:background="@drawable/bg_film_shape_rect_top_radius_3_solid_white" android:layout_width="40.0dip" android:layout_height="24.0dip" />
+            <Space android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+            <View android:background="@drawable/bg_film_shape_rect_top_radius_3_solid_white" android:layout_width="40.0dip" android:layout_height="24.0dip" />
+            <Space android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+            <View android:background="@drawable/bg_film_shape_rect_top_radius_3_solid_white" android:layout_width="40.0dip" android:layout_height="24.0dip" />
+            <Space android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+            <View android:background="@drawable/bg_film_shape_rect_top_radius_3_solid_white" android:layout_width="40.0dip" android:layout_height="24.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/bg_film_shape_rect_top_radius_12_solid_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginHorizontal="12.0dip">
+            <View android:background="@drawable/bg_film_shape_rect_radius_6_solid_e9ebef" android:layout_width="74.0dip" android:layout_height="15.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="@dimen/margin_3dp" android:layout_marginStart="12.0dip" />
+            <View android:background="@drawable/bg_film_shape_rect_radius_6_solid_e9ebef" android:layout_width="fill_parent" android:layout_height="15.0dip" android:layout_marginLeft="@dimen/margin_12dp" android:layout_marginTop="@dimen/margin_9dp" android:layout_marginRight="@dimen/margin_12dp" android:layout_marginHorizontal="@dimen/margin_12dp" />
+            <View android:background="@drawable/bg_film_shape_rect_radius_6_solid_e9ebef" android:layout_width="fill_parent" android:layout_height="15.0dip" android:layout_marginLeft="@dimen/margin_12dp" android:layout_marginTop="@dimen/margin_9dp" android:layout_marginRight="@dimen/margin_12dp" android:layout_marginHorizontal="@dimen/margin_12dp" />
+            <View android:background="@drawable/bg_film_shape_rect_radius_6_solid_e9ebef" android:layout_width="fill_parent" android:layout_height="15.0dip" android:layout_marginLeft="@dimen/margin_12dp" android:layout_marginTop="@dimen/margin_9dp" android:layout_marginRight="@dimen/margin_12dp" android:layout_marginBottom="@dimen/margin_12dp" android:layout_marginHorizontal="@dimen/margin_12dp" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/bg_film_shape_rect_top_radius_12_solid_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="@dimen/margin_9dp" android:layout_marginRight="12.0dip" android:layout_marginHorizontal="12.0dip">
+            <View android:background="@drawable/bg_film_shape_rect_radius_6_solid_e9ebef" android:layout_width="74.0dip" android:layout_height="15.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:layout_marginStart="12.0dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_12dp">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="12.0dip" android:layout_marginEnd="6.0dip">
+                    <View android:background="@drawable/bg_film_shape_rect_radius_6_solid_e9ebef" android:layout_width="63.0dip" android:layout_height="90.0dip" />
+                    <View android:background="@drawable/bg_film_shape_rect_radius_6_solid_e9ebef" android:layout_width="57.0dip" android:layout_height="12.0dip" android:layout_marginTop="8.0dip" />
+                    <View android:background="@drawable/bg_film_shape_rect_radius_6_solid_e9ebef" android:layout_width="36.0dip" android:layout_height="11.0dip" android:layout_marginTop="6.0dip" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="12.0dip" android:layout_marginEnd="6.0dip">
+                    <View android:background="@drawable/bg_film_shape_rect_radius_6_solid_e9ebef" android:layout_width="63.0dip" android:layout_height="90.0dip" />
+                    <View android:background="@drawable/bg_film_shape_rect_radius_6_solid_e9ebef" android:layout_width="57.0dip" android:layout_height="12.0dip" android:layout_marginTop="8.0dip" />
+                    <View android:background="@drawable/bg_film_shape_rect_radius_6_solid_e9ebef" android:layout_width="36.0dip" android:layout_height="11.0dip" android:layout_marginTop="6.0dip" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="12.0dip" android:layout_marginEnd="6.0dip">
+                    <View android:background="@drawable/bg_film_shape_rect_radius_6_solid_e9ebef" android:layout_width="63.0dip" android:layout_height="90.0dip" />
+                    <View android:background="@drawable/bg_film_shape_rect_radius_6_solid_e9ebef" android:layout_width="57.0dip" android:layout_height="12.0dip" android:layout_marginTop="8.0dip" />
+                    <View android:background="@drawable/bg_film_shape_rect_radius_6_solid_e9ebef" android:layout_width="36.0dip" android:layout_height="11.0dip" android:layout_marginTop="6.0dip" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="12.0dip" android:layout_marginEnd="6.0dip">
+                    <View android:background="@drawable/bg_film_shape_rect_radius_6_solid_e9ebef" android:layout_width="63.0dip" android:layout_height="90.0dip" />
+                    <View android:background="@drawable/bg_film_shape_rect_radius_6_solid_e9ebef" android:layout_width="57.0dip" android:layout_height="12.0dip" android:layout_marginTop="8.0dip" />
+                    <View android:background="@drawable/bg_film_shape_rect_radius_6_solid_e9ebef" android:layout_width="36.0dip" android:layout_height="11.0dip" android:layout_marginTop="6.0dip" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="12.0dip" android:layout_marginEnd="6.0dip">
+                    <View android:background="@drawable/bg_film_shape_rect_radius_6_solid_e9ebef" android:layout_width="63.0dip" android:layout_height="90.0dip" />
+                    <View android:background="@drawable/bg_film_shape_rect_radius_6_solid_e9ebef" android:layout_width="57.0dip" android:layout_height="12.0dip" android:layout_marginTop="8.0dip" />
+                    <View android:background="@drawable/bg_film_shape_rect_radius_6_solid_e9ebef" android:layout_width="36.0dip" android:layout_height="11.0dip" android:layout_marginTop="6.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

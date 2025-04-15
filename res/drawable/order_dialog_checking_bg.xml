@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/white" />
+            <corners android:topLeftRadius="21.0dip" android:topRightRadius="21.0dip" />
+        </shape>
+    </item>
+    <item>
+        <bitmap android:gravity="top" android:src="@drawable/order_check_top_img" />
+    </item>
+</layer-list>

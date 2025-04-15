@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:background="@drawable/order_item_round_bg" android:layout_width="fill_parent" android:layout_height="9.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

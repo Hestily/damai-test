@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/cinema_list_login_bg" android:paddingLeft="9.0dip" android:paddingRight="9.0dip" android:layout_width="fill_parent" android:layout_height="41.0dip" android:layout_marginLeft="9.0dip" android:layout_marginRight="9.0dip" android:layout_marginBottom="9.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0dip" android:textColor="@color/white" android:id="@id/login_doc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="28.0dip" android:text="登录后可查看常去影院" android:layout_centerVertical="true" />
+    <TextView android:textSize="12.0dip" android:textColor="#fff99939" android:gravity="center" android:id="@id/login_btn" android:background="@drawable/common_white_radio" android:layout_width="50.0dip" android:layout_height="24.0dip" android:text="登录" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

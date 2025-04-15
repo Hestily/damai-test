@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/layout_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_calendar" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="60.0dip">
+        <include android:id="@id/layout_fourdate" android:visibility="gone" layout="@layout/copy_common_fourdate" />
+        <include layout="@layout/copy_common_pop_calendar_week" />
+        <FrameLayout android:id="@id/pop_irc_parent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/pop_irc" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layout_guding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="28.0dip">
+                    <TextView android:textSize="16.0dip" android:textColor="@color/color_000000" android:gravity="center" android:id="@id/tv_calendar_month" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+                    <TextView android:textSize="14.0dip" android:textColor="@color/color_000000" android:gravity="center" android:id="@id/tv_shenhua" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+                </LinearLayout>
+                <View android:background="@drawable/copy_calendar_top_gradient_bg" android:layout_width="fill_parent" android:layout_height="25.0dip" />
+            </LinearLayout>
+            <View android:layout_gravity="bottom" android:background="@drawable/copy_calendar_top_gradient_bg_reverse" android:layout_width="fill_parent" android:layout_height="25.0dip" />
+        </FrameLayout>
+        <include layout="@layout/copy_item_filter_reset_and_confirm_layout" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="@dimen/margin_21dp" android:paddingRight="@dimen/margin_21dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/margin_16dp" android:textColor="@color/color_000000" android:id="@id/tv_word" android:paddingLeft="@dimen/margin_5dp" android:paddingTop="@dimen/margin_18dp" android:paddingBottom="@dimen/margin_18dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="子川导演作品《雷管》" android:layout_toRightOf="@id/icon_sousuo" />
+    <View android:background="#1a000000" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/tv_word" />
+    <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="@dimen/margin_16dp" android:textColor="#4d3c3f44" android:id="@id/icon_sousuo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_sousuo_pioneer" android:layout_centerVertical="true" />
+</RelativeLayout>

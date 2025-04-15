@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0dip" android:textColor="@color/black" android:ellipsize="end" android:id="@id/item_category_one_name" android:paddingRight="6.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:lines="1" android:layout_weight="1.0" />
+    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="18.0dip" android:textColor="@color/color_FF2869" android:id="@id/item_category_one_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/iconfont_duihaomian_" />
+</LinearLayout>

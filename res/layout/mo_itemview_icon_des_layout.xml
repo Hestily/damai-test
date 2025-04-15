@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.pictures.moimage.MoImageView android:id="@id/mo_itemview_icondes_layout_icon" android:visibility="visible" android:layout_width="36.0dip" android:layout_height="36.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_title" android:id="@id/mo_itemview_icondes_layout_des" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="未取票开场前24小时以上，改签服务费1元/张；未取票开场1小时至24小时，改签服务费3元/张" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/mo_itemview_icondes_layout_icon" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_goneMarginLeft="0.0dip" />
+</androidx.constraintlayout.widget.ConstraintLayout>

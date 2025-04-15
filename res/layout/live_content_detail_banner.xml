@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.damai.commonbusiness.view.DmViewPager android:id="@id/content_detail_banner" android:layout_width="fill_parent" android:layout_height="200.0dip" />
+    <TextView android:textSize="10.0dip" android:textColor="@color/color_ffffff" android:gravity="center" android:layout_gravity="bottom|center|right" android:id="@id/content_detail_banner_count" android:background="@drawable/bg_color_333333_000000" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="16.0dip" android:layout_marginRight="21.0dip" android:layout_marginBottom="9.0dip" />
+    <ImageView android:layout_gravity="center" android:id="@id/discover_video_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/live_feed_video_big_icon" />
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/cb_title_bar_space_view" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_17dp" android:textColor="#ff3c3f44" android:gravity="center" android:id="@id/cb_title_left_icon" android:paddingLeft="@dimen/margin_22dp" android:paddingRight="@dimen/margin_15dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/iconfont_fanhui24" />
+        <TextView android:textSize="@dimen/resource_size_18" android:textColor="@color/color_bricks_primary_title" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="好演出 分享好友 一起看" android:layout_centerInParent="true" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_FF2D79" android:id="@id/cb_title_text_url" android:background="@drawable/cb_ffe9f0_bg" android:paddingLeft="@dimen/margin_12dp" android:paddingTop="@dimen/margin_4dp" android:paddingRight="@dimen/margin_12dp" android:paddingBottom="@dimen/margin_4dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_21dp" android:text="规则" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

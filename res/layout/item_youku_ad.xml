@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.taobao.movie.android.app.product.ui.fragment.profile.YoukuBenefitView android:id="@id/youku_benefit_view" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginLeft="9.0dip" android:layout_marginRight="9.0dip" />
+</FrameLayout>

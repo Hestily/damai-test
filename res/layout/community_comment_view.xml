@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="90.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.taobao.movie.android.app.common.widget.MaxHeightRecycleView android:id="@id/rv_comment" android:layout_width="fill_parent" android:layout_height="wrap_content" app:maxHeight="90.0dip" />
+    <View android:layout_gravity="bottom" android:id="@id/view_comment_mask" android:layout_width="fill_parent" android:layout_height="@dimen/padding_15dp" />
+</FrameLayout>

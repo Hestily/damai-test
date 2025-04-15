@@ -1,0 +1,8 @@
+{
+  "component": {
+    "mClass": "cn.damai.tetris.component.discover.mvp.CircleHeadModel",
+    "vClass": "cn.damai.tetris.component.discover.mvp.CircleHeadView",
+    "pClass": "cn.damai.tetris.component.discover.mvp.CircleHeadPresenter",
+    "layoutXml": "theme_circle_head"
+  }
+}

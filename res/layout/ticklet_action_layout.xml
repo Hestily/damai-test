@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/ticklet_rl_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <ImageView android:gravity="center" android:id="@id/ticklet_action_icon" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="4.0dip" android:layout_centerHorizontal="true" />
+        <FrameLayout android:id="@id/ticket_normal_icon_tag" android:background="@drawable/bg_border_ff74a9_corner_ticket_ext_member" android:layout_width="40.0dip" android:layout_height="14.0dip" android:layout_marginTop="-6.0dip" android:layout_below="@id/ticklet_action_icon" android:layout_centerHorizontal="true">
+            <TextView android:textSize="9.0dip" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="淘麦VIP" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/fr_send_number" android:layout_width="44.0dip" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <TextView android:textSize="@dimen/margin_9dp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="right" android:id="@id/tv_send_number" android:background="@drawable/shape_solid_radius_circle" android:paddingBottom="@dimen/margin_4dp" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" />
+        </FrameLayout>
+        <TextView android:textSize="@dimen/margin_12dp" android:textColor="#ff5f6672" android:ellipsize="end" android:id="@id/ticklet_icon_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_7dp" android:maxLines="1" android:layout_below="@id/ticklet_action_icon" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_13dp" android:textColor="@color/color_999999" android:id="@id/tiklet_action_icon_arrow" android:paddingBottom="1.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_youjiantou24" android:layout_toRightOf="@id/ticklet_rl_icon" android:layout_alignBottom="@id/ticklet_rl_icon" />
+</merge>

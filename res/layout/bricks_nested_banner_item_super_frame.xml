@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/id_bricks_banner_super_img_bg" android:layout_width="fill_parent" android:layout_height="70.0dip" android:scaleType="centerCrop" />
+    <View android:id="@id/id_bricks_banner_super_gradient_bg" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginBottom="85.0dip" android:layout_alignParentBottom="true" />
+    <View android:id="@id/id_bricks_banner_super_color_bg" android:layout_width="fill_parent" android:layout_height="85.0dip" android:layout_alignParentBottom="true" />
+    <com.alibaba.pictures.bricks.view.CornerFrameLayout android:id="@id/id_bricks_banner_sub_img_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip" android:layout_alignParentBottom="true" app:clip_corner_radius="4.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="72.0dip">
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/id_bricks_banner_super_img1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+                <View android:layout_gravity="bottom" android:background="@drawable/bricks_bg_super_frame_text" android:layout_width="fill_parent" android:layout_height="24.0dip" />
+                <TextView android:textSize="@dimen/resource_size_11" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:layout_gravity="bottom" android:id="@id/id_bricks_banner_super_text1" android:paddingLeft="6.0dip" android:paddingTop="6.0dip" android:paddingRight="6.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" />
+            </FrameLayout>
+            <com.alibaba.pictures.bricks.view.DashView android:layout_width="0.5dip" android:layout_height="72.0dip" android:layout_marginLeft="-0.5dip" />
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/id_bricks_banner_super_img2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+                <View android:layout_gravity="bottom" android:background="@drawable/bricks_bg_super_frame_text" android:layout_width="fill_parent" android:layout_height="24.0dip" />
+                <TextView android:textSize="@dimen/resource_size_11" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:layout_gravity="bottom" android:id="@id/id_bricks_banner_super_text2" android:paddingLeft="6.0dip" android:paddingTop="6.0dip" android:paddingRight="6.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" />
+            </FrameLayout>
+            <com.alibaba.pictures.bricks.view.DashView android:layout_width="0.5dip" android:layout_height="72.0dip" android:layout_marginLeft="-0.5dip" />
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/id_bricks_banner_super_img3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+                <View android:layout_gravity="bottom" android:background="@drawable/bricks_bg_super_frame_text" android:layout_width="fill_parent" android:layout_height="24.0dip" />
+                <TextView android:textSize="@dimen/resource_size_11" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:layout_gravity="bottom" android:id="@id/id_bricks_banner_super_text3" android:paddingLeft="6.0dip" android:paddingTop="6.0dip" android:paddingRight="6.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" />
+            </FrameLayout>
+        </LinearLayout>
+    </com.alibaba.pictures.bricks.view.CornerFrameLayout>
+</RelativeLayout>

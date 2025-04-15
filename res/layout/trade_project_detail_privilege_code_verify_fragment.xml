@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/project_item_pop_layer_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <RelativeLayout android:id="@id/privilege_verify_pop_layer_title" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/margin_16dp" android:textColor="@color/color_333333" android:gravity="center" android:id="@id/project_privilege_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_24dp" android:layout_marginBottom="@dimen/margin_24dp" android:text="请输入特权码" android:layout_centerHorizontal="true" />
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_16dp" android:textColor="@color/color_999999" android:gravity="center" android:id="@id/project_privilege_complete_btn_tv" android:paddingTop="@dimen/margin_24dp" android:paddingRight="@dimen/margin_15dp" android:paddingBottom="@dimen/margin_24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_fucengguanbi16" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <View android:background="@color/color_EEEEEE" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginRight="@dimen/margin_15dp" android:layout_below="@id/project_privilege_title_tv" />
+        </RelativeLayout>
+        <EditText android:textSize="@dimen/margin_16dp" android:textColor="@color/color_000000" android:gravity="center" android:id="@id/project_privilege_code_input_ex" android:background="@drawable/edit_text_bg" android:paddingLeft="@dimen/margin_15dp" android:paddingTop="@dimen/margin_12dp" android:paddingBottom="@dimen/margin_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginTop="@dimen/margin_15dp" android:layout_marginRight="@dimen/margin_15dp" />
+        <FrameLayout android:id="@id/project_privilege_verify_bottom_fl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="75.0dip">
+            <View android:id="@id/project_privilege_verify_shadow_view" android:background="@drawable/btn_shadow_bg" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="@dimen/margin_10dp" android:layout_marginRight="@dimen/margin_10dp" />
+            <TextView android:textSize="16.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/project_privilege_verify_tv" android:background="@drawable/btn_enable_selector1" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginRight="@dimen/margin_15dp" android:layout_marginBottom="@dimen/margin_15dp" android:text="@string/confirm" />
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/media_vod_container" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.legacy.widget.Space android:layout_width="fill_parent" android:layout_height="5.0dip" />
+    <com.taobao.movie.android.commonui.widget.TppGifImageView android:id="@id/iv_media_vod" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" app:actualImageScaleType="fitCenter" app:fadeDuration="0" app:failureImage="@drawable/oscar_default_image" app:failureImageScaleType="fitXY" app:placeholderImage="@drawable/oscar_default_image" app:placeholderImageScaleType="fitXY" app:retryImage="@drawable/oscar_default_image" app:retryImageScaleType="fitXY" app:roundedCornerRadius="6.0dip" />
+    <androidx.legacy.widget.Space android:layout_width="fill_parent" android:layout_height="21.0dip" />
+</LinearLayout>

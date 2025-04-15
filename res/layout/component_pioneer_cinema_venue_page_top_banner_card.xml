@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.damai.pioneer.view.CinemaVenueBannersView android:id="@id/cinema_venue_banner_view" android:layout_width="172.5dip" android:layout_height="160.0dip" />
+    <View android:layout_width="6.0dip" android:layout_height="6.0dip" />
+    <include android:id="@id/banner_topright" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/component_pioneer_cinema_venue_page_topright" />
+</LinearLayout>

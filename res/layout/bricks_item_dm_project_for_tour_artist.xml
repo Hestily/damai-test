@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_search_item" android:background="@drawable/bricks_item_normal_card_bg_r6" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/space" android:layout_width="fill_parent" android:layout_height="15.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.pictures.bricks.view.DMPosterView android:id="@id/poster" android:layout_width="43.0dip" android:layout_height="58.0dip" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/ll_project_right" android:paddingLeft="@dimen/margin_9dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="15.0dip" android:textColor="@color/color_000000" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_project_tourName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:maxLines="2" android:lineSpacingExtra="@dimen/margin_3dp" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/bricks_5f6672" android:ellipsize="end" android:id="@id/tv_project_tourDesc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:maxLines="1" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.alibaba.pictures.bricks.component.project.TimerView android:id="@id/dm_project_timer_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="@dimen/margin_4dp" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="15.0dip">
+        <include android:id="@id/ll_search_bottom_div" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" layout="@layout/bricks_item_ededed_line" />
+    </RelativeLayout>
+</LinearLayout>

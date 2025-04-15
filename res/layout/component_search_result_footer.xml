@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/damai_list_bg_bottomradius" android:layout_width="fill_parent" android:layout_height="@dimen/resource_size_39"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/footer_line" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="@dimen/margin_12dp" android:layout_marginTop="@dimen/margin_2dp" android:layout_marginRight="@dimen/margin_12dp" android:layout_alignParentTop="true" layout="@layout/item_ededed_line" />
+    <TextView android:textSize="@dimen/resource_size_12" android:textColor="@color/color_666666" android:gravity="center_vertical" android:id="@id/footer_content" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_below="@id/footer_line" android:layout_centerHorizontal="true" />
+    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/resource_size_8" android:textColor="@color/color_666666" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="@dimen/resource_size_2" android:text="@string/iconfont_ticket_rightarrows" android:layout_below="@id/footer_line" android:layout_centerVertical="true" android:layout_marginStart="@dimen/resource_size_3" android:layout_toEndOf="@id/footer_content" />
+</RelativeLayout>

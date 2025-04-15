@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/order_header_container" android:background="@drawable/default_picked_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/order_header_up_container" android:background="@drawable/order_header_up" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="70.0dip" android:layout_marginRight="10.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="18.0dip">
+            <com.google.android.flexbox.FlexboxLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_weight="1.0" app:alignItems="center" app:flexWrap="nowrap">
+                <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/common_text_color10" android:ellipsize="end" android:id="@id/order_header_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" app:layout_flexShrink="1.0" />
+                <TextView android:textSize="15.0dip" android:textColor="@color/common_text_color11" android:id="@id/order_header_piao" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:includeFontPadding="false" android:layout_toRightOf="@id/order_header_name" app:layout_flexShrink="0.0" />
+                <com.taobao.movie.android.commonui.widget.RoundedTextView android:textSize="@dimen/t5" android:textColor="@color/common_text_color21" android:id="@id/order_header_special" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:singleLine="true" app:background_color="@color/common_text_color21" app:layout_flexShrink="0.0" app:round_radius="25" app:round_type="stroke" />
+            </com.google.android.flexbox.FlexboxLayout>
+            <com.taobao.movie.android.app.order.ui.widget.OrderTimeOutView android:id="@id/order_header_time_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_alignParentRight="true" />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="-3.0dip" android:layout_marginRight="18.0dip">
+            <TextView android:textSize="12.0dip" android:textColor="@color/common_text_color11" android:id="@id/order_header_info1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="18.0dip">
+            <TextView android:textSize="12.0dip" android:textColor="@color/common_text_color11" android:id="@id/order_header_info2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="18.0dip">
+            <TextView android:textSize="12.0dip" android:textColor="@color/common_text_color11" android:id="@id/order_header_info3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+        </RelativeLayout>
+        <View android:background="@drawable/order_header_dvd_repeat" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/space_line_height" android:layout_marginLeft="9.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="9.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/order_header_down_container" android:background="@drawable/order_header_down" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="15.0dip" android:layout_below="@id/order_header_up_container">
+        <com.google.android.flexbox.FlexboxLayout android:id="@id/order_header_bottom_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip" android:layout_marginBottom="14.0dip" app:flexWrap="wrap">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/refund_desc_container" android:paddingTop="@dimen/margin_12" android:paddingRight="20.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="12.0dip" android:textColor="@color/common_text_color11" android:id="@id/refund_label" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/common_text_color11" android:id="@id/refund_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:singleLine="true" />
+                <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="8.0dip" android:textColor="#998a869e" android:id="@id/refund_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="1.0dip" android:text="@string/iconf_right_arrow_bold" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/endorse_desc_container" android:paddingTop="@dimen/margin_12" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="12.0dip" android:textColor="@color/common_text_color11" android:id="@id/endorse_label" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/common_text_color11" android:id="@id/endorse_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:singleLine="true" />
+                <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="8.0dip" android:textColor="#998a869e" android:id="@id/endorse_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="1.0dip" android:text="@string/iconf_right_arrow_bold" />
+            </LinearLayout>
+        </com.google.android.flexbox.FlexboxLayout>
+    </RelativeLayout>
+</RelativeLayout>

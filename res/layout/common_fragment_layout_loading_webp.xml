@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/tpp_gray_6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.alibaba.pictures.moimage.MoImageView android:gravity="center" android:layout_gravity="center" android:id="@id/statemanager_loading_webp" android:layout_width="55.0dip" android:layout_height="81.0dip" />
+        <TextView android:id="@id/statemanager_subhint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" android:text="正在加载,么么哒～" android:textAlignment="center" style="@style/statemanager_hint_style" />
+    </LinearLayout>
+</FrameLayout>

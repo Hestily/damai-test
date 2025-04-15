@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/window_bg" android:paddingBottom="90.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ray_detail" android:background="#fffff9e2" android:paddingLeft="15.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textColor="#fff8691d" android:gravity="center_vertical" android:id="@id/ray_text" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ray_image_line" android:paddingLeft="18.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:id="@id/ray_image" android:background="@drawable/order_detail_guanbi" android:layout_width="12.0dip" android:layout_height="12.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/take_photo_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_tip" android:background="@drawable/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:layout_alignParentTop="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_projectimage" android:background="@color/white" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="130.0dip" android:layout_below="@id/ll_tip">
+            <ImageView android:id="@id/project_image" android:layout_width="77.0dip" android:layout_height="103.0dip" android:src="@drawable/uikit_default_image_bg_gradient" android:scaleType="centerCrop" />
+            <RelativeLayout android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="103.0dip">
+                <TextView android:textSize="16.0dip" android:textColor="@color/color_333333" android:ellipsize="end" android:id="@id/projectname_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:maxLines="2" />
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                    <TextView android:textSize="14.0dip" android:textColor="@color/color_545454" android:id="@id/projecttime_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2016年10月10日" />
+                    <TextView android:textSize="14.0dip" android:textColor="@color/color_545454" android:id="@id/projectaddress_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="2016年10月10日" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/order_detail_price_rlyt" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="26.0dip" android:textColor="@color/color_333333" android:gravity="bottom" android:id="@id/num_ticket_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="18.0dip" android:textColor="@color/color_333333" android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:text="@string/order_confirm_04" android:layout_toRightOf="@id/num_ticket_text" android:layout_centerVertical="true" />
+            <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <TextView android:textSize="26.0dip" android:textColor="@color/main_color" android:id="@id/price_ticket_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="6" />
+                <TextView android:textSize="18.0dip" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="@string/damai_cinemaorder_total_y" />
+            </LinearLayout>
+        </RelativeLayout>
+        <View android:id="@id/v_line_1" android:background="#ffdddddd" android:layout_width="wrap_content" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+        <cn.damai.trade.oldtradeorder.ui.orderdetail.detail.helper.MainListView android:id="@id/order_new_detail_listview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/white" />
+        <LinearLayout android:orientation="vertical" android:id="@id/seat_add_view" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <RelativeLayout android:id="@id/has_seat_line_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="14.0dip" android:layout_marginTop="63.0dip">
+            <ImageView android:background="@color/line_color_e5" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/show_more_seat_view" android:background="@drawable/btn_banner_bg" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="1.0px" android:layout_marginTop="-1.0dip" android:layout_marginRight="1.0px" android:layout_marginBottom="1.0px">
+            <TextView android:background="@color/line_color_e5" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <ImageView android:id="@id/seat_image_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dd_more_pic" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <include layout="@layout/order_detail_delivery_tip" />
+    <include layout="@layout/order_datail_header_new" />
+    <include layout="@layout/order_detail_invoice_tip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/order_detail_send_llyt" android:background="@drawable/damai_list_bg" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0dip" android:textColor="@color/color_333333" android:id="@id/tv_title" android:paddingLeft="8.0dip" android:paddingTop="14.0dip" android:paddingBottom="11.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delivery_way" />
+            <TextView android:textSize="16.0dip" android:textColor="@color/text_color_34" android:gravity="center_vertical" android:id="@id/deliver_method_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/damai_orderdetailnew_express" android:singleLine="true" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_111111" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/btn_order_address_modify" android:background="@drawable/bg_border_corner_dd" android:layout_width="96.0dip" android:layout_height="28.0dip" android:text="修改配送地址" />
+        </LinearLayout>
+        <TextView android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="0.5px" android:layout_marginLeft="9.0dip" android:layout_marginRight="9.0dip" />
+        <RelativeLayout android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:id="@id/deliver_info_show" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="70.0dip" android:layout_height="fill_parent">
+                    <ImageView android:id="@id/iv_deliverway_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dd_express_icon" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingTop="10.0dip" android:paddingRight="12.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="16.0dip" android:textColor="#ff444444" android:id="@id/deliver_name_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" />
+                    <TextView android:textSize="16.0dip" android:textColor="#ff444444" android:id="@id/deliver_phone_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textSize="16.0dip" android:textColor="#ff444444" android:id="@id/deliver_email_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ff444444" android:id="@id/deliver_address_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="12.0dip" android:textColor="#ff999999" android:id="@id/deliver_descript_text" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0px" android:layout_marginRight="1.0px" android:layout_below="@id/deliver_info_show" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/deliver_descript_text">
+                <LinearLayout android:orientation="vertical" android:id="@id/ypyz_add_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:background="@color/text_ddd" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+                    <TextView android:textSize="16.0dip" android:textColor="@color/color_333333" android:paddingLeft="8.0dip" android:paddingTop="14.0dip" android:paddingBottom="11.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="购票人信息" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/ypyz_add_show_view" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <RelativeLayout android:id="@id/ypyz_show_more_seat_view" android:background="@drawable/btn_banner_bg" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="1.0px" android:layout_marginTop="-1.0dip" android:layout_marginRight="1.0px" android:layout_marginBottom="1.0px">
+                        <TextView android:background="@color/line_color_e5" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                        <ImageView android:id="@id/ypyz_seat_image_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dd_more_pic" android:layout_centerInParent="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <TextView android:layout_width="fill_parent" android:layout_height="1.0px" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <include android:id="@id/ll_paydetail" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" layout="@layout/order_num" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_pay_method_tip" android:background="@drawable/damai_list_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="6.0dip">
+        <TextView android:textSize="16.0dip" android:textColor="@color/color_333333" android:paddingLeft="8.0dip" android:paddingTop="14.0dip" android:paddingBottom="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/include_pay_method_01" android:drawablePadding="6.0dip" />
+        <TextView android:background="@color/line_color_e5" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="9.0dip" android:layout_marginRight="9.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_pay_method" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="14.0dip" android:textColor="#ff444444" android:id="@id/pay_desc_text" android:paddingLeft="8.0dip" android:paddingTop="14.0dip" android:paddingBottom="11.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/order_datail_new_content_04" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_trace" android:background="@drawable/damai_list_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="6.0dip">
+        <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/text_color_34" android:paddingLeft="8.0dip" android:paddingTop="14.0dip" android:paddingBottom="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/order_datail_content_08" android:drawableLeft="@drawable/h_bar_icon" android:drawablePadding="6.0dip" />
+        <TextView android:background="@color/line_color_e5" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="9.0dip" android:layout_marginRight="9.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_trace_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/btn_kefu" android:background="@color/white" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="15.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/order_detail_kefu" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:src="@drawable/kefu_icon" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff757575" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/damai_projectdetail_damai_service_02" android:drawablePadding="2.0dip" android:layout_centerInParent="true" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

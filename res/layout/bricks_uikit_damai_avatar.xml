@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/uikit_damai_avatar_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip">
+        <ImageView android:id="@id/uikit_damai_avatar_border" android:visibility="gone" android:layout_width="108.0dip" android:layout_height="108.0dip" android:src="@drawable/bricks_uikit_dm_avatar_border" />
+        <ImageView android:layout_gravity="center" android:id="@id/uikit_damai_avatar_placeholder" android:layout_width="100.0dip" android:layout_height="100.0dip" android:src="@drawable/bricks_uikit_user_default_icon" />
+        <com.alibaba.pictures.bricks.view.RoundImageView android:layout_gravity="center" android:id="@id/uikit_damai_avatar_image" android:layout_width="100.0dip" android:layout_height="100.0dip" app:type="circle" />
+        <View android:layout_gravity="center" android:id="@id/uikit_damai_avatar_inner_border" android:background="@drawable/bricks_uikit_dm_avatar_inner_border" android:layout_width="100.0dip" android:layout_height="100.0dip" />
+    </FrameLayout>
+    <ImageView android:layout_gravity="right" android:id="@id/uikit_damai_avatar_crown" android:visibility="gone" android:layout_width="31.0dip" android:layout_height="30.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/bricks_uikit_crown_icon" />
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/uikit_damai_avatar_v_tag" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/bricks_user_v_tag" />
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/uikit_damai_avatar_yymember_tag" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/bricks_dm_yy_member_icon" />
+</FrameLayout>

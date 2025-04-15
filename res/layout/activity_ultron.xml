@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_layout" android:layout_below="@id/top_layout" />
+    <LinearLayout android:orientation="vertical" android:id="@id/top_layout" android:background="#ffde3f64" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <View android:id="@id/status_bar" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_alignParentTop="true">
+            <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="20.0dip" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/tv_goback" android:paddingLeft="18.0dip" android:paddingRight="@dimen/margin_18dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/iconfont_fanhui18" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="20.0dip" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:paddingRight="56.0dip" android:layout_width="fill_parent" android:layout_height="44.0dip" android:text="确认购买" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <cn.damai.ultron.view.activity.AntiTouchLinearLayout android:orientation="vertical" android:id="@id/bottom_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/ll_popup" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="60.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/ll_popup_detail" android:background="#7e000000" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/ultron_ticket_detail" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/ll_promotion" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:id="@id/error_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/top_layout" />
+    <FrameLayout android:id="@id/a_fast_click_blocker" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_layout" android:layout_below="@id/top_layout" />
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/v_line" android:background="@color/color_EEEEEE" android:layout_width="1.0dip" android:layout_height="wrap_content" android:layout_marginLeft="26.5dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_height" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_18dp" android:layout_marginTop="@dimen/margin_16dp" android:layout_marginRight="@dimen/margin_18dp">
+            <RelativeLayout android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginTop="@dimen/margin_1dp">
+                <View android:id="@id/v_big_cicrle" android:background="@drawable/shape_cicrle_ff1268" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_centerInParent="true" />
+                <View android:id="@id/v_small_cicrle" android:background="@drawable/shape_cicrle_white" android:layout_width="9.0dip" android:layout_height="9.0dip" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <TextView android:textSize="14.0dip" android:textColor="@color/color_111111" android:layout_gravity="center_vertical" android:id="@id/tv_trackInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_12dp" android:text="配送成功，您的订单已经签收。" />
+        </LinearLayout>
+        <TextView android:textSize="12.0dip" android:textColor="@color/color_111111" android:id="@id/tv_track_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="47.5dip" android:layout_marginTop="@dimen/margin_3dp" android:layout_marginBottom="@dimen/margin_16dp" android:text="2017.12.08  10:06:32" />
+    </LinearLayout>
+</RelativeLayout>

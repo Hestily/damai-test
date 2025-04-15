@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/search_v2_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/search_title_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/search_v2_top_bg" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg_pioneer_home_guide_bar_bg" android:scaleType="fitXY" />
+            <include layout="@layout/bricks_header_search_v2_input" />
+        </FrameLayout>
+        <com.youku.arch.v3.page.state.StateView android:id="@id/state_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.alibaba.pictures.bricks.search.v2.view.DownFocusViewFlipper android:id="@id/page_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <FrameLayout android:id="@id/search_v2_search_history_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <FrameLayout android:id="@id/search_v2_word_suggest_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <include layout="@layout/bricks_search_v2_word_suggest_layout" />
+                </FrameLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/search_v2_word_tab_ui" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <com.google.android.material.tabs.TabLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/search_result_tab_layout" android:background="@drawable/bg_pioneer_search_result_tab_layout" android:layout_width="fill_parent" android:layout_height="40.0dip" app:tabMaxWidth="200.0dip" app:tabMinWidth="30.0dip" app:tabMode="scrollable" app:tabPaddingEnd="12.0dip" app:tabPaddingStart="12.0dip" app:tabRippleColor="@color/transparent" />
+                    <androidx.viewpager.widget.ViewPager android:id="@id/search_v2_search_result" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-4.0dip" />
+                </LinearLayout>
+                <FrameLayout android:id="@id/search_v2_egg_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </com.alibaba.pictures.bricks.search.v2.view.DownFocusViewFlipper>
+        </com.youku.arch.v3.page.state.StateView>
+    </LinearLayout>
+</FrameLayout>

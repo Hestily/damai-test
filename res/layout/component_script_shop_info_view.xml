@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+            <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="18.0dip" android:textColor="@color/bricks_2e333f" android:ellipsize="end" android:id="@id/id_sm_shop_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <ImageView android:id="@id/id_sm_shop_auth" android:visibility="gone" android:layout_width="66.0dip" android:layout_height="16.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/bricks_icon_shope_rp" android:scaleType="fitXY" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/id_sm_score_ext_ui" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/id_sm_shop_open_evaluate_btn" android:paddingTop="2.0dip" android:paddingRight="9.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/id_sm_shop_score_star_ui" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <com.alibaba.pictures.bricks.view.FiveStarView android:id="@id/id_sm_shop_star_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" app:one_star_size="12.0dip" />
+                        <com.alibaba.pictures.bricks.view.DigitTextView android:textSize="13.0dip" android:textColor="@color/color_score_font" android:id="@id/id_sm_shop_score_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" />
+                    </LinearLayout>
+                    <TextView android:textSize="11.0dip" android:textColor="@color/bricks_2e333f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="详情" />
+                    <ImageView android:layout_width="11.0dip" android:layout_height="11.0dip" android:src="@drawable/bricks_icon_right_black_arrow" android:scaleType="fitXY" />
+                </LinearLayout>
+                <TextView android:textSize="11.0dip" android:textColor="@color/bricks_2e333f" android:id="@id/id_sm_shop_price_and_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1502人去玩过 | ￥130/人" />
+            </LinearLayout>
+            <TextView android:textSize="11.0dip" android:textColor="@color/bricks_2e333f" android:ellipsize="end" android:id="@id/id_sm_shop_ext_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:lines="1" />
+        </LinearLayout>
+        <View android:background="#1a000000" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="11.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/id_sm_shop_info_entrance" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="12.0dip" android:textColor="@color/bricks_2e333f" android:ellipsize="end" android:id="@id/id_sm_shop_ext_status" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:lines="1" />
+                <com.google.android.flexbox.FlexboxLayout android:id="@id/id_sm_shop_tag_flex2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" app:flexWrap="wrap" />
+            </LinearLayout>
+            <ImageView android:id="@id/id_sm_shop_entrance_arrow" android:layout_width="11.0dip" android:layout_height="11.0dip" android:layout_marginLeft="3.0dip" android:src="@drawable/bricks_icon_right_black_arrow" android:scaleType="fitXY" />
+        </LinearLayout>
+        <View android:background="#1a000000" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0dip" android:textColor="@color/bricks_2e333f" android:ellipsize="end" android:id="@id/id_sm_shop_addr" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" android:lineSpacingExtra="2.0dip" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/id_sm_shop_call_ui" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="57.0dip" android:layout_marginLeft="5.0dip">
+                <ImageView android:layout_width="21.0dip" android:layout_height="21.0dip" android:src="@drawable/bricks_icon_call" android:scaleType="fitXY" />
+                <TextView android:textSize="10.0dip" android:textColor="@color/bricks_9c9ca5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="联系商家" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/id_sm_shop_loc_ui" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="57.0dip" android:layout_marginLeft="5.0dip">
+                <ImageView android:layout_width="21.0dip" android:layout_height="21.0dip" android:src="@drawable/bricks_icon_location" android:scaleType="fitXY" />
+                <TextView android:textSize="10.0dip" android:textColor="@color/bricks_9c9ca5" android:id="@id/id_sm_shop_loc_distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/bricks_f6f7f8" android:layout_width="fill_parent" android:layout_height="9.0dip" />
+</LinearLayout>

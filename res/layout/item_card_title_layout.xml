@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="bottom" android:id="@id/card_title_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="46.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0dip" android:textColor="@color/black" android:id="@id/card_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/card_title" android:layout_alignBottom="@id/card_title" android:layout_marginStart="6.0dip" android:layout_toEndOf="@id/card_title">
+        <TextView android:textSize="10.0dip" android:textColor="@color/color_FF993A" android:id="@id/card_title_latestnews" android:background="@drawable/bg_border_corner_12_fbe4cf" android:paddingLeft="6.0dip" android:paddingTop="3.0dip" android:paddingRight="6.0dip" android:paddingBottom="3.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:id="@id/card_show_all_ui" android:background="@drawable/shape_corner_13_solid_white_storke_15_black" android:paddingLeft="9.0dip" android:paddingRight="9.0dip" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_alignBottom="@id/card_title" android:layout_alignParentEnd="true">
+        <TextView android:textSize="12.0dip" android:textColor="@color/black" android:layout_gravity="center_vertical" android:id="@id/card_show_all_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="12.0dip" android:textColor="@color/color_3c3f44" android:layout_gravity="center_vertical" android:id="@id/card_show_all_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_rukoujiantou_16" android:layout_marginStart="1.0dip" />
+    </LinearLayout>
+</RelativeLayout>

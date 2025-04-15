@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/rl_top_bar" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <FrameLayout android:id="@id/btn_back" android:layout_width="wrap_content" android:layout_height="fill_parent" android:foreground="@drawable/btn_back_selector">
+            <TextView android:textSize="20.0dip" android:textColor="@color/AccountTextColor" android:paddingLeft="20.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="@dimen/margin_10dp" android:scaleType="centerInside" android:text="取消" />
+        </FrameLayout>
+        <TextView android:textSize="18.0sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/image" android:layout_toRightOf="@id/btn_back" android:layout_centerVertical="true" />
+        <FrameLayout android:id="@id/btn_confirm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:foreground="@drawable/btn_foreground_selector" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/tv_confirm" android:background="@drawable/btn_green_shape" android:paddingLeft="5.0dip" android:paddingTop="5.0dip" android:paddingRight="5.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="50.0dip" android:text="@string/confirm" />
+        </FrameLayout>
+    </RelativeLayout>
+    <cn.damai.commonbusiness.photoselect.imageselected.view.ClipImageView android:id="@id/process_img" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/id_bricks_scenic_space_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="95.0dip" />
+    <com.alibaba.pictures.bricks.view.BricksStrokeLinearLayout android:orientation="vertical" android:id="@id/id_bricks_base_layout" android:background="@color/white" android:paddingLeft="@dimen/resource_size_12" android:paddingTop="@dimen/resource_size_12" android:paddingRight="@dimen/resource_size_12" android:paddingBottom="@dimen/resource_size_15" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/resource_size_12" android:layout_marginRight="@dimen/resource_size_12" android:layout_marginHorizontal="@dimen/resource_size_12" android:paddingHorizontal="@dimen/resource_size_12" app:sl_corners_radius="@dimen/resource_size_12">
+        <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="@dimen/resource_size_21" android:textColor="@color/bricks_black" android:id="@id/id_bricks_scenic_site_name_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.alibaba.pictures.bricks.view.BricksStrokeLinearLayout android:gravity="center_vertical" android:id="@id/id_bricks_scenic_site_hot_tag_layout" android:background="#fffff7e9" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginTop="@dimen/resource_size_8" app:sl_corners_radius="5.0dip">
+            <ImageView android:layout_width="16.0dip" android:layout_height="20.0dip" android:src="@drawable/bricks_scenic_high_tag_prefix" />
+            <TextView android:textSize="@dimen/resource_size_11" android:textColor="#ff874953" android:ellipsize="end" android:id="@id/id_bricks_scenic_site_hot_tag_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/resource_size_6" android:layout_marginRight="@dimen/resource_size_6" android:lines="1" android:layout_marginHorizontal="@dimen/resource_size_6" />
+        </com.alibaba.pictures.bricks.view.BricksStrokeLinearLayout>
+        <TextView android:textSize="@dimen/resource_size_13" android:textColor="@color/bricks_2e333e" android:id="@id/id_bricks_scenic_site_time_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/resource_size_12" />
+        <com.alibaba.pictures.bricks.component.venue.basicinfo.VenueServiceIconView android:orientation="horizontal" android:id="@id/id_bricks_scenic_site_tag_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/resource_size_3" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/resource_size_10">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/resource_size_12" android:textColor="@color/bricks_2e333e" android:ellipsize="end" android:id="@id/id_bricks_scenic_site_address_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:lineSpacingExtra="3.0dip" />
+                <TextView android:textSize="@dimen/resource_size_11" android:textColor="#ff69717c" android:id="@id/id_bricks_scenic_site_distance_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/id_bricks_scenic_site_map" android:layout_width="40.0dip" android:layout_height="40.0dip">
+                    <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="@dimen/resource_size_18" android:textColor="?colorB9C7ECto171717" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_dizhi" />
+                    <TextView android:textSize="@dimen/resource_size_10" android:textColor="@color/color_69717C" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/resource_size_3" android:text="地图" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/id_bricks_scenic_site_tel" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginStart="@dimen/resource_size_12">
+                    <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="@dimen/resource_size_18" android:textColor="?colorB9C7ECto171717" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_dianhua" />
+                    <TextView android:textSize="@dimen/resource_size_10" android:textColor="@color/color_69717C" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/resource_size_3" android:text="电话" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.alibaba.pictures.bricks.view.BricksStrokeLinearLayout>
+</LinearLayout>

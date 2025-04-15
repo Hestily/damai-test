@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="1.0dip">
+        <View android:id="@id/id_pioneer_home_ball_bg_high" android:background="@drawable/bg_pioneer_home_ball_high" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="200.0dip" />
+        <View android:id="@id/id_pioneer_home_ball_bg_normal" android:background="@drawable/bg_pioneer_home_ball_normal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="70.0dip" />
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/horizontal_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/resource_size_6" android:overScrollMode="never" />
+</FrameLayout>

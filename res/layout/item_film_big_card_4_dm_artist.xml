@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_component_corner_card_12" android:padding="@dimen/resource_size_12" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="88.0dip" android:layout_height="123.0dip" android:layout_marginEnd="@dimen/resource_size_9">
+            <com.taobao.movie.android.commonui.widget.FilmImagePlayNew android:id="@id/id_film_card_poster" android:layout_width="88.0dip" android:layout_height="123.0dip" />
+            <com.google.android.flexbox.FlexboxLayout android:id="@id/id_film_card_poster_tag_flex" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="3.0dip" app:dividerDrawable="@drawable/divider_film_poster_tag" app:flexWrap="wrap" app:showDivider="middle" />
+        </FrameLayout>
+        <androidx.cardview.widget.CardView android:id="@id/id_film_card_video_pic_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardCornerRadius="@dimen/resource_size_9" app:cardElevation="0.0dip">
+            <ImageView android:id="@id/id_film_card_video_pic_blur" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            <com.taobao.movie.android.app.ui.artist.TppMaxWidthImageView android:layout_gravity="center" android:id="@id/id_film_card_video_pic" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:max_width="250.0dip" />
+            <ImageView android:layout_gravity="center" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/icon_artist_card_video_play_tpp" />
+        </androidx.cardview.widget.CardView>
+        <FrameLayout android:id="@id/id_film_card_high_light_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.alient.onearch.adapter.widget.RoundRadiusImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/icon_artist_film_high_light_bg" android:scaleType="fitXY" app:r_round_radius="9.0dip" />
+            <View android:layout_gravity="end" android:background="@drawable/icon_film_high_light_star" android:layout_width="45.0dip" android:layout_height="50.0dip" />
+            <View android:background="@drawable/shape_artist_film_high_light_ring" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <LinearLayout android:orientation="vertical" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:layout_width="64.0dip" android:layout_height="16.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/icon_film_high_light_title" android:scaleType="fitXY" />
+                <com.taobao.movie.android.app.artist.AutoLineTextView android:textSize="@dimen/resource_size_11" android:textColor="@color/color_181818" android:ellipsize="end" android:id="@id/id_film_card_high_light_desc" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/id_film_card_actor_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_marginTop="4.0dip" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/resource_size_9" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.taobao.movie.android.commonui.widget.TitleMarkView android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/id_mixed_film_card_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="40.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:id="@id/id_mixed_film_score_want_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+                <TextView android:textSize="@dimen/text_size_12_dp" android:textColor="@color/bricks_5f6672" android:id="@id/id_mixed_film_none_score_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/id_mixed_film_score_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.alibaba.pictures.bricks.view.PuHuiTiNumTextView android:textSize="15.0dip" android:textColor="@color/bricks_171717" android:id="@id/id_mixed_film_score_ph_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <com.alibaba.pictures.bricks.view.DigitTextView android:textSize="15.0dip" android:textColor="@color/bricks_171717" android:id="@id/id_mixed_film_score_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textSize="@dimen/text_size_12_dp" android:textColor="@color/bricks_5f6672" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="分" android:layout_marginStart="2.0dip" />
+                    <View android:id="@id/id_mixed_film_score_count_divider" android:background="#ffe9ebef" android:visibility="gone" android:layout_width="0.5dip" android:layout_height="@dimen/resource_size_12" android:layout_marginLeft="@dimen/resource_size_6" android:layout_marginRight="@dimen/resource_size_6" />
+                    <TextView android:textSize="@dimen/text_size_12_dp" android:textColor="@color/bricks_5f6672" android:id="@id/id_mixed_film_score_count_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.0dip" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/id_mixed_film_want_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.alibaba.pictures.bricks.view.PuHuiTiNumTextView android:textSize="15.0dip" android:textColor="@color/bricks_171717" android:id="@id/id_mixed_film_want_count_ph_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <com.alibaba.pictures.bricks.view.DigitTextView android:textSize="15.0dip" android:textStyle="bold" android:textColor="@color/bricks_171717" android:id="@id/id_mixed_film_want_count_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textSize="@dimen/text_size_12_dp" android:textColor="@color/bricks_5f6672" android:id="@id/id_mixed_film_want_count_post_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="1.0dip" />
+                </LinearLayout>
+                <View android:id="@id/id_mixed_film_want_count_divider" android:background="#ffe9ebef" android:visibility="gone" android:layout_width="0.5dip" android:layout_height="@dimen/resource_size_12" android:layout_marginLeft="@dimen/resource_size_6" android:layout_marginRight="@dimen/resource_size_6" />
+                <TextView android:textSize="@dimen/text_size_12_dp" android:textColor="@color/bricks_5f6672" android:id="@id/id_mixed_film_time_2_show_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_subtitle" android:ellipsize="end" android:id="@id/id_mixed_film_card_director_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/resource_size_6" android:lines="1" android:includeFontPadding="false" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/color_tpp_primary_subtitle" android:ellipsize="end" android:id="@id/id_mixed_film_card_actor_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/resource_size_6" android:lines="1" android:includeFontPadding="false" />
+        </LinearLayout>
+        <TextView android:id="@id/id_mixed_film_card_buy_btn" android:padding="0.0dip" android:text="购票" android:layout_marginStart="12.0dip" style="@style/buy_button_style_small_7_3" />
+        <FrameLayout android:id="@id/id_mixed_film_card_favorite_normal_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip">
+            <TextView android:textSize="10.0dip" android:textColor="#ffff3d5c" android:layout_gravity="end" android:id="@id/id_mixed_favorite_with_gift" android:background="@drawable/want_see_with_gift_pop" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="17.0dip" android:text="想看有礼" />
+            <com.taobao.movie.android.app.oscar.ui.film.widget.WantButton android:layout_gravity="end|bottom|center" android:id="@id/id_mixed_favorite_btn" android:padding="0.0dip" android:text="想看" android:stateListAnimator="@null" style="@style/want_button_style_small" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/id_mixed_film_card_favorite_pioneer_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="40.5dip" android:layout_marginTop="7.0dip">
+            <TextView android:textSize="9.0dip" android:textColor="#ffff7600" android:ellipsize="none" android:gravity="bottom|center" android:id="@id/id_mixed_favorite_with_gift_pioneer" android:background="@drawable/nowshowing_dicount_button_bg_pioneer" android:paddingTop="13.5dip" android:paddingBottom="1.0dip" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="27.0dip" android:layout_marginTop="13.5dip" android:text="想看有礼" android:singleLine="true" />
+            <com.taobao.movie.android.app.oscar.ui.film.widget.WantButton android:layout_gravity="end|center|top" android:id="@id/id_mixed_favorite_btn_pioneer" android:padding="0.0dip" android:text="想看" android:elevation="0.0dip" android:stateListAnimator="@null" style="@style/want_button_style_small" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/id_film_card_vip_layout" android:background="@drawable/bricks_bg_vip_section_tpp" android:paddingLeft="@dimen/resource_size_5" android:paddingRight="@dimen/resource_size_5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="34.0dip" android:layout_marginTop="@dimen/resource_size_9">
+        <ImageView android:id="@id/id_film_card_vip_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="fitXY" />
+        <TextView android:textSize="@dimen/resource_size_12" android:textColor="#ff181818" android:ellipsize="end" android:id="@id/id_film_card_vip_desc" android:paddingLeft="@dimen/resource_size_6" android:paddingRight="@dimen/resource_size_6" android:layout_width="0.0dip" android:layout_height="wrap_content" android:lines="1" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/id_film_project_vip_btn" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/resource_size_12" android:textColor="#ffe18965" android:id="@id/id_film_project_vip_btn_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="@dimen/resource_size_11" android:textColor="#ffe18965" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_youjiantou12" android:layout_marginStart="1.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

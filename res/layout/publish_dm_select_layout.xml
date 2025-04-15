@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip">
+        <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/color_111111" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/publish_dm_name" android:includeFontPadding="false" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/color_9c9ca5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:text="@string/publish_dm_subtitle" android:includeFontPadding="false" />
+    </LinearLayout>
+    <cn.damai.comment.view.PublishDMListView android:id="@id/comment_publish_dm_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" />
+    <cn.damai.comment.view.PublishDMTagView android:id="@id/comment_publish_dm_tag_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:layout_marginTop="21.0dip" android:layout_marginRight="21.0dip" />
+</merge>

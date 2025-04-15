@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bricks_shape_rect_corners_6_solid_ffffff" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="46.0dip">
+            <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="16.0dip" android:textColor="@color/bricks_333333" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="常见问题" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/id_bricks_cq_all_btn" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="12.0dip" android:textColor="@color/bricks_4D4D56" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="全部问题" />
+                <ImageView android:layout_width="11.0dip" android:layout_height="11.0dip" android:layout_marginLeft="3.0dip" android:src="@drawable/bricks_icon_right_black_arrow" android:scaleType="fitXY" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.google.android.flexbox.FlexboxLayout android:id="@id/id_bricks_cq_questions_flex" android:layout_width="fill_parent" android:layout_height="wrap_content" app:flexWrap="wrap" />
+    </LinearLayout>
+</FrameLayout>

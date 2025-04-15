@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/state_layout_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_error_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/common_error_net" />
+        <TextView android:textSize="@dimen/margin_14dp" android:textColor="#ff9c9ca5" android:gravity="center" android:id="@id/state_view_tip" android:paddingLeft="60.0dip" android:paddingRight="60.0dip" android:paddingBottom="@dimen/margin_18dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="4.0dip" />
+        <RelativeLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/white" android:gravity="center" android:id="@id/state_view_refresh_btn" android:background="@drawable/bg_error_page_button" android:layout_width="88.0dip" android:layout_height="30.0dip" android:layout_marginRight="@dimen/margin_6dp" android:layout_marginBottom="@dimen/margin_2dp" android:text="努力刷新" />
+            <TextView android:textSize="@dimen/margin_14dp" android:textColor="@color/white" android:gravity="center" android:id="@id/state_view_report_btn" android:background="@drawable/bg_error_page_button" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/margin_6dp" android:layout_marginBottom="@dimen/margin_2dp" android:text="报错" android:layout_toRightOf="@id/state_view_refresh_btn" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_FF2869" android:gravity="center" android:id="@id/btn_other" android:background="@drawable/bg_error_page_other_btn" android:paddingLeft="@dimen/margin_12dp" android:paddingRight="@dimen/margin_12dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="30.0dip" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/ll_venue_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/venue_header_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include android:id="@id/venue_activity_title" layout="@layout/calendar_activity_title" />
+        <include layout="@layout/category_venue_header_layout" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_vertical" android:id="@id/venue_list_recyclerview" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="3.0dip" android:layout_marginBottom="5.0dip" android:layout_below="@id/venue_header_layout" />
+    <View android:id="@id/view_slipt" android:background="@drawable/yinying_line" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="10.0dip" android:layout_marginTop="3.0dip" android:layout_below="@id/venue_header_layout" />
+    <ImageView android:id="@id/iv_top" android:padding="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_top" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

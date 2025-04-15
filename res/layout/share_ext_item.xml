@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.damai.commonbusiness.share.view.ShareBoardItemLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/share_item_bg" android:layout_width="52.0dip" android:layout_height="52.0dip">
+        <com.alibaba.pictures.bricks.view.BricksIconFontTextView android:textSize="24.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/share_item_iconfont" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/share_item_image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <TextView android:textSize="12.0dip" android:textColor="@color/color_666666" android:ellipsize="end" android:id="@id/share_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="删除" android:maxLines="1" />
+</cn.damai.commonbusiness.share.view.ShareBoardItemLayout>

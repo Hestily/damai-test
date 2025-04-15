@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ali_userbg" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/login_platform_damai_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="87.0dip" android:layout_marginBottom="96.0dip" android:src="@drawable/login_third_platform_damai_logo" />
+    <cn.damai.uikit.shadowlayout.DMShadowLayout android:layout_gravity="center_horizontal" android:id="@id/login_third_tb_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/login_platform_damai_logo" app:sl_cornerRadius="45.0dip" app:sl_dy="2.0dip" app:sl_shadowColor="@color/color_66FF880A" app:sl_shadowRadius="4.0dip">
+        <TextView android:textSize="@dimen/margin_18dp" android:textColor="@color/white" android:gravity="center" android:background="@drawable/login_third_platform_taobao_bg" android:layout_width="303.0dip" android:layout_height="49.0dip" android:text="@string/login_thirdplatform_taobao" />
+    </cn.damai.uikit.shadowlayout.DMShadowLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/dm_ll_login_pro" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_26dp" android:layout_marginTop="@dimen/margin_20dp" android:layout_marginRight="@dimen/margin_26dp">
+        <CheckBox android:enabled="false" android:id="@id/dm_cb_login_pro" android:background="@drawable/common_business_check_circle_selector" android:focusable="false" android:clickable="false" android:layout_width="@dimen/margin_20dp" android:layout_height="@dimen/margin_20dp" android:layout_marginLeft="@dimen/margin_15dp" android:button="@null" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_9c9ca5" android:layout_gravity="center_vertical" android:id="@id/dm_tv_login_pro_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_6dp" android:text="已阅读并同意《大麦用户服务协议》、《隐私权政策》、《订票服务条款》中全部条款" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/margin_14dp" android:textColor="#ff827ab7" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/login_more_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/login_thirdplatform_more" />
+        <LinearLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_10dp" android:layout_marginBottom="@dimen/margin_11dp" android:layout_below="@id/login_more_title">
+            <ImageView android:id="@id/login_third_account_btn" android:padding="@dimen/margin_9dp" android:layout_width="60.0dip" android:layout_height="78.0dip" android:src="@drawable/login_third_platform_user" />
+            <ImageView android:id="@id/login_third_zhifubao_btn" android:padding="@dimen/margin_9dp" android:layout_width="60.0dip" android:layout_height="78.0dip" android:src="@drawable/login_third_platform_ali" />
+            <ImageView android:id="@id/login_third_more_btn" android:padding="@dimen/margin_9dp" android:visibility="visible" android:layout_width="60.0dip" android:layout_height="78.0dip" android:src="@drawable/login_third_platform_more" />
+            <ImageView android:id="@id/login_platform_wechat_btn" android:padding="@dimen/margin_9dp" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="78.0dip" android:src="@drawable/login_third_platform_wechat" />
+            <ImageView android:id="@id/login_third_platform_weibo_btn" android:padding="@dimen/margin_9dp" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="78.0dip" android:src="@drawable/login_third_platform_weibo" />
+            <ImageView android:id="@id/login_third_platform_qq_btn" android:padding="@dimen/margin_9dp" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="78.0dip" android:src="@drawable/login_third_platform_qq" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

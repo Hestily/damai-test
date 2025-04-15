@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="10.0dip" android:textColor="@color/common_text_color11" android:layout_gravity="right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="付款剩余时间" android:includeFontPadding="false" />
+    <com.taobao.movie.android.commonui.widget.TimerTextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/common_text_color10" android:layout_gravity="right" android:id="@id/timer_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:includeFontPadding="false" />
+</merge>

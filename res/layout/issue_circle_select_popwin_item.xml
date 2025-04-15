@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/evaluate_item_layout" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ratingbar="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="15.0dip" android:textColor="@color/color_333333" android:id="@id/tv_circle_content" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="不关联" android:layout_weight="1.0" />
+    <cn.damai.uikit.iconfont.DMIconFontTextView android:textColor="#ffc8c8c8" android:id="@id/iv_circle_check" android:layout_width="18.0dip" android:layout_height="18.0dip" android:text="@string/iconfont_yuangouxuanweixuanzhong" />
+</LinearLayout>

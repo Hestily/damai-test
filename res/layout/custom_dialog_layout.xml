@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_base" android:background="@drawable/shape_jubao" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="@dimen/margin_20dp">
+        <TextView android:textSize="18.0dip" android:textColor="@color/damai_red" android:gravity="center" android:id="@id/tv_delete" android:layout_width="fill_parent" android:layout_height="41.0dip" android:text="删除" />
+        <View android:background="@color/line_color_dd" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" />
+        <TextView android:textSize="18.0dip" android:textColor="@color/c514647" android:gravity="center" android:id="@id/tv_cancle" android:layout_width="fill_parent" android:layout_height="41.0dip" android:text="取消" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@id/one_arch_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srlEnableLoadMore="false">
+        <com.alibaba.pictures.bricks.view.NestedRecyclerView android:id="@id/one_arch_recyclerView" android:background="#fff4f5f6" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    <FrameLayout android:id="@id/one_arch_recyclerView_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

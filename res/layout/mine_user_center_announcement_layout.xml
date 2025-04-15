@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_corner_6_solid_ffe9f0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.damai.uikit.iconfont.DMIconFontTextView android:textSize="@dimen/margin_12dp" android:textColor="#ffff3299" android:id="@id/mine_announcement_close_tv" android:paddingTop="@dimen/margin_12dp" android:paddingRight="@dimen/margin_18dp" android:paddingBottom="@dimen/margin_12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_guanbi16" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/margin_12dp" android:textColor="#ffff2869" android:id="@id/mine_announcement_content_tv" android:paddingTop="@dimen/margin_9dp" android:paddingRight="@dimen/margin_15dp" android:paddingBottom="@dimen/margin_9dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_12dp" android:text="公告：积分即将下线，请尽快使用积分" android:singleLine="true" android:layout_toLeftOf="@id/mine_announcement_close_tv" />
+</RelativeLayout>

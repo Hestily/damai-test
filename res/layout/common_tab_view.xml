@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/tab_real" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="9.0dip" android:textColor="@color/tpp_gray_0" android:gravity="center" android:id="@id/tab_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:includeFontPadding="false" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/tab_image" android:layout_width="62.5dip" android:layout_height="62.5dip" android:scaleType="centerInside" android:layout_above="@id/tab_name" android:layout_centerHorizontal="true" />
+        <com.taobao.movie.android.commonui.widget.MIconfontTextView android:textSize="22.0dip" android:textColor="@color/color_tpp_primary_subtitle" android:id="@id/tab_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:layout_above="@id/tab_name" android:layout_centerHorizontal="true" />
+        <com.taobao.movie.android.commonui.widget.SafeLottieAnimationView android:id="@id/lottie_animation" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginBottom="3.0dip" android:scaleType="centerInside" android:layout_above="@id/tab_name" android:layout_centerHorizontal="true" app:lottie_autoPlay="false" app:lottie_loop="false" app:lottie_scale="0.5" />
+        <com.taobao.movie.android.commonui.widget.SafeLottieAnimationView android:id="@id/big_lottie_animation" android:visibility="gone" android:layout_width="39.0dip" android:layout_height="39.0dip" android:layout_marginBottom="6.0dip" android:scaleType="centerInside" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:lottie_autoPlay="false" app:lottie_loop="false" app:lottie_scale="0.5" />
+        <com.alipay.mobile.mpass.badge.ui.BadgeView android:id="@id/tab_badge" android:paddingLeft="21.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</merge>

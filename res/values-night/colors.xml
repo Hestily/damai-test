@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="aliuser_color_black">#ffffffff</color>
+    <color name="aliuser_color_light_gray">#ffffffff</color>
+    <color name="aliuser_color_lightest_gray">#ff222222</color>
+    <color name="aliuser_contact_click_color">#ff16161a</color>
+    <color name="aliuser_contact_default_item_color">#ff16161a</color>
+    <color name="aliuser_contact_item_bg">#ff16161a</color>
+    <color name="aliuser_default_text_color">#ffdddddd</color>
+    <color name="aliuser_dialog_bg">#ff25252b</color>
+    <color name="aliuser_region_bg_color">#ff333337</color>
+    <color name="aliuser_region_chosen_color">#ff24a5ff</color>
+    <color name="aliuser_region_list_divider">#ff25252b</color>
+</resources>

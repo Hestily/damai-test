@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="98.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.damai.baseview.RCRelativeLayoutView android:id="@id/homepage_video_item_image_layout" android:layout_width="98.0dip" android:layout_height="131.0dip" app:round_corner="6.0dip">
+        <ImageView android:id="@id/homepage_video_item_image" android:background="@drawable/uikit_default_image_bg_gradient" android:layout_width="98.0dip" android:layout_height="131.0dip" android:scaleType="centerCrop" />
+        <View android:id="@id/homepage_video_poster_mask" android:background="@drawable/shape_poster_mask_al" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_alignParentBottom="true" />
+        <cn.damai.uikit.tag.DMCategroyTagView android:id="@id/homepage_video_item_tag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:layout_alignParentRight="true" />
+        <cn.damai.tetris.component.home.utils.DMMarqueeView android:id="@id/multi_user_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginLeft="6.0dip" android:layout_marginBottom="6.0dip" android:layout_alignParentBottom="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/single_user_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginLeft="6.0dip" android:layout_marginBottom="6.0dip" android:layout_alignParentBottom="true">
+            <include layout="@layout/homepage_video_item_artist" />
+        </LinearLayout>
+        <cn.damai.uikit.view.LiveRoomView android:id="@id/homepage_rank_item_live_room" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:layout_alignParentRight="true" />
+        <ImageView android:id="@id/homepage_video_play_cover" android:layout_width="98.0dip" android:layout_height="131.0dip" android:src="@drawable/homepage_video_play_cover" />
+        <ImageView android:id="@id/homepage_video_play_border" android:visibility="gone" android:layout_width="98.0dip" android:layout_height="131.0dip" android:src="@drawable/homepage_video_play_border" />
+    </cn.damai.baseview.RCRelativeLayoutView>
+    <TextView android:textSize="14.0dip" android:textColor="@color/color_000000" android:ellipsize="end" android:id="@id/homepage_video_item_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:maxLines="2" android:minLines="2" android:layout_below="@id/homepage_video_item_image_layout" />
+    <FrameLayout android:id="@id/homepage_video_item_price_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_below="@id/homepage_video_item_title">
+        <cn.damai.uikit.number.DMDigitTextView android:textSize="12.0dip" android:textColor="@color/color_ff2d79" android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" android:text="¥" />
+        <cn.damai.uikit.number.DMDigitTextView android:textSize="16.0dip" android:textColor="@color/color_ff2d79" android:ellipsize="end" android:id="@id/homepage_video_item_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginRight="13.0dip" android:maxLines="1" android:minLines="1" />
+        <TextView android:textSize="10.0dip" android:textColor="@color/color_9c9ca5" android:layout_gravity="bottom|center|right" android:id="@id/homepage_video_item_price_flag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:text="起" />
+    </FrameLayout>
+    <TextView android:textSize="12.0dip" android:textColor="@color/color_ffffff" android:gravity="center" android:id="@id/homepage_video_item_buy_btn" android:background="@drawable/homepage_waterflow_goods_buy_btn_bg" android:paddingBottom="1.0dip" android:layout_width="54.0dip" android:layout_height="25.0dip" android:layout_marginTop="3.0dip" android:text="去购票" android:layout_below="@id/homepage_video_item_price_layout" />
+</RelativeLayout>

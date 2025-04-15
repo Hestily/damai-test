@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="100.0dip">
+            <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:background="#16000000" android:layout_width="fill_parent" android:layout_height="88.0dip" />
+                <RelativeLayout android:orientation="horizontal" android:paddingTop="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <View android:id="@id/iv_project" android:background="@drawable/bg_image_skeleton" android:layout_width="98.0dip" android:layout_height="131.0dip" android:layout_marginLeft="21.0dip" />
+                    <View android:id="@id/project_mark" android:background="@color/color_skeleton" android:layout_width="90.0dip" android:layout_height="9.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="1.0dip" android:layout_toRightOf="@id/iv_project" />
+                    <View android:id="@id/project_name" android:background="@color/color_skeleton" android:layout_width="fill_parent" android:layout_height="9.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="21.0dip" android:layout_toRightOf="@id/iv_project" android:layout_below="@id/project_mark" />
+                    <View android:id="@id/project_coupon" android:background="@color/color_skeleton" android:layout_width="128.0dip" android:layout_height="9.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="21.0dip" android:layout_toRightOf="@id/iv_project" android:layout_below="@id/project_name" />
+                    <View android:id="@id/project_price" android:background="@color/color_skeleton" android:layout_width="90.0dip" android:layout_height="9.0dip" android:layout_marginLeft="9.0dip" android:layout_marginTop="46.0dip" android:layout_marginRight="21.0dip" android:layout_toRightOf="@id/iv_project" android:layout_below="@id/project_coupon" />
+                </RelativeLayout>
+                <View android:background="@color/color_skeleton" android:layout_width="fill_parent" android:layout_height="9.0dip" android:layout_marginLeft="21.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="21.0dip" />
+                <View android:background="@color/color_skeleton" android:layout_width="fill_parent" android:layout_height="9.0dip" android:layout_marginLeft="21.0dip" android:layout_marginTop="43.0dip" android:layout_marginRight="21.0dip" />
+                <View android:background="@color/color_skeleton" android:layout_width="fill_parent" android:layout_height="9.0dip" android:layout_marginLeft="21.0dip" android:layout_marginTop="43.0dip" android:layout_marginRight="21.0dip" />
+                <FrameLayout android:background="@color/color_skeleton_line" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip">
+                    <View android:background="@color/color_skeleton" android:layout_width="fill_parent" android:layout_height="9.0dip" />
+                </FrameLayout>
+                <View android:background="@color/color_skeleton" android:layout_width="fill_parent" android:layout_height="9.0dip" android:layout_marginLeft="21.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="21.0dip" />
+                <View android:background="@color/color_skeleton" android:layout_width="fill_parent" android:layout_height="9.0dip" android:layout_marginLeft="21.0dip" android:layout_marginTop="36.0dip" android:layout_marginRight="21.0dip" />
+                <View android:background="@color/color_skeleton" android:layout_width="fill_parent" android:layout_height="9.0dip" android:layout_marginLeft="21.0dip" android:layout_marginTop="36.0dip" android:layout_marginRight="21.0dip" />
+                <View android:background="@color/color_skeleton_line" android:layout_width="fill_parent" android:layout_height="9.0dip" android:layout_marginTop="30.0dip" />
+                <View android:background="@color/color_skeleton" android:layout_width="167.0dip" android:layout_height="24.0dip" android:layout_marginLeft="21.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="21.0dip" />
+                <View android:background="@color/color_skeleton" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_marginLeft="21.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="21.0dip" android:layout_marginBottom="30.0dip" />
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:paddingLeft="21.0dip" android:paddingRight="21.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/margin_44dp" android:layout_marginTop="30.0dip" android:layout_marginBottom="30.0dip">
+            <View android:background="@color/color_skeleton" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <View android:background="@color/color_skeleton" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="13.0dip" />
+            <View android:background="@drawable/bg_buy_skeleton" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="23.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

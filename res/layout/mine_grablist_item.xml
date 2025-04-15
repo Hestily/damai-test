@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/item_grab_main_info" android:background="@drawable/bg_grablist_item_pink" android:paddingTop="15.0dip" android:paddingRight="12.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="111.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/item_grab_hot_image_fl" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.alibaba.pictures.bricks.view.RoundImageView android:id="@id/item_grab_hot_image" android:layout_width="62.0dip" android:layout_height="79.5dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="9.0dip" android:src="@drawable/bricks_uikit_default_image_bg_gradient_radius3" android:scaleType="centerCrop" app:borderRadius="4.5dip" app:type="round" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/item_grab_hot_image_artist" android:background="@drawable/bricks_icon_my_reservation_circle" android:visibility="gone" android:layout_width="81.0dip" android:layout_height="81.0dip">
+        <RelativeLayout android:id="@id/item_grab_hot_image_artistpic_shell" android:background="@drawable/bricks_bg_mygrabitem_artistpic_ring" android:padding="2.0dip" android:layout_width="51.0dip" android:layout_height="51.0dip" android:layout_centerInParent="true">
+            <cn.damai.uikit.view.CircleImageView android:id="@id/item_grab_hot_image_artistpic" android:layout_width="46.0dip" android:layout_height="46.0dip" android:scaleType="centerCrop" android:layout_centerInParent="true" app:r_round_radius="50.0dip" app:type="circle" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/font_Footnote2_M" android:textStyle="bold" android:textColor="@color/cg_0" android:ellipsize="end" android:gravity="center" android:id="@id/item_grab_hot_image_name" android:background="@drawable/bricks_bg_channel_artistname" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="15.0dip" android:layout_marginTop="-7.0dip" android:maxWidth="49.0dip" android:maxLines="1" android:layout_below="@id/item_grab_hot_image_artistpic_shell" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip">
+        <com.alibaba.pictures.bricks.view.FakeBoldTextView android:textSize="14.0dip" android:textColor="@color/cg_1" android:ellipsize="end" android:id="@id/item_grab_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:maxLines="2" android:includeFontPadding="false" android:layout_alignParentTop="true" android:lineSpacingExtra="3.0dip" />
+        <RelativeLayout android:orientation="horizontal" android:id="@id/channel_grab_price_fl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <com.alibaba.pictures.bricks.view.DigitTextView android:textSize="12.0dip" android:textColor="#ffffaf1c" android:gravity="center_vertical" android:layout_gravity="bottom" android:id="@id/item_grab_time" android:background="@drawable/bg_grablist_item_yellow" android:paddingLeft="9.0dip" android:paddingRight="9.0dip" android:layout_width="wrap_content" android:layout_height="18.0dip" android:text="今天18点开抢" android:layout_alignParentBottom="true" />
+            <RelativeLayout android:gravity="center_vertical" android:id="@id/item_grab_time_rl" android:background="@drawable/bricks_icon_reservation_prepare_to_buy" android:layout_width="95.0dip" android:layout_height="@dimen/margin_24dp" android:scaleType="fitEnd" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" app:layout_alignSelf="flex_end" app:layout_flexShrink="0.0" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

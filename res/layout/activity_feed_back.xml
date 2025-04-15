@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_content" android:background="@color/bg_color_f8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/margin_12dp" android:textColor="@color/color_666666" android:paddingLeft="@dimen/margin_12dp" android:paddingTop="@dimen/margin_15dp" android:paddingRight="@dimen/margin_12dp" android:paddingBottom="@dimen/margin_15dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="请选择您的反馈类型" />
+    <View android:id="@id/line" android:background="@color/color_e7e7e7" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <cn.damai.uikit.irecycler.IRecyclerView android:id="@id/irc" android:layout_width="fill_parent" android:layout_height="fill_parent" app:refreshEnabled="false" />
+</LinearLayout>
